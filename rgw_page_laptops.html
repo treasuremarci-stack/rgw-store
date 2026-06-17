@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RGW — Ноутбуки</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --soft:#f5f5f5;
+      --soft-2:#fafafa;
+      --line:#e7e7e7;
+      --line-strong:#d7d7d7;
+      --text:#111111;
+      --muted:#626262;
+      --dark:#0d0d0d;
+      --chip:#f2f2f2;
+      --radius-xl:32px;
+      --radius-lg:24px;
+      --radius-md:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--text);
+      background:var(--bg);
+      line-height:1.45;
+    }
+    img{display:block;width:100%;height:100%;object-fit:cover}
+    a{text-decoration:none;color:inherit}
+    button,input,select{font:inherit}
+    .container{width:min(1320px, calc(100% - 40px));margin:0 auto;}
+
+    .topbar{
+      background:#f8f8f8;
+      border-bottom:1px solid var(--line);
+      color:#666;
+      font-size:13px;
+    }
+    .topbar-inner{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+      padding:10px 0;
+    }
+    .header{
+      position:sticky;
+      top:0;
+      z-index:60;
+      background:rgba(255,255,255,.96);
+      backdrop-filter:blur(10px);
+      border-bottom:1px solid var(--line);
+    }
+    .header-inner{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:18px;
+      padding:16px 0;
+    }
+    .brand{font-size:30px;font-weight:800;letter-spacing:.04em}
+    .nav{display:flex;gap:18px;font-size:15px;color:#333;flex-wrap:wrap}
+    .nav a:hover{color:#000}
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:8px;
+      border-radius:999px;
+      padding:13px 22px;
+      font-size:14px;
+      font-weight:700;
+      border:1px solid transparent;
+      transition:.2s ease;
+      cursor:pointer;
+    }
+    .btn-dark{background:#111;color:#fff}
+    .btn-dark:hover{opacity:.92}
+    .btn-light{background:#fff;border-color:#d6d6d6;color:#111}
+    .btn-light:hover{background:#f7f7f7}
+    .btn-soft{background:#efefef;color:#111}
+    .btn-soft:hover{background:#e8e8e8}
+    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#6b6b6b;font-weight:700}
+    h1,h2,h3,p{margin:0}
+    h1{font-size:52px;line-height:.95;letter-spacing:-.05em}
+    h2{font-size:38px;line-height:1;letter-spacing:-.04em}
+    section{padding:24px 0}
+
+    .shop-panel{background:var(--soft);border-bottom:1px solid var(--line);padding:18px 0 24px}
+    .shop-title{font-size:56px;line-height:1;letter-spacing:-.045em;font-weight:500;margin:0 0 22px}
+    .shop-row{display:grid;grid-template-columns:repeat(6, minmax(0, 1fr));gap:18px;align-items:start}
+    .shop-item{text-align:center;min-width:0;display:block}
+    .shop-circle{
+      width:100%;aspect-ratio:1/1;max-width:124px;margin:0 auto 12px;border-radius:50%;background:#e8e8e8;
+      display:flex;align-items:center;justify-content:center;font-size:46px;
+    }
+    .shop-item.active .shop-circle{background:#111;color:#fff}
+    .shop-label{font-size:15px;line-height:1.25;font-weight:700;color:#222;max-width:124px;margin:0 auto}
+
+    .catalog-header{padding:20px 0 10px}
+    .crumbs{display:flex;gap:10px;align-items:center;color:#707070;font-size:14px;margin-bottom:18px;flex-wrap:wrap}
+    .crumbs a:hover{color:#111}
+    .category-strip{
+      display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;
+      padding:24px 0 0;border-bottom:1px solid var(--line);
+    }
+    .category-strip p{max-width:720px;color:#5b5b5b;font-size:16px;padding-bottom:18px}
+    .page-title-wrap{padding-bottom:18px}
+    .page-title-wrap .eyebrow{margin-bottom:12px}
+
+    .catalog-wrap{display:grid;grid-template-columns:312px minmax(0,1fr);gap:24px;align-items:start}
+    .filters-panel{
+      position:sticky;top:92px;border:1px solid var(--line);border-radius:22px;background:#fff;padding:0;box-shadow:0 8px 24px rgba(0,0,0,.03);overflow:hidden;
+    }
+    .filters-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:18px 18px 16px;border-bottom:1px solid var(--line)}
+    .filters-head h3{font-size:20px;line-height:1;letter-spacing:-.03em}
+    .filters-sub{padding:0 18px 16px;color:var(--muted);font-size:13px}
+    .filter-group{border-top:1px solid var(--line)}
+    .filter-toggle{
+      width:100%;appearance:none;border:none;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;
+      padding:16px 18px;cursor:pointer;text-align:left;font-size:15px;font-weight:700;color:#111;
+    }
+    .filter-toggle:hover{background:#fafafa}
+    .filter-toggle .caret{font-size:18px;color:#666;transition:transform .2s ease}
+    .filter-group.collapsed .filter-toggle .caret{transform:rotate(-90deg)}
+    .filter-content{padding:0 18px 18px;display:grid;gap:10px}
+    .filter-group.collapsed .filter-content{display:none}
+    .check-list{display:grid;gap:10px}
+    .check-item{display:flex;align-items:center;gap:10px;font-size:14px;color:#222;cursor:pointer;min-height:22px}
+    .check-item input{
+      appearance:none;-webkit-appearance:none;width:18px;height:18px;border:1px solid #bfbfbf;border-radius:5px;background:#fff;flex:0 0 auto;
+      display:grid;place-items:center;margin:0;transition:.18s ease;
+    }
+    .check-item input::after{content:"";width:8px;height:8px;border-radius:2px;background:#111;transform:scale(0);transition:transform .18s ease}
+    .check-item input:checked{border-color:#111;background:#f6f6f6}
+    .check-item input:checked::after{transform:scale(1)}
+
+    .catalog-main{min-width:0}
+    .toolbar{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px;padding:16px 18px;
+      border:1px solid var(--line);border-radius:22px;background:var(--soft-2);
+    }
+    .toolbar-left,.toolbar-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;padding:8px 12px;border-radius:999px;background:#111;color:#fff;font-size:13px;font-weight:700}
+    .toolbar-title{font-size:14px;color:#333;font-weight:700}
+    .sort-select{min-width:220px;border:1px solid var(--line-strong);border-radius:999px;padding:12px 16px;background:#fff;color:#111;outline:none}
+
+    .active-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+    .filter-pill{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:var(--chip);font-size:14px;color:#111;font-weight:700}
+    .filter-pill button{appearance:none;border:none;background:transparent;cursor:pointer;font-size:16px;line-height:1;padding:0;color:#666}
+
+    .products-grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
+    .product-card{
+      border:1px solid var(--line);border-radius:28px;overflow:hidden;background:#fff;
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 6px 18px rgba(0,0,0,.03);
+    }
+    .product-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px rgba(0,0,0,.08);border-color:#d9d9d9}
+    .product-image{aspect-ratio:1/1;background:#f2f2f2;position:relative}
+    .product-image::after{content:"";position:absolute;inset:auto 16px 16px auto;width:70px;height:70px;border-radius:50%;background:radial-gradient(circle, rgba(255,255,255,.55), rgba(255,255,255,0));pointer-events:none}
+    .product-body{padding:22px}
+    .product-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+    .product-cat{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:#787878;font-weight:700;margin-bottom:10px}
+    .product-title{font-size:29px;line-height:1.02;letter-spacing:-.035em;margin-bottom:10px}
+    .product-desc{color:var(--muted);font-size:15px;min-height:44px}
+    .product-price{font-size:28px;font-weight:800;line-height:1;white-space:nowrap}
+    .specs{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+    .spec-chip{padding:9px 12px;border-radius:999px;background:#f1f1f1;color:#1f1f1f;font-size:13px;font-weight:700}
+    .product-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .product-actions .btn{padding:12px 18px}
+    .empty-state{display:none;border:1px dashed var(--line-strong);border-radius:22px;padding:28px;background:#fbfbfb;color:#555;margin-top:10px}
+    .empty-state.show{display:block}
+
+    .reasons{background:#fafafa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:42px 0;margin-top:18px}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:20px}
+    .section-head p{max-width:560px;color:#575757;font-size:17px}
+    .reasons-grid{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:18px}
+    .reason-card{border:1px solid var(--line);border-radius:24px;padding:24px;background:#fff}
+    .reason-card h3{font-size:22px;line-height:1.05;letter-spacing:-.02em}
+    .reason-card p{margin-top:12px;color:#595959;font-size:16px}
+    .footer{border-top:1px solid var(--line);color:#666;font-size:14px;padding:28px 0 42px}
+
+    @media (max-width: 1180px){
+      .products-grid{grid-template-columns:repeat(2, minmax(0,1fr))}
+      .shop-row{grid-template-columns:repeat(3, minmax(0,1fr))}
+      .reasons-grid{grid-template-columns:repeat(2, minmax(0,1fr))}
+    }
+    @media (max-width: 980px){
+      h1{font-size:42px}
+      h2{font-size:34px}
+      .shop-title{font-size:50px}
+      .catalog-wrap{grid-template-columns:1fr}
+      .filters-panel{position:static;display:none}
+      .filters-panel.open{display:block}
+      .mobile-only{display:inline-flex !important}
+      .shop-row{grid-template-columns:repeat(3, minmax(0,1fr))}
+    }
+    @media (min-width: 981px){
+      .mobile-only{display:none !important}
+    }
+    @media (max-width: 760px){
+      .nav{display:none}
+      .container{width:min(1320px, calc(100% - 24px))}
+      h1{font-size:34px}
+      h2{font-size:30px}
+      .shop-title{font-size:44px}
+      .toolbar{padding:14px}
+      .products-grid{grid-template-columns:1fr}
+      .shop-row{
+        display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
+        padding-bottom:8px;padding-right:20px;margin-right:-20px;
+      }
+      .shop-row::-webkit-scrollbar{display:none}
+      .shop-item{flex:0 0 110px;scroll-snap-align:start}
+      .shop-circle{max-width:110px;font-size:40px}
+      .shop-label{font-size:14px;max-width:110px}
+      .product-body{padding:20px}
+      .product-title{font-size:26px}
+      .product-top{flex-direction:column}
+      .reasons-grid{grid-template-columns:1fr}
+      .section-head{display:block}
+      .category-strip{padding-top:16px}
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>RGW — локальный магазин компьютерной техники</div>
+      <div>Ноутбуки • Каталог с фильтрами в стиле маркетплейса</div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="rgw_multipage_home.html" class="brand">RGW</a>
+      <nav class="nav">
+        <a href="rgw_catalog_all.html">Все товары</a>
+        <a href="rgw_page_laptops.html">Ноутбуки</a>
+        <a href="rgw_page_components.html">Комплектующие</a>
+        <a href="rgw_page_keyboards.html">Клавиатуры</a>
+        <a href="rgw_page_mice.html">Мышки</a>
+        <a href="rgw_page_headphones.html">Наушники</a>
+        <a href="rgw_page_gaming.html">Гейминг</a>
+      </nav>
+      <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Связаться</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="shop" class="shop-panel">
+      <div class="container">
+        <h2 class="shop-title">Shop</h2>
+        <div class="shop-row">
+          <a class="shop-item" href="rgw_catalog_all.html"><div class="shop-circle">🏷️</div><div class="shop-label">Все товары</div></a>
+          <a class="shop-item active" href="rgw_page_laptops.html"><div class="shop-circle">💻</div><div class="shop-label">Ноутбуки</div></a>
+          <a class="shop-item" href="rgw_page_keyboards.html"><div class="shop-circle">⌨️</div><div class="shop-label">Клавиатуры</div></a>
+          <a class="shop-item" href="rgw_page_mice.html"><div class="shop-circle">🖱️</div><div class="shop-label">Мышки</div></a>
+          <a class="shop-item" href="rgw_page_headphones.html"><div class="shop-circle">🎧</div><div class="shop-label">Наушники</div></a>
+          <a class="shop-item" href="rgw_page_gaming.html"><div class="shop-circle">🎮</div><div class="shop-label">Гейминг</div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-header">
+      <div class="container">
+        <div class="crumbs">
+          <a href="rgw_multipage_home.html">Главная</a>
+          <span>•</span>
+          <a href="rgw_catalog_all.html">Каталог</a>
+          <span>•</span>
+          <span>Ноутбуки</span>
+        </div>
+        <div class="category-strip">
+          <div class="page-title-wrap">
+            <div class="eyebrow">Каталог ноутбуков</div>
+            <h1>Ноутбуки</h1>
+          </div>
+          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сортировка и количество товаров, справа карточки моделей.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog">
+      <div class="container catalog-wrap">
+        <aside class="filters-panel" id="filtersPanel">
+          <div class="filters-head">
+            <h3>Фильтры</h3>
+            <button class="btn btn-soft" id="clearFiltersBtn" type="button">Сбросить</button>
+          </div>
+          <div class="filters-sub">Секции можно сворачивать. Выбирай параметры, чтобы быстро отсеивать ноутбуки.</div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Модель / бренд</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="brand" value="acer">Acer</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="msi">MSI</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="hp">HP</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="lenovo">Lenovo</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="asus">ASUS</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="dell">Dell</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Диагональ экрана (дюйм)</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="screen" value="14.0">14.0</label>
+                <label class="check-item"><input type="checkbox" name="screen" value="15.6">15.6</label>
+                <label class="check-item"><input type="checkbox" name="screen" value="16.0">16.0</label>
+                <label class="check-item"><input type="checkbox" name="screen" value="17.3">17.3</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Объем оперативной памяти (ГБ)</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="ram" value="8">8 ГБ</label>
+                <label class="check-item"><input type="checkbox" name="ram" value="16">16 ГБ</label>
+                <label class="check-item"><input type="checkbox" name="ram" value="32">32 ГБ</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Линейка процессора</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="cpu" value="intel core i3">Intel Core i3</label>
+                <label class="check-item"><input type="checkbox" name="cpu" value="intel core i5">Intel Core i5</label>
+                <label class="check-item"><input type="checkbox" name="cpu" value="intel core i7">Intel Core i7</label>
+                <label class="check-item"><input type="checkbox" name="cpu" value="amd ryzen 5">AMD Ryzen 5</label>
+                <label class="check-item"><input type="checkbox" name="cpu" value="amd ryzen 7">AMD Ryzen 7</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Общий объем SSD (ГБ)</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="ssd" value="256">256 ГБ</label>
+                <label class="check-item"><input type="checkbox" name="ssd" value="512">512 ГБ</label>
+                <label class="check-item"><input type="checkbox" name="ssd" value="1000">1000 ГБ</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Разрешение экрана</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="resolution" value="fhd">Full HD</label>
+                <label class="check-item"><input type="checkbox" name="resolution" value="qhd">QHD</label>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <div class="catalog-main">
+          <div class="toolbar">
+            <div class="toolbar-left">
+              <button class="btn btn-soft mobile-only" id="toggleFiltersBtn" type="button">Фильтры</button>
+              <span class="badge" id="resultsCount">8</span>
+              <div class="toolbar-title">Показано ноутбуков</div>
+            </div>
+            <div class="toolbar-right">
+              <label for="sortSelect" class="toolbar-title">Сортировка</label>
+              <select id="sortSelect" class="sort-select">
+                <option value="featured">По умолчанию</option>
+                <option value="price-asc">Цена: по возрастанию</option>
+                <option value="price-desc">Цена: по убыванию</option>
+                <option value="screen-desc">Диагональ: больше сверху</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="active-filters" id="activeFilters"></div>
+
+          <div class="products-grid" id="productsGrid">
+            <article class="product-card" data-brand="acer" data-screen="15.6" data-ram="16" data-cpu="intel core i5" data-ssd="512" data-resolution="fhd" data-price="54990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/acer,laptop?lock=301" alt="Acer Aspire 5"></div>
+              <div class="product-body">
+                <div class="product-cat">Acer • Aspire</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">Acer Aspire 5</h3>
+                    <p class="product-desc">Универсальный вариант для офиса, учёбы и повседневной работы.</p>
+                  </div>
+                  <div class="product-price">54 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">15.6″</span>
+                  <span class="spec-chip">16 ГБ RAM</span>
+                  <span class="spec-chip">Intel Core i5</span>
+                  <span class="spec-chip">512 ГБ SSD</span>
+                  <span class="spec-chip">Full HD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="acer" data-screen="14.0" data-ram="8" data-cpu="intel core i3" data-ssd="256" data-resolution="fhd" data-price="43990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/laptop,student?lock=302" alt="Acer Swift Go 14"></div>
+              <div class="product-body">
+                <div class="product-cat">Acer • Swift</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">Acer Swift Go 14</h3>
+                    <p class="product-desc">Компактная модель для учёбы, встреч и работы вне офиса.</p>
+                  </div>
+                  <div class="product-price">43 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">14.0″</span>
+                  <span class="spec-chip">8 ГБ RAM</span>
+                  <span class="spec-chip">Intel Core i3</span>
+                  <span class="spec-chip">256 ГБ SSD</span>
+                  <span class="spec-chip">Full HD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="msi" data-screen="15.6" data-ram="16" data-cpu="intel core i7" data-ssd="1000" data-resolution="qhd" data-price="94990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/msi,laptop?lock=303" alt="MSI Katana 15"></div>
+              <div class="product-body">
+                <div class="product-cat">MSI • Katana</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">MSI Katana 15</h3>
+                    <p class="product-desc">Более мощный вариант для игр, монтажа и тяжёлых задач.</p>
+                  </div>
+                  <div class="product-price">94 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">15.6″</span>
+                  <span class="spec-chip">16 ГБ RAM</span>
+                  <span class="spec-chip">Intel Core i7</span>
+                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <span class="spec-chip">QHD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="amd ryzen 5" data-ssd="512" data-resolution="fhd" data-price="51990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/hp,laptop?lock=304" alt="HP 15"></div>
+              <div class="product-body">
+                <div class="product-cat">HP • 15</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">HP 15</h3>
+                    <p class="product-desc">Сбалансированная модель под документы, браузер и удалённую работу.</p>
+                  </div>
+                  <div class="product-price">51 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">15.6″</span>
+                  <span class="spec-chip">8 ГБ RAM</span>
+                  <span class="spec-chip">AMD Ryzen 5</span>
+                  <span class="spec-chip">512 ГБ SSD</span>
+                  <span class="spec-chip">Full HD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="lenovo" data-screen="16.0" data-ram="16" data-cpu="amd ryzen 7" data-ssd="512" data-resolution="qhd" data-price="72990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/lenovo,laptop?lock=305" alt="Lenovo IdeaPad Slim 5"></div>
+              <div class="product-body">
+                <div class="product-cat">Lenovo • IdeaPad</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">Lenovo IdeaPad Slim 5</h3>
+                    <p class="product-desc">Хорошо подходит для многозадачности и комфортной ежедневной работы.</p>
+                  </div>
+                  <div class="product-price">72 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">16.0″</span>
+                  <span class="spec-chip">16 ГБ RAM</span>
+                  <span class="spec-chip">AMD Ryzen 7</span>
+                  <span class="spec-chip">512 ГБ SSD</span>
+                  <span class="spec-chip">QHD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="lenovo" data-screen="14.0" data-ram="16" data-cpu="intel core i5" data-ssd="512" data-resolution="fhd" data-price="63990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/laptop,meeting?lock=306" alt="Lenovo ThinkBook 14"></div>
+              <div class="product-body">
+                <div class="product-cat">Lenovo • ThinkBook</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">Lenovo ThinkBook 14</h3>
+                    <p class="product-desc">Лёгкий и аккуратный ноутбук для встреч, поездок и офиса.</p>
+                  </div>
+                  <div class="product-price">63 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">14.0″</span>
+                  <span class="spec-chip">16 ГБ RAM</span>
+                  <span class="spec-chip">Intel Core i5</span>
+                  <span class="spec-chip">512 ГБ SSD</span>
+                  <span class="spec-chip">Full HD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="asus" data-screen="17.3" data-ram="32" data-cpu="intel core i7" data-ssd="1000" data-resolution="qhd" data-price="119990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/asus,laptop?lock=307" alt="ASUS ROG Strix G17"></div>
+              <div class="product-body">
+                <div class="product-cat">ASUS • ROG</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">ASUS ROG Strix G17</h3>
+                    <p class="product-desc">Большой экран и мощная начинка для игр и тяжёлой работы.</p>
+                  </div>
+                  <div class="product-price">119 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">17.3″</span>
+                  <span class="spec-chip">32 ГБ RAM</span>
+                  <span class="spec-chip">Intel Core i7</span>
+                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <span class="spec-chip">QHD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="dell" data-screen="14.0" data-ram="16" data-cpu="intel core i7" data-ssd="512" data-resolution="qhd" data-price="88990">
+              <div class="product-image"><img src="https://loremflickr.com/900/900/dell,laptop?lock=308" alt="Dell Inspiron 14 Plus"></div>
+              <div class="product-body">
+                <div class="product-cat">Dell • Inspiron</div>
+                <div class="product-top">
+                  <div>
+                    <h3 class="product-title">Dell Inspiron 14 Plus</h3>
+                    <p class="product-desc">Премиальнее по ощущению и удобен для интенсивной рабочей нагрузки.</p>
+                  </div>
+                  <div class="product-price">88 990 ₽</div>
+                </div>
+                <div class="specs">
+                  <span class="spec-chip">14.0″</span>
+                  <span class="spec-chip">16 ГБ RAM</span>
+                  <span class="spec-chip">Intel Core i7</span>
+                  <span class="spec-chip">512 ГБ SSD</span>
+                  <span class="spec-chip">QHD</span>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="empty-state" id="emptyState">По этим параметрам ничего не найдено. Попробуй снять часть фильтров или изменить сортировку.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Что можно добавить дальше</div>
+            <h2>Следующие улучшения</h2>
+          </div>
+          <p>Дальше можно сделать ползунок цены, фильтр по наличию, карточку отдельного ноутбука и реальные данные вместо заглушек.</p>
+        </div>
+        <div class="reasons-grid">
+          <div class="reason-card"><h3>Ползунок цены</h3><p>Сделаем диапазон стоимости, как у крупных каталогов техники.</p></div>
+          <div class="reason-card"><h3>Наличие</h3><p>Добавим статусы "в наличии / под заказ / скоро будет".</p></div>
+          <div class="reason-card"><h3>Карточка товара</h3><p>Можно открыть отдельную страницу на каждую модель ноутбука.</p></div>
+          <div class="reason-card"><h3>Реальный ассортимент</h3><p>Подставим настоящие модели, цены и фото из твоего магазина.</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Отдельная HTML-страница категории «Ноутбуки» со сворачиваемыми фильтрами и более компактной подачей каталога.</div>
+  </footer>
+
+  <script>
+    const filterInputs = Array.from(document.querySelectorAll('.filters-panel input[type="checkbox"]'));
+    const productsGrid = document.getElementById('productsGrid');
+    const products = Array.from(productsGrid.querySelectorAll('.product-card'));
+    const resultsCount = document.getElementById('resultsCount');
+    const activeFilters = document.getElementById('activeFilters');
+    const emptyState = document.getElementById('emptyState');
+    const sortSelect = document.getElementById('sortSelect');
+    const clearFiltersBtn = document.getElementById('clearFiltersBtn');
+    const toggleFiltersBtn = document.getElementById('toggleFiltersBtn');
+    const filtersPanel = document.getElementById('filtersPanel');
+    const collapsibleGroups = Array.from(document.querySelectorAll('[data-group]'));
+
+    const filterLabels = {
+      brand: 'Бренд',
+      screen: 'Экран',
+      ram: 'RAM',
+      cpu: 'CPU',
+      ssd: 'SSD',
+      resolution: 'Разрешение'
+    };
+
+    function prettyValue(group, value) {
+      const map = {
+        fhd: 'Full HD',
+        qhd: 'QHD'
+      };
+      if (map[value]) return map[value];
+      if (group === 'ssd') return `${value} ГБ`;
+      if (group === 'ram') return `${value} ГБ`;
+      if (group === 'screen') return `${value}″`;
+      return value.split(' ').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+    }
+
+    function getSelectedFilters() {
+      const groups = {};
+      filterInputs.forEach(input => {
+        if (!groups[input.name]) groups[input.name] = [];
+        if (input.checked) groups[input.name].push(input.value);
+      });
+      return groups;
+    }
+
+    function matchesFilters(product, groups) {
+      return Object.entries(groups).every(([group, values]) => {
+        if (!values.length) return true;
+        const productValue = (product.dataset[group] || '').toLowerCase();
+        return values.some(value => productValue === String(value).toLowerCase());
+      });
+    }
+
+    function sortProducts(list, mode) {
+      const sorted = [...list];
+      if (mode === 'price-asc') {
+        sorted.sort((a, b) => Number(a.dataset.price) - Number(b.dataset.price));
+      } else if (mode === 'price-desc') {
+        sorted.sort((a, b) => Number(b.dataset.price) - Number(a.dataset.price));
+      } else if (mode === 'screen-desc') {
+        sorted.sort((a, b) => Number(b.dataset.screen) - Number(a.dataset.screen));
+      }
+      return sorted;
+    }
+
+    function renderActiveFilters(groups) {
+      activeFilters.innerHTML = '';
+      const entries = Object.entries(groups).flatMap(([group, values]) => values.map(value => ({ group, value })));
+      entries.forEach(({ group, value }) => {
+        const pill = document.createElement('div');
+        pill.className = 'filter-pill';
+
+        const label = document.createElement('span');
+        label.textContent = `${filterLabels[group]}: ${prettyValue(group, value)}`;
+
+        const close = document.createElement('button');
+        close.type = 'button';
+        close.textContent = '×';
+        close.addEventListener('click', () => {
+          const input = filterInputs.find(item => item.name === group && item.value === value);
+          if (input) {
+            input.checked = false;
+            updateCatalog();
+          }
+        });
+
+        pill.appendChild(label);
+        pill.appendChild(close);
+        activeFilters.appendChild(pill);
+      });
+    }
+
+    function updateCatalog() {
+      const groups = getSelectedFilters();
+      const filtered = products.filter(product => matchesFilters(product, groups));
+      const sorted = sortProducts(filtered, sortSelect.value);
+
+      products.forEach(product => {
+        product.style.display = 'none';
+      });
+
+      sorted.forEach(product => {
+        product.style.display = '';
+        productsGrid.appendChild(product);
+      });
+
+      resultsCount.textContent = String(sorted.length);
+      emptyState.classList.toggle('show', sorted.length === 0);
+      renderActiveFilters(groups);
+    }
+
+    filterInputs.forEach(input => input.addEventListener('change', updateCatalog));
+    sortSelect.addEventListener('change', updateCatalog);
+    clearFiltersBtn.addEventListener('click', () => {
+      filterInputs.forEach(input => {
+        input.checked = false;
+      });
+      updateCatalog();
+    });
+
+    collapsibleGroups.forEach(group => {
+      const button = group.querySelector('.filter-toggle');
+      button.addEventListener('click', () => {
+        group.classList.toggle('collapsed');
+      });
+    });
+
+    if (toggleFiltersBtn) {
+      toggleFiltersBtn.addEventListener('click', () => {
+        filtersPanel.classList.toggle('open');
+      });
+    }
+
+    updateCatalog();
+  </script>
+</body>
+</html>

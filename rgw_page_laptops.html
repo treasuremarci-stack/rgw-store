@@ -4,6 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RGW — Ноутбуки</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
       --bg:#ffffff;
@@ -15,6 +18,8 @@
       --muted:#626262;
       --dark:#0d0d0d;
       --chip:#f2f2f2;
+      --accent:#fc8507;
+      --accent-soft:#fff4e7;
       --radius-xl:32px;
       --radius-lg:24px;
       --radius-md:18px;
@@ -24,7 +29,7 @@
     html{scroll-behavior:smooth}
     body{
       margin:0;
-      font-family:Arial, Helvetica, sans-serif;
+      font-family:"Inter", Arial, Helvetica, sans-serif;
       color:var(--text);
       background:var(--bg);
       line-height:1.45;
@@ -155,40 +160,79 @@
 
     .products-grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
     .product-card{
-      border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;
-      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 2px 8px rgba(0,0,0,.04);
+      border:1px solid #e3e7ed;border-radius:22px;overflow:hidden;background:#fff;
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 12px 28px rgba(17,24,39,.05);
     }
-    .product-card:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(0,0,0,.08);border-color:#d9d9d9}
+    .product-card:hover{transform:translateY(-3px);box-shadow:0 18px 34px rgba(17,24,39,.11);border-color:#d6dce5}
     .product-image{
       aspect-ratio:1/1;
-      background:linear-gradient(135deg, #f5f5f5 0%, #ececec 100%);
+      background:radial-gradient(circle at top, #ffffff 0, #f5f7fa 42%, #eaedf3 100%);
       position:relative;
       display:flex;
       align-items:center;
       justify-content:center;
       font-size:64px;
     }
-    .product-body{padding:16px}
-    .product-title{font-size:15px;line-height:1.3;letter-spacing:-.01em;margin-bottom:12px;font-weight:600;color:#111}
-    .product-desc{color:var(--muted);font-size:13px;margin-bottom:12px;min-height:26px}
+    .product-body{padding:18px}
+    .product-title{font-size:16px;line-height:1.35;letter-spacing:-.02em;margin-bottom:10px;font-weight:700;color:#111827}
+    .product-desc{color:#5f6773;font-size:13px;margin-bottom:14px;min-height:26px}
     
     .product-specs{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-      margin-bottom:12px;
-      padding-top:12px;
-      border-top:1px solid var(--line);
+      position:relative;
+      display:grid;
+      gap:0;
+      margin-bottom:14px;
+      padding:10px 12px;
+      border:1px solid #e8ecf2;
+      border-radius:18px;
+      background:linear-gradient(180deg, #fcfdff 0%, #f7f9fc 100%);
+      box-shadow:inset 0 1px 0 rgba(255,255,255,.9);
+    }
+    .product-specs::before{
+      content:"Основные характеристики";
+      display:block;
+      margin-bottom:4px;
+      font-size:11px;
+      font-weight:800;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      color:#8b94a3;
     }
     .spec-row{
+      --spec-accent:#9ca3af;
+      --spec-rgb:156,163,175;
       display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:8px;
-      font-size:12px;
-      color:#666;
+      grid-template-columns:40px minmax(0,1fr);
+      gap:10px;
+      align-items:center;
+      padding:10px 0;
+      color:#4b5563;
     }
-    .spec-label{font-weight:600;color:#333}
-    .spec-value{color:#111}
+    .spec-row + .spec-row{border-top:1px solid rgba(148,163,184,.18)}
+    .spec-row--key{background:linear-gradient(90deg, rgba(var(--spec-rgb), .1) 0%, rgba(255,255,255,0) 82%)}
+    .spec-row--screen{--spec-accent:#2563eb;--spec-rgb:37,99,235}
+    .spec-row--cpu{--spec-accent:#ea580c;--spec-rgb:234,88,12}
+    .spec-row--memory{--spec-accent:#7c3aed;--spec-rgb:124,58,237}
+    .spec-row--gpu{--spec-accent:#059669;--spec-rgb:5,150,105}
+    .spec-row--storage{--spec-accent:#0f766e;--spec-rgb:15,118,110}
+    .spec-row--system{--spec-accent:#64748b;--spec-rgb:100,116,139}
+    .spec-row--weight{--spec-accent:#475569;--spec-rgb:71,85,105}
+    .spec-row--generic{--spec-accent:#94a3b8;--spec-rgb:148,163,184}
+    .spec-icon{
+      width:40px;
+      height:40px;
+      border-radius:14px;
+      display:grid;
+      place-items:center;
+      color:var(--spec-accent);
+      background:rgba(var(--spec-rgb), .12);
+      box-shadow:inset 0 0 0 1px rgba(var(--spec-rgb), .18);
+    }
+    .spec-icon svg{width:18px;height:18px;display:block}
+    .spec-copy{display:grid;gap:3px;min-width:0}
+    .spec-label{font-size:11px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#7b8594}
+    .spec-value{font-size:14px;line-height:1.3;font-weight:700;color:#111827}
+    .spec-row--key .spec-value{font-size:14.5px}
     
     .product-actions{display:flex;gap:8px;flex-wrap:wrap}
     .product-actions .btn{padding:10px 14px;font-size:13px}
@@ -1188,6 +1232,71 @@
       gpu: 'Видеокарта'
     };
 
+    const specIcons = {
+      screen: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="12" rx="2"></rect><path d="M8 20h8"></path><path d="M12 16v4"></path></svg>',
+      cpu: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="2"></rect><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 15h3M1 9h3M1 15h3"></path></svg>',
+      memory: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h16v8H4z"></path><path d="M7 8V6M11 8V6M15 8V6M17 8V6M7 18v-2M11 18v-2M15 18v-2M17 18v-2"></path></svg>',
+      gpu: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="14" height="10" rx="2"></rect><path d="M17 10h2l2 2v3h-4"></path><circle cx="8" cy="12" r="2.5"></circle></svg>',
+      storage: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M7 15h.01M11 15h6"></path></svg>',
+      system: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v10H4z"></path><path d="M8 19h8"></path><path d="M10 15v4M14 15v4"></path></svg>',
+      weight: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 8h10l2 11H5L7 8Z"></path><path d="M9.5 8a2.5 2.5 0 1 1 5 0"></path></svg>',
+      generic: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 8h.01M11 12h1v4h1"></path></svg>'
+    };
+
+    function getSpecMeta(rawLabel) {
+      const normalized = rawLabel.replace(/:/g, '').trim();
+      const slug = normalized.toLowerCase();
+
+      if (slug.includes('процессор')) return { type: 'cpu', label: 'Процессор', key: true };
+      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: normalized.toUpperCase() === 'ОЗУ' ? 'ОЗУ' : 'Память', key: true };
+      if (slug.includes('видео') || slug.includes('видеокарта')) return { type: 'gpu', label: 'Видеокарта', key: true };
+      if (slug.includes('экран') || slug.includes('дисплей')) return { type: 'screen', label: 'Экран', key: true };
+      if (slug.includes('ssd') || slug.includes('хранилище')) return { type: 'storage', label: slug.includes('ssd') ? 'SSD' : 'Хранилище', key: false };
+      if (slug === 'ос' || slug === 'по') return { type: 'system', label: slug === 'ос' ? 'ОС' : 'Система', key: false };
+      if (slug.includes('вес')) return { type: 'weight', label: 'Вес', key: false };
+
+      return {
+        type: 'generic',
+        label: normalized.charAt(0).toUpperCase() + normalized.slice(1),
+        key: false
+      };
+    }
+
+    function enhanceProductSpecs() {
+      document.querySelectorAll('.product-specs .spec-row').forEach(row => {
+        if (row.querySelector('.spec-copy')) return;
+
+        const labelNode = row.querySelector('.spec-label');
+        const valueNode = row.querySelector('.spec-value');
+        if (!labelNode || !valueNode) return;
+
+        const meta = getSpecMeta(labelNode.textContent || '');
+        const icon = document.createElement('span');
+        icon.className = 'spec-icon';
+        icon.setAttribute('aria-hidden', 'true');
+        icon.innerHTML = specIcons[meta.type] || specIcons.generic;
+
+        const copy = document.createElement('div');
+        copy.className = 'spec-copy';
+
+        const label = document.createElement('span');
+        label.className = 'spec-label';
+        label.textContent = meta.label;
+
+        const value = document.createElement('span');
+        value.className = 'spec-value';
+        value.textContent = valueNode.textContent.trim();
+
+        copy.appendChild(label);
+        copy.appendChild(value);
+
+        row.className = `spec-row spec-row--${meta.type}${meta.key ? ' spec-row--key' : ''}`;
+        row.textContent = '';
+        row.appendChild(icon);
+        row.appendChild(copy);
+      });
+    }
+
     function prettyValue(group, value) {
       const map = {
         integrated: 'Интегр.',
@@ -1299,6 +1408,7 @@
       });
     }
 
+    enhanceProductSpecs();
     updateCatalog();
   </script>
 </body>

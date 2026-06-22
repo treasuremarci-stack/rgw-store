@@ -166,6 +166,7 @@
     .product-card:hover{transform:translateY(-3px);box-shadow:0 18px 34px rgba(17,24,39,.11);border-color:#d6dce5}
     .product-image{
       aspect-ratio:1/1;
+      background-color:#eef2f7;
       background:radial-gradient(circle at top, #ffffff 0, #f5f7fa 42%, #eaedf3 100%);
       position:relative;
       display:flex;
@@ -1248,7 +1249,7 @@
       const slug = normalized.toLowerCase();
 
       if (slug.includes('процессор')) return { type: 'cpu', label: 'Процессор', key: true };
-      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: normalized.toUpperCase() === 'ОЗУ' ? 'ОЗУ' : 'Память', key: true };
+      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: slug === 'озу' ? 'ОЗУ' : 'Память', key: true };
       if (slug.includes('видео') || slug.includes('видеокарта')) return { type: 'gpu', label: 'Видеокарта', key: true };
       if (slug.includes('экран') || slug.includes('дисплей')) return { type: 'screen', label: 'Экран', key: true };
       if (slug.includes('ssd') || slug.includes('хранилище')) return { type: 'storage', label: slug.includes('ssd') ? 'SSD' : 'Хранилище', key: false };
@@ -1257,7 +1258,7 @@
 
       return {
         type: 'generic',
-        label: normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : 'Характеристика',
+        label: normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : 'Параметр',
         key: false
       };
     }

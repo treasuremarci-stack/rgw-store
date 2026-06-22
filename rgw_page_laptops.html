@@ -155,22 +155,43 @@
 
     .products-grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
     .product-card{
-      border:1px solid var(--line);border-radius:28px;overflow:hidden;background:#fff;
-      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 6px 18px rgba(0,0,0,.03);
+      border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;
+      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 2px 8px rgba(0,0,0,.04);
     }
-    .product-card:hover{transform:translateY(-4px);box-shadow:0 18px 36px rgba(0,0,0,.08);border-color:#d9d9d9}
-    .product-image{aspect-ratio:1/1;background:#f2f2f2;position:relative}
-    .product-image::after{content:"";position:absolute;inset:auto 16px 16px auto;width:70px;height:70px;border-radius:50%;background:radial-gradient(circle, rgba(255,255,255,.55), rgba(255,255,255,0))}
-    .product-body{padding:22px}
-    .product-top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
-    .product-cat{font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:#787878;font-weight:700;margin-bottom:10px}
-    .product-title{font-size:29px;line-height:1.02;letter-spacing:-.035em;margin-bottom:10px}
-    .product-desc{color:var(--muted);font-size:15px;min-height:44px}
-    .product-price{font-size:28px;font-weight:800;line-height:1;white-space:nowrap}
-    .specs{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
-    .spec-chip{padding:9px 12px;border-radius:999px;background:#f1f1f1;color:#1f1f1f;font-size:13px;font-weight:700}
-    .product-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
-    .product-actions .btn{padding:12px 18px}
+    .product-card:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(0,0,0,.08);border-color:#d9d9d9}
+    .product-image{
+      aspect-ratio:1/1;
+      background:linear-gradient(135deg, #f5f5f5 0%, #ececec 100%);
+      position:relative;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:64px;
+    }
+    .product-body{padding:16px}
+    .product-title{font-size:15px;line-height:1.3;letter-spacing:-.01em;margin-bottom:12px;font-weight:600;color:#111}
+    .product-desc{color:var(--muted);font-size:13px;margin-bottom:12px;min-height:26px}
+    
+    .product-specs{
+      display:flex;
+      flex-direction:column;
+      gap:8px;
+      margin-bottom:12px;
+      padding-top:12px;
+      border-top:1px solid var(--line);
+    }
+    .spec-row{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:8px;
+      font-size:12px;
+      color:#666;
+    }
+    .spec-label{font-weight:600;color:#333}
+    .spec-value{color:#111}
+    
+    .product-actions{display:flex;gap:8px;flex-wrap:wrap}
+    .product-actions .btn{padding:10px 14px;font-size:13px}
     .empty-state{display:none;border:1px dashed var(--line-strong);border-radius:22px;padding:28px;background:#fbfbfb;color:#555;margin-top:10px}
     .empty-state.show{display:block}
 
@@ -217,9 +238,8 @@
       .shop-item{flex:0 0 110px;scroll-snap-align:start}
       .shop-circle{max-width:110px;font-size:40px}
       .shop-label{font-size:14px;max-width:110px}
-      .product-body{padding:20px}
-      .product-title{font-size:26px}
-      .product-top{flex-direction:column}
+      .product-body{padding:12px}
+      .product-title{font-size:14px}
       .reasons-grid{grid-template-columns:1fr}
       .section-head{display:block}
       .category-strip{padding-top:16px}
@@ -384,8 +404,6 @@
               <label for="sortSelect" class="toolbar-title">Сортировка</label>
               <select id="sortSelect" class="sort-select">
                 <option value="featured">По умолчанию</option>
-                <option value="price-asc">Цена: по возрастанию</option>
-                <option value="price-desc">Цена: по убыванию</option>
                 <option value="screen-desc">Диагональ: больше сверху</option>
               </select>
             </div>
@@ -394,698 +412,727 @@
           <div class="active-filters" id="activeFilters"></div>
 
           <div class="products-grid" id="productsGrid">
-            <article class="product-card" data-brand="acer" data-screen="15.6" data-ram="16" data-cpu="r7" data-ssd="512" data-gpu="integrated" data-price="49990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/8704718/pexels-photo-8704718.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ACER ASPIRE GO 15"></div>
+            <article class="product-card" data-brand="acer" data-screen="15.6" data-ram="16" data-cpu="r7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">ACER • Aspire GO</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">ASPIRE GO 15 AG15-42P</h3>
-                    <p class="product-desc">R7-7730U, 16GB, 512GB SSD, FHD, Windows 11</p>
+                <h3 class="product-title">ACER ASPIRE GO 15 AG15-42P</h3>
+                <p class="product-desc">R7-7730U, 16GB, 512GB SSD, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″ FHD</span>
                   </div>
-                  <div class="product-price">49 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">R7-7730U</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">16 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ПО:</span>
+                    <span class="spec-value">Windows 11</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="18" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060" data-price="189990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18404/pexels-photo-18404.jpg?auto=compress&cs=tinysrgb&w=600" alt="ASUS ROG STRIX G815"></div>
+            <article class="product-card" data-brand="asus" data-screen="18" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">ASUS • ROG STRIX</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">ROG STRIX G815LM</h3>
-                    <p class="product-desc">Ultra 9-275HX, RTX 5060, 32GB, 1TB, 2.5K, 240Hz</p>
+                <h3 class="product-title">ASUS ROG STRIX G815LM</h3>
+                <p class="product-desc">Ultra 9-275HX, RTX 5060, 32GB, 1TB</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">18″ 2.5K 240Hz</span>
                   </div>
-                  <div class="product-price">189 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">18″</span>
-                  <span class="spec-chip">32 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5060 8GB</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видео:</span>
+                    <span class="spec-value">RTX 5060 8GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">32 ГБ</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="35990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="ASUS VIVOBOOK X1504VA"></div>
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">ASUS • VIVOBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VIVOBOOK X1504VA</h3>
-                    <p class="product-desc">Core 5-120U, 8GB, 512GB, FHD, DOS</p>
+                <h3 class="product-title">ASUS VIVOBOOK X1504VA</h3>
+                <p class="product-desc">Core 5-120U, 8GB, 512GB, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″ FHD</span>
                   </div>
-                  <div class="product-price">35 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">Core 5</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">8 ГБ RAM</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Вес:</span>
+                    <span class="spec-value">1.75 кг</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i3" data-ssd="512" data-gpu="integrated" data-price="32990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="ASUS VIVOBOOK X1504VA i3"></div>
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i3" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">ASUS • VIVOBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VIVOBOOK X1504VA i3</h3>
-                    <p class="product-desc">i3-1315U, 8GB, 512GB, FHD, DOS, Quiet Blue</p>
+                <h3 class="product-title">ASUS VIVOBOOK X1504VA i3</h3>
+                <p class="product-desc">i3-1315U, 8GB, 512GB, FHD, Quiet Blue</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel i3-1315U</span>
                   </div>
-                  <div class="product-price">32 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">i3-1315U</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″ FHD</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОС:</span>
+                    <span class="spec-value">DOS</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i7" data-ssd="512" data-gpu="integrated" data-price="41990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/3379958/pexels-photo-3379958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ASUS VIVOBOOK X1504VA i7"></div>
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">ASUS • VIVOBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VIVOBOOK X1504VA i7</h3>
-                    <p class="product-desc">i7-1355U, 8GB, 512GB, FHD, DOS, Silver</p>
+                <h3 class="product-title">ASUS VIVOBOOK X1504VA i7</h3>
+                <p class="product-desc">i7-1355U, 8GB, 512GB, FHD, Silver</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel i7-1355U</span>
                   </div>
-                  <div class="product-price">41 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">i7-1355U</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">SSD:</span>
+                    <span class="spec-value">512 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="38990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/4195325/pexels-photo-4195325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="ASUS X1504VA Core 7"></div>
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">ASUS • VIVOBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">X1504VA CORE 7</h3>
-                    <p class="product-desc">Core 7-150U, 8GB, 512GB, FHD, Silver</p>
+                <h3 class="product-title">ASUS X1504VA CORE 7</h3>
+                <p class="product-desc">Core 7-150U, 8GB, 512GB, FHD, Silver</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Core 7</span>
                   </div>
-                  <div class="product-price">38 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">Core 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">8 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Вес:</span>
+                    <span class="spec-value">~1.75 кг</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="r5" data-ssd="1000" data-gpu="integrated" data-price="44990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18394/pexels-photo-18394.jpg?auto=compress&cs=tinysrgb&w=600" alt="HP 15-FC0025WM"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="r5" data-ssd="1000" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • 15</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">15-FC0025WM</h3>
-                    <p class="product-desc">R5-7520, 8GB, 1TB, Touch FHD, Windows 11</p>
+                <h3 class="product-title">HP 15-FC0025WM</h3>
+                <p class="product-desc">R5-7520, 8GB, 1TB, Touch FHD, Windows 11</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">AMD R5-7520</span>
                   </div>
-                  <div class="product-price">44 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">R5-7520</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″ Touch FHD</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">8 ГБ + 1 ТБ</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="51990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP 15-FD0127X"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • 15</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">15-FD0127X</h3>
-                    <p class="product-desc">Core 7-150U, 16GB, 512GB, FHD IPS Touch, Silver</p>
+                <h3 class="product-title">HP 15-FD0127X</h3>
+                <p class="product-desc">Core 7-150U, 16GB, 512GB, FHD IPS Touch</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Core 7</span>
                   </div>
-                  <div class="product-price">51 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">Core 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">16 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Дисплей:</span>
+                    <span class="spec-value">15.6″ IPS Touch</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="49990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/8704718/pexels-photo-8704718.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP 15-FD0215DX"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core5" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • 15</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">15-FD0215DX</h3>
-                    <p class="product-desc">Core 5-120U, 16GB, 512GB, FHD IPS Touch, Silver</p>
+                <h3 class="product-title">HP 15-FD0215DX</h3>
+                <p class="product-desc">Core 5-120U, 16GB, 512GB, FHD IPS Touch</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Core 5</span>
                   </div>
-                  <div class="product-price">49 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">Core 5</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">16 ГБ DDR5</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Хранилище:</span>
+                    <span class="spec-value">512 ГБ SSD</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core3" data-ssd="512" data-gpu="integrated" data-price="31990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="HP 15-FD1134NIA"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core3" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • 15</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">15-FD1134NIA</h3>
-                    <p class="product-desc">Core 3-100U, 8GB, 512GB, FHD, DOS, Silver</p>
+                <h3 class="product-title">HP 15-FD1134NIA</h3>
+                <p class="product-desc">Core 3-100U, 8GB, 512GB, FHD, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Core 3</span>
                   </div>
-                  <div class="product-price">31 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">Core 3</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОС:</span>
+                    <span class="spec-value">DOS</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Клавиатура:</span>
+                    <span class="spec-value">Подсветка</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="39990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/3379958/pexels-photo-3379958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP 15-FD1310TU"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • 15</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">15-FD1310TU</h3>
-                    <p class="product-desc">Intel Ultra 7-155H, 8GB, 512GB, Backlit, DOS</p>
+                <h3 class="product-title">HP 15-FD1310TU</h3>
+                <p class="product-desc">Intel Ultra 7-155H, 8GB, 512GB, Backlit</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Ultra 7</span>
                   </div>
-                  <div class="product-price">39 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">Ultra 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">8 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОС:</span>
+                    <span class="spec-value">DOS</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="45990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/4195325/pexels-photo-4195325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP 250 RG10"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • 250</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">250 RG10</h3>
-                    <p class="product-desc">Core 7-150U, 16GB, 512GB, FHD, DOS, Silver</p>
+                <h3 class="product-title">HP 250 RG10</h3>
+                <p class="product-desc">Core 7-150U, 16GB, 512GB, FHD, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Серия:</span>
+                    <span class="spec-value">HP 250</span>
                   </div>
-                  <div class="product-price">45 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">Core 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Памяти:</span>
+                    <span class="spec-value">16 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Рабочий</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070" data-price="149990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18404/pexels-photo-18404.jpg?auto=compress&cs=tinysrgb&w=600" alt="HP OMEN 16 AN0075CL"></div>
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • OMEN</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">OMEN 16 AN0075CL</h3>
-                    <p class="product-desc">Ultra 9-285H, RTX 5070, 32GB, 1TB, FHD, Win11</p>
+                <h3 class="product-title">HP OMEN 16 AN0075CL</h3>
+                <p class="product-desc">Ultra 9-285H, RTX 5070, 32GB, 1TB, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Видеокарта:</span>
+                    <span class="spec-value">RTX 5070 8GB</span>
                   </div>
-                  <div class="product-price">149 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16″</span>
-                  <span class="spec-chip">32 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5070 8GB</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">32 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Гейминг/Творчество</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16.1" data-ram="16" data-cpu="i7" data-ssd="1000" data-gpu="rtx4060" data-price="119990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/8704718/pexels-photo-8704718.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP OMEN 16-WD0073DX"></div>
+            <article class="product-card" data-brand="hp" data-screen="16.1" data-ram="16" data-cpu="i7" data-ssd="1000" data-gpu="rtx4060">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • OMEN</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">OMEN 16-WD0073DX</h3>
-                    <p class="product-desc">i7-13620H, RTX 4060, 16GB, 1TB, FHD IPS, W11</p>
+                <h3 class="product-title">HP OMEN 16-WD0073DX</h3>
+                <p class="product-desc">i7-13620H, RTX 4060, 16GB, 1TB, FHD IPS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Графика:</span>
+                    <span class="spec-value">RTX 4060 8GB</span>
                   </div>
-                  <div class="product-price">119 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16.1″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">RTX 4060 8GB</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">i7-13620H</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">16.1″ IPS</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core5" data-ssd="1000" data-gpu="integrated" data-price="99990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="HP OMNIBOOK 16-AF1055CL"></div>
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core5" data-ssd="1000" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • OMNIBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">OMNIBOOK 16-AF1055CL</h3>
-                    <p class="product-desc">Ultra 5-225U, 16GB, 1TB, Touch 2K, W11, Silver</p>
+                <h3 class="product-title">HP OMNIBOOK 16-AF1055CL</h3>
+                <p class="product-desc">Ultra 5-225U, 16GB, 1TB, Touch 2K, W11</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">16″ 2K Touch</span>
                   </div>
-                  <div class="product-price">99 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">Ultra 5</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Ultra 5</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">16 ГБ DDR5</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="87990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="HP PROBOOK 4 G1i"></div>
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • PROBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">PROBOOK 4 G1i</h3>
-                    <p class="product-desc">Ultra 7-255U, 16GB, 512GB, Backlit, DOS</p>
+                <h3 class="product-title">HP PROBOOK 4 G1i</h3>
+                <p class="product-desc">Ultra 7-255U, 16GB, 512GB, Backlit, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Серия:</span>
+                    <span class="spec-value">ProBook</span>
                   </div>
-                  <div class="product-price">87 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">Ultra 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОС:</span>
+                    <span class="spec-value">DOS</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Бизнес</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="rtx2050" data-price="79990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/3379958/pexels-photo-3379958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP PROBOOK 450 G10 i5"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="rtx2050">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • PROBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">PROBOOK 450 G10 i5</h3>
-                    <p class="product-desc">i5-1335U, 16GB, 1TB, RTX 2050, FHD, DOS</p>
+                <h3 class="product-title">HP PROBOOK 450 G10 i5</h3>
+                <p class="product-desc">i5-1335U, 16GB, 1TB, RTX 2050, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">i5-1335U</span>
                   </div>
-                  <div class="product-price">79 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">i5-1335U</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видео:</span>
+                    <span class="spec-value">RTX 2050 4GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Хранилище:</span>
+                    <span class="spec-value">1 ТБ SSD</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated" data-price="74990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/4195325/pexels-photo-4195325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP PROBOOK 450 G10 i7"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • PROBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">PROBOOK 450 G10 i7</h3>
-                    <p class="product-desc">i7-1355U, 16GB, 512GB, FHD, Backlit, DOS</p>
+                <h3 class="product-title">HP PROBOOK 450 G10 i7</h3>
+                <p class="product-desc">i7-1355U, 16GB, 512GB, FHD, Backlit</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">i7-1355U</span>
                   </div>
-                  <div class="product-price">74 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">i7-1355U</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">16 ГБ DDR5</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Тип:</span>
+                    <span class="spec-value">Бизнес ноут</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="68990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/8704718/pexels-photo-8704718.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP PROBOOK 460 G11"></div>
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • PROBOOK</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">PROBOOK 460 G11</h3>
-                    <p class="product-desc">Ultra 7-155U, 8GB, 512GB, Backlit, DOS</p>
+                <h3 class="product-title">HP PROBOOK 460 G11</h3>
+                <p class="product-desc">Ultra 7-155U, 8GB, 512GB, Backlit, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Ultra 7-155U</span>
                   </div>
-                  <div class="product-price">68 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">Ultra 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">16″</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Вес:</span>
+                    <span class="spec-value">1.72 кг</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5060" data-price="109990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="HP VICTUS 15-FA2082WM"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5060">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • VICTUS</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VICTUS 15-FA2082WM</h3>
-                    <p class="product-desc">i5-13420H, 16GB, 512GB, RTX 4050, FHD, W11</p>
+                <h3 class="product-title">HP VICTUS 15-FA2082WM</h3>
+                <p class="product-desc">i5-13420H, 16GB, 512GB, RTX 4050, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Гейминг</span>
                   </div>
-                  <div class="product-price">109 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">RTX 4050 6GB</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Графика:</span>
+                    <span class="spec-value">RTX 4050 6GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОС:</span>
+                    <span class="spec-value">Windows 11</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060" data-price="124990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/3379958/pexels-photo-3379958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP VICTUS 15-FA2115NIA"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • VICTUS</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VICTUS 15-FA2115NIA</h3>
-                    <p class="product-desc">Core 7-240H, 16GB, 1TB, RTX 5060, FHD, DOS</p>
+                <h3 class="product-title">HP VICTUS 15-FA2115NIA</h3>
+                <p class="product-desc">Core 7-240H, 16GB, 1TB, RTX 5060, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Core 7-240H</span>
                   </div>
-                  <div class="product-price">124 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5060 8GB</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видеокарта:</span>
+                    <span class="spec-value">RTX 5060 8GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">16 ГБ</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5050" data-price="119990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/4195325/pexels-photo-4195325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="HP VICTUS 15-FA2120NIA"></div>
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5050">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">HP • VICTUS</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VICTUS 15-FA2120NIA</h3>
-                    <p class="product-desc">Core 7-240H, 16GB, 512GB, RTX 5050, FHD, IPS</p>
+                <h3 class="product-title">HP VICTUS 15-FA2120NIA</h3>
+                <p class="product-desc">Core 7-240H, 16GB, 512GB, RTX 5050, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″ FHD IPS</span>
                   </div>
-                  <div class="product-price">119 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5050 8GB</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видео:</span>
+                    <span class="spec-value">RTX 5050 8GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">16 ГБ DDR5</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated" data-price="71990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/7974/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="LENOVO IP SLIM3 15IRH10"></div>
+            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">LENOVO • IdeaPad</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">IP SLIM3 15IRH10</h3>
-                    <p class="product-desc">i7-13620H, 16GB, 512GB, Backlit, DOS, Luna</p>
+                <h3 class="product-title">LENOVO IP SLIM3 15IRH10</h3>
+                <p class="product-desc">i7-13620H, 16GB, 512GB, Backlit, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">i7-13620H</span>
                   </div>
-                  <div class="product-price">71 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.3″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">i7-13620H</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.3″</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОС:</span>
+                    <span class="spec-value">DOS</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i5" data-ssd="512" data-gpu="integrated" data-price="65990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="LENOVO IPSLIM3 15IRH10"></div>
+            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i5" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">LENOVO • IdeaPad</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">IPSLIM3 15IRH10</h3>
-                    <p class="product-desc">i5-13420H, 16GB, 512GB, Backlit, DOS</p>
+                <h3 class="product-title">LENOVO IPSLIM3 15IRH10</h3>
+                <p class="product-desc">i5-13420H, 16GB, 512GB, Backlit, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">i5-13420H</span>
                   </div>
-                  <div class="product-price">65 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.3″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">i5-13420H</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">16 ГБ</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">SSD:</span>
+                    <span class="spec-value">512 ГБ</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.1" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx5050" data-price="134990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/3379958/pexels-photo-3379958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="LENOVO LEGION 5i"></div>
+            <article class="product-card" data-brand="lenovo" data-screen="15.1" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx5050">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">LENOVO • LEGION</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">LEGION 5i</h3>
-                    <p class="product-desc">i7-14700HX, RTX 5050, 16GB, 1TB, 2.5K OLED</p>
+                <h3 class="product-title">LENOVO LEGION 5i</h3>
+                <p class="product-desc">i7-14700HX, RTX 5050, 16GB, 1TB, 2.5K</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Гейминг</span>
                   </div>
-                  <div class="product-price">134 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.1″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5050 8GB</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видеокарта:</span>
+                    <span class="spec-value">RTX 5050 8GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Дисплей:</span>
+                    <span class="spec-value">15.1″ 2.5K OLED</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="14" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="54990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/4195325/pexels-photo-4195325.jpeg?auto=compress&cs=tinysrgb&w=600" alt="LENOVO THINKBOOK 14 G8"></div>
+            <article class="product-card" data-brand="lenovo" data-screen="14" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">LENOVO • ThinkBook</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">THINKBOOK 14 G8</h3>
-                    <p class="product-desc">Core 7-240H, 8GB, 512GB, WUXGA, Backlit, DOS</p>
+                <h3 class="product-title">LENOVO THINKBOOK 14 G8</h3>
+                <p class="product-desc">Core 7-240H, 8GB, 512GB, WUXGA, Backlit</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Серия:</span>
+                    <span class="spec-value">ThinkBook</span>
                   </div>
-                  <div class="product-price">54 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">14″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">Core 7</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">14″ WUXGA</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">ОЗУ:</span>
+                    <span class="spec-value">8 ГБ</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="8" data-cpu="i5" data-ssd="512" data-gpu="integrated" data-price="47990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/8704718/pexels-photo-8704718.jpeg?auto=compress&cs=tinysrgb&w=600" alt="LENOVO V15 G5 IRL"></div>
+            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="8" data-cpu="i5" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">LENOVO • V15</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">V15 G5 IRL</h3>
-                    <p class="product-desc">i5-13420H, 8GB, 512GB, FHD, DOS, Black</p>
+                <h3 class="product-title">LENOVO V15 G5 IRL</h3>
+                <p class="product-desc">i5-13420H, 8GB, 512GB, FHD, DOS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">i5-13420H</span>
                   </div>
-                  <div class="product-price">47 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">15.6″</span>
-                  <span class="spec-chip">8 ГБ RAM</span>
-                  <span class="spec-chip">i5-13420H</span>
-                  <span class="spec-chip">512 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">8 ГБ DDR5</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Рабочий</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="msi" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="2000" data-gpu="rtx5070" data-price="179990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600" alt="MSI CROSSHAIR 16 AI"></div>
+            <article class="product-card" data-brand="msi" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="2000" data-gpu="rtx5070">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">MSI • CROSSHAIR</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">CROSSHAIR 16 AI</h3>
-                    <p class="product-desc">U9-275HX, RTX 5070, 32GB, 2TB, QHD, Cosmos</p>
+                <h3 class="product-title">MSI CROSSHAIR 16 AI</h3>
+                <p class="product-desc">U9-275HX, RTX 5070, 32GB, 2TB, QHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Назначение:</span>
+                    <span class="spec-value">Премиум</span>
                   </div>
-                  <div class="product-price">179 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16″</span>
-                  <span class="spec-chip">32 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5070 8GB</span>
-                  <span class="spec-chip">2000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видеокарта:</span>
+                    <span class="spec-value">RTX 5070 8GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Памяти:</span>
+                    <span class="spec-value">32 ГБ</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
 
-            <article class="product-card" data-brand="msi" data-screen="16" data-ram="16" data-cpu="r9" data-ssd="1000" data-gpu="rtx5070ti" data-price="199990">
-              <div class="product-image"><img src="https://images.pexels.com/photos/3379958/pexels-photo-3379958.jpeg?auto=compress&cs=tinysrgb&w=600" alt="MSI VECTOR A16 HX"></div>
+            <article class="product-card" data-brand="msi" data-screen="16" data-ram="16" data-cpu="r9" data-ssd="1000" data-gpu="rtx5070ti">
+              <div class="product-image">💻</div>
               <div class="product-body">
-                <div class="product-cat">MSI • VECTOR</div>
-                <div class="product-top">
-                  <div>
-                    <h3 class="product-title">VECTOR A16 HX</h3>
-                    <p class="product-desc">R9-8940HX, RTX 5070 Ti, 16GB, 1TB, QHD+, W11</p>
+                <h3 class="product-title">MSI VECTOR A16 HX</h3>
+                <p class="product-desc">R9-8940HX, RTX 5070 Ti, 16GB, 1TB, QHD+</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">R9-8940HX</span>
                   </div>
-                  <div class="product-price">199 990 ₽</div>
-                </div>
-                <div class="specs">
-                  <span class="spec-chip">16″</span>
-                  <span class="spec-chip">16 ГБ RAM</span>
-                  <span class="spec-chip">RTX 5070 Ti 12GB</span>
-                  <span class="spec-chip">1000 ГБ SSD</span>
+                  <div class="spec-row">
+                    <span class="spec-label">Видеокарта:</span>
+                    <span class="spec-value">RTX 5070 Ti 12GB</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Дисплей:</span>
+                    <span class="spec-value">16″ QHD+</span>
+                  </div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-light">Подробнее</a>
                 </div>
               </div>
             </article>
@@ -1144,6 +1191,7 @@
     function prettyValue(group, value) {
       const map = {
         integrated: 'Интегр.',
+        rtx2050: 'RTX 2050',
         rtx4050: 'RTX 4050',
         rtx4060: 'RTX 4060',
         rtx5050: 'RTX 5050',
@@ -1177,11 +1225,7 @@
 
     function sortProducts(list, mode) {
       const sorted = [...list];
-      if (mode === 'price-asc') {
-        sorted.sort((a, b) => Number(a.dataset.price) - Number(b.dataset.price));
-      } else if (mode === 'price-desc') {
-        sorted.sort((a, b) => Number(b.dataset.price) - Number(a.dataset.price));
-      } else if (mode === 'screen-desc') {
+      if (mode === 'screen-desc') {
         sorted.sort((a, b) => Number(b.dataset.screen) - Number(a.dataset.screen));
       }
       return sorted;

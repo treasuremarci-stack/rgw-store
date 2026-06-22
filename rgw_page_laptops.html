@@ -1246,10 +1246,9 @@
     function getSpecMeta(rawLabel) {
       const normalized = rawLabel.replace(/:/g, '').trim();
       const slug = normalized.toLowerCase();
-      const upperLabel = normalized.toUpperCase();
 
       if (slug.includes('процессор')) return { type: 'cpu', label: 'Процессор', key: true };
-      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: upperLabel === 'ОЗУ' ? 'ОЗУ' : 'Память', key: true };
+      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: normalized.toUpperCase() === 'ОЗУ' ? 'ОЗУ' : 'Память', key: true };
       if (slug.includes('видео') || slug.includes('видеокарта')) return { type: 'gpu', label: 'Видеокарта', key: true };
       if (slug.includes('экран') || slug.includes('дисплей')) return { type: 'screen', label: 'Экран', key: true };
       if (slug.includes('ssd') || slug.includes('хранилище')) return { type: 'storage', label: slug.includes('ssd') ? 'SSD' : 'Хранилище', key: false };
@@ -1265,7 +1264,7 @@
 
     function enhanceProductSpecs() {
       document.querySelectorAll('.product-specs .spec-row').forEach(row => {
-        if (row.querySelector('.spec-copy')) return;
+        if (row.dataset.enhanced === 'true') return;
 
         const labelNode = row.querySelector('.spec-label');
         const valueNode = row.querySelector('.spec-value');
@@ -1294,6 +1293,7 @@
         row.className = `spec-row spec-row--${meta.type}${meta.key ? ' spec-row--key' : ''}`;
         row.setAttribute('aria-label', `${meta.label}: ${value.textContent}`);
         row.replaceChildren(icon, copy);
+        row.dataset.enhanced = 'true';
       });
     }
 

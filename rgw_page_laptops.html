@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RGW — Ноутбуки</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
   <style>
     :root{
       --bg:#ffffff;
@@ -193,7 +193,7 @@
       display:block;
       margin-bottom:4px;
       font-size:11px;
-      font-weight:800;
+      font-weight:700;
       letter-spacing:.08em;
       text-transform:uppercase;
       color:#8b94a3;
@@ -1246,9 +1246,10 @@
     function getSpecMeta(rawLabel) {
       const normalized = rawLabel.replace(/:/g, '').trim();
       const slug = normalized.toLowerCase();
+      const upperLabel = normalized.toUpperCase();
 
       if (slug.includes('процессор')) return { type: 'cpu', label: 'Процессор', key: true };
-      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: normalized.toUpperCase() === 'ОЗУ' ? 'ОЗУ' : 'Память', key: true };
+      if (slug === 'озу' || slug.includes('память')) return { type: 'memory', label: upperLabel === 'ОЗУ' ? 'ОЗУ' : 'Память', key: true };
       if (slug.includes('видео') || slug.includes('видеокарта')) return { type: 'gpu', label: 'Видеокарта', key: true };
       if (slug.includes('экран') || slug.includes('дисплей')) return { type: 'screen', label: 'Экран', key: true };
       if (slug.includes('ssd') || slug.includes('хранилище')) return { type: 'storage', label: slug.includes('ssd') ? 'SSD' : 'Хранилище', key: false };
@@ -1257,7 +1258,7 @@
 
       return {
         type: 'generic',
-        label: normalized.charAt(0).toUpperCase() + normalized.slice(1),
+        label: normalized ? normalized.charAt(0).toUpperCase() + normalized.slice(1) : 'Характеристика',
         key: false
       };
     }

@@ -299,7 +299,7 @@
             <div class="eyebrow">Каталог ноутбуков</div>
             <h1>Ноутбуки</h1>
           </div>
-          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сортировка и фильтры.</p>
+          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сортировка. Рабочие фильтры, счетчик результатов, пустое состояние.</p>
         </div>
       </div>
     </section>
@@ -313,7 +313,7 @@
           </div>
           <div class="filters-sub">Секции можно сворачивать. Выбирай параметры, чтобы быстро отсеивать ноутбуки.</div>
 
-          <div class="filter-group" data-group>
+          <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Модель / бренд</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="check-list">
@@ -326,7 +326,7 @@
             </div>
           </div>
 
-          <div class="filter-group" data-group>
+          <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Диагональ экрана (дюйм)</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="check-list">
@@ -339,7 +339,7 @@
             </div>
           </div>
 
-          <div class="filter-group" data-group>
+          <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Объем оперативной памяти (ГБ)</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="check-list">
@@ -350,7 +350,7 @@
             </div>
           </div>
 
-          <div class="filter-group" data-group>
+          <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Линейка процессора</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="check-list">
@@ -367,7 +367,7 @@
             </div>
           </div>
 
-          <div class="filter-group" data-group>
+          <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Общий объем SSD (ГБ)</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="check-list">
@@ -378,11 +378,13 @@
             </div>
           </div>
 
-          <div class="filter-group" data-group>
+          <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Видеокарта</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="check-list">
                 <label class="check-item"><input type="checkbox" name="gpu" value="integrated">Интегрированная</label>
+                <label class="check-item"><input type="checkbox" name="gpu" value="rtx2050">RTX 2050</label>
+                <label class="check-item"><input type="checkbox" name="gpu" value="rtx3050">RTX 3050</label>
                 <label class="check-item"><input type="checkbox" name="gpu" value="rtx4050">RTX 4050</label>
                 <label class="check-item"><input type="checkbox" name="gpu" value="rtx4060">RTX 4060</label>
                 <label class="check-item"><input type="checkbox" name="gpu" value="rtx5060">RTX 5060</label>
@@ -1006,7 +1008,7 @@
                   </div>
                   <div class="spec-row">
                     <span class="spec-label">Экран:</span>
-                    <span class="spec-value">15.3″</span>
+                    <span class="spec-value">15.3″ FHD</span>
                   </div>
                 </div>
                 <div class="product-actions">
@@ -1015,11 +1017,11 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i5" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="lenovo" data-screen="16" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="integrated">
               <div class="product-image">💻</div>
               <div class="product-body">
-                <h3 class="product-title">LENOVO IPSLIM3 15IRH10</h3>
-                <p class="product-desc">i5-13420H, 16GB, 512GB, Backlit, DOS</p>
+                <h3 class="product-title">LENOVO LOQU 16GTHL</h3>
+                <p class="product-desc">i5-13420H, 16GB, 1TB, FHD, Windows 11</p>
                 <div class="product-specs">
                   <div class="spec-row">
                     <span class="spec-label">Процессор:</span>
@@ -1027,11 +1029,65 @@
                   </div>
                   <div class="spec-row">
                     <span class="spec-label">Память:</span>
-                    <span class="spec-value">16 ГБ RAM / 512 ГБ SSD</span>
+                    <span class="spec-value">16 ГБ RAM / 1 ТБ SSD</span>
                   </div>
                   <div class="spec-row">
                     <span class="spec-label">Экран:</span>
-                    <span class="spec-value">15.3″</span>
+                    <span class="spec-value">16″ FHD</span>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated">
+              <div class="product-image">💻</div>
+              <div class="product-body">
+                <h3 class="product-title">LENOVO THINKBOOK 15 G6</h3>
+                <p class="product-desc">Core 5-1335U, 8GB, 512GB, FHD IPS</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel Core 5-1335U</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">8 ГБ RAM / 512 ГБ SSD</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">15.6″ IPS</span>
+                  </div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-brand="msi" data-screen="16" data-ram="16" data-cpu="i7" data-ssd="1000" data-gpu="rtx4050">
+              <div class="product-image">💻</div>
+              <div class="product-body">
+                <h3 class="product-title">MSI GF65 THIN 11UD</h3>
+                <p class="product-desc">i7-11800H, RTX 4050, 16GB, 1TB, FHD</p>
+                <div class="product-specs">
+                  <div class="spec-row">
+                    <span class="spec-label">Процессор:</span>
+                    <span class="spec-value">Intel i7-11800H</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Память:</span>
+                    <span class="spec-value">16 ГБ RAM / 1 ТБ SSD</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Экран:</span>
+                    <span class="spec-value">16″ FHD</span>
+                  </div>
+                  <div class="spec-row">
+                    <span class="spec-label">Видеокарта:</span>
+                    <span class="spec-value">RTX 4050 8GB</span>
                   </div>
                 </div>
                 <div class="product-actions">
@@ -1042,7 +1098,7 @@
           </div>
 
           <div class="empty-state" id="emptyState">
-            <p>Нет результатов по выбранным фильтрам. Попробуйте изменить параметры поиска.</p>
+            <p>К сожалению, по вашему запросу ничего не найдено. Попробуйте изменить фильтры.</p>
           </div>
         </div>
       </div>
@@ -1051,25 +1107,26 @@
     <section class="reasons">
       <div class="container">
         <div class="section-head">
-          <h2>Почему выбирают RGW</h2>
+          <h2>Почему RGW?</h2>
+          <p>Мы предлагаем оборудование, которое прошло проверку. Обслуживаем за счёт положительных отзывов.</p>
         </div>
         <div class="reasons-grid">
-          <article class="reason-card">
-            <h3>✓ Лучшие цены</h3>
-            <p>Честные цены без наценок. Все товары закупаются напрямую у производителей.</p>
-          </article>
-          <article class="reason-card">
-            <h3>✓ Гарантия</h3>
-            <p>Товары поставляются с официальной гарантией производителя на 1-3 года.</p>
-          </article>
-          <article class="reason-card">
-            <h3>✓ Опытный персонал</h3>
-            <p>Консультанты помогут выбрать нужное оборудование и ответят на все вопросы.</p>
-          </article>
-          <article class="reason-card">
-            <h3>✓ Быстрая доставка</h3>
-            <p>Доставим заказ в течение 1-2 дней по Санкт-Петербургу и Ленобласти.</p>
-          </article>
+          <div class="reason-card">
+            <h3>Честная цена</h3>
+            <p>Сравните наши предложения — нам нечего скрывать. Мы конкурируем именно качеством и доступностью.</p>
+          </div>
+          <div class="reason-card">
+            <h3>Большой выбор</h3>
+            <p>Каталог постоянно пополняется. Актуальные модели от ведущих производителей в наличии.</p>
+          </div>
+          <div class="reason-card">
+            <h3>Гарантия</h3>
+            <p>Каждое устройство проходит проверку перед отправкой. Полная гарантия на все товары.</p>
+          </div>
+          <div class="reason-card">
+            <h3>Быстрая доставка</h3>
+            <p>Не ждите неделями. Доставим в течение 2–3 рабочих дней при наличии товара.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -1077,111 +1134,195 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© 2025 RGW — локальный магазин компьютерной техники. Все права защищены.</p>
+      <p>&copy; 2024 RGW — локальный магазин компьютерной техники. Все права защищены.</p>
     </div>
   </footer>
 
   <script>
-    const filtersPanel = document.getElementById("filtersPanel");
-    const toggleFiltersBtn = document.getElementById("toggleFiltersBtn");
-    const clearFiltersBtn = document.getElementById("clearFiltersBtn");
-    const sortSelect = document.getElementById("sortSelect");
-    const productsGrid = document.getElementById("productsGrid");
-    const emptyState = document.getElementById("emptyState");
-    const resultsCount = document.getElementById("resultsCount");
-    const activeFiltersContainer = document.getElementById("activeFilters");
-    
-    const productCards = Array.from(productsGrid.querySelectorAll(".product-card"));
+    const filtersPanel = document.getElementById('filtersPanel');
+    const toggleFiltersBtn = document.getElementById('toggleFiltersBtn');
+    const clearFiltersBtn = document.getElementById('clearFiltersBtn');
+    const filterToggles = document.querySelectorAll('.filter-toggle');
+    const productsGrid = document.getElementById('productsGrid');
+    const sortSelect = document.getElementById('sortSelect');
+    const resultsCount = document.getElementById('resultsCount');
+    const activeFilters = document.getElementById('activeFilters');
+    const emptyState = document.getElementById('emptyState');
 
-    function toggleFilterGroup(e) {
-      const group = e.currentTarget.closest(".filter-group");
-      group.classList.toggle("collapsed");
+    let activeFilterData = {};
+
+    // Collapse all filter groups on page load
+    function initializeFilters() {
+      const filterGroups = document.querySelectorAll('.filter-group');
+      filterGroups.forEach(group => {
+        group.classList.add('collapsed');
+      });
     }
 
-    function applyFilters() {
-      const selectedFilters = {};
-      const checkboxes = filtersPanel.querySelectorAll("input[type='checkbox']:checked");
-      
-      checkboxes.forEach(cb => {
-        if (!selectedFilters[cb.name]) {
-          selectedFilters[cb.name] = [];
+    // Toggle filter group
+    filterToggles.forEach(toggle => {
+      toggle.addEventListener('click', () => {
+        const filterGroup = toggle.closest('.filter-group');
+        filterGroup.classList.toggle('collapsed');
+      });
+    });
+
+    // Toggle mobile filters panel
+    toggleFiltersBtn.addEventListener('click', () => {
+      filtersPanel.classList.toggle('open');
+    });
+
+    // Filter and display products
+    function filterProducts() {
+      const inputs = document.querySelectorAll('input[type="checkbox"]');
+      const filters = {
+        brand: [],
+        screen: [],
+        ram: [],
+        cpu: [],
+        ssd: [],
+        gpu: []
+      };
+
+      inputs.forEach(input => {
+        if (input.checked) {
+          filters[input.name].push(input.value);
         }
-        selectedFilters[cb.name].push(cb.value);
       });
 
-      const visibleCards = productCards.filter(card => {
-        return Object.entries(selectedFilters).every(([filterName, values]) => {
-          const cardValue = card.getAttribute(`data-${filterName}`);
-          return values.length === 0 || values.includes(cardValue);
-        });
+      activeFilterData = filters;
+      displayFilters();
+
+      const cards = document.querySelectorAll('.product-card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const cardBrand = card.getAttribute('data-brand');
+        const cardScreen = card.getAttribute('data-screen');
+        const cardRam = card.getAttribute('data-ram');
+        const cardCpu = card.getAttribute('data-cpu');
+        const cardSsd = card.getAttribute('data-ssd');
+        const cardGpu = card.getAttribute('data-gpu');
+
+        const matchesBrand = filters.brand.length === 0 || filters.brand.includes(cardBrand);
+        const matchesScreen = filters.screen.length === 0 || filters.screen.includes(cardScreen);
+        const matchesRam = filters.ram.length === 0 || filters.ram.includes(cardRam);
+        const matchesCpu = filters.cpu.length === 0 || filters.cpu.includes(cardCpu);
+        const matchesSsd = filters.ssd.length === 0 || filters.ssd.includes(cardSsd);
+        const matchesGpu = filters.gpu.length === 0 || filters.gpu.includes(cardGpu);
+
+        if (matchesBrand && matchesScreen && matchesRam && matchesCpu && matchesSsd && matchesGpu) {
+          card.style.display = 'block';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
       });
 
-      productsGrid.innerHTML = "";
-      if (visibleCards.length === 0) {
-        emptyState.classList.add("show");
-      } else {
-        emptyState.classList.remove("show");
-        visibleCards.forEach(card => productsGrid.appendChild(card));
-      }
-
-      resultsCount.textContent = visibleCards.length;
-      updateActiveFilters(selectedFilters);
-      sortProducts();
+      resultsCount.textContent = visibleCount;
+      emptyState.classList.toggle('show', visibleCount === 0);
     }
 
-    function updateActiveFilters(filters) {
-      activeFiltersContainer.innerHTML = "";
-      Object.entries(filters).forEach(([filterName, values]) => {
-        values.forEach(value => {
-          const pill = document.createElement("div");
-          pill.className = "filter-pill";
-          const label = filtersPanel.querySelector(`input[name='${filterName}'][value='${value}']`).closest("label").textContent;
-          pill.innerHTML = `${label} <button type="button" data-filter="${filterName}" data-value="${value}">×</button>`;
-          activeFiltersContainer.appendChild(pill);
-        });
-      });
+    // Display active filters
+    function displayFilters() {
+      activeFilters.innerHTML = '';
 
-      activeFiltersContainer.querySelectorAll("button").forEach(btn => {
-        btn.addEventListener("click", () => {
-          const checkbox = filtersPanel.querySelector(`input[name='${btn.dataset.filter}'][value='${btn.dataset.value}']`);
-          checkbox.checked = false;
-          applyFilters();
+      Object.keys(activeFilterData).forEach(filterName => {
+        activeFilterData[filterName].forEach(value => {
+          const pill = document.createElement('div');
+          pill.className = 'filter-pill';
+
+          const label = document.createElement('span');
+          label.textContent = value;
+
+          const button = document.createElement('button');
+          button.innerHTML = '✕';
+          button.addEventListener('click', () => {
+            const input = document.querySelector(`input[name="${filterName}"][value="${value}"]`);
+            input.checked = false;
+            filterProducts();
+          });
+
+          pill.appendChild(label);
+          pill.appendChild(button);
+          activeFilters.appendChild(pill);
         });
       });
     }
 
-    function sortProducts() {
-      const sortValue = sortSelect.value;
-      const cards = Array.from(productsGrid.querySelectorAll(".product-card"));
+    // Clear all filters
+    clearFiltersBtn.addEventListener('click', () => {
+      document.querySelectorAll('input[type="checkbox"]').forEach(input => {
+        input.checked = false;
+      });
+      filterProducts();
+    });
 
-      if (sortValue === "screen-desc") {
-        cards.sort((a, b) => parseFloat(b.dataset.screen) - parseFloat(a.dataset.screen));
+    // Sort products
+    sortSelect.addEventListener('change', (e) => {
+      const sortValue = e.target.value;
+      const cards = Array.from(document.querySelectorAll('.product-card'));
+
+      if (sortValue === 'screen-desc') {
+        cards.sort((a, b) => {
+          const screenA = parseFloat(a.getAttribute('data-screen'));
+          const screenB = parseFloat(b.getAttribute('data-screen'));
+          return screenB - screenA;
+        });
       }
 
       cards.forEach(card => productsGrid.appendChild(card));
+    });
+
+    // Checkbox event listeners
+    document.querySelectorAll('input[type="checkbox"]').forEach(input => {
+      input.addEventListener('change', filterProducts);
+    });
+
+    // Smooth scroll with mouse wheel
+    let isScrolling = false;
+    const scrollDuration = 300; // milliseconds
+
+    function smoothScroll(distance) {
+      if (isScrolling) return;
+      isScrolling = true;
+
+      const start = window.scrollY;
+      const end = start + distance;
+      const startTime = Date.now();
+
+      function scroll() {
+        const elapsed = Date.now() - startTime;
+        const progress = Math.min(elapsed / scrollDuration, 1);
+        
+        // Easing function for smooth animation
+        const easeProgress = progress < 0.5 
+          ? 2 * progress * progress 
+          : -1 + (4 - 2 * progress) * progress;
+        
+        window.scrollY = start + (end - start) * easeProgress;
+        window.scrollTo(0, start + (end - start) * easeProgress);
+
+        if (progress < 1) {
+          requestAnimationFrame(scroll);
+        } else {
+          isScrolling = false;
+        }
+      }
+
+      requestAnimationFrame(scroll);
     }
 
-    filtersPanel.querySelectorAll(".filter-toggle").forEach(toggle => {
-      toggle.addEventListener("click", toggleFilterGroup);
-    });
+    // Listen to mouse wheel
+    document.addEventListener('wheel', (e) => {
+      e.preventDefault();
 
-    filtersPanel.querySelectorAll("input[type='checkbox']").forEach(checkbox => {
-      checkbox.addEventListener("change", applyFilters);
-    });
+      const scrollDistance = e.deltaY > 0 ? 100 : -100;
+      smoothScroll(scrollDistance);
+    }, { passive: false });
 
-    clearFiltersBtn.addEventListener("click", () => {
-      filtersPanel.querySelectorAll("input[type='checkbox']:checked").forEach(cb => {
-        cb.checked = false;
-      });
-      applyFilters();
-    });
-
-    sortSelect.addEventListener("change", sortProducts);
-    toggleFiltersBtn.addEventListener("click", () => {
-      filtersPanel.classList.toggle("open");
-    });
-
-    applyFilters();
+    // Initialize filters on page load
+    initializeFilters();
   </script>
 </body>
 </html>

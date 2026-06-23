@@ -324,13 +324,13 @@
           </div>
 
           <div class="filter-group" data-group>
-            <button class="filter-toggle" type="button"><span>Цена (ЅМ)</span><span class="caret">▾</span></button>
+            <button class="filter-toggle" type="button"><span>Цена (с.)</span><span class="caret">▾</span></button>
             <div class="filter-content">
               <div class="range-slider">
                 <input type="range" id="priceMin" class="range-input" name="price-min" min="2000" max="30000" value="2000" step="500">
                 <div class="range-values">
-                  <span id="priceMinValue">2 000 ЅМ</span>
-                  <span id="priceMaxValue">30 000 ЅМ</span>
+                  <span id="priceMinValue">2 000 с.</span>
+                  <span id="priceMaxValue">30 000 с.</span>
                 </div>
                 <input type="range" id="priceMax" class="range-input" name="price-max" min="2000" max="30000" value="30000" step="500">
               </div>
@@ -1019,7 +1019,7 @@
     <section class="reasons">
       <div class="container">
         <div class="section-head">
-          <h2>Почему выбирают RGW</h2>
+          <h2>П��чему выбирают RGW</h2>
           <p>Наш магазин — место, где люди могут найти и купить компьютеры, ноутбуки и аксессуары с уверенностью в качестве и по справедливым ценам.</p>
         </div>
         <div class="reasons-grid">
@@ -1046,7 +1046,7 @@
 
   <footer class="footer">
     <div class="container">
-      <p>© 2024 RGW Store. Все цены указаны в таджицких сомони (ЅМ). Связаться: rgw@shop.tj</p>
+      <p>© 2024 RGW Store. Все цены указаны в таджицких сомони (с.). Связаться: rgw@shop.tj</p>
     </div>
   </footer>
 
@@ -1057,8 +1057,8 @@
     const priceMaxValue = document.getElementById('priceMaxValue');
 
     function updatePriceDisplay() {
-      priceMinValue.textContent = new Intl.NumberFormat('ru-RU').format(priceMin.value) + ' ЅМ';
-      priceMaxValue.textContent = new Intl.NumberFormat('ru-RU').format(priceMax.value) + ' ЅМ';
+      priceMinValue.textContent = new Intl.NumberFormat('ru-RU').format(priceMin.value) + ' с.';
+      priceMaxValue.textContent = new Intl.NumberFormat('ru-RU').format(priceMax.value) + ' с.';
     }
 
     priceMin.addEventListener('input', updatePriceDisplay);
@@ -1147,7 +1147,7 @@
       if (minPrice > 2000 || maxPrice < 30000) {
         const pill = document.createElement('div');
         pill.className = 'filter-pill';
-        pill.innerHTML = `Цена: ${minPrice} – ${maxPrice} ЅМ <button type="button">✕</button>`;
+        pill.innerHTML = `Цена: ${minPrice} – ${maxPrice} с. <button type="button">✕</button>`;
         pill.querySelector('button').addEventListener('click', () => {
           priceMin.value = 2000;
           priceMax.value = 30000;

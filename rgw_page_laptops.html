@@ -299,7 +299,7 @@
             <div class="eyebrow">Каталог ноутбуков</div>
             <h1>Ноутбуки</h1>
           </div>
-          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сорти��овка. Рабочие фильтры, счетчик результатов, пустое состояние.</p>
+          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сортировка. Рабочие фильтры, счетчик результатов, пустое состояние.</p>
         </div>
       </div>
     </section>
@@ -1278,6 +1278,20 @@
     document.querySelectorAll('input[type="checkbox"]').forEach(input => {
       input.addEventListener('change', filterProducts);
     });
+
+    // Mouse wheel scroll for filters panel
+    filtersPanel.addEventListener('wheel', (e) => {
+      const scrollTop = filtersPanel.scrollTop;
+      const scrollHeight = filtersPanel.scrollHeight;
+      const clientHeight = filtersPanel.clientHeight;
+
+      if ((scrollTop === 0 && e.deltaY < 0) || (scrollTop >= scrollHeight - clientHeight && e.deltaY > 0)) {
+        return;
+      }
+
+      e.preventDefault();
+      filtersPanel.scrollTop += e.deltaY;
+    }, { passive: false });
 
     // Initialize filters on page load
     initializeFilters();

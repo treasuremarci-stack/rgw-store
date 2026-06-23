@@ -139,6 +139,14 @@
     .check-item input:checked{border-color:#111;background:#f6f6f6}
     .check-item input:checked::after{transform:scale(1)}
 
+    .range-slider{padding:0 18px 18px;display:grid;gap:12px}
+    .range-input{width:100%;height:6px;background:#e7e7e7;border-radius:3px;outline:none;-webkit-appearance:none;appearance:none}
+    .range-input::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:18px;height:18px;border-radius:50%;background:#111;cursor:pointer;transition:.2s ease;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+    .range-input::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:#111;cursor:pointer;border:none;transition:.2s ease;box-shadow:0 2px 6px rgba(0,0,0,.15)}
+    .range-input::-webkit-slider-thumb:hover{transform:scale(1.15)}
+    .range-input::-moz-range-thumb:hover{transform:scale(1.15)}
+    .range-values{display:flex;justify-content:space-between;font-size:13px;color:#333;font-weight:600}
+
     .catalog-main{min-width:0}
     .toolbar{
       display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px;padding:16px 18px;
@@ -311,6 +319,20 @@
             <button class="btn btn-soft" id="clearFiltersBtn" type="button">Сбросить</button>
           </div>
 
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Цена (₽)</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="range-slider">
+                <input type="range" id="priceMin" class="range-input" name="price-min" min="20000" max="300000" value="20000" step="5000">
+                <div class="range-values">
+                  <span id="priceMinValue">20 000 ₽</span>
+                  <span id="priceMaxValue">300 000 ₽</span>
+                </div>
+                <input type="range" id="priceMax" class="range-input" name="price-max" min="20000" max="300000" value="300000" step="5000">
+              </div>
+            </div>
+          </div>
+
           <div class="filter-group collapsed" data-group>
             <button class="filter-toggle" type="button"><span>Модель / бренд</span><span class="caret">▾</span></button>
             <div class="filter-content">
@@ -412,7 +434,7 @@
           <div class="active-filters" id="activeFilters"></div>
 
           <div class="products-grid" id="productsGrid">
-            <article class="product-card" data-brand="acer" data-screen="15.6" data-ram="16" data-cpu="r7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="acer" data-screen="15.6" data-ram="16" data-cpu="r7" data-ssd="512" data-gpu="integrated" data-price="45000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">ACER ASPIRE GO 15</h3>
@@ -437,7 +459,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="18" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060">
+            <article class="product-card" data-brand="asus" data-screen="18" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060" data-price="185000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">ASUS ROG STRIX G815LM</h3>
@@ -466,7 +488,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="35000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">ASUS VIVOBOOK X1504VA</h3>
@@ -491,7 +513,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i3" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i3" data-ssd="512" data-gpu="integrated" data-price="32000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">ASUS VIVOBOOK X1504VA i3</h3>
@@ -516,7 +538,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="i7" data-ssd="512" data-gpu="integrated" data-price="42000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">ASUS VIVOBOOK X1504VA i7</h3>
@@ -541,7 +563,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="48000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">ASUS X1504VA CORE 7</h3>
@@ -566,7 +588,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="r5" data-ssd="1000" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="r5" data-ssd="1000" data-gpu="integrated" data-price="52000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP 15-FC0025WM</h3>
@@ -591,7 +613,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="58000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP 15-FD0127X</h3>
@@ -616,7 +638,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core5" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="55000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP 15-FD0215DX</h3>
@@ -641,7 +663,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core3" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core3" data-ssd="512" data-gpu="integrated" data-price="28000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP 15-FD1134NIA</h3>
@@ -666,7 +688,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="51000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP 15-FD1310TU</h3>
@@ -691,7 +713,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="61000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP 250 RG10</h3>
@@ -716,7 +738,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070">
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070" data-price="225000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP OMEN 16 AN0075CL</h3>
@@ -745,7 +767,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16.1" data-ram="16" data-cpu="i7" data-ssd="1000" data-gpu="rtx4060">
+            <article class="product-card" data-brand="hp" data-screen="16.1" data-ram="16" data-cpu="i7" data-ssd="1000" data-gpu="rtx4060" data-price="145000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP OMEN 16-WD0073DX</h3>
@@ -774,7 +796,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core5" data-ssd="1000" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core5" data-ssd="1000" data-gpu="integrated" data-price="95000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP OMNIBOOK 16-AF1055CL</h3>
@@ -799,7 +821,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="72000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP PROBOOK 4 G1i</h3>
@@ -824,7 +846,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="rtx2050">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="rtx2050" data-price="108000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP PROBOOK 450 G10 i5</h3>
@@ -853,7 +875,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated" data-price="85000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP PROBOOK 450 G10 i7</h3>
@@ -878,7 +900,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="16" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="hp" data-screen="16" data-ram="8" data-cpu="core7" data-ssd="512" data-gpu="integrated" data-price="68000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP PROBOOK 460 G11</h3>
@@ -903,7 +925,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5060">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5060" data-price="125000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP VICTUS 15-FA2082WM</h3>
@@ -932,7 +954,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060" data-price="135000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP VICTUS 15-FA2115NIA</h3>
@@ -961,7 +983,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5050">
+            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="512" data-gpu="rtx5050" data-price="132000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">HP VICTUS 15-FA2120NIA</h3>
@@ -990,7 +1012,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="lenovo" data-screen="15.3" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="integrated" data-price="78000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">LENOVO IP SLIM3 15IRH10</h3>
@@ -1015,7 +1037,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="integrated">
+            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="1000" data-gpu="integrated" data-price="88000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">LENOVO PROBOOK 15 IRH7</h3>
@@ -1040,7 +1062,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="14.0" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated">
+            <article class="product-card" data-brand="lenovo" data-screen="14.0" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="65000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">LENOVO YOGA 7 14AHP8</h3>
@@ -1065,7 +1087,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070ti">
+            <article class="product-card" data-brand="lenovo" data-screen="15.6" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070ti" data-price="280000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">LENOVO LEGION PRO 5 16ARX8H</h3>
@@ -1094,7 +1116,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="msi" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070">
+            <article class="product-card" data-brand="msi" data-screen="16" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5070" data-price="265000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">MSI VECTOR 16 HX A13VFGH</h3>
@@ -1123,7 +1145,7 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="msi" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx4050">
+            <article class="product-card" data-brand="msi" data-screen="15.6" data-ram="16" data-cpu="core7" data-ssd="1000" data-gpu="rtx4050" data-price="152000">
               <div class="product-image">💻</div>
               <div class="product-body">
                 <h3 class="product-title">MSI VECTOR 15 HX B14VFGH</h3>
@@ -1206,6 +1228,12 @@
     const emptyState = document.getElementById('emptyState');
     const activeFiltersContainer = document.getElementById('activeFilters');
     const filterGroups = document.querySelectorAll('[data-group]');
+    
+    // Price range inputs
+    const priceMin = document.getElementById('priceMin');
+    const priceMax = document.getElementById('priceMax');
+    const priceMinValue = document.getElementById('priceMinValue');
+    const priceMaxValue = document.getElementById('priceMaxValue');
 
     // Filter group toggle
     document.querySelectorAll('.filter-toggle').forEach((toggle) => {
@@ -1221,6 +1249,23 @@
         filtersPanel.classList.toggle('open');
       });
     }
+
+    // Price range slider
+    priceMin.addEventListener('input', () => {
+      if (parseInt(priceMin.value) >= parseInt(priceMax.value)) {
+        priceMin.value = priceMax.value;
+      }
+      priceMinValue.textContent = new Intl.NumberFormat('ru-RU').format(priceMin.value) + ' ₽';
+      updateFilters();
+    });
+
+    priceMax.addEventListener('input', () => {
+      if (parseInt(priceMax.value) <= parseInt(priceMin.value)) {
+        priceMax.value = priceMin.value;
+      }
+      priceMaxValue.textContent = new Intl.NumberFormat('ru-RU').format(priceMax.value) + ' ₽';
+      updateFilters();
+    });
 
     // Initialize filter state
     document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
@@ -1240,14 +1285,28 @@
         filterState[name].push(checkbox.value);
       });
 
+      // Add price range to filter state
+      filterState.priceMin = parseInt(priceMin.value);
+      filterState.priceMax = parseInt(priceMax.value);
+
       applyFilters();
     }
 
     function applyFilters() {
       let filtered = allProducts.filter((product) => {
+        const productPrice = parseInt(product.getAttribute('data-price'));
+        
+        // Check price range
+        if (productPrice < filterState.priceMin || productPrice > filterState.priceMax) {
+          return false;
+        }
+
+        // Check other filters
         for (const [filterName, filterValues] of Object.entries(filterState)) {
+          if (filterName === 'priceMin' || filterName === 'priceMax') continue;
+          
           const productValue = product.getAttribute(`data-${filterName}`);
-          if (!filterValues.includes(productValue)) {
+          if (filterValues.length > 0 && !filterValues.includes(productValue)) {
             return false;
           }
         }
@@ -1280,7 +1339,25 @@
     function updateActiveFiltersDisplay() {
       activeFiltersContainer.innerHTML = '';
 
+      // Add price filter if not default
+      if (filterState.priceMin > 20000 || filterState.priceMax < 300000) {
+        const pricePill = document.createElement('div');
+        pricePill.className = 'filter-pill';
+        pricePill.innerHTML = `${new Intl.NumberFormat('ru-RU').format(filterState.priceMin)} - ${new Intl.NumberFormat('ru-RU').format(filterState.priceMax)} ₽ <button type="button">✕</button>`;
+        pricePill.querySelector('button').addEventListener('click', () => {
+          priceMin.value = 20000;
+          priceMax.value = 300000;
+          priceMinValue.textContent = '20 000 ₽';
+          priceMaxValue.textContent = '300 000 ₽';
+          updateFilters();
+        });
+        activeFiltersContainer.appendChild(pricePill);
+      }
+
+      // Add other filters
       for (const [filterName, filterValues] of Object.entries(filterState)) {
+        if (filterName === 'priceMin' || filterName === 'priceMax') continue;
+        
         filterValues.forEach((value) => {
           const pill = document.createElement('div');
           pill.className = 'filter-pill';
@@ -1300,6 +1377,10 @@
       document.querySelectorAll('input[type="checkbox"]').forEach((checkbox) => {
         checkbox.checked = false;
       });
+      priceMin.value = 20000;
+      priceMax.value = 300000;
+      priceMinValue.textContent = '20 000 ₽';
+      priceMaxValue.textContent = '300 000 ₽';
       updateFilters();
     });
 

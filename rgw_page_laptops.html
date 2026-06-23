@@ -34,50 +34,14 @@
     button,input,select{font:inherit}
     .container{width:min(1320px, calc(100% - 40px));margin:0 auto;}
 
-    .topbar{
-      background:#f8f8f8;
-      border-bottom:1px solid var(--line);
-      color:#666;
-      font-size:13px;
-    }
-    .topbar-inner{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:12px;
-      padding:10px 0;
-    }
-    .header{
-      position:sticky;
-      top:0;
-      z-index:60;
-      background:rgba(255,255,255,.96);
-      backdrop-filter:blur(10px);
-      border-bottom:1px solid var(--line);
-    }
-    .header-inner{
-      display:flex;
-      align-items:center;
-      justify-content:space-between;
-      gap:18px;
-      padding:16px 0;
-    }
+    .topbar{background:#f8f8f8;border-bottom:1px solid var(--line);color:#666;font-size:13px;}
+    .topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;}
+    .header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 0;}
     .brand{font-size:30px;font-weight:800;letter-spacing:.04em}
     .nav{display:flex;gap:18px;font-size:15px;color:#333;flex-wrap:wrap}
     .nav a:hover{color:#000}
-    .btn{
-      display:inline-flex;
-      align-items:center;
-      justify-content:center;
-      gap:8px;
-      border-radius:999px;
-      padding:13px 22px;
-      font-size:14px;
-      font-weight:700;
-      border:1px solid transparent;
-      transition:.2s ease;
-      cursor:pointer;
-    }
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;padding:13px 22px;font-size:14px;font-weight:700;border:1px solid transparent;transition:.2s ease;cursor:pointer;}
     .btn-dark{background:#111;color:#fff}
     .btn-dark:hover{opacity:.92}
     .btn-light{background:#fff;border-color:#d6d6d6;color:#111}
@@ -94,28 +58,20 @@
     .shop-title{font-size:56px;line-height:1;letter-spacing:-.045em;font-weight:500;margin:0 0 22px}
     .shop-row{display:grid;grid-template-columns:repeat(6, minmax(0, 1fr));gap:18px;align-items:start}
     .shop-item{text-align:center;min-width:0;display:block}
-    .shop-circle{
-      width:100%;aspect-ratio:1/1;max-width:124px;margin:0 auto 12px;border-radius:50%;background:#e8e8e8;
-      display:flex;align-items:center;justify-content:center;font-size:46px;
-    }
+    .shop-circle{width:100%;aspect-ratio:1/1;max-width:124px;margin:0 auto 12px;border-radius:50%;background:#e8e8e8;display:flex;align-items:center;justify-content:center;font-size:46px;}
     .shop-item.active .shop-circle{background:#111;color:#fff}
     .shop-label{font-size:15px;line-height:1.25;font-weight:700;color:#222;max-width:124px;margin:0 auto}
 
     .catalog-header{padding:20px 0 10px}
     .crumbs{display:flex;gap:10px;align-items:center;color:#707070;font-size:14px;margin-bottom:18px;flex-wrap:wrap}
     .crumbs a:hover{color:#111}
-    .category-strip{
-      display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;
-      padding:24px 0 0;border-bottom:1px solid var(--line);
-    }
+    .category-strip{display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:24px 0 0;border-bottom:1px solid var(--line);}
     .category-strip p{max-width:720px;color:#5b5b5b;font-size:16px;padding-bottom:18px}
     .page-title-wrap{padding-bottom:18px}
     .page-title-wrap .eyebrow{margin-bottom:12px}
 
     .catalog-wrap{display:grid;grid-template-columns:312px minmax(0,1fr);gap:24px;align-items:start}
-    .filters-panel{
-      position:sticky;top:92px;border:1px solid var(--line);border-radius:22px;background:#fff;padding:0;box-shadow:0 8px 24px rgba(0,0,0,.03);overflow:hidden;max-height:calc(100vh - 120px);overflow-y:auto;
-    }
+    .filters-panel{position:sticky;top:92px;border:1px solid var(--line);border-radius:22px;background:#fff;padding:0;box-shadow:0 8px 24px rgba(0,0,0,.03);overflow:hidden;max-height:calc(100vh - 120px);overflow-y:auto;}
     .filters-panel::-webkit-scrollbar{width:6px}
     .filters-panel::-webkit-scrollbar-track{background:#f5f5f5;border-radius:3px}
     .filters-panel::-webkit-scrollbar-thumb{background:#d0d0d0;border-radius:3px}
@@ -124,10 +80,7 @@
     .filters-head h3{font-size:20px;line-height:1;letter-spacing:-.03em}
     .filters-sub{padding:0 18px 16px;color:var(--muted);font-size:13px}
     .filter-group{border-top:1px solid var(--line)}
-    .filter-toggle{
-      width:100%;appearance:none;border:none;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;
-      padding:16px 18px;cursor:pointer;text-align:left;font-size:15px;font-weight:700;color:#111;
-    }
+    .filter-toggle{width:100%;appearance:none;border:none;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;cursor:pointer;text-align:left;font-size:15px;font-weight:700;color:#111;}
     .filter-toggle:hover{background:#fafafa}
     .filter-toggle .caret{font-size:18px;color:#666;transition:transform .2s ease}
     .filter-group.collapsed .filter-toggle .caret{transform:rotate(-90deg)}
@@ -135,10 +88,7 @@
     .filter-group.collapsed .filter-content{display:none}
     .check-list{display:grid;gap:10px}
     .check-item{display:flex;align-items:center;gap:10px;font-size:14px;color:#222;cursor:pointer;min-height:22px}
-    .check-item input{
-      appearance:none;-webkit-appearance:none;width:18px;height:18px;border:1px solid #bfbfbf;border-radius:5px;background:#fff;flex:0 0 auto;
-      display:grid;place-items:center;margin:0;transition:.18s ease;
-    }
+    .check-item input{appearance:none;-webkit-appearance:none;width:18px;height:18px;border:1px solid #bfbfbf;border-radius:5px;background:#fff;flex:0 0 auto;display:grid;place-items:center;margin:0;transition:.18s ease;}
     .check-item input::after{content:"";width:8px;height:8px;border-radius:2px;background:#111;transform:scale(0);transition:transform .18s ease}
     .check-item input:checked{border-color:#111;background:#f6f6f6}
     .check-item input:checked::after{transform:scale(1)}
@@ -152,10 +102,7 @@
     .range-values{display:flex;justify-content:space-between;font-size:13px;color:#333;font-weight:600}
 
     .catalog-main{min-width:0}
-    .toolbar{
-      display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px;padding:16px 18px;
-      border:1px solid var(--line);border-radius:22px;background:var(--soft-2);
-    }
+    .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px;padding:16px 18px;border:1px solid var(--line);border-radius:22px;background:var(--soft-2);}
     .toolbar-left,.toolbar-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
     .badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;padding:8px 12px;border-radius:999px;background:#111;color:#fff;font-size:13px;font-weight:700}
     .toolbar-title{font-size:14px;color:#333;font-weight:700}
@@ -166,43 +113,30 @@
     .filter-pill button{appearance:none;border:none;background:transparent;cursor:pointer;font-size:16px;line-height:1;padding:0;color:#666}
 
     .products-grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
-    .product-card{
-      border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;
-      transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 2px 8px rgba(0,0,0,.04);
-    }
+    .product-card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 2px 8px rgba(0,0,0,.04);}
     .product-card:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(0,0,0,.08);border-color:#d9d9d9}
-    .product-image{
-      aspect-ratio:1/1;
-      background:linear-gradient(135deg, #f5f5f5 0%, #ececec 100%);
-      position:relative;
-      display:flex;
-      align-items:center;
-      justify-content:center;
-      font-size:64px;
-    }
+
+    .product-image{position:relative;aspect-ratio:1/1;background:linear-gradient(135deg, #f5f5f5 0%, #ececec 100%);overflow:hidden}
+    .product-image img{width:100%;height:100%;object-fit:cover;display:none}
+    .product-image.has-gallery .product-placeholder{display:none}
+    .product-image.has-gallery img{display:block}
+    .product-placeholder{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:64px}
+
+    .gallery-track{position:absolute;inset:0;display:flex;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+    .gallery-track::-webkit-scrollbar{display:none}
+    .gallery-slide{flex:0 0 100%;height:100%;scroll-snap-align:start;position:relative}
+    .gallery-slide img{display:block;width:100%;height:100%;object-fit:cover}
+    .gallery-hint{position:absolute;left:50%;bottom:10px;transform:translateX(-50%);padding:6px 10px;border-radius:999px;background:rgba(0,0,0,.5);color:#fff;font-size:11px;font-weight:700;z-index:2;pointer-events:none;opacity:0;transition:opacity .2s ease}
+    .product-image.has-gallery:hover .gallery-hint{opacity:1}
+
     .product-body{padding:16px}
     .product-title{font-size:15px;line-height:1.3;letter-spacing:-.01em;margin-bottom:12px;font-weight:600;color:#111}
     .product-desc{color:var(--muted);font-size:13px;margin-bottom:12px;min-height:26px}
-    
-    .product-specs{
-      display:flex;
-      flex-direction:column;
-      gap:8px;
-      margin-bottom:12px;
-      padding-top:12px;
-      border-top:1px solid var(--line);
-    }
-    .spec-row{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:8px;
-      font-size:12px;
-      color:#666;
-    }
+    .product-specs{display:flex;flex-direction:column;gap:8px;margin-bottom:12px;padding-top:12px;border-top:1px solid var(--line)}
+    .spec-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px;color:#666}
     .spec-label{font-weight:600;color:#333}
     .spec-value{color:#111}
     .product-price{font-size:18px;font-weight:700;color:#111;margin-bottom:12px}
-    
     .product-actions{display:flex;gap:8px;flex-wrap:wrap}
     .product-actions .btn{padding:10px 14px;font-size:13px}
     .empty-state{display:none;border:1px dashed var(--line-strong);border-radius:22px;padding:28px;background:#fbfbfb;color:#555;margin-top:10px}
@@ -243,10 +177,7 @@
       .shop-title{font-size:44px}
       .toolbar{padding:14px}
       .products-grid{grid-template-columns:1fr}
-      .shop-row{
-        display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;
-        padding-bottom:8px;padding-right:20px;margin-right:-20px;
-      }
+      .shop-row{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;padding-bottom:8px;padding-right:20px;margin-right:-20px;}
       .shop-row::-webkit-scrollbar{display:none}
       .shop-item{flex:0 0 110px;scroll-snap-align:start}
       .shop-circle{max-width:110px;font-size:40px}
@@ -440,24 +371,24 @@
 
           <div class="products-grid" id="productsGrid">
             <article class="product-card" data-brand="acer" data-screen="15.6" data-ram="16" data-cpu="r7" data-ssd="512" data-gpu="integrated" data-price="4500">
-              <div class="product-image">💻</div>
+              <div class="product-image has-gallery" data-gallery>
+                <div class="gallery-track" data-gallery-track>
+                  <div class="gallery-slide"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAIAAAC5XxD7AAAgAElEQVR4nO3de5BV1Xk/8M9s7z3M1k2y2QYhCQQhA0QxwFhQ0A0ZsQ2q2q8l0r0k0mQm0YxYQmWm1qQyJ0aY1g7a6c7Z6k2q8m8p2rY0f4H9f8r2n1v2z7fP5zv7+f5e6r7zv0Jk7z3n3vW2d2bWf9xwAAAPB3nq8AAABgY0cBAAAw2Q0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAAByf+f8A4Yg4uV2r7wAAAABJRU5ErkJggg==" alt="Acer 1"></div>
+                  <div class="gallery-slide"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAIAAAC5XxD7AAAgAElEQVR4nO3de5BV1Xk/8M9s7z3M1k2y2QYhCQQhA0QxwFhQ0A0ZsQ2q2q8l0r0k0mQm0YxYQmWm1qQyJ0aY1g7a6c7Z6k2q8m8p2rY0f4H9f8r2n1v2z7fP5zv7+f5e6r7zv0Jk7z3n3vW2d2bWf9xwAAAPB3nq8AAABgY0cBAAAw2Q0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAAByf+f8A4Yg4uV2r7wAAAABJRU5ErkJggg==" alt="Acer 2"></div>
+                  <div class="gallery-slide"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAIAAAC5XxD7AAAgAElEQVR4nO3de5BV1Xk/8M9s7z3M1k2y2QYhCQQhA0QxwFhQ0A0ZsQ2q2q8l0r0k0mQm0YxYQmWm1qQyJ0aY1g7a6c7Z6k2q8m8p2rY0f4H9f8r2n1v2z7fP5zv7+f5e6r7zv0Jk7z3n3vW2d2bWf9xwAAAPB3nq8AAABgY0cBAAAw2Q0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAAByf+f8A4Yg4uV2r7wAAAABJRU5ErkJggg==" alt="Acer 3"></div>
+                  <div class="gallery-slide"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAIAAAC5XxD7AAAgAElEQVR4nO3de5BV1Xk/8M9s7z3M1k2y2QYhCQQhA0QxwFhQ0A0ZsQ2q2q8l0r0k0mQm0YxYQmWm1qQyJ0aY1g7a6c7Z6k2q8m8p2rY0f4H9f8r2n1v2z7fP5zv7+f5e6r7zv0Jk7z3n3vW2d2bWf9xwAAAPB3nq8AAABgY0cBAAAw2Q0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAAByf+f8A4Yg4uV2r7wAAAABJRU5ErkJggg==" alt="Acer 4"></div>
+                  <div class="gallery-slide"><img src="data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAIAAAC5XxD7AAAgAElEQVR4nO3de5BV1Xk/8M9s7z3M1k2y2QYhCQQhA0QxwFhQ0A0ZsQ2q2q8l0r0k0mQm0YxYQmWm1qQyJ0aY1g7a6c7Z6k2q8m8p2rY0f4H9f8r2n1v2z7fP5zv7+f5e6r7zv0Jk7z3n3vW2d2bWf9xwAAAPB3nq8AAABgY0cBAAAw2Q0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAABgZg0AAAByf+f8A4Yg4uV2r7wAAAABJRU5ErkJggg==" alt="Acer 5"></div>
+                </div>
+                <div class="gallery-hint">Колесиком: фото</div>
+              </div>
               <div class="product-body">
                 <h3 class="product-title">ACER ASPIRE GO 15</h3>
                 <p class="product-desc">R7-7730U, 16GB, 512GB SSD, FHD</p>
                 <div class="product-price">4 500 с.</div>
                 <div class="product-specs">
-                  <div class="spec-row">
-                    <span class="spec-label">Процессор:</span>
-                    <span class="spec-value">AMD R7-7730U</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Память:</span>
-                    <span class="spec-value">16 ГБ RAM / 512 ГБ SSD</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Экран:</span>
-                    <span class="spec-value">15.6″ FHD</span>
-                  </div>
+                  <div class="spec-row"><span class="spec-label">Процессор:</span><span class="spec-value">AMD R7-7730U</span></div>
+                  <div class="spec-row"><span class="spec-label">Память:</span><span class="spec-value">16 ГБ RAM / 512 ГБ SSD</span></div>
+                  <div class="spec-row"><span class="spec-label">Экран:</span><span class="spec-value">15.6″ FHD</span></div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
@@ -466,28 +397,18 @@
             </article>
 
             <article class="product-card" data-brand="asus" data-screen="18" data-ram="32" data-cpu="core7" data-ssd="1000" data-gpu="rtx5060" data-price="18500">
-              <div class="product-image">💻</div>
+              <div class="product-image">
+                <div class="product-placeholder">💻</div>
+              </div>
               <div class="product-body">
                 <h3 class="product-title">ASUS ROG STRIX G815LM</h3>
                 <p class="product-desc">Ultra 9-275HX, RTX 5060, 32GB, 1TB</p>
                 <div class="product-price">18 500 с.</div>
                 <div class="product-specs">
-                  <div class="spec-row">
-                    <span class="spec-label">Процессор:</span>
-                    <span class="spec-value">Intel Ultra 9-275HX</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Память:</span>
-                    <span class="spec-value">32 ГБ RAM / 1 ТБ SSD</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Экран:</span>
-                    <span class="spec-value">18″ 2.5K 240Hz</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Видеокарта:</span>
-                    <span class="spec-value">RTX 5060 8GB</span>
-                  </div>
+                  <div class="spec-row"><span class="spec-label">Процессор:</span><span class="spec-value">Intel Ultra 9-275HX</span></div>
+                  <div class="spec-row"><span class="spec-label">Память:</span><span class="spec-value">32 ГБ RAM / 1 ТБ SSD</span></div>
+                  <div class="spec-row"><span class="spec-label">Экран:</span><span class="spec-value">18″ 2.5K 240Hz</span></div>
+                  <div class="spec-row"><span class="spec-label">Видеокарта:</span><span class="spec-value">RTX 5060 8GB</span></div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
@@ -495,107 +416,18 @@
               </div>
             </article>
 
-            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="3500">
-              <div class="product-image">💻</div>
+            <article class="product-card" data-brand="asus" data-screen="15.6" data-ram="8" data-cpu="core5" data-ssd="512" data-gpu="integrated" data-price="35000">
+              <div class="product-image">
+                <div class="product-placeholder">💻</div>
+              </div>
               <div class="product-body">
                 <h3 class="product-title">ASUS VIVOBOOK X1504VA</h3>
                 <p class="product-desc">Core 5-120U, 8GB, 512GB, FHD</p>
                 <div class="product-price">3 500 с.</div>
                 <div class="product-specs">
-                  <div class="spec-row">
-                    <span class="spec-label">Процессор:</span>
-                    <span class="spec-value">Intel Core 5-120U</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Память:</span>
-                    <span class="spec-value">8 ГБ RAM / 512 ГБ SSD</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Экран:</span>
-                    <span class="spec-value">15.6″ FHD</span>
-                  </div>
-                </div>
-                <div class="product-actions">
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card" data-brand="hp" data-screen="15.6" data-ram="16" data-cpu="i5" data-ssd="512" data-gpu="integrated" data-price="5200">
-              <div class="product-image">💻</div>
-              <div class="product-body">
-                <h3 class="product-title">HP PAVILION 15</h3>
-                <p class="product-desc">i5-1235U, 16GB, 512GB SSD, FHD</p>
-                <div class="product-price">5 200 с.</div>
-                <div class="product-specs">
-                  <div class="spec-row">
-                    <span class="spec-label">Процессор:</span>
-                    <span class="spec-value">Intel Core i5-1235U</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Память:</span>
-                    <span class="spec-value">16 ГБ RAM / 512 ГБ SSD</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Экран:</span>
-                    <span class="spec-value">15.6″ FHD</span>
-                  </div>
-                </div>
-                <div class="product-actions">
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card" data-brand="lenovo" data-screen="14.0" data-ram="8" data-cpu="i3" data-ssd="512" data-gpu="integrated" data-price="3200">
-              <div class="product-image">💻</div>
-              <div class="product-body">
-                <h3 class="product-title">LENOVO THINKBOOK 14</h3>
-                <p class="product-desc">i3-1215U, 8GB, 512GB SSD, FHD</p>
-                <div class="product-price">3 200 с.</div>
-                <div class="product-specs">
-                  <div class="spec-row">
-                    <span class="spec-label">Процессор:</span>
-                    <span class="spec-value">Intel Core i3-1215U</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Память:</span>
-                    <span class="spec-value">8 ГБ RAM / 512 ГБ SSD</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Экран:</span>
-                    <span class="spec-value">14″ FHD</span>
-                  </div>
-                </div>
-                <div class="product-actions">
-                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="product-card" data-brand="msi" data-screen="16" data-ram="16" data-cpu="i7" data-ssd="512" data-gpu="rtx4060" data-price="12800">
-              <div class="product-image">💻</div>
-              <div class="product-body">
-                <h3 class="product-title">MSI MODERN 16</h3>
-                <p class="product-desc">i7-1365U, RTX 4060, 16GB, 512GB</p>
-                <div class="product-price">12 800 с.</div>
-                <div class="product-specs">
-                  <div class="spec-row">
-                    <span class="spec-label">Процессор:</span>
-                    <span class="spec-value">Intel Core i7-1365U</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Память:</span>
-                    <span class="spec-value">16 ГБ RAM / 512 ГБ SSD</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Экран:</span>
-                    <span class="spec-value">16″ 2.5K</span>
-                  </div>
-                  <div class="spec-row">
-                    <span class="spec-label">Видеокарта:</span>
-                    <span class="spec-value">RTX 4060 6GB</span>
-                  </div>
+                  <div class="spec-row"><span class="spec-label">Процессор:</span><span class="spec-value">Intel Core 5-120U</span></div>
+                  <div class="spec-row"><span class="spec-label">Память:</span><span class="spec-value">8 ГБ RAM / 512 ГБ SSD</span></div>
+                  <div class="spec-row"><span class="spec-label">Экран:</span><span class="spec-value">15.6″ FHD</span></div>
                 </div>
                 <div class="product-actions">
                   <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
@@ -607,39 +439,7 @@
         </div>
       </div>
     </section>
-
-    <section class="reasons">
-      <div class="container">
-        <div class="section-head">
-          <h2>Почему выбирают RGW</h2>
-        </div>
-        <div class="reasons-grid">
-          <div class="reason-card">
-            <h3>Честные цены</h3>
-            <p>Все цены указаны в сомони и актуальны</p>
-          </div>
-          <div class="reason-card">
-            <h3>Гарантия качества</h3>
-            <p>Каждый ноутбук проходит проверку</p>
-          </div>
-          <div class="reason-card">
-            <h3>Быстрая доставка</h3>
-            <p>Доставим за 2-3 дня по городу</p>
-          </div>
-          <div class="reason-card">
-            <h3>Поддержка 24/7</h3>
-            <p>Свяжитесь с нами в любое время</p>
-          </div>
-        </div>
-      </div>
-    </section>
   </main>
-
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2026 RGW — магазин компьютерной техники. Все права защищены.</p>
-    </div>
-  </footer>
 
   <script>
     const priceMinInput = document.getElementById('priceMin');
@@ -667,17 +467,15 @@
     function getFilteredProducts() {
       const minPrice = parseInt(priceMinInput.value);
       const maxPrice = parseInt(priceMaxInput.value);
-      
       const checkedBrands = Array.from(document.querySelectorAll('input[name="brand"]:checked')).map(el => el.value);
       const checkedScreens = Array.from(document.querySelectorAll('input[name="screen"]:checked')).map(el => el.value);
       const checkedRams = Array.from(document.querySelectorAll('input[name="ram"]:checked')).map(el => el.value);
       const checkedCpus = Array.from(document.querySelectorAll('input[name="cpu"]:checked')).map(el => el.value);
       const checkedSsds = Array.from(document.querySelectorAll('input[name="ssd"]:checked')).map(el => el.value);
       const checkedGpus = Array.from(document.querySelectorAll('input[name="gpu"]:checked')).map(el => el.value);
-
       const products = Array.from(document.querySelectorAll('.product-card'));
-      
-      const filtered = products.filter(card => {
+
+      return products.filter(card => {
         const price = parseInt(card.dataset.price);
         const brand = card.dataset.brand;
         const screen = card.dataset.screen;
@@ -686,23 +484,20 @@
         const ssd = card.dataset.ssd;
         const gpu = card.dataset.gpu;
 
-        const priceOk = price >= minPrice && price <= maxPrice;
-        const brandOk = checkedBrands.length === 0 || checkedBrands.includes(brand);
-        const screenOk = checkedScreens.length === 0 || checkedScreens.includes(screen);
-        const ramOk = checkedRams.length === 0 || checkedRams.includes(ram);
-        const cpuOk = checkedCpus.length === 0 || checkedCpus.includes(cpu);
-        const ssdOk = checkedSsds.length === 0 || checkedSsds.includes(ssd);
-        const gpuOk = checkedGpus.length === 0 || checkedGpus.includes(gpu);
-
-        return priceOk && brandOk && screenOk && ramOk && cpuOk && ssdOk && gpuOk;
+        return (
+          price >= minPrice && price <= maxPrice &&
+          (checkedBrands.length === 0 || checkedBrands.includes(brand)) &&
+          (checkedScreens.length === 0 || checkedScreens.includes(screen)) &&
+          (checkedRams.length === 0 || checkedRams.includes(ram)) &&
+          (checkedCpus.length === 0 || checkedCpus.includes(cpu)) &&
+          (checkedSsds.length === 0 || checkedSsds.includes(ssd)) &&
+          (checkedGpus.length === 0 || checkedGpus.includes(gpu))
+        );
       });
-
-      return filtered;
     }
 
     function updateActiveFilters() {
       activeFiltersContainer.innerHTML = '';
-      
       const minPrice = parseInt(priceMinInput.value);
       const maxPrice = parseInt(priceMaxInput.value);
       if (minPrice > 2000 || maxPrice < 30000) {
@@ -718,8 +513,7 @@
         activeFiltersContainer.appendChild(pill);
       }
 
-      const checkedInputs = document.querySelectorAll('input[type="checkbox"]:checked');
-      checkedInputs.forEach(input => {
+      document.querySelectorAll('input[type="checkbox"]:checked').forEach(input => {
         const pill = document.createElement('div');
         pill.className = 'filter-pill';
         const label = input.parentElement.textContent;
@@ -735,11 +529,9 @@
     function filterProducts() {
       const filtered = getFilteredProducts();
       const allProducts = Array.from(document.querySelectorAll('.product-card'));
-
       allProducts.forEach(card => {
         card.style.display = filtered.includes(card) ? '' : 'none';
       });
-
       emptyState.classList.toggle('show', filtered.length === 0);
       resultsCount.textContent = filtered.length;
       updateActiveFilters();
@@ -748,58 +540,45 @@
     function sortProducts() {
       const sortValue = sortSelect.value;
       const products = Array.from(getFilteredProducts());
-      
       if (sortValue === 'screen-desc') {
         products.sort((a, b) => parseFloat(b.dataset.screen) - parseFloat(a.dataset.screen));
       }
-
       products.forEach(product => productsGrid.appendChild(product));
     }
 
     priceMinInput.addEventListener('input', () => {
-      if (parseInt(priceMinInput.value) > parseInt(priceMaxInput.value)) {
-        priceMinInput.value = priceMaxInput.value;
-      }
+      if (parseInt(priceMinInput.value) > parseInt(priceMaxInput.value)) priceMinInput.value = priceMaxInput.value;
       updatePriceValues();
       filterProducts();
     });
-
     priceMaxInput.addEventListener('input', () => {
-      if (parseInt(priceMaxInput.value) < parseInt(priceMinInput.value)) {
-        priceMaxInput.value = priceMinInput.value;
-      }
+      if (parseInt(priceMaxInput.value) < parseInt(priceMinInput.value)) priceMaxInput.value = priceMinInput.value;
       updatePriceValues();
       filterProducts();
     });
-
-    document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-      checkbox.addEventListener('change', filterProducts);
-    });
-
+    document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => checkbox.addEventListener('change', filterProducts));
     sortSelect.addEventListener('change', sortProducts);
-
-    document.querySelectorAll('.filter-toggle').forEach(toggle => {
-      toggle.addEventListener('click', () => {
-        const group = toggle.closest('.filter-group');
-        group.classList.toggle('collapsed');
-      });
-    });
-
-    toggleFiltersBtn.addEventListener('click', () => {
-      filtersPanel.classList.toggle('open');
-    });
-
+    document.querySelectorAll('.filter-toggle').forEach(toggle => toggle.addEventListener('click', () => toggle.closest('.filter-group').classList.toggle('collapsed')));
+    toggleFiltersBtn.addEventListener('click', () => filtersPanel.classList.toggle('open'));
     clearFiltersBtn.addEventListener('click', () => {
       priceMinInput.value = 2000;
       priceMaxInput.value = 30000;
-      document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => {
-        checkbox.checked = false;
-      });
+      document.querySelectorAll('input[type="checkbox"]').forEach(checkbox => checkbox.checked = false);
       updatePriceValues();
       filterProducts();
     });
 
+    document.querySelectorAll('[data-gallery-track]').forEach(track => {
+      track.addEventListener('wheel', (e) => {
+        const canScroll = track.scrollWidth > track.clientWidth;
+        if (!canScroll) return;
+        e.preventDefault();
+        track.scrollLeft += e.deltaY;
+      }, { passive: false });
+    });
+
     updatePriceValues();
+    filterProducts();
   </script>
 </body>
 </html>

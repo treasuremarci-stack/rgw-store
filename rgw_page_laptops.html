@@ -299,7 +299,7 @@
             <div class="eyebrow">Каталог ноутбуков</div>
             <h1>Ноутбуки</h1>
           </div>
-          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сортировка. Рабочие фильтры, счетчик результатов, пустое состояние.</p>
+          <p>Компактная страница категории без большого hero-блока: слева сворачиваемые фильтры, сверху сорти��овка. Рабочие фильтры, счетчик результатов, пустое состояние.</p>
         </div>
       </div>
     </section>
@@ -1278,48 +1278,6 @@
     document.querySelectorAll('input[type="checkbox"]').forEach(input => {
       input.addEventListener('change', filterProducts);
     });
-
-    // Smooth scroll with mouse wheel
-    let isScrolling = false;
-    const scrollDuration = 300; // milliseconds
-
-    function smoothScroll(distance) {
-      if (isScrolling) return;
-      isScrolling = true;
-
-      const start = window.scrollY;
-      const end = start + distance;
-      const startTime = Date.now();
-
-      function scroll() {
-        const elapsed = Date.now() - startTime;
-        const progress = Math.min(elapsed / scrollDuration, 1);
-        
-        // Easing function for smooth animation
-        const easeProgress = progress < 0.5 
-          ? 2 * progress * progress 
-          : -1 + (4 - 2 * progress) * progress;
-        
-        window.scrollY = start + (end - start) * easeProgress;
-        window.scrollTo(0, start + (end - start) * easeProgress);
-
-        if (progress < 1) {
-          requestAnimationFrame(scroll);
-        } else {
-          isScrolling = false;
-        }
-      }
-
-      requestAnimationFrame(scroll);
-    }
-
-    // Listen to mouse wheel
-    document.addEventListener('wheel', (e) => {
-      e.preventDefault();
-
-      const scrollDistance = e.deltaY > 0 ? 100 : -100;
-      smoothScroll(scrollDistance);
-    }, { passive: false });
 
     // Initialize filters on page load
     initializeFilters();

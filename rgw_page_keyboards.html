@@ -1,1 +1,906 @@
-<!-- Файл rgw_page_keyboards.html будет загружен отдельно -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RGW — Клавиатуры</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --soft:#f5f5f5;
+      --soft-2:#fafafa;
+      --line:#e7e7e7;
+      --line-strong:#d7d7d7;
+      --text:#111111;
+      --muted:#626262;
+      --dark:#0d0d0d;
+      --chip:#f2f2f2;
+      --radius-xl:32px;
+      --radius-lg:24px;
+      --radius-md:18px;
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.45;}
+    img{display:block;width:100%;height:100%;object-fit:cover}
+    a{text-decoration:none;color:inherit}
+    button,input,select{font:inherit}
+    .container{width:min(1320px, calc(100% - 40px));margin:0 auto;}
+
+    .topbar{background:#f8f8f8;border-bottom:1px solid var(--line);color:#666;font-size:13px;}
+    .topbar-inner{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;}
+    .header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+    .header-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 0;}
+    .brand{font-size:30px;font-weight:800;letter-spacing:.04em}
+    .nav{display:flex;gap:18px;font-size:15px;color:#333;flex-wrap:wrap}
+    .nav a:hover{color:#000}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border-radius:999px;padding:13px 22px;font-size:14px;font-weight:700;border:1px solid transparent;transition:.2s ease;cursor:pointer;}
+    .btn-dark{background:#111;color:#fff}
+    .btn-dark:hover{opacity:.92}
+    .btn-light{background:#fff;border-color:#d6d6d6;color:#111}
+    .btn-light:hover{background:#f7f7f7}
+    .btn-soft{background:#efefef;color:#111}
+    .btn-soft:hover{background:#e8e8e8}
+    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#6b6b6b;font-weight:700}
+    h1,h2,h3,p{margin:0}
+    h1{font-size:52px;line-height:.95;letter-spacing:-.05em}
+    h2{font-size:38px;line-height:1;letter-spacing:-.04em}
+    section{padding:24px 0}
+
+    .shop-panel{background:var(--soft);border-bottom:1px solid var(--line);padding:18px 0 24px}
+    .shop-title{font-size:56px;line-height:1;letter-spacing:-.045em;font-weight:500;margin:0 0 22px}
+    .shop-row{display:grid;grid-template-columns:repeat(6, minmax(0, 1fr));gap:18px;align-items:start}
+    .shop-item{text-align:center;min-width:0;display:block}
+    .shop-circle{width:100%;aspect-ratio:1/1;max-width:124px;margin:0 auto 12px;border-radius:50%;background:#e8e8e8;display:flex;align-items:center;justify-content:center;font-size:46px;}
+    .shop-item.active .shop-circle{background:#111;color:#fff}
+    .shop-label{font-size:15px;line-height:1.25;font-weight:700;color:#222;max-width:124px;margin:0 auto}
+
+    .catalog-header{padding:20px 0 10px}
+    .crumbs{display:flex;gap:10px;align-items:center;color:#707070;font-size:14px;margin-bottom:18px;flex-wrap:wrap}
+    .crumbs a:hover{color:#111}
+    .category-strip{display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:24px 0 0;border-bottom:1px solid var(--line);}
+    .category-strip p{max-width:720px;color:#5b5b5b;font-size:16px;padding-bottom:18px}
+    .page-title-wrap{padding-bottom:18px}
+    .page-title-wrap .eyebrow{margin-bottom:12px}
+
+    .catalog-wrap{display:grid;grid-template-columns:312px minmax(0,1fr);gap:24px;align-items:start}
+
+    .filters-panel{position:sticky;top:92px;border:1px solid var(--line);border-radius:22px;background:#fff;padding:0;box-shadow:0 8px 24px rgba(0,0,0,.03);overflow:hidden;}
+    .filters-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:18px 18px 16px;border-bottom:1px solid var(--line)}
+    .filters-head h3{font-size:20px;line-height:1;letter-spacing:-.03em}
+    .filters-sub{padding:12px 18px 14px;color:var(--muted);font-size:13px;border-bottom:1px solid var(--line)}
+    .filter-group{border-top:1px solid var(--line)}
+    .filter-toggle{width:100%;appearance:none;border:none;background:#fff;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 18px;cursor:pointer;text-align:left;font-size:15px;font-weight:700;color:#111;}
+    .filter-toggle:hover{background:#fafafa}
+    .filter-toggle .caret{font-size:18px;color:#666;transition:transform .2s ease}
+    .filter-group.collapsed .filter-toggle .caret{transform:rotate(-90deg)}
+    .filter-content{padding:0 18px 18px;display:grid;gap:10px}
+    .filter-group.collapsed .filter-content{display:none}
+    .check-list{display:grid;gap:10px}
+    .check-item{display:flex;align-items:center;gap:10px;font-size:14px;color:#222;cursor:pointer;min-height:22px}
+    .check-item input{appearance:none;-webkit-appearance:none;width:18px;height:18px;border:1px solid #bfbfbf;border-radius:5px;background:#fff;flex:0 0 auto;display:grid;place-items:center;margin:0;transition:.18s ease;}
+    .check-item input::after{content:"";width:8px;height:8px;border-radius:2px;background:#111;transform:scale(0);transition:transform .18s ease}
+    .check-item input:checked{border-color:#111;background:#f6f6f6}
+    .check-item input:checked::after{transform:scale(1)}
+
+    .catalog-main{min-width:0}
+    .toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:16px;padding:16px 18px;border:1px solid var(--line);border-radius:22px;background:var(--soft-2);}
+    .toolbar-left,.toolbar-right{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .badge{display:inline-flex;align-items:center;justify-content:center;min-width:34px;padding:8px 12px;border-radius:999px;background:#111;color:#fff;font-size:13px;font-weight:700}
+    .toolbar-title{font-size:14px;color:#333;font-weight:700}
+    .sort-select{min-width:220px;border:1px solid var(--line-strong);border-radius:999px;padding:12px 16px;background:#fff;color:#111;outline:none}
+
+    .active-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}
+    .filter-pill{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:var(--chip);font-size:14px;color:#111;font-weight:700}
+    .filter-pill button{appearance:none;border:none;background:transparent;cursor:pointer;font-size:16px;line-height:1;padding:0;color:#666}
+
+    .products-grid{display:grid;grid-template-columns:repeat(3, minmax(0,1fr));gap:18px}
+    .product-card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+    .product-card:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(0,0,0,.08);border-color:#d9d9d9}
+
+    .product-image{position:relative;aspect-ratio:1/1;background:linear-gradient(135deg, #f5f5f5 0%, #ececec 100%);overflow:hidden}
+    .product-image img{width:100%;height:100%;object-fit:cover;display:none}
+    .product-image.has-gallery .product-placeholder{display:none}
+    .product-image.has-gallery img{display:block}
+    .product-placeholder{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:64px}
+
+    .product-body{padding:16px}
+    .product-title{font-size:15px;line-height:1.3;letter-spacing:-.01em;margin-bottom:12px;font-weight:600;color:#111}
+    .product-desc{color:var(--muted);font-size:13px;margin-bottom:12px;min-height:26px}
+    .product-specs{display:flex;flex-direction:column;gap:8px;margin-bottom:12px;padding-top:12px;border-top:1px solid var(--line)}
+    .spec-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px;color:#666}
+    .spec-label{font-weight:600;color:#333}
+    .spec-value{color:#111}
+    .product-price{font-size:18px;font-weight:700;color:#111;margin-bottom:12px}
+    .product-actions{display:flex;gap:8px;flex-wrap:wrap}
+    .product-actions .btn{padding:10px 14px;font-size:13px}
+
+    .empty-state{display:none;border:1px dashed var(--line-strong);border-radius:22px;padding:28px;background:#fbfbfb;color:#555;margin-top:10px}
+    .empty-state.show{display:block}
+
+    .reasons{background:#fafafa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:42px 0;margin-top:18px}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:20px}
+    .section-head p{max-width:560px;color:#575757;font-size:17px}
+    .reasons-grid{display:grid;grid-template-columns:repeat(4, minmax(0,1fr));gap:18px}
+    .reason-card{border:1px solid var(--line);border-radius:24px;padding:24px;background:#fff}
+    .reason-card h3{font-size:22px;line-height:1.05;letter-spacing:-.02em}
+    .reason-card p{margin-top:12px;color:#595959;font-size:16px}
+    .footer{border-top:1px solid var(--line);color:#666;font-size:14px;padding:28px 0 42px}
+
+    @media (max-width: 1180px){
+      .products-grid{grid-template-columns:repeat(2, minmax(0,1fr))}
+      .shop-row{grid-template-columns:repeat(3, minmax(0,1fr))}
+      .reasons-grid{grid-template-columns:repeat(2, minmax(0,1fr))}
+    }
+    @media (max-width: 980px){
+      h1{font-size:42px} h2{font-size:34px} .shop-title{font-size:50px}
+      .catalog-wrap{grid-template-columns:1fr}
+      .filters-panel{position:static;display:none}
+      .filters-panel.open{display:block}
+      .mobile-only{display:inline-flex !important}
+      .shop-row{grid-template-columns:repeat(3, minmax(0,1fr))}
+    }
+    @media (min-width: 981px){.mobile-only{display:none !important}}
+    @media (max-width: 760px){
+      .nav{display:none}
+      .container{width:min(1320px, calc(100% - 24px))}
+      h1{font-size:34px} h2{font-size:30px} .shop-title{font-size:44px}
+      .toolbar{padding:14px}
+      .products-grid{grid-template-columns:1fr}
+      .shop-row{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;padding-bottom:8px;padding-right:20px;margin-right:-20px;}
+      .shop-row::-webkit-scrollbar{display:none}
+      .shop-item{flex:0 0 110px;scroll-snap-align:start}
+      .shop-circle{max-width:110px;font-size:40px}
+      .shop-label{font-size:14px;max-width:110px}
+      .product-body{padding:20px}
+      .product-title{font-size:24px}
+      .product-top{flex-direction:column}
+      .reasons-grid{grid-template-columns:1fr}
+      .section-head{display:block}
+      .category-strip{padding-top:16px}
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div>RGW — локальный магазин компьютерной техники</div>
+      <div>Клавиатуры • Каталог с фильтрами</div>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="container header-inner">
+      <a href="rgw_multipage_home.html" class="brand">RGW</a>
+      <nav class="nav">
+        <a href="rgw_catalog_all.html">Все товары</a>
+        <a href="rgw_page_laptops.html">Ноутбуки</a>
+        <a href="rgw_page_components.html">Комплектующие</a>
+        <a href="rgw_page_keyboards.html" style="color:#111;font-weight:700">Клавиатуры</a>
+        <a href="rgw_page_mice.html">Мышки</a>
+        <a href="rgw_page_headphones.html">Наушники</a>
+        <a href="rgw_page_gaming.html">Гейминг</a>
+      </nav>
+      <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Связаться</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="shop" class="shop-panel">
+      <div class="container">
+        <h2 class="shop-title">Shop</h2>
+        <div class="shop-row">
+          <a class="shop-item" href="rgw_catalog_all.html"><div class="shop-circle">🏷️</div><div class="shop-label">Все товары</div></a>
+          <a class="shop-item" href="rgw_page_laptops.html"><div class="shop-circle">💻</div><div class="shop-label">Ноутбуки</div></a>
+          <a class="shop-item active" href="rgw_page_keyboards.html"><div class="shop-circle">⌨️</div><div class="shop-label">Клавиатуры</div></a>
+          <a class="shop-item" href="rgw_page_mice.html"><div class="shop-circle">🖱️</div><div class="shop-label">Мышки</div></a>
+          <a class="shop-item" href="rgw_page_headphones.html"><div class="shop-circle">🎧</div><div class="shop-label">Наушники</div></a>
+          <a class="shop-item" href="rgw_page_gaming.html"><div class="shop-circle">🎮</div><div class="shop-label">Гейминг</div></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-header">
+      <div class="container">
+        <div class="crumbs">
+          <a href="rgw_multipage_home.html">Главная</a>
+          <span>•</span>
+          <a href="rgw_catalog_all.html">Каталог</a>
+          <span>•</span>
+          <span>Клавиатуры</span>
+        </div>
+        <div class="category-strip">
+          <div class="page-title-wrap">
+            <div class="eyebrow">Каталог клавиатур</div>
+            <h1>Клавиатуры</h1>
+          </div>
+          <p>Механические, мембранные и оптические — для работы, офиса и игр. Фильтруй по типу переключателей, форм-фактору, бренду и подключению.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalog">
+      <div class="container catalog-wrap">
+
+        <!-- FILTERS -->
+        <aside class="filters-panel" id="filtersPanel">
+          <div class="filters-head">
+            <h3>Фильтры</h3>
+            <button class="btn btn-soft" id="clearFiltersBtn" type="button">Сбросить</button>
+          </div>
+          <div class="filters-sub">Секции можно сворачивать. Выбирай параметры для быстрого подбора клавиатуры.</div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Бренд</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="brand" value="exegate">Exegate</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="logitech">Logitech</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="genius">Genius</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="mercury">Mercury</label>
+                <label class="check-item"><input type="checkbox" name="brand" value="gaming">Gaming / Другие</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Тип переключателей</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="switchtype" value="mechanical">Механические</label>
+                <label class="check-item"><input type="checkbox" name="switchtype" value="membrane">Мембранные</label>
+                <label class="check-item"><input type="checkbox" name="switchtype" value="optical">Оптические</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Форм-фактор</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="layout" value="fullsize">Полноразмерная (100%)</label>
+                <label class="check-item"><input type="checkbox" name="layout" value="tkl">TKL (80%)</label>
+                <label class="check-item"><input type="checkbox" name="layout" value="75">Компактная (75%)</label>
+                <label class="check-item"><input type="checkbox" name="layout" value="65">Мини (65%)</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Подключение</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="connect" value="wired">Проводная (USB)</label>
+                <label class="check-item"><input type="checkbox" name="connect" value="wireless">Беспроводная (2.4 ГГц)</label>
+                <label class="check-item"><input type="checkbox" name="connect" value="bluetooth">Bluetooth</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="filter-group" data-group>
+            <button class="filter-toggle" type="button"><span>Подсветка</span><span class="caret">▾</span></button>
+            <div class="filter-content">
+              <div class="check-list">
+                <label class="check-item"><input type="checkbox" name="backlight" value="rgb">RGB</label>
+                <label class="check-item"><input type="checkbox" name="backlight" value="white">Белая</label>
+                <label class="check-item"><input type="checkbox" name="backlight" value="none">Нет подсветки</label>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- MAIN -->
+        <div class="catalog-main">
+          <div class="toolbar">
+            <div class="toolbar-left">
+              <button class="btn btn-soft mobile-only" id="toggleFiltersBtn" type="button">Фильтры</button>
+              <span class="badge" id="resultsCount">9</span>
+              <div class="toolbar-title">Показано клавиатур</div>
+            </div>
+            <div class="toolbar-right">
+              <label for="sortSelect" class="toolbar-title">Сортировка</label>
+              <select id="sortSelect" class="sort-select">
+                <option value="featured">По умолчанию</option>
+                <option value="price-asc">Цена: по возрастанию</option>
+                <option value="price-desc">Цена: по убыванию</option>
+                <option value="name-asc">По алфавиту</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="active-filters" id="activeFilters"></div>
+
+          <div class="products-grid" id="productsGrid">
+
+            <!-- 1. Exegate EX286220RUS MK240 -->
+            <article class="product-card" data-brand="exegate" data-switchtype="membrane" data-layout="tkl" data-connect="wireless" data-backlight="none" data-price="1400" data-name="Exegate EX286220RUS MK240">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Exegate EX286220RUS MK240</h3>
+                <p class="product-desc">Беспроводной комплект (клавиатура + мышь), компактная раскладка.</p>
+                <div class="product-price">1 400 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Тип клавиш:</span><span class="spec-value">Мембранные (115 кл.)</span></div>
+                  <div class="spec-row"><span class="spec-label">Комплектация:</span><span class="spec-value">Клавиатура + мышь</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. Exegate EX287139RUS MK120 -->
+            <article class="product-card" data-brand="exegate" data-switchtype="membrane" data-layout="fullsize" data-connect="wired" data-backlight="none" data-price="850" data-name="Exegate EX287139RUS MK120">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Exegate EX287139RUS MK120</h3>
+                <p class="product-desc">Проводной классический комплект (клавиатура + мышь), USB-интерфейс.</p>
+                <div class="product-price">850 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Тип клавиш:</span><span class="spec-value">Мембранные (104 кл.)</span></div>
+                  <div class="spec-row"><span class="spec-label">Комплектация:</span><span class="spec-value">Клавиатура + мышь</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. Exegate EX287402RUS MK330 -->
+            <article class="product-card" data-brand="exegate" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="1650" data-name="Exegate EX287402RUS MK330">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Exegate EX287402RUS MK330</h3>
+                <p class="product-desc">Беспроводной мультимедийный комплект с мышью, 104 клавиши.</p>
+                <div class="product-price">1 650 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Тип клавиш:</span><span class="spec-value">Мембранные</span></div>
+                  <div class="spec-row"><span class="spec-label">Комплектация:</span><span class="spec-value">Клавиатура + мышь</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. Exegate EX295304RUS MK-210 -->
+            <article class="product-card" data-brand="exegate" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="1300" data-name="Exegate EX295304RUS MK-210">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Exegate EX295304RUS MK-210</h3>
+                <p class="product-desc">Комплект беспроводной клавиатуры с бесшумной оптической мышью.</p>
+                <div class="product-price">1 300 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Тип клавиш:</span><span class="spec-value">Мембранные</span></div>
+                  <div class="spec-row"><span class="spec-label">Особенности:</span><span class="spec-value">Оптическая мышь</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 5. Exegate EX296104RUS MK280 -->
+            <article class="product-card" data-brand="exegate" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="1500" data-name="Exegate EX296104RUS MK280">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Exegate EX296104RUS MK280</h3>
+                <p class="product-desc">Беспроводной офисный комплект с влагозащищенной конструкцией.</p>
+                <div class="product-price">1 500 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Мышь:</span><span class="spec-value">1000 DPI, 3 кнопки</span></div>
+                  <div class="spec-row"><span class="spec-label">Влагозащита:</span><span class="spec-value">Да</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 6. Gaming RGB KM-110BK -->
+            <article class="product-card" data-brand="gaming" data-switchtype="membrane" data-layout="fullsize" data-connect="wired" data-backlight="rgb" data-price="1100" data-name="Gaming RGB KM-110BK">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Gaming RGB KM-110BK</h3>
+                <p class="product-desc">Игровая клавиатура с яркой многоцветной RGB-подсветкой.</p>
+                <div class="product-price">1 100 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Подсветка:</span><span class="spec-value">RGB (многоцветная)</span></div>
+                  <div class="spec-row"><span class="spec-label">Форм-фактор:</span><span class="spec-value">Полноразмерная</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 7. Logitech Keyboard K120 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wired" data-backlight="none" data-price="950" data-name="Logitech K120">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard K120</h3>
+                <p class="product-desc">Классическая и прочная клавиатура с влагозащищенным дизайном.</p>
+                <div class="product-price">950 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Ход клавиш:</span><span class="spec-value">Бесшумный низкий</span></div>
+                  <div class="spec-row"><span class="spec-label">Влагозащита:</span><span class="spec-value">Да (до 60 мл)</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 8. Logitech Keyboard MK120 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wired" data-backlight="none" data-price="1550" data-name="Logitech MK120">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK120</h3>
+                <p class="product-desc">Проводной комплект из классической клавиатуры и эргономичной мыши.</p>
+                <div class="product-price">1 550 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Комплект:</span><span class="spec-value">Клавиатура + мышь</span></div>
+                  <div class="spec-row"><span class="spec-label">Сенсор мыши:</span><span class="spec-value">Оптический (1000 DPI)</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 9. Logitech Keyboard MK235 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="2100" data-name="Logitech MK235">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK235</h3>
+                <p class="product-desc">Надежный и простой беспроводной комплект с длительным сроком службы батареек.</p>
+                <div class="product-price">2 100 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Батарейки:</span><span class="spec-value">До 36 месяцев</span></div>
+                  <div class="spec-row"><span class="spec-label">Влагозащита:</span><span class="spec-value">Да</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 10. Logitech Keyboard MK245 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="tkl" data-connect="wireless" data-backlight="none" data-price="2400" data-name="Logitech MK245">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK245</h3>
+                <p class="product-desc">Стильный и суперкомпактный беспроводной комплект для работы.</p>
+                <div class="product-price">2 400 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Формат:</span><span class="spec-value">Компактная (TKL)</span></div>
+                  <div class="spec-row"><span class="spec-label">Особенности:</span><span class="spec-value">Защита от проливов</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 11. Logitech Keyboard MK270 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="2600" data-name="Logitech MK270">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK270</h3>
+                <p class="product-desc">Классический беспроводной комплект с быстрым доступом к медиа-функциям.</p>
+                <div class="product-price">2 600 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Клавиши быстрого доступа:</span><span class="spec-value">8 кнопок</span></div>
+                  <div class="spec-row"><span class="spec-label">Радиус связи:</span><span class="spec-value">До 10 метров</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 12. Logitech Keyboard MK275 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="2700" data-name="Logitech MK275">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK275</h3>
+                <p class="product-desc">Беспроводной комплект со стильным дизайном и контрастными клавишами.</p>
+                <div class="product-price">2 700 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Клавиши:</span><span class="spec-value">С выделением цвета</span></div>
+                  <div class="spec-row"><span class="spec-label">Размер:</span><span class="spec-value">Полноразмерная</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 13. Logitech Keyboard MK295 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="2950" data-name="Logitech MK295">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK295</h3>
+                <p class="product-desc">Беспроводной бесшумный комплект с технологией SilentTouch.</p>
+                <div class="product-price">2 950 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Технология:</span><span class="spec-value">SilentTouch (-90% шума)</span></div>
+                  <div class="spec-row"><span class="spec-label">Конструкция:</span><span class="spec-value">Влагозащищенная</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 14. Logitech Keyboard MK345 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="3600" data-name="Logitech MK345">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK345</h3>
+                <p class="product-desc">Эргономичный беспроводной комплект с большой подставкой для рук.</p>
+                <div class="product-price">3 600 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Особенность:</span><span class="spec-value">Подставка для запястий</span></div>
+                  <div class="spec-row"><span class="spec-label">Сенсор мыши:</span><span class="spec-value">Высокоточный оптический</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 15. Logitech Keyboard MK470 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="tkl" data-connect="wireless" data-backlight="none" data-price="4200" data-name="Logitech MK470">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK470</h3>
+                <p class="product-desc">Минималистичный, ультратонкий и абсолютно бесшумный комплект.</p>
+                <div class="product-price">4 200 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Профиль:</span><span class="spec-value">Ультранизкий (Scissor-like)</span></div>
+                  <div class="spec-row"><span class="spec-label">Автономность:</span><span class="spec-value">Клавиатура до 36 мес.</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 16. Logitech Keyboard MK540 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="wireless" data-backlight="none" data-price="4900" data-name="Logitech MK540">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK540</h3>
+                <p class="product-desc">Премиальный беспроводной комплект с повышенным комфортом и точностью нажатий.</p>
+                <div class="product-price">4 900 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Беспроводная (2.4 ГГц)</span></div>
+                  <div class="spec-row"><span class="spec-label">Клавиши:</span><span class="spec-value">Бесшумные с гравировкой</span></div>
+                  <div class="spec-row"><span class="spec-label">Форма мыши:</span><span class="spec-value">Симметричная, мягкий хват</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 17. Logitech Keyboard MK850 -->
+            <article class="product-card" data-brand="logitech" data-switchtype="membrane" data-layout="fullsize" data-connect="bluetooth" data-backlight="none" data-price="8500" data-name="Logitech MK850">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Logitech Keyboard MK850</h3>
+                <p class="product-desc">Эргономичный комплект с умной системой переключения Multi-Device.</p>
+                <div class="product-price">8 500 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Bluetooth / Unifying</span></div>
+                  <div class="spec-row"><span class="spec-label">Эргономика:</span><span class="spec-value">Изогнутая форма, подставка</span></div>
+                  <div class="spec-row"><span class="spec-label">Мультидевайс:</span><span class="spec-value">До 3 устройств одновременно</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 18. LuxeMate 100 -->
+            <article class="product-card" data-brand="genius" data-switchtype="membrane" data-layout="tkl" data-connect="wired" data-backlight="none" data-price="500" data-name="Genius LuxeMate 100">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Genius LuxeMate 100</h3>
+                <p class="product-desc">Ультракомпактная и легкая проводная клавиатура, тихий ход.</p>
+                <div class="product-price">500 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Тип клавиш:</span><span class="spec-value">Мембранные, низкопрофильные</span></div>
+                  <div class="spec-row"><span class="spec-label">Формат:</span><span class="spec-value">Компактный (без цифрового блока)</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 19. Mechanical Gaming RGB KM-L112BK -->
+            <article class="product-card" data-brand="gaming" data-switchtype="mechanical" data-layout="tkl" data-connect="wired" data-backlight="rgb" data-price="2200" data-name="Mechanical Gaming RGB KM-L112BK">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">Mechanical Gaming KM-L112BK</h3>
+                <p class="product-desc">Игровая механическая клавиатура с тактильными переключателями Blue Switch.</p>
+                <div class="product-price">2 200 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Тип переключателей:</span><span class="spec-value">Механические (Blue Switch)</span></div>
+                  <div class="spec-row"><span class="spec-label">Подсветка:</span><span class="spec-value">RGB (многорежимная)</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 20. MERCURY KB-6800 -->
+            <article class="product-card" data-brand="mercury" data-switchtype="membrane" data-layout="fullsize" data-connect="wired" data-backlight="none" data-price="650" data-name="MERCURY KB-6800">
+              <div class="product-image">
+                <div class="product-placeholder">⌨️</div>
+              </div>
+              <div class="product-body">
+                <h3 class="product-title">MERCURY KB-6800</h3>
+                <p class="product-desc">Классическая мультимедийная проводная клавиатура, раскладка ENG.</p>
+                <div class="product-price">650 с.</div>
+                <div class="product-specs">
+                  <div class="spec-row"><span class="spec-label">Подключение:</span><span class="spec-value">Проводная (USB)</span></div>
+                  <div class="spec-row"><span class="spec-label">Особенности:</span><span class="spec-value">Горячие клавиши мультимедиа</span></div>
+                  <div class="spec-row"><span class="spec-label">Раскладка:</span><span class="spec-value">English (ENG)</span></div>
+                </div>
+                <div class="product-actions">
+                  <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+          <div class="empty-state" id="emptyState">По этим параметрам ничего не найдено. Попробуй снять часть фильтров или изменить сортировку.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reasons">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow">Почему выбирают RGW</div>
+            <h2>Наши преимущества</h2>
+          </div>
+          <p>Мы предлагаем лучшую технику с гарантией качества, быструю консультацию и индивидуальный подход к каждому клиенту.</p>
+        </div>
+        <div class="reasons-grid">
+          <div class="reason-card">
+            <h3>Гарантия качества</h3>
+            <p>Вся продукция проходит предпродажную проверку и имеет официальную гарантию.</p>
+          </div>
+          <div class="reason-card">
+            <h3>Быстрый заказ</h3>
+            <p>Свяжитесь с нами удобным способом, и мы зарезервируем товар за считанные минуты.</p>
+          </div>
+          <div class="reason-card">
+            <h3>Профессионалы</h3>
+            <p>Наши специалисты помогут подобрать периферию именно под ваши задачи и бюджет.</p>
+          </div>
+          <div class="reason-card">
+            <h3>Доступные цены</h3>
+            <p>Мы работаем напрямую с проверенными поставщиками, сохраняя выгодную стоимость.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">Страница категории «Клавиатуры» — структура и фильтры адаптированы из базовых страниц ноутбуков RGW.</div>
+  </footer>
+
+  <script>
+    const filterInputs = Array.from(document.querySelectorAll('.filters-panel input[type="checkbox"]'));
+    const productsGrid = document.getElementById('productsGrid');
+    const products = Array.from(productsGrid.querySelectorAll('.product-card'));
+    const resultsCount = document.getElementById('resultsCount');
+    const activeFilters = document.getElementById('activeFilters');
+    const emptyState = document.getElementById('emptyState');
+    const sortSelect = document.getElementById('sortSelect');
+    const clearFiltersBtn = document.getElementById('clearFiltersBtn');
+    const toggleFiltersBtn = document.getElementById('toggleFiltersBtn');
+    const filtersPanel = document.getElementById('filtersPanel');
+    const collapsibleGroups = Array.from(document.querySelectorAll('[data-group]'));
+
+    const filterLabels = {
+      brand: 'Бренд',
+      switchtype: 'Тип переключателей',
+      layout: 'Форм-фактор',
+      connect: 'Подключение',
+      backlight: 'Подсветка'
+    };
+
+    function prettyValue(group, value) {
+      const map = {
+        exegate: 'Exegate',
+        logitech: 'Logitech',
+        genius: 'Genius',
+        mercury: 'Mercury',
+        gaming: 'Gaming',
+        mechanical: 'Механические',
+        membrane: 'Мембранные',
+        optical: 'Оптические',
+        fullsize: 'Полноразмерная (100%)',
+        tkl: 'TKL (80%)',
+        75: 'Компактная (75%)',
+        65: 'Мини (65%)',
+        wired: 'Проводная',
+        wireless: 'Беспроводная',
+        bluetooth: 'Bluetooth',
+        rgb: 'RGB',
+        white: 'Белая',
+        none: 'Нет подсветки'
+      };
+      if (map[value]) return map[value];
+      return value;
+    }
+
+    function getSelectedFilters() {
+      const groups = {};
+      filterInputs.forEach(input => {
+        if (!groups[input.name]) groups[input.name] = [];
+        if (input.checked) groups[input.name].push(input.value);
+      });
+      return groups;
+    }
+
+    function matchesFilters(product, groups) {
+      return Object.entries(groups).every(([group, values]) => {
+        if (!values.length) return true;
+        const productValue = (product.dataset[group] || '').toLowerCase();
+        return values.some(value => productValue === String(value).toLowerCase());
+      });
+    }
+
+    function sortProducts(list, mode) {
+      const sorted = [...list];
+      if (mode === 'price-asc') {
+        sorted.sort((a, b) => Number(a.dataset.price) - Number(b.dataset.price));
+      } else if (mode === 'price-desc') {
+        sorted.sort((a, b) => Number(b.dataset.price) - Number(a.dataset.price));
+      } else if (mode === 'name-asc') {
+        sorted.sort((a, b) => (a.dataset.name || '').localeCompare(b.dataset.name || ''));
+      }
+      return sorted;
+    }
+
+    function renderActiveFilters(groups) {
+      activeFilters.innerHTML = '';
+      const entries = Object.entries(groups).flatMap(([group, values]) => values.map(value => ({ group, value })));
+      entries.forEach(({ group, value }) => {
+        const pill = document.createElement('div');
+        pill.className = 'filter-pill';
+
+        const label = document.createElement('span');
+        label.textContent = `${filterLabels[group]}: ${prettyValue(group, value)}`;
+
+        const close = document.createElement('button');
+        close.type = 'button';
+        close.textContent = '×';
+        close.addEventListener('click', () => {
+          const input = filterInputs.find(item => item.name === group && item.value === value);
+          if (input) {
+            input.checked = false;
+            updateCatalog();
+          }
+        });
+
+        pill.appendChild(label);
+        pill.appendChild(close);
+        activeFilters.appendChild(pill);
+      });
+    }
+
+    function updateCatalog() {
+      const groups = getSelectedFilters();
+      const filtered = products.filter(product => matchesFilters(product, groups));
+      const sorted = sortProducts(filtered, sortSelect.value);
+
+      products.forEach(product => {
+        product.style.display = 'none';
+      });
+
+      sorted.forEach(product => {
+        product.style.display = '';
+        productsGrid.appendChild(product);
+      });
+
+      resultsCount.textContent = String(sorted.length);
+      emptyState.classList.toggle('show', sorted.length === 0);
+      renderActiveFilters(groups);
+    }
+
+    filterInputs.forEach(input => input.addEventListener('change', updateCatalog));
+    sortSelect.addEventListener('change', updateCatalog);
+    clearFiltersBtn.addEventListener('click', () => {
+      filterInputs.forEach(input => {
+        input.checked = false;
+      });
+      updateCatalog();
+    });
+
+    collapsibleGroups.forEach(group => {
+      const button = group.querySelector('.filter-toggle');
+      button.addEventListener('click', () => {
+        group.classList.toggle('collapsed');
+      });
+    });
+
+    if (toggleFiltersBtn) {
+      toggleFiltersBtn.addEventListener('click', () => {
+        filtersPanel.classList.toggle('open');
+      });
+    }
+
+    updateCatalog();
+  </script>
+
+</body>
+</html>

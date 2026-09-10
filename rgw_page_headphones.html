@@ -41,6 +41,10 @@
                             <label class="form-check-label" for="brand-logitech">Logitech</label>
                         </div>
                         <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="brand-baseus">
+                            <label class="form-check-label" for="brand-baseus">Baseus</label>
+                        </div>
+                        <div class="form-check">
                             <input class="form-check-input" type="checkbox" id="brand-sony">
                             <label class="form-check-label" for="brand-sony">Sony</label>
                         </div>
@@ -93,53 +97,73 @@
         const products = [
             {
                 id: 1,
-                name: "SteelSeries Arctis 7",
-                price: 4999,
-                image: "images/headphones/steelseries-arctis7.jpg",
-                category: "headphones-gaming",
-                brand: "steelseries",
-                wireless: true,
-                microphone: true
+                name: "Dialog M251",
+                price: 2,
+                image: "images/headphones/dialog-m251.jpg",
+                category: "headphones-stereo",
+                brand: "dialog",
+                wireless: false,
+                microphone: false
             },
             {
                 id: 2,
-                name: "Logitech G435",
-                price: 3999,
-                image: "images/headphones/logitech-g435.jpg",
-                category: "headphones-gaming",
+                name: "Logitech Headset G331",
+                price: 33,
+                image: "images/headphones/logitech-g331.jpg",
+                category: "headphones-stereo",
                 brand: "logitech",
-                wireless: true,
+                wireless: false,
                 microphone: true
             },
             {
                 id: 3,
-                name: "Sony WH-1000XM4",
-                price: 8999,
-                image: "images/headphones/sony-wh1000xm4.jpg",
+                name: "Logitech Stereo Headset H110",
+                price: 8,
+                image: "images/headphones/logitech-h110.jpg",
                 category: "headphones-stereo",
-                brand: "sony",
-                wireless: true,
-                microphone: false
+                brand: "logitech",
+                wireless: false,
+                microphone: true
             },
             {
                 id: 4,
-                name: "SteelSeries Arctis 5",
-                price: 2999,
-                image: "images/headphones/steelseries-arctis5.jpg",
+                name: "Baseus Bowie D05 Wireless Headphones",
+                price: 18,
+                image: "images/headphones/baseus-bowie-d05.jpg",
                 category: "headphones-gaming",
-                brand: "steelseries",
+                brand: "baseus",
                 wireless: true,
                 microphone: true
             },
             {
                 id: 5,
-                name: "Logitech G335",
-                price: 1999,
-                image: "images/headphones/logitech-g335.jpg",
-                category: "headphones-gaming",
+                name: "Logitech Stereo Headset Н390",
+                price: 24,
+                image: "images/headphones/logitech-n390.jpg",
+                category: "headphones-stereo",
                 brand: "logitech",
+                wireless: false,
+                microphone: true
+            },
+            {
+                id: 6,
+                name: "Logitech USB Headset Н340",
+                price: 22,
+                image: "images/headphones/logitech-n340.jpg",
+                category: "headphones-stereo",
+                brand: "logitech",
+                wireless: false,
+                microphone: true
+            },
+            {
+                id: 7,
+                name: "Baseus Bowie H1i Noise-Cancellation Wireless Headphones",
+                price: 35,
+                image: "images/headphones/baseus-bowie-h1i.jpg",
+                category: "headphones-gaming",
+                brand: "baseus",
                 wireless: true,
-                microphone: false
+                microphone: true
             }
         ];
 
@@ -168,6 +192,7 @@
         // Функция фильтрации товаров
         function filterProducts() {
             const categoryFilters = document.querySelectorAll('.filter-group input[type="checkbox"]:checked');
+            const brandFilters = document.querySelectorAll('.filter-group input[type="checkbox"]:checked');
             const priceMin = parseFloat(document.getElementById('price-min').value) || 0;
             const priceMax = parseFloat(document.getElementById('price-max').value) || Infinity;
 
@@ -180,10 +205,18 @@
                     );
                 }
 
+                // Проверка бренда
+                let brandMatch = true;
+                if (brandFilters.length > 0) {
+                    brandMatch = Array.from(brandFilters).some(filter => 
+                        filter.id === `brand-${product.brand}`
+                    );
+                }
+
                 // Проверка цены
                 const priceMatch = product.price >= priceMin && product.price <= priceMax;
 
-                return categoryMatch && priceMatch;
+                return categoryMatch && brandMatch && priceMatch;
             });
 
             displayProducts(filteredProducts);

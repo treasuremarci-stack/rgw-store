@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGW — Компьютерная техника</title>
+  <style>
+    :root{--bg:#fff;--soft:#f3f3f3;--line:#e7e7e7;--text:#111;--muted:#666;--dark:#0d0d0d;--teal:#14ead4;--teal-dark:#083f3e}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.45;overflow-x:hidden}
+    a{text-decoration:none;color:inherit}.container{width:min(1260px,calc(100% - 40px));margin:0 auto}
+    .topbar{background:#f8f8f8;border-bottom:1px solid var(--line);color:#666;font-size:13px}.topbar-inner{display:flex;justify-content:space-between;gap:12px;padding:10px 0}
+    .header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.header-shell{position:relative}.header-inner{display:flex;align-items:center;gap:22px;padding:15px 0}.header-left{display:flex;align-items:center;gap:14px;flex:0 0 auto}.brand{font-size:30px;font-weight:800;letter-spacing:.04em}.nav{display:flex;align-items:center;gap:22px;font-size:14px;flex:1;justify-content:flex-end}.nav a:hover{color:#777}
+    .btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 19px;font-size:14px;font-weight:700;border:1px solid transparent;cursor:pointer}.btn-dark{background:#111;color:#fff}.btn-dark:hover{opacity:.9}.btn-light{background:#fff;border-color:#d6d6d6}.catalog-trigger{gap:8px;border:0;background:#111;color:#fff;padding:12px 18px}.catalog-trigger .catalog-trigger-icon{font-size:18px;line-height:1}.catalog-trigger[aria-expanded=true]{background:var(--teal-dark);color:var(--teal)}
+    .catalog-backdrop{display:none;position:fixed;inset:0;background:rgba(0,0,0,.12);z-index:-1}.catalog-backdrop.open{display:block}.catalog-menu{display:none;position:absolute;top:calc(100% + 10px);left:0;right:0;background:#fff;border:1px solid var(--line);border-radius:24px;box-shadow:0 20px 50px rgba(0,0,0,.15);overflow:hidden}.catalog-menu.open{display:block}.catalog-menu-head{display:flex;align-items:center;justify-content:space-between;padding:18px 22px;border-bottom:1px solid var(--line)}.catalog-menu-head h2{margin:0;font-size:25px;letter-spacing:-.03em}.catalog-close{border:0;background:#f1f1f1;border-radius:50%;width:36px;height:36px;font-size:22px;cursor:pointer}.mega-layout{display:grid;grid-template-columns:290px minmax(0,1fr);min-height:380px}.mega-categories{background:#fafafa;border-right:1px solid var(--line);padding:12px}.mega-category{display:flex;width:100%;align-items:center;justify-content:space-between;gap:10px;border:0;background:transparent;border-radius:14px;padding:14px 15px;text-align:left;font-size:15px;font-weight:700;cursor:pointer}.mega-category:hover,.mega-category.active{background:#e8e8e8}.mega-category span:last-child{color:#777}.mega-subcategories{padding:28px 30px}.mega-subcategories h3{margin:0;font-size:30px;letter-spacing:-.04em}.mega-subcategories p{margin:8px 0 20px;color:#666}.mega-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.mega-links a{padding:12px 14px;border:1px solid var(--line);border-radius:13px;background:#fff;font-size:14px}.mega-links a:hover{background:#f1f1f1}.mobile-catalog{display:none;padding:8px 14px 18px}.mobile-catalog details{border-top:1px solid var(--line)}.mobile-catalog summary{list-style:none;display:flex;justify-content:space-between;gap:10px;padding:16px 4px;font-weight:700;cursor:pointer}.mobile-catalog summary::-webkit-details-marker{display:none}.mobile-catalog summary span{color:#777}.mobile-catalog .mobile-links{display:grid;gap:8px;padding:0 0 15px}.mobile-catalog a{background:#f5f5f5;border-radius:12px;padding:12px 13px;font-size:14px}
+    .shop-panel{background:var(--soft);border-bottom:1px solid var(--line);padding:19px 0 25px}.shop-title{font-size:54px;line-height:1;letter-spacing:-.045em;font-weight:500;margin:0 0 20px}.shop-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px;align-items:start}.shop-item{text-align:center;min-width:0}.shop-circle{width:100%;aspect-ratio:1;max-width:124px;margin:0 auto 11px;border-radius:50%;background:#e8e8e8;display:flex;align-items:center;justify-content:center;font-size:44px;transition:.2s ease}.shop-item:hover .shop-circle{transform:translateY(-3px);background:#ddd}.shop-item.active .shop-circle{background:var(--teal-dark);color:var(--teal)}.shop-label{font-size:15px;line-height:1.25;font-weight:700;max-width:124px;margin:auto}
+    main{padding-bottom:35px}.hero{padding:28px 0 18px}.hero-card{position:relative;min-height:470px;border-radius:34px;overflow:hidden;background:linear-gradient(120deg,#111 0%,#263638 58%,#d9eeee 100%);color:#fff}.hero-card:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 35%,rgba(20,234,212,.38),transparent 32%),linear-gradient(90deg,rgba(0,0,0,.65),rgba(0,0,0,.08))}.hero-content{position:relative;z-index:1;max-width:650px;padding:58px;display:flex;flex-direction:column;justify-content:center;min-height:470px}.eyebrow{font-size:13px;text-transform:uppercase;letter-spacing:.15em;color:#777;font-weight:700}.hero .eyebrow{color:rgba(255,255,255,.75)}h1,h2,h3,p{margin:0}h1{font-size:clamp(42px,6vw,76px);line-height:.94;letter-spacing:-.055em;margin-top:15px}.hero p{margin-top:20px;font-size:19px;color:rgba(255,255,255,.86);max-width:570px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.hero .btn-light{border:0}
+    .selling{padding:25px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:20px}.section-head h2{font-size:42px;line-height:1;letter-spacing:-.04em;margin-top:9px}.section-head p{max-width:530px;color:#666;font-size:16px}.selling-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.selling-card{min-height:230px;border-radius:26px;padding:28px;display:flex;flex-direction:column;justify-content:end;color:#fff;background:#111}.selling-card:nth-child(2){background:#083f3e}.selling-card:nth-child(3){background:#e9eeee;color:#111}.selling-card h3{font-size:31px;line-height:1;letter-spacing:-.04em}.selling-card p{margin-top:10px;opacity:.8}.selling-card .btn{margin-top:18px;width:max-content}.footer{border-top:1px solid var(--line);color:#666;font-size:14px;padding:28px 0 42px}
+    @media(max-width:1024px){.nav{gap:12px}.mega-layout{grid-template-columns:240px 1fr}.mega-links{grid-template-columns:repeat(2,minmax(0,1fr))}.shop-row{grid-template-columns:repeat(3,minmax(0,1fr))}.selling-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:760px){.container{width:min(100% - 28px,1260px)}.topbar-inner{display:block}.topbar-inner div+div{margin-top:4px}.header-inner{padding:12px 0;gap:10px}.header-left{gap:8px}.brand{font-size:26px}.catalog-trigger{padding:10px 13px}.catalog-trigger-icon{display:none}.nav{display:none}.catalog-menu{top:calc(100% + 6px);left:0;right:0;border-radius:18px;max-height:calc(100vh - 90px);overflow:auto}.catalog-menu-head{padding:15px 16px}.catalog-menu-head h2{font-size:22px}.mega-layout{display:block;min-height:0}.mega-categories,.mega-subcategories{display:none}.mobile-catalog{display:block}.shop-title{font-size:42px}.shop-row{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;padding-bottom:8px;padding-right:20px;margin-right:-14px;-webkit-overflow-scrolling:touch}.shop-row::-webkit-scrollbar{display:none}.shop-item{flex:0 0 110px;scroll-snap-align:start}.shop-circle{max-width:110px;font-size:39px}.shop-label{font-size:14px}.hero{padding-top:18px}.hero-card,.hero-content{min-height:470px}.hero-content{padding:28px}.hero p{font-size:17px}.section-head{display:block}.section-head h2{font-size:34px}.section-head p{margin-top:13px}.selling-grid{grid-template-columns:1fr}.selling-card{min-height:200px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><div>RGW — компьютерная техника и сетевое оборудование</div><div>Каталог • Помощь в выборе</div></div></div>
+  <header class="header">
+    <div class="container header-shell">
+      <div class="header-inner">
+        <div class="header-left">
+          <a class="brand" href="rgw_multipage_home.html">RGW</a>
+          <button class="btn catalog-trigger" id="catalogTrigger" type="button" aria-expanded="false" aria-controls="catalogMenu"><span class="catalog-trigger-icon">☰</span><span>Каталог</span></button>
+        </div>
+        <nav class="nav">
+          <a href="rgw_catalog_all.html">Все товары</a><a href="rgw_page_laptops.html">Ноутбуки</a><a href="rgw_page_keyboards.html">Клавиатуры</a><a href="rgw_page_mice.html">Мыши</a><a href="rgw_page_headphones.html">Наушники</a><a href="rgw_page_gaming.html">Гейминг</a>
+        </nav>
+        <a class="btn btn-dark" href="#contacts">Связаться</a>
+      </div>
+      <div class="catalog-backdrop" id="catalogBackdrop"></div>
+      <section class="catalog-menu" id="catalogMenu" aria-label="Каталог RGW">
+        <div class="catalog-menu-head"><h2>Каталог RGW</h2><button class="catalog-close" id="catalogClose" type="button" aria-label="Закрыть каталог">×</button></div>
+        <div class="mega-layout">
+          <div class="mega-categories" id="megaCategories"></div>
+          <div class="mega-subcategories" id="megaSubcategories"></div>
+        </div>
+        <div class="mobile-catalog" id="mobileCatalog"></div>
+      </section>
+    </div>
+  </header>
+  <main>
+    <section class="shop-panel">
+      <div class="container"><h2 class="shop-title">Shop</h2><div class="shop-row">
+        <a class="shop-item active" href="rgw_catalog_all.html"><div class="shop-circle">🏷️</div><div class="shop-label">Все товары</div></a>
+        <a class="shop-item" href="rgw_page_laptops.html"><div class="shop-circle">💻</div><div class="shop-label">Ноутбуки</div></a>
+        <a class="shop-item" href="rgw_page_keyboards.html"><div class="shop-circle">⌨️</div><div class="shop-label">Клавиатуры</div></a>
+        <a class="shop-item" href="rgw_page_mice.html"><div class="shop-circle">🖱️</div><div class="shop-label">Мышки</div></a>
+        <a class="shop-item" href="rgw_page_headphones.html"><div class="shop-circle">🎧</div><div class="shop-label">Наушники</div></a>
+        <a class="shop-item" href="rgw_page_gaming.html"><div class="shop-circle">🎮</div><div class="shop-label">Гейминг</div></a>
+      </div></div>
+    </section>
+    <section class="hero"><div class="container"><div class="hero-card"><div class="hero-content"><div class="eyebrow">Техника для работы, дома и бизнеса</div><h1>Соберите свою рабочую систему</h1><p>Ноутбуки, комплектующие, периферия и сетевое оборудование в каталоге RGW.</p><div class="hero-actions"><a class="btn btn-light" href="rgw_catalog_all.html">Открыть весь каталог</a><a class="btn btn-dark" href="#contacts">Получить консультацию</a></div></div></div></div></section>
+    <section class="selling"><div class="container"><div class="section-head"><div><div class="eyebrow">Популярные направления</div><h2>Выберите задачу</h2></div><p>Основные предложения остаются на главной, а полный ассортимент открывается через кнопку «Каталог».</p></div>
+      <div class="selling-grid">
+        <article class="selling-card"><h3>Ноутбуки</h3><p>Для работы, учёбы и игр.</p><a class="btn btn-light" href="rgw_page_laptops.html">Смотреть ноутбуки</a></article>
+        <article class="selling-card"><h3>Комплектующие</h3><p>Детали для сборки и апгрейда ПК.</p><a class="btn btn-light" href="rgw_catalog_all.html#catalog-structure">Открыть раздел</a></article>
+        <article class="selling-card"><h3>Игровая зона</h3><p>Периферия и техника для гейминга.</p><a class="btn btn-dark" href="rgw_page_gaming.html">Перейти в гейминг</a></article>
+      </div>
+    </div></section>
+  </main>
+  <footer class="footer" id="contacts"><div class="container">RGW — поможем подобрать технику под вашу задачу.</div></footer>
+  <script>
+    const catalogData=[
+      {name:"Компьютеры",icon:"💻",items:[["Ноутбуки","rgw_page_laptops.html"],["Моноблоки","rgw_page_monoblocks.html"],["Системные блоки","rgw_page_system_units.html"]]},
+      {name:"Комплектующие",icon:"🧩",items:[["Видеокарты","rgw_page_gpus.html"],["Процессоры","rgw_page_processors.html"],["Материнские платы","rgw_page_motherboards.html"],["Оперативная память","rgw_page_ram.html"],["SSD","rgw_page_ssd.html"],["HDD","rgw_page_hdd.html"],["Корпуса","rgw_page_cases.html"],["Блоки питания","rgw_page_power_supplies.html"],["Охлаждение","rgw_page_cooling.html"]]},
+      {name:"Периферия",icon:"⌨️",items:[["Мониторы","rgw_page_monitors.html"],["Клавиатуры","rgw_page_keyboards.html"],["Мыши","rgw_page_mice.html"],["Наушники","rgw_page_headphones.html"],["Колонки","rgw_page_speakers.html"],["Веб-камеры","rgw_page_webcams.html"]]},
+      {name:"Печать",icon:"🖨️",items:[["Принтеры и МФУ","rgw_page_printers.html"],["Картриджи","rgw_page_cartridges.html"],["Расходные материалы","rgw_page_print_consumables.html"]]},
+      {name:"Сетевое оборудование",icon:"📡",items:[["Роутеры","rgw_page_routers.html"],["Mesh-системы","rgw_page_mesh.html"],["Коммутаторы","rgw_page_switches.html"],["Wi-Fi адаптеры","rgw_page_wifi_adapters.html"],["Сетевые карты","rgw_page_network_cards.html"],["Точки доступа","rgw_page_access_points.html"],["Радиомосты","rgw_page_wireless_bridges.html"]]},
+      {name:"Электропитание",icon:"🔋",items:[["UPS","rgw_page_ups.html"],["Батареи для UPS","rgw_page_ups_batteries.html"],["Стабилизаторы","rgw_page_stabilizers.html"],["Инверторы","rgw_page_inverters.html"],["Сетевые фильтры / пилоты","rgw_page_power_strips.html"]]},
+      {name:"Видеонаблюдение",icon:"📹",items:[["IP-камеры","rgw_page_ip_cameras.html"],["Аналоговые камеры","rgw_page_analog_cameras.html"],["Домофоны","rgw_page_intercoms.html"],["Видеорегистраторы","rgw_page_video_recorders.html"]]},
+      {name:"Серверное и сетевая инфраструктура",icon:"🗄️",items:[["Серверные шкафы","rgw_page_server_racks.html"],["Патч-панели","rgw_page_patch_panels.html"],["Коннекторы и розетки","rgw_page_connectors_outlets.html"],["Сетевые кабели","rgw_page_network_cables.html"],["IP-телефония","rgw_page_ip_telephony.html"],["Мини-АТС","rgw_page_mini_pbx.html"],["Сетевые аксессуары","rgw_page_network_accessories.html"]]},
+      {name:"Аксессуары и хранение",icon:"💾",items:[["Внешние HDD/SSD","rgw_page_external_storage.html"],["Флешки","rgw_page_flash_drives.html"],["Карты памяти","rgw_page_memory_cards.html"],["Кабели","rgw_page_cables.html"],["Переходники","rgw_page_adapters.html"],["USB-хабы","rgw_page_usb_hubs.html"],["Сумки и рюкзаки","rgw_page_bags.html"],["DVD-приводы","rgw_page_dvd_drives.html"],["Проекторы и экраны","rgw_page_projectors_screens.html"],["Прочие аксессуары","rgw_page_other_accessories.html"]]}
+    ];
+    const trigger=document.getElementById("catalogTrigger"),menu=document.getElementById("catalogMenu"),closeButton=document.getElementById("catalogClose"),backdrop=document.getElementById("catalogBackdrop"),categoryBox=document.getElementById("megaCategories"),subBox=document.getElementById("megaSubcategories"),mobileBox=document.getElementById("mobileCatalog");
+    function renderSubcategory(index){const category=catalogData[index];document.querySelectorAll(".mega-category").forEach((button,i)=>button.classList.toggle("active",i===index));subBox.innerHTML="<h3>"+category.icon+" "+category.name+"</h3><p>Выберите нужную подкатегорию</p><div class="mega-links">"+category.items.map(item=>"<a href=""+item[1]+"">"+item[0]+" <span>→</span></a>").join("")+"</div>";}
+    categoryBox.innerHTML=catalogData.map((category,index)=>"<button class="mega-category"+(index===0?" active":"")+"" type="button" data-category-index=""+index+""><span>"+category.icon+" "+category.name+"</span><span>›</span></button>").join("");
+    categoryBox.querySelectorAll(".mega-category").forEach(button=>button.addEventListener("click",()=>renderSubcategory(Number(button.dataset.categoryIndex))));
+    mobileBox.innerHTML=catalogData.map(category=>"<details><summary><span>"+category.icon+" "+category.name+"</span><span>⌄</span></summary><div class="mobile-links">"+category.items.map(item=>"<a href=""+item[1]+"">"+item[0]+" <span>→</span></a>").join("")+"</div></details>").join("");
+    renderSubcategory(0);
+    function setCatalog(open){menu.classList.toggle("open",open);backdrop.classList.toggle("open",open);trigger.setAttribute("aria-expanded",String(open));if(open)renderSubcategory(0);}
+    trigger.addEventListener("click",()=>setCatalog(!menu.classList.contains("open")));closeButton.addEventListener("click",()=>setCatalog(false));backdrop.addEventListener("click",()=>setCatalog(false));
+    document.addEventListener("click",event=>{if(menu.classList.contains("open")&&!event.target.closest(".header-shell"))setCatalog(false)});
+    document.addEventListener("keydown",event=>{if(event.key==="Escape")setCatalog(false)});
+  </script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RGW — Все товары</title>
+  <title>RGW — Каталог</title>
   <style>
     :root{
       --bg:#ffffff;
@@ -140,7 +140,21 @@
       .feature-card{min-height:360px}
       .page-hero-card{min-height:300px}
     }
-  </style>
+  
+    .catalog-structure{padding:30px 0 42px;background:#fff}
+    .catalog-category-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .catalog-category-card{border:1px solid var(--line);border-radius:24px;background:#fafafa;overflow:hidden;transition:.2s ease}
+    .catalog-category-card[open]{background:#fff;box-shadow:0 10px 26px rgba(0,0,0,.06)}
+    .catalog-category-card summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:14px;padding:20px}
+    .catalog-category-card summary::-webkit-details-marker{display:none}
+    .catalog-icon{width:54px;height:54px;display:flex;align-items:center;justify-content:center;border-radius:18px;background:#e8e8e8;font-size:28px;flex:0 0 auto}
+    .catalog-card-title{display:grid;gap:6px;min-width:0;flex:1}.catalog-card-title strong{font-size:21px;line-height:1.05}.catalog-card-title small{color:#666;font-size:13px;line-height:1.35}
+    .catalog-chevron{font-size:24px;color:#777;transition:transform .2s ease}.catalog-category-card[open] .catalog-chevron{transform:rotate(180deg)}
+    .catalog-subcategories{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:0 20px 20px 88px}
+    .catalog-subcategories a{display:flex;justify-content:space-between;gap:8px;padding:10px 12px;border-radius:12px;background:#f4f4f4;font-size:14px;color:#222}.catalog-subcategories a:hover{background:#e9e9e9}.catalog-subcategories a span{color:#777}
+    @media (max-width:1024px){.catalog-category-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media (max-width:760px){.catalog-category-grid{grid-template-columns:1fr}.catalog-subcategories{grid-template-columns:1fr;padding-left:20px}.catalog-category-card summary{padding:16px}.catalog-icon{width:48px;height:48px;font-size:24px}.catalog-card-title strong{font-size:19px}}
+</style>
 </head>
 <body>
   <div class="topbar">
@@ -167,37 +181,50 @@
   </header>
 
   <main>
-    <section id="shop" class="shop-panel">
-      <div class="container">
-        <h2 class="shop-title">Shop</h2>
-        <div class="shop-row">
-          <a class="shop-item active" href="rgw_catalog_all.html">
-            <div class="shop-circle">🏷️</div>
-            <div class="shop-label">Все товары</div>
-          </a>
-          <a class="shop-item" href="rgw_page_laptops.html">
-            <div class="shop-circle">💻</div>
-            <div class="shop-label">Ноутбуки</div>
-          </a>
-          <a class="shop-item" href="rgw_page_keyboards.html">
-            <div class="shop-circle">⌨️</div>
-            <div class="shop-label">Клавиатуры</div>
-          </a>
-          <a class="shop-item" href="rgw_page_mice.html">
-            <div class="shop-circle">🖱️</div>
-            <div class="shop-label">Мышки</div>
-          </a>
-          <a class="shop-item" href="rgw_page_headphones.html">
-            <div class="shop-circle">🎧</div>
-            <div class="shop-label">Наушники</div>
-          </a>
-          <a class="shop-item" href="rgw_page_gaming.html">
-            <div class="shop-circle">🎮</div>
-            <div class="shop-label">Гейминг</div>
-          </a>
-        </div>
-      </div>
-    </section>
+    <section id="catalog-structure" class="catalog-structure">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Каталог RGW</div><h2>Выберите раздел</h2></div>
+      <p>Основные направления магазина собраны в девять понятных разделов. Откройте карточку, чтобы увидеть подкатегории.</p>
+    </div>
+    <div class="catalog-category-grid"><details class="catalog-category-card" open>
+  <summary><span class="catalog-icon">💻</span><span class="catalog-card-title"><strong>Компьютеры</strong><small>Готовые устройства для работы, учёбы и дома.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_laptops.html">Ноутбуки<span>→</span></a><a href="rgw_page_monoblocks.html">Моноблоки<span>→</span></a><a href="rgw_page_system_units.html">Системные блоки<span>→</span></a></div>
+</details>
+<details class="catalog-category-card" open>
+  <summary><span class="catalog-icon">🧩</span><span class="catalog-card-title"><strong>Комплектующие</strong><small>Основные детали для сборки и обновления ПК.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_gpus.html">Видеокарты<span>→</span></a><a href="rgw_page_processors.html">Процессоры<span>→</span></a><a href="rgw_page_motherboards.html">Материнские платы<span>→</span></a><a href="rgw_page_ram.html">Оперативная память<span>→</span></a><a href="rgw_page_ssd.html">SSD<span>→</span></a><a href="rgw_page_hdd.html">HDD<span>→</span></a><a href="rgw_page_cases.html">Корпуса<span>→</span></a><a href="rgw_page_power_supplies.html">Блоки питания<span>→</span></a><a href="rgw_page_cooling.html">Охлаждение<span>→</span></a></div>
+</details>
+<details class="catalog-category-card" open>
+  <summary><span class="catalog-icon">⌨️</span><span class="catalog-card-title"><strong>Периферия</strong><small>Устройства для рабочего места, общения и развлечений.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_monitors.html">Мониторы<span>→</span></a><a href="rgw_page_keyboards.html">Клавиатуры<span>→</span></a><a href="rgw_page_mice.html">Мыши<span>→</span></a><a href="rgw_page_headphones.html">Наушники<span>→</span></a><a href="rgw_page_speakers.html">Колонки<span>→</span></a><a href="rgw_page_webcams.html">Веб-камеры<span>→</span></a></div>
+</details>
+<details class="catalog-category-card">
+  <summary><span class="catalog-icon">🖨️</span><span class="catalog-card-title"><strong>Печать</strong><small>Принтеры, МФУ и расходные материалы.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_printers.html">Принтеры и МФУ<span>→</span></a><a href="rgw_page_cartridges.html">Картриджи<span>→</span></a><a href="rgw_page_print_consumables.html">Расходные материалы<span>→</span></a></div>
+</details>
+<details class="catalog-category-card">
+  <summary><span class="catalog-icon">📡</span><span class="catalog-card-title"><strong>Сетевое оборудование</strong><small>Сети для дома, офиса и инфраструктуры.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_routers.html">Роутеры<span>→</span></a><a href="rgw_page_mesh.html">Mesh-системы<span>→</span></a><a href="rgw_page_switches.html">Коммутаторы<span>→</span></a><a href="rgw_page_wifi_adapters.html">Wi-Fi адаптеры<span>→</span></a><a href="rgw_page_network_cards.html">Сетевые карты<span>→</span></a><a href="rgw_page_access_points.html">Точки доступа<span>→</span></a><a href="rgw_page_wireless_bridges.html">Радиомосты<span>→</span></a></div>
+</details>
+<details class="catalog-category-card">
+  <summary><span class="catalog-icon">🔋</span><span class="catalog-card-title"><strong>Электропитание</strong><small>Защита техники и резервное питание.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_ups.html">UPS<span>→</span></a><a href="rgw_page_ups_batteries.html">Батареи для UPS<span>→</span></a><a href="rgw_page_stabilizers.html">Стабилизаторы<span>→</span></a><a href="rgw_page_inverters.html">Инверторы<span>→</span></a><a href="rgw_page_power_strips.html">Сетевые фильтры / пилоты<span>→</span></a></div>
+</details>
+<details class="catalog-category-card">
+  <summary><span class="catalog-icon">📹</span><span class="catalog-card-title"><strong>Видеонаблюдение</strong><small>Камеры и оборудование для систем безопасности.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_ip_cameras.html">IP-камеры<span>→</span></a><a href="rgw_page_analog_cameras.html">Аналоговые камеры<span>→</span></a><a href="rgw_page_intercoms.html">Домофоны<span>→</span></a><a href="rgw_page_video_recorders.html">Видеорегистраторы<span>→</span></a></div>
+</details>
+<details class="catalog-category-card">
+  <summary><span class="catalog-icon">🗄️</span><span class="catalog-card-title"><strong>Серверное и сетевая инфраструктура</strong><small>Решения для серверных и корпоративных сетей.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_server_racks.html">Серверные шкафы<span>→</span></a><a href="rgw_page_patch_panels.html">Патч-панели<span>→</span></a><a href="rgw_page_connectors_outlets.html">Коннекторы и розетки<span>→</span></a><a href="rgw_page_network_cables.html">Сетевые кабели<span>→</span></a><a href="rgw_page_ip_telephony.html">IP-телефония<span>→</span></a><a href="rgw_page_mini_pbx.html">Мини-АТС<span>→</span></a><a href="rgw_page_network_accessories.html">Сетевые аксессуары<span>→</span></a></div>
+</details>
+<details class="catalog-category-card">
+  <summary><span class="catalog-icon">💾</span><span class="catalog-card-title"><strong>Аксессуары и хранение</strong><small>Носители данных, кабели и полезные аксессуары.</small></span><span class="catalog-chevron">⌄</span></summary>
+  <div class="catalog-subcategories"><a href="rgw_page_external_storage.html">Внешние HDD/SSD<span>→</span></a><a href="rgw_page_flash_drives.html">Флешки<span>→</span></a><a href="rgw_page_memory_cards.html">Карты памяти<span>→</span></a><a href="rgw_page_cables.html">Кабели<span>→</span></a><a href="rgw_page_adapters.html">Переходники<span>→</span></a><a href="rgw_page_usb_hubs.html">USB-хабы<span>→</span></a><a href="rgw_page_bags.html">Сумки и рюкзаки<span>→</span></a><a href="rgw_page_dvd_drives.html">DVD-приводы<span>→</span></a><a href="rgw_page_projectors_screens.html">Проекторы и экраны<span>→</span></a><a href="rgw_page_other_accessories.html">Прочие аксессуары<span>→</span></a></div>
+</details></div>
+  </div>
+</section>
 
     <section class="page-hero">
       <div class="container">
@@ -211,8 +238,8 @@
           <div class="page-hero-overlay"></div>
           <div class="page-hero-content">
             <div class="eyebrow" style="color:rgba(255,255,255,.82)">Категория RGW</div>
-            <h1>Весь каталог RGW в одном месте</h1>
-            <p>Общая страница каталога со всеми основными категориями и примерами товаров. Можно использовать как вторую страницу для кнопки "Все товары".</p>
+            <h1>Каталог RGW</h1>
+            <p>Компьютеры, комплектующие, периферия, сети, печать и другие товары RGW собраны по понятным разделам.</p>
             <div class="hero-actions">
               <a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Уточнить наличие</a>
               <a href="rgw_multipage_home.html" class="btn btn-light">Назад на главную</a>

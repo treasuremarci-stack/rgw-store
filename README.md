@@ -4,7 +4,7 @@
 
 ## Страницы
 
-- **rgw_catalog_all.html** — общий каталог со всеми товарами
+- **rgw_multipage_home.html** — главная страница и глобальный каталог категорий
 - **rgw_page_laptops.html** — категория ноутбуков с фильтрами
 - **rgw_page_keyboards.html** — категория клавиатур
 - **rgw_page_headphones.html** — категория наушников

@@ -18,7 +18,7 @@
     @media(max-width:1024px){.nav{gap:12px}.mega-layout{grid-template-columns:240px 1fr}.mega-links{grid-template-columns:repeat(2,minmax(0,1fr))}.shop-row{grid-template-columns:repeat(3,minmax(0,1fr))}.selling-grid{grid-template-columns:1fr 1fr}}
     @media(max-width:760px){.container{width:min(100% - 28px,1260px)}.topbar-inner{display:block}.topbar-inner div+div{margin-top:4px}.header-inner{padding:12px 0;gap:10px}.header-left{gap:8px}.brand{font-size:26px}.catalog-trigger{padding:10px 13px}.catalog-trigger-icon{display:none}.nav{display:none}.catalog-menu{top:calc(100% + 6px);left:0;right:0;border-radius:18px;max-height:calc(100vh - 90px);overflow:auto}.catalog-menu-head{padding:15px 16px}.catalog-menu-head h2{font-size:22px}.mega-layout{display:block;min-height:0}.mega-categories,.mega-subcategories{display:none}.mobile-catalog{display:block}.shop-title{font-size:42px}.shop-row{display:flex;gap:14px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x proximity;padding-bottom:8px;padding-right:20px;margin-right:-14px;-webkit-overflow-scrolling:touch}.shop-row::-webkit-scrollbar{display:none}.shop-item{flex:0 0 110px;scroll-snap-align:start}.shop-circle{max-width:110px;font-size:39px}.shop-label{font-size:14px}.hero{padding-top:18px}.hero-card,.hero-content{min-height:470px}.hero-content{padding:28px}.hero p{font-size:17px}.section-head{display:block}.section-head h2{font-size:34px}.section-head p{margin-top:13px}.selling-grid{grid-template-columns:1fr}.selling-card{min-height:200px}}
   </style>
-</head>
+<link rel="stylesheet" href="rgw_global_catalog.css"></head>
 <body>
   <div class="topbar"><div class="container topbar-inner"><div>RGW — компьютерная техника и сетевое оборудование</div><div>Каталог • Помощь в выборе</div></div></div>
   <header class="header">
@@ -29,7 +29,7 @@
           <button class="btn catalog-trigger" id="catalogTrigger" type="button" aria-expanded="false" aria-controls="catalogMenu"><span class="catalog-trigger-icon">☰</span><span>Каталог</span></button>
         </div>
         <nav class="nav">
-          <a href="rgw_catalog_all.html">Все товары</a><a href="rgw_page_laptops.html">Ноутбуки</a><a href="rgw_page_keyboards.html">Клавиатуры</a><a href="rgw_page_mice.html">Мыши</a><a href="rgw_page_headphones.html">Наушники</a><a href="rgw_page_gaming.html">Гейминг</a>
+          <a href="rgw_multipage_home.html">Все товары</a><a href="rgw_page_laptops.html">Ноутбуки</a><a href="rgw_page_keyboards.html">Клавиатуры</a><a href="rgw_page_mice.html">Мыши</a><a href="rgw_page_headphones.html">Наушники</a><a href="rgw_page_gaming.html">Гейминг</a>
         </nav>
         <a class="btn btn-dark" href="#contacts">Связаться</a>
       </div>
@@ -47,7 +47,7 @@
   <main>
     <section class="shop-panel">
       <div class="container"><h2 class="shop-title">Shop</h2><div class="shop-row">
-        <a class="shop-item active" href="rgw_catalog_all.html"><div class="shop-circle">🏷️</div><div class="shop-label">Все товары</div></a>
+        <a class="shop-item active" href="rgw_multipage_home.html"><div class="shop-circle">🏷️</div><div class="shop-label">Все товары</div></a>
         <a class="shop-item" href="rgw_page_laptops.html"><div class="shop-circle">💻</div><div class="shop-label">Ноутбуки</div></a>
         <a class="shop-item" href="rgw_page_keyboards.html"><div class="shop-circle">⌨️</div><div class="shop-label">Клавиатуры</div></a>
         <a class="shop-item" href="rgw_page_mice.html"><div class="shop-circle">🖱️</div><div class="shop-label">Мышки</div></a>
@@ -55,11 +55,11 @@
         <a class="shop-item" href="rgw_page_gaming.html"><div class="shop-circle">🎮</div><div class="shop-label">Гейминг</div></a>
       </div></div>
     </section>
-    <section class="hero"><div class="container"><div class="hero-card"><div class="hero-content"><div class="eyebrow">Техника для работы, дома и бизнеса</div><h1>Соберите свою рабочую систему</h1><p>Ноутбуки, комплектующие, периферия и сетевое оборудование в каталоге RGW.</p><div class="hero-actions"><a class="btn btn-light" href="rgw_catalog_all.html">Открыть весь каталог</a><a class="btn btn-dark" href="#contacts">Получить консультацию</a></div></div></div></div></section>
+    <section class="hero"><div class="container"><div class="hero-card"><div class="hero-content"><div class="eyebrow">Техника для работы, дома и бизнеса</div><h1>Соберите свою рабочую систему</h1><p>Ноутбуки, комплектующие, периферия и сетевое оборудование в каталоге RGW.</p><div class="hero-actions"><a class="btn btn-light" href="rgw_multipage_home.html">Открыть весь каталог</a><a class="btn btn-dark" href="#contacts">Получить консультацию</a></div></div></div></div></section>
     <section class="selling"><div class="container"><div class="section-head"><div><div class="eyebrow">Популярные направления</div><h2>Выберите задачу</h2></div><p>Основные предложения остаются на главной, а полный ассортимент открывается через кнопку «Каталог».</p></div>
       <div class="selling-grid">
         <article class="selling-card"><h3>Ноутбуки</h3><p>Для работы, учёбы и игр.</p><a class="btn btn-light" href="rgw_page_laptops.html">Смотреть ноутбуки</a></article>
-        <article class="selling-card"><h3>Комплектующие</h3><p>Детали для сборки и апгрейда ПК.</p><a class="btn btn-light" href="rgw_catalog_all.html#catalog-structure">Открыть раздел</a></article>
+        <article class="selling-card"><h3>Комплектующие</h3><p>Детали для сборки и апгрейда ПК.</p><a class="btn btn-light" href="rgw_multipage_home.html">Открыть раздел</a></article>
         <article class="selling-card"><h3>Игровая зона</h3><p>Периферия и техника для гейминга.</p><a class="btn btn-dark" href="rgw_page_gaming.html">Перейти в гейминг</a></article>
       </div>
     </div></section>
@@ -88,5 +88,5 @@
     document.addEventListener('click',event=>{if(menu.classList.contains('open')&&!event.target.closest('.header-shell'))setCatalog(false)});
     document.addEventListener('keydown',event=>{if(event.key==='Escape')setCatalog(false)});
   </script>
-</body>
+<script src="rgw_global_catalog.js"></script></body>
 </html>

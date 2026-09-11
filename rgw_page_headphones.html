@@ -1,245 +1,39 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Геймерские наушники</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-</head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>RGW — Наушники</title>
+<style>
+:root{--bg:#fff;--soft:#f5f5f5;--soft2:#fafafa;--line:#e7e7e7;--strong:#d7d7d7;--text:#111;--muted:#626262}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:var(--bg);line-height:1.45}a{text-decoration:none;color:inherit}button,select{font:inherit}.container{width:min(1320px,calc(100% - 40px));margin:auto}
+.topbar{background:#f8f8f8;border-bottom:1px solid var(--line);color:#666;font-size:13px}.topbar-inner,.header-inner,.toolbar,.toolbar-left,.toolbar-right,.filters-head,.category-strip,.section-head{display:flex;align-items:center;justify-content:space-between;gap:16px}.topbar-inner{padding:10px 0}.header{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.header-inner{padding:16px 0}.brand{font-size:30px;font-weight:800;letter-spacing:.04em}.nav{display:flex;gap:18px;font-size:15px;color:#333;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;padding:12px 20px;font-size:14px;font-weight:700;border:1px solid transparent;cursor:pointer}.btn-dark{background:#111;color:#fff}.btn-light{background:#fff;border-color:#d6d6d6}.btn-soft{background:#efefef}.shop-panel{background:var(--soft);border-bottom:1px solid var(--line);padding:18px 0 24px}.shop-title{font-size:56px;line-height:1;font-weight:500;margin:0 0 22px;letter-spacing:-.045em}.shop-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:18px}.shop-item{text-align:center}.shop-circle{width:100%;aspect-ratio:1;max-width:124px;margin:0 auto 12px;border-radius:50%;background:#e8e8e8;display:flex;align-items:center;justify-content:center;font-size:46px}.shop-item.active .shop-circle{background:#111;color:#fff}.shop-label{font-size:15px;font-weight:700;max-width:124px;margin:auto}
+.catalog-header{padding:20px 0 10px}.crumbs{display:flex;gap:10px;color:#707070;font-size:14px;margin-bottom:18px}.category-strip{align-items:end;padding:24px 0 0;border-bottom:1px solid var(--line);flex-wrap:wrap}.category-strip p{max-width:720px;color:#5b5b5b;font-size:16px;padding-bottom:18px;margin:0}.page-title-wrap{padding-bottom:18px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;color:#6b6b6b;font-weight:700;margin-bottom:12px}h1{font-size:52px;line-height:.95;letter-spacing:-.05em;margin:0}h2{font-size:38px;line-height:1;letter-spacing:-.04em;margin:0}.catalog-section{padding:24px 0}.catalog-wrap{display:grid;grid-template-columns:312px minmax(0,1fr);gap:24px;align-items:start}.filters-panel{position:sticky;top:92px;border:1px solid var(--line);border-radius:22px;background:#fff;overflow:hidden;box-shadow:0 8px 24px rgba(0,0,0,.03)}.filters-head{padding:18px;border-bottom:1px solid var(--line)}.filters-head h3{margin:0;font-size:20px}.filters-sub{padding:12px 18px 14px;color:var(--muted);font-size:13px;border-bottom:1px solid var(--line)}.filter-group{border-top:1px solid var(--line)}.filter-toggle{width:100%;border:0;background:#fff;display:flex;justify-content:space-between;padding:16px 18px;cursor:pointer;font-weight:700}.filter-content{padding:0 18px 18px;display:grid;gap:10px}.filter-group.collapsed .filter-content{display:none}.check-list{display:grid;gap:10px}.check-item{display:flex;align-items:center;gap:10px;font-size:14px;cursor:pointer}.check-item input{width:18px;height:18px;accent-color:#111}.toolbar{flex-wrap:wrap;margin-bottom:16px;padding:16px 18px;border:1px solid var(--line);border-radius:22px;background:var(--soft2)}.toolbar-left,.toolbar-right{justify-content:flex-start}.badge{padding:8px 12px;border-radius:999px;background:#111;color:#fff;font-size:13px;font-weight:700}.toolbar-title{font-size:14px;font-weight:700}.sort-select{min-width:220px;border:1px solid var(--strong);border-radius:999px;padding:12px 16px;background:#fff}.active-filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:18px}.filter-pill{display:flex;gap:8px;padding:10px 14px;border-radius:999px;background:#f2f2f2;font-size:14px;font-weight:700}.filter-pill button{border:0;background:none;cursor:pointer}.products-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.product-card{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;transition:.2s;box-shadow:0 2px 8px rgba(0,0,0,.04)}.product-card:hover{transform:translateY(-2px);box-shadow:0 8px 16px rgba(0,0,0,.08)}.product-image{aspect-ratio:1;background:linear-gradient(135deg,#f5f5f5,#ececec);display:flex;align-items:center;justify-content:center;font-size:70px}.product-body{padding:16px}.product-title{font-size:15px;line-height:1.3;margin:0 0 12px;font-weight:600}.product-desc{color:var(--muted);font-size:13px;margin:0 0 12px;min-height:38px}.product-price{font-size:18px;font-weight:700;margin-bottom:12px}.product-specs{display:flex;flex-direction:column;gap:8px;margin-bottom:12px;padding-top:12px;border-top:1px solid var(--line)}.spec-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:12px}.spec-label{font-weight:600;color:#333}.empty-state{display:none;border:1px dashed var(--strong);border-radius:22px;padding:28px;background:#fbfbfb;color:#555}.empty-state.show{display:block}.reasons{background:#fafafa;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:42px 0;margin-top:18px}.section-head{align-items:end;margin-bottom:20px}.section-head p{max-width:560px;color:#575757}.reasons-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.reason-card{border:1px solid var(--line);border-radius:24px;padding:24px;background:#fff}.reason-card h3{margin:0;font-size:22px}.reason-card p{color:#595959}.footer{color:#666;font-size:14px;padding:28px 0 42px}.mobile-only{display:none}
+@media(max-width:1180px){.products-grid{grid-template-columns:repeat(2,1fr)}.shop-row{grid-template-columns:repeat(3,1fr)}.reasons-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:980px){.catalog-wrap{grid-template-columns:1fr}.filters-panel{position:static;display:none}.filters-panel.open{display:block}.mobile-only{display:inline-flex}.nav{display:none}}@media(max-width:760px){.container{width:calc(100% - 24px)}h1{font-size:34px}.shop-title{font-size:44px}.products-grid,.reasons-grid{grid-template-columns:1fr}.shop-row{display:flex;overflow-x:auto;gap:14px}.shop-item{flex:0 0 110px}.section-head{display:block}.product-title{font-size:20px}}
+</style></head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <!-- Фильтры -->
-            <div class="col-md-3">
-                <div class="filter-section">
-                    <h4>Фильтры</h4>
-                    
-                    <!-- Категории -->
-                    <div class="filter-group">
-                        <h5>Категории</h5>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="headphones-gaming">
-                            <label class="form-check-label" for="headphones-gaming">Геймерские наушники</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="headphones-stereo">
-                            <label class="form-check-label" for="headphones-stereo">Стерео наушники</label>
-                        </div>
-                    </div>
-
-                    <!-- Бренды -->
-                    <div class="filter-group">
-                        <h5>Бренды</h5>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="brand-dialog">
-                            <label class="form-check-label" for="brand-dialog">Dialog</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="brand-logitech">
-                            <label class="form-check-label" for="brand-logitech">Logitech</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="brand-baseus">
-                            <label class="form-check-label" for="brand-baseus">Baseus</label>
-                        </div>
-                    </div>
-
-                    <!-- Цена -->
-                    <div class="filter-group">
-                        <h5>Цена</h5>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">от</span>
-                            <input type="number" class="form-control" id="price-min" placeholder="0">
-                        </div>
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">до</span>
-                            <input type="number" class="form-control" id="price-max" placeholder="10000">
-                        </div>
-                    </div>
-
-                    <!-- Специальные характеристики -->
-                    <div class="filter-group">
-                        <h5>Характеристики</h5>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="feature-wireless">
-                            <label class="form-check-label" for="feature-wireless">Беспроводные</label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="feature-microphone">
-                            <label class="form-check-label" for="feature-microphone">С микрофоном</label>
-                        </div>
-                    </div>
-
-                    <!-- Кнопка сброса фильтров -->
-                    <button class="btn btn-secondary mt-3" onclick="resetFilters()">Сбросить фильтры</button>
-                </div>
-            </div>
-
-            <!-- Товары -->
-            <div class="col-md-9">
-                <h2>Геймерские наушники</h2>
-                <div id="products-container" class="row">
-                    <!-- Карточки товаров будут добавлены сюда через JavaScript -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Данные о товарах
-        const products = [
-            {
-                id: 1,
-                name: "Dialog M251",
-                price: 2,
-                image: "images/headphones/dialog-m251.jpg",
-                category: "headphones-stereo",
-                brand: "dialog",
-                wireless: false,
-                microphone: false
-            },
-            {
-                id: 2,
-                name: "Logitech Headset G331",
-                price: 33,
-                image: "images/headphones/logitech-g331.jpg",
-                category: "headphones-stereo",
-                brand: "logitech",
-                wireless: false,
-                microphone: true
-            },
-            {
-                id: 3,
-                name: "Logitech Stereo Headset H110",
-                price: 8,
-                image: "images/headphones/logitech-h110.jpg",
-                category: "headphones-stereo",
-                brand: "logitech",
-                wireless: false,
-                microphone: true
-            },
-            {
-                id: 4,
-                name: "Baseus Bowie D05 Wireless Headphones",
-                price: 18,
-                image: "images/headphones/baseus-bowie-d05.jpg",
-                category: "headphones-gaming",
-                brand: "baseus",
-                wireless: true,
-                microphone: true
-            },
-            {
-                id: 5,
-                name: "Logitech Stereo Headset Н390",
-                price: 24,
-                image: "images/headphones/logitech-n390.jpg",
-                category: "headphones-stereo",
-                brand: "logitech",
-                wireless: false,
-                microphone: true
-            },
-            {
-                id: 6,
-                name: "Logitech USB Headset Н340",
-                price: 22,
-                image: "images/headphones/logitech-n340.jpg",
-                category: "headphones-stereo",
-                brand: "logitech",
-                wireless: false,
-                microphone: true
-            },
-            {
-                id: 7,
-                name: "Baseus Bowie H1i Noise-Cancellation Wireless Headphones",
-                price: 35,
-                image: "images/headphones/baseus-bowie-h1i.jpg",
-                category: "headphones-gaming",
-                brand: "baseus",
-                wireless: true,
-                microphone: true
-            }
-        ];
-
-        // Функция для отображения товаров
-        function displayProducts(productsToShow) {
-            const container = document.getElementById('products-container');
-            container.innerHTML = '';
-
-            productsToShow.forEach(product => {
-                const productCard = `
-                    <div class="col-md-4 mb-4">
-                        <div class="card product-card">
-                            <img src="${product.image}" class="card-img-top" alt="${product.name}">
-                            <div class="card-body">
-                                <h5 class="card-title">${product.name}</h5>
-                                <p class="card-text">Цена: ${product.price} ₽</p>
-                                <button class="btn btn-primary add-to-cart" data-id="${product.id}">В корзину</button>
-                            </div>
-                        </div>
-                    </div>
-                `;
-                container.innerHTML += productCard;
-            });
-        }
-
-        // Функция фильтрации товаров
-        function filterProducts() {
-            const categoryFilters = document.querySelectorAll('.filter-group input[type="checkbox"]:checked');
-            const brandFilters = document.querySelectorAll('.filter-group input[type="checkbox"]:checked');
-            const priceMin = parseFloat(document.getElementById('price-min').value) || 0;
-            const priceMax = parseFloat(document.getElementById('price-max').value) || Infinity;
-
-            let filteredProducts = products.filter(product => {
-                // Проверка категории
-                let categoryMatch = true;
-                if (categoryFilters.length > 0) {
-                    categoryMatch = Array.from(categoryFilters).some(filter => 
-                        filter.id === product.category
-                    );
-                }
-
-                // Проверка бренда
-                let brandMatch = true;
-                if (brandFilters.length > 0) {
-                    brandMatch = Array.from(brandFilters).some(filter => 
-                        filter.id === `brand-${product.brand}`
-                    );
-                }
-
-                // Проверка цены
-                const priceMatch = product.price >= priceMin && product.price <= priceMax;
-
-                return categoryMatch && brandMatch && priceMatch;
-            });
-
-            displayProducts(filteredProducts);
-        }
-
-        // Функция сброса фильтров
-        function resetFilters() {
-            document.querySelectorAll('.filter-group input[type="checkbox"]').forEach(checkbox => {
-                checkbox.checked = false;
-            });
-            document.getElementById('price-min').value = '';
-            document.getElementById('price-max').value = '';
-            displayProducts(products);
-        }
-
-        // Обработчики событий для фильтров
-        document.querySelectorAll('.filter-group input[type="checkbox"]').forEach(checkbox => {
-            checkbox.addEventListener('change', filterProducts);
-        });
-
-        document.getElementById('price-min').addEventListener('input', filterProducts);
-        document.getElementById('price-max').addEventListener('input', filterProducts);
-
-        // Инициализация страницы
-        document.addEventListener('DOMContentLoaded', function() {
-            displayProducts(products);
-        });
-    </script>
-</body>
-</html>
+<div class="topbar"><div class="container topbar-inner"><div>RGW — локальный магазин компьютерной техники</div><div>Наушники • Каталог с фильтрами</div></div></div>
+<header class="header"><div class="container header-inner"><a href="rgw_multipage_home.html" class="brand">RGW</a><nav class="nav"><a href="rgw_catalog_all.html">Все товары</a><a href="rgw_page_laptops.html">Ноутбуки</a><a href="rgw_page_components.html">Комплектующие</a><a href="rgw_page_keyboards.html">Клавиатуры</a><a href="rgw_page_mice.html">Мышки</a><a href="rgw_page_headphones.html" style="font-weight:700">Наушники</a><a href="rgw_page_gaming.html">Гейминг</a></nav><a href="rgw_multipage_home.html#contacts" class="btn btn-dark">Связаться</a></div></header>
+<main><section class="shop-panel"><div class="container"><h2 class="shop-title">Shop</h2><div class="shop-row"><a class="shop-item" href="rgw_catalog_all.html"><div class="shop-circle">🏷️</div><div class="shop-label">Все товары</div></a><a class="shop-item" href="rgw_page_laptops.html"><div class="shop-circle">💻</div><div class="shop-label">Ноутбуки</div></a><a class="shop-item" href="rgw_page_keyboards.html"><div class="shop-circle">⌨️</div><div class="shop-label">Клавиатуры</div></a><a class="shop-item" href="rgw_page_mice.html"><div class="shop-circle">🖱️</div><div class="shop-label">Мышки</div></a><a class="shop-item active" href="rgw_page_headphones.html"><div class="shop-circle">🎧</div><div class="shop-label">Наушники</div></a><a class="shop-item" href="rgw_page_gaming.html"><div class="shop-circle">🎮</div><div class="shop-label">Гейминг</div></a></div></div></section>
+<section class="catalog-header"><div class="container"><div class="crumbs"><a href="rgw_multipage_home.html">Главная</a><span>›</span><a href="rgw_catalog_all.html">Каталог</a><span>›</span><span>Наушники</span></div><div class="category-strip"><div class="page-title-wrap"><div class="eyebrow">Аудио и гарнитуры</div><h1>Наушники</h1></div><p>Проводные и беспроводные модели для работы, общения, музыки и игр. Используйте фильтры, чтобы быстро подобрать подходящий вариант.</p></div></div></section>
+<section class="catalog-section"><div class="container catalog-wrap"><aside class="filters-panel" id="filtersPanel"><div class="filters-head"><h3>Фильтры</h3><button class="btn btn-light" id="clearFiltersBtn">Сбросить</button></div><div class="filters-sub">Можно выбрать несколько параметров одновременно.</div>
+<div class="filter-group" data-group><button class="filter-toggle"><span>Бренд</span><span>▾</span></button><div class="filter-content"><div class="check-list"><label class="check-item"><input type="checkbox" name="brand" value="baseus">Baseus</label><label class="check-item"><input type="checkbox" name="brand" value="logitech">Logitech</label><label class="check-item"><input type="checkbox" name="brand" value="dialog">Dialog</label></div></div></div>
+<div class="filter-group" data-group><button class="filter-toggle"><span>Подключение</span><span>▾</span></button><div class="filter-content"><div class="check-list"><label class="check-item"><input type="checkbox" name="connect" value="wired">Проводные</label><label class="check-item"><input type="checkbox" name="connect" value="wireless">Беспроводные</label></div></div></div>
+<div class="filter-group" data-group><button class="filter-toggle"><span>Назначение</span><span>▾</span></button><div class="filter-content"><div class="check-list"><label class="check-item"><input type="checkbox" name="purpose" value="gaming">Игровые</label><label class="check-item"><input type="checkbox" name="purpose" value="office">Для работы и общения</label><label class="check-item"><input type="checkbox" name="purpose" value="music">Для музыки</label></div></div></div></aside>
+<div class="catalog-main"><div class="toolbar"><div class="toolbar-left"><button class="btn btn-soft mobile-only" id="toggleFiltersBtn">Фильтры</button><span class="badge" id="resultsCount">8</span><div class="toolbar-title">Показано товаров</div></div><div class="toolbar-right"><label class="toolbar-title" for="sortSelect">Сортировка</label><select id="sortSelect" class="sort-select"><option value="featured">По умолчанию</option><option value="price-asc">Цена: по возрастанию</option><option value="price-desc">Цена: по убыванию</option><option value="name-asc">По алфавиту</option></select></div></div><div class="active-filters" id="activeFilters"></div><div class="products-grid" id="productsGrid">
+<article class="product-card" data-brand="baseus" data-connect="wireless" data-purpose="gaming" data-price="48" data-name="Baseus AeQur GH02"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Baseus AeQur GH02 Gaming Wireless Headphones</h3><p class="product-desc">Игровые беспроводные наушники, цвет Moon White.</p><div class="product-price">48 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Baseus</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Беспроводное</span></div><div class="spec-row"><span class="spec-label">Назначение:</span><span>Игровые</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="dialog" data-connect="wired" data-purpose="office" data-price="2" data-name="Dialog M251"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Dialog M251</h3><p class="product-desc">Доступная проводная модель для повседневного использования.</p><div class="product-price">2 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Dialog</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Проводное</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="logitech" data-connect="wired" data-purpose="gaming" data-price="33" data-name="Logitech Headset G331"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Logitech Headset G331</h3><p class="product-desc">Игровая гарнитура Logitech для игр и голосового общения.</p><div class="product-price">33 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Logitech</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Проводное</span></div><div class="spec-row"><span class="spec-label">Назначение:</span><span>Игровые</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="logitech" data-connect="wired" data-purpose="office" data-price="8" data-name="Logitech Stereo Headset H110"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Logitech Stereo Headset H110</h3><p class="product-desc">Стереогарнитура для звонков, работы и повседневного использования.</p><div class="product-price">8 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Logitech</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Проводное</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="baseus" data-connect="wireless" data-purpose="music" data-price="18" data-name="Baseus Bowie D05"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Baseus Bowie D05 Wireless Headphones</h3><p class="product-desc">Беспроводные полноразмерные наушники, цвет Creamy-white.</p><div class="product-price">18 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Baseus</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Беспроводное</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="logitech" data-connect="wired" data-purpose="office" data-price="24" data-name="Logitech Stereo Headset H390"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Logitech Stereo Headset H390</h3><p class="product-desc">Проводная гарнитура для видеозвонков и рабочего места.</p><div class="product-price">24 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Logitech</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Проводное</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="logitech" data-connect="wired" data-purpose="office" data-price="22" data-name="Logitech USB Headset H340"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Logitech USB Headset H340</h3><p class="product-desc">USB-гарнитура Logitech для звонков и онлайн-общения.</p><div class="product-price">22 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Logitech</span></div><div class="spec-row"><span class="spec-label">Интерфейс:</span><span>USB</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+<article class="product-card" data-brand="baseus" data-connect="wireless" data-purpose="music" data-price="35" data-name="Baseus Bowie H1i"><div class="product-image">🎧</div><div class="product-body"><h3 class="product-title">Baseus Bowie H1i Noise-Cancellation Wireless Headphones</h3><p class="product-desc">Беспроводные наушники с шумоподавлением, цвет Cluster Black.</p><div class="product-price">35 с.</div><div class="product-specs"><div class="spec-row"><span class="spec-label">Бренд:</span><span>Baseus</span></div><div class="spec-row"><span class="spec-label">Подключение:</span><span>Беспроводное</span></div><div class="spec-row"><span class="spec-label">Особенность:</span><span>Шумоподавление</span></div></div><a class="btn btn-dark" href="rgw_multipage_home.html#contacts">Уточнить наличие</a></div></article>
+</div><div class="empty-state" id="emptyState">По выбранным параметрам ничего не найдено. Попробуйте снять часть фильтров.</div></div></div></section>
+<section class="reasons"><div class="container"><div class="section-head"><div><div class="eyebrow">Почему выбирают RGW</div><h2>Наши преимущества</h2></div><p>Подберём подходящую гарнитуру под работу, игры или музыку и поможем уточнить наличие.</p></div><div class="reasons-grid"><div class="reason-card"><h3>Гарантия качества</h3><p>Техника проходит проверку перед продажей.</p></div><div class="reason-card"><h3>Быстрый заказ</h3><p>Свяжитесь с нами, чтобы зарезервировать товар.</p></div><div class="reason-card"><h3>Помощь в выборе</h3><p>Подберём модель под ваши задачи и бюджет.</p></div><div class="reason-card"><h3>Доступные цены</h3><p>Актуальные позиции из прайс-листа RGW.</p></div></div></div></section></main>
+<footer class="footer"><div class="container">RGW — каталог наушников.</div></footer>
+<script>
+const inputs=[...document.querySelectorAll('.filters-panel input[type=checkbox]')],grid=document.getElementById('productsGrid'),products=[...grid.querySelectorAll('.product-card')],count=document.getElementById('resultsCount'),active=document.getElementById('activeFilters'),empty=document.getElementById('emptyState'),sort=document.getElementById('sortSelect'),panel=document.getElementById('filtersPanel');
+const labels={brand:'Бренд',connect:'Подключение',purpose:'Назначение'},pretty={baseus:'Baseus',logitech:'Logitech',dialog:'Dialog',wired:'Проводные',wireless:'Беспроводные',gaming:'Игровые',office:'Работа и общение',music:'Музыка'};
+function selected(){const g={};inputs.forEach(i=>{(g[i.name]??=[]);if(i.checked)g[i.name].push(i.value)});return g}function match(p,g){return Object.entries(g).every(([k,v])=>!v.length||v.includes((p.dataset[k]||'').toLowerCase()))}function update(){const g=selected();let list=products.filter(p=>match(p,g));if(sort.value==='price-asc')list.sort((a,b)=>+a.dataset.price-+b.dataset.price);if(sort.value==='price-desc')list.sort((a,b)=>+b.dataset.price-+a.dataset.price);if(sort.value==='name-asc')list.sort((a,b)=>a.dataset.name.localeCompare(b.dataset.name));products.forEach(p=>p.style.display='none');list.forEach(p=>{p.style.display='';grid.appendChild(p)});count.textContent=list.length;empty.classList.toggle('show',!list.length);active.innerHTML='';Object.entries(g).forEach(([k,vs])=>vs.forEach(v=>{const pill=document.createElement('div');pill.className='filter-pill';pill.innerHTML=`<span>${labels[k]}: ${pretty[v]||v}</span><button type="button">×</button>`;pill.querySelector('button').onclick=()=>{const i=inputs.find(x=>x.name===k&&x.value===v);if(i)i.checked=false;update()};active.appendChild(pill)}))}
+inputs.forEach(i=>i.onchange=update);sort.onchange=update;document.getElementById('clearFiltersBtn').onclick=()=>{inputs.forEach(i=>i.checked=false);update()};document.querySelectorAll('[data-group]').forEach(g=>g.querySelector('.filter-toggle').onclick=()=>g.classList.toggle('collapsed'));document.getElementById('toggleFiltersBtn').onclick=()=>panel.classList.toggle('open');update();
+</script></body></html>

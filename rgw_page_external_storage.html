@@ -8,8 +8,8 @@
 <link rel="stylesheet" href="rgw_global_catalog.css"></head>
 <body>
   <div class="topbar"><div class="container topbar-inner"><div>RGW — локальный магазин компьютерной техники</div><div>Каталог • Аксессуары и хранение</div></div></div>
-  <header class="header"><div class="container header-inner">
-    <a href="rgw_multipage_home.html" class="brand">RGW</a>
+  <header class="header"><div class="container header-shell"><div class="header-inner">
+    <div class="header-left"><a href="rgw_multipage_home.html" class="brand">RGW</a><button class="btn catalog-trigger" id="catalogTrigger" type="button" aria-expanded="false" aria-controls="catalogMenu"><span class="catalog-trigger-icon">☰</span><span>Каталог</span></button></div>
     <nav class="nav">
       <a href="rgw_multipage_home.html">Каталог</a>
       <a href="rgw_page_laptops.html">Ноутбуки</a>
@@ -19,7 +19,15 @@
       <a href="rgw_page_gaming.html">Гейминг</a>
     </nav>
     <a href="rgw_multipage_home.html" class="btn btn-dark">Все категории</a>
-  </div></header>
+  </div>      <div class="catalog-backdrop" id="catalogBackdrop"></div>
+      <section class="catalog-menu" id="catalogMenu" aria-label="Каталог RGW">
+        <div class="catalog-menu-head"><h2>Каталог RGW</h2><button class="catalog-close" id="catalogClose" type="button" aria-label="Закрыть каталог">×</button></div>
+        <div class="mega-layout">
+          <div class="mega-categories" id="megaCategories"></div>
+          <div class="mega-subcategories" id="megaSubcategories"></div>
+        </div>
+        <div class="mobile-catalog" id="mobileCatalog"></div>
+      </section></div></header>
   <main>
     <section class="container">
       <div class="crumbs"><a href="rgw_multipage_home.html">Каталог</a><span>›</span><span>Аксессуары и хранение</span><span>›</span><span>Внешние HDD/SSD</span></div>

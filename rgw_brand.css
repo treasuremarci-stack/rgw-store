@@ -1,0 +1,26 @@
+.brand{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  white-space:nowrap;
+  font-size:24px;
+  font-weight:900;
+  letter-spacing:-.045em;
+  line-height:1;
+}
+.brand-avatar{
+  display:block;
+  width:48px;
+  height:48px;
+  flex:0 0 48px;
+  border:2px solid #fff;
+  border-radius:50%;
+  object-fit:cover;
+  object-position:50% 28%;
+  box-shadow:0 4px 12px rgba(11,16,32,.16);
+}
+.brand-name{display:inline-block}
+@media(max-width:760px){
+  .brand{gap:8px;font-size:20px;letter-spacing:-.035em}
+  .brand-avatar{width:38px;height:38px;flex-basis:38px}
+}

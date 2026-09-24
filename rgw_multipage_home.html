@@ -59,6 +59,27 @@
       .builder-image{height:220px;min-height:0;margin-top:24px}
       .builder-image img{min-height:0;height:220px}
     }
+
+    .hero-brand-photo{padding:0}
+    .hero-brand-photo img{width:100%;height:100%;max-width:none;object-fit:cover;object-position:center 38%;border-radius:0;box-shadow:none}
+    .accessory-feature{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);min-height:340px;overflow:hidden;border-radius:28px;background:var(--dark);color:#fff}
+    .accessory-copy{display:flex;flex-direction:column;justify-content:center;padding:48px 52px}
+    .accessory-copy h2{margin:8px 0 14px;font-size:43px;line-height:.98;letter-spacing:-.07em}
+    .accessory-copy p{max-width:520px;margin:0;color:#aeb5c9;font-size:16px}
+    .accessory-copy .accessory-note{margin-top:10px;color:#d4d9e6;font-size:13px}
+    .accessory-copy .btn{align-self:flex-start;margin-top:26px}
+    .accessory-photo{position:relative;min-height:340px;overflow:hidden}
+    .accessory-photo:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,16,32,.1),rgba(11,16,32,0) 55%)}
+    .accessory-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+    @media(max-width:1050px){.hero-brand-photo{padding:0}.accessory-copy{padding:38px 34px}.accessory-copy h2{font-size:37px}}
+    @media(max-width:760px){
+      .hero-brand-photo{height:300px;padding:0}
+      .hero-brand-photo img{height:300px;object-position:center 36%}
+      .accessory-feature{grid-template-columns:1fr;min-height:0;border-radius:22px}
+      .accessory-photo{height:270px;min-height:270px;order:-1}
+      .accessory-copy{padding:32px 24px}
+      .accessory-copy h2{font-size:34px}
+    }
 </style>
 </head>
 <body>
@@ -138,11 +159,17 @@
 
     <section class="section reveal" id="offers">
       <div class="container">
-        <div class="section-head"><div><div class="eyebrow">Техника под задачу</div><h2>Собери свой сетап</h2></div></div>
-        <div class="promo-grid">
-          
-          <a class="promo-card cyan" href="rgw_page_gpus.html"><div class="promo-label">POWER / 02</div><h3>RTX и производительность</h3><p>Основа мощной игровой системы.</p><div class="promo-arrow">Смотреть видеокарты →</div></a>
-          <a class="promo-card light" href="rgw_page_routers.html"><div class="promo-label">CONNECT / 03</div><h3>Wi‑Fi без слабых мест</h3><p>Роутеры и сетевое оборудование.</p><div class="promo-arrow">Открыть сеть →</div></a>
+        <div class="accessory-feature">
+          <div class="accessory-copy">
+            <div class="eyebrow">ACCESSORIES / 02</div>
+            <h2>Всё для твоей техники</h2>
+            <p>Аксессуары для работы, учёбы и поездок.</p>
+            <p class="accessory-note">Рюкзаки, мыши, клавиатуры, наушники и другие полезные решения.</p>
+            <a class="btn btn-primary" href="rgw_page_bags.html">Смотреть аксессуары →</a>
+          </div>
+          <div class="accessory-photo">
+            <img src="images/jamshud/jamshud_backpack.png" alt="Джамшуд показывает рюкзак для техники">
+          </div>
         </div>
       </div>
     </section>

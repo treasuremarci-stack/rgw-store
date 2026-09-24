@@ -31,16 +31,34 @@
     @media(max-width:1050px){.hero-grid{grid-template-columns:240px minmax(0,1fr)}.hero-brand-photo{padding:28px 12px 28px 22px}.hero-copy{padding:42px 28px}.hero-visual{grid-column:2;min-height:360px}}
     @media(max-width:760px){.hero-grid{display:flex;flex-direction:column}.hero-brand-photo{order:0;padding:20px 20px 0;background:transparent}.hero-brand-photo img{width:min(70vw,260px);max-width:260px}.hero-copy{order:1}.hero-visual{order:2;grid-column:auto}}
 
-    .promo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
-    .promo-card.has-photo{isolation:isolate;min-height:280px;background:#0b1020}
-    .promo-card.has-photo:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(11,16,32,.9),rgba(11,16,32,.48) 52%,rgba(11,16,32,.16));z-index:1}
-    .promo-card.has-photo .promo-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
-    .promo-card.has-photo>*:not(.promo-photo){position:relative;z-index:2}
-    .product-image img.product-photo{width:100%;height:100%;padding:0;object-fit:cover}
+    .rtx-ready{background:linear-gradient(90deg,rgba(11,16,32,.98) 0%,rgba(11,16,32,.9) 31%,rgba(11,16,32,.48) 57%,rgba(11,16,32,.12) 100%),linear-gradient(135deg,#131a32,#273b64)}
+    .rtx-ready:before{inset:0;width:auto;height:auto;border-radius:0;filter:none;background:linear-gradient(90deg,rgba(11,16,32,.5),transparent 68%);z-index:1}
+    .rtx-ready .rtx-promo-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
+    .rtx-ready .orbital,.rtx-ready .hero-chip,.rtx-ready .hero-spec{z-index:3}
+    .rtx-ready .hero-chip{z-index:4}
+    .rtx-ready .hero-spec{z-index:4}
+    .consultant{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);min-height:300px;overflow:hidden;border-radius:24px;background:var(--dark);color:#fff}
+    .consultant-photo{min-height:300px;overflow:hidden}
+    .consultant-photo img{display:block;width:100%;height:100%;object-fit:cover;object-position:center}
+    .consultant-content{display:flex;flex-direction:column;justify-content:center;padding:42px 48px}
+    .consultant-content h2{margin:8px 0 12px;font-size:39px;line-height:1;letter-spacing:-.06em}
+    .consultant-content p{max-width:510px;margin:0;color:#aeb5c9;font-size:15px}
+    .consultant-pills{display:flex;flex-wrap:wrap;gap:9px;margin:22px 0}
+    .consultant-pills span{padding:8px 11px;border:1px solid rgba(255,255,255,.16);border-radius:999px;color:#d4d9e6;font-size:11px}
+    .consultant-content .btn{align-self:flex-start}
     .builder{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:30px;align-items:center}
     .builder-image{position:relative;z-index:1;min-height:270px;overflow:hidden;border-radius:20px}
     .builder-image img{display:block;width:100%;height:100%;min-height:270px;object-fit:cover;object-position:center}
-    @media(max-width:760px){.promo-grid{grid-template-columns:1fr}.promo-card.has-photo{min-height:240px}.builder{display:block}.builder-image{height:220px;min-height:0;margin-top:24px}.builder-image img{min-height:0;height:220px}}
+    @media(max-width:760px){
+      .rtx-ready .rtx-promo-photo{object-position:58% center}
+      .consultant{grid-template-columns:1fr}
+      .consultant-photo{min-height:240px;height:240px}
+      .consultant-content{padding:30px 24px}
+      .consultant-content h2{font-size:34px}
+      .builder{display:block}
+      .builder-image{height:220px;min-height:0;margin-top:24px}
+      .builder-image img{min-height:0;height:220px}
+    }
 </style>
 </head>
 <body>
@@ -81,9 +99,9 @@
             <div class="hero-actions"><a class="btn btn-primary" href="#bestsellers">Смотреть товары →</a><a class="btn btn-light" href="rgw_page_components.html">Собрать ПК</a></div>
             <div class="hero-note"><span>●</span><span><b>RGW</b> помогает выбрать технику без лишней сложности</span></div>
           </div>
-          <div class="hero-visual">
+          <div class="hero-visual rtx-ready">
             <div class="orbital"></div><div class="hero-chip">НОВАЯ ЭРА<span>производительности</span></div>
-            <div class="device"><div class="device-screen"></div><div class="device-base"></div></div>
+            <img class="rtx-promo-photo" src="images/jamshud/jamshud_rtx4070_client.png" alt="Джамшуд показывает видеокарту RTX 4070">
             <div class="hero-spec"><b>RTX READY</b>Игровые решения RGW</div>
           </div>
         </div>
@@ -110,7 +128,7 @@
       <div class="container">
         <div class="section-head"><div><div class="eyebrow">Выбор покупателей</div><h2>Хиты продаж</h2><p>Популярные позиции из актуального ассортимента RGW.</p></div><a class="section-link" href="#catalog">Смотреть все →</a></div>
         <div class="products-grid">
-          <article class="product-card"><div class="product-image"><img class="product-photo" src="images/jamshud/jamshud_working_laptop.png" alt="Джамшуд помогает выбрать ноутбук"><span class="badge">Хит</span></div><div class="product-body"><h3 class="product-title">ACER ASPIRE GO 15 AG15-42P-R917</h3><div class="product-meta">R7-7730U • 16 GB • 512 GB • FHD • Windows 11</div><div class="product-bottom"><div class="price">590 <small>с.</small></div><a class="btn btn-dark product-action" href="rgw_page_laptops.html" aria-label="Открыть ноутбуки">→</a></div></div></article>
+          <article class="product-card"><div class="product-image"><span class="badge">Хит</span><span class="placeholder-icon">💻</span></div><div class="product-body"><h3 class="product-title">ACER ASPIRE GO 15 AG15-42P-R917</h3><div class="product-meta">R7-7730U • 16 GB • 512 GB • FHD • Windows 11</div><div class="product-bottom"><div class="price">590 <small>с.</small></div><a class="btn btn-dark product-action" href="rgw_page_laptops.html" aria-label="Открыть ноутбуки">→</a></div></div></article>
           <article class="product-card"><div class="product-image"><span class="badge green">Для игр</span><span class="placeholder-icon">💻</span></div><div class="product-body"><h3 class="product-title">Игровой ноутбук Acer</h3><div class="product-meta">Подборка производительных моделей для игр</div><div class="product-bottom"><div class="price">Смотреть</div><a class="btn btn-dark product-action" href="rgw_page_laptops.html" aria-label="Открыть ноутбуки">→</a></div></div></article>
           <article class="product-card"><div class="product-image"><span class="product-visual">📡</span><span class="badge">Хит</span></div><div class="product-body"><h3 class="product-title">TP-Link Archer AX53 AX3000</h3><div class="product-meta">Wi‑Fi 6 • гигабитный роутер</div><div class="product-bottom"><div class="price">52 <small>с.</small></div><a class="btn btn-dark product-action" href="rgw_page_routers.html" aria-label="Открыть роутеры">→</a></div></div></article>
           <article class="product-card"><div class="product-image"><span class="product-visual">🎧</span><span class="badge red">Популярно</span></div><div class="product-body"><h3 class="product-title">Наушники и гарнитуры</h3><div class="product-meta">Для музыки, общения и игр</div><div class="product-bottom"><div class="price">Выбрать</div><a class="btn btn-dark product-action" href="rgw_page_headphones.html" aria-label="Открыть наушники">→</a></div></div></article>
@@ -125,8 +143,6 @@
           
           <a class="promo-card cyan has-photo" href="rgw_page_gpus.html"><img class="promo-photo" src="images/jamshud/jamshud_rtx4070_client.png" alt="Джамшуд и видеокарта RTX 4070"><div class="promo-label">POWER / 02</div><h3>RTX и производительность</h3><p>Основа мощной игровой системы.</p><div class="promo-arrow">Смотреть видеокарты →</div></a>
           <a class="promo-card light" href="rgw_page_routers.html"><div class="promo-label">CONNECT / 03</div><h3>Wi‑Fi без слабых мест</h3><p>Роутеры и сетевое оборудование.</p><div class="promo-arrow">Открыть сеть →</div></a>
-          <a class="promo-card has-photo" href="#contacts"><img class="promo-photo" src="images/jamshud/jamshud_phone.png" alt="Джамшуд помогает с выбором техники"><div class="promo-label">SUPPORT / 04</div><h3>Поможем с выбором</h3><p>Подскажем технику под задачу и бюджет.</p><div class="promo-arrow">Получить консультацию →</div></a>
-          <a class="promo-card has-photo" href="rgw_page_bags.html"><img class="promo-photo" src="images/jamshud/jamshud_backpack.png" alt="Джамшуд и аксессуары"><div class="promo-label">ACCESS / 05</div><h3>Аксессуары и хранение</h3><p>Рюкзаки и полезные решения для техники.</p><div class="promo-arrow">Смотреть аксессуары →</div></a>
         </div>
       </div>
     </section>
@@ -142,6 +158,22 @@
     
 
     
+
+
+    <section class="section reveal">
+      <div class="container">
+        <div class="consultant">
+          <div class="consultant-photo"><img src="images/jamshud/jamshud_phone.png" alt="Джамшуд помогает клиенту выбрать технику"></div>
+          <div class="consultant-content">
+            <div class="eyebrow">RGW SUPPORT</div>
+            <h2>Не знаете, что выбрать?</h2>
+            <p>Расскажите, для чего нужна техника — поможем подобрать подходящий вариант под ваши задачи.</p>
+            <div class="consultant-pills"><span>Игровой ПК</span><span>Ноутбук</span><span>Комплектующие</span><span>Периферия</span></div>
+            <a class="btn btn-primary" href="#contacts">Получить консультацию →</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section class="section reveal">
       <div class="container">

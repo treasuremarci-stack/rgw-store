@@ -8,9 +8,9 @@ AUTONOMOUS-BY-STAGE.
 The agent may decide how to execute the current approved stage, but MUST stop before beginning the next stage.
 
 ## Current checkpoint
-Phase 0 — workflow setup.
+Phase 1A — headphones audit completed.
 
-This checkpoint creates project-control files only. No storefront HTML/CSS/JS/product data should be changed as part of this phase.
+The audit covered the current headphones page, its recent relevant history, product-card/image constraints, filters, sorting/reset, mobile filter behavior and global catalog integration.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -22,22 +22,32 @@ This checkpoint creates project-control files only. No storefront HTML/CSS/JS/pr
 - The repository currently contains many `rgw_page_*.html` category pages plus shared catalog/brand assets.
 
 ## Completed in this checkpoint
-- Added persistent agent operating rules.
-- Added staged roadmap.
-- Added this persistent status file.
-- No storefront implementation changes are included in this setup stage.
+- Audited the current `rgw_page_headphones.html` on `main`.
+- Compared the relevant recent commits, including the filter alignment change and the subsequent avatar-image constraint fix.
+- Confirmed that desktop and mobile product-image wrappers constrain content with fixed heights and `object-fit: contain`.
+- Confirmed that headphone filters have change handlers, active-filter rendering, reset behavior and count updates.
+- Confirmed that sorting by name, the mobile filter drawer and global catalog script integration are present.
+- Removed the broken `rgw_checkbox.css` stylesheet link from `rgw_page_headphones.html`; the referenced file does not exist on `main`, so it caused a 404 request.
+- Did not change products, prices, `price.csv`, filter values, JavaScript logic or category links.
+
+## Verification
+- Re-fetched the updated headphones page from `main`.
+- Confirmed the missing `rgw_checkbox.css` link is gone.
+- Confirmed the product-image and product-card constraints remain present.
+- Confirmed the page still references `rgw_global_catalog.css`, `rgw_brand.css` and `rgw_global_catalog.js`.
+- Confirmed the filter, sorting/reset and mobile drawer selectors remain in the HTML/JavaScript.
+- Confirmed the first stage commit changed only `rgw_page_headphones.html`.
 
 ## Next proposed stage
-**Phase 1A — headphones audit only.**
+**Phase 2A — establish the checkbox/filter UI reference.**
 
 On user command `продолжай`:
-1. inspect the current `rgw_page_headphones.html`;
-2. compare relevant recent history if needed;
-3. verify card/image constraints, filters, sorting/reset, mobile-sensitive CSS and global catalog integration;
-4. make a targeted fix only if a concrete defect is found;
-5. update this status file;
-6. commit the stage;
-7. STOP again for approval.
+1. re-audit the current `rgw_page_monoblocks.html`;
+2. document the exact checkbox, checkmark and row-hover markup/selectors;
+3. identify authoritative shared CSS and conflicting legacy styles;
+4. update this status file;
+5. commit the stage;
+6. STOP again for approval.
 
 ## User approval gate
 WAITING FOR USER.

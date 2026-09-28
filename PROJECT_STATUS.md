@@ -9,9 +9,9 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Phase 3L — checkbox propagation batch completed.
+Phase 3M — checkbox propagation batch completed.
 
-The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was preserved on two already compliant pages and cleaned up on three pages with residual legacy overrides.
+The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was preserved on one already compliant page and cleaned up on four pages with residual legacy overrides.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -27,44 +27,45 @@ The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monob
 
 
 
+
+
 ## Completed in this checkpoint
 
 - Preserved all previously approved checkbox batches and the monoblocks reference.
 - Removed residual legacy checkbox CSS overrides from:
-  - `rgw_page_routers.html`
-  - `rgw_page_server_racks.html`
-  - `rgw_page_speakers.html`
+  - `rgw_page_stabilizers.html`
+  - `rgw_page_switches.html`
+  - `rgw_page_ups.html`
+  - `rgw_page_ups_batteries.html`
 - The current monoblocks checkbox layer remains effective on those pages: hidden native input, 18px checkmark, animated checked state, focus-visible outline, disabled state, whole-row hover and reduced-motion handling.
-- Inspected but did not change these planned pages because their effective checkbox layer already matched the current reference:
-  - `rgw_page_ram.html`
-  - `rgw_page_ssd.html`
+- Inspected but did not change `rgw_page_system_units.html` because its effective checkbox layer already matched the current reference.
 - Preserved each page's real checkbox inputs, existing filter values/data attributes, filter-count markup, product cards, images, prices, catalog, mobile behavior and JavaScript.
 - No other category pages were changed.
 
 ## Verification
 
 - Re-fetched all five planned pages and the current `rgw_page_monoblocks.html` reference from `main`.
-- Confirmed the range diff from the previous checkpoint contains exactly the three intended category pages, with 6 additions and 6 deletions per page.
+- Confirmed the range diff from the previous checkpoint contains exactly the four intended category pages, with 6 additions and 6 deletions per page.
 - Confirmed per-page checkbox/card/image counts:
-  - `rgw_page_routers.html`: 5 / 24 / 0
-  - `rgw_page_server_racks.html`: 13 / 14 / 0
-  - `rgw_page_speakers.html`: 2 / 3 / 0
-  - `rgw_page_ram.html`: 12 / 11 / 0 (unchanged)
-  - `rgw_page_ssd.html`: 14 / 22 / 0 (unchanged)
+  - `rgw_page_stabilizers.html`: 6 / 7 / 0
+  - `rgw_page_switches.html`: 19 / 25 / 0
+  - `rgw_page_system_units.html`: 3 / 8 / 0 (unchanged)
+  - `rgw_page_ups.html`: 9 / 13 / 0
+  - `rgw_page_ups_batteries.html`: 4 / 3 / 0
 - Confirmed inline JavaScript is byte-for-byte unchanged on all five pages and still contains filtering, sorting, reset, active-chip and mobile-filter handlers.
 - Confirmed filter markup, product-card counts, product attributes, prices, links and existing responsive/mobile rules were preserved.
 - Confirmed no prices, product data, `price.csv`, shared CSS, monoblocks page, or unrelated category pages were changed.
 
 ## Next proposed stage
 
-**Phase 3M — next checkbox propagation batch.**
+**Phase 3N — next checkbox propagation batch.**
 
 The next planned batch is:
-- `rgw_page_stabilizers.html`
-- `rgw_page_switches.html`
-- `rgw_page_system_units.html`
-- `rgw_page_ups.html`
-- `rgw_page_ups_batteries.html`
+- `rgw_page_usb_hubs.html`
+- `rgw_page_video_recorders.html`
+- `rgw_page_webcams.html`
+- `rgw_page_wifi_adapters.html`
+- `rgw_page_wireless_bridges.html`
 
 These pages will be inspected against the current monoblocks reference before editing. Pages already matching the reference will be reported and left unchanged.
 

@@ -8,9 +8,9 @@ AUTONOMOUS-BY-STAGE.
 The agent may decide how to execute the current approved stage, but MUST stop before beginning the next stage.
 
 ## Current checkpoint
-Phase 2A — checkbox/filter UI reference audit completed.
+Phase 3A — category filter inventory and grouping completed.
 
-The current `rgw_page_monoblocks.html` implementation is now documented as the primary checkbox/filter visual reference. No storefront implementation was changed in this stage.
+The current repository-wide filter inventory is documented below. No storefront implementation was changed in this stage.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -22,44 +22,39 @@ The current `rgw_page_monoblocks.html` implementation is now documented as the p
 - The repository currently contains many `rgw_page_*.html` category pages plus shared catalog/brand assets.
 
 ## Completed in this checkpoint
-- Re-audited the current `rgw_page_monoblocks.html` on `main`.
-- Confirmed that the page uses only `rgw_global_catalog.css` and `rgw_brand.css` as external stylesheets; the checkbox interaction is implemented in the page's inline `<style>`.
-- Confirmed the reference markup pattern:
-  `<label class="check"><input type="checkbox" data-filter="..."><span class="checkmark" aria-hidden="true"></span>...</label>`.
-- Confirmed the current reference contains 16 checkbox inputs and 16 matching `.checkmark` elements.
-- Documented the effective reference selectors:
-  - `.check`: flex row, expanded horizontal hover area, no text selection, 170 ms color/background transition;
-  - `.check:hover`: RGW-accent translucent row highlight;
-  - `.check input`: visually hidden native control that remains the state/accessibility source;
-  - `.checkmark`: 18×18 custom checkbox box with border, rounded corners and transition;
-  - `.check:hover .checkmark`: accent border and soft focus ring;
-  - `.check input:checked + .checkmark`: accent background/border and small scale animation;
-  - `.checkmark::after`: centered white checkmark with opacity/transform animation;
-  - focus and disabled selectors: `.check input:focus-visible + .checkmark` and `.check input:disabled + .checkmark`.
-- Confirmed the current filter behavior remains JavaScript-driven by the existing page script; the visual reference does not require a new filtering implementation.
-- Confirmed `rgw_global_catalog.css` contains no checkbox/checkmark rules, and no `rgw_checkbox.css` file exists on `main`.
-- Identified a legacy cascade inside the same inline style: an earlier base `.check` / `.check input` definition uses the native checkbox sizing/accent color, while the later reference layer overrides the input to a visually hidden control and renders the visible state through `.checkmark`. The later reference layer is authoritative by source order.
-- No products, prices, `price.csv`, category pages, links, JavaScript behavior or shared CSS files were changed.
+- Inventoried all 55 root `rgw_page_*.html` category pages on `main`.
+- Confirmed that all 55 pages reference the shared `rgw_global_catalog.js`.
+- Grouped the pages by their actual filter controls and checkbox implementation:
+  - **Group A — approved custom checkbox family: 50 pages.** Every page except the named exceptions below has `.checkmark`, a custom checked adjacent-sibling selector, and `.check:hover` row-hover behavior. This is the broad existing implementation family.
+  - **Group B — native checkbox pilot candidate: `rgw_page_headphones.html`.** It has 6 real checkbox inputs and matching `.checkmark` spans in the markup, but its current inline CSS exposes the native checkbox and lacks the approved custom checkmark/row-hover rules.
+  - **Group C — non-checkbox filter controls: `rgw_page_connectors_outlets.html`, `rgw_page_network_accessories.html`, and `rgw_page_mini_pbx.html`.** These pages contain filter UI but currently have no checkbox inputs or matching `.checkmark` implementation, so they are not part of the checkbox propagation batch.
+  - **Group D — no-filter category shell: `rgw_page_components.html`.** It contains no checkbox/data-filter implementation and was excluded from the filter inventory.
+- Confirmed that the 50-page custom family is not completely uniform internally:
+  - `rgw_page_monoblocks.html` remains the clean visual reference for the effective custom layer.
+  - `rgw_page_cases.html` is a clean custom-only example.
+  - Pages such as `rgw_page_access_points.html` and `rgw_page_laptops.html` retain older native/`.check.is-checked` rules before a later custom layer; the later custom layer is visually authoritative, but those legacy rules must be preserved unless a future stage explicitly addresses the cascade.
+- Selected `rgw_page_headphones.html` as the single safe pilot for the next stage because it is small (6 filters, 7 products), already had a dedicated image/card audit, and has the required filter markup without requiring product, price, catalog, or JavaScript data changes.
+- No products, prices, `price.csv`, category pages, links, JavaScript behavior, or shared CSS files were changed in this stage.
 
 ## Verification
-- Re-fetched `rgw_page_monoblocks.html`, `rgw_global_catalog.css` and `rgw_global_catalog.js` from `main`.
-- Confirmed all 16 checkbox inputs have matching adjacent `.checkmark` spans.
-- Confirmed the checked selector uses the required adjacent-sibling relationship: `.check input:checked + .checkmark`.
-- Confirmed the row-hover selector and centered checkmark pseudo-element are present.
-- Confirmed the mobile filter drawer selectors and existing filtering handlers remain present.
-- Confirmed this stage changed only `PROJECT_STATUS.md`.
+- Re-fetched and inspected all 55 category pages from `main`.
+- Counted checkbox inputs, `.checkmark` markup, custom checked selectors, and row-hover selectors per page.
+- Confirmed the headphones pilot has 6 checkbox inputs, while the three non-checkbox filter pages have zero checkbox inputs.
+- Confirmed `rgw_page_components.html` has no filter controls.
+- Confirmed the shared catalog script is present across the inventory.
+- Confirmed the only intended change for this stage is this status file.
 
 ## Next proposed stage
-**Phase 3A — inventory and group category filter implementations.**
+**Phase 3B — apply the approved custom checkbox interaction to one pilot: `rgw_page_headphones.html`.**
 
 On user command `продолжай`:
-1. inventory all `rgw_page_*.html` pages that contain filters;
-2. group them by checkbox/row-hover implementation pattern;
-3. identify one safe pilot page for the approved visual implementation;
-4. do not propagate changes yet;
+1. re-inspect the current headphones page and the monoblocks reference;
+2. apply only the required checkbox/row-hover presentation rules to the pilot;
+3. preserve product data, prices, cards, images, filtering, sorting, mobile filter behavior and catalog links;
+4. verify the page and its related functions;
 5. update this status file;
 6. commit the stage;
-7. STOP again for approval.
+7. STOP for visual approval before propagating anything further.
 
 ## User approval gate
 WAITING FOR USER.

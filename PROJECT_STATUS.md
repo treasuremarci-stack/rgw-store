@@ -9,9 +9,9 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Phase 3J — five-page checkbox propagation batch completed.
+Phase 3K — checkbox propagation batch completed.
 
-The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was normalized on five additional category pages. Previously approved pages and the monoblocks reference remain unchanged.
+The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was normalized on three pages in this batch. Two pages in the planned batch already had the effective reference checkbox layer and were left unchanged.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -23,44 +23,46 @@ The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monob
 - The repository currently contains many `rgw_page_*.html` category pages plus shared catalog/brand assets.
 
 
+
+
 ## Completed in this checkpoint
 
 - Preserved all previously approved checkbox batches and the monoblocks reference.
-- Normalized these five pages to the current monoblocks checkbox interaction layer:
-  - `rgw_page_network_cables.html`
-  - `rgw_page_network_cards.html`
-  - `rgw_page_other_accessories.html`
-  - `rgw_page_patch_panels.html`
-  - `rgw_page_power_strips.html`
-- On each changed page, removed the conflicting legacy checkbox presentation rules: native `appearance`, `.check input::before`, old native checked styling, legacy `.check.is-checked` row styling and old hover styling.
-- Preserved each page's real checkbox inputs, existing `.checkmark` markup, filter values/data attributes, filter-count markup, product cards, images, prices, catalog, mobile behavior and JavaScript.
+- Normalized these three pages to the current monoblocks checkbox interaction layer:
+  - `rgw_page_print_consumables.html`
+  - `rgw_page_printers.html`
+  - `rgw_page_projectors_screens.html`
+- On each changed page, replaced the old native checkbox presentation with the reference layer: hidden native input, 18px checkmark, animated checked state, focus-visible outline, disabled state, whole-row hover and reduced-motion handling.
+- Inspected but did not change these planned pages because their effective checkbox layer already matched the current reference:
+  - `rgw_page_power_supplies.html`
+  - `rgw_page_processors.html`
+- Preserved each page's real checkbox inputs, existing filter values/data attributes, filter-count markup, product cards, images, prices, catalog, mobile behavior and JavaScript.
 - No other category pages were changed.
 
 ## Verification
 
-- Re-fetched all five changed pages and the current `rgw_page_monoblocks.html` reference from `main`.
-- Confirmed the effective checkbox layer on each changed page matches the current reference behavior, including the hidden input, centered animated checkmark, checked/focus/disabled states and whole-row hover.
-- Confirmed the range diff from the previous checkpoint contains exactly five modified category page files, each with 3 additions and 8 deletions.
+- Re-fetched all five planned pages and the current `rgw_page_monoblocks.html` reference from `main`.
+- Confirmed the range diff from the previous checkpoint contains exactly the three intended category pages, with 13 additions and 1 deletion per page.
 - Confirmed per-page checkbox/card/image counts:
-  - `rgw_page_network_cables.html`: 8 / 8 / 8
-  - `rgw_page_network_cards.html`: 1 / 2 / 2
-  - `rgw_page_other_accessories.html`: 5 / 6 / 6
-  - `rgw_page_patch_panels.html`: 4 / 2 / 2
-  - `rgw_page_power_strips.html`: 4 / 4 / 4
-- Confirmed the inline JavaScript is unchanged on all five pages and still contains filtering, sorting, reset, active-chip and mobile-filter handlers.
-- Confirmed the pre-existing inline-style brace imbalance was unchanged on each page; no new CSS structural imbalance was introduced.
+  - `rgw_page_print_consumables.html`: 1 / 10 / 0
+  - `rgw_page_printers.html`: 6 / 10 / 0
+  - `rgw_page_projectors_screens.html`: 13 / 19 / 0
+  - `rgw_page_power_supplies.html`: 14 / 17 / 0 (unchanged)
+  - `rgw_page_processors.html`: 8 / 17 / 0 (unchanged)
+- Confirmed inline JavaScript is byte-for-byte unchanged on all five pages and still contains filtering, sorting, reset, active-chip and mobile-filter handlers.
+- Confirmed filter markup, product-card counts, product attributes, prices, links and existing responsive/mobile rules were preserved.
 - Confirmed no prices, product data, `price.csv`, shared CSS, monoblocks page, or unrelated category pages were changed.
 
 ## Next proposed stage
 
-**Phase 3K — next checkbox propagation batch.**
+**Phase 3L — next checkbox propagation batch.**
 
 The next planned batch is:
-- `rgw_page_power_supplies.html`
-- `rgw_page_print_consumables.html`
-- `rgw_page_printers.html`
-- `rgw_page_processors.html`
-- `rgw_page_projectors_screens.html`
+- `rgw_page_ram.html`
+- `rgw_page_routers.html`
+- `rgw_page_server_racks.html`
+- `rgw_page_speakers.html`
+- `rgw_page_ssd.html`
 
 These pages will be inspected against the current monoblocks reference before editing. Pages already matching the reference will be reported and left unchanged.
 

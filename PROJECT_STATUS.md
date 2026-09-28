@@ -8,9 +8,9 @@ AUTONOMOUS-BY-STAGE.
 The agent may decide how to execute the current approved stage, but MUST stop before beginning the next stage.
 
 ## Current checkpoint
-Phase 3B — headphones checkbox interaction pilot completed.
+Phase 3C — first post-approval checkbox propagation batch completed.
 
-The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was applied to exactly one pilot page: `rgw_page_headphones.html`. No other storefront page was changed.
+The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was normalized on one additional page: `rgw_page_dvd_drives.html`. The previously approved headphones pilot and the monoblocks reference remain unchanged in this batch.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -23,26 +23,27 @@ The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monob
 
 ## Completed in this checkpoint
 
-- Applied the current factual checkbox interaction layer from `rgw_page_monoblocks.html` to `rgw_page_headphones.html`.
-- Preserved the real checkbox inputs as the state and accessibility source.
-- Added only the reference behavior: hidden native input, 18×18 checkmark box, centered animated `.checkmark::after`, checked/focus/disabled states, 170 ms transitions, and the existing whole-row hover area.
-- Preserved the headphones page's own filter values, `.checkmark` markup, data attributes, product cards, image constraints, prices, catalog, header/footer, mobile behavior, sorting, reset logic and JavaScript.
-- No propagation to other category pages was performed.
+- Preserved the approved headphones pilot and the monoblocks reference.
+- Normalized only `rgw_page_dvd_drives.html` to the current monoblocks checkbox interaction layer.
+- Removed the page's conflicting legacy checkbox presentation rules: native `appearance`, `.check input::before`, old native checked styling, legacy `.check.is-checked` row styling and old hover styling.
+- Preserved the real checkbox inputs, existing `.checkmark` markup, filter values/data attributes, filter-count markup, product cards, images, prices, catalog, mobile behavior and JavaScript.
+- No propagation to any other category page was performed.
 
 ## Verification
 
-- Re-fetched the current pilot and the current monoblocks reference from `main`.
-- Confirmed the inserted CSS layer matches the monoblocks reference layer exactly.
-- Confirmed the commit diff contains only `rgw_page_headphones.html`, with 14 additions and 0 deletions.
-- Confirmed the pilot still has 6 checkbox inputs, 6 matching `.checkmark` elements, 7 product cards and 7 image containers.
-- Confirmed the pilot's inline JavaScript is unchanged and still contains filtering, sorting, reset, mobile filter and catalog-related handlers.
-- Confirmed no prices, product data, `price.csv`, shared CSS, monoblocks page or other category pages were changed.
+- Re-fetched `rgw_page_dvd_drives.html` and the current `rgw_page_monoblocks.html` reference from `main`.
+- Confirmed the effective checkbox layer in the changed page matches the current reference behavior, including the hidden input, centered animated checkmark, checked/focus/disabled states and whole-row hover.
+- Confirmed the commit diff contains only `rgw_page_dvd_drives.html`: 3 additions and 8 deletions.
+- Confirmed the page still has 2 checkbox inputs, 2 matching `.checkmark` elements and 2 product cards.
+- Confirmed the page's inline JavaScript is byte-for-byte unchanged and still contains filtering, sorting, reset, active-chip and mobile-filter handlers.
+- Confirmed the pre-existing inline-style brace imbalance was not changed by this stage; no new CSS structural imbalance was introduced.
+- Confirmed no prices, product data, `price.csv`, shared CSS, monoblocks page, headphones page or other category pages were changed.
 
 ## Next proposed stage
 
-**Visual approval gate before Phase 3C propagation.**
+**Phase 3D — next small checkbox propagation batch.**
 
-The pilot is ready for visual review. Do not propagate the interaction to other category pages until the user confirms the headphones result. After approval, the next stage will be a small, explicitly scoped category batch with functional verification.
+The next safe candidate is `rgw_page_access_points.html`, after user approval of this batch. It will be inspected against the current monoblocks reference before any edit. The batch must remain limited to one page and preserve its filter data and JavaScript.
 
 ## User approval gate
 WAITING FOR USER.

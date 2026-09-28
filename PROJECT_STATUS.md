@@ -9,9 +9,9 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Phase 4A — product-card and image implementation inventory completed.
+Phase 4B — product-card and image baseline pilot completed.
 
-The current category pages were inspected without changing product pages, assortment, prices, filters or JavaScript.
+The inventoried baseline was verified on a representative category page against the current monoblocks reference. No code change was required because the same baseline is already present across all card-based category pages.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -35,33 +35,35 @@ The current category pages were inspected without changing product pages, assort
 
 
 
+
+
 ## Completed in this checkpoint
 
-- Inspected all 55 existing `rgw_page_*.html` pages on `main`.
-- Found 54 category pages with product cards and one separate `rgw_page_components.html` page without a product-card grid.
-- Confirmed 578 product cards and 578 `.product-image` wrappers across the category pages with product grids.
-- Confirmed the 54 card-based pages share the same effective baseline:
-  - `.product-card`: flex column, minimum-width protection, border/radius, overflow clipping and hover transition.
-  - `.product-image`: relative 205px image area, centered content, gradient background and overflow clipping.
-  - `.product-image img`: width/height constrained to 100%, `object-fit:contain`, 15px padding and hover transition.
-- Confirmed the product-grid pages currently use placeholder icons in the product image wrappers; the only literal `<img>` found in the category-page scan is the existing header avatar on `rgw_page_headphones.html`, not a product image.
-- Recorded `rgw_page_components.html` as a separate non-card layout and excluded it from the card baseline.
+- Used `rgw_page_access_points.html` as the representative card/image pilot.
+- Compared its current card HTML and CSS against `rgw_page_monoblocks.html`.
+- Confirmed the same:
+  - `.product-card` flex/grid-compatible structure and overflow protection;
+  - `.product-image` centered 205px desktop image area with clipped overflow;
+  - `.product-image img` 100% constraints, `object-fit:contain`, padding and hover transition;
+  - responsive two-column mobile grid and mobile image-height rule.
+- Cross-checked `rgw_page_laptops.html` as the existing visual/card reference and confirmed the same effective baseline.
+- Kept `rgw_page_headphones.html` avatar handling outside the product-card pilot.
 - No category page, product data, prices, catalog, JavaScript, filters, `price.csv` or monoblocks reference was changed.
 
 ## Verification
 
-- Re-fetched all category pages and inspected card, image-wrapper and image-selector patterns.
-- Confirmed card count equals image-wrapper count on all card-based pages.
-- Confirmed the shared card/image selector signatures are identical across the 54 card-based pages.
-- Confirmed the headphones avatar remains constrained by its existing `.brand-avatar` rules and was not treated as a product-card image.
-- Confirmed no new files, duplicate pages or alternate card implementations were created.
+- Re-fetched the pilot page and current `rgw_page_monoblocks.html`, `rgw_page_laptops.html` and `rgw_page_headphones.html` references from `main`.
+- Confirmed the pilot card/image selector signatures match the approved baseline.
+- Confirmed product-card and product-image wrapper counts remain paired on the pilot.
+- Confirmed desktop and mobile-sensitive grid/image rules are present.
 - Confirmed the range diff from the previous checkpoint contains only this `PROJECT_STATUS.md` update.
+- No propagation batch was necessary because the inventory already showed the baseline on all 54 card-based category pages.
 
 ## Next proposed stage
 
-**Phase 4B — define and pilot the shared product-card/image baseline.**
+**Phase 5A — catalog and navigation integrity inventory.**
 
-The next stage will use the inventoried baseline to select one representative category page for a minimal pilot verification. It will not change assortment, prices, product data, filters or JavaScript, and will leave the headphones avatar and non-card components page outside the pilot.
+The next stage will inspect the existing global catalog implementation, category links and header/catalog duplication across the current pages without changing product data, prices or JavaScript.
 
 ## User approval gate
 

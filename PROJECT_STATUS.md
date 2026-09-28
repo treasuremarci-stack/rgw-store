@@ -42,7 +42,7 @@ The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monob
 ## Verification
 
 - Re-fetched all five planned pages and the current `rgw_page_monoblocks.html` reference from `main`.
-- Confirmed the range diff from the previous checkpoint contains exactly the three intended category pages, with 13 additions and 1 deletion per page.
+- Confirmed the range diff from the previous checkpoint contains exactly the three intended category pages, with 19 additions and 7 deletions per page.
 - Confirmed per-page checkbox/card/image counts:
   - `rgw_page_print_consumables.html`: 1 / 10 / 0
   - `rgw_page_printers.html`: 6 / 10 / 0

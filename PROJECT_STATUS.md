@@ -9,9 +9,9 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Phase 3N — checkbox propagation batch completed.
+Phase 3O — final checkbox propagation inspection completed.
 
-The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monoblocks.html` was normalized on all five pages in this batch.
+The five planned pages were inspected against the current `rgw_page_monoblocks.html` reference. No category page required a code change in this final batch.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -31,45 +31,36 @@ The approved checkbox/checkmark/whole-row hover interaction from `rgw_page_monob
 
 
 
+
+
 ## Completed in this checkpoint
 
 - Preserved all previously approved checkbox batches and the monoblocks reference.
-- Removed residual legacy checkbox CSS overrides from:
-  - `rgw_page_usb_hubs.html`
-  - `rgw_page_video_recorders.html`
-  - `rgw_page_webcams.html`
-  - `rgw_page_wifi_adapters.html`
-  - `rgw_page_wireless_bridges.html`
-- The current monoblocks checkbox layer remains effective on each page: hidden native input, 18px checkmark, animated checked state, focus-visible outline, disabled state, whole-row hover and reduced-motion handling.
-- Preserved each page's real checkbox inputs, existing filter values/data attributes, filter-count markup, product cards, images, prices, catalog, mobile behavior and JavaScript.
-- No other category pages were changed.
+- Inspected `rgw_page_mini_pbx.html` and `rgw_page_network_accessories.html`; neither page contains checkbox inputs or an applicable checkbox filter layer, so both were left unchanged.
+- Inspected `rgw_page_gpus.html`, `rgw_page_hdd.html` and `rgw_page_laptops.html`; their effective checkbox layer already matches the current reference, so all three were left unchanged.
+- Specifically preserved the existing laptop filter styling, filter values, product cards and JavaScript.
+- No category page, product data, prices, catalog, JavaScript or `price.csv` was changed in this checkpoint.
 
 ## Verification
 
-- Re-fetched all five changed pages and the current `rgw_page_monoblocks.html` reference from `main`.
-- Confirmed the range diff from the previous checkpoint contains exactly the five intended category pages, with 6 additions and 6 deletions per page.
-- Confirmed per-page checkbox/card/image counts:
-  - `rgw_page_usb_hubs.html`: 12 / 8 / 0
-  - `rgw_page_video_recorders.html`: 2 / 1 / 0
-  - `rgw_page_webcams.html`: 2 / 2 / 0
-  - `rgw_page_wifi_adapters.html`: 5 / 16 / 0
-  - `rgw_page_wireless_bridges.html`: 4 / 7 / 0
-- Confirmed inline JavaScript is byte-for-byte unchanged on all five pages and still contains filtering, sorting, reset, active-chip and mobile-filter handlers.
-- Confirmed filter markup, product-card counts, product attributes, prices, links and existing responsive/mobile rules were preserved.
+- Re-fetched all five planned pages and the current `rgw_page_monoblocks.html` reference from `main`.
+- Confirmed the five planned pages remain unchanged relative to the previous checkpoint.
+- Confirmed checkbox/checkmark/card counts:
+  - `rgw_page_mini_pbx.html`: 0 / 0 / 1
+  - `rgw_page_network_accessories.html`: 0 / 0 / 5
+  - `rgw_page_gpus.html`: 19 / 19 / 8
+  - `rgw_page_hdd.html`: 9 / 9 / 8
+  - `rgw_page_laptops.html`: 38 / 38 / 12
+- Confirmed `gpus`, `hdd` and `laptops` already contain the effective reference checkbox layer without residual legacy checkbox overrides.
+- Confirmed `mini_pbx` and `network_accessories` have no checkbox inputs to normalize.
+- Confirmed filtering, sorting, reset, active-chip, empty-state and mobile-filter handlers remain present; no JavaScript was changed.
 - Confirmed no prices, product data, `price.csv`, shared CSS, monoblocks page, or unrelated category pages were changed.
 
 ## Next proposed stage
 
-**Phase 3O — final remaining checkbox propagation batch.**
+**Phase 4A — product-card and image implementation inventory.**
 
-The next planned batch is:
-- `rgw_page_mini_pbx.html`
-- `rgw_page_network_accessories.html`
-- `rgw_page_gpus.html`
-- `rgw_page_hdd.html`
-- `rgw_page_laptops.html`
-
-These pages will be inspected against the current monoblocks reference before editing. Pages already matching the reference will be reported and left unchanged.
+The next stage will inventory card/image implementations across category pages, identify the smallest safe shared baseline, and select a limited pilot without changing assortment, prices, filters or JavaScript.
 
 ## User approval gate
 

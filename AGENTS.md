@@ -1,4 +1,4 @@
-# AGENTS.md — RGW autonomous development rules
+# AGENTS.md — АКС autonomous development rules
 
 This file is the persistent operating contract for any coding agent working on this repository.
 

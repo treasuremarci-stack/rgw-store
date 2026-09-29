@@ -1,6 +1,6 @@
-# PROJECT_PLAN.md — RGW roadmap
+# PROJECT_PLAN.md — АКС roadmap
 
-Goal: finish and standardize the RGW store incrementally without large risky rewrites.
+Goal: finish and standardize the АКС store incrementally without large risky rewrites.
 
 ## Operating principle
 Only one stage may be executed per user approval. A stage is not permission to continue into later stages.

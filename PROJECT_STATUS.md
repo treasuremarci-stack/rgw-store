@@ -1,4 +1,4 @@
-# PROJECT_STATUS.md — RGW current state
+# PROJECT_STATUS.md — АКС current state
 
 Last updated: 2026-09-28
 

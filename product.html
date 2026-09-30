@@ -11,7 +11,7 @@
     :root{--product-border:#e5e7eb;--product-muted:#667085;--product-soft:#f7f8fb;--product-ink:#15171d;--product-accent:#635bff}
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;background:#fff;color:var(--product-ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    body{margin:0;background:#f5f6fa;color:var(--product-ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     a{color:inherit}
     .product-page{padding:34px 0 86px}
     .breadcrumbs{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:26px;color:var(--product-muted);font-size:13px}
@@ -23,36 +23,56 @@
     .product-sku{margin:12px 0 0;color:var(--product-muted);font-size:13px}
     .product-state{max-width:760px;padding:25px;border:1px solid var(--product-border);border-radius:18px;background:var(--product-soft);color:#30343d}
     .product-state.error{border-color:#efb7b7;background:#fff7f7;color:#9c2525}
-    .product-shell{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(360px,.88fr);gap:40px;align-items:start}
+    .product-shell{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:34px;align-items:stretch;padding:28px 30px;border:1px solid #e3e5eb;border-radius:24px;background:#fff;box-shadow:0 14px 35px rgba(24,32,58,.05)}
     .product-media{min-width:0}
-    .product-visual{display:flex;align-items:center;justify-content:center;min-height:520px;padding:42px;border:1px solid var(--product-border);border-radius:24px;background:linear-gradient(145deg,#fbfcff,#f2f4f8);overflow:hidden}
+    .product-gallery{display:grid;grid-template-columns:64px minmax(0,1fr);gap:16px;align-items:stretch;min-height:500px}
+    .product-visual{display:flex;align-items:center;justify-content:center;min-height:500px;padding:28px;border:0;border-radius:18px;background:#fff;overflow:hidden}
     .product-visual img{display:block;width:100%;height:100%;max-width:100%;max-height:430px;object-fit:contain}
     .product-placeholder{text-align:center;color:#9ca3b2}
-    .product-placeholder-icon{display:grid;place-items:center;width:142px;height:106px;margin:0 auto 17px;border:1px solid #dfe3ec;border-radius:22px;background:#fff;box-shadow:0 13px 32px rgba(24,32,58,.08);font-size:58px;filter:saturate(.85)}
+    .product-placeholder-icon{display:grid;place-items:center;width:170px;height:128px;margin:0 auto 17px;border:1px solid #e1e5ed;border-radius:22px;background:#fbfcff;box-shadow:0 13px 32px rgba(24,32,58,.07)}
+    .product-placeholder-icon svg{display:block;width:105px;height:auto}
     .product-placeholder-caption{font-size:12px;letter-spacing:.02em}
-    .product-thumbnails{display:flex;gap:9px;margin-top:12px}
-    .product-thumb{display:grid;place-items:center;width:64px;height:50px;border:1px solid #dfe3ec;border-radius:10px;background:#fafbfe;color:#9ca3b2;font-size:22px}
-    .product-thumb.active{border-color:#bdb8ff;background:#f4f2ff}
-    .product-panel{min-width:0;padding:4px 0}
+    .product-thumbnails{display:flex;flex-direction:column;gap:10px;align-items:stretch}
+    .product-thumb{display:grid;place-items:center;width:64px;height:58px;border:1px solid #dfe3ec;border-radius:10px;background:#fafbfe;color:#9ca3b2;transition:.18s}
+    .product-thumb:hover{border-color:#bdb8ff;background:#f4f2ff}
+    .product-thumb.active{border-color:var(--product-accent);background:#f4f2ff;box-shadow:0 0 0 2px rgba(99,91,255,.08)}
+    .thumb-placeholder{position:relative;display:block;width:34px;height:24px;border:1px solid #aeb7c6;border-radius:4px;background:linear-gradient(150deg,#fff,#edf0f6)}
+    .thumb-placeholder::after{content:"";position:absolute;right:-5px;bottom:-4px;left:-5px;height:3px;border:1px solid #aeb7c6;border-radius:3px;background:#fff}
+    .product-panel{min-width:0;padding:3px 0}
     .product-panel h2{margin:0 0 13px;font-size:20px;letter-spacing:-.025em}
     .main-specs{margin:0;border-top:1px solid var(--product-border)}
     .main-spec-row{display:grid;grid-template-columns:minmax(130px,.75fr) minmax(0,1.25fr);gap:18px;padding:12px 0;border-bottom:1px solid var(--product-border)}
     .main-spec-row dt{color:var(--product-muted);font-size:13px}
     .main-spec-row dd{margin:0;font-size:14px;font-weight:700}
     .main-spec-source{display:block;margin-top:4px;color:var(--product-muted);font-size:10px;font-weight:400}
-    .all-specs-link{display:inline-flex;margin-top:14px;border:0;background:none;color:var(--product-accent);font-size:13px;font-weight:800;cursor:pointer;padding:0}
-    .purchase-panel{margin-top:27px;padding:18px;border:1px solid var(--product-border);border-radius:16px;background:var(--product-soft)}
-    .purchase-label{color:var(--product-muted);font-size:13px}
-    .price-placeholder{margin-top:7px;font-size:31px;line-height:1;font-weight:850;letter-spacing:-.04em}
-    .purchase-note{margin:9px 0 17px;color:var(--product-muted);font-size:12px}
-    .product-actions{display:flex;gap:10px;flex-wrap:wrap}
-    .product-action{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:0 17px;border-radius:10px;font:inherit;font-size:13px;font-weight:800}
+    .product-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:14px}
+    .product-panel h2{margin:0 0 13px;font-size:20px;letter-spacing:-.025em}
+    .product-brand-mark{color:var(--product-ink);font-size:17px;font-weight:900;letter-spacing:-.04em;text-transform:uppercase}
+    .main-specs{margin:0;border-top:1px solid var(--product-border)}
+    .main-spec-row{display:grid;grid-template-columns:minmax(130px,.75fr) minmax(0,1.25fr);gap:18px;padding:11px 0;border-bottom:1px solid var(--product-border)}
+    .main-spec-row dt{color:var(--product-muted);font-size:12px}
+    .main-spec-row dd{margin:0;font-size:13px;font-weight:700}
+    .main-spec-source{display:block;margin-top:4px;color:var(--product-muted);font-size:10px;font-weight:400}
+    .all-specs-link{display:inline-flex;margin-top:13px;border:0;background:none;color:var(--product-accent);font-size:13px;font-weight:800;cursor:pointer;padding:0}
+    .quick-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:19px}
+    .quick-action{border:1px solid #e2e5ec;border-radius:9px;background:#fff;color:#596276;padding:8px 10px;font:inherit;font-size:11px;cursor:pointer;transition:.18s}
+    .quick-action:hover{border-color:#c7c2ff;background:#f7f5ff;color:var(--product-accent)}
+    .purchase-panel{margin-top:18px;padding:15px 0 0;border-top:1px solid var(--product-border)}
+    .purchase-row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:stretch}
+    .purchase-price{display:flex;flex-direction:column;justify-content:center;min-height:64px;padding:0 15px;border-radius:13px;background:var(--product-soft)}
+    .purchase-label{color:var(--product-muted);font-size:12px}
+    .price-placeholder{margin-top:5px;font-size:25px;line-height:1;font-weight:850;letter-spacing:-.04em}
+    .purchase-note{margin:8px 0 12px;color:var(--product-muted);font-size:11px}
+    .product-action{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:0 19px;border-radius:11px;font:inherit;font-size:13px;font-weight:800}
     button.product-action{border:0;cursor:default}
-    .product-action.primary{background:#15171d;color:#fff}
-    .product-action.primary:disabled{opacity:.55}
-    .product-action.secondary{border:1px solid var(--product-border);background:#fff;text-decoration:none}
-    .product-action.secondary:hover{border-color:var(--product-accent);color:var(--product-accent)}
-    .build-block{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-top:31px;padding:22px 24px;border:1px solid #dcd9ff;border-radius:18px;background:linear-gradient(110deg,#f7f5ff,#fbfbff)}
+    .product-action.primary{min-width:130px;background:var(--product-accent);color:#fff}
+    .product-action.primary:disabled{opacity:.58}
+    .contact-link{display:inline-flex;color:var(--product-accent);font-size:11px;font-weight:800;text-decoration:none}
+    .contact-link:hover{text-decoration:underline}
+    .availability-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:15px}
+    .availability-item{min-height:58px;padding:10px;border-radius:11px;background:#f7f8fb;color:#596276;font-size:11px;line-height:1.35}
+    .availability-item strong{display:block;margin-bottom:3px;color:var(--product-ink);font-size:11px}
+    .build-block{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-top:25px;padding:20px 24px;border:1px solid #dcd9ff;border-radius:18px;background:linear-gradient(110deg,#f7f5ff,#fbfbff)}
     .build-copy{display:flex;align-items:flex-start;gap:14px}
     .build-icon{display:grid;place-items:center;width:40px;height:40px;flex:0 0 40px;border-radius:12px;background:#ebe9ff;color:#564de2;font-size:21px}
     .build-copy h2{margin:0 0 4px;font-size:18px;letter-spacing:-.025em}
@@ -85,23 +105,29 @@
     .text-panel strong{color:var(--product-ink)}
     @media(max-width:900px){
       .product-page{padding-top:25px}
-      .product-shell{grid-template-columns:1fr;gap:28px}
-      .product-visual{min-height:500px}
+      .product-shell{grid-template-columns:1fr;gap:28px;padding:22px}
+      .product-gallery{min-height:470px}
+      .product-visual{min-height:470px}
       .spec-groups{grid-template-columns:1fr}
     }
     @media(max-width:560px){
       .container{width:min(100% - 28px,1200px)}
       .product-page{padding-bottom:55px}
       .product-heading h1{font-size:35px}
-      .product-visual{min-height:340px;padding:24px}
-      .product-placeholder-icon{width:122px;height:92px;font-size:49px}
+      .product-shell{padding:15px;border-radius:18px}
+      .product-gallery{grid-template-columns:52px minmax(0,1fr);gap:10px;min-height:340px}
+      .product-visual{min-height:340px;padding:14px}
+      .product-placeholder-icon{width:132px;height:100px}
+      .product-placeholder-icon svg{width:82px}
+      .product-thumb{width:52px;height:50px}
       .build-block{display:block;padding:19px}
       .build-button{width:100%;margin-top:17px}
       .product-tabs{gap:18px;overflow-x:auto}
       .product-tab{white-space:nowrap;font-size:13px}
       .main-spec-row,.full-spec-row{grid-template-columns:1fr;gap:5px}
-      .product-actions{display:grid;grid-template-columns:1fr}
-      .product-action{width:100%}
+      .purchase-row{grid-template-columns:1fr}
+      .product-action.primary{width:100%}
+      .availability-row{grid-template-columns:1fr}
     }
   </style>
 </head>
@@ -147,25 +173,46 @@
 
         <div class="product-shell">
           <section class="product-media" aria-label="Изображение товара">
-            <div id="productVisual" class="product-visual"></div>
-            <div class="product-thumbnails" aria-label="Миниатюры товара">
-              <span class="product-thumb active" aria-hidden="true">💻</span>
+            <div class="product-gallery">
+              <div class="product-thumbnails" aria-label="Миниатюры товара">
+                <span class="product-thumb active" aria-hidden="true"><span class="thumb-placeholder"></span></span>
+                <span class="product-thumb" aria-hidden="true"><span class="thumb-placeholder"></span></span>
+                <span class="product-thumb" aria-hidden="true"><span class="thumb-placeholder"></span></span>
+                <span class="product-thumb" aria-hidden="true"><span class="thumb-placeholder"></span></span>
+              </div>
+              <div id="productVisual" class="product-visual"></div>
             </div>
           </section>
 
           <section class="product-panel" aria-label="Основные характеристики и покупка">
-            <h2>Основные характеристики</h2>
+            <div class="product-panel-head">
+              <h2>Основные характеристики</h2>
+              <span id="productBrandMark" class="product-brand-mark"></span>
+            </div>
             <dl id="mainSpecs" class="main-specs"></dl>
             <button id="allSpecsLink" class="all-specs-link" type="button">Все характеристики ↓</button>
 
+            <div class="quick-actions" aria-label="Дополнительные действия">
+              <button class="quick-action" type="button">♡ В избранное</button>
+              <button class="quick-action" type="button">⚖ Сравнить</button>
+              <button class="quick-action" type="button">↗ Поделиться</button>
+            </div>
+
             <div class="purchase-panel">
-              <div class="purchase-label">Цена</div>
-              <div class="price-placeholder">—</div>
-              <p class="purchase-note">Цена будет подключена позже.</p>
-              <div class="product-actions">
+              <div class="purchase-row">
+                <div class="purchase-price">
+                  <span class="purchase-label">Цена</span>
+                  <strong class="price-placeholder">Цена уточняется</strong>
+                </div>
                 <button class="product-action primary" type="button" disabled aria-disabled="true">Купить</button>
-                <a class="product-action secondary" href="index.html#contacts">Связаться с АКС</a>
               </div>
+              <p class="purchase-note">Цена будет подключена позже.</p>
+              <div class="availability-row" aria-label="Информация о получении">
+                <div class="availability-item"><strong>Наличие</strong>Уточняется</div>
+                <div class="availability-item"><strong>Доставка</strong>Уточняется</div>
+                <div class="availability-item"><strong>Самовывоз</strong>Уточняется</div>
+              </div>
+              <a class="contact-link" href="index.html#contacts">Связаться с АКС</a>
             </div>
           </section>
         </div>

@@ -1,6 +1,7 @@
 (() => {
   const state = { products: [], byId: new Map() };
   const $ = (selector) => document.querySelector(selector);
+  const laptopSvg = '<svg viewBox="0 0 120 82" role="img" aria-label="Иконка ноутбука" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="53" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M14 67h92l8 7H6l8-7Z" fill="#d7dce6" stroke="#657086" stroke-width="3" stroke-linejoin="round"/><path d="M33 22h54v28H33z" fill="#fff" opacity=".8"/><path d="M47 36h26" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
 
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -115,6 +116,7 @@
     document.title = product.name + " — АКС";
     $("#productBreadcrumb").textContent = product.name;
     $("#productBrand").textContent = product.brand;
+    $("#productBrandMark").textContent = product.brand;
     $("#productName").textContent = product.name;
 
     const identifiers = product.identifiers || {};
@@ -127,7 +129,7 @@
       visual.innerHTML = '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '">';
     } else {
       visual.innerHTML = '<div class="product-placeholder"><div class="product-placeholder-icon" aria-hidden="true">' +
-        escapeHtml(product.placeholder || "💻") + '</div><div class="product-placeholder-caption">Изображение товара</div></div>';
+        laptopSvg + '</div><div class="product-placeholder-caption">Изображение товара</div></div>';
     }
 
     renderMainSpecs(product);
@@ -151,6 +153,12 @@
       const added = button.getAttribute("aria-pressed") === "true";
       button.setAttribute("aria-pressed", String(!added));
       button.textContent = added ? "Добавить" : "Добавлено";
+    });
+    document.querySelectorAll(".product-thumb").forEach((thumb) => {
+      thumb.addEventListener("click", () => {
+        document.querySelectorAll(".product-thumb").forEach((item) => item.classList.remove("active"));
+        thumb.classList.add("active");
+      });
     });
   }
 

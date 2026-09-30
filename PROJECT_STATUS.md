@@ -80,6 +80,10 @@ A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards.
 - Kept real prices out of `product.html` and `products.json`; the purchase area shows a prepared placeholder.
 - Kept real laptop images out of the product page; the image component remains ready for future `object-fit: contain` assets.
 
+- Updated the first-screen composition using the supplied reference: a single white product card now contains vertical thumbnails, a large left gallery, compact right-side specifications, action controls, price placeholder and purchase area.
+- Replaced the large emoji placeholder with a lightweight inline SVG laptop icon; the image slot remains compatible with future `img` elements using `object-fit: contain`.
+- Kept the build panel directly below the main card and retained the grouped specification tabs.
+
 ## Next proposed stage
 
 **Phase 5A — catalog and navigation integrity inventory.**

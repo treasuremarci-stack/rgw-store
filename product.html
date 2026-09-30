@@ -8,61 +8,99 @@
   <link rel="stylesheet" href="rgw_global_catalog.css">
   <link rel="stylesheet" href="rgw_brand.css">
   <style>
-    :root{--product-border:#e5e7eb;--product-muted:#667085;--product-soft:#f7f8fb}
+    :root{--product-border:#e5e7eb;--product-muted:#667085;--product-soft:#f7f8fb;--product-ink:#15171d;--product-accent:#635bff}
     *{box-sizing:border-box}
-    body{margin:0;background:#fff;color:#15171d;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#fff;color:var(--product-ink);font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
     a{color:inherit}
-    .product-page{padding:38px 0 84px}
-    .breadcrumbs{display:flex;align-items:center;gap:9px;margin-bottom:30px;color:var(--product-muted);font-size:13px}
-    .breadcrumbs a{text-decoration:none;color:var(--accent,#635bff)}
+    .product-page{padding:34px 0 86px}
+    .breadcrumbs{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:26px;color:var(--product-muted);font-size:13px}
+    .breadcrumbs a{text-decoration:none;color:var(--product-accent)}
     .breadcrumbs a:hover{text-decoration:underline}
-    .product-state{max-width:760px;padding:26px;border:1px solid var(--product-border);border-radius:18px;background:var(--product-soft);color:#30343d}
+    .product-heading{margin-bottom:28px}
+    .product-eyebrow{margin:0 0 9px;color:var(--product-accent);font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .product-heading h1{max-width:1050px;margin:0;font-size:clamp(32px,4.6vw,58px);line-height:1.02;letter-spacing:-.055em}
+    .product-sku{margin:12px 0 0;color:var(--product-muted);font-size:13px}
+    .product-state{max-width:760px;padding:25px;border:1px solid var(--product-border);border-radius:18px;background:var(--product-soft);color:#30343d}
     .product-state.error{border-color:#efb7b7;background:#fff7f7;color:#9c2525}
-    .product-shell{display:grid;grid-template-columns:minmax(280px,420px) minmax(0,1fr);gap:54px;align-items:start}
+    .product-shell{display:grid;grid-template-columns:minmax(0,1.12fr) minmax(360px,.88fr);gap:40px;align-items:start}
     .product-media{min-width:0}
-    .product-visual{display:flex;align-items:center;justify-content:center;min-height:390px;padding:34px;border:1px solid var(--product-border);border-radius:24px;background:linear-gradient(145deg,#fafbff,#f3f4f8);font-size:128px}
-    .product-visual img{display:block;max-width:100%;max-height:340px;width:auto;height:auto;object-fit:contain}
-    .product-info{min-width:0}
-    .product-eyebrow{margin:0 0 9px;color:var(--accent,#635bff);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
-    .product-info h1{margin:0;max-width:850px;font-size:clamp(30px,4vw,50px);line-height:1.04;letter-spacing:-.04em}
-    .product-sku{margin:13px 0 0;color:var(--product-muted);font-size:14px}
-    .product-price{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin:30px 0 24px}
-    .product-price-label{color:var(--product-muted);font-size:14px}
-    .product-price-value{font-size:30px;line-height:1;font-weight:800}
-    .product-price-note{color:#9a6700;font-size:13px}
-    .product-actions{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:34px}
-    .product-action{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 19px;border-radius:12px;text-decoration:none;font-weight:700}
+    .product-visual{display:flex;align-items:center;justify-content:center;min-height:520px;padding:42px;border:1px solid var(--product-border);border-radius:24px;background:linear-gradient(145deg,#fbfcff,#f2f4f8);overflow:hidden}
+    .product-visual img{display:block;width:100%;height:100%;max-width:100%;max-height:430px;object-fit:contain}
+    .product-placeholder{text-align:center;color:#9ca3b2}
+    .product-placeholder-icon{display:grid;place-items:center;width:142px;height:106px;margin:0 auto 17px;border:1px solid #dfe3ec;border-radius:22px;background:#fff;box-shadow:0 13px 32px rgba(24,32,58,.08);font-size:58px;filter:saturate(.85)}
+    .product-placeholder-caption{font-size:12px;letter-spacing:.02em}
+    .product-thumbnails{display:flex;gap:9px;margin-top:12px}
+    .product-thumb{display:grid;place-items:center;width:64px;height:50px;border:1px solid #dfe3ec;border-radius:10px;background:#fafbfe;color:#9ca3b2;font-size:22px}
+    .product-thumb.active{border-color:#bdb8ff;background:#f4f2ff}
+    .product-panel{min-width:0;padding:4px 0}
+    .product-panel h2{margin:0 0 13px;font-size:20px;letter-spacing:-.025em}
+    .main-specs{margin:0;border-top:1px solid var(--product-border)}
+    .main-spec-row{display:grid;grid-template-columns:minmax(130px,.75fr) minmax(0,1.25fr);gap:18px;padding:12px 0;border-bottom:1px solid var(--product-border)}
+    .main-spec-row dt{color:var(--product-muted);font-size:13px}
+    .main-spec-row dd{margin:0;font-size:14px;font-weight:700}
+    .main-spec-source{display:block;margin-top:4px;color:var(--product-muted);font-size:10px;font-weight:400}
+    .all-specs-link{display:inline-flex;margin-top:14px;border:0;background:none;color:var(--product-accent);font-size:13px;font-weight:800;cursor:pointer;padding:0}
+    .purchase-panel{margin-top:27px;padding:18px;border:1px solid var(--product-border);border-radius:16px;background:var(--product-soft)}
+    .purchase-label{color:var(--product-muted);font-size:13px}
+    .price-placeholder{margin-top:7px;font-size:31px;line-height:1;font-weight:850;letter-spacing:-.04em}
+    .purchase-note{margin:9px 0 17px;color:var(--product-muted);font-size:12px}
+    .product-actions{display:flex;gap:10px;flex-wrap:wrap}
+    .product-action{display:inline-flex;align-items:center;justify-content:center;min-height:43px;padding:0 17px;border-radius:10px;font:inherit;font-size:13px;font-weight:800}
+    button.product-action{border:0;cursor:default}
     .product-action.primary{background:#15171d;color:#fff}
-    .product-action.primary:hover{background:#635bff}
-    .product-action.secondary{border:1px solid var(--product-border);background:#fff}
-    .product-action.secondary:hover{border-color:#635bff;color:#635bff}
-    .product-section{margin-top:24px;padding-top:24px;border-top:1px solid var(--product-border)}
-    .product-section h2{margin:0 0 16px;font-size:20px;letter-spacing:-.02em}
-    .spec-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));margin:0;border:1px solid var(--product-border);border-radius:16px;overflow:hidden}
-    .spec-row{display:grid;grid-template-columns:minmax(100px,.8fr) minmax(0,1.2fr);gap:14px;padding:14px 16px;border-bottom:1px solid var(--product-border)}
-    .spec-row:nth-child(odd){border-right:1px solid var(--product-border)}
-    .spec-row:nth-last-child(-n+2){border-bottom:0}
-    .spec-row dt{color:var(--product-muted);font-size:13px}
-    .spec-row dd{margin:0;font-size:14px;font-weight:650}
-    .spec-source{display:block;margin-top:5px;color:var(--product-muted);font-size:11px;font-weight:400}
-    .verification-note{margin:0 0 15px;padding:13px 15px;border-radius:12px;background:#fff8e8;color:#7a5400;font-size:13px;line-height:1.5}
-    .source-list{display:grid;gap:9px;margin:0;padding-left:19px;color:var(--product-muted);font-size:13px}
+    .product-action.primary:disabled{opacity:.55}
+    .product-action.secondary{border:1px solid var(--product-border);background:#fff;text-decoration:none}
+    .product-action.secondary:hover{border-color:var(--product-accent);color:var(--product-accent)}
+    .build-block{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-top:31px;padding:22px 24px;border:1px solid #dcd9ff;border-radius:18px;background:linear-gradient(110deg,#f7f5ff,#fbfbff)}
+    .build-copy{display:flex;align-items:flex-start;gap:14px}
+    .build-icon{display:grid;place-items:center;width:40px;height:40px;flex:0 0 40px;border-radius:12px;background:#ebe9ff;color:#564de2;font-size:21px}
+    .build-copy h2{margin:0 0 4px;font-size:18px;letter-spacing:-.025em}
+    .build-copy p{margin:0;color:var(--product-muted);font-size:12px}
+    .build-button{flex:0 0 auto;min-height:40px;border:1px solid var(--product-accent);border-radius:10px;background:#fff;color:var(--product-accent);padding:0 15px;font:inherit;font-size:12px;font-weight:850;cursor:pointer;transition:.18s}
+    .build-button:hover,.build-button[aria-pressed=true]{background:var(--product-accent);color:#fff}
+    .product-tabs{display:flex;gap:26px;margin-top:42px;border-bottom:1px solid var(--product-border)}
+    .product-tab{position:relative;border:0;background:none;padding:0 0 13px;color:var(--product-muted);font:inherit;font-size:14px;font-weight:800;cursor:pointer}
+    .product-tab::after{content:"";position:absolute;right:0;bottom:-1px;left:0;height:2px;background:transparent}
+    .product-tab.active{color:var(--product-ink)}
+    .product-tab.active::after{background:var(--product-accent)}
+    .tab-panel{padding-top:27px}
+    .tab-panel[hidden]{display:none}
+    .tab-panel h2{margin:0 0 18px;font-size:22px;letter-spacing:-.035em}
+    .spec-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+    .spec-group{border:1px solid var(--product-border);border-radius:15px;overflow:hidden;background:#fff}
+    .spec-group h3{margin:0;padding:14px 16px;background:#fafbfe;font-size:14px;letter-spacing:-.015em}
+    .full-spec-list{margin:0}
+    .full-spec-row{display:grid;grid-template-columns:minmax(110px,.82fr) minmax(0,1.18fr);gap:13px;padding:12px 16px;border-top:1px solid var(--product-border)}
+    .full-spec-row dt{color:var(--product-muted);font-size:12px}
+    .full-spec-row dd{margin:0;font-size:13px;font-weight:650}
+    .spec-source{display:block;margin-top:4px;color:var(--product-muted);font-size:10px;font-weight:400}
+    .verification-block{margin-top:25px;padding:17px;border-radius:15px;background:var(--product-soft);color:var(--product-muted);font-size:12px;line-height:1.55}
+    .verification-block h3{margin:0 0 8px;color:var(--product-ink);font-size:15px}
+    .verification-note{margin:0 0 12px;padding:11px 13px;border-radius:10px;background:#fff8e8;color:#7a5400}
+    .source-list{display:grid;gap:7px;margin:13px 0 0;padding-left:18px}
     .source-list a{color:#4d45cf}
     .source-list small{color:#98a0ad}
-    @media (max-width:900px){
+    .text-panel{max-width:760px;color:#596276;font-size:14px;line-height:1.7}
+    .text-panel strong{color:var(--product-ink)}
+    @media(max-width:900px){
       .product-page{padding-top:25px}
       .product-shell{grid-template-columns:1fr;gap:28px}
-      .product-visual{min-height:280px;font-size:96px}
-      .spec-list{grid-template-columns:1fr}
-      .spec-row:nth-child(odd){border-right:0}
-      .spec-row:nth-last-child(2){border-bottom:1px solid var(--product-border)}
-      .spec-row:last-child{border-bottom:0}
+      .product-visual{min-height:500px}
+      .spec-groups{grid-template-columns:1fr}
     }
-    @media (max-width:560px){
+    @media(max-width:560px){
       .container{width:min(100% - 28px,1200px)}
-      .product-page{padding-bottom:52px}
-      .product-info h1{font-size:34px}
-      .product-visual{min-height:230px;padding:24px;font-size:76px}
+      .product-page{padding-bottom:55px}
+      .product-heading h1{font-size:35px}
+      .product-visual{min-height:340px;padding:24px}
+      .product-placeholder-icon{width:122px;height:92px;font-size:49px}
+      .build-block{display:block;padding:19px}
+      .build-button{width:100%;margin-top:17px}
+      .product-tabs{gap:18px;overflow-x:auto}
+      .product-tab{white-space:nowrap;font-size:13px}
+      .main-spec-row,.full-spec-row{grid-template-columns:1fr;gap:5px}
+      .product-actions{display:grid;grid-template-columns:1fr}
       .product-action{width:100%}
     }
   </style>
@@ -89,39 +127,82 @@
   <main class="product-page">
     <div class="container">
       <nav class="breadcrumbs" aria-label="Хлебные крошки">
+        <a href="index.html">Главная</a>
+        <span aria-hidden="true">/</span>
+        <a href="index.html">Компьютеры</a>
+        <span aria-hidden="true">/</span>
         <a href="rgw_page_laptops.html">Ноутбуки</a>
         <span aria-hidden="true">/</span>
         <span id="productBreadcrumb">Товар</span>
       </nav>
+
       <div id="productStatus" class="product-state" role="status">Загрузка карточки товара…</div>
-      <article id="productContent" class="product-shell" hidden>
-        <section class="product-media" aria-label="Изображение товара">
-          <div id="productVisual" class="product-visual"></div>
-        </section>
-        <section class="product-info">
+
+      <div id="productContent" hidden>
+        <header class="product-heading">
           <p id="productBrand" class="product-eyebrow"></p>
           <h1 id="productName"></h1>
           <p id="productSku" class="product-sku"></p>
-          <div class="product-price">
-            <span class="product-price-label">Цена АКС</span>
-            <strong id="productPrice" class="product-price-value"></strong>
-            <span id="productPriceNote" class="product-price-note"></span>
-          </div>
-          <div class="product-actions">
-            <a class="product-action primary" href="index.html#contacts">Уточнить наличие</a>
-            <a class="product-action secondary" href="rgw_page_laptops.html">Вернуться к ноутбукам</a>
-          </div>
-          <section class="product-section">
-            <h2>Характеристики</h2>
-            <dl id="productSpecs" class="spec-list"></dl>
+        </header>
+
+        <div class="product-shell">
+          <section class="product-media" aria-label="Изображение товара">
+            <div id="productVisual" class="product-visual"></div>
+            <div class="product-thumbnails" aria-label="Миниатюры товара">
+              <span class="product-thumb active" aria-hidden="true">💻</span>
+            </div>
           </section>
-          <section class="product-section">
-            <h2>Проверка данных</h2>
-            <div id="productVerification"></div>
-            <ul id="productSources" class="source-list"></ul>
+
+          <section class="product-panel" aria-label="Основные характеристики и покупка">
+            <h2>Основные характеристики</h2>
+            <dl id="mainSpecs" class="main-specs"></dl>
+            <button id="allSpecsLink" class="all-specs-link" type="button">Все характеристики ↓</button>
+
+            <div class="purchase-panel">
+              <div class="purchase-label">Цена</div>
+              <div class="price-placeholder">—</div>
+              <p class="purchase-note">Цена будет подключена позже.</p>
+              <div class="product-actions">
+                <button class="product-action primary" type="button" disabled aria-disabled="true">Купить</button>
+                <a class="product-action secondary" href="index.html#contacts">Связаться с АКС</a>
+              </div>
+            </div>
           </section>
+        </div>
+
+        <section class="build-block" aria-label="Добавить товар в сборку">
+          <div class="build-copy">
+            <span class="build-icon" aria-hidden="true">🧩</span>
+            <div>
+              <h2>Добавить товар в сборку</h2>
+              <p>Сохраните ноутбук для будущего подбора комплектующих и сравнения конфигураций.</p>
+            </div>
+          </div>
+          <button id="buildButton" class="build-button" type="button" aria-pressed="false">Добавить</button>
         </section>
-      </article>
+
+        <nav class="product-tabs" aria-label="Разделы товара">
+          <button class="product-tab active" type="button" data-tab="specs" aria-controls="tabSpecs" aria-selected="true">Характеристики</button>
+          <button class="product-tab" type="button" data-tab="description" aria-controls="tabDescription" aria-selected="false">Описание</button>
+          <button class="product-tab" type="button" data-tab="reviews" aria-controls="tabReviews" aria-selected="false">Отзывы</button>
+        </nav>
+
+        <section id="tabSpecs" class="tab-panel" data-panel="specs">
+          <h2 id="fullSpecs">Полные характеристики</h2>
+          <div id="specGroups" class="spec-groups"></div>
+          <div id="productVerification" class="verification-block"></div>
+        </section>
+
+        <section id="tabDescription" class="tab-panel text-panel" data-panel="description" hidden>
+          <h2>Описание</h2>
+          <p>Карточка показывает характеристики конкретной конфигурации ноутбука. Параметры без надёжного подтверждения намеренно не добавляются.</p>
+        </section>
+
+        <section id="tabReviews" class="tab-panel text-panel" data-panel="reviews" hidden>
+          <h2>Отзывы</h2>
+          <p>Отзывы появятся после первых покупок.</p>
+        </section>
+      </div>
     </div>
   </main>
   <footer class="footer"><div class="container footer-inner"><div class="footer-brand">АКС</div><div>Ноутбуки для работы, учёбы и игр • <a href="index.html#contacts">Связаться с АКС →</a></div></div></footer>

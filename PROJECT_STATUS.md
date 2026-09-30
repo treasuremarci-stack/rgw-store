@@ -11,7 +11,7 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 Supplemental laptop product-page stage completed.
 
-A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards. The product data keeps current project prices and identifiers, records per-model manufacturer sources for confirmed technical data, and marks unresolved configurations instead of guessing.
+A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards. The product data keeps current identifiers, records per-model manufacturer sources for confirmed technical data, and marks unresolved configurations instead of guessing. The product page intentionally keeps price as a placeholder until a later pricing stage.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -63,7 +63,7 @@ A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards.
 
 - Added one universal product template: `product.html`.
 - Added separate dynamic rendering logic: `product.js`.
-- Added `products.json` with all 12 current laptop products, existing project identifiers, prices from `price.csv`, placeholder-only image state, per-model source URLs and verification status.
+- Added `products.json` with all 12 current laptop products, existing project identifiers, placeholder-only price/image state, per-model source URLs and verification status.
 - Linked each current laptop card from `rgw_page_laptops.html` to its product page without changing filter values, card data attributes or product assortment.
 - Used manufacturer sources for confirmed technical data; no Internet prices, availability or external images were imported.
 - Left unresolved or conflicting specifications explicitly marked as partial/unresolved.
@@ -75,6 +75,10 @@ A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards.
 - Confirmed `product.js` parses successfully and handles missing/invalid IDs.
 - Confirmed all 12 image fields remain `null`; no foreign image was downloaded.
 - Confirmed the laptop card filter/sort script and existing `data-*` attributes were not rewritten.
+
+- Refined the product layout to match the approved brief: wide desktop image area, compact main specifications, grouped full specifications, tabs, and a visual-only «Добавить товар в сборку» block.
+- Kept real prices out of `product.html` and `products.json`; the purchase area shows a prepared placeholder.
+- Kept real laptop images out of the product page; the image component remains ready for future `object-fit: contain` assets.
 
 ## Next proposed stage
 

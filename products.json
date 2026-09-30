@@ -5,84 +5,93 @@
     "name": "ACER ASPIRE GO 15 AG15-42P-R917",
     "brand": "Acer",
     "category": "Ноутбуки",
-    "price": "590",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "AMD Ryzen 7 7730U"
+        "value": "AMD Ryzen 7 7730U",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "16 ГБ"
+        "value": "16 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\""
+        "value": "15.6\"",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "AMD Radeon Graphics (встроенная)"
+        "value": "AMD Radeon Graphics (встроенная)",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Платформа",
         "value": "Aspire Go 15 AG15-42P-R917; part number NX.JJHAA.003",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Общие параметры"
       },
       {
         "label": "Экран",
         "value": "1920×1080, TN, ComfyView, 60 Гц, без сенсора",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Экран"
       },
       {
         "label": "Накопитель",
         "value": "512 ГБ PCIe NVMe 4.0 M.2",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Накопители"
       },
       {
         "label": "Сеть",
         "value": "Wi‑Fi 6, Gigabit Ethernet, Bluetooth 5.1+",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Интерфейсы"
       },
       {
         "label": "Порты",
         "value": "HDMI, 3× USB (A/C)",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Интерфейсы"
       },
       {
         "label": "Клавиатура",
         "value": "Цифровой блок; без подсветки",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Клавиатура"
       },
       {
         "label": "Аккумулятор",
         "value": "53 Вт·ч; адаптер 65 Вт",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Питание"
       },
       {
         "label": "Цвет и вес",
         "value": "Pure Silver; 3.92 lb (≈1.78 кг)",
-        "sourceName": "Acer"
+        "sourceName": "Acer",
+        "group": "Общие параметры"
       }
     ],
     "sources": [
@@ -119,74 +128,87 @@
     "name": "ASUS ROG STRIX G815LM-IS96",
     "brand": "ASUS",
     "category": "Ноутбуки",
-    "price": "2 000",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "🎮",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core Ultra 9 275HX"
+        "value": "Intel Core Ultra 9 275HX",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "32 ГБ"
+        "value": "32 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "1 ТБ SSD"
+        "value": "1 ТБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "18\" WQXGA"
+        "value": "18\" WQXGA",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "NVIDIA GeForce RTX 5060 8 ГБ"
+        "value": "NVIDIA GeForce RTX 5060 8 ГБ",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "240 Гц"
+        "value": "240 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Модель",
         "value": "ROG Strix G18 (2025), G815LM-IS96",
-        "sourceName": "ASUS ROG"
+        "sourceName": "ASUS ROG",
+        "group": "Общие параметры"
       },
       {
         "label": "Процессор",
         "value": "Intel Core Ultra 9 275HX",
-        "sourceName": "ASUS ROG"
+        "sourceName": "ASUS ROG",
+        "group": "Процессор"
       },
       {
         "label": "Графика",
         "value": "NVIDIA GeForce RTX 5060 Laptop GPU, 8 ГБ",
-        "sourceName": "ASUS ROG"
+        "sourceName": "ASUS ROG",
+        "group": "Графика"
       },
       {
         "label": "Экран",
         "value": "18\" 2560×1600 WQXGA, 240 Гц",
-        "sourceName": "ASUS ROG"
+        "sourceName": "ASUS ROG",
+        "group": "Экран"
       },
       {
-        "label": "Память и накопитель",
-        "value": "32 ГБ DDR5; 1 ТБ PCIe 4.0 M.2 SSD",
-        "sourceName": "ASUS ROG + price.csv"
+        "label": "Оперативная память",
+        "value": "32 ГБ DDR5",
+        "sourceName": "ASUS ROG + price.csv",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ PCIe 4.0 M.2 SSD",
+        "sourceName": "ASUS ROG + price.csv",
+        "group": "Накопители"
       },
       {
         "label": "Расширение",
         "value": "2 слота DDR5 SO-DIMM; 2 слота M.2",
-        "sourceName": "ASUS ROG"
+        "sourceName": "ASUS ROG",
+        "group": "Дополнительно"
       }
     ],
     "sources": [
@@ -222,42 +244,43 @@
     "name": "ASUS VIVOBOOK X1504VA-BQ4172",
     "brand": "ASUS",
     "category": "Ноутбуки",
-    "price": null,
-    "priceSource": {
-      "name": "price.csv (совпадение не найдено)",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core 5 (точная модификация не подтверждена)"
+        "value": "Intel Core 5 (точная модификация не подтверждена)",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "8 ГБ"
+        "value": "8 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\""
+        "value": "15.6\"",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "Интегрированная"
+        "value": "Интегрированная",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "DOS"
+        "value": "DOS",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [],
@@ -294,69 +317,81 @@
     "name": "LENOVO LEGION 5i",
     "brand": "Lenovo",
     "category": "Ноутбуки",
-    "price": "1 700",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "🎮",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core Ultra 9 275HX"
+        "value": "Intel Core Ultra 9 275HX",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "32 ГБ"
+        "value": "32 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "1 ТБ SSD"
+        "value": "1 ТБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "16\" WQXGA, 500 нит"
+        "value": "16\" WQXGA, 500 нит",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "NVIDIA GeForce RTX 5060 8 ГБ"
+        "value": "NVIDIA GeForce RTX 5060 8 ГБ",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "240 Гц"
+        "value": "240 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Модель",
         "value": "Legion 5 16IAX10, machine type 83NX0000US",
-        "sourceName": "Lenovo PSREF"
+        "sourceName": "Lenovo PSREF",
+        "group": "Общие параметры"
       },
       {
         "label": "Процессор",
         "value": "Intel Core Ultra 9 275HX",
-        "sourceName": "Lenovo PSREF + price.csv"
+        "sourceName": "Lenovo PSREF + price.csv",
+        "group": "Процессор"
       },
       {
         "label": "Графика",
         "value": "NVIDIA GeForce RTX 5060 Laptop GPU, 8 ГБ",
-        "sourceName": "Lenovo PSREF + price.csv"
+        "sourceName": "Lenovo PSREF + price.csv",
+        "group": "Графика"
       },
       {
-        "label": "Память и накопитель",
-        "value": "32 ГБ; 1 ТБ SSD",
-        "sourceName": "price.csv; конфигурация сопоставлена с PSREF"
+        "label": "Оперативная память",
+        "value": "32 ГБ",
+        "sourceName": "price.csv; конфигурация сопоставлена с PSREF",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ SSD",
+        "sourceName": "price.csv; конфигурация сопоставлена с PSREF",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
         "value": "16\" WQXGA, 500 нит, 240 Гц",
-        "sourceName": "price.csv; конфигурация сопоставлена с PSREF"
+        "sourceName": "price.csv; конфигурация сопоставлена с PSREF",
+        "group": "Экран"
       }
     ],
     "sources": [
@@ -399,82 +434,91 @@
     "name": "LENOVO IP SLIM3 15IRH10",
     "brand": "Lenovo",
     "category": "Ноутбуки",
-    "price": "720",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core i7-13620H"
+        "value": "Intel Core i7-13620H",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "16 ГБ"
+        "value": "16 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.3\""
+        "value": "15.3\"",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "Intel UHD Graphics (встроенная)"
+        "value": "Intel UHD Graphics (встроенная)",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "DOS"
+        "value": "DOS",
+        "group": "Общие параметры"
       },
       {
         "label": "Цвет",
-        "value": "Luna Grey"
+        "value": "Luna Grey",
+        "group": "Общие параметры"
       },
       {
         "label": "Клавиатура",
-        "value": "С подсветкой"
+        "value": "С подсветкой",
+        "group": "Клавиатура"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Платформа",
         "value": "IdeaPad Slim 3 15IRH10",
-        "sourceName": "Lenovo PSREF"
+        "sourceName": "Lenovo PSREF",
+        "group": "Общие параметры"
       },
       {
         "label": "Процессор",
         "value": "Intel Core i7-13620H",
-        "sourceName": "Lenovo PSREF + price.csv"
+        "sourceName": "Lenovo PSREF + price.csv",
+        "group": "Процессор"
       },
       {
         "label": "Графика",
         "value": "Intel UHD Graphics",
-        "sourceName": "Lenovo PSREF"
+        "sourceName": "Lenovo PSREF",
+        "group": "Графика"
       },
       {
         "label": "Память",
         "value": "16 ГБ DDR5-4800 (вариант с распаянной памятью и SODIMM)",
-        "sourceName": "Lenovo PSREF"
+        "sourceName": "Lenovo PSREF",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
         "value": "512 ГБ PCIe 4.0 x4 M.2 2242 SSD",
-        "sourceName": "Lenovo PSREF + price.csv"
+        "sourceName": "Lenovo PSREF + price.csv",
+        "group": "Накопители"
       },
       {
         "label": "Беспроводная связь",
         "value": "Wi‑Fi 6/7 зависит от комплектации; точный модуль этой позиции не подтверждён",
-        "sourceName": "Lenovo PSREF"
+        "sourceName": "Lenovo PSREF",
+        "group": "Интерфейсы"
       }
     ],
     "sources": [
@@ -516,79 +560,93 @@
     "name": "HP VICTUS 15-FA2120NIA",
     "brand": "HP",
     "category": "Ноутбуки",
-    "price": "1 250",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "🎮",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core 7 240H"
+        "value": "Intel Core 7 240H",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "16 ГБ"
+        "value": "16 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\" FHD IPS"
+        "value": "15.6\" FHD IPS",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "NVIDIA GeForce RTX 5050 8 ГБ"
+        "value": "NVIDIA GeForce RTX 5050 8 ГБ",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "144 Гц"
+        "value": "144 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Модель",
         "value": "Victus 15-fa2120nia; product family D15FCEA",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Общие параметры"
       },
       {
         "label": "Процессор",
         "value": "Intel Core 7 240H",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Процессор"
       },
       {
         "label": "Графика",
         "value": "NVIDIA GeForce RTX 5050 Laptop GPU, 8 ГБ GDDR7",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Графика"
       },
       {
-        "label": "Память и накопитель",
-        "value": "16 ГБ DDR5-5600; 512 ГБ PCIe Gen4 NVMe M.2 SSD",
-        "sourceName": "HP"
+        "label": "Оперативная память",
+        "value": "16 ГБ DDR5-5600",
+        "sourceName": "HP",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ PCIe Gen4 NVMe M.2 SSD",
+        "sourceName": "HP",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
         "value": "15.6\" FHD IPS, 144 Гц, 300 нит, 62.5% sRGB, без сенсора",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Экран"
       },
       {
         "label": "Габариты и вес",
         "value": "35.79 × 25.5 × 2.35 см; 2.29 кг",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Габариты"
       },
       {
         "label": "Аккумулятор",
         "value": "70 Вт·ч",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Питание"
       }
     ],
     "sources": [
@@ -625,54 +683,57 @@
     "name": "HP PROBOOK 450 G10",
     "brand": "HP",
     "category": "Ноутбуки",
-    "price": "770",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💼",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core i5-1335U"
+        "value": "Intel Core i5-1335U",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "16 ГБ"
+        "value": "16 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "1 ТБ SSD"
+        "value": "1 ТБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\" FHD IPS"
+        "value": "15.6\" FHD IPS",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "NVIDIA GeForce RTX 2050 4 ГБ"
+        "value": "NVIDIA GeForce RTX 2050 4 ГБ",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "DOS"
+        "value": "DOS",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Платформа",
         "value": "HP ProBook 450 G10; официальные материалы описывают несколько конфигураций",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Общие параметры"
       },
       {
         "label": "Процессор",
         "value": "Intel Core i5-1335U",
-        "sourceName": "HP"
+        "sourceName": "HP",
+        "group": "Процессор"
       }
     ],
     "sources": [
@@ -714,46 +775,48 @@
     "name": "HP 15-FD0183WM",
     "brand": "HP",
     "category": "Ноутбуки",
-    "price": "760",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core i7-1355U"
+        "value": "Intel Core i7-1355U",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "16 ГБ"
+        "value": "16 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "1 ТБ SSD"
+        "value": "1 ТБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\" FHD IPS"
+        "value": "15.6\" FHD IPS",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "Интегрированная"
+        "value": "Интегрированная",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       },
       {
         "label": "Особенности",
-        "value": "Сканер отпечатка; Silver"
+        "value": "Сканер отпечатка; Silver",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [],
@@ -784,46 +847,48 @@
     "name": "DELL LDC15250-5434BLK-PUS",
     "brand": "Dell",
     "category": "Ноутбуки",
-    "price": "535",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core i5-1334U"
+        "value": "Intel Core i5-1334U",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "8 ГБ"
+        "value": "8 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\" 2K/FHD, сенсорный"
+        "value": "15.6\" 2K/FHD, сенсорный",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "Интегрированная"
+        "value": "Интегрированная",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       },
       {
         "label": "Цвет",
-        "value": "Carbo Black"
+        "value": "Carbo Black",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [],
@@ -854,78 +919,86 @@
     "name": "ASUS VIVOBOOK GO E1504FA",
     "brand": "ASUS",
     "category": "Ноутбуки",
-    "price": "470",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "AMD Ryzen 5 7520U"
+        "value": "AMD Ryzen 5 7520U",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "8 ГБ"
+        "value": "8 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\" FHD"
+        "value": "15.6\" FHD",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "AMD Radeon Graphics (встроенная)"
+        "value": "AMD Radeon Graphics (встроенная)",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "DOS"
+        "value": "DOS",
+        "group": "Общие параметры"
       },
       {
         "label": "Цвет",
-        "value": "Mixed Black"
+        "value": "Mixed Black",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Модель",
         "value": "Vivobook Go 15 E1504FA-AS52; part number 90NB0ZR2-M00FE0",
-        "sourceName": "ASUS eShop"
+        "sourceName": "ASUS eShop",
+        "group": "Общие параметры"
       },
       {
         "label": "Процессор",
         "value": "AMD Ryzen 5 7520U",
-        "sourceName": "ASUS eShop"
+        "sourceName": "ASUS eShop",
+        "group": "Процессор"
       },
       {
         "label": "Память",
         "value": "8 ГБ LPDDR5",
-        "sourceName": "ASUS eShop"
+        "sourceName": "ASUS eShop",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
         "value": "512 ГБ M.2 NVMe PCIe 3.0",
-        "sourceName": "ASUS eShop"
+        "sourceName": "ASUS eShop",
+        "group": "Накопители"
       },
       {
         "label": "Графика",
         "value": "AMD Radeon Graphics",
-        "sourceName": "ASUS eShop"
+        "sourceName": "ASUS eShop",
+        "group": "Графика"
       },
       {
         "label": "Цвет",
         "value": "Mixed Black",
-        "sourceName": "ASUS eShop"
+        "sourceName": "ASUS eShop",
+        "group": "Общие параметры"
       }
     ],
     "sources": [
@@ -962,64 +1035,69 @@
     "name": "MSI CROSSHAIR 16 AI",
     "brand": "MSI",
     "category": "Ноутбуки",
-    "price": "2 200",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "⚡",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core Ultra 9 275HX"
+        "value": "Intel Core Ultra 9 275HX",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "32 ГБ"
+        "value": "32 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "2 ТБ SSD"
+        "value": "2 ТБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "16\" QHD+"
+        "value": "16\" QHD+",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "NVIDIA GeForce RTX 5070 8 ГБ"
+        "value": "NVIDIA GeForce RTX 5070 8 ГБ",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "240 Гц"
+        "value": "240 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "DOS"
+        "value": "DOS",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [
       {
         "label": "Платформа",
         "value": "Crosshair 16 HX AI D2XWX; точный SKU позиции не указан",
-        "sourceName": "MSI"
+        "sourceName": "MSI",
+        "group": "Общие параметры"
       },
       {
         "label": "Экран",
         "value": "16\" QHD+ 2560×1440, 240 Гц, IPS-Level, 100% DCI-P3",
-        "sourceName": "MSI"
+        "sourceName": "MSI",
+        "group": "Экран"
       },
       {
         "label": "Подсветка",
         "value": "24-зонная RGB-подсветка клавиатуры",
-        "sourceName": "MSI"
+        "sourceName": "MSI",
+        "group": "Клавиатура"
       },
       {
         "label": "Процессор и графика",
         "value": "Семейство поддерживает Core Ultra 9 275HX и RTX 5070 8 ГБ; конфигурация позиции подтверждена price.csv",
-        "sourceName": "MSI + price.csv"
+        "sourceName": "MSI + price.csv",
+        "group": "Процессор"
       }
     ],
     "sources": [
@@ -1061,42 +1139,43 @@
     "name": "LENOVO IP SLIM 3i",
     "brand": "Lenovo",
     "category": "Ноутбуки",
-    "price": "535",
-    "priceSource": {
-      "name": "price.csv",
-      "url": "price.csv",
-      "type": "project"
-    },
     "image": null,
     "placeholder": "💻",
     "catalogFacts": [
       {
         "label": "Процессор",
-        "value": "Intel Core i5-1334U"
+        "value": "Intel Core i5-1334U",
+        "group": "Процессор"
       },
       {
         "label": "Оперативная память",
-        "value": "8 ГБ"
+        "value": "8 ГБ",
+        "group": "Оперативная память"
       },
       {
         "label": "Накопитель",
-        "value": "512 ГБ SSD"
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
       },
       {
         "label": "Экран",
-        "value": "15.6\" FHD"
+        "value": "15.6\" FHD",
+        "group": "Экран"
       },
       {
         "label": "Графика",
-        "value": "Интегрированная"
+        "value": "Интегрированная",
+        "group": "Графика"
       },
       {
         "label": "Частота экрана",
-        "value": "60 Гц"
+        "value": "60 Гц",
+        "group": "Экран"
       },
       {
         "label": "ОС",
-        "value": "Windows 11"
+        "value": "Windows 11",
+        "group": "Общие параметры"
       }
     ],
     "verifiedSpecs": [],

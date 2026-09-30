@@ -1,0 +1,1130 @@
+[
+  {
+    "id": "laptop-001",
+    "sku": "ACER-AG15-42P-R917",
+    "name": "ACER ASPIRE GO 15 AG15-42P-R917",
+    "brand": "Acer",
+    "category": "Ноутбуки",
+    "price": "590",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "AMD Ryzen 7 7730U"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\""
+      },
+      {
+        "label": "Графика",
+        "value": "AMD Radeon Graphics (встроенная)"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Платформа",
+        "value": "Aspire Go 15 AG15-42P-R917; part number NX.JJHAA.003",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Экран",
+        "value": "1920×1080, TN, ComfyView, 60 Гц, без сенсора",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ PCIe NVMe 4.0 M.2",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Сеть",
+        "value": "Wi‑Fi 6, Gigabit Ethernet, Bluetooth 5.1+",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Порты",
+        "value": "HDMI, 3× USB (A/C)",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Клавиатура",
+        "value": "Цифровой блок; без подсветки",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "53 Вт·ч; адаптер 65 Вт",
+        "sourceName": "Acer"
+      },
+      {
+        "label": "Цвет и вес",
+        "value": "Pure Silver; 3.92 lb (≈1.78 кг)",
+        "sourceName": "Acer"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Acer — Aspire Go 15 AG15-42P-R917",
+        "url": "https://www.acer.com/us-en/laptops/aspire/aspire-go-amd/pdp/NX.JJHAA.003",
+        "type": "manufacturer",
+        "scope": "exact"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "exactModel": true,
+      "exactConfig": true,
+      "notes": [
+        "Конфигурация сопоставлена по AG15-42P-R917 и строке price.csv."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "AG15-42P-R917",
+      "partNumber": "NX.JJHAA.003"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-002",
+    "sku": "ASUS-ROG-G815LM",
+    "name": "ASUS ROG STRIX G815LM-IS96",
+    "brand": "ASUS",
+    "category": "Ноутбуки",
+    "price": "2 000",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "🎮",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 9 275HX"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "32 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "18\" WQXGA"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060 8 ГБ"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "240 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Модель",
+        "value": "ROG Strix G18 (2025), G815LM-IS96",
+        "sourceName": "ASUS ROG"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 9 275HX",
+        "sourceName": "ASUS ROG"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060 Laptop GPU, 8 ГБ",
+        "sourceName": "ASUS ROG"
+      },
+      {
+        "label": "Экран",
+        "value": "18\" 2560×1600 WQXGA, 240 Гц",
+        "sourceName": "ASUS ROG"
+      },
+      {
+        "label": "Память и накопитель",
+        "value": "32 ГБ DDR5; 1 ТБ PCIe 4.0 M.2 SSD",
+        "sourceName": "ASUS ROG + price.csv"
+      },
+      {
+        "label": "Расширение",
+        "value": "2 слота DDR5 SO-DIMM; 2 слота M.2",
+        "sourceName": "ASUS ROG"
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS ROG — ROG Strix G18 (2025) specifications",
+        "url": "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g18-2025/spec/",
+        "type": "manufacturer",
+        "scope": "exact"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "exactModel": true,
+      "exactConfig": true,
+      "notes": [
+        "Модель G815LM-IS96 и ключевая конфигурация совпадают с текущей строкой price.csv."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "G815LM-IS96"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-003",
+    "sku": "ASUS-VIVOBOOK-X1504VA",
+    "name": "ASUS VIVOBOOK X1504VA-BQ4172",
+    "brand": "ASUS",
+    "category": "Ноутбуки",
+    "price": null,
+    "priceSource": {
+      "name": "price.csv (совпадение не найдено)",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core 5 (точная модификация не подтверждена)"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\""
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS"
+      }
+    ],
+    "verifiedSpecs": [],
+    "sources": [
+      {
+        "name": "ASUS Support — X1504VA family",
+        "url": "https://www.asus.com/supportonly/x1504va/helpdesk_download/",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "unresolved",
+      "exactModel": false,
+      "exactConfig": false,
+      "notes": [
+        "Для X1504VA-BQ4172 не найден официальный источник, однозначно подтверждающий именно эту конфигурацию. Цена для этой модели не найдена в price.csv и показана как «Цена уточняется»."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "X1504VA-BQ4172"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-004",
+    "sku": "LENOVO-LEGION-5I",
+    "name": "LENOVO LEGION 5i",
+    "brand": "Lenovo",
+    "category": "Ноутбуки",
+    "price": "1 700",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "🎮",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 9 275HX"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "32 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "16\" WQXGA, 500 нит"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060 8 ГБ"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "240 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Модель",
+        "value": "Legion 5 16IAX10, machine type 83NX0000US",
+        "sourceName": "Lenovo PSREF"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 9 275HX",
+        "sourceName": "Lenovo PSREF + price.csv"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060 Laptop GPU, 8 ГБ",
+        "sourceName": "Lenovo PSREF + price.csv"
+      },
+      {
+        "label": "Память и накопитель",
+        "value": "32 ГБ; 1 ТБ SSD",
+        "sourceName": "price.csv; конфигурация сопоставлена с PSREF"
+      },
+      {
+        "label": "Экран",
+        "value": "16\" WQXGA, 500 нит, 240 Гц",
+        "sourceName": "price.csv; конфигурация сопоставлена с PSREF"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Lenovo PSREF — Legion 5 16IAX10",
+        "url": "https://psref.lenovo.com/Product/Legion_5_16IAX10?tab=spec",
+        "type": "manufacturer",
+        "scope": "exact"
+      },
+      {
+        "name": "Lenovo Support — 83NX0000US",
+        "url": "https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/legion-series/legion-5-16iax10/83nx/83nx0000us",
+        "type": "manufacturer",
+        "scope": "exact"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "confirmed",
+      "exactModel": true,
+      "exactConfig": true,
+      "notes": [
+        "В проекте нет полного MTM в SKU, но строка price.csv содержит точный machine type 83NX0000US."
+      ]
+    },
+    "identifiers": {
+      "family": "Legion 5 16IAX10",
+      "machineType": "83NX0000US"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-005",
+    "sku": "LENOVO-IP-SLIM3-15IRH10",
+    "name": "LENOVO IP SLIM3 15IRH10",
+    "brand": "Lenovo",
+    "category": "Ноутбуки",
+    "price": "720",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-13620H"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.3\""
+      },
+      {
+        "label": "Графика",
+        "value": "Intel UHD Graphics (встроенная)"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS"
+      },
+      {
+        "label": "Цвет",
+        "value": "Luna Grey"
+      },
+      {
+        "label": "Клавиатура",
+        "value": "С подсветкой"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Платформа",
+        "value": "IdeaPad Slim 3 15IRH10",
+        "sourceName": "Lenovo PSREF"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-13620H",
+        "sourceName": "Lenovo PSREF + price.csv"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel UHD Graphics",
+        "sourceName": "Lenovo PSREF"
+      },
+      {
+        "label": "Память",
+        "value": "16 ГБ DDR5-4800 (вариант с распаянной памятью и SODIMM)",
+        "sourceName": "Lenovo PSREF"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ PCIe 4.0 x4 M.2 2242 SSD",
+        "sourceName": "Lenovo PSREF + price.csv"
+      },
+      {
+        "label": "Беспроводная связь",
+        "value": "Wi‑Fi 6/7 зависит от комплектации; точный модуль этой позиции не подтверждён",
+        "sourceName": "Lenovo PSREF"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Lenovo PSREF — IdeaPad Slim 3 15IRH10",
+        "url": "https://psref.lenovo.com/Product/IdeaPad/IdeaPad_Slim_3_15IRH10",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "Lenovo IdeaPad Slim 3 15IRH10 specification PDF",
+        "url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Slim_3_15IRH10/IdeaPad_Slim_3_15IRH10_Spec.pdf",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Платформа и процессор совпадают, но PSREF описывает несколько вариантов экрана, памяти и беспроводного модуля; неоднозначные поля не расширялись."
+      ]
+    },
+    "identifiers": {
+      "family": "IdeaPad Slim 3 15IRH10"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-006",
+    "sku": "HP-VICTUS-15-FA2120NIA",
+    "name": "HP VICTUS 15-FA2120NIA",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "price": "1 250",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "🎮",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core 7 240H"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" FHD IPS"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5050 8 ГБ"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "144 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Модель",
+        "value": "Victus 15-fa2120nia; product family D15FCEA",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core 7 240H",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5050 Laptop GPU, 8 ГБ GDDR7",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Память и накопитель",
+        "value": "16 ГБ DDR5-5600; 512 ГБ PCIe Gen4 NVMe M.2 SSD",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" FHD IPS, 144 Гц, 300 нит, 62.5% sRGB, без сенсора",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Габариты и вес",
+        "value": "35.79 × 25.5 × 2.35 см; 2.29 кг",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Аккумулятор",
+        "value": "70 Вт·ч",
+        "sourceName": "HP"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HP — Victus 15-fa2120nia product specifications",
+        "url": "https://www.hp.com/emea_middle_east-en/products/laptops/product-details/product-specifications/2103606996",
+        "type": "manufacturer",
+        "scope": "exact"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Официальная страница точно подтверждает модель и конфигурацию, но указывает FreeDOS 3.0; карточка проекта указывает Windows 11. ОС оставлена из данных проекта и помечена как конфликт источников."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "15-fa2120nia",
+      "productFamily": "D15FCEA"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-007",
+    "sku": "HP-PROBOOK-450-G10",
+    "name": "HP PROBOOK 450 G10",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "price": "770",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💼",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-1335U"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" FHD IPS"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 2050 4 ГБ"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Платформа",
+        "value": "HP ProBook 450 G10; официальные материалы описывают несколько конфигураций",
+        "sourceName": "HP"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-1335U",
+        "sourceName": "HP"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HP Support — ProBook 450 G10 technical specifications",
+        "url": "https://support.hp.com/no-no/document/ish_7795886-7795930-16?fallbackLocale=us-en&validated=true",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "HP product sheet — ProBook 450 G10",
+        "url": "https://pcb.inc.hp.com/dc/api/productsheet/mx-mx/2101694687/pdf/7Z7H8LT.pdf",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Официальные материалы доступны для семейства и отдельных SKU, но точный product number позиции с RTX 2050 в проекте отсутствует. GPU, SSD и дисплей не расширялись за пределы текущих данных проекта."
+      ]
+    },
+    "identifiers": {
+      "family": "ProBook 450 G10"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-008",
+    "sku": "HP-15-FD0183WM",
+    "name": "HP 15-FD0183WM",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "price": "760",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-1355U"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" FHD IPS"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      },
+      {
+        "label": "Особенности",
+        "value": "Сканер отпечатка; Silver"
+      }
+    ],
+    "verifiedSpecs": [],
+    "sources": [
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "unresolved",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Точная официальная спецификация HP для FD0183WM не найдена в доступных источниках; расширенные поля не добавлялись."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "15-FD0183WM"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-009",
+    "sku": "DELL-LDC15250-5434BLK",
+    "name": "DELL LDC15250-5434BLK-PUS",
+    "brand": "Dell",
+    "category": "Ноутбуки",
+    "price": "535",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-1334U"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" 2K/FHD, сенсорный"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      },
+      {
+        "label": "Цвет",
+        "value": "Carbo Black"
+      }
+    ],
+    "verifiedSpecs": [],
+    "sources": [
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "unresolved",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Точная официальная спецификация Dell для LDC15250-5434BLK-PUS не найдена; разрешённые поля не расширялись."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "LDC15250-5434BLK-PUS"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-010",
+    "sku": "ASUS-VIVOBOOK-GO-E1504FA",
+    "name": "ASUS VIVOBOOK GO E1504FA",
+    "brand": "ASUS",
+    "category": "Ноутбуки",
+    "price": "470",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "AMD Ryzen 5 7520U"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" FHD"
+      },
+      {
+        "label": "Графика",
+        "value": "AMD Radeon Graphics (встроенная)"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS"
+      },
+      {
+        "label": "Цвет",
+        "value": "Mixed Black"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Модель",
+        "value": "Vivobook Go 15 E1504FA-AS52; part number 90NB0ZR2-M00FE0",
+        "sourceName": "ASUS eShop"
+      },
+      {
+        "label": "Процессор",
+        "value": "AMD Ryzen 5 7520U",
+        "sourceName": "ASUS eShop"
+      },
+      {
+        "label": "Память",
+        "value": "8 ГБ LPDDR5",
+        "sourceName": "ASUS eShop"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ M.2 NVMe PCIe 3.0",
+        "sourceName": "ASUS eShop"
+      },
+      {
+        "label": "Графика",
+        "value": "AMD Radeon Graphics",
+        "sourceName": "ASUS eShop"
+      },
+      {
+        "label": "Цвет",
+        "value": "Mixed Black",
+        "sourceName": "ASUS eShop"
+      }
+    ],
+    "sources": [
+      {
+        "name": "ASUS eShop — Vivobook Go 15 E1504FA-AS52",
+        "url": "https://eshop.asus.com/us/90nb0zr2-m00fe0-asus-vivobook-go-15-e1504f.html",
+        "type": "manufacturer",
+        "scope": "exact"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Официальная страница подтверждает part number и основные компоненты, но указывает Windows 11 Home, тогда как текущая строка проекта указывает DOS; ОС оставлена из данных проекта и отмечена как конфликт источников."
+      ]
+    },
+    "identifiers": {
+      "modelNumber": "E1504FA-AS52",
+      "partNumber": "90NB0ZR2-M00FE0"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-011",
+    "sku": "MSI-CROSSHAIR-16-AI",
+    "name": "MSI CROSSHAIR 16 AI",
+    "brand": "MSI",
+    "category": "Ноутбуки",
+    "price": "2 200",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "⚡",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 9 275HX"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "32 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "2 ТБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "16\" QHD+"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5070 8 ГБ"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "240 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS"
+      }
+    ],
+    "verifiedSpecs": [
+      {
+        "label": "Платформа",
+        "value": "Crosshair 16 HX AI D2XWX; точный SKU позиции не указан",
+        "sourceName": "MSI"
+      },
+      {
+        "label": "Экран",
+        "value": "16\" QHD+ 2560×1440, 240 Гц, IPS-Level, 100% DCI-P3",
+        "sourceName": "MSI"
+      },
+      {
+        "label": "Подсветка",
+        "value": "24-зонная RGB-подсветка клавиатуры",
+        "sourceName": "MSI"
+      },
+      {
+        "label": "Процессор и графика",
+        "value": "Семейство поддерживает Core Ultra 9 275HX и RTX 5070 8 ГБ; конфигурация позиции подтверждена price.csv",
+        "sourceName": "MSI + price.csv"
+      }
+    ],
+    "sources": [
+      {
+        "name": "MSI — Crosshair 16 HX AI D2XWX",
+        "url": "https://www.msi.com/Laptop/Crosshair-16-HX-AI-D2XWX",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "MSI Support — Crosshair 16 HX AI",
+        "url": "https://www.msi.com/Laptop/Crosshair-16-HX-AI-D2XWX/support?sub_product=Crosshair-16-HX-AI-D2XWGKG",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "partial",
+      "exactModel": true,
+      "exactConfig": false,
+      "notes": [
+        "Официальная страница подтверждает семейство и варианты компонентов, но точный SKU позиции в проекте отсутствует; неоднозначные поля не расширялись."
+      ]
+    },
+    "identifiers": {
+      "family": "Crosshair 16 HX AI D2XWX"
+    },
+    "webCheckedAt": "2026-09-30"
+  },
+  {
+    "id": "laptop-012",
+    "sku": "LENOVO-IP-SLIM3I",
+    "name": "LENOVO IP SLIM 3i",
+    "brand": "Lenovo",
+    "category": "Ноутбуки",
+    "price": "535",
+    "priceSource": {
+      "name": "price.csv",
+      "url": "price.csv",
+      "type": "project"
+    },
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-1334U"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD"
+      },
+      {
+        "label": "Экран",
+        "value": "15.6\" FHD"
+      },
+      {
+        "label": "Графика",
+        "value": "Интегрированная"
+      },
+      {
+        "label": "Частота экрана",
+        "value": "60 Гц"
+      },
+      {
+        "label": "ОС",
+        "value": "Windows 11"
+      }
+    ],
+    "verifiedSpecs": [],
+    "sources": [
+      {
+        "name": "Lenovo PSREF — IdeaPad Slim 3 15IRH10 family",
+        "url": "https://psref.lenovo.com/Product/IdeaPad/IdeaPad_Slim_3_15IRH10",
+        "type": "manufacturer",
+        "scope": "family"
+      },
+      {
+        "name": "price.csv",
+        "url": "price.csv",
+        "type": "project",
+        "scope": "inventory"
+      }
+    ],
+    "verification": {
+      "status": "unresolved",
+      "exactModel": false,
+      "exactConfig": false,
+      "notes": [
+        "В проекте отсутствуют machine type/part number; семейство PSREF содержит другие процессорные варианты и не подтверждает именно эту позицию."
+      ]
+    },
+    "identifiers": {
+      "family": "IdeaPad Slim 3 (точная платформа не подтверждена)"
+    },
+    "webCheckedAt": "2026-09-30"
+  }
+]

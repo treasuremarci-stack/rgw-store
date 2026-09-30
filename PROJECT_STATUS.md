@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — АКС current state
 
-Last updated: 2026-09-28
+Last updated: 2026-09-30
 
 ## Mode
 AUTONOMOUS-BY-STAGE.
@@ -9,9 +9,9 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Phase 4B — product-card and image baseline pilot completed.
+Supplemental laptop product-page stage completed.
 
-The inventoried baseline was verified on a representative category page against the current monoblocks reference. No code change was required because the same baseline is already present across all card-based category pages.
+A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards. The product data keeps current project prices and identifiers, records per-model manufacturer sources for confirmed technical data, and marks unresolved configurations instead of guessing.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -58,6 +58,23 @@ The inventoried baseline was verified on a representative category page against 
 - Confirmed desktop and mobile-sensitive grid/image rules are present.
 - Confirmed the range diff from the previous checkpoint contains only this `PROJECT_STATUS.md` update.
 - No propagation batch was necessary because the inventory already showed the baseline on all 54 card-based category pages.
+
+## Completed in the laptop product-page stage
+
+- Added one universal product template: `product.html`.
+- Added separate dynamic rendering logic: `product.js`.
+- Added `products.json` with all 12 current laptop products, existing project identifiers, prices from `price.csv`, placeholder-only image state, per-model source URLs and verification status.
+- Linked each current laptop card from `rgw_page_laptops.html` to its product page without changing filter values, card data attributes or product assortment.
+- Used manufacturer sources for confirmed technical data; no Internet prices, availability or external images were imported.
+- Left unresolved or conflicting specifications explicitly marked as partial/unresolved.
+
+## Laptop-stage verification
+
+- Confirmed 12 product IDs in the current laptop page are represented once in `products.json`.
+- Confirmed each product has a source record and a verification note/status.
+- Confirmed `product.js` parses successfully and handles missing/invalid IDs.
+- Confirmed all 12 image fields remain `null`; no foreign image was downloaded.
+- Confirmed the laptop card filter/sort script and existing `data-*` attributes were not rewritten.
 
 ## Next proposed stage
 

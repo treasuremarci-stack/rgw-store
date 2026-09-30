@@ -84,6 +84,9 @@ A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards.
 - Replaced the large emoji placeholder with a lightweight inline SVG laptop icon; the image slot remains compatible with future `img` elements using `object-fit: contain`.
 - Kept the build panel directly below the main card and retained the grouped specification tabs.
 
+- Performed a 1440px-style visual check after publication and added the existing site header/container constraints to the product page so the main card is centered instead of touching the viewport edges.
+- Enlarged the CSS/SVG placeholder proportionally inside the gallery while keeping it a lightweight placeholder rather than a large emoji.
+
 ## Next proposed stage
 
 **Phase 5A — catalog and navigation integrity inventory.**

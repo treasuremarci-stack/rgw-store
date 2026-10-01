@@ -23,7 +23,7 @@
       const key = item.label.trim().toLowerCase();
       if (labels.has(key)) return;
       labels.add(key);
-      merged.push({...item, verified:Boolean(item.sourceName)});
+      merged.push({...item});
     });
     return merged;
   }
@@ -44,16 +44,10 @@
     );
   }
 
-  function sourceNote(item) {
-    return item.verified && item.sourceName
-      ? '<span class="main-spec-source">Источник: ' + escapeHtml(item.sourceName) + "</span>"
-      : "";
-  }
-
   function renderMainSpecs(product) {
     $("#mainSpecs").innerHTML = mainSpecs(product).map((item) =>
       '<div class="main-spec-row"><dt>' + escapeHtml(item.label) + "</dt><dd>" +
-      escapeHtml(item.value) + sourceNote(item) + "</dd></div>"
+      escapeHtml(item.value) + "</dd></div>"
     ).join("");
   }
 
@@ -74,31 +68,9 @@
       groups.get(group).map((item) =>
         '<div class="full-spec-row"><dt>' + escapeHtml(item.label) + "</dt><dd>" +
         escapeHtml(item.value) +
-        (item.verified && item.sourceName ? '<span class="spec-source">Источник: ' + escapeHtml(item.sourceName) + "</span>" : "") +
         "</dd></div>"
       ).join("") + "</dl></section>"
     ).join("");
-  }
-
-  function renderVerification(product) {
-    const verification = product.verification || {};
-    const notes = verification.notes || [];
-    const note = notes.length
-      ? '<p class="verification-note">' + notes.map(escapeHtml).join("<br>") + "</p>"
-      : "";
-    const sources = (product.sources || []).map((item) => {
-      const name = escapeHtml(item.name);
-      const scope = item.scope ? " · " + escapeHtml(item.scope) : "";
-      const link = item.url
-        ? '<a href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener noreferrer">' + name + "</a>"
-        : name;
-      return "<li>" + link + ' <small>(' + escapeHtml(item.type || "source") + scope + ")</small></li>";
-    }).join("");
-    $("#productVerification").innerHTML =
-      "<h3>Проверка данных</h3>" + note +
-      "<div>Статус: <strong>" + escapeHtml(verification.status || "не указан") +
-      "</strong>. Параметры без однозначного подтверждения не добавлялись.</div>" +
-      '<ul class="source-list">' + sources + "</ul>";
   }
 
   function activateTab(name) {
@@ -134,7 +106,6 @@
 
     renderMainSpecs(product);
     renderFullSpecs(product);
-    renderVerification(product);
 
     $("#productStatus").hidden = true;
     $("#productContent").hidden = false;

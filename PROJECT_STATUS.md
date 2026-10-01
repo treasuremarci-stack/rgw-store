@@ -116,6 +116,20 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Extended the shared renderer with category-aware copy, conservative component facts and lightweight SVG placeholders.
 - Kept generic/OEM entries conservative and did not invent missing model numbers or external image/price data.
 
+## Completed in the laptop product-page cleanup stage (2026-10-01)
+
+- Removed the unused «В избранное», «Сравнить» and «Поделиться» controls from `product.html`; their unused CSS was removed as well.
+- Added one centralized laptop-only user-value normalizer in `product.js` for ordinary color/appearance values. It translates `Pure Silver`, `Cool Silver`, `Silver` to «Серебристый», `Black`, `Midnight Black`, `Carbo Black`, `Mixed Black` to «Чёрный», `White` to «Белый», `Gray`/`Grey`/`Luna Grey` to «Серый», `Blue` to «Синий» and `Gold` to «Золотистый».
+- Preserved product names, model numbers, brands, CPU/GPU standards, technical interfaces, prices, images, IDs and the `product.html?id=PRODUCT_ID` architecture.
+
+### Laptop product-page verification
+
+- Checked all 12 laptop IDs from `rgw_page_laptops.html` against `products.json`.
+- Confirmed each ID resolves to one product record and each laptop retains its existing category and SKU.
+- Confirmed the three action labels are absent from the product template and no dedicated action handlers remain in `product.js`.
+- Confirmed the normalization is applied during shared specification rendering, so both main and full specs use the same display value without changing stored product data.
+- Confirmed `products.json` remains valid and no product records outside the display normalization path were edited.
+
 ## Next proposed stage
 
 **Phase 5A — monitors, keyboards and mice product pages.**

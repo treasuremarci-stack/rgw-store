@@ -27,15 +27,49 @@
     status.textContent = message;
   }
 
+  const laptopUserValueTranslations = [
+    [/\bPure Silver\b/gi, "Серебристый"],
+    [/\bCool Silver\b/gi, "Серебристый"],
+    [/\bLuna Grey\b/gi, "Серый"],
+    [/\bMidnight Black\b/gi, "Чёрный"],
+    [/\bCarbo Black\b/gi, "Чёрный"],
+    [/\bMixed Black\b/gi, "Чёрный"],
+    [/\bBlack\b/gi, "Чёрный"],
+    [/\bWhite\b/gi, "Белый"],
+    [/\bSilver\b/gi, "Серебристый"],
+    [/\bGray\b/gi, "Серый"],
+    [/\bGrey\b/gi, "Серый"],
+    [/\bBlue\b/gi, "Синий"],
+    [/\bGold\b/gi, "Золотистый"]
+  ];
+
+  function normalizeLaptopUserValue(product, item) {
+    const category = product.categoryName || product.category || "";
+    if (category !== "Ноутбуки" || !item || typeof item.value !== "string") return item;
+
+    const label = String(item.label || "").toLowerCase();
+    const userFacingCharacteristic = /цвет|покрыти|материал|особенност|клавиатур|раскладк|состояни|тип/.test(label);
+    if (!userFacingCharacteristic) return item;
+
+    return {
+      ...item,
+      value: laptopUserValueTranslations.reduce(
+        (value, [pattern, replacement]) => value.replace(pattern, replacement),
+        item.value
+      )
+    };
+  }
+
   function mergeSpecs(product) {
     const merged = [];
     const labels = new Set();
     [...(product.verifiedSpecs || []), ...(product.catalogFacts || [])].forEach((item) => {
       if (!item || !item.label) return;
+      const displayItem = normalizeLaptopUserValue(product, item);
       const key = item.label.trim().toLowerCase();
       if (labels.has(key)) return;
       labels.add(key);
-      merged.push({...item});
+      merged.push({...displayItem});
     });
     return merged;
   }

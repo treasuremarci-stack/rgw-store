@@ -119,7 +119,7 @@
     const buildDescription = $("#productBuildDescription");
     if (buildDescription) buildDescription.textContent = "Сохраните " + copy.noun + " для будущего подбора комплектующих и сравнения конфигураций.";
     const descriptionText = $("#productDescriptionText");
-    if (descriptionText) descriptionText.textContent = "Карточка показывает характеристики конкретной конфигурации " + copy.genitive + ". Параметры без надёжного подтверждения намеренно не добавляются.";
+    if (descriptionText) descriptionText.textContent = "Здесь собраны основные характеристики конкретной конфигурации " + copy.genitive + ".";
 
     const identifiers = product.identifiers || {};
     const modelParts = [identifiers.modelNumber, identifiers.machineType, identifiers.partNumber, identifiers.family].filter(Boolean);

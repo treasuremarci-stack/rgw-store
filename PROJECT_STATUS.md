@@ -94,6 +94,14 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Kept monoblock prices and images out of `product.html`; all 7 records remain placeholder-only.
 - Confirmed the new monoblock records contain no source URLs, source labels, verification blocks or service messages.
 
+
+## Completed in the component product-page stage
+
+- Connected 8 video cards, 17 processors and 22 SSD products to the shared `product.html?id=PRODUCT_ID` flow: 47 new records with stable `gpu-XXX`, `cpu-XXX` and `ssd-XXX` identifiers.
+- Preserved the existing category pages, filters, sorting, catalog cards, product images and price/availability placeholders; only image and title links were added.
+- Extended the shared renderer with component-aware breadcrumbs, SVG placeholders and compact main specifications while keeping the laptop and monoblock paths intact.
+- Added only model-level facts tied to the exact catalog configuration; ambiguous component variants keep their catalog facts without guessed details.
+
 ## Next proposed stage
 
 **Phase 5A — catalog and navigation integrity inventory.**

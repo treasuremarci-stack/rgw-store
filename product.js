@@ -4,6 +4,11 @@
   const laptopSvg = '<svg viewBox="0 0 120 82" role="img" aria-label="Иконка ноутбука" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="53" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M14 67h92l8 7H6l8-7Z" fill="#d7dce6" stroke="#657086" stroke-width="3" stroke-linejoin="round"/><path d="M33 22h54v28H33z" fill="#fff" opacity=".8"/><path d="M47 36h26" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
   const monoSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка моноблока" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="7" width="84" height="55" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M42 70h36l4 8H38l4-8Z" fill="#d7dce6" stroke="#657086" stroke-width="3" stroke-linejoin="round"/><path d="M31 22h58v28H31z" fill="#fff" opacity=".82"/><circle cx="60" cy="15" r="2" fill="#657086"/><path d="M48 36h24" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
 
+  const gpuSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка видеокарты" xmlns="http://www.w3.org/2000/svg"><rect x="13" y="18" width="94" height="50" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><circle cx="48" cy="43" r="13" fill="#fff" stroke="#635bff" stroke-width="3"/><circle cx="80" cy="43" r="13" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M20 29h-8v28h8M99 29h9v28h-9" stroke="#657086" stroke-width="3"/></svg>';
+  const cpuSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка процессора" xmlns="http://www.w3.org/2000/svg"><rect x="29" y="15" width="62" height="56" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><rect x="43" y="29" width="34" height="28" rx="3" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M39 8v7M51 8v7M63 8v7M75 8v7M87 8v7M39 71v7M51 71v7M63 71v7M75 71v7M87 71v7M22 25h7M22 37h7M22 49h7M22 61h7M91 25h7M91 37h7M91 49h7M91 61h7" stroke="#657086" stroke-width="3" stroke-linecap="round"/></svg>';
+  const ssdSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка SSD" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="25" width="80" height="36" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><circle cx="35" cy="43" r="5" fill="#635bff"/><path d="M52 36h35M52 43h24M52 50h29" stroke="#657086" stroke-width="3" stroke-linecap="round"/><path d="M28 18h64" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
+  const genericSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка товара" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="16" width="80" height="54" rx="7" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M41 78h38" stroke="#635bff" stroke-width="4" stroke-linecap="round"/></svg>';
+
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>"']/g, (char) => ({
       "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
@@ -31,18 +36,16 @@
 
   function mainSpecs(product) {
     const specs = mergeSpecs(product);
-    const find = (test) => specs.find((item) => test(item.label.toLowerCase()));
-    const wanted = [
-      find(label => label === "процессор"),
-      find(label => label.includes("оперативная память") || label === "память"),
-      find(label => label.includes("накопител")),
-      find(label => label === "экран"),
-      find(label => label.includes("график")),
-      find(label => label === "ос")
-    ].filter(Boolean);
-    return wanted.filter((item,index,array) =>
-      array.findIndex(candidate => candidate.label === item.label) === index
-    );
+    const category = product.categoryName || product.category || "";
+    const find = (tests) => specs.find((item) => tests.some((test) => test(item.label.toLowerCase())));
+    const wantedByCategory = {
+      "Видеокарты":[["графика","модель"],["видеопамять","память"],["тип памяти"],["шина памяти"],["интерфейс"],["видеовыходы"]],
+      "Процессоры":[["процессор"],["ядра/потоки"],["частота"],["кэш"],["сокет"],["графика"],["память"]],
+      "SSD":[["накопитель"],["ёмкость","объём"],["интерфейс"],["форм-фактор"],["скорость чтения"],["скорость записи"]]
+    };
+    const tests = wantedByCategory[category] || [["процессор"],["оперативная память","память"],["накопител"],["экран"],["график"],["ос"]];
+    const wanted = tests.map(labels => find(labels.map(label => value => value === label || value.includes(label)))).filter(Boolean);
+    return wanted.filter((item,index,array) => array.findIndex(candidate => candidate.label === item.label) === index);
   }
 
   function renderMainSpecs(product) {
@@ -56,7 +59,7 @@
 
   function renderFullSpecs(product) {
     const groups = new Map();
-    const order = ["Общие параметры","Экран","Процессор","Оперативная память","Графика","Накопители","Интерфейсы","Питание","Клавиатура","Габариты","Дополнительно"];
+    const order = ["Общие параметры","Экран","Процессор","Оперативная память","Память","Графика","Накопители","Интерфейсы","Питание","Клавиатура","Габариты","Дополнительно"];
     mergeSpecs(product).forEach((item) => {
       const group = item.group || "Дополнительно";
       if (!groups.has(group)) groups.set(group, []);
@@ -91,13 +94,23 @@
 
   function categoryCopy(product) {
     const category = product.categoryName || product.category || "";
-    if (category === "Моноблоки") {
-      return {label:"Моноблоки", noun:"моноблок", genitive:"моноблока"};
-    }
-    if (category === "Ноутбуки") {
-      return {label:"Ноутбуки", noun:"ноутбук", genitive:"ноутбука"};
-    }
-    return {label:category || "Каталог", noun:"товар", genitive:"товара"};
+    const copies = {
+      "Моноблоки":{label:"Моноблоки",noun:"моноблок",genitive:"моноблока",url:"rgw_page_monoblocks.html"},
+      "Ноутбуки":{label:"Ноутбуки",noun:"ноутбук",genitive:"ноутбука",url:"rgw_page_laptops.html"},
+      "Видеокарты":{label:"Видеокарты",noun:"видеокарту",genitive:"видеокарты",url:"rgw_page_gpus.html"},
+      "Процессоры":{label:"Процессоры",noun:"процессор",genitive:"процессора",url:"rgw_page_processors.html"},
+      "SSD":{label:"SSD",noun:"накопитель SSD",genitive:"SSD",url:"rgw_page_ssd.html"}
+    };
+    return copies[category] || {label:category || "Каталог",noun:"товар",genitive:"товара",url:product.categoryUrl || "index.html"};
+  }
+
+  function placeholderFor(product, copy) {
+    if (copy.label === "Моноблоки") return monoSvg;
+    if (copy.label === "Ноутбуки") return laptopSvg;
+    if (copy.label === "Видеокарты") return gpuSvg;
+    if (copy.label === "Процессоры") return cpuSvg;
+    if (copy.label === "SSD") return ssdSvg;
+    return genericSvg;
   }
 
   function render(product) {
@@ -114,7 +127,7 @@
     const categoryLink = $("#productCategoryLink");
     if (categoryLink) {
       categoryLink.textContent = copy.label;
-      categoryLink.href = product.categoryUrl || (copy.label === "Моноблоки" ? "rgw_page_monoblocks.html" : "rgw_page_laptops.html");
+      categoryLink.href = product.categoryUrl || copy.url;
     }
     const buildDescription = $("#productBuildDescription");
     if (buildDescription) buildDescription.textContent = "Сохраните " + copy.noun + " для будущего подбора комплектующих и сравнения конфигураций.";
@@ -130,7 +143,7 @@
     if (visual && product.image) {
       visual.innerHTML = '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '">';
     } else if (visual) {
-      const placeholderSvg = copy.label === "Моноблоки" ? monoSvg : laptopSvg;
+      const placeholderSvg = placeholderFor(product, copy);
       visual.innerHTML = '<div class="product-placeholder"><div class="product-placeholder-icon" aria-hidden="true">' +
         placeholderSvg + '</div><div class="product-placeholder-caption">Изображение товара</div></div>';
     }

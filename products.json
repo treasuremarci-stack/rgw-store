@@ -1137,5 +1137,2117 @@
       }
     ],
     "verifiedSpecs": []
+  },
+  {
+    "id": "gpu-001",
+    "sku": "gpu-001",
+    "name": "Видеокарта A76D Black GF RTX3050 6GB EX White PCI-E / GDDR6 96Bit",
+    "brand": "GALAX",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "A76D Black GF RTX3050 6GB EX White"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "A76D Black GF RTX3050 6GB EX White",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 3050",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "6 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "GDDR6",
+        "group": "Графика"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "96 бит",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеовыходы",
+        "value": "DisplayPort, HDMI, DVI-D",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "gpu-002",
+    "sku": "gpu-002",
+    "name": "Видеокарта B67D Black GF RTX5060 Ti 1-Click OC White PCI-E 8GB / GDDR7",
+    "brand": "GALAX",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "B67D Black GF RTX5060 Ti 1-Click OC White"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "B67D Black GF RTX5060 Ti 1-Click OC White",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060 Ti",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "8 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "GDDR7",
+        "group": "Графика"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "128 бит",
+        "group": "Графика"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "PCI Express",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "gpu-003",
+    "sku": "gpu-003",
+    "name": "Видеокарта B67O Black GF RTX5060 1-Click OC V2 PCI-E 8GB / GDDR7 128BIT",
+    "brand": "GALAX",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "B67O Black GF RTX5060 1-Click OC V2"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "B67O Black GF RTX5060 1-Click OC V2",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "8 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "GDDR7",
+        "group": "Графика"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "128 бит",
+        "group": "Графика"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "PCI Express",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "gpu-004",
+    "sku": "gpu-004",
+    "name": "Видеокарта B76O Black GF RTX5050 1-Click OC PCI-E 8GB / GDDR6",
+    "brand": "GALAX",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "B76O Black GF RTX5050 1-Click OC"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "B76O Black GF RTX5050 1-Click OC",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5050",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "8 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "GDDR6",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "gpu-005",
+    "sku": "gpu-005",
+    "name": "Видеокарта GALAX B37S Black GF RTX5080 1-Click OC PCI-E 16GB / GDDR7",
+    "brand": "GALAX",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "B37S Black GF RTX5080 1-Click OC"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "B37S Black GF RTX5080 1-Click OC",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5080",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "16 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "GDDR7",
+        "group": "Графика"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "256 бит",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "gpu-006",
+    "sku": "gpu-006",
+    "name": "Видеокарта Galax PG190 BLACK GF RTX 3060 1-Click OC PCI-E 12GB",
+    "brand": "GALAX",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "PG190 Black GF RTX3060 1-Click OC"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "PG190 Black GF RTX3060 1-Click OC",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 3060",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "12 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "192 бит",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "gpu-007",
+    "sku": "gpu-007",
+    "name": "Видеокарта ASUS GT 710 2G DDR5",
+    "brand": "ASUS",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "GT 710 2G DDR5"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GT 710 2G DDR5",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce GT 710",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "2 ГБ",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "gpu-008",
+    "sku": "gpu-008",
+    "name": "Видеокарта MSI RTX 5060 8G Ventus 2X",
+    "brand": "MSI",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🎮",
+    "identifiers": {
+      "modelNumber": "RTX 5060 Ventus 2X 8G"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "RTX 5060 Ventus 2X 8G",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Графика",
+        "value": "NVIDIA GeForce RTX 5060",
+        "group": "Графика"
+      },
+      {
+        "label": "Видеопамять",
+        "value": "8 ГБ",
+        "group": "Графика"
+      },
+      {
+        "label": "Шина памяти",
+        "value": "128 бит",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "cpu-001",
+    "sku": "cpu-001",
+    "name": "Процессор Intel Core i3 14100",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i3-14100"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i3",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i3-14100",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "4 / 8",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 4.7 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel UHD Graphics 730",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-4800 / DDR4-3200",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-002",
+    "sku": "cpu-002",
+    "name": "Процессор Intel Core i7 -14700КF",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i7-14700KF"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i7",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-14700KF",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "20 / 28",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.6 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "33 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Нет встроенной графики",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-5600 / DDR4-3200",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-003",
+    "sku": "cpu-003",
+    "name": "Процессор Intel Core i7 -4770",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i7-4770"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i7",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-4770",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "4 / 8",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 3.9 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "8 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1150",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel HD Graphics 4600",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "cpu-004",
+    "sku": "cpu-004",
+    "name": "Процессор Intel Core i9 -14900KF",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i9-14900KF"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i9",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i9-14900KF",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "24 / 32",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 6.0 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "36 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Нет встроенной графики",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-5600 / DDR4-3200",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-005",
+    "sku": "cpu-005",
+    "name": "Процессор I3-3260",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i3-3260"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i3",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i3-3260",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "2 / 4",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота",
+        "value": "3.3 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1155",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel HD Graphics 2500",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR3-1600",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-006",
+    "sku": "cpu-006",
+    "name": "Процессор I5-4460",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i5-4460"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i5",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-4460",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "4 / 4",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 3.4 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "6 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1150",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel HD Graphics 4600",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "cpu-007",
+    "sku": "cpu-007",
+    "name": "Процессор TRAY Ultra 5 245K",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core Ultra 5 245K"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core Ultra",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 5 245K",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "14 / 14 (6P + 8E)",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.2 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "24 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel Graphics",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-6400",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-008",
+    "sku": "cpu-008",
+    "name": "Процессор TRAY Ultra 5 245KF",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core Ultra 5 245KF"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core Ultra",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 5 245KF",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "14 / 14 (6P + 8E)",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.2 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "24 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Нет встроенной графики",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-6400",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-009",
+    "sku": "cpu-009",
+    "name": "Процессор TRAY Ultra 7 265K",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core Ultra 7 265K"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core Ultra",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 7 265K",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "20 / 20 (8P + 12E)",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.5 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "30 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel Graphics",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-6400",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-010",
+    "sku": "cpu-010",
+    "name": "Процессор TRAY Ultra 9 285K Arrow Lake",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core Ultra 9 285K"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core Ultra",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 9 285K",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "24 / 24 (8P + 16E)",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.7 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "36 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel Graphics",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-6400",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-011",
+    "sku": "cpu-011",
+    "name": "Процессор Intel Core i3-9100F",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i3-9100F"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i3",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i3-9100F",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "4 / 4",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 4.2 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "6 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1151",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Нет встроенной графики",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR4-2400",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-012",
+    "sku": "cpu-012",
+    "name": "Процессор Intel Core i9 -14900K",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i9-14900K"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i9",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i9-14900K",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "24 / 32",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 6.0 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "36 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel UHD Graphics 770",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-5600 / DDR4-3200",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-013",
+    "sku": "cpu-013",
+    "name": "Процессор I5-3470",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i5-3470"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i5",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5-3470",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "4 / 4",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 3.6 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "6 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1155",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel HD Graphics 2500",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "cpu-014",
+    "sku": "cpu-014",
+    "name": "Процессор Intel Core i7 -14700",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i7-14700"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i7",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-14700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "20 / 28",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.4 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "33 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel UHD Graphics 770",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-5600 / DDR4-3200",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-015",
+    "sku": "cpu-015",
+    "name": "Процессор Intel Core i7 -14700К",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i7-14700K"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i7",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7-14700K",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "20 / 28",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 5.6 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "33 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel UHD Graphics 770",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-5600 / DDR4-3200",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "cpu-016",
+    "sku": "cpu-016",
+    "name": "Процессор I3-4170",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core i3-4170"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core i3",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core i3-4170",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "2 / 4",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота",
+        "value": "3.7 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1150",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Intel HD Graphics 4400",
+        "group": "Графика"
+      }
+    ]
+  },
+  {
+    "id": "cpu-017",
+    "sku": "cpu-017",
+    "name": "Процессор TRAY Ultra 5 225F",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "identifiers": {
+      "modelNumber": "Core Ultra 5 225F"
+    },
+    "catalogFacts": [
+      {
+        "label": "Семейство",
+        "value": "Core Ultra",
+        "group": "Процессор"
+      },
+      {
+        "label": "Процессор",
+        "value": "Intel Core Ultra 5 225F",
+        "group": "Процессор"
+      },
+      {
+        "label": "Ядра/потоки",
+        "value": "10 / 10 (6P + 4E)",
+        "group": "Процессор"
+      },
+      {
+        "label": "Частота Turbo",
+        "value": "до 4.9 ГГц",
+        "group": "Процессор"
+      },
+      {
+        "label": "Кэш",
+        "value": "20 МБ",
+        "group": "Процессор"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Процессор"
+      },
+      {
+        "label": "Графика",
+        "value": "Нет встроенной графики",
+        "group": "Графика"
+      },
+      {
+        "label": "Память",
+        "value": "DDR5-6400",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "ssd-001",
+    "sku": "ssd-001",
+    "name": "SSD 2,5 Lexar 512 GB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "2,5 Lexar 512 GB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "2,5 Lexar 512 GB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-002",
+    "sku": "ssd-002",
+    "name": "SSD Lexar M.2 2280 NVMe SSD 1ТB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "Lexar M.2 2280 NVMe SSD 1ТB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar M.2 2280 NVMe SSD 1ТB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "M.2 2280",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-003",
+    "sku": "ssd-003",
+    "name": "SSD Lexar M.2 2280 NVMe SSD 512",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "Lexar M.2 2280 NVMe SSD 512"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar M.2 2280 NVMe SSD 512",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "M.2 2280",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-004",
+    "sku": "ssd-004",
+    "name": "SSD NVMe Samsung 990 Evo plus 1 TB",
+    "brand": "Samsung",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "MZ-V9S1T0BW"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Samsung 990 EVO Plus 1TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 7 250 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 6 300 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4 / 5.0 x2",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "ssd-005",
+    "sku": "ssd-005",
+    "name": "SSD NVMe Samsung 990 Evo plus 2 TB",
+    "brand": "Samsung",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "MZ-V9S2T0BW"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Samsung 990 EVO Plus 2TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "2 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 7 250 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 6 300 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4 / 5.0 x2",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "ssd-006",
+    "sku": "ssd-006",
+    "name": "SSD NVMe Samsung 990 Pro 1TB",
+    "brand": "Samsung",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "MZ-V9P1T0BW"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Samsung 990 PRO 1TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "V-NAND TLC",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-007",
+    "sku": "ssd-007",
+    "name": "SSD NVMe Samsung 990 Pro 2TB",
+    "brand": "Samsung",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "MZ-V9P2T0BW"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Samsung 990 PRO 2TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "2 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "V-NAND TLC",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-008",
+    "sku": "ssd-008",
+    "name": "SSD 2,5 Lexar 128 GB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "2,5 Lexar 128 GB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "2,5 Lexar 128 GB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "128 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-009",
+    "sku": "ssd-009",
+    "name": "SSD Lexar M.2 2280 NVMe SSD 2ТB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "Lexar M.2 2280 NVMe SSD 2ТB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar M.2 2280 NVMe SSD 2ТB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "2 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "M.2 2280",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-010",
+    "sku": "ssd-010",
+    "name": "SSD NVMe Lexar 1TB LNM 790",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "LNM790X001T-RNNNG"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar NM790 1TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4 NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 7 400 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 6 500 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ресурс записи",
+        "value": "1 000 TBW",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-011",
+    "sku": "ssd-011",
+    "name": "SSD NVMe Lexar 2TB LNM 790",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "LNM790X002T-RNNNG"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar NM790 2TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "2 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4 NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 7 400 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 6 500 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ресурс записи",
+        "value": "1 500 TBW",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-012",
+    "sku": "ssd-012",
+    "name": "SSD HP FX 700 NVMe SSD 512",
+    "brand": "HP",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "HP FX700 512GB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "HP FX700 512GB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4 NVMe 2.0",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Скорость чтения",
+        "value": "до 6 300 МБ/с",
+        "group": "Накопители"
+      },
+      {
+        "label": "Скорость записи",
+        "value": "до 3 100 МБ/с",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-013",
+    "sku": "ssd-013",
+    "name": "SSD NVMe Samsung 256 Gb",
+    "brand": "Samsung",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "NVMe Samsung 256 Gb"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "NVMe Samsung 256 Gb",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "256 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "ssd-014",
+    "sku": "ssd-014",
+    "name": "SSD Kingston M.2 2280 NVMe SSD 1 TB",
+    "brand": "Kingston",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "Kingston M.2 2280 NVMe SSD 1 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Kingston M.2 2280 NVMe SSD 1 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "M.2 2280",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-015",
+    "sku": "ssd-015",
+    "name": "SSD NVMe Samsung 980 512 Gb",
+    "brand": "Samsung",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "Samsung 980 512GB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Samsung 980 512GB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "PCIe",
+        "value": "3.0 x4 NVMe",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "ssd-016",
+    "sku": "ssd-016",
+    "name": "SSD Lexar THOR PRO M.2 2280 NVMe SSD 512",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "modelNumber": "Lexar THOR PRO 512GB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar THOR PRO 512GB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "M.2 2280",
+        "group": "Накопители"
+      },
+      {
+        "label": "PCIe",
+        "value": "4.0 x4 NVMe",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "ssd-017",
+    "sku": "ssd-017",
+    "name": "SSD 2,5 Lexar 1TB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "2,5 Lexar 1TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "2,5 Lexar 1TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-018",
+    "sku": "ssd-018",
+    "name": "SSD Lexar M.2 2280 NVMe SSD 256",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "Lexar M.2 2280 NVMe SSD 256"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "Lexar M.2 2280 NVMe SSD 256",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "256 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "M.2 2280",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-019",
+    "sku": "ssd-019",
+    "name": "SSD 2,5 Kingston 480 Gb",
+    "brand": "Kingston",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "2,5 Kingston 480 Gb"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "2,5 Kingston 480 Gb",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "480 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-020",
+    "sku": "ssd-020",
+    "name": "SSD 2,5 Lexar 2TB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "2,5 Lexar 2TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "2,5 Lexar 2TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "2 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
+  },
+  {
+    "id": "ssd-021",
+    "sku": "ssd-021",
+    "name": "SSD NVMe Lexar 512 GB LNM 790",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "NVMe Lexar 512 GB LNM 790"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "NVMe Lexar 512 GB LNM 790",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "NVMe",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "ssd-022",
+    "sku": "ssd-022",
+    "name": "SSD 2,5 Lexar 256 GB",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "identifiers": {
+      "family": "2,5 Lexar 256 GB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Накопитель",
+        "value": "2,5 Lexar 256 GB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "256 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
   }
 ]

@@ -115,11 +115,14 @@
     document.querySelectorAll(".product-tab").forEach((button) => {
       button.addEventListener("click", () => activateTab(button.dataset.tab));
     });
-    $("#allSpecsLink").addEventListener("click", () => {
+    const allSpecsLink = $("#allSpecsLink");
+    if (allSpecsLink) allSpecsLink.addEventListener("click", () => {
       activateTab("specs");
-      $("#fullSpecs").scrollIntoView({behavior:"smooth", block:"start"});
+      const fullSpecs = $("#fullSpecs");
+      if (fullSpecs) fullSpecs.scrollIntoView({behavior:"smooth", block:"start"});
     });
-    $("#buildButton").addEventListener("click", (event) => {
+    const buildButton = $("#buildButton");
+    if (buildButton) buildButton.addEventListener("click", (event) => {
       const button = event.currentTarget;
       const added = button.getAttribute("aria-pressed") === "true";
       button.setAttribute("aria-pressed", String(!added));
@@ -150,7 +153,11 @@
         return;
       }
       render(product);
-      initInteractions();
+      try {
+        initInteractions();
+      } catch (interactionError) {
+        console.warn("Product interactions unavailable:", interactionError);
+      }
     } catch (error) {
       console.error(error);
       setError("Не удалось загрузить карточку товара. Повторите попытку позже.");

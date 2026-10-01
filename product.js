@@ -8,6 +8,9 @@
   const cpuSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка процессора" xmlns="http://www.w3.org/2000/svg"><rect x="29" y="15" width="62" height="56" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><rect x="43" y="29" width="34" height="28" rx="3" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M39 8v7M51 8v7M63 8v7M75 8v7M87 8v7M39 71v7M51 71v7M63 71v7M75 71v7M87 71v7M22 25h7M22 37h7M22 49h7M22 61h7M91 25h7M91 37h7M91 49h7M91 61h7" stroke="#657086" stroke-width="3" stroke-linecap="round"/></svg>';
   const ssdSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка SSD" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="25" width="80" height="36" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><circle cx="35" cy="43" r="5" fill="#635bff"/><path d="M52 36h35M52 43h24M52 50h29" stroke="#657086" stroke-width="3" stroke-linecap="round"/><path d="M28 18h64" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
   const genericSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка товара" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="16" width="80" height="54" rx="7" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M41 78h38" stroke="#635bff" stroke-width="4" stroke-linecap="round"/></svg>';
+  const caseSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка корпуса" xmlns="http://www.w3.org/2000/svg"><rect x="31" y="8" width="58" height="70" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><rect x="42" y="19" width="36" height="31" rx="3" fill="#fff" stroke="#635bff" stroke-width="3"/><circle cx="49" cy="61" r="3" fill="#635bff"/><path d="M60 61h17M60 68h17" stroke="#657086" stroke-width="3" stroke-linecap="round"/></svg>';
+  const psuSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка блока питания" xmlns="http://www.w3.org/2000/svg"><rect x="17" y="20" width="86" height="48" rx="6" fill="#eef1f7" stroke="#657086" stroke-width="3"/><circle cx="48" cy="44" r="15" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M48 29v30M33 44h30M77 34h16M77 44h16M77 54h10" stroke="#657086" stroke-width="3" stroke-linecap="round"/></svg>';
+  const coolingSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка охлаждения" xmlns="http://www.w3.org/2000/svg"><circle cx="41" cy="43" r="23" fill="#eef1f7" stroke="#657086" stroke-width="3"/><circle cx="41" cy="43" r="6" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M41 20v17M41 49v17M18 43h17M49 43h17" stroke="#657086" stroke-width="3" stroke-linecap="round"/><rect x="72" y="25" width="26" height="36" rx="3" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M78 33h14M78 42h14M78 51h14" stroke="#657086" stroke-width="3" stroke-linecap="round"/></svg>';
   const motherboardSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка материнской платы" xmlns="http://www.w3.org/2000/svg"><rect x="16" y="10" width="88" height="66" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><rect x="28" y="23" width="24" height="24" rx="3" fill="#fff" stroke="#635bff" stroke-width="3"/><path d="M63 20h27M63 30h27M63 40h18M28 56h62M24 17v7M24 50v12M57 56v15M91 50v12" stroke="#657086" stroke-width="3" stroke-linecap="round"/></svg>';
   const ramSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка оперативной памяти" xmlns="http://www.w3.org/2000/svg"><rect x="16" y="28" width="88" height="28" rx="4" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M28 28v-9M40 28v-9M52 28v-9M64 28v-9M76 28v-9M88 28v-9M28 56v9M40 56v9M52 56v9M64 56v9M76 56v9M88 56v9" stroke="#657086" stroke-width="3" stroke-linecap="round"/><path d="M29 40h62M29 48h35" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
   const hddSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка жёсткого диска" xmlns="http://www.w3.org/2000/svg"><rect x="19" y="13" width="82" height="60" rx="7" fill="#eef1f7" stroke="#657086" stroke-width="3"/><circle cx="60" cy="43" r="20" fill="#fff" stroke="#635bff" stroke-width="3"/><circle cx="60" cy="43" r="5" fill="#657086"/><path d="M60 23v40M40 43h40" stroke="#657086" stroke-width="2" opacity=".6"/></svg>';
@@ -47,7 +50,10 @@
       "SSD":[["накопитель"],["ёмкость","объём"],["интерфейс"],["форм-фактор"],["скорость чтения"],["скорость записи"]],
       "Материнские платы":[["модель"],["чипсет"],["сокет"],["тип памяти"],["форм-фактор"],["беспроводная сеть"]],
       "Оперативная память":[["модель"],["тип памяти"],["объём","ёмкость"],["частота"],["форм-фактор"],["задержка"]],
-      "HDD":[["накопитель","модель"],["серия"],["ёмкость","объём"],["форм-фактор"],["интерфейс"],["назначение"]]
+      "HDD":[["накопитель","модель"],["серия"],["ёмкость","объём"],["форм-фактор"],["интерфейс"],["назначение"]],
+      "Корпуса":[["модель"],["форм-фактор"],["цвет"],["вентиляторы"],["поддержка радиатора"]],
+      "Блоки питания":[["модель"],["мощность"],["стандарт"],["сертификат"],["модульность"]],
+      "Охлаждение":[["модель","серия"],["тип охлаждения"],["размер радиатора"],["подсветка"]]
     };
     const tests = wantedByCategory[category] || [["процессор"],["оперативная память","память"],["накопител"],["экран"],["график"],["ос"]];
     const wanted = tests.map(labels => find(labels.map(label => value => value === label || value.includes(label)))).filter(Boolean);
@@ -108,7 +114,10 @@
       "SSD":{label:"SSD",noun:"накопитель SSD",genitive:"SSD",url:"rgw_page_ssd.html"},
       "Материнские платы":{label:"Материнские платы",noun:"материнскую плату",genitive:"материнской платы",url:"rgw_page_motherboards.html"},
       "Оперативная память":{label:"Оперативная память",noun:"оперативную память",genitive:"оперативной памяти",url:"rgw_page_ram.html"},
-      "HDD":{label:"HDD",noun:"жёсткий диск",genitive:"жёсткого диска",url:"rgw_page_hdd.html"}
+      "HDD":{label:"HDD",noun:"жёсткий диск",genitive:"жёсткого диска",url:"rgw_page_hdd.html"},
+      "Корпуса":{label:"Корпуса",noun:"корпус",genitive:"корпуса",url:"rgw_page_cases.html"},
+      "Блоки питания":{label:"Блоки питания",noun:"блок питания",genitive:"блока питания",url:"rgw_page_power_supplies.html"},
+      "Охлаждение":{label:"Охлаждение",noun:"систему охлаждения",genitive:"системы охлаждения",url:"rgw_page_cooling.html"}
     };
     return copies[category] || {label:category || "Каталог",noun:"товар",genitive:"товара",url:product.categoryUrl || "index.html"};
   }
@@ -122,6 +131,9 @@
     if (copy.label === "Материнские платы") return motherboardSvg;
     if (copy.label === "Оперативная память") return ramSvg;
     if (copy.label === "HDD") return hddSvg;
+    if (copy.label === "Корпуса") return caseSvg;
+    if (copy.label === "Блоки питания") return psuSvg;
+    if (copy.label === "Охлаждение") return coolingSvg;
     return genericSvg;
   }
 

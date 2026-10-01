@@ -4431,5 +4431,1422 @@
         "group": "Накопители"
       }
     ]
+  },
+  {
+    "id": "cases-001",
+    "sku": "cases-001",
+    "name": "Кейс 240",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "family": "240"
+    },
+    "catalogFacts": []
+  },
+  {
+    "id": "cases-002",
+    "sku": "cases-002",
+    "name": "Кейс Aigo DK352 (PLUS) White black with 4 fans",
+    "brand": "Aigo",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "DK352 PLUS"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "DK352 PLUS",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Цвет",
+        "value": "White",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Вентиляторы",
+        "value": "4",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cases-003",
+    "sku": "cases-003",
+    "name": "Кейс Gamemax Vista Pro ATX BK WH",
+    "brand": "GameMax",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "Vista Pro"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "Vista Pro",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-004",
+    "sku": "cases-004",
+    "name": "Кейс Gamemax Infinity Black WH ATX",
+    "brand": "GameMax",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "Infinity"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "Infinity",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "ATX",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Цвет",
+        "value": "Black",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-005",
+    "sku": "cases-005",
+    "name": "Кейс Gamemax Hype-M ATX BK WH",
+    "brand": "GameMax",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "Hype-M"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "Hype-M",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-006",
+    "sku": "cases-006",
+    "name": "Кейс Gamemax ATX INFINITY PLUS WT BK",
+    "brand": "GameMax",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "INFINITY PLUS"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "INFINITY PLUS",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-007",
+    "sku": "cases-007",
+    "name": "Кейс 360",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "family": "360"
+    },
+    "catalogFacts": []
+  },
+  {
+    "id": "cases-008",
+    "sku": "cases-008",
+    "name": "Кейс Vision USB 3.0",
+    "brand": "Vision",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "family": "Vision USB 3.0"
+    },
+    "catalogFacts": []
+  },
+  {
+    "id": "cases-009",
+    "sku": "cases-009",
+    "name": "Кейс Aigo C285M Black White",
+    "brand": "Aigo",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "C285M"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "C285M",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Цвет",
+        "value": "White",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-010",
+    "sku": "cases-010",
+    "name": "Дип Кул CASE CH 370 WHITE",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CH370"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CH370",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Цвет",
+        "value": "White",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип корпуса",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Поддержка радиатора",
+        "value": "до 360 мм",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cases-011",
+    "sku": "cases-011",
+    "name": "Дип Кул CASE CH 370 BLACK",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CH370"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CH370",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Цвет",
+        "value": "Black",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип корпуса",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Поддержка радиатора",
+        "value": "до 360 мм",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cases-012",
+    "sku": "cases-012",
+    "name": "Дип Кул CASE CG530 4F",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CG530 4F"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CG530 4F",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-013",
+    "sku": "cases-013",
+    "name": "Дип Кул CASE CG580 4F V2",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CG580 4F V2"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CG580 4F V2",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-014",
+    "sku": "cases-014",
+    "name": "Дип Кул CASE MATREXX 50",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "MATREXX 50"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "MATREXX 50",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-015",
+    "sku": "cases-015",
+    "name": "Дип Кул CASE CH 160 WHITE",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CH160"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CH160",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Цвет",
+        "value": "White",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-016",
+    "sku": "cases-016",
+    "name": "Дип Кул CASE CC560 LIMITED V2",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CC560 LIMITED V2"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CC560 LIMITED V2",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cases-017",
+    "sku": "cases-017",
+    "name": "Дип Кул CASE CG380 3F",
+    "brand": "DeepCool",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "identifiers": {
+      "modelNumber": "CG380 3F"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CG380 3F",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "psu-001",
+    "sku": "psu-001",
+    "name": "Блок Питания GALAX OMEGA GL650S, Power Supply",
+    "brand": "GALAX",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "OMEGA GL650S"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "OMEGA GL650S",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "psu-002",
+    "sku": "psu-002",
+    "name": "Блок Питания Segotep Power Supply AN650W",
+    "brand": "Segotep",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "AN650W"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "AN650W",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Мощность",
+        "value": "650 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-003",
+    "sku": "psu-003",
+    "name": "Блок Питания Segotep Power Supply GM1000W (ATX3.0 & PCIE 5.0)",
+    "brand": "Segotep",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "GM1000W"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GM1000W",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Мощность",
+        "value": "1000 Вт",
+        "group": "Питание"
+      },
+      {
+        "label": "Стандарт",
+        "value": "ATX 3.0 / PCIe 5.0",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-004",
+    "sku": "psu-004",
+    "name": "Блок Питания Segotep Power Supply GM1250W",
+    "brand": "Segotep",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "GM1250W"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GM1250W",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Мощность",
+        "value": "1250 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-005",
+    "sku": "psu-005",
+    "name": "Блок Питания Segotep Power Supply GM1250W (ATX3.0 & PCIE 5.0)",
+    "brand": "Segotep",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "GM1250W"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GM1250W",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Мощность",
+        "value": "1250 Вт",
+        "group": "Питание"
+      },
+      {
+        "label": "Стандарт",
+        "value": "ATX 3.0 / PCIe 5.0",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-006",
+    "sku": "psu-006",
+    "name": "Блок Питания Vision 550wat",
+    "brand": "Vision",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "Vision 550wat"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "550 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-007",
+    "sku": "psu-007",
+    "name": "Блок Питания Vision 550wat МИНИ",
+    "brand": "Vision",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "Vision 550wat МИНИ"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "550 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-008",
+    "sku": "psu-008",
+    "name": "Блок Питания Vision 750 wat ОЕМ",
+    "brand": "Vision",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "Vision 750 wat ОЕМ"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "750 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-009",
+    "sku": "psu-009",
+    "name": "Блок Питания Vision 850 wat ОЕМ",
+    "brand": "Vision",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "Vision 850 wat ОЕМ"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "850 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-010",
+    "sku": "psu-010",
+    "name": "Блок Питания 500 wat Dragon",
+    "brand": "Dragon",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "500 wat Dragon"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "500 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-011",
+    "sku": "psu-011",
+    "name": "Блок Питания Segotep Power Supply GM850W",
+    "brand": "Segotep",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "GM850W"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GM850W",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Мощность",
+        "value": "850 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-012",
+    "sku": "psu-012",
+    "name": "Блок Питания Vision 600wat",
+    "brand": "Vision",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "Vision 600wat"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "600 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-013",
+    "sku": "psu-013",
+    "name": "Блок Питания Cooler Master 600W",
+    "brand": "Cooler Master",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "family": "Cooler Master 600W"
+    },
+    "catalogFacts": [
+      {
+        "label": "Мощность",
+        "value": "600 Вт",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-014",
+    "sku": "psu-014",
+    "name": "Дип Кул POWER PL800 D",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "PL800D"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "PL800D",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Мощность",
+        "value": "800 Вт",
+        "group": "Питание"
+      },
+      {
+        "label": "Стандарт",
+        "value": "ATX 3.1",
+        "group": "Питание"
+      },
+      {
+        "label": "Сертификат",
+        "value": "80 PLUS Bronze",
+        "group": "Питание"
+      }
+    ]
+  },
+  {
+    "id": "psu-015",
+    "sku": "psu-015",
+    "name": "Дип Кул POWER PN1000 D",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "PN1000D"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "PN1000D",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "psu-016",
+    "sku": "psu-016",
+    "name": "Дип Кул POWER PF750",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "PF750"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "PF750",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "psu-017",
+    "sku": "psu-017",
+    "name": "Дип Кул POWER PF600X",
+    "category": "Блоки питания",
+    "categoryName": "Блоки питания",
+    "categoryUrl": "rgw_page_power_supplies.html",
+    "image": null,
+    "placeholder": "🔌",
+    "identifiers": {
+      "modelNumber": "PF600X"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "PF600X",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cooling-001",
+    "sku": "cooling-001",
+    "name": "Кулер Segotep cooler К6",
+    "brand": "Segotep",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "K6"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "K6",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Воздушное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-002",
+    "sku": "cooling-002",
+    "name": "Кулер Segotep water cooler 240S RGB",
+    "brand": "Segotep",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "240S RGB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "240S RGB",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "240 мм",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-003",
+    "sku": "cooling-003",
+    "name": "Кулер Segotep water cooler 360S RGB",
+    "brand": "Segotep",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "360S RGB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "360S RGB",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "360 мм",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-004",
+    "sku": "cooling-004",
+    "name": "Кулер INTELL 1700",
+    "brand": "INTELL",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "family": "INTELL 1700"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "INTELL 1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Воздушное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-005",
+    "sku": "cooling-005",
+    "name": "Кулер Segotep 120S Водиной 1 куллера",
+    "brand": "Segotep",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "120S"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "120S",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "120 мм",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-006",
+    "sku": "cooling-006",
+    "name": "Кулер 360 водянка",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "family": "360"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "360",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "360 мм",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-007",
+    "sku": "cooling-007",
+    "name": "Куллер Вал Валак",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "family": "Вал Валак"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "Вал Валак",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "cooling-008",
+    "sku": "cooling-008",
+    "name": "Кулер С20 1700",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "C20 1700"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "C20 1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Воздушное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-009",
+    "sku": "cooling-009",
+    "name": "Кулер 240 водянка китай",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "family": "240"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "240",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "240 мм",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-010",
+    "sku": "cooling-010",
+    "name": "Кулер INTELL 775",
+    "brand": "INTELL",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "family": "INTELL 775"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "INTELL 775",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Воздушное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-011",
+    "sku": "cooling-011",
+    "name": "Дип Кул LIQUID COOLER LQ240",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "LQ240"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "LQ240",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-012",
+    "sku": "cooling-012",
+    "name": "Дип Кул LIQUID COOLER LT 360 ARGB",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "LT360 ARGB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "LT360 ARGB",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "360 мм",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-013",
+    "sku": "cooling-013",
+    "name": "Дип Кул LIQUID COOLER LM360",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "LM360"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "LM360",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-014",
+    "sku": "cooling-014",
+    "name": "Дип Кул LIQUID COOLER LE 360 PRO",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "LE360 PRO"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "LE360 PRO",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "360 мм",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-015",
+    "sku": "cooling-015",
+    "name": "Дип Кул MYSTIQUE 240 ARGB",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "MYSTIQUE 240 ARGB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "MYSTIQUE 240 ARGB",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "240 мм",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-016",
+    "sku": "cooling-016",
+    "name": "Дип Кул N200 Notebook Cooler",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "N200"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "N200",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Охлаждение ноутбука",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-017",
+    "sku": "cooling-017",
+    "name": "Дип Кул U PAL Notebook Cooler",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "U PAL"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "U PAL",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Охлаждение ноутбука",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-018",
+    "sku": "cooling-018",
+    "name": "Дип Кул AIR COOLER CK-11508",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "CK-11508"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "CK-11508",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Воздушное",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-019",
+    "sku": "cooling-019",
+    "name": "Дип Кул LIQUID COOLER MYSTIQUE 240 ARGB",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "family": "MYSTIQUE 240 ARGB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "MYSTIQUE 240 ARGB",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Жидкостное",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "240 мм",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-020",
+    "sku": "cooling-020",
+    "name": "Дип Кул COOLER LQ 360 ULTRA ARGB",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "LQ360 ULTRA ARGB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "LQ360 ULTRA ARGB",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Размер радиатора",
+        "value": "360 мм",
+        "group": "Охлаждение"
+      },
+      {
+        "label": "Подсветка",
+        "value": "RGB",
+        "group": "Охлаждение"
+      }
+    ]
+  },
+  {
+    "id": "cooling-021",
+    "sku": "cooling-021",
+    "name": "Дип Кул MULTI CORE X6 Notebook Cooler",
+    "brand": "DeepCool",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "identifiers": {
+      "modelNumber": "MULTI CORE X6"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "MULTI CORE X6",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип охлаждения",
+        "value": "Охлаждение ноутбука",
+        "group": "Охлаждение"
+      }
+    ]
   }
 ]

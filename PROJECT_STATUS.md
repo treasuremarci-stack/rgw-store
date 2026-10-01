@@ -109,11 +109,18 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Extended the shared renderer with category-aware copy, conservative component facts and lightweight SVG placeholders.
 - Kept ambiguous motherboard/RAM/HDD variants conservative: no guessed part numbers or external image/price data were added.
 
+## Completed in the cases, power-supply and cooling product-page stage
+
+- Connected 17 case, 17 power-supply and 21 cooling cards to the shared `product.html?id=PRODUCT_ID` flow: 55 new records with stable `cases-XXX`, `psu-XXX` and `cooling-XXX` identifiers.
+- Preserved filters, sorting, card data attributes, existing images, prices and assortment; added only image/title links on the three category pages.
+- Extended the shared renderer with category-aware copy, conservative component facts and lightweight SVG placeholders.
+- Kept generic/OEM entries conservative and did not invent missing model numbers or external image/price data.
+
 ## Next proposed stage
 
-**Phase 5A — cases, power supplies and cooling product pages.**
+**Phase 5A — monitors, keyboards and mice product pages.**
 
-The next approved batch should connect the current «Корпуса», «Блоки питания» and «Охлаждение» cards to the same universal product-page flow, preserving their current catalog data and visual behavior.
+The next approved batch should connect the current «Мониторы», «Клавиатуры» and «Мыши» cards to the same universal product-page flow, preserving their current catalog data and visual behavior.
 
 ## User approval gate
 

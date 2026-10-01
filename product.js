@@ -45,7 +45,9 @@
   }
 
   function renderMainSpecs(product) {
-    $("#mainSpecs").innerHTML = mainSpecs(product).map((item) =>
+    const mainSpecsNode = $("#mainSpecs");
+    if (!mainSpecsNode) return;
+    mainSpecsNode.innerHTML = mainSpecs(product).map((item) =>
       '<div class="main-spec-row"><dt>' + escapeHtml(item.label) + "</dt><dd>" +
       escapeHtml(item.value) + "</dd></div>"
     ).join("");
@@ -63,7 +65,9 @@
       ...order.filter(group => groups.has(group)),
       ...[...groups.keys()].filter(group => !order.includes(group))
     ];
-    $("#specGroups").innerHTML = orderedGroups.map((group) =>
+    const specGroupsNode = $("#specGroups");
+    if (!specGroupsNode) return;
+    specGroupsNode.innerHTML = orderedGroups.map((group) =>
       '<section class="spec-group"><h3>' + escapeHtml(group) + '</h3><dl class="full-spec-list">' +
       groups.get(group).map((item) =>
         '<div class="full-spec-row"><dt>' + escapeHtml(item.label) + "</dt><dd>" +
@@ -86,20 +90,24 @@
 
   function render(product) {
     document.title = product.name + " — АКС";
-    $("#productBreadcrumb").textContent = product.name;
-    $("#productBrand").textContent = product.brand;
-    $("#productBrandMark").textContent = product.brand;
-    $("#productName").textContent = product.name;
+    const setText = (selector, value) => {
+      const node = $(selector);
+      if (node) node.textContent = value;
+    };
+    setText("#productBreadcrumb", product.name);
+    setText("#productBrand", product.brand);
+    setText("#productBrandMark", product.brand);
+    setText("#productName", product.name);
 
     const identifiers = product.identifiers || {};
     const modelParts = [identifiers.modelNumber, identifiers.machineType, identifiers.partNumber, identifiers.family].filter(Boolean);
-    $("#productSku").textContent = "Код товара: " + product.sku +
-      (modelParts.length ? " · Модель/платформа: " + modelParts.join(" · ") : "");
+    setText("#productSku", "Код товара: " + product.sku +
+      (modelParts.length ? " · Модель/платформа: " + modelParts.join(" · ") : ""));
 
     const visual = $("#productVisual");
-    if (product.image) {
+    if (visual && product.image) {
       visual.innerHTML = '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '">';
-    } else {
+    } else if (visual) {
       visual.innerHTML = '<div class="product-placeholder"><div class="product-placeholder-icon" aria-hidden="true">' +
         laptopSvg + '</div><div class="product-placeholder-caption">Изображение товара</div></div>';
     }
@@ -107,8 +115,10 @@
     renderMainSpecs(product);
     renderFullSpecs(product);
 
-    $("#productStatus").hidden = true;
-    $("#productContent").hidden = false;
+    const productStatus = $("#productStatus");
+    const productContent = $("#productContent");
+    if (productStatus) productStatus.hidden = true;
+    if (productContent) productContent.hidden = false;
   }
 
   function initInteractions() {
@@ -160,7 +170,7 @@
       }
     } catch (error) {
       console.error(error);
-      setError("Не удалось загрузить карточку товара. Повторите попытку позже.");
+      setError("Не удалось загрузить карточку товара: " + (error && error.message ? error.message : String(error)));
     }
   }
 

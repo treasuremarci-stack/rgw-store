@@ -120,6 +120,7 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 
 - Removed the unused «В избранное», «Сравнить» and «Поделиться» controls from `product.html`; their unused CSS was removed as well.
 - Added one centralized laptop-only user-value normalizer in `product.js` for ordinary color/appearance values. It translates `Pure Silver`, `Cool Silver`, `Silver` to «Серебристый», `Black`, `Midnight Black`, `Carbo Black`, `Mixed Black` to «Чёрный», `White` to «Белый», `Gray`/`Grey`/`Luna Grey` to «Серый», `Blue` to «Синий» and `Gold` to «Золотистый».
+- Extended that normalizer for the `Экран` characteristic: `TN`, `ComfyView` and `без сенсора` are removed from the displayed value, while `Touchscreen`, `Touch screen` and `Touch` become «Сенсорный экран» and an empty characteristic is omitted.
 - Preserved product names, model numbers, brands, CPU/GPU standards, technical interfaces, prices, images, IDs and the `product.html?id=PRODUCT_ID` architecture.
 
 ### Laptop product-page verification
@@ -128,6 +129,7 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Confirmed each ID resolves to one product record and each laptop retains its existing category and SKU.
 - Confirmed the three action labels are absent from the product template and no dedicated action handlers remain in `product.js`.
 - Confirmed the normalization is applied during shared specification rendering, so both main and full specs use the same display value without changing stored product data.
+- Checked all 12 laptop screen values: the non-touch terms are removed, while the Dell touch-screen value remains visible as «сенсорный»; no empty screen rows or dangling comma separators are rendered.
 - Confirmed `products.json` remains valid and no product records outside the display normalization path were edited.
 
 ## Next proposed stage

@@ -43,20 +43,46 @@
     [/\bGold\b/gi, "Золотистый"]
   ];
 
+  const laptopScreenTermsToHide = new Set(["tn", "comfyview", "без сенсора"]);
+  const laptopScreenValueTranslations = [
+    [/\bTouchscreen\b/gi, "Сенсорный экран"],
+    [/\bTouch\s+screen\b/gi, "Сенсорный экран"],
+    [/\bTouch\b/gi, "Сенсорный экран"]
+  ];
+
+  function normalizeLaptopScreenValue(value) {
+    const translated = laptopScreenValueTranslations.reduce(
+      (result, [pattern, replacement]) => result.replace(pattern, replacement),
+      value
+    );
+    return translated
+      .split(",")
+      .map((part) => part.trim())
+      .filter((part) => !laptopScreenTermsToHide.has(part.toLowerCase()))
+      .join(", ");
+  }
+
   function normalizeLaptopUserValue(product, item) {
     const category = product.categoryName || product.category || "";
     if (category !== "Ноутбуки" || !item || typeof item.value !== "string") return item;
 
-    const label = String(item.label || "").toLowerCase();
+    const label = String(item.label || "").trim().toLowerCase();
+    const isScreen = label === "экран";
     const userFacingCharacteristic = /цвет|покрыти|материал|особенност|клавиатур|раскладк|состояни|тип/.test(label);
-    if (!userFacingCharacteristic) return item;
+    if (!userFacingCharacteristic && !isScreen) return item;
+
+    let value = item.value;
+    if (isScreen) value = normalizeLaptopScreenValue(value);
+    if (userFacingCharacteristic) {
+      value = laptopUserValueTranslations.reduce(
+        (result, [pattern, replacement]) => result.replace(pattern, replacement),
+        value
+      );
+    }
 
     return {
       ...item,
-      value: laptopUserValueTranslations.reduce(
-        (value, [pattern, replacement]) => value.replace(pattern, replacement),
-        item.value
-      )
+      value
     };
   }
 
@@ -66,6 +92,7 @@
     [...(product.verifiedSpecs || []), ...(product.catalogFacts || [])].forEach((item) => {
       if (!item || !item.label) return;
       const displayItem = normalizeLaptopUserValue(product, item);
+      if (!String(displayItem.value ?? "").trim()) return;
       const key = item.label.trim().toLowerCase();
       if (labels.has(key)) return;
       labels.add(key);

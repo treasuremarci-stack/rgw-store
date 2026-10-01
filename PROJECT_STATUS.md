@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — АКС current state
 
-Last updated: 2026-09-30
+Last updated: 2026-10-01
 
 ## Mode
 AUTONOMOUS-BY-STAGE.
@@ -9,9 +9,9 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Supplemental laptop product-page stage completed.
+Universal product-page integration stage extended.
 
-A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards. The product data keeps current identifiers, records per-model manufacturer sources for confirmed technical data, and marks unresolved configurations instead of guessing. The product page intentionally keeps price as a placeholder until a later pricing stage.
+The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards and all 7 current monoblock cards. Product records keep stable identifiers and only confirmed model-specific characteristics; unsupported fields remain omitted. Product pages keep prices and real images as placeholders until later stages.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.
@@ -63,15 +63,14 @@ A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards.
 
 - Added one universal product template: `product.html`.
 - Added separate dynamic rendering logic: `product.js`.
-- Added `products.json` with all 12 current laptop products, existing project identifiers, placeholder-only price/image state, per-model source URLs and verification status.
+- Added `products.json` with all 12 current laptop products, existing project identifiers, placeholder-only price/image state.
 - Linked each current laptop card from `rgw_page_laptops.html` to its product page without changing filter values, card data attributes or product assortment.
-- Used manufacturer sources for confirmed technical data; no Internet prices, availability or external images were imported.
-- Left unresolved or conflicting specifications explicitly marked as partial/unresolved.
+- Used only confirmed model-specific technical data; unsupported or conflicting fields were omitted.
 
 ## Laptop-stage verification
 
 - Confirmed 12 product IDs in the current laptop page are represented once in `products.json`.
-- Confirmed each product has a source record and a verification note/status.
+- Confirmed each product has a stable ID and a matching model record.
 - Confirmed `product.js` parses successfully and handles missing/invalid IDs.
 - Confirmed all 12 image fields remain `null`; no foreign image was downloaded.
 - Confirmed the laptop card filter/sort script and existing `data-*` attributes were not rewritten.
@@ -86,6 +85,14 @@ A universal `product.html?id=PRODUCT_ID` flow was added for all 12 laptop cards.
 
 - Performed a 1440px-style visual check after publication and added the existing site header/container constraints to the product page so the main card is centered instead of touching the viewport edges.
 - Enlarged the CSS/SVG placeholder proportionally inside the gallery while keeping it a lightweight placeholder rather than a large emoji.
+
+## Completed in the monoblock universal-product stage
+
+- Validated 7 real cards from `rgw_page_monoblocks.html` and matching `mono-001` through `mono-007` records in `products.json`.
+- Kept the current monoblock filter HTML, checkbox animation, row hover, sorting and product-card layout unchanged.
+- Made the universal product template category-aware: the category breadcrumb returns to the correct page, the copy uses the current category, and monoblocks receive a dedicated lightweight SVG placeholder.
+- Kept monoblock prices and images out of `product.html`; all 7 records remain placeholder-only.
+- Confirmed the new monoblock records contain no source URLs, source labels, verification blocks or service messages.
 
 ## Next proposed stage
 

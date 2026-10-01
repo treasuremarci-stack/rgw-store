@@ -2,6 +2,7 @@
   const state = { products: [], byId: new Map() };
   const $ = (selector) => document.querySelector(selector);
   const laptopSvg = '<svg viewBox="0 0 120 82" role="img" aria-label="Иконка ноутбука" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="8" width="80" height="53" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M14 67h92l8 7H6l8-7Z" fill="#d7dce6" stroke="#657086" stroke-width="3" stroke-linejoin="round"/><path d="M33 22h54v28H33z" fill="#fff" opacity=".8"/><path d="M47 36h26" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
+  const monoSvg = '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка моноблока" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="7" width="84" height="55" rx="5" fill="#eef1f7" stroke="#657086" stroke-width="3"/><path d="M42 70h36l4 8H38l4-8Z" fill="#d7dce6" stroke="#657086" stroke-width="3" stroke-linejoin="round"/><path d="M31 22h58v28H31z" fill="#fff" opacity=".82"/><circle cx="60" cy="15" r="2" fill="#657086"/><path d="M48 36h24" stroke="#635bff" stroke-width="3" stroke-linecap="round"/></svg>';
 
   function escapeHtml(value) {
     return String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -88,16 +89,37 @@
     });
   }
 
+  function categoryCopy(product) {
+    const category = product.categoryName || product.category || "";
+    if (category === "Моноблоки") {
+      return {label:"Моноблоки", noun:"моноблок", genitive:"моноблока"};
+    }
+    if (category === "Ноутбуки") {
+      return {label:"Ноутбуки", noun:"ноутбук", genitive:"ноутбука"};
+    }
+    return {label:category || "Каталог", noun:"товар", genitive:"товара"};
+  }
+
   function render(product) {
     document.title = product.name + " — АКС";
     const setText = (selector, value) => {
       const node = $(selector);
       if (node) node.textContent = value;
     };
+    const copy = categoryCopy(product);
     setText("#productBreadcrumb", product.name);
     setText("#productBrand", product.brand);
     setText("#productBrandMark", product.brand);
     setText("#productName", product.name);
+    const categoryLink = $("#productCategoryLink");
+    if (categoryLink) {
+      categoryLink.textContent = copy.label;
+      categoryLink.href = product.categoryUrl || (copy.label === "Моноблоки" ? "rgw_page_monoblocks.html" : "rgw_page_laptops.html");
+    }
+    const buildDescription = $("#productBuildDescription");
+    if (buildDescription) buildDescription.textContent = "Сохраните " + copy.noun + " для будущего подбора комплектующих и сравнения конфигураций.";
+    const descriptionText = $("#productDescriptionText");
+    if (descriptionText) descriptionText.textContent = "Карточка показывает характеристики конкретной конфигурации " + copy.genitive + ". Параметры без надёжного подтверждения намеренно не добавляются.";
 
     const identifiers = product.identifiers || {};
     const modelParts = [identifiers.modelNumber, identifiers.machineType, identifiers.partNumber, identifiers.family].filter(Boolean);
@@ -108,8 +130,9 @@
     if (visual && product.image) {
       visual.innerHTML = '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '">';
     } else if (visual) {
+      const placeholderSvg = copy.label === "Моноблоки" ? monoSvg : laptopSvg;
       visual.innerHTML = '<div class="product-placeholder"><div class="product-placeholder-icon" aria-hidden="true">' +
-        laptopSvg + '</div><div class="product-placeholder-caption">Изображение товара</div></div>';
+        placeholderSvg + '</div><div class="product-placeholder-caption">Изображение товара</div></div>';
     }
 
     renderMainSpecs(product);
@@ -149,7 +172,7 @@
   async function init() {
     const id = new URLSearchParams(window.location.search).get("id");
     if (!id) {
-      setError("Товар не найден. Откройте карточку из каталога ноутбуков.");
+      setError("Товар не найден. Откройте карточку из каталога.");
       return;
     }
     try {

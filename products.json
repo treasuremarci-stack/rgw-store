@@ -813,7 +813,7 @@
       },
       {
         "label": "Процессор и графика",
-        "value": "Семейство поддерживает Core Ultra 9 275HX и RTX 5070 8 ГБ; конфигурация позиции подтверждена price.csv",
+        "value": "Семейство поддерживает Core Ultra 9 275HX и RTX 5070 8 ГБ",
         "group": "Процессор"
       }
     ],
@@ -879,7 +879,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "HP-200-G4-AIO"
     },
@@ -920,7 +920,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "HP-290-AIO"
     },
@@ -951,7 +951,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "HP-27-CR0008L"
     },
@@ -987,7 +987,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "LENOVO-27IRH9-I7"
     },
@@ -1028,7 +1028,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "LENOVO-27IRH9-I5"
     },
@@ -1069,7 +1069,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "MSI-AP272P-AIO"
     },
@@ -1110,7 +1110,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": "",
+    "image": null,
     "identifiers": {
       "modelNumber": "HP-27-CR0156NH"
     },

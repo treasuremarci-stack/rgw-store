@@ -870,5 +870,272 @@
     "identifiers": {
       "family": "IdeaPad Slim 3 (точная платформа не подтверждена)"
     }
+  },
+  {
+    "id": "mono-001",
+    "sku": "HP-200-G4-AIO",
+    "name": "Моноблок HP 200 G4 AIO",
+    "brand": "HP",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "HP-200-G4-AIO"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i3",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "4 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Экран",
+        "value": "21.5\"",
+        "group": "Экран"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS",
+        "group": "Общие параметры"
+      }
+    ],
+    "verifiedSpecs": []
+  },
+  {
+    "id": "mono-002",
+    "sku": "HP-290-AIO",
+    "name": "Моноблок HP 290",
+    "brand": "HP",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "HP-290-AIO"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ SSD",
+        "group": "Накопители"
+      }
+    ],
+    "verifiedSpecs": []
+  },
+  {
+    "id": "mono-003",
+    "sku": "HP-27-CR0008L",
+    "name": "Моноблок HP AIO 27-CR0008L",
+    "brand": "HP",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "HP-27-CR0008L"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Экран",
+        "value": "27\"",
+        "group": "Экран"
+      }
+    ],
+    "verifiedSpecs": []
+  },
+  {
+    "id": "mono-004",
+    "sku": "LENOVO-27IRH9-I7",
+    "name": "Моноблок Lenovo IdeaCentre 27IRH9",
+    "brand": "Lenovo",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "LENOVO-27IRH9-I7"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Экран",
+        "value": "27\"",
+        "group": "Экран"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS",
+        "group": "Общие параметры"
+      }
+    ],
+    "verifiedSpecs": []
+  },
+  {
+    "id": "mono-005",
+    "sku": "LENOVO-27IRH9-I5",
+    "name": "Моноблок Lenovo IdeaCentre 27IRH9",
+    "brand": "Lenovo",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "LENOVO-27IRH9-I5"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Экран",
+        "value": "27\"",
+        "group": "Экран"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS",
+        "group": "Общие параметры"
+      }
+    ],
+    "verifiedSpecs": []
+  },
+  {
+    "id": "mono-006",
+    "sku": "MSI-AP272P-AIO",
+    "name": "Моноблок MSI Pro AP272P AIO 27",
+    "brand": "MSI",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "MSI-AP272P-AIO"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i5",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Экран",
+        "value": "27\"",
+        "group": "Экран"
+      },
+      {
+        "label": "ОС",
+        "value": "DOS",
+        "group": "Общие параметры"
+      }
+    ],
+    "verifiedSpecs": []
+  },
+  {
+    "id": "mono-007",
+    "sku": "HP-27-CR0156NH",
+    "name": "Моноблок HP AIO 27-CR0156NH",
+    "brand": "HP",
+    "category": "Моноблоки",
+    "categoryName": "Моноблоки",
+    "categoryUrl": "rgw_page_monoblocks.html",
+    "image": "",
+    "identifiers": {
+      "modelNumber": "HP-27-CR0156NH"
+    },
+    "catalogFacts": [
+      {
+        "label": "Процессор",
+        "value": "Intel Core i7",
+        "group": "Процессор"
+      },
+      {
+        "label": "Оперативная память",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Накопитель",
+        "value": "512 ГБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Экран",
+        "value": "27\"",
+        "group": "Экран"
+      }
+    ],
+    "verifiedSpecs": []
   }
 ]

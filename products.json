@@ -3249,5 +3249,1187 @@
         "group": "Накопители"
       }
     ]
+  },
+  {
+    "id": "mb-001",
+    "sku": "mb-001",
+    "name": "Материнка Asus B760 M-F",
+    "brand": "ASUS",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "PRIME B760M-F"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "ASUS PRIME B760M-F",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel B760",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-002",
+    "sku": "mb-002",
+    "name": "Материнка ASUS Z790-P",
+    "brand": "ASUS",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "PRIME Z790-P"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "ASUS PRIME Z790-P",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel Z790",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-003",
+    "sku": "mb-003",
+    "name": "Материнка Gigabyte B760 М E",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "B760M E"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE B760M E",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel B760",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-004",
+    "sku": "mb-004",
+    "name": "Материнка Gigabyte B760 М Н DDR4",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "B760M H DDR4"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE B760M H DDR4",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel B760",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-005",
+    "sku": "mb-005",
+    "name": "Материнка Gigabyte H610 DDR4",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [
+      {
+        "label": "Чипсет",
+        "value": "Intel H610",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "mb-006",
+    "sku": "mb-006",
+    "name": "Материнка Gigabyte Z890M AORUS ELITE WIFI7 ICE",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "Z890M AORUS ELITE WIFI7 ICE"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE Z890M AORUS ELITE WIFI7 ICE",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel Z890",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Беспроводная сеть",
+        "value": "Wi-Fi 7",
+        "group": "Интерфейсы"
+      }
+    ]
+  },
+  {
+    "id": "mb-007",
+    "sku": "mb-007",
+    "name": "Материнка Китай H61 Esonik",
+    "brand": "Esonik",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [
+      {
+        "label": "Чипсет",
+        "value": "Intel H61",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1155",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-008",
+    "sku": "mb-008",
+    "name": "Материнка Китай H610 Esonik",
+    "brand": "Esonik",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [
+      {
+        "label": "Чипсет",
+        "value": "Intel H610",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-009",
+    "sku": "mb-009",
+    "name": "Материнка Китай H81 Esonik",
+    "brand": "Esonik",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [
+      {
+        "label": "Чипсет",
+        "value": "Intel H81",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1150",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-010",
+    "sku": "mb-010",
+    "name": "Материнка Gigabyte B760 М K DDR 4",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "B760M K DDR4"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE B760M K DDR4",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel B760",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-011",
+    "sku": "mb-011",
+    "name": "Материнка Asus H610 M G D4",
+    "brand": "ASUS",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "PRIME H610M-G D4"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "ASUS PRIME H610M-G D4",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel H610",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-012",
+    "sku": "mb-012",
+    "name": "Материнка Gigabyte B760 D5",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [
+      {
+        "label": "Чипсет",
+        "value": "Intel B760",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "mb-013",
+    "sku": "mb-013",
+    "name": "Материнка Gigabyte Н 810 M-K DDR5",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "H810M K"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE H810M K",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel H810",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-014",
+    "sku": "mb-014",
+    "name": "Материнка Аsus Prime B 860 M-Bro DDR5",
+    "brand": "ASUS",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "PRIME B860M-BRO"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "ASUS PRIME B860M-BRO",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel B860",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "Micro-ATX",
+        "group": "Общие параметры"
+      }
+    ]
+  },
+  {
+    "id": "mb-015",
+    "sku": "mb-015",
+    "name": "Материнка Gigabyte Z790 D DDR5",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "Z790 D"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE Z790 D",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel Z790",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1700",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "mb-016",
+    "sku": "mb-016",
+    "name": "Материнка Gigabyte Z890 UD",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "identifiers": {
+      "modelNumber": "Z890 UD"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "GIGABYTE Z890 UD",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Чипсет",
+        "value": "Intel Z890",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Сокет",
+        "value": "LGA1851",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Память"
+      }
+    ]
+  },
+  {
+    "id": "ram-001",
+    "sku": "ram-001",
+    "name": "Оперативка Lexar DDR4 3200 16 Gb Радиатор",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "3200 МГц",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-002",
+    "sku": "ram-002",
+    "name": "Оперативка Lexar DDR4 3200 16 Gb Ноутбук",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "3200 МГц",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "SO-DIMM",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-003",
+    "sku": "ram-003",
+    "name": "Оперативка Lexar DDR4 3200 8 Gb Ноутбук",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "3200 МГц",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "SO-DIMM",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-004",
+    "sku": "ram-004",
+    "name": "Оперативка Китай DDR3 8 Gb",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR3",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-005",
+    "sku": "ram-005",
+    "name": "Оперативка Kingston FURY Beast 32 ГБ DDR5 5200",
+    "brand": "Kingston",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "identifiers": {
+      "modelNumber": "KF552C40BB-32"
+    },
+    "catalogFacts": [
+      {
+        "label": "Модель",
+        "value": "Kingston FURY Beast KF552C40BB-32",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "32 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "5200 МГц",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "UDIMM",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Задержка",
+        "value": "CL40",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-006",
+    "sku": "ram-006",
+    "name": "Оперативка Lexar DDR4 3200 16 Gb",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "3200 МГц",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-007",
+    "sku": "ram-007",
+    "name": "Оперативка Китай DDR3 4 Gb",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR3",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "4 ГБ",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-008",
+    "sku": "ram-008",
+    "name": "Оперативка Lexar Thor DDR5 6000 8 Gb",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "Lexar THOR",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "6000 МГц",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-009",
+    "sku": "ram-009",
+    "name": "Оперативка Kingston 16 ГБ DDR4 3200",
+    "brand": "Kingston",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "3200 МГц",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-010",
+    "sku": "ram-010",
+    "name": "Оперативка Kingston 8 ГБ DDR4 2666",
+    "brand": "Kingston",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Тип памяти",
+        "value": "DDR4",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "8 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "2666 МГц",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "ram-011",
+    "sku": "ram-011",
+    "name": "Оперативка Kingston FURY Beast 16 ГБ DDR5 5200",
+    "brand": "Kingston",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "Kingston FURY Beast",
+        "group": "Общие параметры"
+      },
+      {
+        "label": "Тип памяти",
+        "value": "DDR5",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Объём",
+        "value": "16 ГБ",
+        "group": "Оперативная память"
+      },
+      {
+        "label": "Частота",
+        "value": "5200 МГц",
+        "group": "Оперативная память"
+      }
+    ]
+  },
+  {
+    "id": "hdd-001",
+    "sku": "hdd-001",
+    "name": "HDD WD Purple 1 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 1 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "1 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-002",
+    "sku": "hdd-002",
+    "name": "HDD WD Purple 10 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 10 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "10 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-003",
+    "sku": "hdd-003",
+    "name": "HDD WD Purple 14 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 14 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "14 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-004",
+    "sku": "hdd-004",
+    "name": "HDD WD Purple 2 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 2 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "2 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-005",
+    "sku": "hdd-005",
+    "name": "HDD WD Purple 8 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 8 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "8 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-006",
+    "sku": "hdd-006",
+    "name": "HDD WD Purple 4 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 4 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "4 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-007",
+    "sku": "hdd-007",
+    "name": "HDD WD Purple 6 TB New",
+    "brand": "WD",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "WD Purple 6 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Серия",
+        "value": "WD Purple",
+        "group": "Накопители"
+      },
+      {
+        "label": "Ёмкость",
+        "value": "6 TB",
+        "group": "Накопители"
+      },
+      {
+        "label": "Интерфейс",
+        "value": "SATA",
+        "group": "Интерфейсы"
+      },
+      {
+        "label": "Назначение",
+        "value": "Видеонаблюдение",
+        "group": "Дополнительно"
+      }
+    ]
+  },
+  {
+    "id": "hdd-008",
+    "sku": "hdd-008",
+    "name": "HDD 1TB 2,5 Ноутбучный",
+    "category": "HDD",
+    "categoryName": "HDD",
+    "categoryUrl": "rgw_page_hdd.html",
+    "image": null,
+    "placeholder": "💿",
+    "identifiers": {
+      "family": "2.5\" 1 TB"
+    },
+    "catalogFacts": [
+      {
+        "label": "Ёмкость",
+        "value": "1 ТБ",
+        "group": "Накопители"
+      },
+      {
+        "label": "Форм-фактор",
+        "value": "2.5\"",
+        "group": "Накопители"
+      }
+    ]
   }
 ]

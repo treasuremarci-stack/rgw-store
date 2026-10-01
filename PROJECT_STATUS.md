@@ -102,11 +102,18 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Extended the shared renderer with component-aware breadcrumbs, SVG placeholders and compact main specifications while keeping the laptop and monoblock paths intact.
 - Added only model-level facts tied to the exact catalog configuration; ambiguous component variants keep their catalog facts without guessed details.
 
+## Completed in the motherboard, memory and HDD product-page stage
+
+- Connected 16 motherboard, 11 RAM and 8 HDD catalog cards to the shared `product.html?id=PRODUCT_ID` flow: 35 new records with stable `mb-XXX`, `ram-XXX` and `hdd-XXX` identifiers.
+- Preserved filters, sorting, card data attributes, existing images, prices and assortment; added only image/title links on the three category pages.
+- Extended the shared renderer with category-aware copy, conservative component facts and lightweight SVG placeholders.
+- Kept ambiguous motherboard/RAM/HDD variants conservative: no guessed part numbers or external image/price data were added.
+
 ## Next proposed stage
 
-**Phase 5A — catalog and navigation integrity inventory.**
+**Phase 5A — cases, power supplies and cooling product pages.**
 
-The next stage will inspect the existing global catalog implementation, category links and header/catalog duplication across the current pages without changing product data, prices or JavaScript.
+The next approved batch should connect the current «Корпуса», «Блоки питания» and «Охлаждение» cards to the same universal product-page flow, preserving their current catalog data and visual behavior.
 
 ## User approval gate
 

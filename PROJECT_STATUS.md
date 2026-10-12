@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — АКС current state
 
-Last updated: 2026-10-01
+Last updated: 2026-10-12
 
 ## Mode
 AUTONOMOUS-BY-STAGE.
@@ -132,11 +132,16 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Checked all 12 laptop screen values: the non-touch terms are removed, while the Dell touch-screen value remains visible as «сенсорный»; no empty screen rows or dangling comma separators are rendered.
 - Confirmed `products.json` remains valid and no product records outside the display normalization path were edited.
 
+## Completed in monitor product-page stage (2026-10-12)
+
+- Linked 26 monitor cards to `product.html?id=PRODUCT_ID` via their image and title.
+- Added 26 monitor records to `products.json`, preserving existing IDs, catalog titles and available brand/diagonal data.
+- Prices and images remain placeholders; no filtering, sorting or price data was changed.
+- Checked unique IDs, card link count and valid JSON before commit.
+
 ## Next proposed stage
 
-**Phase 5A — monitors, keyboards and mice product pages.**
-
-The next approved batch should connect the current «Мониторы», «Клавиатуры» and «Мыши» cards to the same universal product-page flow, preserving their current catalog data and visual behavior.
+Connect keyboards and mice to the universal product page using the same safe pattern.
 
 ## User approval gate
 

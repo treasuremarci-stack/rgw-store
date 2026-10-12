@@ -234,6 +234,11 @@
     return '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка ' + escapeHtml(copy.label) + '" xmlns="http://www.w3.org/2000/svg"><text x="60" y="59" text-anchor="middle" font-size="48">' + escapeHtml(glyph) + '</text></svg>';
   }
 
+  function getProductImages(product) {
+    const candidates = Array.isArray(product.images) ? product.images : (product.image ? [product.image] : []);
+    return [...new Set(candidates.filter((value) => typeof value === "string" && value.trim()))];
+  }
+
   function placeholderFor(product, copy) {
     if (copy.label === "Моноблоки") return monoSvg;
     if (copy.label === "Ноутбуки") return laptopSvg;
@@ -275,9 +280,23 @@
     setText("#productSku", "Код товара: " + product.sku +
       (modelParts.length ? " · Модель/платформа: " + modelParts.join(" · ") : ""));
 
+    const images = getProductImages(product);
     const visual = $("#productVisual");
-    if (visual && product.image) {
-      visual.innerHTML = '<img src="' + escapeHtml(product.image) + '" alt="' + escapeHtml(product.name) + '">';
+    const gallery = document.querySelector(".product-gallery");
+    const thumbnails = $("#productThumbnails");
+    if (gallery) gallery.classList.toggle("no-thumbnails", images.length === 0);
+    if (thumbnails) {
+      thumbnails.innerHTML = images.map((src, index) =>
+        '<button class="product-thumb' + (index === 0 ? ' active' : '') + '" type="button" data-image-src="' +
+        escapeHtml(src) + '" aria-label="Показать фото ' + (index + 1) + '">' +
+        '<img src="' + escapeHtml(src) + '" alt="" loading="lazy" decoding="async">' +
+        '</button>'
+      ).join("");
+      thumbnails.hidden = images.length === 0;
+    }
+    if (visual && images.length) {
+      visual.innerHTML = '<img data-gallery-main src="' + escapeHtml(images[0]) + '" alt="' +
+        escapeHtml(product.name) + '" loading="eager" decoding="async">';
     } else if (visual) {
       const placeholderSvg = placeholderFor(product, copy);
       visual.innerHTML = '<div class="product-placeholder"><div class="product-placeholder-icon" aria-hidden="true">' +
@@ -310,8 +329,11 @@
       button.setAttribute("aria-pressed", String(!added));
       button.textContent = added ? "Добавить" : "Добавлено";
     });
-    document.querySelectorAll(".product-thumb").forEach((thumb) => {
+    document.querySelectorAll(".product-thumb[data-image-src]").forEach((thumb) => {
       thumb.addEventListener("click", () => {
+        const mainImage = document.querySelector("#productVisual img[data-gallery-main]");
+        const imageSrc = thumb.getAttribute("data-image-src");
+        if (mainImage && imageSrc) mainImage.src = imageSrc;
         document.querySelectorAll(".product-thumb").forEach((item) => item.classList.remove("active"));
         thumb.classList.add("active");
       });

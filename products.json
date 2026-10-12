@@ -5848,5 +5848,455 @@
         "group": "Охлаждение"
       }
     ]
+  },
+  {
+    "id": "monitors-1",
+    "sku": "monitors-1",
+    "name": "Монитор 34 AOC CU34G10X curved",
+    "brand": "AOC",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "34 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-2",
+    "sku": "monitors-2",
+    "name": "Монитор 27 ASUS TUF GAMING",
+    "brand": "ASUS",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-3",
+    "sku": "monitors-3",
+    "name": "Монитор 19 DAHUA DHI-LM19-A200 FHD FHD",
+    "brand": "DAHUA",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "19 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-4",
+    "sku": "monitors-4",
+    "name": "Монитор 24 HP S5 524SW FHD",
+    "brand": "HP",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-5",
+    "sku": "monitors-5",
+    "name": "Монитор 24 HP V24v G5 FHD Display",
+    "brand": "HP",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-6",
+    "sku": "monitors-6",
+    "name": "Монитор 22 M22F",
+    "brand": "",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "22 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-7",
+    "sku": "monitors-7",
+    "name": "Монитор 27 Philips 27E2N1100 IPS 120HZ",
+    "brand": "PHILIPS",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-8",
+    "sku": "monitors-8",
+    "name": "Монитор 34 Philips 34B2U3600C-93 curved",
+    "brand": "PHILIPS",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "34 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-9",
+    "sku": "monitors-9",
+    "name": "Монитор 24 SHARP LC-24LE155M",
+    "brand": "",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-10",
+    "sku": "monitors-10",
+    "name": "Монитор 24 Philips 24E2N1100 IPS 120HZ",
+    "brand": "PHILIPS",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-11",
+    "sku": "monitors-11",
+    "name": "Монитор HP MONITOR P34HC G4 WQHD USB-C",
+    "brand": "HP",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": []
+  },
+  {
+    "id": "monitors-12",
+    "sku": "monitors-12",
+    "name": "Монитор LENOVO Legion R27fc-30",
+    "brand": "LENOVO",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": []
+  },
+  {
+    "id": "monitors-13",
+    "sku": "monitors-13",
+    "name": "Монитор LENOVO Legion R27Qc-30",
+    "brand": "LENOVO",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": []
+  },
+  {
+    "id": "monitors-14",
+    "sku": "monitors-14",
+    "name": "Монитор 24 RedMi 1A 23.8 P24FBB-RA 1080P 100Hz",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-15",
+    "sku": "monitors-15",
+    "name": "Монитор 27 RedMi 27 X27A 1080p 120Hz",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-16",
+    "sku": "monitors-16",
+    "name": "Монитор 34 RedMi G34WQ 2026",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "34 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-17",
+    "sku": "monitors-17",
+    "name": "Монитор 27 RedMi G27U 2024",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-18",
+    "sku": "monitors-18",
+    "name": "Монитор 24 RedMi G25 1080p 200Hz 1ms FastIPS HDR400",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-19",
+    "sku": "monitors-19",
+    "name": "Монитор 27 RedMi G27Q 320HZ",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-20",
+    "sku": "monitors-20",
+    "name": "Монитор 27 RedMi G27Q 240Hz 2026",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-21",
+    "sku": "monitors-21",
+    "name": "Монитор 27 RedMi G pro 27U 2025miniled 4k 160Hz",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-22",
+    "sku": "monitors-22",
+    "name": "Монитор 27 RedMi mini-led G PRO 27Q",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-23",
+    "sku": "monitors-23",
+    "name": "Монитор 24 RedMi G24Q 2026",
+    "brand": "REDMI",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-24",
+    "sku": "monitors-24",
+    "name": "Монитор 24 DELL E2423H-60.5CM-23.8 - 3YR",
+    "brand": "DELL",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-25",
+    "sku": "monitors-25",
+    "name": "Монитор 27 HKC",
+    "brand": "",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "27 дюймов",
+        "group": "Экран"
+      }
+    ]
+  },
+  {
+    "id": "monitors-26",
+    "sku": "monitors-26",
+    "name": "Монитор 24 PHILIPS 242M8",
+    "brand": "PHILIPS",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [
+      {
+        "label": "Диагональ",
+        "value": "24 дюймов",
+        "group": "Экран"
+      }
+    ]
   }
 ]

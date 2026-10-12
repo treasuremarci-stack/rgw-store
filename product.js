@@ -118,7 +118,9 @@
     };
     const tests = wantedByCategory[category] || [["процессор"],["оперативная память","память"],["накопител"],["экран"],["график"],["ос"]];
     const wanted = tests.map(labels => find(labels.map(label => value => value === label || value.includes(label)))).filter(Boolean);
-    return wanted.filter((item,index,array) => array.findIndex(candidate => candidate.label === item.label) === index);
+    const uniqueWanted = wanted.filter((item,index,array) => array.findIndex(candidate => candidate.label === item.label) === index);
+    if (uniqueWanted.length) return uniqueWanted;
+    return specs.filter(item => !["Бренд","Категория"].includes(String(item.label || "").trim())).slice(0, 6);
   }
 
   function renderMainSpecs(product) {
@@ -158,29 +160,71 @@
     document.querySelectorAll(".product-tab").forEach((button) => {
       const active = button.dataset.tab === name;
       button.classList.toggle("active", active);
-      button.setAttribute("aria-selected", String(active));
-    });
-    document.querySelectorAll("[data-panel]").forEach((panel) => {
-      panel.hidden = panel.dataset.panel !== name;
-    });
-  }
+      button.setAttribut  const categoryCopies = {
+    "Моноблоки":{label:"Моноблоки",noun:"моноблок",genitive:"моноблока",url:"rgw_page_monoblocks.html"},
+    "Ноутбуки":{label:"Ноутбуки",noun:"ноутбук",genitive:"ноутбука",url:"rgw_page_laptops.html"},
+    "Мониторы":{label:"Мониторы",noun:"монитор",genitive:"монитора",url:"rgw_page_monitors.html"},
+    "Видеокарты":{label:"Видеокарты",noun:"видеокарту",genitive:"видеокарты",url:"rgw_page_gpus.html"},
+    "Процессоры":{label:"Процессоры",noun:"процессор",genitive:"процессора",url:"rgw_page_processors.html"},
+    "SSD":{label:"SSD",noun:"накопитель SSD",genitive:"SSD",url:"rgw_page_ssd.html"},
+    "Материнские платы":{label:"Материнские платы",noun:"материнскую плату",genitive:"материнской платы",url:"rgw_page_motherboards.html"},
+    "Оперативная память":{label:"Оперативная память",noun:"оперативную память",genitive:"оперативной памяти",url:"rgw_page_ram.html"},
+    "HDD":{label:"HDD",noun:"жёсткий диск",genitive:"жёсткого диска",url:"rgw_page_hdd.html"},
+    "Корпуса":{label:"Корпуса",noun:"корпус",genitive:"корпуса",url:"rgw_page_cases.html"},
+    "Блоки питания":{label:"Блоки питания",noun:"блок питания",genitive:"блока питания",url:"rgw_page_power_supplies.html"},
+    "Охлаждение":{label:"Охлаждение",noun:"систему охлаждения",genitive:"системы охлаждения",url:"rgw_page_cooling.html"},
+    "Точки доступа":{label:"Точки доступа",noun:"точку доступа",genitive:"точки доступа",url:"rgw_page_access_points.html"},
+    "Переходники":{label:"Переходники",noun:"переходник",genitive:"переходника",url:"rgw_page_adapters.html"},
+    "Аналоговые камеры":{label:"Аналоговые камеры",noun:"аналоговую камеру",genitive:"аналоговой камеры",url:"rgw_page_analog_cameras.html"},
+    "Сумки и рюкзаки":{label:"Сумки и рюкзаки",noun:"сумку или рюкзак",genitive:"сумки или рюкзака",url:"rgw_page_bags.html"},
+    "Кабели":{label:"Кабели",noun:"кабель",genitive:"кабеля",url:"rgw_page_cables.html"},
+    "Картриджи":{label:"Картриджи",noun:"картридж",genitive:"картриджа",url:"rgw_page_cartridges.html"},
+    "Коннекторы и розетки":{label:"Коннекторы и розетки",noun:"коннектор или розетку",genitive:"коннектора или розетки",url:"rgw_page_connectors_outlets.html"},
+    "DVD-приводы":{label:"DVD-приводы",noun:"DVD-привод",genitive:"DVD-привода",url:"rgw_page_dvd_drives.html"},
+    "Внешние HDD/SSD":{label:"Внешние HDD/SSD",noun:"внешний накопитель",genitive:"внешнего накопителя",url:"rgw_page_external_storage.html"},
+    "Флешки":{label:"Флешки",noun:"флешку",genitive:"флешки",url:"rgw_page_flash_drives.html"},
+    "Наушники":{label:"Наушники",noun:"наушники",genitive:"наушников",url:"rgw_page_headphones.html"},
+    "Домофоны":{label:"Домофоны",noun:"домофон",genitive:"домофона",url:"rgw_page_intercoms.html"},
+    "Инверторы":{label:"Инверторы",noun:"инвертор",genitive:"инвертора",url:"rgw_page_inverters.html"},
+    "IP-камеры":{label:"IP-камеры",noun:"IP-камеру",genitive:"IP-камеры",url:"rgw_page_ip_cameras.html"},
+    "IP-телефония":{label:"IP-телефония",noun:"IP-телефон",genitive:"IP-телефонии",url:"rgw_page_ip_telephony.html"},
+    "Клавиатуры":{label:"Клавиатуры",noun:"клавиатуру",genitive:"клавиатуры",url:"rgw_page_keyboards.html"},
+    "Карты памяти":{label:"Карты памяти",noun:"карту памяти",genitive:"карты памяти",url:"rgw_page_memory_cards.html"},
+    "Mesh-системы":{label:"Mesh-системы",noun:"Mesh-систему",genitive:"Mesh-системы",url:"rgw_page_mesh.html"},
+    "Мыши":{label:"Мыши",noun:"мышь",genitive:"мыши",url:"rgw_page_mice.html"},
+    "Мини-АТС":{label:"Мини-АТС",noun:"мини-АТС",genitive:"мини-АТС",url:"rgw_page_mini_pbx.html"},
+    "Сетевые аксессуары":{label:"Сетевые аксессуары",noun:"сетевой аксессуар",genitive:"сетевого аксессуара",url:"rgw_page_network_accessories.html"},
+    "Сетевые кабели":{label:"Сетевые кабели",noun:"сетевой кабель",genitive:"сетевого кабеля",url:"rgw_page_network_cables.html"},
+    "Сетевые карты":{label:"Сетевые карты",noun:"сетевую карту",genitive:"сетевой карты",url:"rgw_page_network_cards.html"},
+    "Прочие аксессуары":{label:"Прочие аксессуары",noun:"аксессуар",genitive:"аксессуара",url:"rgw_page_other_accessories.html"},
+    "Патч-панели":{label:"Патч-панели",noun:"патч-панель",genitive:"патч-панели",url:"rgw_page_patch_panels.html"},
+    "Сетевые фильтры / пилоты":{label:"Сетевые фильтры / пилоты",noun:"сетевой фильтр",genitive:"сетевого фильтра",url:"rgw_page_power_strips.html"},
+    "Расходные материалы":{label:"Расходные материалы",noun:"расходный материал",genitive:"расходного материала",url:"rgw_page_print_consumables.html"},
+    "Принтеры и МФУ":{label:"Принтеры и МФУ",noun:"принтер или МФУ",genitive:"принтера или МФУ",url:"rgw_page_printers.html"},
+    "Проекторы и экраны":{label:"Проекторы и экраны",noun:"проектор или экран",genitive:"проектора или экрана",url:"rgw_page_projectors_screens.html"},
+    "Роутеры":{label:"Роутеры",noun:"роутер",genitive:"роутера",url:"rgw_page_routers.html"},
+    "Серверные шкафы":{label:"Серверные шкафы",noun:"серверный шкаф",genitive:"серверного шкафа",url:"rgw_page_server_racks.html"},
+    "Колонки":{label:"Колонки",noun:"колонку",genitive:"колонки",url:"rgw_page_speakers.html"},
+    "Стабилизаторы":{label:"Стабилизаторы",noun:"стабилизатор",genitive:"стабилизатора",url:"rgw_page_stabilizers.html"},
+    "Коммутаторы":{label:"Коммутаторы",noun:"коммутатор",genitive:"коммутатора",url:"rgw_page_switches.html"},
+    "Системные блоки":{label:"Системные блоки",noun:"системный блок",genitive:"системного блока",url:"rgw_page_system_units.html"},
+    "UPS":{label:"UPS",noun:"ИБП",genitive:"ИБП",url:"rgw_page_ups.html"},
+    "Батареи для UPS":{label:"Батареи для UPS",noun:"батарею для UPS",genitive:"батареи для UPS",url:"rgw_page_ups_batteries.html"},
+    "USB-хабы":{label:"USB-хабы",noun:"USB-хаб",genitive:"USB-хаба",url:"rgw_page_usb_hubs.html"},
+    "Видеорегистраторы":{label:"Видеорегистраторы",noun:"видеорегистратор",genitive:"видеорегистратора",url:"rgw_page_video_recorders.html"},
+    "Веб-камеры":{label:"Веб-камеры",noun:"веб-камеру",genitive:"веб-камеры",url:"rgw_page_webcams.html"},
+    "Wi-Fi адаптеры":{label:"Wi-Fi адаптеры",noun:"Wi-Fi адаптер",genitive:"Wi-Fi адаптера",url:"rgw_page_wifi_adapters.html"},
+    "Радиомосты":{label:"Радиомосты",noun:"радиомост",genitive:"радиомоста",url:"rgw_page_wireless_bridges.html"}
+  };
 
   function categoryCopy(product) {
     const category = product.categoryName || product.category || "";
-    const copies = {
-      "Моноблоки":{label:"Моноблоки",noun:"моноблок",genitive:"моноблока",url:"rgw_page_monoblocks.html"},
-      "Ноутбуки":{label:"Ноутбуки",noun:"ноутбук",genitive:"ноутбука",url:"rgw_page_laptops.html"},
-      "Видеокарты":{label:"Видеокарты",noun:"видеокарту",genitive:"видеокарты",url:"rgw_page_gpus.html"},
-      "Процессоры":{label:"Процессоры",noun:"процессор",genitive:"процессора",url:"rgw_page_processors.html"},
-      "SSD":{label:"SSD",noun:"накопитель SSD",genitive:"SSD",url:"rgw_page_ssd.html"},
-      "Материнские платы":{label:"Материнские платы",noun:"материнскую плату",genitive:"материнской платы",url:"rgw_page_motherboards.html"},
-      "Оперативная память":{label:"Оперативная память",noun:"оперативную память",genitive:"оперативной памяти",url:"rgw_page_ram.html"},
-      "HDD":{label:"HDD",noun:"жёсткий диск",genitive:"жёсткого диска",url:"rgw_page_hdd.html"},
-      "Корпуса":{label:"Корпуса",noun:"корпус",genitive:"корпуса",url:"rgw_page_cases.html"},
-      "Блоки питания":{label:"Блоки питания",noun:"блок питания",genitive:"блока питания",url:"rgw_page_power_supplies.html"},
-      "Охлаждение":{label:"Охлаждение",noun:"систему охлаждения",genitive:"системы охлаждения",url:"rgw_page_cooling.html"}
-    };
-    return copies[category] || {label:category || "Каталог",noun:"товар",genitive:"товара",url:product.categoryUrl || "index.html"};
+    return categoryCopies[category] || {label:category || "Каталог",noun:"товар",genitive:"товара",url:product.categoryUrl || "index.html"};
+  }
+  function emojiPlaceholder(product, copy) {
+    const glyph = String(product.placeholder || "").trim();
+    if (!glyph) return genericSvg;
+    return '<svg viewBox="0 0 120 86" role="img" aria-label="Иконка ' + escapeHtml(copy.label) + '" xmlns="http://www.w3.org/2000/svg"><text x="60" y="59" text-anchor="middle" font-size="48">' + escapeHtml(glyph) + '</text></svg>';
   }
 
   function placeholderFor(product, copy) {
@@ -192,10 +236,10 @@
     if (copy.label === "Материнские платы") return motherboardSvg;
     if (copy.label === "Оперативная память") return ramSvg;
     if (copy.label === "HDD") return hddSvg;
-    if (copy.label === "Корпуса") return caseSvg;
+    if (copy.label === "Корпуса" || copy.label === "Системные блоки") return caseSvg;
     if (copy.label === "Блоки питания") return psuSvg;
     if (copy.label === "Охлаждение") return coolingSvg;
-    return genericSvg;
+    return emojiPlaceholder(product, copy);
   }
 
   function render(product) {

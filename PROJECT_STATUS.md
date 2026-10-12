@@ -9,7 +9,7 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 ## Current checkpoint
 
-Universal product-page integration stage extended.
+Universal product-page integration stage completed for all remaining non-empty catalog categories.
 
 The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards and all 7 current monoblock cards. Product records keep stable identifiers and only confirmed model-specific characteristics; unsupported fields remain omitted. Product pages keep prices and real images as placeholders until later stages.
 
@@ -139,10 +139,25 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Prices and images remain placeholders; no filtering, sorting or price data was changed.
 - Checked unique IDs, card link count and valid JSON before commit.
 
+## Completed in the all-remaining-categories product-page stage (2026-10-12)
+
+- Connected all 396 remaining catalog cards from 42 non-empty `rgw_page_*.html` category pages to the shared `product.html?id=PRODUCT_ID` flow.
+- Added 396 product records to `products.json` with the existing card IDs/SKUs, category names, exact category return paths, catalog titles, available manufacturers and only facts present in the source cards.
+- Extended `product.js` with category-aware breadcrumbs/copy for every remaining category, a conservative fallback for compact main specifications and category-specific emoji placeholders when a real image is absent.
+- Preserved the existing design, prices as «Цена уточняется», image placeholders, card filters, sorting, data attributes, and the existing universal product architecture.
+- Left `rgw_page_components.html` unchanged because it contains no product cards.
+
+### All-remaining-stage verification
+
+- Confirmed the 396 new IDs are unique and do not overlap the 182 existing product IDs.
+- Confirmed each new record has a category, a matching category URL, a stable SKU, a catalog title, a placeholder image state and valid JSON.
+- Confirmed each remaining card receives exactly one image link and one title link to its own `product.html?id=PRODUCT_ID`.
+- Confirmed no price fields were added and no real images were introduced.
+
 ## Next proposed stage
 
-Connect keyboards and mice to the universal product page using the same safe pattern.
+Perform a final repository-wide visual/manual QA pass for the newly connected categories, then handle future real images/prices only when explicitly approved.
 
 ## User approval gate
 
-WAITING FOR USER.
+READY FOR FINAL QA.

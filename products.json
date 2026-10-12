@@ -406,7 +406,7 @@
     "name": "HP VICTUS 15-FA2120NIA",
     "brand": "HP",
     "category": "Ноутбуки",
-    "image": null,
+    "image": "images/products/laptop-006/main.webp",
     "placeholder": "🎮",
     "catalogFacts": [
       {
@@ -490,7 +490,10 @@
     "identifiers": {
       "modelNumber": "15-fa2120nia",
       "productFamily": "D15FCEA"
-    }
+    },
+    "images": [
+      "images/products/laptop-006/main.webp"
+    ]
   },
   {
     "id": "laptop-007",
@@ -2601,7 +2604,7 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
+    "image": "images/products/ssd-006/main.webp",
     "placeholder": "💾",
     "identifiers": {
       "modelNumber": "MZ-V9P1T0BW"
@@ -2632,6 +2635,9 @@
         "value": "V-NAND TLC",
         "group": "Накопители"
       }
+    ],
+    "images": [
+      "images/products/ssd-006/main.webp"
     ]
   },
   {
@@ -3340,7 +3346,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-003/main.webp",
     "placeholder": "🧩",
     "identifiers": {
       "modelNumber": "B760M E"
@@ -3371,6 +3377,9 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/mb-003/main.webp"
     ]
   },
   {
@@ -3381,7 +3390,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-004/main.webp",
     "placeholder": "🧩",
     "identifiers": {
       "modelNumber": "B760M H DDR4"
@@ -3412,6 +3421,9 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/mb-004/main.webp"
     ]
   },
   {
@@ -3450,7 +3462,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-006/main.webp",
     "placeholder": "🧩",
     "identifiers": {
       "modelNumber": "Z890M AORUS ELITE WIFI7 ICE"
@@ -3486,6 +3498,9 @@
         "value": "Wi-Fi 7",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/mb-006/main.webp"
     ]
   },
   {
@@ -4742,7 +4757,7 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
+    "image": "images/products/cases-013/main.webp",
     "placeholder": "🖥️",
     "identifiers": {
       "modelNumber": "CG580 4F V2"
@@ -4753,6 +4768,9 @@
         "value": "CG580 4F V2",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-013/main.webp"
     ]
   },
   {
@@ -4831,7 +4849,7 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
+    "image": "images/products/cases-017/main.webp",
     "placeholder": "🖥️",
     "identifiers": {
       "modelNumber": "CG380 3F"
@@ -4842,6 +4860,9 @@
         "value": "CG380 3F",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-017/main.webp"
     ]
   },
   {
@@ -5624,7 +5645,7 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
+    "image": "images/products/cooling-014/main.webp",
     "placeholder": "❄️",
     "identifiers": {
       "modelNumber": "LE360 PRO"
@@ -5645,6 +5666,9 @@
         "value": "360 мм",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-014/main.webp"
     ]
   },
   {
@@ -5800,7 +5824,7 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
+    "image": "images/products/cooling-020/main.webp",
     "placeholder": "❄️",
     "identifiers": {
       "modelNumber": "LQ360 ULTRA ARGB"
@@ -5821,6 +5845,9 @@
         "value": "RGB",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-020/main.webp"
     ]
   },
   {
@@ -6582,7 +6609,7 @@
     "category": "Переходники",
     "categoryName": "Переходники",
     "categoryUrl": "rgw_page_adapters.html",
-    "image": null,
+    "image": "images/products/acc-adapters-2/main.webp",
     "placeholder": "🔁",
     "catalogFacts": [
       {
@@ -6617,7 +6644,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-adapters-2/main.webp"
+    ]
   },
   {
     "id": "acc-adapters-3",
@@ -6627,7 +6657,7 @@
     "category": "Переходники",
     "categoryName": "Переходники",
     "categoryUrl": "rgw_page_adapters.html",
-    "image": null,
+    "image": "images/products/acc-adapters-3/main.webp",
     "placeholder": "🔁",
     "catalogFacts": [
       {
@@ -6662,7 +6692,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-adapters-3/main.webp"
+    ]
   },
   {
     "id": "acc-adapters-4",
@@ -6717,7 +6750,7 @@
     "category": "Переходники",
     "categoryName": "Переходники",
     "categoryUrl": "rgw_page_adapters.html",
-    "image": null,
+    "image": "images/products/acc-adapters-5/main.webp",
     "placeholder": "🔁",
     "catalogFacts": [
       {
@@ -6752,7 +6785,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-adapters-5/main.webp"
+    ]
   },
   {
     "id": "analog_cameras-1",
@@ -9227,7 +9263,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-9/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9252,7 +9288,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-9/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-10",
@@ -10367,7 +10406,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-6/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -10382,7 +10421,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-6/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-7",
@@ -10617,7 +10659,7 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
+    "image": "images/products/keyboards-6/main.webp",
     "placeholder": "⌨️",
     "catalogFacts": [
       {
@@ -10632,7 +10674,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-6/main.webp"
+    ]
   },
   {
     "id": "keyboards-7",
@@ -10767,7 +10812,7 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
+    "image": "images/products/keyboards-12/main.webp",
     "placeholder": "⌨️",
     "catalogFacts": [
       {
@@ -10782,7 +10827,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-12/main.webp"
+    ]
   },
   {
     "id": "keyboards-13",
@@ -11332,7 +11380,7 @@
     "category": "Mesh-системы",
     "categoryName": "Mesh-системы",
     "categoryUrl": "rgw_page_mesh.html",
-    "image": null,
+    "image": "images/products/mesh-7/main.webp",
     "placeholder": "🔗",
     "catalogFacts": [
       {
@@ -11352,7 +11400,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mesh-7/main.webp"
+    ]
   },
   {
     "id": "mesh-8",
@@ -11547,7 +11598,7 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
+    "image": "images/products/mice-3/main.webp",
     "placeholder": "🖱️",
     "catalogFacts": [
       {
@@ -11567,7 +11618,13 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-3/main.webp",
+      "images/products/mice-3/02.webp",
+      "images/products/mice-3/03.webp",
+      "images/products/mice-3/04.webp"
+    ]
   },
   {
     "id": "mice-4",
@@ -11667,7 +11724,7 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
+    "image": "images/products/mice-7/main.webp",
     "placeholder": "🖱️",
     "catalogFacts": [
       {
@@ -11687,7 +11744,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-7/main.webp"
+    ]
   },
   {
     "id": "mice-8",
@@ -11697,7 +11757,7 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
+    "image": "images/products/mice-8/main.webp",
     "placeholder": "🖱️",
     "catalogFacts": [
       {
@@ -11717,7 +11777,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-8/main.webp"
+    ]
   },
   {
     "id": "mice-9",
@@ -11777,7 +11840,7 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
+    "image": "images/products/mice-11/main.webp",
     "placeholder": "🖱️",
     "catalogFacts": [
       {
@@ -11797,7 +11860,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-11/main.webp"
+    ]
   },
   {
     "id": "mice-12",
@@ -13967,7 +14033,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-1/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -13982,7 +14048,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-1/main.webp"
+    ]
   },
   {
     "id": "routers-2",
@@ -14017,7 +14086,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-3/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14037,7 +14106,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-3/main.webp"
+    ]
   },
   {
     "id": "routers-4",
@@ -14072,7 +14144,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-5/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14087,7 +14159,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-5/main.webp"
+    ]
   },
   {
     "id": "routers-6",
@@ -14177,7 +14252,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-9/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14192,7 +14267,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-9/main.webp"
+    ]
   },
   {
     "id": "routers-10",
@@ -14202,7 +14280,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-10/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14217,7 +14295,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-10/main.webp"
+    ]
   },
   {
     "id": "routers-11",
@@ -14252,7 +14333,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-12/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14272,7 +14353,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-12/main.webp"
+    ]
   },
   {
     "id": "routers-13",
@@ -14312,7 +14396,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-14/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14327,7 +14411,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-14/main.webp"
+    ]
   },
   {
     "id": "routers-15",
@@ -14337,7 +14424,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-15/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14357,7 +14444,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-15/main.webp"
+    ]
   },
   {
     "id": "routers-16",
@@ -14422,7 +14512,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-18/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14437,7 +14527,12 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-18/main.webp",
+      "images/products/routers-18/02.webp",
+      "images/products/routers-18/03.webp"
+    ]
   },
   {
     "id": "routers-19",
@@ -14447,7 +14542,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-19/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14462,7 +14557,12 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-19/main.webp",
+      "images/products/routers-19/02.webp",
+      "images/products/routers-19/03.webp"
+    ]
   },
   {
     "id": "routers-20",
@@ -14472,7 +14572,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-20/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14487,7 +14587,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-20/main.webp"
+    ]
   },
   {
     "id": "routers-21",
@@ -14522,7 +14625,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-22/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14542,7 +14645,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-22/main.webp"
+    ]
   },
   {
     "id": "routers-23",
@@ -14552,7 +14658,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-23/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14567,7 +14673,11 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-23/main.webp",
+      "images/products/routers-23/02.webp"
+    ]
   },
   {
     "id": "routers-24",
@@ -14577,7 +14687,7 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-24/main.webp",
     "placeholder": "📡",
     "catalogFacts": [
       {
@@ -14592,7 +14702,12 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/routers-24/main.webp",
+      "images/products/routers-24/02.webp",
+      "images/products/routers-24/03.webp"
+    ]
   },
   {
     "id": "server_racks-1",
@@ -15297,7 +15412,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-3/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15312,7 +15427,11 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-3/main.webp",
+      "images/products/switches-3/02.webp"
+    ]
   },
   {
     "id": "switches-4",
@@ -15382,7 +15501,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-6/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15402,7 +15521,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-6/main.webp"
+    ]
   },
   {
     "id": "switches-7",
@@ -15552,7 +15674,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-11/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15567,7 +15689,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-11/main.webp"
+    ]
   },
   {
     "id": "switches-12",
@@ -15577,7 +15702,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-12/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15592,7 +15717,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-12/main.webp"
+    ]
   },
   {
     "id": "switches-13",
@@ -15602,7 +15730,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-13/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15617,7 +15745,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-13/main.webp"
+    ]
   },
   {
     "id": "switches-14",
@@ -15627,7 +15758,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-14/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15642,7 +15773,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-14/main.webp"
+    ]
   },
   {
     "id": "switches-15",
@@ -15652,7 +15786,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-15/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15672,7 +15806,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-15/main.webp"
+    ]
   },
   {
     "id": "switches-16",
@@ -15912,7 +16049,7 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
+    "image": "images/products/switches-23/main.webp",
     "placeholder": "🔀",
     "catalogFacts": [
       {
@@ -15937,7 +16074,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/switches-23/main.webp"
+    ]
   },
   {
     "id": "switches-24",
@@ -16242,7 +16382,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-008/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16262,7 +16402,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-008/main.webp"
+    ]
   },
   {
     "id": "ups-1",
@@ -16877,7 +17020,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-4/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -16907,7 +17050,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-4/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-5",
@@ -16967,7 +17113,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-6/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -17007,7 +17153,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-6/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-7",
@@ -17017,7 +17166,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-7/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -17057,7 +17206,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-7/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-8",
@@ -17067,7 +17219,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-8/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -17112,7 +17264,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-8/main.webp"
+    ]
   },
   {
     "id": "video_recorders-1",
@@ -17152,7 +17307,7 @@
     "category": "Веб-камеры",
     "categoryName": "Веб-камеры",
     "categoryUrl": "rgw_page_webcams.html",
-    "image": null,
+    "image": "images/products/webcams-1/main.webp",
     "placeholder": "📷",
     "catalogFacts": [
       {
@@ -17172,7 +17327,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/webcams-1/main.webp"
+    ]
   },
   {
     "id": "webcams-2",
@@ -17237,7 +17395,7 @@
     "category": "Wi-Fi адаптеры",
     "categoryName": "Wi-Fi адаптеры",
     "categoryUrl": "rgw_page_wifi_adapters.html",
-    "image": null,
+    "image": "images/products/wifi-2/main.webp",
     "placeholder": "📶",
     "catalogFacts": [
       {
@@ -17252,7 +17410,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/wifi-2/main.webp"
+    ]
   },
   {
     "id": "wifi-3",
@@ -17407,7 +17568,7 @@
     "category": "Wi-Fi адаптеры",
     "categoryName": "Wi-Fi адаптеры",
     "categoryUrl": "rgw_page_wifi_adapters.html",
-    "image": null,
+    "image": "images/products/wifi-9/main.webp",
     "placeholder": "📶",
     "catalogFacts": [
       {
@@ -17422,7 +17583,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/wifi-9/main.webp"
+    ]
   },
   {
     "id": "wifi-10",
@@ -17432,7 +17596,7 @@
     "category": "Wi-Fi адаптеры",
     "categoryName": "Wi-Fi адаптеры",
     "categoryUrl": "rgw_page_wifi_adapters.html",
-    "image": null,
+    "image": "images/products/wifi-10/main.webp",
     "placeholder": "📶",
     "catalogFacts": [
       {
@@ -17447,7 +17611,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/wifi-10/main.webp"
+    ]
   },
   {
     "id": "wifi-11",
@@ -17537,7 +17704,7 @@
     "category": "Wi-Fi адаптеры",
     "categoryName": "Wi-Fi адаптеры",
     "categoryUrl": "rgw_page_wifi_adapters.html",
-    "image": null,
+    "image": "images/products/wifi-14/main.webp",
     "placeholder": "📶",
     "catalogFacts": [
       {
@@ -17552,7 +17719,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/wifi-14/main.webp"
+    ]
   },
   {
     "id": "wifi-15",
@@ -17662,7 +17832,7 @@
     "category": "Радиомосты",
     "categoryName": "Радиомосты",
     "categoryUrl": "rgw_page_wireless_bridges.html",
-    "image": null,
+    "image": "images/products/bridges-3/main.webp",
     "placeholder": "🌉",
     "catalogFacts": [
       {
@@ -17677,7 +17847,13 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/bridges-3/main.webp",
+      "images/products/bridges-3/02.webp",
+      "images/products/bridges-3/03.webp",
+      "images/products/bridges-3/04.webp"
+    ]
   },
   {
     "id": "bridges-4",
@@ -17687,7 +17863,7 @@
     "category": "Радиомосты",
     "categoryName": "Радиомосты",
     "categoryUrl": "rgw_page_wireless_bridges.html",
-    "image": null,
+    "image": "images/products/bridges-4/main.webp",
     "placeholder": "🌉",
     "catalogFacts": [
       {
@@ -17707,7 +17883,13 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/bridges-4/main.webp",
+      "images/products/bridges-4/02.webp",
+      "images/products/bridges-4/03.webp",
+      "images/products/bridges-4/04.webp"
+    ]
   },
   {
     "id": "bridges-5",
@@ -17717,7 +17899,7 @@
     "category": "Радиомосты",
     "categoryName": "Радиомосты",
     "categoryUrl": "rgw_page_wireless_bridges.html",
-    "image": null,
+    "image": "images/products/bridges-5/main.webp",
     "placeholder": "🌉",
     "catalogFacts": [
       {
@@ -17737,7 +17919,13 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/bridges-5/main.webp",
+      "images/products/bridges-5/02.webp",
+      "images/products/bridges-5/03.webp",
+      "images/products/bridges-5/04.webp"
+    ]
   },
   {
     "id": "bridges-6",

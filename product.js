@@ -160,7 +160,14 @@
     document.querySelectorAll(".product-tab").forEach((button) => {
       const active = button.dataset.tab === name;
       button.classList.toggle("active", active);
-      button.setAttribut  const categoryCopies = {
+      button.setAttribute("aria-selected", String(active));
+    });
+    document.querySelectorAll("[data-panel]").forEach((panel) => {
+      panel.hidden = panel.dataset.panel !== name;
+    });
+  }
+
+  const categoryCopies = {
     "Моноблоки":{label:"Моноблоки",noun:"моноблок",genitive:"моноблока",url:"rgw_page_monoblocks.html"},
     "Ноутбуки":{label:"Ноутбуки",noun:"ноутбук",genitive:"ноутбука",url:"rgw_page_laptops.html"},
     "Мониторы":{label:"Мониторы",noun:"монитор",genitive:"монитора",url:"rgw_page_monitors.html"},

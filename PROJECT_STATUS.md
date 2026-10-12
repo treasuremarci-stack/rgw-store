@@ -161,3 +161,18 @@ Perform a final repository-wide visual/manual QA pass for the newly connected ca
 ## User approval gate
 
 READY FOR FINAL QA.
+
+## Image harvesting checkpoint
+
+Updated: 2026-10-12
+
+The user explicitly authorized processing all categories in this run, overriding the normal stop-after-one-stage rule for this image task.
+
+- Audited all 578 product records across 54 non-empty categories.
+- Connected 56 exact-model products to 76 local WebP files under `images/products/PRODUCT_ID/`.
+- Added `image` and `images` fields for the connected records and replaced catalog placeholders on 17 category pages.
+- Extended `product.html?id=PRODUCT_ID` so thumbnails switch the main image and empty thumbnail slots are hidden when no gallery exists.
+- 522 products remain with placeholders because the automated pass could not confirm both the exact model and a safe official image source. They are listed individually in `PRODUCT_IMAGES_REPORT.md`; no similar-model substitutions were made.
+- Image integration commit: [d8b9ec815c10ccb141f9249ac499330aeee0eeb5](https://github.com/treasuremarci-stack/rgw-store/commit/d8b9ec815c10ccb141f9249ac499330aeee0eeb5).
+- Full per-product audit: `PRODUCT_IMAGES_REPORT.md`.
+

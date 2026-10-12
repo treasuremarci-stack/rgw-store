@@ -176,3 +176,14 @@ The user explicitly authorized processing all categories in this run, overriding
 - Image integration commit: [d8b9ec815c10ccb141f9249ac499330aeee0eeb5](https://github.com/treasuremarci-stack/rgw-store/commit/d8b9ec815c10ccb141f9249ac499330aeee0eeb5).
 - Full per-product audit: `PRODUCT_IMAGES_REPORT.md`.
 
+## Image pilot legal/QA follow-up
+
+Updated: 2026-10-12
+
+- Re-checked the required five-category pilot: laptop, monitor, GPU, router and keyboard.
+- Confirmed the exact Lenovo Legion R27fc-30 and MSI GeForce RTX 5060 8G VENTUS 2X (non-OC) models on official manufacturer pages.
+- Kept placeholders for the monitor and GPU because no explicit public permission for commercial image reuse was found.
+- Clarified that all 56 currently connected products are technically integrated from official manufacturer assets, but still require manual rights clearance; none has an explicit reuse licence documented in the report.
+- Verified all 578 unique product records, 76 local WebP paths, gallery switching and catalog rendering on the published GitHub Pages site.
+- No product data, prices, characteristics, filters, sorting, homepage or working images were changed in this follow-up.
+

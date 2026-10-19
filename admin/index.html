@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>АКС — администрирование каталога</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <div class="admin-shell">
+    <header class="admin-header">
+      <a class="brand-link" href="../index.html" aria-label="Вернуться на сайт АКС">АКС<span>магазин техники</span></a>
+      <div class="header-title">
+        <p class="eyebrow">АКС / ADMIN</p>
+        <h1>Управление каталогом</h1>
+      </div>
+      <div class="auth-state" id="authState">Проверка подключения…</div>
+    </header>
+
+    <main class="admin-main">
+      <section class="notice notice-warning hidden" id="connectionNotice" aria-live="polite">
+        <strong>Supabase еще не настроен.</strong>
+        <span>Скопируйте <code>admin/config.example.js</code> в <code>admin/config.js</code>, укажите URL проекта и публичный anon/publishable key, затем примените SQL-миграцию. Публичный каталог от этого не изменится.</span>
+      </section>
+
+      <section class="panel login-panel hidden" id="loginPanel">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">ЗАЩИЩЕННЫЙ ВХОД</p>
+            <h2>Войти в админку</h2>
+          </div>
+          <span class="panel-mark">01</span>
+        </div>
+        <p class="muted">Вход доступен только пользователю Supabase Auth, добавленному в таблицу <code>catalog_admins</code>. Публичной регистрации нет.</p>
+        <form id="loginForm" class="login-form">
+          <label>
+            Email
+            <input id="loginEmail" type="email" autocomplete="username" required>
+          </label>
+          <label>
+            Пароль
+            <input id="loginPassword" type="password" autocomplete="current-password" required>
+          </label>
+          <button class="button button-primary" type="submit" id="loginButton">Войти</button>
+        </form>
+        <p class="form-message error-text" id="loginError" role="alert"></p>
+      </section>
+
+      <section class="hidden" id="appPanel">
+        <div class="stats-grid">
+          <article class="stat-card"><span>Товары</span><strong id="statProducts">—</strong><small>в базе Supabase</small></article>
+          <article class="stat-card"><span>Опубликовано</span><strong id="statPublished">—</strong><small>видны публичному чтению</small></article>
+          <article class="stat-card"><span>Категории</span><strong id="statCategories">—</strong><small>активные и скрытые</small></article>
+          <article class="stat-card"><span>С фото</span><strong id="statImages">—</strong><small>есть основное изображение</small></article>
+        </div>
+
+        <div class="toolbar panel">
+          <div class="toolbar-search">
+            <label for="searchInput">Поиск</label>
+            <input id="searchInput" type="search" placeholder="Название, модель, бренд или ID">
+          </div>
+          <div>
+            <label for="categoryFilter">Категория</label>
+            <select id="categoryFilter"><option value="">Все категории</option></select>
+          </div>
+          <div>
+            <label for="statusFilter">Статус</label>
+            <select id="statusFilter">
+              <option value="">Все товары</option>
+              <option value="published">Опубликованные</option>
+              <option value="hidden">Скрытые</option>
+            </select>
+          </div>
+          <div class="toolbar-actions">
+            <button class="button button-light" id="refreshButton" type="button">Обновить</button>
+            <button class="button button-primary" id="newProductButton" type="button">+ Товар</button>
+            <button class="button button-quiet" id="signOutButton" type="button">Выйти</button>
+          </div>
+        </div>
+
+        <section class="panel table-panel">
+          <div class="panel-heading compact">
+            <div>
+              <p class="eyebrow">КАТАЛОГ</p>
+              <h2>Товары</h2>
+            </div>
+            <span class="muted" id="tableSummary"></span>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Название</th>
+                  <th>Модель / бренд</th>
+                  <th>Категория</th>
+                  <th>Цена</th>
+                  <th>Статус</th>
+                  <th aria-label="Действия"></th>
+                </tr>
+              </thead>
+              <tbody id="productsBody"></tbody>
+            </table>
+          </div>
+          <div class="empty-state hidden" id="emptyState">По заданным условиям товары не найдены.</div>
+        </section>
+
+        <section class="panel category-panel">
+          <div class="panel-heading compact">
+            <div>
+              <p class="eyebrow">СТРУКТУРА</p>
+              <h2>Категории</h2>
+            </div>
+            <span class="muted">Удаление защищено внешним ключом</span>
+          </div>
+          <form id="categoryForm" class="category-form">
+            <input id="categoryEditId" type="hidden">
+            <label>Название
+              <input id="categoryName" type="text" maxlength="160" required placeholder="Например, Мониторы">
+            </label>
+            <label>Slug
+              <input id="categorySlug" type="text" maxlength="160" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" required placeholder="monitors">
+            </label>
+            <label>Родительская категория
+              <select id="categoryParent"><option value="">Нет родительской</option></select>
+            </label>
+            <label class="checkbox-label category-active">
+              <input id="categoryActive" type="checkbox" checked>
+              Активна
+            </label>
+            <div class="category-actions">
+              <button class="button button-primary" type="submit" id="categorySaveButton">Добавить категорию</button>
+              <button class="button button-light hidden" type="button" id="categoryCancelButton">Отмена</button>
+            </div>
+          </form>
+          <ul class="category-list" id="categoriesList"></ul>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+
+  <div class="modal hidden" id="productModal" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+    <div class="modal-card">
+      <div class="modal-heading">
+        <div>
+          <p class="eyebrow">КАРТОЧКА ТОВАРА</p>
+          <h2 id="productModalTitle">Добавить товар</h2>
+        </div>
+        <button class="icon-button" type="button" data-close-modal aria-label="Закрыть">×</button>
+      </div>
+      <form id="productForm">
+        <div class="form-grid">
+          <label>ID товара
+            <input id="productId" type="text" required pattern="[A-Za-z0-9][A-Za-z0-9._-]{1,127}" placeholder="product-001">
+            <small class="field-help">При редактировании ID блокируется для сохранения ссылок product.html?id=PRODUCT_ID.</small>
+          </label>
+          <label>Артикул / SKU
+            <input id="productSku" type="text" maxlength="160">
+          </label>
+          <label class="wide-field">Название
+            <input id="productName" type="text" maxlength="300" required>
+          </label>
+          <label>Производитель
+            <input id="productBrand" type="text" maxlength="160">
+          </label>
+          <label>Модель
+            <input id="productModel" type="text" maxlength="200">
+          </label>
+          <label>Категория
+            <select id="productCategory" required><option value="">Сначала создайте категорию</option></select>
+          </label>
+          <label>Подкатегория
+            <select id="productSubcategory"><option value="">Нет подкатегории</option></select>
+          </label>
+          <label>Цена, сомони
+            <input id="productPrice" type="number" min="0" max="100000000" step="0.01" placeholder="Оставьте пустым, если цена не загружена">
+          </label>
+          <label class="checkbox-label publish-field">
+            <input id="productPublished" type="checkbox">
+            Опубликован
+          </label>
+          <label class="wide-field">Основное изображение
+            <input id="productMainImage" type="text" maxlength="1000" placeholder="catalog-images/product-id/main.webp">
+          </label>
+          <label class="wide-field">Дополнительные изображения
+            <textarea id="productGallery" rows="4" placeholder="По одному пути на строку"></textarea>
+            <small class="field-help">Можно указать пути Storage или подготовленные локальные пути. При сохранении список синхронизируется.</small>
+          </label>
+          <label class="wide-field">Загрузить новые изображения
+            <input id="productFiles" type="file" accept="image/*" multiple>
+            <small class="field-help">Файлы загрузятся в bucket catalog-images только после авторизации администратора.</small>
+          </label>
+          <label class="wide-field">Характеристики JSONB
+            <textarea id="productSpecifications" rows="10" spellcheck="false">{}</textarea>
+            <small class="field-help">Нужен JSON-объект, например {"Экран":{"Диагональ":"27"}}.</small>
+          </label>
+        </div>
+        <p class="form-message error-text" id="productError" role="alert"></p>
+        <div class="modal-actions">
+          <button class="button button-light" type="button" data-close-modal>Отмена</button>
+          <button class="button button-primary" type="submit" id="productSaveButton">Сохранить товар</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <noscript><div class="notice notice-warning">Для админки нужен JavaScript.</div></noscript>
+  <script src="config.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

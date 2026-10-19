@@ -282,6 +282,154 @@
     renderAll();
   }
 
+
+  function chunkItems(items, size) {
+    var chunks = [];
+    for (var index = 0; index < items.length; index += size) {
+      chunks.push(items.slice(index, index + size));
+    }
+    return chunks;
+  }
+
+  function importCategoryRows(names) {
+    var used = {};
+    return names.map(function (name, index) {
+      var base = transliterate(name) || ("category-" + (index + 1));
+      var slug = base;
+      var suffix = 2;
+      while (used[slug]) {
+        slug = base + "-" + suffix;
+        suffix += 1;
+      }
+      used[slug] = true;
+      return {
+        name: name,
+        slug: slug,
+        sort_order: index,
+        is_active: true
+      };
+    });
+  }
+
+  function catalogImagePaths(product) {
+    return uniquePaths([product.image].concat(Array.isArray(product.images) ? product.images : []));
+  }
+
+  function catalogSpecifications(product) {
+    return {
+      catalogFacts: Array.isArray(product.catalogFacts) ? product.catalogFacts : [],
+      verifiedSpecs: Array.isArray(product.verifiedSpecs) ? product.verifiedSpecs : [],
+      identifiers: product.identifiers && typeof product.identifiers === "object" ? product.identifiers : {},
+      placeholder: product.placeholder || null,
+      categoryUrl: product.categoryUrl || null
+    };
+  }
+
+  async function importExistingCatalog() {
+    if (!state.client || !state.session) {
+      showToast("Сначала войдите в админку.", true);
+      return;
+    }
+    if (!window.confirm(
+      "Импортировать существующие товары без цен?\\n\\n" +
+      "Будут добавлены категории и товары из products.json. Цены останутся пустыми. " +
+      "Уже существующие ID будут пропущены, чтобы не стереть будущие цены."
+    )) return;
+
+    var button = $("importCatalogButton");
+    button.disabled = true;
+    button.textContent = "Подготовка импорта…";
+    try {
+      var response = await fetch("../products.json", { cache: "no-store" });
+      if (!response.ok) throw new Error("Не удалось загрузить products.json: HTTP " + response.status);
+      var source = await response.json();
+      if (!Array.isArray(source) || !source.length) throw new Error("products.json не содержит товаров.");
+
+      var categoryNames = Array.from(new Set(source.map(function (product) {
+        return String(product.categoryName || product.category || "").trim();
+      }).filter(Boolean))).sort(function (a, b) {
+        return a.localeCompare(b, "ru");
+      });
+      if (!categoryNames.length) throw new Error("В товарах не найдены категории.");
+
+      var categoryRows = importCategoryRows(categoryNames);
+      var categoryInsert = await state.client
+        .from("catalog_categories")
+        .upsert(categoryRows, { onConflict: "slug" });
+      if (categoryInsert.error) throw categoryInsert.error;
+
+      var categoryResult = await state.client
+        .from("catalog_categories")
+        .select("id,name,slug");
+      if (categoryResult.error) throw categoryResult.error;
+      var categoryByName = {};
+      (categoryResult.data || []).forEach(function (category) {
+        categoryByName[category.name] = category;
+      });
+
+      var productRows = source.map(function (product) {
+        var categoryName = String(product.categoryName || product.category || "").trim();
+        var category = categoryByName[categoryName];
+        if (!category) throw new Error("Не найдена категория: " + categoryName);
+        var identifiers = product.identifiers && typeof product.identifiers === "object" ? product.identifiers : {};
+        var imagePaths = catalogImagePaths(product);
+        return {
+          id: product.id,
+          sku: product.sku || null,
+          name: product.name,
+          brand: product.brand || null,
+          model: identifiers.modelNumber || identifiers.partNumber || null,
+          category_id: category.id,
+          subcategory_id: null,
+          price_tjs: null,
+          specifications: catalogSpecifications(product),
+          main_image: product.image || imagePaths[0] || null,
+          is_published: true
+        };
+      });
+
+      var productChunks = chunkItems(productRows, 40);
+      for (var productIndex = 0; productIndex < productChunks.length; productIndex += 1) {
+        var productInsert = await state.client
+          .from("catalog_products")
+          .upsert(productChunks[productIndex], { onConflict: "id", ignoreDuplicates: true });
+        if (productInsert.error) throw productInsert.error;
+        button.textContent = "Товары " + Math.min((productIndex + 1) * 40, productRows.length) + "/" + productRows.length;
+      }
+
+      var imageRows = [];
+      source.forEach(function (product) {
+        var paths = catalogImagePaths(product);
+        var mainPath = product.image || paths[0] || null;
+        paths.forEach(function (path, pathIndex) {
+          imageRows.push({
+            product_id: product.id,
+            storage_path: path,
+            alt_text: product.name || null,
+            sort_order: pathIndex,
+            is_primary: path === mainPath
+          });
+        });
+      });
+
+      var imageChunks = chunkItems(imageRows, 40);
+      for (var imageIndex = 0; imageIndex < imageChunks.length; imageIndex += 1) {
+        var imageInsert = await state.client
+          .from("catalog_product_images")
+          .upsert(imageChunks[imageIndex], { onConflict: "product_id,storage_path", ignoreDuplicates: true });
+        if (imageInsert.error) throw imageInsert.error;
+      }
+
+      await loadData();
+      showToast("Импорт завершен: " + productRows.length + " товаров, " + categoryRows.length + " категорий. Цены оставлены пустыми.");
+    } catch (error) {
+      showToast("Импорт не завершен: " + errorText(error), true);
+    } finally {
+      button.disabled = false;
+      button.textContent = "Импорт каталога без цен";
+    }
+  }
+
   function openModal(product) {
     state.editingProductId = product ? product.id : null;
     $("productModalTitle").textContent = product ? "Редактировать товар" : "Добавить товар";
@@ -581,6 +729,7 @@
   $("searchInput").addEventListener("input", renderProducts);
   $("categoryFilter").addEventListener("change", renderProducts);
   $("statusFilter").addEventListener("change", renderProducts);
+  $("importCatalogButton").addEventListener("click", importExistingCatalog);
   $("refreshButton").addEventListener("click", function () {
     loadData().then(function () { showToast("Данные обновлены."); }).catch(function (error) { showToast(errorText(error), true); });
   });

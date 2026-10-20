@@ -343,3 +343,16 @@ After owner review, continue with photos for other categories. Laptops after com
 - GitHub Pages build/deployment for the correction commit e6e80a8647a9eb64d841a38d4a919aac85c1db71 completed successfully (run 39471990812).
 - Static verification confirmed all seven monoblock cards, 26 existing monoblock WebP gallery files, unchanged product-page gallery logic, unchanged protected files, and the responsive image rules.
 - An interactive browser/screenshot runtime was not available in this environment, so live hover/touch interaction and pixel-level visual comparison could not be performed here. The CSS and asset checks were completed from the published source tree and deployment result.
+
+## Lenovo monoblock photo scale correction (2026-10-20)
+
+- Reframed only the main images for mono-004 (Lenovo IdeaCentre 27IRH9 Core i7) and mono-005 (Lenovo IdeaCentre 27IRH9 Core i5) on a 1000x1000 transparent canvas with a 0.74 visible-image ratio, preserving proportions and adding margins around the complete device.
+- Kept the existing monoblock CSS unchanged: the Lenovo badge remains above the image and the existing smooth hover animation, transition and card dimensions are preserved.
+- Did not modify HP mono-001, mono-003 or mono-007, MSI mono-006, the mono-002 placeholder, or any additional gallery image.
+- Product IDs, SKUs, titles, characteristics, prices, products.json, product.html, product.js, price.csv, filters, laptops and other categories remain protected.
+
+### Scope checks
+
+- Checked all seven monoblock card IDs and retained the existing main.webp links and product gallery arrays.
+- Protected every other asset under assets/products, every category page, product-page files, product data and price.csv; the correction script aborts on an unexpected change.
+- GitHub Pages and interactive visual checks are completed after the final commit; an unavailable browser runtime will be recorded explicitly.

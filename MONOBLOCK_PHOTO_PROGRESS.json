@@ -138,7 +138,13 @@
       ],
       "match_note": "Exact Lenovo IdeaCentre AIO 27IRH9 family/chassis source; the catalog has no Lenovo machine type for the i7/8GB/512GB DOS variant.",
       "reason": "",
-      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified."
+      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified.",
+      "correction": {
+        "main_asset": "assets/products/mono-004/main.webp",
+        "full_device_fit": true,
+        "visible_ratio": 0.74,
+        "gallery_preserved": true
+      }
     },
     {
       "id": "mono-005",
@@ -169,7 +175,13 @@
       ],
       "match_note": "Exact Lenovo IdeaCentre AIO 27IRH9 product family and matching i5/16GB/1TB configuration source.",
       "reason": "",
-      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified."
+      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified.",
+      "correction": {
+        "main_asset": "assets/products/mono-005/main.webp",
+        "full_device_fit": true,
+        "visible_ratio": 0.74,
+        "gallery_preserved": true
+      }
     },
     {
       "id": "mono-006",
@@ -312,15 +324,12 @@
     }
   ],
   "last_correction": {
-    "type": "card-layering-and-image-scale",
-    "page": "rgw_page_monoblocks.html",
-    "msi_main_source": "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
+    "type": "lenovo-main-photo-scale",
     "changed_assets": [
-      "assets/products/mono-001/main.webp",
-      "assets/products/mono-003/main.webp",
-      "assets/products/mono-006/main.webp",
-      "assets/products/mono-007/main.webp"
+      "assets/products/mono-004/main.webp",
+      "assets/products/mono-005/main.webp"
     ],
-    "note": "The existing additional galleries and product IDs remain unchanged."
+    "visible_ratio": 0.74,
+    "note": "Only the two Lenovo main images were reframed; additional galleries and all other monoblock assets were preserved."
   }
 }

@@ -4415,7 +4415,7 @@
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
     "image": null,
-    "placeholder": "💾",
+    "placeholder": "💿",
     "identifiers": {
       "family": "WD Purple 8 TB"
     },
@@ -4487,7 +4487,7 @@
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
     "image": null,
-    "placeholder": "💾",
+    "placeholder": "💿",
     "identifiers": {
       "family": "WD Purple 6 TB"
     },

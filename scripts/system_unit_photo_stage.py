@@ -107,9 +107,9 @@ PRODUCTS = {
         "urls": [
             cdn("ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01.png"),
             cdn("ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_00.png"),
-            cdn("ProductFile/DEECOOL/Cases/CH160_WH/Overview/01_01.png"),
-            cdn("ProductFile/DEECOOL/Cases/CH160_WH/Overview/01_02.png"),
-            cdn("ProductFile/DEECOOL/Cases/CH160_WH/Overview/01_03.png"),
+            cdn("ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_01.png"),
+            cdn("ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_02.png"),
+            cdn("ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_03.png"),
         ],
     },
     "case-007": {

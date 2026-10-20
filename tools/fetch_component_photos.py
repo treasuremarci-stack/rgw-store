@@ -52,6 +52,9 @@ DIRECT_PAGE_URLS = {
     "mb-016": ["https://www.gigabyte.com/Motherboard/Z890-UD-rev-10"],
     "ssd-004": ["https://www.samsung.com/in/memory-storage/nvme-ssd/990-evo-plus-1tb-nvme-pcie-gen-4-mz-v9s1t0bw/"],
     "ssd-005": ["https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/"],
+    "hdd-001": ["https://www.westerndigital.com/en-ie/products/internal-drives/wd-purple-sata-hdd?sku=WD11PURZ"],
+    "hdd-005": ["https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD85PURZ"],
+    "hdd-007": ["https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD64PURZ"],
     "cases-004": ["https://gamemaxpc.com/ru/list_175/3947.html"],
     "cases-010": ["https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization"],
     "cases-011": ["https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml"],
@@ -79,6 +82,8 @@ DIRECT_IMAGE_URLS = {
     "psu-016": ["https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/01.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/02.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/03.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/04.jpg"],
     "cooling-011": ["https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/01.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/02.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/03.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/04.jpg"],
     "cooling-013": ["https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/01.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/02.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/03.jpg","https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/04.jpg"],
+    "mb-016": ["https://static.gigabyte.com/StaticFile/Image/Global/012e59168f5517938679d8df601d0da0/Product/42039"],
+    "ssd-005": ["https://images.samsung.com/kdp/goods/2024/09/23/ba37587a-8d8a-4f3f-8e21-f1b93a013371.png"],
 }
 
 DOMAIN_BY_BRAND = {

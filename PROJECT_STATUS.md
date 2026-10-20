@@ -356,3 +356,10 @@ After owner review, continue with photos for other categories. Laptops after com
 - Checked all seven monoblock card IDs and retained the existing main.webp links and product gallery arrays.
 - Protected every other asset under assets/products, every category page, product-page files, product data and price.csv; the correction script aborts on an unexpected change.
 - GitHub Pages and interactive visual checks are completed after the final commit; an unavailable browser runtime will be recorded explicitly.
+
+
+## Published verification — Lenovo monoblock scale correction (2026-10-20)
+
+- GitHub Pages build/deployment for the Lenovo correction commit 81b422429dbfd330aedeff6b5e09b9e23b15cb16 completed successfully (run 39472893741).
+- Static verification confirmed that all seven monoblock cards remain linked, all 26 monoblock WebP assets remain present, and the current badge layering, hover scale, transition, mobile rule and product gallery paths are unchanged.
+- An interactive browser/screenshot runtime was not available in this environment, so live hover/touch and pixel-level visual comparison could not be performed here; this limitation is recorded explicitly.

@@ -282,6 +282,7 @@ def download_image(url: str, referer: str) -> Image.Image | None:
         response = session.get(url, headers={"Referer": referer}, timeout=35)
         response.raise_for_status()
         if len(response.content) < 1000:
+            print("PHOTO_DEBUG_SMALL", url, response.status_code, len(response.content))
             return None
         image = Image.open(BytesIO(response.content))
         image = ImageOps.exif_transpose(image)
@@ -291,7 +292,8 @@ def download_image(url: str, referer: str) -> Image.Image | None:
         if image.format not in {"JPEG", "PNG", "WEBP", "GIF", "BMP", "TIFF"}:
             return None
         return image
-    except Exception:
+    except Exception as exc:
+        print("PHOTO_DEBUG_ERROR", url, type(exc).__name__, str(exc)[:180])
         return None
 
 def save_webp(image: Image.Image, path: Path, max_side: int) -> None:

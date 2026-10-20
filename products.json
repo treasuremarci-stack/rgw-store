@@ -1511,8 +1511,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-008/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "RTX 5060 Ventus 2X 8G"
     },
@@ -1537,6 +1537,12 @@
         "value": "128 бит",
         "group": "Графика"
       }
+    ],
+    "images": [
+      "images/products/gpu-008/main.webp",
+      "images/products/gpu-008/01.webp",
+      "images/products/gpu-008/02.webp",
+      "images/products/gpu-008/03.webp"
     ]
   },
   {
@@ -3385,8 +3391,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PRIME Z790-P"
     },
@@ -3416,6 +3422,9 @@
         "value": "ATX",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/mb-002/main.webp"
     ]
   },
   {

@@ -319,3 +319,20 @@ External-image reuse rights still require manual review; source pages and direct
 ### Next proposed stage
 
 After owner review, continue with photos for other categories. Laptops after commit 9ec8a39 remain outside this stage.
+
+## Monoblock card/photo corrections (2026-10-20)
+
+- Fixed the existing monoblock card image layering in rgw_page_monoblocks.html: the image keeps its hover transform, while the brand badge now has a higher stacking level and remains above the transformed image.
+- Kept the card dimensions, brand badge appearance, filter markup, product data attributes and filter script unchanged.
+- Reduced only the existing image hover scale from 1.06 to 1.03 and retained the existing .25s transition; the image wrapper keeps object-fit: contain, adds internal box sizing, and uses a small consistent inset.
+- Reframed the main images for mono-001, mono-003 and mono-007 on a transparent square canvas so the complete HP device remains visible with margins. Additional gallery files were not replaced.
+- Replaced only assets/products/mono-006/main.webp with a single-unit exact PRO AP272P 14M frame from the official MSI Gallery. products.json image paths and the four additional gallery files were preserved.
+- Updated MONOBLOCK_PHOTO_PROGRESS.json with the corrected MSI source and resulting asset metadata.
+
+### Scope and checks
+
+- Confirmed the seven monoblock card IDs remain present; mono-002 remains the existing placeholder.
+- Hash-guarded products.json, price.csv, product.html, product.js, all laptop files, and every non-monoblock category page; the correction script aborts if any of them changes.
+- Confirmed the catalog markup outside the monoblock page CSS block is byte-for-byte unchanged.
+- Confirmed the page still points to the same main.webp paths and the universal product.html?id=mono-XXX gallery continues to receive the existing images[] arrays.
+- GitHub Pages publication and interactive browser hover checks are performed after the commit; if the environment cannot provide an interactive browser, that limitation will be reported explicitly.

@@ -33,7 +33,12 @@
       ],
       "match_note": "Exact HP 200 G4 chassis, i3-1215U and Iron Grey source page; the catalog RAM/storage option is not visually distinguishable.",
       "reason": "",
-      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified."
+      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified.",
+      "correction": {
+        "main_asset": "assets/products/mono-001/main.webp",
+        "full_device_fit": true,
+        "gallery_preserved": true
+      }
     },
     {
       "id": "mono-002",
@@ -81,8 +86,8 @@
           "path": "assets/products/mono-003/main.webp",
           "role": "main",
           "width": 1000,
-          "height": 860,
-          "bytes": 47978
+          "height": 1000,
+          "bytes": 40938
         },
         {
           "url": "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I114I8.webp",
@@ -100,7 +105,12 @@
           "height": 881,
           "bytes": 16758
         }
-      ]
+      ],
+      "correction": {
+        "main_asset": "assets/products/mono-003/main.webp",
+        "full_device_fit": true,
+        "gallery_preserved": true
+      }
     },
     {
       "id": "mono-004",
@@ -184,7 +194,7 @@
         "https://storage-asset.msi.com/global/picture/product/product_1704357310e79022bb1b646afe76824d0459f57a23.webp"
       ],
       "selected_source_images": [
-        "https://storage-asset.msi.com/global/picture/product/product_170435730656885befcbd0dd4ae128c4e5e2ddfdb2.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
         "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
         "https://storage-asset.msi.com/global/picture/product/product_1704357309b6b7f0af88b73502671246c1fcc07fe5.webp",
         "https://storage-asset.msi.com/global/picture/product/product_1704357308882a70a64d24bc6bd2eeb30f804aefbb.webp",
@@ -195,12 +205,12 @@
       "rights_note": "Official MSI source confirms the exact PRO AP272P 14M family; separate permission for commercial re-hosting was not automatically verified.",
       "images": [
         {
-          "url": "https://storage-asset.msi.com/global/picture/product/product_170435730656885befcbd0dd4ae128c4e5e2ddfdb2.webp",
+          "url": "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
           "path": "assets/products/mono-006/main.webp",
           "role": "main",
           "width": 1000,
-          "height": 800,
-          "bytes": 23578
+          "height": 1000,
+          "bytes": 36734
         },
         {
           "url": "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
@@ -234,7 +244,12 @@
           "height": 800,
           "bytes": 11348
         }
-      ]
+      ],
+      "correction": {
+        "main_source": "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
+        "main_role": "single exact PRO AP272P 14M unit from the official MSI Gallery",
+        "gallery_preserved": true
+      }
     },
     {
       "id": "mono-007",
@@ -269,8 +284,8 @@
           "path": "assets/products/mono-007/main.webp",
           "role": "main",
           "width": 1000,
-          "height": 850,
-          "bytes": 40646
+          "height": 1000,
+          "bytes": 41402
         },
         {
           "url": "https://www.alshariqa-erbil.com/web/image/product.image/1333/image_1024/23C1_OPP_Maokong_27_ShellWhite_T_NT_HAS_CaptainCrunchWired_Win11_CoreSet_FrontRight_WhiteBG_Intel_M1707533.webp?unique=35dc2df",
@@ -288,7 +303,24 @@
           "height": 870,
           "bytes": 33670
         }
-      ]
+      ],
+      "correction": {
+        "main_asset": "assets/products/mono-007/main.webp",
+        "full_device_fit": true,
+        "gallery_preserved": true
+      }
     }
-  ]
+  ],
+  "last_correction": {
+    "type": "card-layering-and-image-scale",
+    "page": "rgw_page_monoblocks.html",
+    "msi_main_source": "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
+    "changed_assets": [
+      "assets/products/mono-001/main.webp",
+      "assets/products/mono-003/main.webp",
+      "assets/products/mono-006/main.webp",
+      "assets/products/mono-007/main.webp"
+    ],
+    "note": "The existing additional galleries and product IDs remain unchanged."
+  }
 }

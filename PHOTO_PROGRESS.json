@@ -1,0 +1,258 @@
+{
+  "updatedAt": "2026-10-20",
+  "scope": "Первые 10 ноутбуков каталога",
+  "imageRoot": "assets/products",
+  "rightsNote": "Использованы официальные страницы и media-assets производителей. Право коммерческого повторного размещения каждого asset требует отдельной ручной проверки.",
+  "records": [
+    {
+      "id": "laptop-001",
+      "brand": "Acer",
+      "model": "ACER ASPIRE GO 15 AG15-42P-R917",
+      "status": "completed",
+      "photoCount": 1,
+      "matchScope": "Точная модель AG15-42P-R917, part number NX.JJHAA.003",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://www.acer.com/us-en/laptops/aspire/aspire-go-amd/pdp/NX.JJHAA.003",
+          "role": "model-verification"
+        },
+        {
+          "url": "https://images.acer.com/is/image/acer/acer-aspire-go-15-ag15-42p-non-fingerprint-non-backlit-wp-copilot-pure-silver-01?wid=1000&hei=1000",
+          "role": "main"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-001/main.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-002",
+      "brand": "ASUS",
+      "model": "ASUS ROG STRIX G815LM-IS96",
+      "status": "completed",
+      "photoCount": 1,
+      "matchScope": "Точная конфигурация G815LM-IS96",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://rog.asus.com/us/laptops/rog-strix/rog-strix-g18-2025/spec/",
+          "role": "model-verification"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/EE917E2F-76B0-4482-B65A-9A6D6EE8C9CB/w1600",
+          "role": "main"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-002/main.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-003",
+      "brand": "ASUS",
+      "model": "ASUS VIVOBOOK X1504VA-BQ4172",
+      "status": "completed_family_match",
+      "photoCount": 4,
+      "matchScope": "Официальное семейство ASUS Vivobook 15 X1504; текущий вариант X1504VA",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://www.asus.com/laptops/for-home/vivobook/asus-vivobook-15-x1504/",
+          "role": "model-family-verification"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/c07e97f2-896a-4055-9526-21485f507b72/w800",
+          "role": "main"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/7d48961d-95e3-4f95-a4b9-37c0a1dbd42c/w800",
+          "role": "side"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/1b38954c-6bbe-4039-b69b-0d4c21436788/w800",
+          "role": "detail"
+        },
+        {
+          "url": "https://dlcdnwebimgs.asus.com/gain/69f86903-0756-4db3-976e-ebe1a26c357d/w800",
+          "role": "angle"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-003/main.webp",
+        "assets/products/laptop-003/side.webp",
+        "assets/products/laptop-003/detail.webp",
+        "assets/products/laptop-003/angle.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-004",
+      "brand": "Lenovo",
+      "model": "LENOVO LEGION 5i",
+      "status": "completed",
+      "photoCount": 2,
+      "matchScope": "Точный machine type 83NX0000US, Legion 5 16IAX10",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://psref.lenovo.com/Detail/Legion_5_16IAX10?M=83NX0000US",
+          "role": "model-verification"
+        },
+        {
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/Legion/Legion_5_16IAX10/Legion_5_16IAX10_Spec.PDF",
+          "role": "official-image-source"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-004/main.webp",
+        "assets/products/laptop-004/back.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-005",
+      "brand": "Lenovo",
+      "model": "LENOVO IP SLIM3 15IRH10",
+      "status": "completed_family_match",
+      "photoCount": 1,
+      "matchScope": "Официальное семейство IdeaPad Slim 3 15IRH10",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://psref.lenovo.com/Detail/IdeaPad_Slim_3_15IRH10?M=83K100C1DP",
+          "role": "model-family-verification"
+        },
+        {
+          "url": "https://psref.lenovo.com/syspool/Sys/PDF/IdeaPad/IdeaPad_Slim_3_15IRH10/IdeaPad_Slim_3_15IRH10_Spec.pdf",
+          "role": "official-image-source"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-005/main.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-006",
+      "brand": "HP",
+      "model": "HP VICTUS 15-FA2120NIA",
+      "status": "preserved_existing",
+      "photoCount": 1,
+      "matchScope": "Точная модель 15-fa2120nia, product family D15FCEA",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://www.hp.com/emea_middle_east-en/products/laptops/product-details/2103606996",
+          "role": "model-verification-and-existing-image-source"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-006/main.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-007",
+      "brand": "HP",
+      "model": "HP PROBOOK 450 G10",
+      "status": "completed_family_match",
+      "photoCount": 3,
+      "matchScope": "Официальное семейство ProBook 450 G10",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://www.hp.com/us-en/shop/mdp/laptops/probook-450",
+          "role": "model-family-verification"
+        },
+        {
+          "url": "https://hp.widen.net/content/nwromex1oa/webp/nwromex1oa.png?w=1400&h=1100&dpi=72&color=ffffff00",
+          "role": "main"
+        },
+        {
+          "url": "https://hp.widen.net/content/dnisi0rvhi/webp/dnisi0rvhi.png?w=1400&h=1100&dpi=72&color=ffffff00",
+          "role": "angle"
+        },
+        {
+          "url": "https://hp.widen.net/content/thevlwgq4c/webp/thevlwgq4c.png?w=1400&h=1100&dpi=72&color=ffffff00",
+          "role": "back"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-007/main.webp",
+        "assets/products/laptop-007/angle.webp",
+        "assets/products/laptop-007/back.webp"
+      ],
+      "skipReason": null
+    },
+    {
+      "id": "laptop-008",
+      "brand": "HP",
+      "model": "HP 15-FD0183WM",
+      "status": "skipped_placeholder",
+      "photoCount": 0,
+      "matchScope": "Точный SKU не подтверждён официальным downloadable asset",
+      "rightsStatus": "not_used",
+      "sources": [
+        {
+          "url": "https://jp.ext.hp.com/notebooks/personal/hp_15_fd/",
+          "role": "family-check-only"
+        }
+      ],
+      "paths": [],
+      "skipReason": "Найдены только семейные кадры HP 15-fd и изображения ритейлера. Похожий семейный кадр и retailer asset не копировались без подтверждения точного SKU и разрешения на использование."
+    },
+    {
+      "id": "laptop-009",
+      "brand": "Dell",
+      "model": "DELL LDC15250-5434BLK-PUS",
+      "status": "skipped_placeholder",
+      "photoCount": 0,
+      "matchScope": "Официально подтверждено только семейство Dell 15 DC15250",
+      "rightsStatus": "not_used",
+      "sources": [
+        {
+          "url": "https://www.dell.com/en-us/shop/laptop-computers/spd/dell15laptopdc15250",
+          "role": "family-check-only"
+        }
+      ],
+      "paths": [],
+      "skipReason": "Для точного LDC15250-5434BLK-PUS не найден официальный downloadable asset с подтверждённым правом повторного размещения. Retailer images не копировались."
+    },
+    {
+      "id": "laptop-010",
+      "brand": "ASUS",
+      "model": "ASUS VIVOBOOK GO E1504FA",
+      "status": "completed",
+      "photoCount": 3,
+      "matchScope": "Точная конфигурация E1504FA-AS52, part number 90NB0ZR2-M00FE0",
+      "rightsStatus": "manual_rights_review_required",
+      "sources": [
+        {
+          "url": "https://eshop.asus.com/us/90nb0zr2-m00fe0-asus-vivobook-go-15-e1504f.html",
+          "role": "model-verification-and-image-source"
+        },
+        {
+          "url": "https://eshop.asus.com/media/catalog/product/b/a/ba89d4ba9eaf4ea87f02e0eb3462772b_2.png?format=auto&optimize=medium&bg-color=255%2C255%2C255&fit=bounds&height=1000&width=1000&canvas=1000%3A1000",
+          "role": "main"
+        },
+        {
+          "url": "https://eshop.asus.com/media/catalog/product/e/1/e139445754861ad5465e339abdeafd55_2.png?format=auto&optimize=medium&bg-color=255%2C255%2C255&fit=bounds&height=1000&width=1000&canvas=1000%3A1000",
+          "role": "angle"
+        },
+        {
+          "url": "https://eshop.asus.com/media/catalog/product/a/d/add409e9e88e32b7ed5cbcbd8de2c351_2.png?format=auto&optimize=medium&bg-color=255%2C255%2C255&fit=bounds&height=1000&width=1000&canvas=1000%3A1000",
+          "role": "back"
+        }
+      ],
+      "paths": [
+        "assets/products/laptop-010/main.webp",
+        "assets/products/laptop-010/angle.webp",
+        "assets/products/laptop-010/back.webp"
+      ],
+      "skipReason": null
+    }
+  ]
+}

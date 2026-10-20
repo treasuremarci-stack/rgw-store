@@ -1,6 +1,6 @@
 # PROJECT_STATUS.md — АКС current state
 
-Last updated: 2026-10-19
+Last updated: 2026-10-20
 
 ## Mode
 AUTONOMOUS-BY-STAGE.
@@ -11,7 +11,17 @@ The agent may decide how to execute the current approved stage, but MUST stop be
 
 Universal product-page integration stage completed for all remaining non-empty catalog categories.
 
-The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards and all 7 current monoblock cards. Product records keep stable identifiers and only confirmed model-specific characteristics; unsupported fields remain omitted. Product pages keep prices and real images as placeholders until later stages.
+The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards and all 7 current monoblock cards. Product records keep stable identifiers and only confirmed model-specific characteristics; unsupported fields remain omitted. Product pages keep prices as placeholders; photo stage 1 connected the first 10 laptop records to verified local assets where an exact or explicitly documented family match was available.
+
+## Photo stage 1 — first 10 laptops (2026-10-20)
+
+- Audited `laptop-001` through `laptop-010` and recorded every result in `PHOTO_PROGRESS.json`.
+- Connected 8 laptop records to 16 optimized local WebP files under `assets/products/PRODUCT_ID/`.
+- `laptop-001`, `laptop-002`, `laptop-004`, `laptop-006` and `laptop-010` use exact model/configuration evidence; `laptop-003`, `laptop-005` and `laptop-007` use official family/chassis evidence documented in the progress file.
+- `laptop-008` and `laptop-009` intentionally remain placeholders because a downloadable exact-SKU image with a confirmed reuse basis was not established. No similar-model or retailer image was copied.
+- Updated only the image fields for these laptop records and the corresponding static catalog image slots. The existing `product.html`/`product.js` gallery logic already supports `images[]`, so it was not rewritten.
+- All source files came from official manufacturer product/specification/media pages. `PHOTO_PROGRESS.json` marks the assets for manual rights review; an official page alone is not treated as a reuse licence.
+- Prices, product names, IDs, characteristics, `price.csv`, filters, sorting, other categories and the existing product-page architecture were not changed.
 
 ## Known project facts
 - Repository: `treasuremarci-stack/rgw-store`.

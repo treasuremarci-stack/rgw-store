@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T19:06:27.209251+00:00",
+  "updatedAt": "2026-10-20T19:08:13.002569+00:00",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Только точная модель на официальном домене; при отсутствии подтверждения сохранена заглушка.",
@@ -18,8 +18,8 @@
     },
     "Материнские платы": {
       "total": 16,
-      "downloaded": 1,
-      "existing": 4,
+      "downloaded": 0,
+      "existing": 5,
       "placeholder": 11
     },
     "Оперативная память": {
@@ -30,15 +30,15 @@
     },
     "SSD": {
       "total": 22,
-      "downloaded": 1,
-      "existing": 1,
+      "downloaded": 0,
+      "existing": 2,
       "placeholder": 20
     },
     "HDD": {
       "total": 8,
-      "downloaded": 3,
-      "existing": 0,
-      "placeholder": 5
+      "downloaded": 0,
+      "existing": 1,
+      "placeholder": 7
     },
     "Корпуса": {
       "total": 17,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 5,
-    "existing": 19,
-    "placeholder": 113,
-    "webp": 51
+    "downloaded": 0,
+    "existing": 22,
+    "placeholder": 115,
+    "webp": 49
   },
   "records": [
     {
@@ -463,23 +463,13 @@
       "id": "ssd-005",
       "category": "SSD",
       "model": "SSD NVMe Samsung 990 Evo plus 2 TB",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 1,
       "paths": [
         "images/products/ssd-005/main.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://images.samsung.com/kdp/goods/2024/09/23/ba37587a-8d8a-4f3f-8e21-f1b93a013371.png",
-          "page": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
-          "title": "NVMe Samsung 990 Evo plus 2 TB"
-        }
-      ],
-      "search_query": "NVMe Samsung 990 Evo plus 2 TB",
-      "domains_checked": [
-        "samsung.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "ssd-006",
@@ -875,23 +865,13 @@
       "id": "mb-016",
       "category": "Материнские платы",
       "model": "Материнка Gigabyte Z890 UD",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 1,
       "paths": [
         "images/products/mb-016/main.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://static.gigabyte.com/StaticFile/Image/Global/012e59168f5517938679d8df601d0da0/Product/42039",
-          "page": "https://www.gigabyte.com/Motherboard/Z890-UD-rev-10",
-          "title": "Mатеринка Gigabyte Z890 UD"
-        }
-      ],
-      "search_query": "Mатеринка Gigabyte Z890 UD",
-      "domains_checked": [
-        "gigabyte.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "ram-001",
@@ -1019,23 +999,13 @@
       "id": "hdd-001",
       "category": "HDD",
       "model": "HDD WD Purple 1 TB New",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 1,
       "paths": [
         "images/products/hdd-001/main.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-sata-hdd/gallery/wd-purple-surveillance-hard-drive-1tb.png",
-          "page": "https://www.westerndigital.com/en-ie/products/internal-drives/wd-purple-sata-hdd?sku=WD11PURZ",
-          "title": "1TB WD Purple Surveillance Hard Drive | WD"
-        }
-      ],
-      "search_query": "WD Purple 1 TB New",
-      "domains_checked": [
-        "westerndigital.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "hdd-002",
@@ -1083,23 +1053,15 @@
       "id": "hdd-005",
       "category": "HDD",
       "model": "HDD WD Purple 8 TB New",
-      "status": "downloaded",
-      "photo_count": 1,
-      "paths": [
-        "images/products/hdd-005/main.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-sata-hdd/gallery/wd-purple-surveillance-hard-drive-1tb.png",
-          "page": "https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD85PURZ",
-          "title": "8TB WD Purple Surveillance Hard Drive | WD"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "WD Purple 8 TB New",
       "domains_checked": [
         "westerndigital.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "hdd-006",
@@ -1119,23 +1081,15 @@
       "id": "hdd-007",
       "category": "HDD",
       "model": "HDD WD Purple 6 TB New",
-      "status": "downloaded",
-      "photo_count": 1,
-      "paths": [
-        "images/products/hdd-007/main.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-sata-hdd/gallery/wd-purple-surveillance-hard-drive-1tb.png",
-          "page": "https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD64PURZ",
-          "title": "6TB WD Purple Surveillance Hard Drive | WD"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "WD Purple 6 TB New",
       "domains_checked": [
         "westerndigital.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "hdd-008",

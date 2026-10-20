@@ -1511,8 +1511,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": "images/products/gpu-008/main.webp",
-    "placeholder": null,
+    "image": null,
+    "placeholder": "🎮",
     "identifiers": {
       "modelNumber": "RTX 5060 Ventus 2X 8G"
     },
@@ -1537,12 +1537,6 @@
         "value": "128 бит",
         "group": "Графика"
       }
-    ],
-    "images": [
-      "images/products/gpu-008/main.webp",
-      "images/products/gpu-008/01.webp",
-      "images/products/gpu-008/02.webp",
-      "images/products/gpu-008/03.webp"
     ]
   },
   {

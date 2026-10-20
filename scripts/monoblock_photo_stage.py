@@ -39,7 +39,9 @@ SOURCES = {
         "pages": [
             "https://www.hpshop.co.za/products/hp-200-g4-21-5-inch-fhd-all-in-one-pc-intel-core-i3-1215u-512gb-ssd-8gb-ram-win-11-pro-998k4et-321167",
         ],
-        "direct": [],
+        "direct": [
+            "https://www.hpshop.co.za/cdn/shop/files/6b29bc5b-b73d-4bbd-9fdc-09f4cda12e3f-1.jpg?v=1741354210&width=1000",
+        ],
         "hosts": ["hpshop.co.za", "hp.com", "hp.widen.net"],
         "keywords": ["200-g4", "200_g4", "998k4et", "hp-200"],
         "match_note": "Exact HP 200 G4 chassis, i3-1215U and Iron Grey source page; the catalog RAM/storage option is not visually distinguishable.",
@@ -134,6 +136,7 @@ def fetch_text(url: str) -> str:
 
 def normalize_candidate(url: str, page_url: str) -> str:
     value = html_lib.unescape(url.strip().strip("'\""))
+    value = re.split(r"&(?:media|description)=", value, maxsplit=1)[0]
     if value.startswith("//"):
         value = "https:" + value
     return urljoin(page_url, value)
@@ -458,6 +461,7 @@ def main():
     forbidden = [
         path for path in changed_files
         if not path.startswith(allowed_prefixes)
+        and path not in {".github/workflows/monoblock-photo-stage.yml", "scripts/monoblock_photo_stage.py"}
         or path.startswith("assets/products/laptop-")
         or path in PROTECTED_PATHS
     ]

@@ -53,8 +53,6 @@ DIRECT_PAGE_URLS = {
     "ssd-004": ["https://www.samsung.com/in/memory-storage/nvme-ssd/990-evo-plus-1tb-nvme-pcie-gen-4-mz-v9s1t0bw/"],
     "ssd-005": ["https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/"],
     "hdd-001": ["https://www.westerndigital.com/en-ie/products/internal-drives/wd-purple-sata-hdd?sku=WD11PURZ"],
-    "hdd-005": ["https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD85PURZ"],
-    "hdd-007": ["https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD64PURZ"],
     "cases-004": ["https://gamemaxpc.com/ru/list_175/3947.html"],
     "cases-010": ["https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization"],
     "cases-011": ["https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml"],

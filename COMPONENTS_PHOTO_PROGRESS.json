@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T18:59:00.294996+00:00",
+  "updatedAt": "2026-10-20T19:01:50.363737+00:00",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Только точная модель на официальном домене; при отсутствии подтверждения сохранена заглушка.",
@@ -42,29 +42,29 @@
     },
     "Корпуса": {
       "total": 17,
-      "downloaded": 4,
+      "downloaded": 0,
       "existing": 2,
-      "placeholder": 11
+      "placeholder": 15
     },
     "Блоки питания": {
       "total": 17,
-      "downloaded": 3,
-      "existing": 0,
-      "placeholder": 14
+      "downloaded": 0,
+      "existing": 1,
+      "placeholder": 16
     },
     "Охлаждение": {
       "total": 21,
-      "downloaded": 2,
+      "downloaded": 0,
       "existing": 2,
-      "placeholder": 17
+      "placeholder": 19
     }
   },
   "totals": {
     "products": 137,
-    "downloaded": 9,
-    "existing": 10,
-    "placeholder": 118,
-    "webp": 30
+    "downloaded": 0,
+    "existing": 11,
+    "placeholder": 126,
+    "webp": 14
   },
   "records": [
     {
@@ -1209,85 +1209,43 @@
       "id": "cases-010",
       "category": "Корпуса",
       "model": "Дип Кул CASE CH 370 WHITE",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/cases-010/main.webp",
-        "images/products/cases-010/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization",
-          "title": "CH370 WH - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization",
-          "title": "CH370 WH - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool CASE CH 370 WHITE",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "cases-011",
       "category": "Корпуса",
       "model": "Дип Кул CASE CH 370 BLACK",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/cases-011/main.webp",
-        "images/products/cases-011/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml",
-          "title": "CH370 - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml",
-          "title": "CH370 - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool CASE CH 370 BLACK",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "cases-012",
       "category": "Корпуса",
       "model": "Дип Кул CASE CG530 4F",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/cases-012/main.webp",
-        "images/products/cases-012/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml",
-          "title": "CG530 4F - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml",
-          "title": "CG530 4F - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool CASE CG530 4F",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "cases-013",
@@ -1315,29 +1273,15 @@
       "id": "cases-015",
       "category": "Корпуса",
       "model": "Дип Кул CASE CH 160 WHITE",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/cases-015/main.webp",
-        "images/products/cases-015/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml",
-          "title": "CH160 WH - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml",
-          "title": "CH160 WH - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool CASE CH 160 WHITE",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "cases-016",
@@ -1527,35 +1471,21 @@
       "id": "psu-014",
       "category": "Блоки питания",
       "model": "Дип Кул POWER PL800 D",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/psu-014/main.webp",
-        "images/products/psu-014/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml",
-          "title": "PL800D - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml",
-          "title": "PL800D - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool POWER PL800 D",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "psu-015",
       "category": "Блоки питания",
       "model": "Дип Кул POWER PN1000 D",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/psu-015/main.webp",
@@ -1563,61 +1493,22 @@
         "images/products/psu-015/02.webp",
         "images/products/psu-015/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://www.gamerstorm.com/public/ProductFile/PowerSupplyUnits/PN1000D/Overview/01_01.jpg",
-          "page": "https://www.gamerstorm.com/product/PowerSupply/2024-11/2153_15131.shtml",
-          "title": "PN1000D GamerStorm POWER SUPPLY"
-        },
-        {
-          "image": "https://www.gamerstorm.com/public/ProductFile/PowerSupplyUnits/PN1000D/Overview/01_02.jpg",
-          "page": "https://www.gamerstorm.com/product/PowerSupply/2024-11/2153_15131.shtml",
-          "title": "PN1000D GamerStorm POWER SUPPLY"
-        },
-        {
-          "image": "https://www.gamerstorm.com/public/ProductFile/PowerSupplyUnits/PN1000D/Overview/02_01.jpg",
-          "page": "https://www.gamerstorm.com/product/PowerSupply/2024-11/2153_15131.shtml",
-          "title": "PN1000D GamerStorm POWER SUPPLY"
-        },
-        {
-          "image": "https://www.gamerstorm.com/public/ProductFile/PowerSupplyUnits/PN1000D/Overview/03_01.jpg",
-          "page": "https://www.gamerstorm.com/product/PowerSupply/2024-11/2153_15131.shtml",
-          "title": "PN1000D GamerStorm POWER SUPPLY"
-        }
-      ],
-      "search_query": "DeepCool POWER PN1000 D",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "psu-016",
       "category": "Блоки питания",
       "model": "Дип Кул POWER PF750",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/psu-016/main.webp",
-        "images/products/psu-016/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization",
-          "title": "DeepCool-PF750"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization",
-          "title": "DeepCool-PF750"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool POWER PF750",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "psu-017",
@@ -1753,29 +1644,15 @@
       "id": "cooling-011",
       "category": "Охлаждение",
       "model": "Дип Кул LIQUID COOLER LQ240",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/cooling-011/main.webp",
-        "images/products/cooling-011/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml",
-          "title": "LQ240 - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml",
-          "title": "LQ240 - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool LIQUID COOLER LQ240",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "cooling-012",
@@ -1791,29 +1668,15 @@
       "id": "cooling-013",
       "category": "Охлаждение",
       "model": "Дип Кул LIQUID COOLER LM360",
-      "status": "downloaded",
-      "photo_count": 2,
-      "paths": [
-        "images/products/cooling-013/main.webp",
-        "images/products/cooling-013/01.webp"
-      ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/Design/homepage/mainbg.jpg?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml",
-          "title": "LM360 - DeepCool"
-        },
-        {
-          "image": "https://cdn.deepcool.com/Design/L3Banner/01_01.png?auto=format,compress&q=90",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml",
-          "title": "LM360 - DeepCool"
-        }
-      ],
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
       "search_query": "DeepCool LIQUID COOLER LM360",
       "domains_checked": [
         "deepcool.com"
-      ],
-      "catalog_linked": true
+      ]
     },
     {
       "id": "cooling-014",

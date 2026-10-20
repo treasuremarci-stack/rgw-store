@@ -157,24 +157,25 @@ def image_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
     except Exception:
         return []
     candidates = []
-    patterns = [
-        r'<a[^>]+class="iusc"[^>]+m="([^"]+)"',
-        r"<a[^>]+class='iusc'[^>]+m='([^']+)'",
-    ]
-    raw_blocks = []
-    for pattern in patterns:
-        raw_blocks.extend(re.findall(pattern, response.text, flags=re.I))
-    tokens = re.findall(r"[a-z0-9]+", query.lower())
-    for raw in raw_blocks:
+    tags = re.findall(
+        r'<a[^>]*class=["\'][^"\']*iusc[^"\']*["\'][^>]*>',
+        response.text,
+        flags=re.I,
+    )
+    for tag in tags:
+        match = re.search(r'\bm=["\'](.*?)["\']', tag, flags=re.I)
+        if not match:
+            continue
         try:
-            meta = json.loads(html.unescape(raw))
+            meta = json.loads(html.unescape(match.group(1)))
         except Exception:
             continue
-        purl = meta.get("purl") or ""
-        murl = meta.get("murl") or ""
+        purl = html.unescape(meta.get("purl") or "")
+        murl = html.unescape(meta.get("murl") or "")
         if not murl or not page_domain_match(purl, domain):
             continue
         searchable = (str(meta.get("t", "")) + " " + purl).lower()
+        tokens = re.findall(r"[a-z0-9]+", query.lower())
         score = sum(1 for token in tokens if len(token) > 2 and token in searchable)
         if score < 1:
             continue
@@ -193,6 +194,66 @@ def image_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
         if len(ordered) >= limit:
             break
     return ordered
+
+def official_page_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
+    search_url = "https://www.bing.com/search?q=" + quote(
+        "site:" + domain + " " + query
+    )
+    try:
+        response = session.get(search_url, timeout=30)
+        response.raise_for_status()
+    except Exception:
+        return []
+    page_urls = []
+    for href in re.findall(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', response.text, flags=re.I):
+        href = html.unescape(href)
+        if page_domain_match(href, domain) and href not in page_urls:
+            page_urls.append(href)
+        if len(page_urls) >= 6:
+            break
+    tokens = re.findall(r"[a-z0-9]+", query.lower())
+    candidates = []
+    seen = set()
+    for page_url in page_urls:
+        try:
+            page = session.get(page_url, timeout=30)
+            page.raise_for_status()
+        except Exception:
+            continue
+        page_text = page.text
+        title_match = re.search(r"<title[^>]*>(.*?)</title>", page_text, flags=re.I | re.S)
+        title = html.unescape(re.sub(r"<[^>]+>", " ", title_match.group(1))).strip() if title_match else ""
+        searchable = (title + " " + page_url + " " + page_text[:250000]).lower()
+        score = sum(1 for token in tokens if len(token) > 2 and token in searchable)
+        if score < 1:
+            continue
+        image_urls = []
+        meta_patterns = [
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']',
+            r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\']([^"\']+)',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']twitter:image["\']',
+            r'<link[^>]+rel=["\']image_src["\'][^>]+href=["\']([^"\']+)',
+        ]
+        for pattern in meta_patterns:
+            image_urls.extend(re.findall(pattern, page_text, flags=re.I))
+        for raw_url in image_urls:
+            image_url = html.unescape(raw_url)
+            if image_url.startswith("/"):
+                image_url = page_url.rstrip("/") + image_url
+            if image_url.startswith("http") and image_url not in seen:
+                seen.add(image_url)
+                candidates.append({
+                    "image_url": image_url,
+                    "page_url": page_url,
+                    "title": title,
+                    "score": score,
+                })
+            if len(candidates) >= limit:
+                break
+        if len(candidates) >= limit:
+            break
+    return candidates[:limit]
 
 def download_image(url: str, referer: str) -> Image.Image | None:
     try:
@@ -288,6 +349,8 @@ def main() -> None:
         candidates = []
         for domain in domains:
             candidates.extend(image_candidates(query, domain))
+            if not candidates:
+                candidates.extend(official_page_candidates(query, domain))
             if candidates:
                 break
         selected = []

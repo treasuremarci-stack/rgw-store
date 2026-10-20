@@ -71,16 +71,22 @@ def save(image, path, edge):
     image.save(path, "WEBP", quality=84, method=6)
 
 def patch_record(text, product_id, paths):
-    marker = '  {\\n    "id": "' + product_id + '"'
-    start = text.index(marker)
-    end = text.find('\\n  {\\n    "id": "', start + len(marker))
+    id_position = text.index('"id": "' + product_id + '"')
+    start = text.rfind("  {", 0, id_position)
+    newline = chr(10)
+    next_marker = newline + '  {' + newline + '    "id": "'
+    end = text.find(next_marker, id_position)
     if end < 0:
-        end = text.find("\\n  }\\n]", start) + len("\\n  }")
+        end = text.find(newline + "  }" + newline + "]", id_position) + len(newline + "  }")
     record = text[start:end]
-    items = ",\\n".join("      " + json.dumps(path, ensure_ascii=False) for path in paths)
-    replacement = '"image": ' + json.dumps(paths[0], ensure_ascii=False) + ',\\n    "images": [\\n' + items + '\\n    ],'
-    record = re.sub(r'"image": "[^"]+",\\n    "images": \\[.*?\\n    \\],', replacement, record, count=1, flags=re.S)
-    return text[:start] + record + text[end:]
+    items = "," + newline.join([])
+    items = ("," + newline).join("      " + json.dumps(path, ensure_ascii=False) for path in paths)
+    replacement = '"image": ' + json.dumps(paths[0], ensure_ascii=False) + ',' + newline + '    "images": [' + newline + items + newline + "    ],"
+    pattern = re.compile(r'"image": "[^"]+",' + newline + r'    "images": \[.*?' + newline + r"    \],", re.S)
+    updated, count = pattern.subn(replacement, record, count=1)
+    if count != 1:
+        raise RuntimeError("image block not found for " + product_id)
+    return text[:start] + updated + text[end:]
 
 def run_git(*args):
     subprocess.run(["git", *args], check=True)
@@ -125,6 +131,7 @@ def main():
         if record.get("id") == "laptop-011":
             record["status"] = "completed_exact_product_page"
             record["photoCount"] = len(msi_paths)
+            record["paths"] = msi_paths
             record["matchScope"] = "Точная конфигурация подтверждена страницей товара; уникальные кадры exact product page"
             record["sources"] = [
                 {
@@ -162,25 +169,18 @@ def main():
             ]
             record["matchScope"] = "Точная конфигурация подтверждена страницей товара; два прямых asset exact-конфигурации"
     progress["updatedAt"] = "2026-10-20"
-    progress_path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    progress_path.write_text(json.dumps(progress, ensure_ascii=False, indent=2) + chr(10), encoding="utf-8")
 
     status_path = ROOT / "PROJECT_STATUS.md"
-    status = status_path.read_text(encoding="utf-8")
-    status = re.sub(
-        r"^- laptop-011:.*$",
-        "- laptop-011: exact product-page source; добавлено " + str(len(msi_paths)) + " уникальных WebP: " + ", ".join(msi_paths) + ".",
-        status,
-        count=1,
-        flags=re.M,
-    )
-    status = re.sub(
-        r"^- laptop-012:.*$",
-        "- laptop-012: exact configuration fallback; добавлено 2 WebP: assets/products/laptop-012/main.webp, assets/products/laptop-012/angle.webp.",
-        status,
-        count=1,
-        flags=re.M,
-    )
-    status_path.write_text(status, encoding="utf-8")
+    status_lines = status_path.read_text(encoding="utf-8").splitlines()
+    new_lines = []
+    for line in status_lines:
+        if line.startswith("- laptop-011:"):
+            line = "- laptop-011: exact product-page source; добавлено " + str(len(msi_paths)) + " уникальных WebP: " + ", ".join(msi_paths) + "."
+        elif line.startswith("- laptop-012:"):
+            line = "- laptop-012: exact configuration fallback; добавлено 2 WebP: assets/products/laptop-012/main.webp, assets/products/laptop-012/angle.webp."
+        new_lines.append(line)
+    status_path.write_text(chr(10).join(new_lines) + chr(10), encoding="utf-8")
 
     for path in [ROOT / ".github/workflows/photo-gallery-repair.yml", ROOT / "scripts/photo_gallery_repair.py"]:
         if path.exists():

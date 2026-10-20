@@ -43,6 +43,11 @@ PAGE_MAP = {
     "Охлаждение": "rgw_page_cooling.html",
 }
 
+DIRECT_PAGE_URLS = {
+    "gpu-005": ["https://galax.com/en/product/geforce-rtx-5080-16gb-1-click-oc-3x/"],
+    "gpu-007": ["https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/"],
+    "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
+
 DOMAIN_BY_BRAND = {
     "asus": "asus.com",
     "msi": "msi.com",
@@ -195,7 +200,7 @@ def image_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
             break
     return ordered
 
-def official_page_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
+def official_page_candidates(query: str, domain: str, direct_pages: list[str] | None = None, limit: int = 8) -> list[dict]:
     search_url = "https://www.bing.com/search?q=" + quote(
         "site:" + domain + " " + query
     )
@@ -204,13 +209,14 @@ def official_page_candidates(query: str, domain: str, limit: int = 8) -> list[di
         response.raise_for_status()
     except Exception:
         return []
-    page_urls = []
-    for href in re.findall(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', response.text, flags=re.I):
-        href = html.unescape(href)
-        if page_domain_match(href, domain) and href not in page_urls:
-            page_urls.append(href)
-        if len(page_urls) >= 6:
-            break
+    page_urls = list(direct_pages or [])
+    if not page_urls:
+        for href in re.findall(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', response.text, flags=re.I):
+            href = html.unescape(href)
+            if page_domain_match(href, domain) and href not in page_urls:
+                page_urls.append(href)
+            if len(page_urls) >= 6:
+                break
     tokens = re.findall(r"[a-z0-9]+", query.lower())
     candidates = []
     seen = set()
@@ -350,7 +356,7 @@ def main() -> None:
         for domain in domains:
             candidates.extend(image_candidates(query, domain))
             if not candidates:
-                candidates.extend(official_page_candidates(query, domain))
+                candidates.extend(official_page_candidates(query, domain, DIRECT_PAGE_URLS.get(pid)))
             if candidates:
                 break
         selected = []

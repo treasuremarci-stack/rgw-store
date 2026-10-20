@@ -44,7 +44,6 @@ PAGE_MAP = {
 }
 
 DIRECT_PAGE_URLS = {
-    "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
     "gpu-007": ["https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/"],
     "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
     "mb-002": ["https://www.asus.com/motherboards-components/motherboards/prime/prime-z790-p/"],
@@ -70,6 +69,7 @@ DIRECT_PAGE_URLS = {
 
 DIRECT_IMAGE_URLS = {
     "gpu-007": ["https://www.asus.com/media/global/products/os8hWTXz7e7Le4Fx/P_setting_xxx_0_90_end_692.png"],
+    "mb-002": ["https://dlcdnwebimgs.asus.com/gain/43e53de1-895e-4af8-be66-fa3c8d0db8d9/w800"],
 }
 
 DOMAIN_BY_BRAND = {

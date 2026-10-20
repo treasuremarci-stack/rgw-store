@@ -71,6 +71,14 @@ DIRECT_PAGE_URLS = {
 DIRECT_IMAGE_URLS = {
     "gpu-007": ["https://www.asus.com/media/global/products/os8hWTXz7e7Le4Fx/P_setting_xxx_0_90_end_692.png"],
     "mb-002": ["https://dlcdnwebimgs.asus.com/gain/43e53de1-895e-4af8-be66-fa3c8d0db8d9/w800"],
+    "cases-010": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/04.jpg\""],
+    "cases-011": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/04.jpg\""],
+    "cases-012": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/04.jpg\""],
+    "cases-015": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/04.jpg\""],
+    "psu-014": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/04.jpg\""],
+    "psu-016": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/04.jpg\""],
+    "cooling-011": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/04.jpg\""],
+    "cooling-013": ["\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/01.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/02.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/03.jpg\"","\"https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/04.jpg\""],
 }
 
 DOMAIN_BY_BRAND = {
@@ -281,6 +289,7 @@ def official_page_candidates(query: str, domain: str, direct_pages: list[str] | 
                 not image_url.startswith("http")
                 or any(word in lowered for word in ("logo", "icon", "favicon", "avatar", "sprite"))
                 or lowered.endswith((".svg", ".js", ".css", ".html", ".htm", ".json", ".xml"))
+                or ("deepcool.com" in lowered and "productfile" not in lowered)
             ):
                 continue
             if image_url not in seen:

@@ -395,3 +395,12 @@ After owner review, continue with photos for other categories. Laptops after com
 - Галерея использует существующий product.js и массив images[]; filter/sort/card layout не переписывались.
 - Перед коммитом проверяется, что изменены только системные image-слоты, новые локальные WebP, progress-файл и этот статус.
 \n\n## Published verification — system-unit photo stage (2026-10-20)\n\n- GitHub Pages build/deployment for the system-unit photo commit f5c765fa959248760d03759530d01373a292cf53 completed successfully (run 39474394312).\n- Static verification confirmed all 8 system-unit IDs, 40 local WebP files, catalog image slots, existing product.html?id=... gallery wiring, unchanged prices and unchanged non-image product data.\n- The final diff contains no laptop, monoblock or other-category page/assets; the temporary processing workflow/script were removed from the final tree.\n- An interactive browser/screenshot runtime is not available in this environment, so live visual inspection of the published pages could not be performed here; the source-tree and Pages deployment checks were completed.\n
+
+## Исправление дублирования чекбоксов системных блоков (2026-10-20)
+
+- В соответствующем файле категории `rgw_page_system_units.html` устранено двойное отображение: настоящий `input[type="checkbox"]` сохранён для работы фильтра, а его нативная отрисовка визуально скрыта тем же правилом, что используется в `rgw_page_monoblocks.html`.
+- Кастомные `.checkmark`, RGW-цвет, hover строки, checked-галочка, переходы, focus и reduced-motion не менялись.
+- Проверены все группы с checkbox: «Производитель» (1 значение) и «Цвет» (2 значения); у каждого input остался ровно один `.checkmark`.
+- JS фильтрации не переписывался: сохранён существующий обработчик `change`, а выбор/снятие checkbox по-прежнему обновляет карточки и счётчики.
+- Карточки, фотографии, цены, характеристики, SKU, ID, данные товаров и другие категории не изменялись.
+- Выполнена статическая проверка HTML/CSS/JS. Интерактивный браузерный runtime для live-проверки hover/tap в окружении недоступен; публикация GitHub Pages проверяется отдельно.

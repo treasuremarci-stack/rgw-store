@@ -1,0 +1,1777 @@
+{
+  "updatedAt": "2026-10-20T18:39:56.358961+00:00",
+  "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
+  "imageRoot": "images/products/<PRODUCT_ID>/",
+  "policy": "Только точная модель на официальном домене; при отсутствии подтверждения сохранена заглушка.",
+  "categories": {
+    "Видеокарты": {
+      "total": 8,
+      "downloaded": 0,
+      "existing": 0,
+      "placeholder": 8
+    },
+    "Процессоры": {
+      "total": 17,
+      "downloaded": 0,
+      "existing": 0,
+      "placeholder": 17
+    },
+    "Материнские платы": {
+      "total": 16,
+      "downloaded": 0,
+      "existing": 3,
+      "placeholder": 13
+    },
+    "Оперативная память": {
+      "total": 11,
+      "downloaded": 0,
+      "existing": 0,
+      "placeholder": 11
+    },
+    "SSD": {
+      "total": 22,
+      "downloaded": 0,
+      "existing": 1,
+      "placeholder": 21
+    },
+    "HDD": {
+      "total": 8,
+      "downloaded": 0,
+      "existing": 0,
+      "placeholder": 8
+    },
+    "Корпуса": {
+      "total": 17,
+      "downloaded": 0,
+      "existing": 2,
+      "placeholder": 15
+    },
+    "Блоки питания": {
+      "total": 17,
+      "downloaded": 0,
+      "existing": 0,
+      "placeholder": 17
+    },
+    "Охлаждение": {
+      "total": 21,
+      "downloaded": 0,
+      "existing": 2,
+      "placeholder": 19
+    }
+  },
+  "totals": {
+    "products": 137,
+    "downloaded": 0,
+    "existing": 8,
+    "placeholder": 129,
+    "webp": 8
+  },
+  "records": [
+    {
+      "id": "gpu-001",
+      "category": "Видеокарты",
+      "model": "Видеокарта A76D Black GF RTX3050 6GB EX White PCI-E / GDDR6 96Bit",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "GALAX A76D Black GF RTX3050 6GB EX White PCI-E / GDDR6 96Bit",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "gpu-002",
+      "category": "Видеокарты",
+      "model": "Видеокарта B67D Black GF RTX5060 Ti 1-Click OC White PCI-E 8GB / GDDR7",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "GALAX B67D Black GF RTX5060 Ti 1-Click OC White PCI-E 8GB / GDDR7",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "gpu-003",
+      "category": "Видеокарты",
+      "model": "Видеокарта B67O Black GF RTX5060 1-Click OC V2 PCI-E 8GB / GDDR7 128BIT",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "GALAX B67O Black GF RTX5060 1-Click OC V2 PCI-E 8GB / GDDR7 128BIT",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "gpu-004",
+      "category": "Видеокарты",
+      "model": "Видеокарта B76O Black GF RTX5050 1-Click OC PCI-E 8GB / GDDR6",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "GALAX B76O Black GF RTX5050 1-Click OC PCI-E 8GB / GDDR6",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "gpu-005",
+      "category": "Видеокарты",
+      "model": "Видеокарта GALAX B37S Black GF RTX5080 1-Click OC PCI-E 16GB / GDDR7",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "GALAX GALAX B37S Black GF RTX5080 1-Click OC PCI-E 16GB / GDDR7",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "gpu-006",
+      "category": "Видеокарты",
+      "model": "Видеокарта Galax PG190 BLACK GF RTX 3060 1-Click OC PCI-E 12GB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Galax PG190 BLACK GF RTX 3060 1-Click OC PCI-E 12GB",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "gpu-007",
+      "category": "Видеокарты",
+      "model": "Видеокарта ASUS GT 710 2G DDR5",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "ASUS GT 710 2G DDR5",
+      "domains_checked": [
+        "asus.com"
+      ]
+    },
+    {
+      "id": "gpu-008",
+      "category": "Видеокарты",
+      "model": "Видеокарта MSI RTX 5060 8G Ventus 2X",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "MSI RTX 5060 8G Ventus 2X",
+      "domains_checked": [
+        "msi.com"
+      ]
+    },
+    {
+      "id": "cpu-001",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i3 14100",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i3 14100",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-002",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i7 -14700КF",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i7-14700KF",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-003",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i7 -4770",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i7-4770",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-004",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i9 -14900KF",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i9-14900KF",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-005",
+      "category": "Процессоры",
+      "model": "Процессор I3-3260",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel I3-3260",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-006",
+      "category": "Процессоры",
+      "model": "Процессор I5-4460",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel I5-4460",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-007",
+      "category": "Процессоры",
+      "model": "Процессор TRAY Ultra 5 245K",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel TRAY Ultra 5 245K",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-008",
+      "category": "Процессоры",
+      "model": "Процессор TRAY Ultra 5 245KF",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel TRAY Ultra 5 245KF",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-009",
+      "category": "Процессоры",
+      "model": "Процессор TRAY Ultra 7 265K",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel TRAY Ultra 7 265K",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-010",
+      "category": "Процессоры",
+      "model": "Процессор TRAY Ultra 9 285K Arrow Lake",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel TRAY Ultra 9 285K Arrow Lake",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-011",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i3-9100F",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i3-9100F",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-012",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i9 -14900K",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i9-14900K",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-013",
+      "category": "Процессоры",
+      "model": "Процессор I5-3470",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel I5-3470",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-014",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i7 -14700",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i7-14700",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-015",
+      "category": "Процессоры",
+      "model": "Процессор Intel Core i7 -14700К",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel Core i7-14700K",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-016",
+      "category": "Процессоры",
+      "model": "Процессор I3-4170",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel I3-4170",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "cpu-017",
+      "category": "Процессоры",
+      "model": "Процессор TRAY Ultra 5 225F",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Intel TRAY Ultra 5 225F",
+      "domains_checked": [
+        "intel.com"
+      ]
+    },
+    {
+      "id": "ssd-001",
+      "category": "SSD",
+      "model": "SSD 2,5 Lexar 512 GB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-002",
+      "category": "SSD",
+      "model": "SSD Lexar M.2 2280 NVMe SSD 1ТB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-003",
+      "category": "SSD",
+      "model": "SSD Lexar M.2 2280 NVMe SSD 512",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-004",
+      "category": "SSD",
+      "model": "SSD NVMe Samsung 990 Evo plus 1 TB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Samsung 990 Evo plus 1 TB",
+      "domains_checked": [
+        "samsung.com"
+      ]
+    },
+    {
+      "id": "ssd-005",
+      "category": "SSD",
+      "model": "SSD NVMe Samsung 990 Evo plus 2 TB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Samsung 990 Evo plus 2 TB",
+      "domains_checked": [
+        "samsung.com"
+      ]
+    },
+    {
+      "id": "ssd-006",
+      "category": "SSD",
+      "model": "SSD NVMe Samsung 990 Pro 1TB",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-006/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "ssd-007",
+      "category": "SSD",
+      "model": "SSD NVMe Samsung 990 Pro 2TB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Samsung 990 Pro 2TB",
+      "domains_checked": [
+        "samsung.com"
+      ]
+    },
+    {
+      "id": "ssd-008",
+      "category": "SSD",
+      "model": "SSD 2,5 Lexar 128 GB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-009",
+      "category": "SSD",
+      "model": "SSD Lexar M.2 2280 NVMe SSD 2ТB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-010",
+      "category": "SSD",
+      "model": "SSD NVMe Lexar 1TB LNM 790",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Lexar 1TB LNM 790",
+      "domains_checked": [
+        "lexar.com"
+      ]
+    },
+    {
+      "id": "ssd-011",
+      "category": "SSD",
+      "model": "SSD NVMe Lexar 2TB LNM 790",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Lexar 2TB LNM 790",
+      "domains_checked": [
+        "lexar.com"
+      ]
+    },
+    {
+      "id": "ssd-012",
+      "category": "SSD",
+      "model": "SSD HP FX 700 NVMe SSD 512",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "HP FX 700 NVMe SSD 512",
+      "domains_checked": [
+        "hp.com"
+      ]
+    },
+    {
+      "id": "ssd-013",
+      "category": "SSD",
+      "model": "SSD NVMe Samsung 256 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-014",
+      "category": "SSD",
+      "model": "SSD Kingston M.2 2280 NVMe SSD 1 TB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-015",
+      "category": "SSD",
+      "model": "SSD NVMe Samsung 980 512 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Samsung 980 512 Gb",
+      "domains_checked": [
+        "samsung.com"
+      ]
+    },
+    {
+      "id": "ssd-016",
+      "category": "SSD",
+      "model": "SSD Lexar THOR PRO M.2 2280 NVMe SSD 512",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Lexar THOR PRO M.2 2280 NVMe SSD 512",
+      "domains_checked": [
+        "lexar.com"
+      ]
+    },
+    {
+      "id": "ssd-017",
+      "category": "SSD",
+      "model": "SSD 2,5 Lexar 1TB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-018",
+      "category": "SSD",
+      "model": "SSD Lexar M.2 2280 NVMe SSD 256",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-019",
+      "category": "SSD",
+      "model": "SSD 2,5 Kingston 480 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-020",
+      "category": "SSD",
+      "model": "SSD 2,5 Lexar 2TB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ssd-021",
+      "category": "SSD",
+      "model": "SSD NVMe Lexar 512 GB LNM 790",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "NVMe Lexar 512 GB LNM 790",
+      "domains_checked": [
+        "lexar.com"
+      ]
+    },
+    {
+      "id": "ssd-022",
+      "category": "SSD",
+      "model": "SSD 2,5 Lexar 256 GB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "mb-001",
+      "category": "Материнские платы",
+      "model": "Материнка Asus B760 M-F",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Asus B760 M-F",
+      "domains_checked": [
+        "asus.com"
+      ]
+    },
+    {
+      "id": "mb-002",
+      "category": "Материнские платы",
+      "model": "Материнка ASUS Z790-P",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка ASUS Z790-P",
+      "domains_checked": [
+        "asus.com"
+      ]
+    },
+    {
+      "id": "mb-003",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte B760 М E",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mb-003/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "mb-004",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte B760 М Н DDR4",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mb-004/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "mb-005",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte H610 DDR4",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Gigabyte H610 DDR4",
+      "domains_checked": [
+        "gigabyte.com"
+      ]
+    },
+    {
+      "id": "mb-006",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte Z890M AORUS ELITE WIFI7 ICE",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mb-006/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "mb-007",
+      "category": "Материнские платы",
+      "model": "Материнка Китай H61 Esonik",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "mb-008",
+      "category": "Материнские платы",
+      "model": "Материнка Китай H610 Esonik",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "mb-009",
+      "category": "Материнские платы",
+      "model": "Материнка Китай H81 Esonik",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "mb-010",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte B760 М K DDR 4",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Gigabyte B760 M K DDR 4",
+      "domains_checked": [
+        "gigabyte.com"
+      ]
+    },
+    {
+      "id": "mb-011",
+      "category": "Материнские платы",
+      "model": "Материнка Asus H610 M G D4",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Asus H610 M G D4",
+      "domains_checked": [
+        "asus.com"
+      ]
+    },
+    {
+      "id": "mb-012",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte B760 D5",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Gigabyte B760 D5",
+      "domains_checked": [
+        "gigabyte.com"
+      ]
+    },
+    {
+      "id": "mb-013",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte Н 810 M-K DDR5",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Gigabyte H 810 M-K DDR5",
+      "domains_checked": [
+        "gigabyte.com"
+      ]
+    },
+    {
+      "id": "mb-014",
+      "category": "Материнские платы",
+      "model": "Материнка Аsus Prime B 860 M-Bro DDR5",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Asus Prime B 860 M-Bro DDR5",
+      "domains_checked": [
+        "asus.com"
+      ]
+    },
+    {
+      "id": "mb-015",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte Z790 D DDR5",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Gigabyte Z790 D DDR5",
+      "domains_checked": [
+        "gigabyte.com"
+      ]
+    },
+    {
+      "id": "mb-016",
+      "category": "Материнские платы",
+      "model": "Материнка Gigabyte Z890 UD",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Mатеринка Gigabyte Z890 UD",
+      "domains_checked": [
+        "gigabyte.com"
+      ]
+    },
+    {
+      "id": "ram-001",
+      "category": "Оперативная память",
+      "model": "Оперативка Lexar DDR4 3200 16 Gb Радиатор",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-002",
+      "category": "Оперативная память",
+      "model": "Оперативка Lexar DDR4 3200 16 Gb Ноутбук",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-003",
+      "category": "Оперативная память",
+      "model": "Оперативка Lexar DDR4 3200 8 Gb Ноутбук",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-004",
+      "category": "Оперативная память",
+      "model": "Оперативка Китай DDR3 8 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-005",
+      "category": "Оперативная память",
+      "model": "Оперативка Kingston FURY Beast 32 ГБ DDR5 5200",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kingston FURY Beast 32 ГБ DDR5 5200",
+      "domains_checked": [
+        "kingston.com"
+      ]
+    },
+    {
+      "id": "ram-006",
+      "category": "Оперативная память",
+      "model": "Оперативка Lexar DDR4 3200 16 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-007",
+      "category": "Оперативная память",
+      "model": "Оперативка Китай DDR3 4 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-008",
+      "category": "Оперативная память",
+      "model": "Оперативка Lexar Thor DDR5 6000 8 Gb",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Lexar Thor DDR5 6000 8 Gb",
+      "domains_checked": [
+        "lexar.com"
+      ]
+    },
+    {
+      "id": "ram-009",
+      "category": "Оперативная память",
+      "model": "Оперативка Kingston 16 ГБ DDR4 3200",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-010",
+      "category": "Оперативная память",
+      "model": "Оперативка Kingston 8 ГБ DDR4 2666",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "ram-011",
+      "category": "Оперативная память",
+      "model": "Оперативка Kingston FURY Beast 16 ГБ DDR5 5200",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kingston FURY Beast 16 ГБ DDR5 5200",
+      "domains_checked": [
+        "kingston.com"
+      ]
+    },
+    {
+      "id": "hdd-001",
+      "category": "HDD",
+      "model": "HDD WD Purple 1 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 1 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-002",
+      "category": "HDD",
+      "model": "HDD WD Purple 10 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 10 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-003",
+      "category": "HDD",
+      "model": "HDD WD Purple 14 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 14 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-004",
+      "category": "HDD",
+      "model": "HDD WD Purple 2 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 2 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-005",
+      "category": "HDD",
+      "model": "HDD WD Purple 8 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 8 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-006",
+      "category": "HDD",
+      "model": "HDD WD Purple 4 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 4 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-007",
+      "category": "HDD",
+      "model": "HDD WD Purple 6 TB New",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "WD Purple 6 TB New",
+      "domains_checked": [
+        "westerndigital.com"
+      ]
+    },
+    {
+      "id": "hdd-008",
+      "category": "HDD",
+      "model": "HDD 1TB 2,5 Ноутбучный",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-001",
+      "category": "Корпуса",
+      "model": "Кейс 240",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-002",
+      "category": "Корпуса",
+      "model": "Кейс Aigo DK352 (PLUS) White black with 4 fans",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kейс Aigo DK352 (PLUS) White black with 4 fans",
+      "domains_checked": [
+        "aigo.com.cn"
+      ]
+    },
+    {
+      "id": "cases-003",
+      "category": "Корпуса",
+      "model": "Кейс Gamemax Vista Pro ATX BK WH",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-004",
+      "category": "Корпуса",
+      "model": "Кейс Gamemax Infinity Black WH ATX",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-005",
+      "category": "Корпуса",
+      "model": "Кейс Gamemax Hype-M ATX BK WH",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-006",
+      "category": "Корпуса",
+      "model": "Кейс Gamemax ATX INFINITY PLUS WT BK",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-007",
+      "category": "Корпуса",
+      "model": "Кейс 360",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-008",
+      "category": "Корпуса",
+      "model": "Кейс Vision USB 3.0",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-009",
+      "category": "Корпуса",
+      "model": "Кейс Aigo C285M Black White",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kейс Aigo C285M Black White",
+      "domains_checked": [
+        "aigo.com.cn"
+      ]
+    },
+    {
+      "id": "cases-010",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CH 370 WHITE",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool CASE CH 370 WHITE",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cases-011",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CH 370 BLACK",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool CASE CH 370 BLACK",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cases-012",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CG530 4F",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool CASE CG530 4F",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cases-013",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CG580 4F V2",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cases-013/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "cases-014",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE MATREXX 50",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cases-015",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CH 160 WHITE",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool CASE CH 160 WHITE",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cases-016",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CC560 LIMITED V2",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool CASE CC560 LIMITED V2",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cases-017",
+      "category": "Корпуса",
+      "model": "Дип Кул CASE CG380 3F",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cases-017/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "psu-001",
+      "category": "Блоки питания",
+      "model": "Блок Питания GALAX OMEGA GL650S, Power Supply",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "GALAX OMEGA GL650S, Power Supply",
+      "domains_checked": [
+        "galax.com"
+      ]
+    },
+    {
+      "id": "psu-002",
+      "category": "Блоки питания",
+      "model": "Блок Питания Segotep Power Supply AN650W",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Segotep Power Supply AN650W",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "psu-003",
+      "category": "Блоки питания",
+      "model": "Блок Питания Segotep Power Supply GM1000W (ATX3.0 & PCIE 5.0)",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Segotep Power Supply GM1000W (ATX3.0 & PCIE 5.0)",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "psu-004",
+      "category": "Блоки питания",
+      "model": "Блок Питания Segotep Power Supply GM1250W",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Segotep Power Supply GM1250W",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "psu-005",
+      "category": "Блоки питания",
+      "model": "Блок Питания Segotep Power Supply GM1250W (ATX3.0 & PCIE 5.0)",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Segotep Power Supply GM1250W (ATX3.0 & PCIE 5.0)",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "psu-006",
+      "category": "Блоки питания",
+      "model": "Блок Питания Vision 550wat",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "psu-007",
+      "category": "Блоки питания",
+      "model": "Блок Питания Vision 550wat МИНИ",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "psu-008",
+      "category": "Блоки питания",
+      "model": "Блок Питания Vision 750 wat ОЕМ",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "psu-009",
+      "category": "Блоки питания",
+      "model": "Блок Питания Vision 850 wat ОЕМ",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "psu-010",
+      "category": "Блоки питания",
+      "model": "Блок Питания 500 wat Dragon",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "psu-011",
+      "category": "Блоки питания",
+      "model": "Блок Питания Segotep Power Supply GM850W",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Segotep Power Supply GM850W",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "psu-012",
+      "category": "Блоки питания",
+      "model": "Блок Питания Vision 600wat",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "psu-013",
+      "category": "Блоки питания",
+      "model": "Блок Питания Cooler Master 600W",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Cooler Master 600W",
+      "domains_checked": [
+        "coolermaster.com"
+      ]
+    },
+    {
+      "id": "psu-014",
+      "category": "Блоки питания",
+      "model": "Дип Кул POWER PL800 D",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool POWER PL800 D",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "psu-015",
+      "category": "Блоки питания",
+      "model": "Дип Кул POWER PN1000 D",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool POWER PN1000 D",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "psu-016",
+      "category": "Блоки питания",
+      "model": "Дип Кул POWER PF750",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool POWER PF750",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "psu-017",
+      "category": "Блоки питания",
+      "model": "Дип Кул POWER PF600X",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool POWER PF600X",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cooling-001",
+      "category": "Охлаждение",
+      "model": "Кулер Segotep cooler К6",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kулер Segotep cooler K6",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "cooling-002",
+      "category": "Охлаждение",
+      "model": "Кулер Segotep water cooler 240S RGB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kулер Segotep water cooler 240S RGB",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "cooling-003",
+      "category": "Охлаждение",
+      "model": "Кулер Segotep water cooler 360S RGB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kулер Segotep water cooler 360S RGB",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "cooling-004",
+      "category": "Охлаждение",
+      "model": "Кулер INTELL 1700",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-005",
+      "category": "Охлаждение",
+      "model": "Кулер Segotep 120S Водиной 1 куллера",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "Kулер Segotep 120S Водиной 1 куллера",
+      "domains_checked": [
+        "segotep.com"
+      ]
+    },
+    {
+      "id": "cooling-006",
+      "category": "Охлаждение",
+      "model": "Кулер 360 водянка",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-007",
+      "category": "Охлаждение",
+      "model": "Куллер Вал Валак",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-008",
+      "category": "Охлаждение",
+      "model": "Кулер С20 1700",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-009",
+      "category": "Охлаждение",
+      "model": "Кулер 240 водянка китай",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-010",
+      "category": "Охлаждение",
+      "model": "Кулер INTELL 775",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-011",
+      "category": "Охлаждение",
+      "model": "Дип Кул LIQUID COOLER LQ240",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool LIQUID COOLER LQ240",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cooling-012",
+      "category": "Охлаждение",
+      "model": "Дип Кул LIQUID COOLER LT 360 ARGB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-013",
+      "category": "Охлаждение",
+      "model": "Дип Кул LIQUID COOLER LM360",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool LIQUID COOLER LM360",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cooling-014",
+      "category": "Охлаждение",
+      "model": "Дип Кул LIQUID COOLER LE 360 PRO",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cooling-014/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "cooling-015",
+      "category": "Охлаждение",
+      "model": "Дип Кул MYSTIQUE 240 ARGB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-016",
+      "category": "Охлаждение",
+      "model": "Дип Кул N200 Notebook Cooler",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool N200 Notebook Cooler",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    },
+    {
+      "id": "cooling-017",
+      "category": "Охлаждение",
+      "model": "Дип Кул U PAL Notebook Cooler",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-018",
+      "category": "Охлаждение",
+      "model": "Дип Кул AIR COOLER CK-11508",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-019",
+      "category": "Охлаждение",
+      "model": "Дип Кул LIQUID COOLER MYSTIQUE 240 ARGB",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "Точная модель или официальный домен не определены; похожее изображение не подставлялось."
+    },
+    {
+      "id": "cooling-020",
+      "category": "Охлаждение",
+      "model": "Дип Кул COOLER LQ 360 ULTRA ARGB",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cooling-020/main.webp"
+      ],
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    },
+    {
+      "id": "cooling-021",
+      "category": "Охлаждение",
+      "model": "Дип Кул MULTI CORE X6 Notebook Cooler",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "search_query": "DeepCool MULTI CORE X6 Notebook Cooler",
+      "domains_checked": [
+        "deepcool.com"
+      ]
+    }
+  ]
+}

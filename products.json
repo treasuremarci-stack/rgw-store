@@ -2638,8 +2638,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MZ-V9S2T0BW"
     },
@@ -2674,6 +2674,9 @@
         "value": "4.0 x4 / 5.0 x2",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/ssd-005/main.webp"
     ]
   },
   {
@@ -3891,8 +3894,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-016/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Z890 UD"
     },
@@ -3917,6 +3920,9 @@
         "value": "DDR5",
         "group": "Память"
       }
+    ],
+    "images": [
+      "images/products/mb-016/main.webp"
     ]
   },
   {
@@ -4261,8 +4267,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 1 TB"
     },
@@ -4287,6 +4293,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-001/main.webp"
     ]
   },
   {
@@ -4405,8 +4414,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 8 TB"
     },
@@ -4431,6 +4440,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-005/main.webp"
     ]
   },
   {
@@ -4477,8 +4489,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-007/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 6 TB"
     },
@@ -4503,6 +4515,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-007/main.webp"
     ]
   },
   {

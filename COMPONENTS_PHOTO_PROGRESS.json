@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T19:04:24.440624+00:00",
+  "updatedAt": "2026-10-20T19:06:27.209251+00:00",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Только точная модель на официальном домене; при отсутствии подтверждения сохранена заглушка.",
@@ -18,9 +18,9 @@
     },
     "Материнские платы": {
       "total": 16,
-      "downloaded": 0,
+      "downloaded": 1,
       "existing": 4,
-      "placeholder": 12
+      "placeholder": 11
     },
     "Оперативная память": {
       "total": 11,
@@ -30,41 +30,41 @@
     },
     "SSD": {
       "total": 22,
-      "downloaded": 0,
+      "downloaded": 1,
       "existing": 1,
-      "placeholder": 21
+      "placeholder": 20
     },
     "HDD": {
       "total": 8,
-      "downloaded": 0,
+      "downloaded": 3,
       "existing": 0,
-      "placeholder": 8
+      "placeholder": 5
     },
     "Корпуса": {
       "total": 17,
-      "downloaded": 4,
-      "existing": 2,
+      "downloaded": 0,
+      "existing": 6,
       "placeholder": 11
     },
     "Блоки питания": {
       "total": 17,
-      "downloaded": 2,
-      "existing": 1,
+      "downloaded": 0,
+      "existing": 3,
       "placeholder": 14
     },
     "Охлаждение": {
       "total": 21,
-      "downloaded": 2,
-      "existing": 2,
+      "downloaded": 0,
+      "existing": 4,
       "placeholder": 17
     }
   },
   "totals": {
     "products": 137,
-    "downloaded": 8,
-    "existing": 11,
-    "placeholder": 118,
-    "webp": 46
+    "downloaded": 5,
+    "existing": 19,
+    "placeholder": 113,
+    "webp": 51
   },
   "records": [
     {
@@ -463,15 +463,23 @@
       "id": "ssd-005",
       "category": "SSD",
       "model": "SSD NVMe Samsung 990 Evo plus 2 TB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-005/main.webp"
+      ],
+      "source_urls": [
+        {
+          "image": "https://images.samsung.com/kdp/goods/2024/09/23/ba37587a-8d8a-4f3f-8e21-f1b93a013371.png",
+          "page": "https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/",
+          "title": "NVMe Samsung 990 Evo plus 2 TB"
+        }
+      ],
       "search_query": "NVMe Samsung 990 Evo plus 2 TB",
       "domains_checked": [
         "samsung.com"
-      ]
+      ],
+      "catalog_linked": true
     },
     {
       "id": "ssd-006",
@@ -867,15 +875,23 @@
       "id": "mb-016",
       "category": "Материнские платы",
       "model": "Материнка Gigabyte Z890 UD",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mb-016/main.webp"
+      ],
+      "source_urls": [
+        {
+          "image": "https://static.gigabyte.com/StaticFile/Image/Global/012e59168f5517938679d8df601d0da0/Product/42039",
+          "page": "https://www.gigabyte.com/Motherboard/Z890-UD-rev-10",
+          "title": "Mатеринка Gigabyte Z890 UD"
+        }
+      ],
       "search_query": "Mатеринка Gigabyte Z890 UD",
       "domains_checked": [
         "gigabyte.com"
-      ]
+      ],
+      "catalog_linked": true
     },
     {
       "id": "ram-001",
@@ -1003,15 +1019,23 @@
       "id": "hdd-001",
       "category": "HDD",
       "model": "HDD WD Purple 1 TB New",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/hdd-001/main.webp"
+      ],
+      "source_urls": [
+        {
+          "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-sata-hdd/gallery/wd-purple-surveillance-hard-drive-1tb.png",
+          "page": "https://www.westerndigital.com/en-ie/products/internal-drives/wd-purple-sata-hdd?sku=WD11PURZ",
+          "title": "1TB WD Purple Surveillance Hard Drive | WD"
+        }
+      ],
       "search_query": "WD Purple 1 TB New",
       "domains_checked": [
         "westerndigital.com"
-      ]
+      ],
+      "catalog_linked": true
     },
     {
       "id": "hdd-002",
@@ -1059,15 +1083,23 @@
       "id": "hdd-005",
       "category": "HDD",
       "model": "HDD WD Purple 8 TB New",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/hdd-005/main.webp"
+      ],
+      "source_urls": [
+        {
+          "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-sata-hdd/gallery/wd-purple-surveillance-hard-drive-1tb.png",
+          "page": "https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD85PURZ",
+          "title": "8TB WD Purple Surveillance Hard Drive | WD"
+        }
+      ],
       "search_query": "WD Purple 8 TB New",
       "domains_checked": [
         "westerndigital.com"
-      ]
+      ],
+      "catalog_linked": true
     },
     {
       "id": "hdd-006",
@@ -1087,15 +1119,23 @@
       "id": "hdd-007",
       "category": "HDD",
       "model": "HDD WD Purple 6 TB New",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/hdd-007/main.webp"
+      ],
+      "source_urls": [
+        {
+          "image": "https://www.westerndigital.com/content/dam/store/en-us/assets/products/internal-storage/wd-purple-sata-hdd/gallery/wd-purple-surveillance-hard-drive-1tb.png",
+          "page": "https://www.westerndigital.com/products/internal-drives/wd-purple-sata-hdd?sku=WD64PURZ",
+          "title": "6TB WD Purple Surveillance Hard Drive | WD"
+        }
+      ],
       "search_query": "WD Purple 6 TB New",
       "domains_checked": [
         "westerndigital.com"
-      ]
+      ],
+      "catalog_linked": true
     },
     {
       "id": "hdd-008",
@@ -1209,7 +1249,7 @@
       "id": "cases-010",
       "category": "Корпуса",
       "model": "Дип Кул CASE CH 370 WHITE",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/cases-010/main.webp",
@@ -1217,39 +1257,14 @@
         "images/products/cases-010/02.webp",
         "images/products/cases-010/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/01.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization",
-          "title": "DeepCool CASE CH 370 WHITE"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/02.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization",
-          "title": "DeepCool CASE CH 370 WHITE"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/03.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization",
-          "title": "DeepCool CASE CH 370 WHITE"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Gallery/2500X2500/04.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization",
-          "title": "DeepCool CASE CH 370 WHITE"
-        }
-      ],
-      "search_query": "DeepCool CASE CH 370 WHITE",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "cases-011",
       "category": "Корпуса",
       "model": "Дип Кул CASE CH 370 BLACK",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/cases-011/main.webp",
@@ -1257,39 +1272,14 @@
         "images/products/cases-011/02.webp",
         "images/products/cases-011/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/01.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml",
-          "title": "DeepCool CASE CH 370 BLACK"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/02.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml",
-          "title": "DeepCool CASE CH 370 BLACK"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/03.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml",
-          "title": "DeepCool CASE CH 370 BLACK"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Gallery/2500X2500/04.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml",
-          "title": "DeepCool CASE CH 370 BLACK"
-        }
-      ],
-      "search_query": "DeepCool CASE CH 370 BLACK",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "cases-012",
       "category": "Корпуса",
       "model": "Дип Кул CASE CG530 4F",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/cases-012/main.webp",
@@ -1297,33 +1287,8 @@
         "images/products/cases-012/02.webp",
         "images/products/cases-012/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/01.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml",
-          "title": "DeepCool CASE CG530 4F"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/02.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml",
-          "title": "DeepCool CASE CG530 4F"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/03.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml",
-          "title": "DeepCool CASE CG530 4F"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Gallery/2500X2500/04.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml",
-          "title": "DeepCool CASE CG530 4F"
-        }
-      ],
-      "search_query": "DeepCool CASE CG530 4F",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "cases-013",
@@ -1351,7 +1316,7 @@
       "id": "cases-015",
       "category": "Корпуса",
       "model": "Дип Кул CASE CH 160 WHITE",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/cases-015/main.webp",
@@ -1359,33 +1324,8 @@
         "images/products/cases-015/02.webp",
         "images/products/cases-015/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/01.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml",
-          "title": "DeepCool CASE CH 160 WHITE"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/02.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml",
-          "title": "DeepCool CASE CH 160 WHITE"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/03.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml",
-          "title": "DeepCool CASE CH 160 WHITE"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Gallery/2500X2500/04.jpg",
-          "page": "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml",
-          "title": "DeepCool CASE CH 160 WHITE"
-        }
-      ],
-      "search_query": "DeepCool CASE CH 160 WHITE",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "cases-016",
@@ -1575,7 +1515,7 @@
       "id": "psu-014",
       "category": "Блоки питания",
       "model": "Дип Кул POWER PL800 D",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/psu-014/main.webp",
@@ -1583,33 +1523,8 @@
         "images/products/psu-014/02.webp",
         "images/products/psu-014/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/01.jpg",
-          "page": "https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml",
-          "title": "DeepCool POWER PL800 D"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/02.jpg",
-          "page": "https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml",
-          "title": "DeepCool POWER PL800 D"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/03.jpg",
-          "page": "https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml",
-          "title": "DeepCool POWER PL800 D"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PL800D/Gallery/2500X2500/04.jpg",
-          "page": "https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml",
-          "title": "DeepCool POWER PL800 D"
-        }
-      ],
-      "search_query": "DeepCool POWER PL800 D",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "psu-015",
@@ -1630,7 +1545,7 @@
       "id": "psu-016",
       "category": "Блоки питания",
       "model": "Дип Кул POWER PF750",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/psu-016/main.webp",
@@ -1638,33 +1553,8 @@
         "images/products/psu-016/02.webp",
         "images/products/psu-016/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/01.jpg",
-          "page": "https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization",
-          "title": "DeepCool POWER PF750"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/02.jpg",
-          "page": "https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization",
-          "title": "DeepCool POWER PF750"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/03.jpg",
-          "page": "https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization",
-          "title": "DeepCool POWER PF750"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/PowerSupplyUnits/PF750/Gallery/2500X2500/04.jpg",
-          "page": "https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization",
-          "title": "DeepCool POWER PF750"
-        }
-      ],
-      "search_query": "DeepCool POWER PF750",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "psu-017",
@@ -1800,7 +1690,7 @@
       "id": "cooling-011",
       "category": "Охлаждение",
       "model": "Дип Кул LIQUID COOLER LQ240",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/cooling-011/main.webp",
@@ -1808,33 +1698,8 @@
         "images/products/cooling-011/02.webp",
         "images/products/cooling-011/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/01.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml",
-          "title": "DeepCool LIQUID COOLER LQ240"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/02.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml",
-          "title": "DeepCool LIQUID COOLER LQ240"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/03.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml",
-          "title": "DeepCool LIQUID COOLER LQ240"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LQ240/Gallery/2500X2500/04.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml",
-          "title": "DeepCool LIQUID COOLER LQ240"
-        }
-      ],
-      "search_query": "DeepCool LIQUID COOLER LQ240",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "cooling-012",
@@ -1850,7 +1715,7 @@
       "id": "cooling-013",
       "category": "Охлаждение",
       "model": "Дип Кул LIQUID COOLER LM360",
-      "status": "downloaded",
+      "status": "existing",
       "photo_count": 4,
       "paths": [
         "images/products/cooling-013/main.webp",
@@ -1858,33 +1723,8 @@
         "images/products/cooling-013/02.webp",
         "images/products/cooling-013/03.webp"
       ],
-      "source_urls": [
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/01.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml",
-          "title": "DeepCool LIQUID COOLER LM360"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/02.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml",
-          "title": "DeepCool LIQUID COOLER LM360"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/03.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml",
-          "title": "DeepCool LIQUID COOLER LM360"
-        },
-        {
-          "image": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPULiquidCoolers/LM360/Gallery/2500X2500/04.jpg",
-          "page": "https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml",
-          "title": "DeepCool LIQUID COOLER LM360"
-        }
-      ],
-      "search_query": "DeepCool LIQUID COOLER LM360",
-      "domains_checked": [
-        "deepcool.com"
-      ],
-      "catalog_linked": true
+      "source_urls": [],
+      "reason": "Существующая подтверждённая фотография сохранена без изменений."
     },
     {
       "id": "cooling-014",

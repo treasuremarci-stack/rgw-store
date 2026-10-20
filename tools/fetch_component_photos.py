@@ -47,6 +47,7 @@ DIRECT_PAGE_URLS = {
     "gpu-005": ["https://galax.com/en/product/geforce-rtx-5080-16gb-1-click-oc-3x/"],
     "gpu-007": ["https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/"],
     "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
+}
 
 DOMAIN_BY_BRAND = {
     "asus": "asus.com",

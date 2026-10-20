@@ -4747,8 +4747,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-010/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "CH370"
     },
@@ -4773,6 +4773,12 @@
         "value": "до 360 мм",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cases-010/main.webp",
+      "images/products/cases-010/01.webp",
+      "images/products/cases-010/02.webp",
+      "images/products/cases-010/03.webp"
     ]
   },
   {
@@ -4783,8 +4789,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-011/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "CH370"
     },
@@ -4809,6 +4815,12 @@
         "value": "до 360 мм",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cases-011/main.webp",
+      "images/products/cases-011/01.webp",
+      "images/products/cases-011/02.webp",
+      "images/products/cases-011/03.webp"
     ]
   },
   {
@@ -4819,8 +4831,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-012/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "CG530 4F"
     },
@@ -4830,6 +4842,12 @@
         "value": "CG530 4F",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-012/main.webp",
+      "images/products/cases-012/01.webp",
+      "images/products/cases-012/02.webp",
+      "images/products/cases-012/03.webp"
     ]
   },
   {
@@ -4885,8 +4903,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-015/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "CH160"
     },
@@ -4901,6 +4919,12 @@
         "value": "White",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-015/main.webp",
+      "images/products/cases-015/01.webp",
+      "images/products/cases-015/02.webp",
+      "images/products/cases-015/03.webp"
     ]
   },
   {
@@ -5263,8 +5287,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-014/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PL800D"
     },
@@ -5289,6 +5313,12 @@
         "value": "80 PLUS Bronze",
         "group": "Питание"
       }
+    ],
+    "images": [
+      "images/products/psu-014/main.webp",
+      "images/products/psu-014/01.webp",
+      "images/products/psu-014/02.webp",
+      "images/products/psu-014/03.webp"
     ]
   },
   {
@@ -5324,8 +5354,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-016/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PF750"
     },
@@ -5335,6 +5365,12 @@
         "value": "PF750",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/psu-016/main.webp",
+      "images/products/psu-016/01.webp",
+      "images/products/psu-016/02.webp",
+      "images/products/psu-016/03.webp"
     ]
   },
   {
@@ -5646,8 +5682,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-011/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "LQ240"
     },
@@ -5662,6 +5698,12 @@
         "value": "Жидкостное",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-011/main.webp",
+      "images/products/cooling-011/01.webp",
+      "images/products/cooling-011/02.webp",
+      "images/products/cooling-011/03.webp"
     ]
   },
   {
@@ -5708,8 +5750,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-013/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "LM360"
     },
@@ -5724,6 +5766,12 @@
         "value": "Жидкостное",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-013/main.webp",
+      "images/products/cooling-013/01.webp",
+      "images/products/cooling-013/02.webp",
+      "images/products/cooling-013/03.webp"
     ]
   },
   {

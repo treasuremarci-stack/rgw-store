@@ -51,7 +51,7 @@ DIRECT_PAGE_URLS = {
 
 DIRECT_IMAGE_URLS = {
     "gpu-007": ["https://www.asus.com/media/global/products/os8hWTXz7e7Le4Fx/P_setting_xxx_0_90_end_692.png"],
-
+}
 
 DOMAIN_BY_BRAND = {
     "asus": "asus.com",

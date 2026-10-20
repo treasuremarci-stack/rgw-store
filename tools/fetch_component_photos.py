@@ -285,13 +285,14 @@ def download_image(url: str, referer: str) -> Image.Image | None:
             print("PHOTO_DEBUG_SMALL", url, response.status_code, len(response.content))
             return None
         image = Image.open(BytesIO(response.content))
+        source_format = image.format
         image = ImageOps.exif_transpose(image)
         image.load()
         if image.width < 120 or image.height < 120:
             print("PHOTO_DEBUG_DIMENSIONS", url, image.width, image.height)
             return None
-        if image.format not in {"JPEG", "PNG", "WEBP", "GIF", "BMP", "TIFF"}:
-            print("PHOTO_DEBUG_FORMAT", url, image.format)
+        if source_format not in {"JPEG", "PNG", "WEBP", "GIF", "BMP", "TIFF"}:
+            print("PHOTO_DEBUG_FORMAT", url, source_format)
             return None
         return image
     except Exception as exc:

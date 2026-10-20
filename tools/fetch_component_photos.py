@@ -52,6 +52,20 @@ DIRECT_PAGE_URLS = {
     "mb-016": ["https://www.gigabyte.com/Motherboard/Z890-UD-rev-10"],
     "ssd-004": ["https://www.samsung.com/in/memory-storage/nvme-ssd/990-evo-plus-1tb-nvme-pcie-gen-4-mz-v9s1t0bw/"],
     "ssd-005": ["https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/"],
+    "cases-004": ["https://gamemaxpc.com/ru/list_175/3947.html"],
+    "cases-010": ["https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml?status=authorization"],
+    "cases-011": ["https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml"],
+    "cases-012": ["https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml"],
+    "cases-014": ["https://www.deepcool.com/products/Cases/Matrexx-50-Mid-Tower-ATX-Case/2021/4657.shtml"],
+    "cases-015": ["https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml"],
+    "psu-014": ["https://ru.deepcool.com/products/PowerSupplyUnits/powersupplyunits/PL800D-ATX3.0-Direct-Power-Supply/2023/17635.shtml"],
+    "psu-015": ["https://www.gamerstorm.com/product/PowerSupply/2024-11/2153_15131.shtml"],
+    "psu-016": ["https://global.deepcool.com/products/PowerSupplyUnits/powersupplyunits/2021/15134.shtml?status=authorization"],
+    "cooling-011": ["https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LQ240-240mm-Dashboard-Display-Liquid-Cooler-1851-1700-AM5/2024/19630.shtml"],
+    "cooling-012": ["https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LT360-ARGB-360mm-Liquid-CPU-Cooler-1851-1700-AM5/2024/18684.shtml"],
+    "cooling-013": ["https://www.deepcool.com/products/Cooling/cpuliquidcoolers/LM360-6th-Gen-ARGB-Liquid-Cooler-with-mini-LCD-Screen/2025/21346.shtml"],
+    "cooling-015": ["https://www.deepcool.com/products/Cooling/cpuliquidcoolers/MYSTIQUE-240-ARGB-5th-Gen-LCD-Liquid-Cooler-1851-1700-AM5/2024/18770.shtml"],
+    "cooling-019": ["https://www.deepcool.com/products/Cooling/cpuliquidcoolers/MYSTIQUE-240-ARGB-5th-Gen-LCD-Liquid-Cooler-1851-1700-AM5/2024/18770.shtml"],
 }
 
 DIRECT_IMAGE_URLS = {

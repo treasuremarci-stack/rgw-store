@@ -1,0 +1,600 @@
+{
+  "stage": "system-unit-photo-stage",
+  "updated": "2026-10-20",
+  "category": "Системные блоки",
+  "source_policy": "Только точные официальные страницы и CDN DeepCool; похожие модели не подставлялись.",
+  "products": [
+    {
+      "id": "case-001",
+      "model": "DeepCool CASE CH 370 WHITE",
+      "sku": "DEEPCOOL-CH370-WHITE",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-001/main.webp",
+        "images/products/case-001/angle.webp",
+        "images/products/case-001/detail.webp",
+        "images/products/case-001/rear.webp",
+        "images/products/case-001/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/CH370-WH-Micro-ATX-Case-White/2022/15950.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_02.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_03.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_04.png"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-001/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 73558
+        },
+        {
+          "path": "images/products/case-001/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        },
+        {
+          "path": "images/products/case-001/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_02.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        },
+        {
+          "path": "images/products/case-001/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_03.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 968,
+          "bytes": 30016
+        },
+        {
+          "path": "images/products/case-001/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370_WH/Overview/01_04.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-002",
+      "model": "DeepCool CASE CH 370 BLACK",
+      "sku": "DEEPCOOL-CH370-BLACK",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-002/main.webp",
+        "images/products/case-002/angle.webp",
+        "images/products/case-002/detail.webp",
+        "images/products/case-002/rear.webp",
+        "images/products/case-002/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15949.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_04.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_02.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_03.png"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-002/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 64112
+        },
+        {
+          "path": "images/products/case-002/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_04.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 968,
+          "bytes": 12808
+        },
+        {
+          "path": "images/products/case-002/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 968,
+          "bytes": 23868
+        },
+        {
+          "path": "images/products/case-002/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_02.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1272,
+          "bytes": 319792
+        },
+        {
+          "path": "images/products/case-002/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH370/Overview/01_03.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 968,
+          "bytes": 92478
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-003",
+      "model": "DeepCool CASE CG530 4F",
+      "sku": "DEEPCOOL-CG530-4F",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-003/main.webp",
+        "images/products/case-003/angle.webp",
+        "images/products/case-003/detail.webp",
+        "images/products/case-003/rear.webp",
+        "images/products/case-003/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/CG530-Panoramic-Tempered-Glass-Panels-Dual-Chamber-ATX-FISHTANK-Case-with-4-ARGB-PWM-Fans/2024/19604.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/01_01.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/02_01.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/02_02.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/02_03.jpg"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-003/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 114264
+        },
+        {
+          "path": "images/products/case-003/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/01_01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 828,
+          "source_height": 940,
+          "bytes": 56746
+        },
+        {
+          "path": "images/products/case-003/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/02_01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1064,
+          "bytes": 39664
+        },
+        {
+          "path": "images/products/case-003/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/02_02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        },
+        {
+          "path": "images/products/case-003/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG530_4F/Overview/02_03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-004",
+      "model": "DeepCool CASE CG580 4F V2",
+      "sku": "DEEPCOOL-CG580-4F-V2",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-004/main.webp",
+        "images/products/case-004/angle.webp",
+        "images/products/case-004/detail.webp",
+        "images/products/case-004/rear.webp",
+        "images/products/case-004/top.webp"
+      ],
+      "source_pages": [
+        "https://uk.deepcool.com/products/Cases/CG580-4F-V2-Panoramic-Glass-Panels-Single-Chamber-ATX-Fishtank-Case-with-4-ARGB-PWM-Fans/2025/21446.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/01_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/02_01.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/02_02.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/02_03.jpg"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-004/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 44926
+        },
+        {
+          "path": "images/products/case-004/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/01_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 750,
+          "source_height": 1152,
+          "bytes": 124844
+        },
+        {
+          "path": "images/products/case-004/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/02_01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 513,
+          "source_height": 564,
+          "bytes": 22590
+        },
+        {
+          "path": "images/products/case-004/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/02_02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 513,
+          "source_height": 564,
+          "bytes": 28662
+        },
+        {
+          "path": "images/products/case-004/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG580_4F_V2/Overview/02_03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 513,
+          "source_height": 564,
+          "bytes": 25230
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-005",
+      "model": "DeepCool CASE MATREXX 50",
+      "sku": "DEEPCOOL-MATREXX-50",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-005/main.webp",
+        "images/products/case-005/angle.webp",
+        "images/products/case-005/detail.webp",
+        "images/products/case-005/rear.webp",
+        "images/products/case-005/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/Matrexx-50-Mid-Tower-ATX-Case/2021/4657.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/Matrexx_50/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/Matrexx_50/Overview/01_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/Matrexx_50/Overview/02_01.png",
+        "https://cdn.deepcool.com/public/ProductGallery/DEEPCOOL/Cases/MATREXX_50/Design/02_02.png",
+        "https://cdn.deepcool.com/public/ProductGallery/DEEPCOOL/Cases/MATREXX_50/Design/02_03.png"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-005/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/Matrexx_50/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 30680
+        },
+        {
+          "path": "images/products/case-005/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/Matrexx_50/Overview/01_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        },
+        {
+          "path": "images/products/case-005/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/Matrexx_50/Overview/02_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        },
+        {
+          "path": "images/products/case-005/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductGallery/DEEPCOOL/Cases/MATREXX_50/Design/02_02.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1400,
+          "source_height": 1001,
+          "bytes": 61266
+        },
+        {
+          "path": "images/products/case-005/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductGallery/DEEPCOOL/Cases/MATREXX_50/Design/02_03.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1400,
+          "source_height": 1001,
+          "bytes": 9578
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-006",
+      "model": "DeepCool CASE CH 160 WHITE",
+      "sku": "DEEPCOOL-CH160-WHITE",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-006/main.webp",
+        "images/products/case-006/angle.webp",
+        "images/products/case-006/detail.webp",
+        "images/products/case-006/rear.webp",
+        "images/products/case-006/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/CH160-WH-Portable-High-Airflow-M-ITX-Case/2024/18116.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_00.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_02.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_03.png"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-006/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 74984
+        },
+        {
+          "path": "images/products/case-006/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_00.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1280,
+          "source_height": 1070,
+          "bytes": 2724
+        },
+        {
+          "path": "images/products/case-006/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1280,
+          "source_height": 1070,
+          "bytes": 111220
+        },
+        {
+          "path": "images/products/case-006/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_02.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1280,
+          "source_height": 1070,
+          "bytes": 18560
+        },
+        {
+          "path": "images/products/case-006/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CH160_WH/Overview/01_03.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1280,
+          "source_height": 1070,
+          "bytes": 175148
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-007",
+      "model": "DeepCool CASE CC560 LIMITED V2",
+      "sku": "DEEPCOOL-CC560-LIMITED-V2",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-007/main.webp",
+        "images/products/case-007/angle.webp",
+        "images/products/case-007/detail.webp",
+        "images/products/case-007/rear.webp",
+        "images/products/case-007/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/CC560-Limited-V2-Mid-Tower-Airflow-Case/2023/17784.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/01_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/02_01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/02_02.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/02_03.png"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-007/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 61864
+        },
+        {
+          "path": "images/products/case-007/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/01_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1231,
+          "source_height": 1006,
+          "bytes": 65320
+        },
+        {
+          "path": "images/products/case-007/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/02_01.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 791,
+          "source_height": 694,
+          "bytes": 96012
+        },
+        {
+          "path": "images/products/case-007/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/02_02.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        },
+        {
+          "path": "images/products/case-007/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CC560_Limited_V2/Overview/02_03.png",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 1920,
+          "source_height": 1080,
+          "bytes": 65272
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    },
+    {
+      "id": "case-008",
+      "model": "DeepCool CASE CG380 3F",
+      "sku": "DEEPCOOL-CG380-3F",
+      "status": "complete",
+      "photo_count": 5,
+      "paths": [
+        "images/products/case-008/main.webp",
+        "images/products/case-008/angle.webp",
+        "images/products/case-008/detail.webp",
+        "images/products/case-008/rear.webp",
+        "images/products/case-008/top.webp"
+      ],
+      "source_pages": [
+        "https://www.deepcool.com/products/Cases/CG380-3F-Panoramic-Dual-Tempered-Glass-M-ATX-Case/2025/21782.shtml"
+      ],
+      "selected_source_images": [
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/01.png",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/01_01.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/02_01.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/02_02.jpg",
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/02_03.jpg"
+      ],
+      "failed_candidates": [],
+      "assets": [
+        {
+          "path": "images/products/case-008/main.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/01.png",
+          "width": 1000,
+          "height": 1000,
+          "source_width": 1529,
+          "source_height": 800,
+          "bytes": 101772
+        },
+        {
+          "path": "images/products/case-008/angle.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/01_01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 770,
+          "source_height": 1029,
+          "bytes": 78288
+        },
+        {
+          "path": "images/products/case-008/detail.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/02_01.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 518,
+          "source_height": 646,
+          "bytes": 27708
+        },
+        {
+          "path": "images/products/case-008/rear.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/02_02.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 518,
+          "source_height": 646,
+          "bytes": 28318
+        },
+        {
+          "path": "images/products/case-008/top.webp",
+          "source": "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cases/CG380_3F/Overview/02_03.jpg",
+          "width": 1200,
+          "height": 1200,
+          "source_width": 518,
+          "source_height": 646,
+          "bytes": 58706
+        }
+      ],
+      "reason": "",
+      "rights_note": "Официальная страница подтверждает модель; отдельное разрешение на коммерческое размещение не проверялось автоматически."
+    }
+  ]
+}

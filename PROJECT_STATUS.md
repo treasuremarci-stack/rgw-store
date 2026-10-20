@@ -363,3 +363,34 @@ After owner review, continue with photos for other categories. Laptops after com
 - GitHub Pages build/deployment for the Lenovo correction commit 81b422429dbfd330aedeff6b5e09b9e23b15cb16 completed successfully (run 39472893741).
 - Static verification confirmed that all seven monoblock cards remain linked, all 26 monoblock WebP assets remain present, and the current badge layering, hover scale, transition, mobile rule and product gallery paths are unchanged.
 - An interactive browser/screenshot runtime was not available in this environment, so live hover/touch and pixel-level visual comparison could not be performed here; this limitation is recorded explicitly.
+
+
+## System-unit photo stage (2026-10-20)
+
+- Обработаны все 8 карточек категории «Системные блоки» (case-001—case-008).
+- Для каждой модели использованы точные официальные страницы/файлы DeepCool; похожие модели и чужие изображения не подставлялись.
+- Главные и дополнительные кадры скачаны, приведены к WebP без искусственного увеличения; белый фон удалён только из связной краевой области, если он был встроен.
+- Каталог и product.html?id=... используют существующую архитектуру: изменены только image-слоты системных блоков и поля image/images для этих восьми записей.
+- CSS, анимация карточек, цены, характеристики, названия, SKU, ID, price.csv, ноутбуки, моноблоки и остальные категории не изменялись.
+
+### Результаты
+
+- case-001 — DeepCool CASE CH 370 WHITE: 5 WebP, главное фото images/products/case-001/main.webp.
+- case-002 — DeepCool CASE CH 370 BLACK: 5 WebP, главное фото images/products/case-002/main.webp.
+- case-003 — DeepCool CASE CG530 4F: 5 WebP, главное фото images/products/case-003/main.webp.
+- case-004 — DeepCool CASE CG580 4F V2: 5 WebP, главное фото images/products/case-004/main.webp.
+- case-005 — DeepCool CASE MATREXX 50: 5 WebP, главное фото images/products/case-005/main.webp.
+- case-006 — DeepCool CASE CH 160 WHITE: 5 WebP, главное фото images/products/case-006/main.webp.
+- case-007 — DeepCool CASE CC560 LIMITED V2: 5 WebP, главное фото images/products/case-007/main.webp.
+- case-008 — DeepCool CASE CG380 3F: 5 WebP, главное фото images/products/case-008/main.webp.
+
+### Источники
+
+- Официальные страницы DeepCool и соответствующие CDN-пути указаны в SYSTEM_UNIT_PHOTO_PROGRESS.json.
+- Права на повторное коммерческое размещение внешних изображений требуют отдельной ручной проверки.
+
+### Проверки
+
+- Сверены все 8 ID, SKU и названия с текущим каталогом.
+- Галерея использует существующий product.js и массив images[]; filter/sort/card layout не переписывались.
+- Перед коммитом проверяется, что изменены только системные image-слоты, новые локальные WebP, progress-файл и этот статус.

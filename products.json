@@ -16234,7 +16234,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-001/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16259,7 +16259,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-001/main.webp",
+      "images/products/case-001/angle.webp",
+      "images/products/case-001/detail.webp",
+      "images/products/case-001/rear.webp",
+      "images/products/case-001/top.webp"
+    ]
   },
   {
     "id": "case-002",
@@ -16269,7 +16276,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-002/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16294,7 +16301,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-002/main.webp",
+      "images/products/case-002/angle.webp",
+      "images/products/case-002/detail.webp",
+      "images/products/case-002/rear.webp",
+      "images/products/case-002/top.webp"
+    ]
   },
   {
     "id": "case-003",
@@ -16304,7 +16318,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-003/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16324,7 +16338,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-003/main.webp",
+      "images/products/case-003/angle.webp",
+      "images/products/case-003/detail.webp",
+      "images/products/case-003/rear.webp",
+      "images/products/case-003/top.webp"
+    ]
   },
   {
     "id": "case-004",
@@ -16334,7 +16355,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-004/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16354,7 +16375,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-004/main.webp",
+      "images/products/case-004/angle.webp",
+      "images/products/case-004/detail.webp",
+      "images/products/case-004/rear.webp",
+      "images/products/case-004/top.webp"
+    ]
   },
   {
     "id": "case-005",
@@ -16364,7 +16392,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-005/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16384,7 +16412,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-005/main.webp",
+      "images/products/case-005/angle.webp",
+      "images/products/case-005/detail.webp",
+      "images/products/case-005/rear.webp",
+      "images/products/case-005/top.webp"
+    ]
   },
   {
     "id": "case-006",
@@ -16394,7 +16429,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-006/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16419,7 +16454,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-006/main.webp",
+      "images/products/case-006/angle.webp",
+      "images/products/case-006/detail.webp",
+      "images/products/case-006/rear.webp",
+      "images/products/case-006/top.webp"
+    ]
   },
   {
     "id": "case-007",
@@ -16429,7 +16471,7 @@
     "category": "Системные блоки",
     "categoryName": "Системные блоки",
     "categoryUrl": "rgw_page_system_units.html",
-    "image": null,
+    "image": "images/products/case-007/main.webp",
     "placeholder": "🗄️",
     "catalogFacts": [
       {
@@ -16449,7 +16491,14 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/case-007/main.webp",
+      "images/products/case-007/angle.webp",
+      "images/products/case-007/detail.webp",
+      "images/products/case-007/rear.webp",
+      "images/products/case-007/top.webp"
+    ]
   },
   {
     "id": "case-008",
@@ -16481,7 +16530,11 @@
     "verifiedSpecs": [],
     "identifiers": {},
     "images": [
-      "images/products/case-008/main.webp"
+      "images/products/case-008/main.webp",
+      "images/products/case-008/angle.webp",
+      "images/products/case-008/detail.webp",
+      "images/products/case-008/rear.webp",
+      "images/products/case-008/top.webp"
     ]
   },
   {

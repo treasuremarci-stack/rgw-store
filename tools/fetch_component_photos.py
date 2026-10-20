@@ -47,6 +47,11 @@ DIRECT_PAGE_URLS = {
     "gpu-005": ["https://galax.com/en/product/geforce-rtx-5080-16gb-1-click-oc-3x/"],
     "gpu-007": ["https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/"],
     "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
+    "mb-002": ["https://www.asus.com/motherboards-components/motherboards/prime/prime-z790-p/"],
+    "mb-015": ["https://www.gigabyte.com/Motherboard/Z790-D-rev-10-12"],
+    "mb-016": ["https://www.gigabyte.com/Motherboard/Z890-UD-rev-10"],
+    "ssd-004": ["https://www.samsung.com/in/memory-storage/nvme-ssd/990-evo-plus-1tb-nvme-pcie-gen-4-mz-v9s1t0bw/"],
+    "ssd-005": ["https://www.samsung.com/sg/memory-storage/nvme-ssd/990-evo-plus-2tb-mz-v9s2t0bw/"],
 }
 
 DIRECT_IMAGE_URLS = {

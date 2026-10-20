@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# Exact-source collection is intentionally limited to curated manufacturer pages.
 """Find exact component product images from manufacturer domains and localize them as WebP."""
 from __future__ import annotations
 

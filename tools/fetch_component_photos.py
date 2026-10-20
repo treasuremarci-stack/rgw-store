@@ -9,7 +9,7 @@ import time
 from datetime import datetime, timezone
 from io import BytesIO
 from pathlib import Path
-from urllib.parse import quote, urlparse
+from urllib.parse import quote, urljoin, urlparse
 
 import requests
 from PIL import Image, ImageOps
@@ -48,6 +48,10 @@ DIRECT_PAGE_URLS = {
     "gpu-007": ["https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/"],
     "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
 }
+
+DIRECT_IMAGE_URLS = {
+    "gpu-007": ["https://www.asus.com/media/global/products/os8hWTXz7e7Le4Fx/P_setting_xxx_0_90_end_692.png"],
+
 
 DOMAIN_BY_BRAND = {
     "asus": "asus.com",
@@ -202,16 +206,16 @@ def image_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
     return ordered
 
 def official_page_candidates(query: str, domain: str, direct_pages: list[str] | None = None, limit: int = 8) -> list[dict]:
-    search_url = "https://www.bing.com/search?q=" + quote(
-        "site:" + domain + " " + query
-    )
-    try:
-        response = session.get(search_url, timeout=30)
-        response.raise_for_status()
-    except Exception:
-        return []
     page_urls = list(direct_pages or [])
     if not page_urls:
+        search_url = "https://www.bing.com/search?q=" + quote(
+            "site:" + domain + " " + query
+        )
+        try:
+            response = session.get(search_url, timeout=30)
+            response.raise_for_status()
+        except Exception:
+            return []
         for href in re.findall(r'<a[^>]+href=["\'](https?://[^"\']+)["\']', response.text, flags=re.I):
             href = html.unescape(href)
             if page_domain_match(href, domain) and href not in page_urls:
@@ -244,11 +248,22 @@ def official_page_candidates(query: str, domain: str, direct_pages: list[str] | 
         ]
         for pattern in meta_patterns:
             image_urls.extend(re.findall(pattern, page_text, flags=re.I))
-        for raw_url in image_urls:
-            image_url = html.unescape(raw_url)
-            if image_url.startswith("/"):
-                image_url = page_url.rstrip("/") + image_url
-            if image_url.startswith("http") and image_url not in seen:
+        source_urls = list(image_urls)
+        source_urls.extend(re.findall(
+            r'(?:src|data-src|data-original)=["\']([^"\']+)["\']',
+            page_text,
+            flags=re.I,
+        ))
+        for raw_url in source_urls:
+            image_url = urljoin(page_url, html.unescape(raw_url))
+            lowered = image_url.lower()
+            if (
+                not image_url.startswith("http")
+                or any(word in lowered for word in ("logo", "icon", "favicon", "avatar", "sprite"))
+                or lowered.endswith(".svg")
+            ):
+                continue
+            if image_url not in seen:
                 seen.add(image_url)
                 candidates.append({
                     "image_url": image_url,
@@ -354,8 +369,17 @@ def main() -> None:
             continue
 
         candidates = []
+        direct_urls = DIRECT_IMAGE_URLS.get(pid, [])
+        if direct_urls:
+            candidates.extend({
+                "image_url": image_url,
+                "page_url": (DIRECT_PAGE_URLS.get(pid) or [""])[0],
+                "title": query,
+                "score": 99,
+            } for image_url in direct_urls)
         for domain in domains:
-            candidates.extend(image_candidates(query, domain))
+            if not candidates:
+                candidates.extend(image_candidates(query, domain))
             if not candidates:
                 candidates.extend(official_page_candidates(query, domain, DIRECT_PAGE_URLS.get(pid)))
             if candidates:

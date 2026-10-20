@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-20T18:48:36.165916+00:00",
+  "updatedAt": "2026-10-20T18:49:54.600398+00:00",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Только точная модель на официальном домене; при отсутствии подтверждения сохранена заглушка.",
   "categories": {
     "Видеокарты": {
       "total": 8,
-      "downloaded": 0,
+      "downloaded": 1,
       "existing": 0,
-      "placeholder": 8
+      "placeholder": 7
     },
     "Процессоры": {
       "total": 17,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 0,
+    "downloaded": 1,
     "existing": 8,
-    "placeholder": 129,
-    "webp": 8
+    "placeholder": 128,
+    "webp": 9
   },
   "records": [
     {
@@ -155,15 +155,23 @@
       "id": "gpu-007",
       "category": "Видеокарты",
       "model": "Видеокарта ASUS GT 710 2G DDR5",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "На официальном домене не найден скачиваемый ассет с подтверждаемым совпадением модели.",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/gpu-007/main.webp"
+      ],
+      "source_urls": [
+        {
+          "image": "https://www.asus.com/media/global/products/os8hWTXz7e7Le4Fx/P_setting_xxx_0_90_end_692.png",
+          "page": "https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/",
+          "title": "ASUS GT 710 2G DDR5"
+        }
+      ],
       "search_query": "ASUS GT 710 2G DDR5",
       "domains_checked": [
         "asus.com"
-      ]
+      ],
+      "catalog_linked": true
     },
     {
       "id": "gpu-008",

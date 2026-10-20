@@ -1477,8 +1477,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-007/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "GT 710 2G DDR5"
     },
@@ -1498,6 +1498,9 @@
         "value": "2 ГБ",
         "group": "Графика"
       }
+    ],
+    "images": [
+      "images/products/gpu-007/main.webp"
     ]
   },
   {

@@ -1,0 +1,44 @@
+name: Apply monoblock card corrections
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - tools/apply_monoblock_corrections.py
+      - .github/workflows/apply-monoblock-corrections.yml
+
+permissions:
+  contents: write
+
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image tools
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Apply scoped corrections
+        run: python tools/apply_monoblock_corrections.py
+
+      - name: Commit and push the completed stage
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Fix monoblock card layers and photos [skip ci]"
+          git push origin HEAD:main

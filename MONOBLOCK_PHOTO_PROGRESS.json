@@ -52,30 +52,55 @@
       "id": "mono-003",
       "model": "Моноблок HP AIO 27-CR0008L",
       "status": "complete",
-      "photo_count": 6,
+      "photo_count": 3,
       "paths": [
         "assets/products/mono-003/main.webp",
         "assets/products/mono-003/angle.webp",
-        "assets/products/mono-003/back.webp",
-        "assets/products/mono-003/detail.webp",
-        "assets/products/mono-003/side.webp",
-        "assets/products/mono-003/rear.webp"
+        "assets/products/mono-003/back.webp"
       ],
       "source_pages": [
-        "https://www.hp.com/lk-en/products/desktops/product-details/2102883702"
+        "https://www.hp.com/bd-en/products/desktops/product-details/2102883702",
+        "https://www.ictechdistribution.com/product/details/IC70705RRJ/hp-desktop-aio-27-cr0008l-pcintel-i5-1335u-dubai/"
       ],
-      "source_direct": [],
+      "source_direct": [
+        "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I1751M.webp",
+        "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I114I8.webp",
+        "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I253O7.webp"
+      ],
       "selected_source_images": [
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/carpacks-and-services%402x.jpg",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/check-warranty%402x.jpg",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/contact-us%402x.jpg",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/desktops-for-home%402x.jpg",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/desktops-for-work2%402x.jpg",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/gaming-accessories2%402x.jpg"
+        "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I1751M.webp",
+        "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I114I8.webp",
+        "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I253O7.webp"
       ],
-      "match_note": "Official HP page for HP 27 inch All-in-One 27-cr0008l PC (B7JC2PA), matching the catalog configuration.",
+      "match_note": "Точные изображения страницы HP AIO 27-CR0008L B7JC2PA#UUF; модель, корпус и конфигурация подтверждены страницей HP и карточкой с тем же артикулом.",
       "reason": "",
-      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified."
+      "rights_note": "Source confirms the exact model/configuration; separate permission for commercial re-hosting was not automatically verified.",
+      "images": [
+        {
+          "url": "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I1751M.webp",
+          "path": "assets/products/mono-003/main.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 860,
+          "bytes": 47978
+        },
+        {
+          "url": "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I114I8.webp",
+          "path": "assets/products/mono-003/angle.webp",
+          "role": "angle",
+          "width": 1136,
+          "height": 788,
+          "bytes": 31318
+        },
+        {
+          "url": "https://www.ictechdistribution.com/images/products/IC70705RRJ/HP-DESKTOP-AIO-27-CR0008L-PC-INTEL-I5-1335U-B7JC2PA-UUF-I253O7.webp",
+          "path": "assets/products/mono-003/back.webp",
+          "role": "back",
+          "width": 1148,
+          "height": 881,
+          "bytes": 16758
+        }
+      ]
     },
     {
       "id": "mono-004",
@@ -140,58 +165,119 @@
       "id": "mono-006",
       "model": "Моноблок MSI Pro AP272P AIO 27",
       "status": "complete",
-      "photo_count": 2,
+      "photo_count": 4,
       "paths": [
         "assets/products/mono-006/main.webp",
-        "assets/products/mono-006/angle.webp"
+        "assets/products/mono-006/angle.webp",
+        "assets/products/mono-006/back.webp",
+        "assets/products/mono-006/detail.webp"
       ],
       "source_pages": [
         "https://www.msi.com/All-in-One-PC/PRO-AP272P-14MX"
       ],
       "source_direct": [
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg",
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv-title.png",
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/ADL-title.png"
-      ],
-      "selected_source_images": [
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv-title.png",
+        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-display.png",
+        "https://asset.msi.com/resize/image/global/product/product_1704357310e79022bb1b646afe76824d0459f57a23.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-stand.png",
         "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg"
       ],
-      "match_note": "Official MSI PRO AP272P 14M page; the page documents the i5-14500 14MQ variant and the same exact AP272P 27-inch chassis.",
+      "selected_source_images": [
+        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-display.png",
+        "https://asset.msi.com/resize/image/global/product/product_1704357310e79022bb1b646afe76824d0459f57a23.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-stand.png",
+        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg"
+      ],
+      "match_note": "Точные официальные изображения серии MSI PRO AP272P 14M; изображения баннеров kv-title/ADL-title исключены.",
       "reason": "",
-      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified."
+      "rights_note": "Source confirms the exact model/configuration; separate permission for commercial re-hosting was not automatically verified.",
+      "images": [
+        {
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-display.png",
+          "path": "assets/products/mono-006/main.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 832,
+          "bytes": 30732
+        },
+        {
+          "url": "https://asset.msi.com/resize/image/global/product/product_1704357310e79022bb1b646afe76824d0459f57a23.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+          "path": "assets/products/mono-006/angle.webp",
+          "role": "angle",
+          "width": 1024,
+          "height": 819,
+          "bytes": 11488
+        },
+        {
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-stand.png",
+          "path": "assets/products/mono-006/back.webp",
+          "role": "back",
+          "width": 1000,
+          "height": 832,
+          "bytes": 4638
+        },
+        {
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg",
+          "path": "assets/products/mono-006/detail.webp",
+          "role": "detail",
+          "width": 1400,
+          "height": 583,
+          "bytes": 67644
+        }
+      ]
     },
     {
       "id": "mono-007",
       "model": "Моноблок HP AIO 27-CR0156NH",
       "status": "complete",
-      "photo_count": 6,
+      "photo_count": 3,
       "paths": [
         "assets/products/mono-007/main.webp",
         "assets/products/mono-007/angle.webp",
-        "assets/products/mono-007/back.webp",
-        "assets/products/mono-007/detail.webp",
-        "assets/products/mono-007/side.webp",
-        "assets/products/mono-007/rear.webp"
+        "assets/products/mono-007/back.webp"
       ],
       "source_pages": [
         "https://www.hp.com/emea_africa-en/products/desktops/product-details/2102522176",
         "https://www.alshariqa-erbil.com/shop/542-aio-hp-27-cr0156nh-ci7-1355u-8gb-ddr4-512gb-ssd-shared-27-inch-ips-fhd-dos-shell-white-eng-1333"
       ],
       "source_direct": [
-        "https://www.alshariqa-erbil.com/web/image/product.image/1335/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_FrontLeft_CamUp_GreyBG_M1547233.webp?unique=cd58b5b"
+        "https://www.alshariqa-erbil.com/web/image/product.image/1335/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_FrontLeft_CamUp_GreyBG_M1547233.webp?unique=cd58b5b",
+        "https://www.alshariqa-erbil.com/web/image/product.image/1333/image_1024/23C1_OPP_Maokong_27_ShellWhite_T_NT_HAS_CaptainCrunchWired_Win11_CoreSet_FrontRight_WhiteBG_Intel_M1707533.webp?unique=35dc2df",
+        "https://www.alshariqa-erbil.com/web/image/product.image/1334/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_RearLeft_CamUp_GreyBG_M1547231.webp?unique=cd58b5b"
       ],
       "selected_source_images": [
         "https://www.alshariqa-erbil.com/web/image/product.image/1335/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_FrontLeft_CamUp_GreyBG_M1547233.webp?unique=cd58b5b",
         "https://www.alshariqa-erbil.com/web/image/product.image/1333/image_1024/23C1_OPP_Maokong_27_ShellWhite_T_NT_HAS_CaptainCrunchWired_Win11_CoreSet_FrontRight_WhiteBG_Intel_M1707533.webp?unique=35dc2df",
-        "https://www.alshariqa-erbil.com/web/image/product.image/1334/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_RearLeft_CamUp_GreyBG_M1547231.webp?unique=cd58b5b",
-        "https://www.alshariqa-erbil.com/web/image/34797-e153a351/Artboard%201%20copy%202%402x%20%281%29.webp",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/business-computers%402x.jpg",
-        "https://www.hp.com/content/dam/digitnav/menu/aug_2025/business-printing%402x.jpg"
+        "https://www.alshariqa-erbil.com/web/image/product.image/1334/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_RearLeft_CamUp_GreyBG_M1547231.webp?unique=cd58b5b"
       ],
-      "match_note": "Official HP page and an exact-config product page for HP 27-cr0156nh (A9VA3EA), i7-1355U/8GB/512GB/FHD/white.",
+      "match_note": "Три точных изображения страницы HP 27-CR0156NH A9VA3EA с совпадающими i7-1355U/8GB/512GB/27-inch Shell White; общие HP-баннеры и логотип удалены.",
       "reason": "",
-      "rights_note": "Source confirms the model; separate permission for commercial re-hosting was not automatically verified."
+      "rights_note": "Source confirms the exact model/configuration; separate permission for commercial re-hosting was not automatically verified.",
+      "images": [
+        {
+          "url": "https://www.alshariqa-erbil.com/web/image/product.image/1335/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_FrontLeft_CamUp_GreyBG_M1547233.webp?unique=cd58b5b",
+          "path": "assets/products/mono-007/main.webp",
+          "role": "main",
+          "width": 1000,
+          "height": 850,
+          "bytes": 40646
+        },
+        {
+          "url": "https://www.alshariqa-erbil.com/web/image/product.image/1333/image_1024/23C1_OPP_Maokong_27_ShellWhite_T_NT_HAS_CaptainCrunchWired_Win11_CoreSet_FrontRight_WhiteBG_Intel_M1707533.webp?unique=35dc2df",
+          "path": "assets/products/mono-007/angle.webp",
+          "role": "angle",
+          "width": 1024,
+          "height": 870,
+          "bytes": 46624
+        },
+        {
+          "url": "https://www.alshariqa-erbil.com/web/image/product.image/1334/image_1024/23C1_INTEL_OPP_Maokong_27_ShellWhite_T_NT_Fixed_CaptainCrunchWired_CoreSet_RearLeft_CamUp_GreyBG_M1547231.webp?unique=cd58b5b",
+          "path": "assets/products/mono-007/back.webp",
+          "role": "back",
+          "width": 1024,
+          "height": 870,
+          "bytes": 33670
+        }
+      ]
     }
   ]
 }

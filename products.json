@@ -1031,10 +1031,7 @@
     "images": [
       "assets/products/mono-003/main.webp",
       "assets/products/mono-003/angle.webp",
-      "assets/products/mono-003/back.webp",
-      "assets/products/mono-003/detail.webp",
-      "assets/products/mono-003/side.webp",
-      "assets/products/mono-003/rear.webp"
+      "assets/products/mono-003/back.webp"
     ]
   },
   {
@@ -1174,7 +1171,9 @@
     "verifiedSpecs": [],
     "images": [
       "assets/products/mono-006/main.webp",
-      "assets/products/mono-006/angle.webp"
+      "assets/products/mono-006/angle.webp",
+      "assets/products/mono-006/back.webp",
+      "assets/products/mono-006/detail.webp"
     ]
   },
   {
@@ -1215,10 +1214,7 @@
     "images": [
       "assets/products/mono-007/main.webp",
       "assets/products/mono-007/angle.webp",
-      "assets/products/mono-007/back.webp",
-      "assets/products/mono-007/detail.webp",
-      "assets/products/mono-007/side.webp",
-      "assets/products/mono-007/rear.webp"
+      "assets/products/mono-007/back.webp"
     ]
   },
   {

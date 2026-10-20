@@ -288,8 +288,10 @@ def download_image(url: str, referer: str) -> Image.Image | None:
         image = ImageOps.exif_transpose(image)
         image.load()
         if image.width < 120 or image.height < 120:
+            print("PHOTO_DEBUG_DIMENSIONS", url, image.width, image.height)
             return None
         if image.format not in {"JPEG", "PNG", "WEBP", "GIF", "BMP", "TIFF"}:
+            print("PHOTO_DEBUG_FORMAT", url, image.format)
             return None
         return image
     except Exception as exc:
@@ -386,6 +388,8 @@ def main() -> None:
                 candidates.extend(official_page_candidates(query, domain, DIRECT_PAGE_URLS.get(pid)))
             if candidates:
                 break
+        if pid in DIRECT_PAGE_URLS or pid in DIRECT_IMAGE_URLS:
+            print("PHOTO_DEBUG_CANDIDATES", pid, len(candidates), [x.get("image_url") for x in candidates[:3]])
         selected = []
         downloaded = []
         seen_urls = set()

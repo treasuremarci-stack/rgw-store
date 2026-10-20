@@ -338,6 +338,8 @@ def main():
         "rgw_page_monoblocks.html",
         "PROJECT_STATUS.md",
         "MONOBLOCK_PHOTO_PROGRESS.json",
+        "tools/apply_monoblock_corrections.py",
+        ".github/workflows/apply-monoblock-corrections.yml",
     }
     if unexpected:
         raise RuntimeError(f"Unexpected changed files: {sorted(unexpected)}")

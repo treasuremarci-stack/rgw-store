@@ -921,7 +921,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": null,
+    "image": "assets/products/mono-001/main.webp",
     "identifiers": {
       "modelNumber": "HP-200-G4-AIO"
     },
@@ -952,7 +952,15 @@
         "group": "Общие параметры"
       }
     ],
-    "verifiedSpecs": []
+    "verifiedSpecs": [],
+    "images": [
+      "assets/products/mono-001/main.webp",
+      "assets/products/mono-001/angle.webp",
+      "assets/products/mono-001/back.webp",
+      "assets/products/mono-001/detail.webp",
+      "assets/products/mono-001/side.webp",
+      "assets/products/mono-001/rear.webp"
+    ]
   },
   {
     "id": "mono-002",
@@ -993,7 +1001,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": null,
+    "image": "assets/products/mono-003/main.webp",
     "identifiers": {
       "modelNumber": "HP-27-CR0008L"
     },
@@ -1019,7 +1027,15 @@
         "group": "Экран"
       }
     ],
-    "verifiedSpecs": []
+    "verifiedSpecs": [],
+    "images": [
+      "assets/products/mono-003/main.webp",
+      "assets/products/mono-003/angle.webp",
+      "assets/products/mono-003/back.webp",
+      "assets/products/mono-003/detail.webp",
+      "assets/products/mono-003/side.webp",
+      "assets/products/mono-003/rear.webp"
+    ]
   },
   {
     "id": "mono-004",
@@ -1029,7 +1045,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": null,
+    "image": "assets/products/mono-004/main.webp",
     "identifiers": {
       "modelNumber": "LENOVO-27IRH9-I7"
     },
@@ -1060,7 +1076,13 @@
         "group": "Общие параметры"
       }
     ],
-    "verifiedSpecs": []
+    "verifiedSpecs": [],
+    "images": [
+      "assets/products/mono-004/main.webp",
+      "assets/products/mono-004/angle.webp",
+      "assets/products/mono-004/back.webp",
+      "assets/products/mono-004/detail.webp"
+    ]
   },
   {
     "id": "mono-005",
@@ -1070,7 +1092,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": null,
+    "image": "assets/products/mono-005/main.webp",
     "identifiers": {
       "modelNumber": "LENOVO-27IRH9-I5"
     },
@@ -1101,7 +1123,14 @@
         "group": "Общие параметры"
       }
     ],
-    "verifiedSpecs": []
+    "verifiedSpecs": [],
+    "images": [
+      "assets/products/mono-005/main.webp",
+      "assets/products/mono-005/angle.webp",
+      "assets/products/mono-005/back.webp",
+      "assets/products/mono-005/detail.webp",
+      "assets/products/mono-005/side.webp"
+    ]
   },
   {
     "id": "mono-006",
@@ -1111,7 +1140,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": null,
+    "image": "assets/products/mono-006/main.webp",
     "identifiers": {
       "modelNumber": "MSI-AP272P-AIO"
     },
@@ -1142,7 +1171,11 @@
         "group": "Общие параметры"
       }
     ],
-    "verifiedSpecs": []
+    "verifiedSpecs": [],
+    "images": [
+      "assets/products/mono-006/main.webp",
+      "assets/products/mono-006/angle.webp"
+    ]
   },
   {
     "id": "mono-007",
@@ -1152,7 +1185,7 @@
     "category": "Моноблоки",
     "categoryName": "Моноблоки",
     "categoryUrl": "rgw_page_monoblocks.html",
-    "image": null,
+    "image": "assets/products/mono-007/main.webp",
     "identifiers": {
       "modelNumber": "HP-27-CR0156NH"
     },
@@ -1178,7 +1211,15 @@
         "group": "Экран"
       }
     ],
-    "verifiedSpecs": []
+    "verifiedSpecs": [],
+    "images": [
+      "assets/products/mono-007/main.webp",
+      "assets/products/mono-007/angle.webp",
+      "assets/products/mono-007/back.webp",
+      "assets/products/mono-007/detail.webp",
+      "assets/products/mono-007/side.webp",
+      "assets/products/mono-007/rear.webp"
+    ]
   },
   {
     "id": "gpu-001",

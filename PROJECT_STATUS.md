@@ -292,3 +292,32 @@ READY FOR SUPABASE OWNER SETUP. Публичная конфигурация по
 - Изображения скачаны в репозиторий, приведены к WebP до 1000 px для основного кадра и до 1400 px для дополнительных; краевой белый фон удаляется только из связной области фона, чтобы не затрагивать детали корпуса.
 - Техническая готовность следующего этапа: каталог ноутбуков и универсальная страница уже используют локальные image/images; для остальных категорий отдельные фото пока не подключались.
 - Права на повторное коммерческое размещение внешних assets требуют отдельной ручной проверки.
+
+
+## Monoblock photo stage (2026-10-20)
+
+Base stage commit: 9ec8a39d671655307017538c35ad6e2e3dda73bc. Laptop files, PHOTO_PROGRESS.json, price.csv, product.html, product.js and rgw_page_laptops.html were not changed.
+All 7 monoblock records from rgw_page_monoblocks.html and products.json were processed.
+Only exact manufacturer pages or exact configuration pages were used; similar models were not substituted.
+
+### Results
+
+- mono-001 — Моноблок HP 200 G4 AIO: complete, 6 WebP; main photo assets/products/mono-001/main.webp.
+- mono-002 — Моноблок HP 290: placeholder; reason: В каталоге указано только «HP 290» без поколения, артикула и точного форм-фактора; подтверждённое фото именно этой AIO-модификации не найдено.
+- mono-003 — Моноблок HP AIO 27-CR0008L: complete, 6 WebP; main photo assets/products/mono-003/main.webp.
+- mono-004 — Моноблок Lenovo IdeaCentre 27IRH9, Core i7: complete, 4 WebP; main photo assets/products/mono-004/main.webp.
+- mono-005 — Моноблок Lenovo IdeaCentre 27IRH9, Core i5: complete, 5 WebP; main photo assets/products/mono-005/main.webp.
+- mono-006 — Моноблок MSI Pro AP272P AIO 27: complete, 2 WebP; main photo assets/products/mono-006/main.webp.
+- mono-007 — Моноблок HP AIO 27-CR0156NH: complete, 6 WebP; main photo assets/products/mono-007/main.webp.
+
+### Checks
+
+products.json was changed only for monoblocks with found images; image and images[] were added, other product records were preserved.
+Only image slots in the monoblock catalog cards were replaced; names, SKUs, data attributes, filters, sorting, prices and design were not changed.
+Saved images were converted to WebP without artificial upscaling; only border-connected white background was removed.
+Universal product.html?id=mono-XXX links remain unchanged; the existing product.js gallery is used.
+External-image reuse rights still require manual review; every source is recorded in MONOBLOCK_PHOTO_PROGRESS.json.
+
+### Next proposed stage
+
+After owner review, continue with photos for other categories. Laptops after commit 9ec8a39 were outside this stage.

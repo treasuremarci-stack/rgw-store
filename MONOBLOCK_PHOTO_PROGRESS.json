@@ -165,63 +165,74 @@
       "id": "mono-006",
       "model": "Моноблок MSI Pro AP272P AIO 27",
       "status": "complete",
-      "photo_count": 4,
+      "photo_count": 5,
       "paths": [
         "assets/products/mono-006/main.webp",
         "assets/products/mono-006/angle.webp",
         "assets/products/mono-006/back.webp",
-        "assets/products/mono-006/detail.webp"
+        "assets/products/mono-006/detail.webp",
+        "assets/products/mono-006/side.webp"
       ],
       "source_pages": [
-        "https://www.msi.com/All-in-One-PC/PRO-AP272P-14MX"
+        "https://www.msi.com/All-in-One-PC/PRO-AP272P-14MX/Gallery"
       ],
       "source_direct": [
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-display.png",
-        "https://asset.msi.com/resize/image/global/product/product_1704357310e79022bb1b646afe76824d0459f57a23.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-stand.png",
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg"
+        "https://storage-asset.msi.com/global/picture/product/product_170435730656885befcbd0dd4ae128c4e5e2ddfdb2.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_1704357309b6b7f0af88b73502671246c1fcc07fe5.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_1704357308882a70a64d24bc6bd2eeb30f804aefbb.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_1704357310e79022bb1b646afe76824d0459f57a23.webp"
       ],
       "selected_source_images": [
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-display.png",
-        "https://asset.msi.com/resize/image/global/product/product_1704357310e79022bb1b646afe76824d0459f57a23.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-stand.png",
-        "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg"
+        "https://storage-asset.msi.com/global/picture/product/product_170435730656885befcbd0dd4ae128c4e5e2ddfdb2.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_1704357309b6b7f0af88b73502671246c1fcc07fe5.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_1704357308882a70a64d24bc6bd2eeb30f804aefbb.webp",
+        "https://storage-asset.msi.com/global/picture/product/product_1704357310e79022bb1b646afe76824d0459f57a23.webp"
       ],
-      "match_note": "Точные официальные изображения серии MSI PRO AP272P 14M; изображения баннеров kv-title/ADL-title исключены.",
+      "match_note": "Пять точных product-изображений официальной Gallery MSI PRO AP272P 14M; feature-баннеры исключены.",
       "reason": "",
-      "rights_note": "Source confirms the exact model/configuration; separate permission for commercial re-hosting was not automatically verified.",
+      "rights_note": "Official MSI source confirms the exact PRO AP272P 14M family; separate permission for commercial re-hosting was not automatically verified.",
       "images": [
         {
-          "url": "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-display.png",
+          "url": "https://storage-asset.msi.com/global/picture/product/product_170435730656885befcbd0dd4ae128c4e5e2ddfdb2.webp",
           "path": "assets/products/mono-006/main.webp",
           "role": "main",
           "width": 1000,
-          "height": 832,
-          "bytes": 30732
+          "height": 800,
+          "bytes": 23578
         },
         {
-          "url": "https://asset.msi.com/resize/image/global/product/product_1704357310e79022bb1b646afe76824d0459f57a23.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+          "url": "https://storage-asset.msi.com/global/picture/product/product_170435730666d72249e958c6bd40d9ae65f935f37a.webp",
           "path": "assets/products/mono-006/angle.webp",
           "role": "angle",
-          "width": 1024,
-          "height": 819,
-          "bytes": 11488
+          "width": 1000,
+          "height": 800,
+          "bytes": 36900
         },
         {
-          "url": "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/adjustable-stand-front-stand.png",
+          "url": "https://storage-asset.msi.com/global/picture/product/product_1704357309b6b7f0af88b73502671246c1fcc07fe5.webp",
           "path": "assets/products/mono-006/back.webp",
           "role": "back",
           "width": 1000,
-          "height": 832,
-          "bytes": 4638
+          "height": 800,
+          "bytes": 37448
         },
         {
-          "url": "https://storage-asset.msi.com/global/picture/image/feature/AIO/PRO-AP272P-14M/kv.jpg",
+          "url": "https://storage-asset.msi.com/global/picture/product/product_1704357308882a70a64d24bc6bd2eeb30f804aefbb.webp",
           "path": "assets/products/mono-006/detail.webp",
           "role": "detail",
-          "width": 1400,
-          "height": 583,
-          "bytes": 67644
+          "width": 1000,
+          "height": 800,
+          "bytes": 16262
+        },
+        {
+          "url": "https://storage-asset.msi.com/global/picture/product/product_1704357310e79022bb1b646afe76824d0459f57a23.webp",
+          "path": "assets/products/mono-006/side.webp",
+          "role": "side",
+          "width": 1000,
+          "height": 800,
+          "bytes": 11348
         }
       ]
     },

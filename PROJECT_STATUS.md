@@ -296,7 +296,7 @@ READY FOR SUPABASE OWNER SETUP. Публичная конфигурация по
 
 ## Monoblock photo stage (2026-10-20)
 
-Base stage commit: 9ec8a39d671655307017538c35ad6e2e3dda73bc. This correction removed rejected non-product images. Laptop files and PHOTO_PROGRESS.json remain untouched.
+Base stage commit: 9ec8a39d671655307017538c35ad6e2e3dda73bc. Final photo correction replaced rejected non-product assets. Laptop files and PHOTO_PROGRESS.json remain untouched.
 All 7 monoblock records were checked. Only exact model/configuration sources were retained; similar models, generic banners and logos were excluded.
 
 ### Results
@@ -306,12 +306,12 @@ All 7 monoblock records were checked. Only exact model/configuration sources wer
 - mono-003 — Моноблок HP AIO 27-CR0008L: complete, 3 WebP; main photo assets/products/mono-003/main.webp.
 - mono-004 — Моноблок Lenovo IdeaCentre 27IRH9, Core i7: complete, 4 WebP; main photo assets/products/mono-004/main.webp.
 - mono-005 — Моноблок Lenovo IdeaCentre 27IRH9, Core i5: complete, 5 WebP; main photo assets/products/mono-005/main.webp.
-- mono-006 — Моноблок MSI Pro AP272P AIO 27: complete, 4 WebP; main photo assets/products/mono-006/main.webp.
+- mono-006 — Моноблок MSI Pro AP272P AIO 27: complete, 5 WebP; main photo assets/products/mono-006/main.webp.
 - mono-007 — Моноблок HP AIO 27-CR0156NH: complete, 3 WebP; main photo assets/products/mono-007/main.webp.
 
 ### Checks
 
-Changed product image links only for mono-003, mono-006 and mono-007; product names, IDs, SKUs, characteristics, prices and filters were preserved.
+Changed product image links only for monoblock records with verified images; product names, IDs, SKUs, characteristics, prices and filters were preserved.
 The monoblock catalog card paths remain the same main.webp slots, and the existing product.html?id=mono-XXX gallery architecture remains unchanged.
 All replacement assets are WebP, are not artificially enlarged, and use border-connected white-background removal only.
 External-image reuse rights still require manual review; source pages and direct image URLs are recorded in MONOBLOCK_PHOTO_PROGRESS.json.

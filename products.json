@@ -793,8 +793,7 @@
       "assets/products/laptop-011/main.webp",
       "assets/products/laptop-011/angle.webp",
       "assets/products/laptop-011/back.webp",
-      "assets/products/laptop-011/detail.webp",
-      "assets/products/laptop-011/keyboard.webp"
+      "assets/products/laptop-011/detail.webp"
     ],
     "placeholder": "⚡",
     "catalogFacts": [
@@ -869,8 +868,7 @@
     "image": "assets/products/laptop-012/main.webp",
     "images": [
       "assets/products/laptop-012/main.webp",
-      "assets/products/laptop-012/angle.webp",
-      "assets/products/laptop-012/back.webp"
+      "assets/products/laptop-012/angle.webp"
     ],
     "placeholder": "💻",
     "catalogFacts": [

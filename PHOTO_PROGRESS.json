@@ -259,8 +259,8 @@
       "brand": "MSI",
       "model": "MSI CROSSHAIR 16 AI",
       "status": "completed_exact_product_page",
-      "photoCount": 5,
-      "matchScope": "Точная конфигурация подтверждена страницей товара; изображения взяты с этой страницы",
+      "photoCount": 4,
+      "matchScope": "Точная конфигурация подтверждена страницей товара; уникальные кадры exact product page",
       "rightsStatus": "manual_rights_review_required",
       "sources": [
         {
@@ -272,11 +272,7 @@
           "role": "official-platform-verification"
         },
         {
-          "url": "http://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_01.jpg?crop=center&height=1200&v=1791994594&width=1200",
-          "role": "downloaded-image"
-        },
-        {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_01.jpg?v=1791994594&width=690",
+          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_01.jpg?v=1791994594&width=1500",
           "role": "downloaded-image"
         },
         {
@@ -284,11 +280,11 @@
           "role": "downloaded-image"
         },
         {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_02.jpg?v=1791994594&width=690",
+          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_03.jpg?v=1791994594&width=1500",
           "role": "downloaded-image"
         },
         {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_03.jpg?v=1791994594&width=1500",
+          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_04.jpg?v=1791994594&width=1500",
           "role": "downloaded-image"
         }
       ],
@@ -296,8 +292,7 @@
         "assets/products/laptop-011/main.webp",
         "assets/products/laptop-011/angle.webp",
         "assets/products/laptop-011/back.webp",
-        "assets/products/laptop-011/detail.webp",
-        "assets/products/laptop-011/keyboard.webp"
+        "assets/products/laptop-011/detail.webp"
       ],
       "skipReason": null
     },
@@ -306,13 +301,13 @@
       "brand": "Lenovo",
       "model": "LENOVO IP SLIM 3i",
       "status": "completed_exact_configuration_fallback",
-      "photoCount": 3,
-      "matchScope": "Точная конфигурация подтверждена страницей товара; использован прямой asset для той же конфигурации",
+      "photoCount": 2,
+      "matchScope": "Точная конфигурация подтверждена страницей товара; два прямых asset exact-конфигурации",
       "rightsStatus": "manual_rights_review_required",
       "sources": [
         {
           "url": "https://global.microless.com/product/lenovo-ideapad-slim-3-15iru8-laptop-15-6-fhd-ips-display-intel-core-i5-1334u-8gb-ram-512gb-ssd-intel-iris-xe-graphics-backlit-english-keyboard-windows-11-arctic-grey-82x700edus/",
-          "role": "exact-configuration-verification-and-image-source"
+          "role": "exact-configuration-verification"
         },
         {
           "url": "https://psref.lenovo.com/Product/IdeaPad/IdeaPad_Slim_3_15IRU8",
@@ -320,21 +315,16 @@
         },
         {
           "url": "https://i5.walmartimages.com/seo/Lenovo-IdeaPad-Slim-3i-15-6-Laptop-15-6-Intel-Core-i5-1334U-8GB-512-SSD-82X700EDUS_707d42f6-8a35-4a79-a429-fa1d9b45c9c1.06d671f18d1e2d4e7532194c00c58d52.png?odnBg=FFFFFF&odnHeight=612&odnWidth=612",
-          "role": "downloaded-image"
+          "role": "downloaded-image-exact-configuration"
         },
         {
           "url": "https://c1.neweggimages.com/productimage/nb640/A8X5S25112213H6L7C5.jpg",
-          "role": "downloaded-image"
-        },
-        {
-          "url": "https://p2-ofp.static.pub//fes/cms/2023/07/17/cb33s6cv4scvgl4k2mxwpjhnmqfjgg628756.png?height=584&width=584",
-          "role": "downloaded-image"
+          "role": "downloaded-image-exact-configuration"
         }
       ],
       "paths": [
         "assets/products/laptop-012/main.webp",
-        "assets/products/laptop-012/angle.webp",
-        "assets/products/laptop-012/back.webp"
+        "assets/products/laptop-012/angle.webp"
       ],
       "skipReason": null
     }

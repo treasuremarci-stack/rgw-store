@@ -286,8 +286,8 @@ READY FOR SUPABASE OWNER SETUP. Публичная конфигурация по
 - Файлы и записи laptop-001…laptop-010 не изменялись.
 - laptop-008 и laptop-009 оставлены заглушками по заданному ограничению.
 - Фильтры, карточки кроме image-slot, характеристики, цены, SKU, price.csv и архитектура product.html?id=PRODUCT_ID не изменялись.
-- laptop-011: exact product-page source; добавлено 5 WebP: assets/products/laptop-011/main.webp, assets/products/laptop-011/angle.webp, assets/products/laptop-011/back.webp, assets/products/laptop-011/detail.webp, assets/products/laptop-011/keyboard.webp.
-- laptop-012: exact configuration fallback; добавлено 3 WebP: assets/products/laptop-012/main.webp, assets/products/laptop-012/angle.webp, assets/products/laptop-012/back.webp.
+- laptop-011: exact product-page source; добавлено 4 уникальных WebP: assets/products/laptop-011/main.webp, assets/products/laptop-011/angle.webp, assets/products/laptop-011/back.webp, assets/products/laptop-011/detail.webp.
+- laptop-012: exact configuration fallback; добавлено 2 WebP: assets/products/laptop-012/main.webp, assets/products/laptop-012/angle.webp.
 - Для laptop-011 использована точная страница MSI Crosshair 16 HX AI D2XWGKG-271NG; для laptop-012 — точная карточка Lenovo IdeaPad Slim 3 15IRU8, 82X700EDUS.
 - Изображения скачаны в репозиторий, приведены к WebP до 1000 px для основного кадра и до 1400 px для дополнительных; краевой белый фон удаляется только из связной области фона, чтобы не затрагивать детали корпуса.
 - Техническая готовность следующего этапа: каталог ноутбуков и универсальная страница уже используют локальные image/images; для остальных категорий отдельные фото пока не подключались.

@@ -164,6 +164,34 @@ The existing `product.html?id=PRODUCT_ID` flow now supports the 12 laptop cards 
 - Confirmed each remaining card receives exactly one image link and one title link to its own `product.html?id=PRODUCT_ID`.
 - Confirmed no price fields were added and no real images were introduced.
 
+
+## Laptop photo background correction (2026-10-20)
+
+- Reviewed all 16 existing WebP files linked to the first 10 laptop records. laptop-008 and laptop-009 remain placeholders and have no photo files to process.
+- The light-gray catalog/product containers come from existing CSS; the visible white rectangles were embedded in source images.
+- Removed only border-connected near-white pixels from affected images. Enclosed white laptop areas were not flood-filled. Dimensions, aspect ratios and visual scale were preserved; no cropping or stretching was introduced.
+- Approved non-white/transparent images were left unchanged.
+
+### Files checked
+
+- assets/products/laptop-001/main.webp: transparent exterior (610402 pixels), size 1000x1000
+- assets/products/laptop-002/main.webp: unchanged
+- assets/products/laptop-003/main.webp: unchanged
+- assets/products/laptop-003/side.webp: unchanged
+- assets/products/laptop-003/detail.webp: unchanged
+- assets/products/laptop-003/angle.webp: unchanged
+- assets/products/laptop-004/main.webp: transparent exterior (657559 pixels), size 1000x1000
+- assets/products/laptop-004/back.webp: transparent exterior (191558 pixels), size 800x602
+- assets/products/laptop-005/main.webp: transparent exterior (747810 pixels), size 1000x1000
+- assets/products/laptop-006/main.webp: unchanged
+- assets/products/laptop-007/main.webp: unchanged
+- assets/products/laptop-007/angle.webp: unchanged
+- assets/products/laptop-007/back.webp: unchanged
+- assets/products/laptop-010/main.webp: transparent exterior (658638 pixels), size 1000x1000
+- assets/products/laptop-010/angle.webp: transparent exterior (659400 pixels), size 1000x1000
+- assets/products/laptop-010/back.webp: transparent exterior (964275 pixels), size 1000x1000
+- Product names, IDs, SKUs, characteristics, prices, price.csv, catalog markup, product-page logic and card design were not changed in this photo-only stage.
+
 ## Next proposed stage
 
 Perform a final repository-wide visual/manual QA pass for the newly connected categories, then handle future real images/prices only when explicitly approved.

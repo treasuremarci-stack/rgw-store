@@ -336,3 +336,10 @@ After owner review, continue with photos for other categories. Laptops after com
 - Confirmed the catalog markup outside the monoblock page CSS block is byte-for-byte unchanged.
 - Confirmed the page still points to the same main.webp paths and the universal product.html?id=mono-XXX gallery continues to receive the existing images[] arrays.
 - GitHub Pages publication and interactive browser hover checks are performed after the commit; if the environment cannot provide an interactive browser, that limitation will be reported explicitly.
+
+
+## Published verification — monoblock card correction (2026-10-20)
+
+- GitHub Pages build/deployment for the correction commit e6e80a8647a9eb64d841a38d4a919aac85c1db71 completed successfully (run 39471990812).
+- Static verification confirmed all seven monoblock cards, 26 existing monoblock WebP gallery files, unchanged product-page gallery logic, unchanged protected files, and the responsive image rules.
+- An interactive browser/screenshot runtime was not available in this environment, so live hover/touch interaction and pixel-level visual comparison could not be performed here. The CSS and asset checks were completed from the published source tree and deployment result.

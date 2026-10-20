@@ -788,7 +788,14 @@
     "name": "MSI CROSSHAIR 16 AI",
     "brand": "MSI",
     "category": "Ноутбуки",
-    "image": null,
+    "image": "assets/products/laptop-011/main.webp",
+    "images": [
+      "assets/products/laptop-011/main.webp",
+      "assets/products/laptop-011/angle.webp",
+      "assets/products/laptop-011/back.webp",
+      "assets/products/laptop-011/detail.webp",
+      "assets/products/laptop-011/keyboard.webp"
+    ],
     "placeholder": "⚡",
     "catalogFacts": [
       {
@@ -859,7 +866,12 @@
     "name": "LENOVO IP SLIM 3i",
     "brand": "Lenovo",
     "category": "Ноутбуки",
-    "image": null,
+    "image": "assets/products/laptop-012/main.webp",
+    "images": [
+      "assets/products/laptop-012/main.webp",
+      "assets/products/laptop-012/angle.webp",
+      "assets/products/laptop-012/back.webp"
+    ],
     "placeholder": "💻",
     "catalogFacts": [
       {

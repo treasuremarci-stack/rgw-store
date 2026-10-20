@@ -149,7 +149,7 @@ def page_domain_match(url: str, domain: str) -> bool:
 
 def image_candidates(query: str, domain: str, limit: int = 8) -> list[dict]:
     url = "https://www.bing.com/images/search?form=HDRSC2&q=" + quote(
-        f"site:{domain} "{query}""
+        "site:" + domain + " " + query
     )
     try:
         response = session.get(url, timeout=30)

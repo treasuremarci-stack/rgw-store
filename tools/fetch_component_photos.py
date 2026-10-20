@@ -44,7 +44,7 @@ PAGE_MAP = {
 }
 
 DIRECT_PAGE_URLS = {
-    "gpu-005": ["https://galax.com/en/product/geforce-rtx-5080-16gb-1-click-oc-3x/"],
+    "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
     "gpu-007": ["https://www.asus.com/motherboards-components/graphics-cards/asus/gt710-sl-2gd5/"],
     "gpu-008": ["https://www.msi.com/Graphics-Card/GeForce-RTX-5060-8G-VENTUS-2X"],
     "mb-002": ["https://www.asus.com/motherboards-components/motherboards/prime/prime-z790-p/"],
@@ -279,7 +279,7 @@ def official_page_candidates(query: str, domain: str, direct_pages: list[str] | 
             if (
                 not image_url.startswith("http")
                 or any(word in lowered for word in ("logo", "icon", "favicon", "avatar", "sprite"))
-                or lowered.endswith(".svg")
+                or lowered.endswith((".svg", ".js", ".css", ".html", ".htm", ".json", ".xml"))
             ):
                 continue
             if image_url not in seen:
@@ -401,13 +401,11 @@ def main() -> None:
                 "title": query,
                 "score": 99,
             } for image_url in direct_urls)
-        for domain in domains:
-            if not candidates:
-                candidates.extend(image_candidates(query, domain))
-            if not candidates:
+        elif DIRECT_PAGE_URLS.get(pid):
+            for domain in domains:
                 candidates.extend(official_page_candidates(query, domain, DIRECT_PAGE_URLS.get(pid)))
-            if candidates:
-                break
+                if candidates:
+                    break
         if pid in DIRECT_PAGE_URLS or pid in DIRECT_IMAGE_URLS:
             print("PHOTO_DEBUG_CANDIDATES", pid, len(candidates), [x.get("image_url") for x in candidates[:3]])
         selected = []

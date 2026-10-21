@@ -209,6 +209,12 @@ def main() -> None:
     )
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0:
         return
+    subprocess.run(["git", "config", "user.name", "github-actions[bot]"], cwd=ROOT, check=True)
+    subprocess.run(
+        ["git", "config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"],
+        cwd=ROOT,
+        check=True,
+    )
     subprocess.run(["git", "commit", "-m", "QA component product photos"], cwd=ROOT, check=True)
 
 

@@ -450,7 +450,7 @@ def replace_card_image(page_path: Path, product: dict) -> None:
     title = html.escape(product["name"], quote=True)
     page = page_path.read_text(encoding="utf-8")
     article_re = re.compile(
-        rf'(<article\s+class="product-card"\s+data-product-id="{re.escape(product_id)}"[^>]*>.*?</article>)',
+        rf'(<article\b[^>]*\bdata-product-id="{re.escape(product_id)}"[^>]*>.*?</article>)',
         re.I | re.S,
     )
     match = article_re.search(page)

@@ -1226,8 +1226,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "A76D Black GF RTX3050 6GB EX White"
     },
@@ -1262,6 +1262,10 @@
         "value": "DisplayPort, HDMI, DVI-D",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/gpu-001/main.webp",
+      "images/products/gpu-001/01.webp"
     ]
   },
   {
@@ -1272,8 +1276,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "B67D Black GF RTX5060 Ti 1-Click OC White"
     },
@@ -1308,6 +1312,9 @@
         "value": "PCI Express",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/gpu-002/main.webp"
     ]
   },
   {
@@ -1318,8 +1325,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "B67O Black GF RTX5060 1-Click OC V2"
     },
@@ -1354,6 +1361,10 @@
         "value": "PCI Express",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/gpu-003/main.webp",
+      "images/products/gpu-003/01.webp"
     ]
   },
   {
@@ -1364,8 +1375,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-004/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "B76O Black GF RTX5050 1-Click OC"
     },
@@ -1390,6 +1401,10 @@
         "value": "GDDR6",
         "group": "Графика"
       }
+    ],
+    "images": [
+      "images/products/gpu-004/main.webp",
+      "images/products/gpu-004/01.webp"
     ]
   },
   {
@@ -1400,8 +1415,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "B37S Black GF RTX5080 1-Click OC"
     },
@@ -1431,6 +1446,10 @@
         "value": "256 бит",
         "group": "Графика"
       }
+    ],
+    "images": [
+      "images/products/gpu-005/main.webp",
+      "images/products/gpu-005/01.webp"
     ]
   },
   {
@@ -1441,8 +1460,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-006/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PG190 Black GF RTX3060 1-Click OC"
     },
@@ -1467,6 +1486,10 @@
         "value": "192 бит",
         "group": "Графика"
       }
+    ],
+    "images": [
+      "images/products/gpu-006/main.webp",
+      "images/products/gpu-006/01.webp"
     ]
   },
   {
@@ -1511,8 +1534,8 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🎮",
+    "image": "images/products/gpu-008/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "RTX 5060 Ventus 2X 8G"
     },
@@ -1537,6 +1560,12 @@
         "value": "128 бит",
         "group": "Графика"
       }
+    ],
+    "images": [
+      "images/products/gpu-008/main.webp",
+      "images/products/gpu-008/01.webp",
+      "images/products/gpu-008/02.webp",
+      "images/products/gpu-008/03.webp"
     ]
   },
   {
@@ -1593,7 +1622,8 @@
         "value": "DDR5-4800 / DDR4-3200",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-002",
@@ -1654,7 +1684,8 @@
         "value": "DDR5-5600 / DDR4-3200",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-003",
@@ -1705,7 +1736,8 @@
         "value": "Intel HD Graphics 4600",
         "group": "Графика"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-004",
@@ -1761,7 +1793,8 @@
         "value": "DDR5-5600 / DDR4-3200",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-005",
@@ -1812,7 +1845,8 @@
         "value": "DDR3-1600",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-006",
@@ -1863,7 +1897,8 @@
         "value": "Intel HD Graphics 4600",
         "group": "Графика"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-007",
@@ -1919,7 +1954,8 @@
         "value": "DDR5-6400",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-008",
@@ -1975,7 +2011,8 @@
         "value": "DDR5-6400",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-009",
@@ -2031,7 +2068,8 @@
         "value": "DDR5-6400",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-010",
@@ -2087,7 +2125,8 @@
         "value": "DDR5-6400",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-011",
@@ -2143,7 +2182,8 @@
         "value": "DDR4-2400",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-012",
@@ -2199,7 +2239,8 @@
         "value": "DDR5-5600 / DDR4-3200",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-013",
@@ -2250,7 +2291,8 @@
         "value": "Intel HD Graphics 2500",
         "group": "Графика"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-014",
@@ -2311,7 +2353,8 @@
         "value": "DDR5-5600 / DDR4-3200",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-015",
@@ -2372,7 +2415,8 @@
         "value": "DDR5-5600 / DDR4-3200",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-016",
@@ -2418,7 +2462,8 @@
         "value": "Intel HD Graphics 4400",
         "group": "Графика"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cpu-017",
@@ -2474,7 +2519,8 @@
         "value": "DDR5-6400",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-001",
@@ -2510,7 +2556,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-002",
@@ -2546,7 +2593,8 @@
         "value": "M.2 2280",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-003",
@@ -2582,7 +2630,8 @@
         "value": "M.2 2280",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-004",
@@ -2592,8 +2641,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-004/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MZ-V9S1T0BW"
     },
@@ -2628,6 +2677,12 @@
         "value": "4.0 x4 / 5.0 x2",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/ssd-004/main.webp",
+      "images/products/ssd-004/01.webp",
+      "images/products/ssd-004/02.webp",
+      "images/products/ssd-004/03.webp"
     ]
   },
   {
@@ -2731,8 +2786,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-007/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MZ-V9P2T0BW"
     },
@@ -2762,6 +2817,10 @@
         "value": "V-NAND TLC",
         "group": "Накопители"
       }
+    ],
+    "images": [
+      "images/products/ssd-007/main.webp",
+      "images/products/ssd-007/01.webp"
     ]
   },
   {
@@ -2798,7 +2857,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-009",
@@ -2834,7 +2894,8 @@
         "value": "M.2 2280",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-010",
@@ -2844,8 +2905,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-010/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "LNM790X001T-RNNNG"
     },
@@ -2885,6 +2946,12 @@
         "value": "1 000 TBW",
         "group": "Накопители"
       }
+    ],
+    "images": [
+      "images/products/ssd-010/main.webp",
+      "images/products/ssd-010/01.webp",
+      "images/products/ssd-010/02.webp",
+      "images/products/ssd-010/03.webp"
     ]
   },
   {
@@ -2895,8 +2962,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-011/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "LNM790X002T-RNNNG"
     },
@@ -2936,6 +3003,12 @@
         "value": "1 500 TBW",
         "group": "Накопители"
       }
+    ],
+    "images": [
+      "images/products/ssd-011/main.webp",
+      "images/products/ssd-011/01.webp",
+      "images/products/ssd-011/02.webp",
+      "images/products/ssd-011/03.webp"
     ]
   },
   {
@@ -2982,7 +3055,8 @@
         "value": "до 3 100 МБ/с",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-013",
@@ -3013,7 +3087,8 @@
         "value": "NVMe",
         "group": "Интерфейсы"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-014",
@@ -3049,7 +3124,8 @@
         "value": "M.2 2280",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-015",
@@ -3085,7 +3161,8 @@
         "value": "3.0 x4 NVMe",
         "group": "Интерфейсы"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-016",
@@ -3095,8 +3172,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-016/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Lexar THOR PRO 512GB"
     },
@@ -3126,6 +3203,10 @@
         "value": "4.0 x4 NVMe",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/ssd-016/main.webp",
+      "images/products/ssd-016/01.webp"
     ]
   },
   {
@@ -3162,7 +3243,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-018",
@@ -3198,7 +3280,8 @@
         "value": "M.2 2280",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-019",
@@ -3234,7 +3317,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-020",
@@ -3270,7 +3354,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ssd-021",
@@ -3280,8 +3365,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-021/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "NVMe Lexar 512 GB LNM 790"
     },
@@ -3301,6 +3386,12 @@
         "value": "NVMe",
         "group": "Интерфейсы"
       }
+    ],
+    "images": [
+      "images/products/ssd-021/main.webp",
+      "images/products/ssd-021/01.webp",
+      "images/products/ssd-021/02.webp",
+      "images/products/ssd-021/03.webp"
     ]
   },
   {
@@ -3337,7 +3428,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-001",
@@ -3347,8 +3439,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PRIME B760M-F"
     },
@@ -3378,6 +3470,12 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/mb-001/main.webp",
+      "images/products/mb-001/01.webp",
+      "images/products/mb-001/02.webp",
+      "images/products/mb-001/03.webp"
     ]
   },
   {
@@ -3538,7 +3636,8 @@
         "value": "DDR4",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-006",
@@ -3610,7 +3709,8 @@
         "value": "LGA1155",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-008",
@@ -3633,7 +3733,8 @@
         "value": "LGA1700",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-009",
@@ -3656,7 +3757,8 @@
         "value": "LGA1150",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-010",
@@ -3666,8 +3768,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-010/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "B760M K DDR4"
     },
@@ -3697,6 +3799,9 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/mb-010/main.webp"
     ]
   },
   {
@@ -3738,7 +3843,8 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-012",
@@ -3766,7 +3872,8 @@
         "value": "DDR5",
         "group": "Память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-013",
@@ -3807,7 +3914,8 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "mb-014",
@@ -3817,8 +3925,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-014/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PRIME B860M-BRO"
     },
@@ -3848,6 +3956,12 @@
         "value": "Micro-ATX",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/mb-014/main.webp",
+      "images/products/mb-014/01.webp",
+      "images/products/mb-014/02.webp",
+      "images/products/mb-014/03.webp"
     ]
   },
   {
@@ -3858,8 +3972,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-015/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Z790 D"
     },
@@ -3884,6 +3998,9 @@
         "value": "DDR5",
         "group": "Память"
       }
+    ],
+    "images": [
+      "images/products/mb-015/main.webp"
     ]
   },
   {
@@ -3951,7 +4068,8 @@
         "value": "3200 МГц",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-002",
@@ -3984,7 +4102,8 @@
         "value": "SO-DIMM",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-003",
@@ -4017,7 +4136,8 @@
         "value": "SO-DIMM",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-004",
@@ -4039,7 +4159,8 @@
         "value": "8 ГБ",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-005",
@@ -4049,8 +4170,8 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "KF552C40BB-32"
     },
@@ -4085,6 +4206,12 @@
         "value": "CL40",
         "group": "Оперативная память"
       }
+    ],
+    "images": [
+      "images/products/ram-005/main.webp",
+      "images/products/ram-005/01.webp",
+      "images/products/ram-005/02.webp",
+      "images/products/ram-005/03.webp"
     ]
   },
   {
@@ -4113,7 +4240,8 @@
         "value": "3200 МГц",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-007",
@@ -4135,7 +4263,8 @@
         "value": "4 ГБ",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-008",
@@ -4145,8 +4274,8 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-008/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Серия",
@@ -4168,6 +4297,12 @@
         "value": "6000 МГц",
         "group": "Оперативная память"
       }
+    ],
+    "images": [
+      "images/products/ram-008/main.webp",
+      "images/products/ram-008/01.webp",
+      "images/products/ram-008/02.webp",
+      "images/products/ram-008/03.webp"
     ]
   },
   {
@@ -4196,7 +4331,8 @@
         "value": "3200 МГц",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-010",
@@ -4224,7 +4360,8 @@
         "value": "2666 МГц",
         "group": "Оперативная память"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "ram-011",
@@ -4234,8 +4371,8 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-011/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Серия",
@@ -4257,6 +4394,12 @@
         "value": "5200 МГц",
         "group": "Оперативная память"
       }
+    ],
+    "images": [
+      "images/products/ram-011/main.webp",
+      "images/products/ram-011/01.webp",
+      "images/products/ram-011/02.webp",
+      "images/products/ram-011/03.webp"
     ]
   },
   {
@@ -4306,8 +4449,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 10 TB"
     },
@@ -4332,6 +4475,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-002/main.webp"
     ]
   },
   {
@@ -4342,8 +4488,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 14 TB"
     },
@@ -4368,6 +4514,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-003/main.webp"
     ]
   },
   {
@@ -4378,8 +4527,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-004/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 2 TB"
     },
@@ -4404,6 +4553,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-004/main.webp"
     ]
   },
   {
@@ -4414,8 +4566,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 8 TB"
     },
@@ -4440,6 +4592,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-005/main.webp"
     ]
   },
   {
@@ -4450,8 +4605,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-006/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 4 TB"
     },
@@ -4476,6 +4631,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-006/main.webp"
     ]
   },
   {
@@ -4486,8 +4644,8 @@
     "category": "HDD",
     "categoryName": "HDD",
     "categoryUrl": "rgw_page_hdd.html",
-    "image": null,
-    "placeholder": "💿",
+    "image": "images/products/hdd-007/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "WD Purple 6 TB"
     },
@@ -4512,6 +4670,9 @@
         "value": "Видеонаблюдение",
         "group": "Дополнительно"
       }
+    ],
+    "images": [
+      "images/products/hdd-007/main.webp"
     ]
   },
   {
@@ -4537,7 +4698,8 @@
         "value": "2.5\"",
         "group": "Накопители"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cases-001",
@@ -4551,7 +4713,8 @@
     "identifiers": {
       "family": "240"
     },
-    "catalogFacts": []
+    "catalogFacts": [],
+    "images": []
   },
   {
     "id": "cases-002",
@@ -4582,7 +4745,8 @@
         "value": "4",
         "group": "Охлаждение"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cases-003",
@@ -4608,7 +4772,8 @@
         "value": "ATX",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cases-004",
@@ -4618,8 +4783,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-004/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Infinity"
     },
@@ -4639,6 +4804,13 @@
         "value": "Black",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-004/main.webp",
+      "images/products/cases-004/01.webp",
+      "images/products/cases-004/02.webp",
+      "images/products/cases-004/03.webp",
+      "images/products/cases-004/04.webp"
     ]
   },
   {
@@ -4665,7 +4837,8 @@
         "value": "ATX",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cases-006",
@@ -4691,7 +4864,8 @@
         "value": "ATX",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cases-007",
@@ -4705,7 +4879,8 @@
     "identifiers": {
       "family": "360"
     },
-    "catalogFacts": []
+    "catalogFacts": [],
+    "images": []
   },
   {
     "id": "cases-008",
@@ -4720,7 +4895,8 @@
     "identifiers": {
       "family": "Vision USB 3.0"
     },
-    "catalogFacts": []
+    "catalogFacts": [],
+    "images": []
   },
   {
     "id": "cases-009",
@@ -4746,7 +4922,8 @@
         "value": "White",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cases-010",
@@ -4891,8 +5068,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-014/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MATREXX 50"
     },
@@ -4902,6 +5079,13 @@
         "value": "MATREXX 50",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-014/main.webp",
+      "images/products/cases-014/01.webp",
+      "images/products/cases-014/02.webp",
+      "images/products/cases-014/03.webp",
+      "images/products/cases-014/04.webp"
     ]
   },
   {
@@ -4944,8 +5128,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-016/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "CC560 LIMITED V2"
     },
@@ -4955,6 +5139,13 @@
         "value": "CC560 LIMITED V2",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/cases-016/main.webp",
+      "images/products/cases-016/01.webp",
+      "images/products/cases-016/02.webp",
+      "images/products/cases-016/03.webp",
+      "images/products/cases-016/04.webp"
     ]
   },
   {
@@ -4989,8 +5180,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "OMEGA GL650S"
     },
@@ -5000,6 +5191,10 @@
         "value": "OMEGA GL650S",
         "group": "Общие параметры"
       }
+    ],
+    "images": [
+      "images/products/psu-001/main.webp",
+      "images/products/psu-001/01.webp"
     ]
   },
   {
@@ -5010,8 +5205,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "AN650W"
     },
@@ -5026,6 +5221,13 @@
         "value": "650 Вт",
         "group": "Питание"
       }
+    ],
+    "images": [
+      "images/products/psu-002/main.webp",
+      "images/products/psu-002/01.webp",
+      "images/products/psu-002/02.webp",
+      "images/products/psu-002/03.webp",
+      "images/products/psu-002/04.webp"
     ]
   },
   {
@@ -5036,8 +5238,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "GM1000W"
     },
@@ -5057,6 +5259,13 @@
         "value": "ATX 3.0 / PCIe 5.0",
         "group": "Питание"
       }
+    ],
+    "images": [
+      "images/products/psu-003/main.webp",
+      "images/products/psu-003/01.webp",
+      "images/products/psu-003/02.webp",
+      "images/products/psu-003/03.webp",
+      "images/products/psu-003/04.webp"
     ]
   },
   {
@@ -5067,8 +5276,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-004/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "GM1250W"
     },
@@ -5083,6 +5292,13 @@
         "value": "1250 Вт",
         "group": "Питание"
       }
+    ],
+    "images": [
+      "images/products/psu-004/main.webp",
+      "images/products/psu-004/01.webp",
+      "images/products/psu-004/02.webp",
+      "images/products/psu-004/03.webp",
+      "images/products/psu-004/04.webp"
     ]
   },
   {
@@ -5093,8 +5309,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "GM1250W"
     },
@@ -5114,6 +5330,13 @@
         "value": "ATX 3.0 / PCIe 5.0",
         "group": "Питание"
       }
+    ],
+    "images": [
+      "images/products/psu-005/main.webp",
+      "images/products/psu-005/01.webp",
+      "images/products/psu-005/02.webp",
+      "images/products/psu-005/03.webp",
+      "images/products/psu-005/04.webp"
     ]
   },
   {
@@ -5135,7 +5358,8 @@
         "value": "550 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-007",
@@ -5156,7 +5380,8 @@
         "value": "550 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-008",
@@ -5177,7 +5402,8 @@
         "value": "750 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-009",
@@ -5198,7 +5424,8 @@
         "value": "850 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-010",
@@ -5219,7 +5446,8 @@
         "value": "500 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-011",
@@ -5229,8 +5457,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-011/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "GM850W"
     },
@@ -5245,6 +5473,13 @@
         "value": "850 Вт",
         "group": "Питание"
       }
+    ],
+    "images": [
+      "images/products/psu-011/main.webp",
+      "images/products/psu-011/01.webp",
+      "images/products/psu-011/02.webp",
+      "images/products/psu-011/03.webp",
+      "images/products/psu-011/04.webp"
     ]
   },
   {
@@ -5266,7 +5501,8 @@
         "value": "600 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-013",
@@ -5287,7 +5523,8 @@
         "value": "600 Вт",
         "group": "Питание"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "psu-014",
@@ -5400,7 +5637,8 @@
         "value": "PF600X",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-001",
@@ -5410,8 +5648,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "K6"
     },
@@ -5426,6 +5664,13 @@
         "value": "Воздушное",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-001/main.webp",
+      "images/products/cooling-001/01.webp",
+      "images/products/cooling-001/02.webp",
+      "images/products/cooling-001/03.webp",
+      "images/products/cooling-001/04.webp"
     ]
   },
   {
@@ -5436,8 +5681,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "240S RGB"
     },
@@ -5462,6 +5707,12 @@
         "value": "RGB",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-002/main.webp",
+      "images/products/cooling-002/01.webp",
+      "images/products/cooling-002/02.webp",
+      "images/products/cooling-002/03.webp"
     ]
   },
   {
@@ -5472,8 +5723,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "360S RGB"
     },
@@ -5498,6 +5749,13 @@
         "value": "RGB",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-003/main.webp",
+      "images/products/cooling-003/01.webp",
+      "images/products/cooling-003/02.webp",
+      "images/products/cooling-003/03.webp",
+      "images/products/cooling-003/04.webp"
     ]
   },
   {
@@ -5524,7 +5782,8 @@
         "value": "Воздушное",
         "group": "Охлаждение"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-005",
@@ -5534,8 +5793,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "120S"
     },
@@ -5550,6 +5809,12 @@
         "value": "120 мм",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-005/main.webp",
+      "images/products/cooling-005/01.webp",
+      "images/products/cooling-005/02.webp",
+      "images/products/cooling-005/03.webp"
     ]
   },
   {
@@ -5580,7 +5845,8 @@
         "value": "360 мм",
         "group": "Охлаждение"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-007",
@@ -5600,7 +5866,8 @@
         "value": "Вал Валак",
         "group": "Общие параметры"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-008",
@@ -5625,7 +5892,8 @@
         "value": "Воздушное",
         "group": "Охлаждение"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-009",
@@ -5655,7 +5923,8 @@
         "value": "240 мм",
         "group": "Охлаждение"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-010",
@@ -5681,7 +5950,8 @@
         "value": "Воздушное",
         "group": "Охлаждение"
       }
-    ]
+    ],
+    "images": []
   },
   {
     "id": "cooling-011",
@@ -5723,8 +5993,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-012/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "LT360 ARGB"
     },
@@ -5749,6 +6019,13 @@
         "value": "RGB",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-012/main.webp",
+      "images/products/cooling-012/01.webp",
+      "images/products/cooling-012/02.webp",
+      "images/products/cooling-012/03.webp",
+      "images/products/cooling-012/04.webp"
     ]
   },
   {
@@ -5825,8 +6102,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-015/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MYSTIQUE 240 ARGB"
     },
@@ -5846,6 +6123,13 @@
         "value": "RGB",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-015/main.webp",
+      "images/products/cooling-015/01.webp",
+      "images/products/cooling-015/02.webp",
+      "images/products/cooling-015/03.webp",
+      "images/products/cooling-015/04.webp"
     ]
   },
   {
@@ -5856,8 +6140,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-016/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "N200"
     },
@@ -5872,6 +6156,13 @@
         "value": "Охлаждение ноутбука",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-016/main.webp",
+      "images/products/cooling-016/01.webp",
+      "images/products/cooling-016/02.webp",
+      "images/products/cooling-016/03.webp",
+      "images/products/cooling-016/04.webp"
     ]
   },
   {
@@ -5882,8 +6173,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-017/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "U PAL"
     },
@@ -5898,6 +6189,13 @@
         "value": "Охлаждение ноутбука",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-017/main.webp",
+      "images/products/cooling-017/01.webp",
+      "images/products/cooling-017/02.webp",
+      "images/products/cooling-017/03.webp",
+      "images/products/cooling-017/04.webp"
     ]
   },
   {
@@ -5908,8 +6206,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-018/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "CK-11508"
     },
@@ -5924,6 +6222,13 @@
         "value": "Воздушное",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-018/main.webp",
+      "images/products/cooling-018/01.webp",
+      "images/products/cooling-018/02.webp",
+      "images/products/cooling-018/03.webp",
+      "images/products/cooling-018/04.webp"
     ]
   },
   {
@@ -5934,8 +6239,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-019/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "MYSTIQUE 240 ARGB"
     },
@@ -5960,6 +6265,13 @@
         "value": "RGB",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-019/main.webp",
+      "images/products/cooling-019/01.webp",
+      "images/products/cooling-019/02.webp",
+      "images/products/cooling-019/03.webp",
+      "images/products/cooling-019/04.webp"
     ]
   },
   {
@@ -6004,8 +6316,8 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-021/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MULTI CORE X6"
     },
@@ -6020,6 +6332,13 @@
         "value": "Охлаждение ноутбука",
         "group": "Охлаждение"
       }
+    ],
+    "images": [
+      "images/products/cooling-021/main.webp",
+      "images/products/cooling-021/01.webp",
+      "images/products/cooling-021/02.webp",
+      "images/products/cooling-021/03.webp",
+      "images/products/cooling-021/04.webp"
     ]
   },
   {

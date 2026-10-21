@@ -1264,8 +1264,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-001/main.webp",
-      "images/products/gpu-001/01.webp"
+      "images/products/gpu-001/main.webp"
     ]
   },
   {
@@ -1404,7 +1403,8 @@
     ],
     "images": [
       "images/products/gpu-004/main.webp",
-      "images/products/gpu-004/01.webp"
+      "images/products/gpu-004/01.webp",
+      "images/products/gpu-004/02.webp"
     ]
   },
   {
@@ -1448,8 +1448,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-005/main.webp",
-      "images/products/gpu-005/01.webp"
+      "images/products/gpu-005/main.webp"
     ]
   },
   {
@@ -1488,8 +1487,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-006/main.webp",
-      "images/products/gpu-006/01.webp"
+      "images/products/gpu-006/main.webp"
     ]
   },
   {
@@ -6225,10 +6223,7 @@
     ],
     "images": [
       "images/products/cooling-018/main.webp",
-      "images/products/cooling-018/01.webp",
-      "images/products/cooling-018/02.webp",
-      "images/products/cooling-018/03.webp",
-      "images/products/cooling-018/04.webp"
+      "images/products/cooling-018/01.webp"
     ]
   },
   {

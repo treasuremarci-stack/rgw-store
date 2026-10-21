@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-21T17:27:55.538941+00:00",
+  "updatedAt": "2026-10-21T17:44:07.898923+00:00",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
-  "policy": "Только точная модель на официальном домене; при отсутствии подтверждения сохранена заглушка.",
+  "policy": "Официальный источник предпочтителен; если чистая фотография отсутствует, допускается точный источник надёжного магазина; при отсутствии подтверждения сохраняется заглушка.",
   "categories": {
     "Видеокарты": {
       "total": 8,
@@ -64,7 +64,7 @@
     "downloaded": 46,
     "existing": 22,
     "placeholder": 69,
-    "webp": 207
+    "webp": 202
   },
   "records": [
     {
@@ -72,17 +72,15 @@
       "category": "Видеокарты",
       "model": "Видеокарта A76D Black GF RTX3050 6GB EX White PCI-E / GDDR6 96Bit",
       "status": "downloaded",
-      "photo_count": 2,
+      "photo_count": 1,
       "paths": [
-        "images/products/gpu-001/main.webp",
-        "images/products/gpu-001/01.webp"
+        "images/products/gpu-001/main.webp"
       ],
       "source_urls": [
         "https://galax.com/en/product/geforce-rtx-3050-ex-white-1-click-oc/",
-        "https://galax.com/wp-content/uploads/2025/10/3050cover.jpg",
         "https://galax.com/wp-content/uploads/2025/10/3050wface-1024x926.png"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель подтверждена официальным источником; широкая промо-графика заменена на чистую фотографию платы."
     },
     {
       "id": "gpu-002",
@@ -94,10 +92,11 @@
         "images/products/gpu-002/main.webp"
       ],
       "source_urls": [
-        "https://galax.com/en/category/graphics-cards/50-series/",
-        "https://galax.com/wp-content/uploads/2026/04/5060Ti_W_Cover-v3.png"
+        "https://galax.com/en/product/geforce-rtx-5060-ti-8gb-1-click-oc-white-2x/",
+        "https://secomputer.com.hk/products/galax-geforce-rtx5060ti-1-click-oc-white-8gb-gddr7",
+        "https://secomputer.com.hk/uploads/products/cover/44f2069fa5da1c119c7e503cc672d0d9.webp"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель подтверждена по коду производителя 56ISN8MDCQWH; вместо широкого баннера использована фотография точной модели из SE Computer."
     },
     {
       "id": "gpu-003",
@@ -121,51 +120,49 @@
       "category": "Видеокарты",
       "model": "Видеокарта B76O Black GF RTX5050 1-Click OC PCI-E 8GB / GDDR6",
       "status": "downloaded",
-      "photo_count": 2,
+      "photo_count": 3,
       "paths": [
         "images/products/gpu-004/main.webp",
-        "images/products/gpu-004/01.webp"
+        "images/products/gpu-004/01.webp",
+        "images/products/gpu-004/02.webp"
       ],
       "source_urls": [
-        "https://galax.com/en/category/graphics-cards/50-series/",
-        "https://galax.com/wp-content/uploads/2025/06/5050_Cover.jpg",
-        "https://galax.com/wp-content/uploads/2025/06/5050_w-fan.png"
+        "https://galax.com/en/product/geforce-rtx-5050-1-click-oc/",
+        "https://galax.com/wp-content/uploads/2025/06/951A5802-gx.png",
+        "https://galax.com/wp-content/uploads/2025/06/951A5807-1-500x500.png",
+        "https://galax.com/wp-content/uploads/2025/06/951A5802-led-gx-500x500.png"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель подтверждена официальным источником; широкая промо-графика и крупный crop заменены чистыми фото платы и задней панели."
     },
     {
       "id": "gpu-005",
       "category": "Видеокарты",
       "model": "Видеокарта GALAX B37S Black GF RTX5080 1-Click OC PCI-E 16GB / GDDR7",
       "status": "downloaded",
-      "photo_count": 2,
+      "photo_count": 1,
       "paths": [
-        "images/products/gpu-005/main.webp",
-        "images/products/gpu-005/01.webp"
+        "images/products/gpu-005/main.webp"
       ],
       "source_urls": [
-        "https://galax.com/en/category/graphics-cards/50-series/",
-        "https://galax.com/wp-content/uploads/2025/01/5080.png",
-        "https://galax.com/wp-content/uploads/2025/01/5080-Cover-K2-r3.jpg"
+        "https://galax.com/en/product/geforce-rtx-5080-16gb-1-click-oc-3x/",
+        "https://galax.com/wp-content/uploads/2025/01/5080.png"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель подтверждена официальным источником; дополнительный широкий промо-баннер удалён, оставлено чистое основное фото."
     },
     {
       "id": "gpu-006",
       "category": "Видеокарты",
       "model": "Видеокарта Galax PG190 BLACK GF RTX 3060 1-Click OC PCI-E 12GB",
       "status": "downloaded",
-      "photo_count": 2,
+      "photo_count": 1,
       "paths": [
-        "images/products/gpu-006/main.webp",
-        "images/products/gpu-006/01.webp"
+        "images/products/gpu-006/main.webp"
       ],
       "source_urls": [
         "https://galax.com/en/graphics-card/geforce-rtx-3060-1-click-oc.html",
-        "https://galax.com/wp-content/uploads/2025/02/covers-3060.jpg",
         "https://galax.com/wp-content/uploads/2025/02/3060-carbon_02-GX.png"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель подтверждена официальным источником; широкая промо-графика заменена полноразмерным рендером платы."
     },
     {
       "id": "gpu-007",
@@ -1888,23 +1885,17 @@
       "category": "Охлаждение",
       "model": "Дип Кул AIR COOLER CK-11508",
       "status": "downloaded",
-      "photo_count": 5,
+      "photo_count": 2,
       "paths": [
         "images/products/cooling-018/main.webp",
-        "images/products/cooling-018/01.webp",
-        "images/products/cooling-018/02.webp",
-        "images/products/cooling-018/03.webp",
-        "images/products/cooling-018/04.webp"
+        "images/products/cooling-018/01.webp"
       ],
       "source_urls": [
         "https://uk.deepcool.com/products/Cooling/cpuaircoolers/2021/14270.shtml",
         "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/CK_11508/Gallery/608X760/01.jpg?auto=format,compress&q=90",
-        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/CK_11508/Gallery/608X760/02.jpg?auto=format,compress&q=90",
-        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/CK_11508/Gallery/608X760/03.jpg?auto=format,compress&q=90",
-        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/CK_11508/Gallery/608X760/04.jpg?auto=format,compress&q=90",
-        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/CK_11508/Gallery/608X760/05.jpg?auto=format,compress&q=90"
+        "https://cdn.deepcool.com/public/ProductFile/DEEPCOOL/Cooling/CPUAirCoolers/CK_11508/Gallery/608X760/02.jpg?auto=format,compress&q=90"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель подтверждена официальным источником; три одинаковых декоративных фоновых изображения удалены, оставлены два изображения самого CK-11508."
     },
     {
       "id": "cooling-019",

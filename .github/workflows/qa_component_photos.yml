@@ -1,0 +1,50 @@
+name: QA component photo assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/qa_component_photos.yml
+
+permissions:
+  contents: write
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install image tooling
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Replace promotional assets and update metadata
+        run: python tools/qa_component_photos.py
+
+      - name: Remove temporary tooling
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          for name in ("tools/qa_component_photos.py", ".github/workflows/qa_component_photos.yml"):
+              path = Path(name)
+              if path.exists():
+                  path.unlink()
+          PY
+          git add -A
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Remove temporary photo QA tooling"
+          git push origin HEAD:main

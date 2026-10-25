@@ -1,0 +1,1387 @@
+{
+  "stage": "network-equipment-photo-fill",
+  "repository": "treasuremarci-stack/rgw-store",
+  "branch": "main",
+  "updated": "2026-10-25",
+  "scope": [
+    "rgw_page_routers.html",
+    "rgw_page_mesh.html",
+    "rgw_page_switches.html",
+    "rgw_page_wifi_adapters.html",
+    "rgw_page_network_cards.html",
+    "rgw_page_access_points.html",
+    "rgw_page_wireless_bridges.html"
+  ],
+  "summary": {
+    "products_checked": 95,
+    "existing_verified_before_run": 30,
+    "products_processed_this_run": 65,
+    "products_ready_after_run": 95,
+    "placeholders_after_run": 0,
+    "webp_files_added_this_run": 70
+  },
+  "categories": {
+    "Роутеры": {
+      "page": "rgw_page_routers.html",
+      "total": 24,
+      "existing_before_run": 14,
+      "processed_this_run": 10,
+      "ready_after_run": 24,
+      "placeholders": [],
+      "webp_files_added": 10
+    },
+    "Mesh-системы": {
+      "page": "rgw_page_mesh.html",
+      "total": 12,
+      "existing_before_run": 1,
+      "processed_this_run": 11,
+      "ready_after_run": 12,
+      "placeholders": [],
+      "webp_files_added": 12
+    },
+    "Коммутаторы": {
+      "page": "rgw_page_switches.html",
+      "total": 25,
+      "existing_before_run": 8,
+      "processed_this_run": 17,
+      "ready_after_run": 25,
+      "placeholders": [],
+      "webp_files_added": 17
+    },
+    "Wi-Fi адаптеры": {
+      "page": "rgw_page_wifi_adapters.html",
+      "total": 16,
+      "existing_before_run": 4,
+      "processed_this_run": 12,
+      "ready_after_run": 16,
+      "placeholders": [],
+      "webp_files_added": 16
+    },
+    "Сетевые карты": {
+      "page": "rgw_page_network_cards.html",
+      "total": 2,
+      "existing_before_run": 0,
+      "processed_this_run": 2,
+      "ready_after_run": 2,
+      "placeholders": [],
+      "webp_files_added": 2
+    },
+    "Точки доступа": {
+      "page": "rgw_page_access_points.html",
+      "total": 9,
+      "existing_before_run": 0,
+      "processed_this_run": 9,
+      "ready_after_run": 9,
+      "placeholders": [],
+      "webp_files_added": 9
+    },
+    "Беспроводные мосты": {
+      "page": "rgw_page_wireless_bridges.html",
+      "total": 7,
+      "existing_before_run": 3,
+      "processed_this_run": 4,
+      "ready_after_run": 7,
+      "placeholders": [],
+      "webp_files_added": 4
+    }
+  },
+  "products": [
+    {
+      "id": "routers-1",
+      "name": "Роутер TP-LINK Archer C9",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-1/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-2",
+      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-2/main.webp"
+      ],
+      "source_urls": [
+        "https://en.cdr.pl/galerie/t/tp-link-archer-tx55e-karta-si_22655.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-3",
+      "name": "Роутер TP-Link Archer AX53 AX3000",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-3/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-4",
+      "name": "Роутер TP-LINK MR100 Наружный",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-4/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.lemona.lt/display?q=80&url=https%3A%2F%2Fwww.lemona.lv%2Fmedia%2Fcatalog%2Fproduct%2FT%2FL%2FTL-MR100_36.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-5",
+      "name": "Роутер TP-LINK, Archer, C20,",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-5/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-6",
+      "name": "Роутер TP-LINK Archer C86",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-6/main.webp"
+      ],
+      "source_urls": [
+        "https://static.tp-link.com/upload/image-line/1_large_20230202084442y.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-7",
+      "name": "Роутер TP-Link TL-MR105",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-7/main.webp"
+      ],
+      "source_urls": [
+        "https://static.tp-link.com/upload/image-line/1_large_20230823025416d.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-8",
+      "name": "Роутер TP-LINK Archer AX23 AX1800 Dual-Band Wi-Fi 6 Router",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-8/main.webp"
+      ],
+      "source_urls": [
+        "https://techsource.lk/cdn/shop/files/51cUB-546bL_2048x2048.jpg?v=1698469489"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-9",
+      "name": "Роутер TP-LINK Archer C6 Wireless Dual Band AC1350 Router",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-9/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-10",
+      "name": "Роутер TP-Link Archer MR500 AC1200 4G LTE",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-10/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-11",
+      "name": "Роутер TP-LINK 300 Mbps 3G/4G Wireless Router MR 3420",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-11/main.webp"
+      ],
+      "source_urls": [
+        "https://dcdn.mitiendanube.com/stores/003/504/278/products/1939-4b2c3d16529dfdee8e17162212154677-1024-1024.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-12",
+      "name": "Роутер TP-Link Archer NX200 5G AX1800 Wireless Dual Band Gigabit Router",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-12/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-13",
+      "name": "Роутер TP-Link AX72 AX5400 Dual-Band Gigabit Wi-Fi 6 Router",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-13/main.webp"
+      ],
+      "source_urls": [
+        "https://www.jumbo-computer.com/cdn/shop/files/71zNdUCbUtL._AC_SL1500_1200x.jpg?v=1734668150"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-14",
+      "name": "Роутер TP-LINK Archer C64",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-14/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-15",
+      "name": "Роутер TP-LINK Archer AX73 AX5400 Dual-Band Wi-Fi 6 Router",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-15/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-16",
+      "name": "Роутер TP-Link Archer BE220 BE3600 Dual Band WiFi 7 Router",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-16/main.webp"
+      ],
+      "source_urls": [
+        "https://static.wixstatic.com/media/4d0678_54944a4c53844db19524c60ef640dc59~mv2.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-17",
+      "name": "Роутер TP-LINK WR 846 N 300 Mbps Wireless N Router",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-17/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.allmarket.ge/2601/01/12/71/00/f10ed5f2979c4cf59ed1784365cf0d3a/routeri-tp-link-tl-wr846n-300mbps-router-black-2.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-18",
+      "name": "MikroTik hAP RB951Ui-2nD",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 3,
+      "paths": [
+        "images/products/routers-18/main.webp",
+        "images/products/routers-18/02.webp",
+        "images/products/routers-18/03.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-19",
+      "name": "MikroTik Hex RB750Gr3",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 3,
+      "paths": [
+        "images/products/routers-19/main.webp",
+        "images/products/routers-19/02.webp",
+        "images/products/routers-19/03.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-20",
+      "name": "MikroTik RB4011iGS+RM",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-20/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-21",
+      "name": "MikroTik hEx PoE Lite",
+      "category": "Роутеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-21/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn11.bigcommerce.com/s-2bh7dp4k3r/images/stencil/1280x1280/products/6902/25034/RB750UPr2-frnt__39475.1779465244.jpg?c=1"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "routers-22",
+      "name": "MikroTik hAP ax S",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/routers-22/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-23",
+      "name": "MikroTik RB5009UG+S+IN",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 2,
+      "paths": [
+        "images/products/routers-23/main.webp",
+        "images/products/routers-23/02.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "routers-24",
+      "name": "MikroTik hAP ac Lite RB952",
+      "category": "Роутеры",
+      "status": "existing",
+      "photo_count": 3,
+      "paths": [
+        "images/products/routers-24/main.webp",
+        "images/products/routers-24/02.webp",
+        "images/products/routers-24/03.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "mesh-1",
+      "name": "Роутер TP-LINK Deco M4 ( 3Pack )AC1200 Gigabit Whole Home Mesh Wi-Fi System",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-1/main.webp"
+      ],
+      "source_urls": [
+        "https://www.discomp.cz/tp-link-deco-m4-mesh-wi-fi-system-3-pack-_ie711023.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-2",
+      "name": "Роутер TP-LINK AX55 Dual Band Gigabit AX3000 Wi-Fi 6 OneMesh Router",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-2/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.adarccomputer.com/media/products/product-attachments/7/1/71q6rzg-ewl._ac_sl1500.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-3",
+      "name": "Роутер TP LINK AX1500 Wi-Fi 6 OneMesh Broadband Archer AX10",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-3/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.mafrservices.com/sys-master-root/h43/h0c/10659053109278/1724538_main.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-4",
+      "name": "Роутер TP-LINK Deco X50-4G(1-pack) 4G+ AX3000 Whole Home Mesh Wi-Fi 6",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-4/main.webp"
+      ],
+      "source_urls": [
+        "https://www.pbtech.co.nz/imgprod/N/E/NETTPL6504.jpg?h=2981626028"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-5",
+      "name": "Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-5/main.webp"
+      ],
+      "source_urls": [
+        "https://media.s-bol.com/BGM6OjQ67MQX/G6WYVz5/1200x1105.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-6",
+      "name": "Роутер TP-LINK Deco X50 Poe (3-pack) AX3000 Mesh WiFi 6 System",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-6/main.webp"
+      ],
+      "source_urls": [
+        "https://techpointperu.com/image/cache/catalog/2023/Deco%20X50-PoE%283-pack%29-1-800x800.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-7",
+      "name": "Роутер TP-LINK DECO X50 5G ROUTER AX3000 ( 1 PACK )",
+      "category": "Mesh-системы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-7/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "mesh-8",
+      "name": "Куди Cudy M1200(3-Pack) AC1200 Wi-Fi Mesh Solution",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-8/main.webp"
+      ],
+      "source_urls": [
+        "https://www.wisp.pl/galerie/c/cudy-m1200-3-pack_25079.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-9",
+      "name": "Куди Cudy M1300(3-Pack)AC1200 Wi-Fi Gigabit Mesh Solution",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-9/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn11.bigcommerce.com/s-49v18nqssl/images/stencil/1280x1280/products/2569/5839/M13003-Pack__11361.1724209820.jpg?c=1"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-10",
+      "name": "Куди Cudy M1500(3-Pack) AX1500 Gigabit Wi-Fi 6 Mesh Solution",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-10/main.webp"
+      ],
+      "source_urls": [
+        "https://www.cudy.com/cdn/shop/files/M1500_1.0_-3pack.jpg?v=1741240526"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-11",
+      "name": "Куди Cudy M3000(3-Pack) AX3000 Wi-Fi 6 Mesh 2.5G Solution",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mesh-11/main.webp"
+      ],
+      "source_urls": [
+        "https://img.pccomponentes.com/articles/1081/10819893/4400-cudy-m3000-sistema-mesh-wi-fi-6-ax3000-doble-banda-pack-3-unidades-especificaciones.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "mesh-12",
+      "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+      "category": "Mesh-системы",
+      "status": "processed_this_run",
+      "photo_count": 2,
+      "paths": [
+        "images/products/mesh-12/main.webp",
+        "images/products/mesh-12/02.webp"
+      ],
+      "source_urls": [
+        "https://www.grandstream.com/hubfs/Grandstream_Feb_2021/Image/UCM6302_zoom-website-1.png",
+        "https://www.grandstream.com/hubfs/Grandstream_Feb_2021/Image/UCM6302_back_zoom-website.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-1",
+      "name": "Mikrotik CRS326-24G-2S+RM",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-1/main.webp"
+      ],
+      "source_urls": [
+        "https://c1.neweggimages.com/ProductImageCompressAll1280/A1EAS200129fWBRf.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-2",
+      "name": "MikroTik CRS106-1C-5S",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-2/main.webp"
+      ],
+      "source_urls": [
+        "https://i.mt.lv/cdn/rb_images/1258_hi_res.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-3",
+      "name": "MikroTik CRS305-1G-4S+IN",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 2,
+      "paths": [
+        "images/products/switches-3/main.webp",
+        "images/products/switches-3/02.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-4",
+      "name": "TL-SG1016 16-Port Gigabit Switch",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-4/main.webp"
+      ],
+      "source_urls": [
+        "https://content.etilize.com/900/1019458747.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-5",
+      "name": "TP -LINK 48-Port 10/100Mbps Rackmount Switch SF1048",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-5/main.webp"
+      ],
+      "source_urls": [
+        "https://www.secomp.ch/thumbor/WCWV3Q3h-WTsz58UG5jlFdZ573w%3D/fit-in/1200x900/filters%3Afill%28white%2C1%29%3Acachevalid%282025-03-21T15%3A52%3A05.615911%29%3Astrip_icc%28%29%3Astrip_exif%28%29/bilder/s21/21230162_2025_m_0_lo.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-6",
+      "name": "TP LINK TL SG1008P POE SWITCH",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-6/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-7",
+      "name": "Tp-Link 24 Port Gigabit Rackmount Switch SG1024D",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-7/main.webp"
+      ],
+      "source_urls": [
+        "https://img.advice.co.th/images_nas/pic_product4/A0091239/A0091239OK_BIG_2.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-8",
+      "name": "TP-LINK 5-Port Gigabit with 4-Port PoE+ SG1005P",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-8/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.prindo.co.uk/images/tp-link/800/tp-link-black-55965-3.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-9",
+      "name": "TP-LINK SF1005LP 5-Port 10/100 Switch with 4-Port PoE",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-9/main.webp"
+      ],
+      "source_urls": [
+        "https://static.tp-link.com/upload/image-line/TL-SF1005LP_UN_3.0_01_large_20240320032803j.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-10",
+      "name": "TPLINK SWITCH LS-SF 1005D",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-10/main.webp"
+      ],
+      "source_urls": [
+        "https://content.etilize.com/Alternate-Image8/1016921333.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-11",
+      "name": "TPLINK SWITCH SF 1016 Стоичный",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-11/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-12",
+      "name": "TPLINK SWITCH SG1016 Стоичный",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-12/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-13",
+      "name": "Коммутатор TP-LINK SG 1008 D",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-13/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-14",
+      "name": "Коммутатор TP-LINK <TL-SF1008D",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-14/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-15",
+      "name": "Коммутатор TP-Link T2500G-10MPS - L2, 8 Port Giga и 2 слотами SFP. Разъёмы RJ45",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-15/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-16",
+      "name": "Коммутатор FS328GP 28 Port Gigabit Smart PoE 24 PoE+ Port 4 x SFP Slots",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-16/main.webp"
+      ],
+      "source_urls": [
+        "https://static.tp-link.com/upload/image-line/Festa_FS328GP_UN_1.0_overview_01_normal_20240615003615f.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-17",
+      "name": "D-Link, DES-1024A /E1B, Неуправляемый коммутатор, Черный, Нет, 24 x RJ45, 24 портов 10/100 Мбит/сек",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-17/main.webp"
+      ],
+      "source_urls": [
+        "https://www.dlink.com.sg/cdn/shop/products/1_5350e7e7-6f71-4c73-af55-c64adcde3052.png?v=1665712573&width=1400"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-18",
+      "name": "Комутатор TP-Link SG1428PE 28-Port Gigabit Easy Smart Switch with 24-Port PoE+",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-18/main.webp"
+      ],
+      "source_urls": [
+        "https://files.pccasegear.com/UserFiles/TL-SG1428PE-tp-link-tl-sg1428pe-28-port-gigabit-easy-smart-switch-with-24-port-poe-product2.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-19",
+      "name": "TL-SG1008MP 8-Port Gigabit POE Desktop/Rackmount",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-19/main.webp"
+      ],
+      "source_urls": [
+        "https://vetco.net/cdn/shop/files/TL-SG1008MP_Gigabit_8-port_PoE_Network_Switch_A.jpg?v=1745599772"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-20",
+      "name": "TP Link -SF1024D 24-портовый коммутатор 10/100 Мбит",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-20/main.webp"
+      ],
+      "source_urls": [
+        "https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/P049172_1_737b648e_thumbnail_1024.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-21",
+      "name": "TP-LINK SG1048 48-Port Gigabit Rackmount Switch",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-21/main.webp"
+      ],
+      "source_urls": [
+        "https://down-ph.img.susercontent.com/file/ph-11134207-23020-4svi08ivwmnved"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-22",
+      "name": "Коммутатор TP-Link Omada SG2428 P",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-22/main.webp"
+      ],
+      "source_urls": [
+        "https://static.tp-link.com/upload/product/In_the_Box_20240415205336h.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-23",
+      "name": "TP-LINK 5-Port Gigabit Desktop Switch LS1005G",
+      "category": "Коммутаторы",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-23/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "switches-24",
+      "name": "TP-Link LS1024G LiteWave 24-Port Gigabit Switch",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-24/main.webp"
+      ],
+      "source_urls": [
+        "https://www.wifi-stock.com/full/ls1024g_04.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "switches-25",
+      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+      "category": "Коммутаторы",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/switches-25/main.webp"
+      ],
+      "source_urls": [
+        "https://sw19103.sfstatic.io/upload_dir/pics/_thumbs/151060170-GWN7801P.w1200.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-1",
+      "name": "TP-LINK Wi-Fi адаптер TL WN 881ND",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-1/main.webp"
+      ],
+      "source_urls": [
+        "https://media.zid.store/17a65771-0e67-4953-97a9-02814811f3e4/3b0739e1-c27a-44c5-8cc3-e6a46fe48d3b.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-2",
+      "name": "TP-LINK Archer T1U AC450 Wireless Nano USB Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-2/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "wifi-3",
+      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-3/main.webp"
+      ],
+      "source_urls": [
+        "https://en.cdr.pl/galerie/t/tp-link-archer-tx55e-karta-si_22655.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-4",
+      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-4/main.webp"
+      ],
+      "source_urls": [
+        "https://globaliraq.iq/cdn/shop/files/1_2d1f57cd-765e-4222-984e-4ada4ca5416b.png?crop=center&height=1200&v=1690195177&width=1200"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-5",
+      "name": "WF2150 N600 Wireless Dual Band USB Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 5,
+      "paths": [
+        "images/products/wifi-5/main.webp",
+        "images/products/wifi-5/02.webp",
+        "images/products/wifi-5/03.webp",
+        "images/products/wifi-5/04.webp",
+        "images/products/wifi-5/05.webp"
+      ],
+      "source_urls": [
+        "https://c1.neweggimages.com/productimage/nb640/33-389-038-06.jpg",
+        "https://c1.neweggimages.com/productimage/nb640/33-389-038-07.jpg",
+        "https://c1.neweggimages.com/productimage/nb640/33-389-038-08.jpg",
+        "https://c1.neweggimages.com/productimage/nb640/33-389-038-09.jpg",
+        "https://c1.neweggimages.com/productimage/nb640/33-389-038-10.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-6",
+      "name": "TP-LINK Сетевая карта <TL-WN781ND",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-6/main.webp"
+      ],
+      "source_urls": [
+        "https://techno-line.store/uploads/images/a6787aa43a885b0d18d5c77acf309ecc.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-7",
+      "name": "TP-LINK Archer T3U Plus AC1300 High Gain Wireless Dual Band Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-7/main.webp"
+      ],
+      "source_urls": [
+        "https://files.pccasegear.com/images/1587082608-ARCHER-T3U-PLUS-thb.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-8",
+      "name": "TP-LINK Archer T4U AC1300 Wireless Dual Band USB Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-8/main.webp"
+      ],
+      "source_urls": [
+        "https://www.yoytec.com/web/image/product.product/43678/image_1920"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-9",
+      "name": "TP-LINK WN725N 150Mbps Wireless N USB Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-9/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "wifi-10",
+      "name": "TP-LINK WN823N 300Mbps Wireless N USB Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-10/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "wifi-11",
+      "name": "Ubiquiti adapter 24v 1a Poe",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-11/main.webp"
+      ],
+      "source_urls": [
+        "https://www.itshopp.com/img/prod/gr1/pic1513-1.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-12",
+      "name": "Ubiquiti adapter 48v Poe",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-12/main.webp"
+      ],
+      "source_urls": [
+        "https://images.tcdn.com.br/img/img_prod/1165337/fonte_injetor_poe_ui_poe_48_24w_g_br_48vdc_24w_0_5amp_ubiquit_23670_5_461bb5b491a779f0d8a3874f87df87e8.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-13",
+      "name": "Ubiquiti adapter U7 Pro Max",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-13/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.mwave.com.au/images/400/ubiquiti_networks_unifi_u7_pro_max_poe_triband_wifi_7_access_point_ac77525_80601.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-14",
+      "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+      "category": "Wi-Fi адаптеры",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-14/main.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "wifi-15",
+      "name": "Grandstream GWN7605, WiFi Access Point,",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-15/main.webp"
+      ],
+      "source_urls": [
+        "https://www.comms-express.com/assets/images/gallery/medium/1599144676GWN7605-1.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "wifi-16",
+      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+      "category": "Wi-Fi адаптеры",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/wifi-16/main.webp"
+      ],
+      "source_urls": [
+        "https://sw19103.sfstatic.io/upload_dir/pics/_thumbs/151060170-GWN7801P.w1200.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "cards-1",
+      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+      "category": "Сетевые карты",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cards-1/main.webp"
+      ],
+      "source_urls": [
+        "https://globaliraq.iq/cdn/shop/files/1_2d1f57cd-765e-4222-984e-4ada4ca5416b.png?crop=center&height=1200&v=1690195177&width=1200"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "cards-2",
+      "name": "TP-LINK Сетевая карта <TL-WN781ND",
+      "category": "Сетевые карты",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cards-2/main.webp"
+      ],
+      "source_urls": [
+        "https://techno-line.store/uploads/images/a6787aa43a885b0d18d5c77acf309ecc.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-1",
+      "name": "CPE210 2.4GHz 300Mbps 9dBi Outdoor CPE",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-1/main.webp"
+      ],
+      "source_urls": [
+        "https://static.tp-link.com/upload/image-line/%E5%85%B7%E4%BD%93%E9%A1%B5_large_20231207093603a.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-2",
+      "name": "CPE510 5GHz 300Mbps 13dBi Outdoor CPE",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-2/main.webp"
+      ],
+      "source_urls": [
+        "https://dynacoretech.com/cdn/shop/files/6935364070922.jpg?v=1750693375"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-3",
+      "name": "Netis WF-2301 150Mbps Wireless N Outdoor Access Point",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-3/main.webp"
+      ],
+      "source_urls": [
+        "https://c1.neweggimages.com/ProductImage/33-389-057-03.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-4",
+      "name": "Ubiquiti U6 PLUS",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-4/main.webp"
+      ],
+      "source_urls": [
+        "https://images.svc.ui.com/?q=75&u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F6d5c6141-e2e9-416a-b789-53e59416bb1a%2Ff4bc1f21-5109-476a-a2f8-f6c9f130a26e.png&w=1080"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-5",
+      "name": "Ubiquiti adapter U7 Pro Max",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-5/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.mwave.com.au/images/400/ubiquiti_networks_unifi_u7_pro_max_poe_triband_wifi_7_access_point_ac77525_80601.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-6",
+      "name": "Ubiquiti точка доступа потолочный U7 Pro",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-6/main.webp"
+      ],
+      "source_urls": [
+        "https://www.wisp.pl/galerie/u/ubiquiti-unifi-u7-pro-5-pack-u7-pro-5_25508.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-7",
+      "name": "Ubiquiti точка доступа потолочный U7 Pro Max",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-7/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.mwave.com.au/images/400/ubiquiti_networks_unifi_u7_pro_max_poe_triband_wifi_7_access_point_ac77525_80601.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-8",
+      "name": "MikroTik Wap ax",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-8/main.webp"
+      ],
+      "source_urls": [
+        "https://www.mikrotik-store.eu/media/images/org/2412_hi_res.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "access-9",
+      "name": "Grandstream GWN7605, WiFi Access Point,",
+      "category": "Точки доступа",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/access-9/main.webp"
+      ],
+      "source_urls": [
+        "https://www.comms-express.com/assets/images/gallery/medium/1599144676GWN7605-1.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "bridges-1",
+      "name": "Ubiquiti радиомост M2 400",
+      "category": "Радиомосты",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/bridges-1/main.webp"
+      ],
+      "source_urls": [
+        "https://cdn.ecomm.ui.com/products/a7263e41-ce8a-461d-951b-0e2404d7a68c/d524779a-fde4-4779-8b14-7e8be97ebabf.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "bridges-2",
+      "name": "Mikrotik RBLHG5kit",
+      "category": "Радиомосты",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/bridges-2/main.webp"
+      ],
+      "source_urls": [
+        "https://api.e-server.com.ua/storage/102061/rs/RBLHG5kit_1___rs_1200_1200.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "bridges-3",
+      "name": "Mikrotik SXTsq Lite5",
+      "category": "Радиомосты",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/bridges-3/main.webp",
+        "images/products/bridges-3/02.webp",
+        "images/products/bridges-3/03.webp",
+        "images/products/bridges-3/04.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "bridges-4",
+      "name": "MikroTik SXT sq Lite 5 ax",
+      "category": "Радиомосты",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/bridges-4/main.webp",
+        "images/products/bridges-4/02.webp",
+        "images/products/bridges-4/03.webp",
+        "images/products/bridges-4/04.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "bridges-5",
+      "name": "MikroTik mANTBox ax 15s",
+      "category": "Радиомосты",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/bridges-5/main.webp",
+        "images/products/bridges-5/02.webp",
+        "images/products/bridges-5/03.webp",
+        "images/products/bridges-5/04.webp"
+      ],
+      "source_urls": [],
+      "notes": "Existing verified local photos preserved."
+    },
+    {
+      "id": "bridges-6",
+      "name": "MikroTik LHG-5axD",
+      "category": "Радиомосты",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/bridges-6/main.webp"
+      ],
+      "source_urls": [
+        "https://www.discomp.cz/mikrotik-routerboard-lhg-5axd-lhg-5-ax_ie5850951.jpg"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    },
+    {
+      "id": "bridges-7",
+      "name": "MikroTik MANTBox 12S",
+      "category": "Радиомосты",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/bridges-7/main.webp"
+      ],
+      "source_urls": [
+        "https://www.mikrotik-store.eu/media/images/org/mantbox-2-12s-2.png"
+      ],
+      "notes": "Exact model photo verified from the cited source; local WebP generated."
+    }
+  ]
+}

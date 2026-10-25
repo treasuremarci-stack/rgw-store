@@ -6393,14 +6393,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-1/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "34 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-1/main.webp"
     ]
   },
   {
@@ -6429,14 +6432,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "19 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-3/main.webp"
     ]
   },
   {
@@ -6447,14 +6453,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-4/main.webp"
     ]
   },
   {
@@ -6465,14 +6474,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-5/main.webp"
     ]
   },
   {
@@ -6483,14 +6495,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-6/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "22 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-6/main.webp"
     ]
   },
   {
@@ -6501,14 +6516,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "27 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-7/main.webp"
     ]
   },
   {
@@ -6519,14 +6537,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-8/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "34 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-8/main.webp"
     ]
   },
   {
@@ -6537,14 +6558,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-9/main.webp"
     ]
   },
   {
@@ -6555,14 +6579,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-10/main.webp"
     ]
   },
   {
@@ -6573,9 +6600,12 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
-    "catalogFacts": []
+    "image": "images/products/monitors-11/main.webp",
+    "placeholder": null,
+    "catalogFacts": [],
+    "images": [
+      "images/products/monitors-11/main.webp"
+    ]
   },
   {
     "id": "monitors-12",
@@ -6585,9 +6615,12 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
-    "catalogFacts": []
+    "image": "images/products/monitors-12/main.webp",
+    "placeholder": null,
+    "catalogFacts": [],
+    "images": [
+      "images/products/monitors-12/main.webp"
+    ]
   },
   {
     "id": "monitors-13",
@@ -6597,9 +6630,12 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
-    "catalogFacts": []
+    "image": "images/products/monitors-13/main.webp",
+    "placeholder": null,
+    "catalogFacts": [],
+    "images": [
+      "images/products/monitors-13/main.webp"
+    ]
   },
   {
     "id": "monitors-14",
@@ -6609,14 +6645,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-14/main.webp"
     ]
   },
   {
@@ -6645,14 +6684,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "34 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-16/main.webp"
     ]
   },
   {
@@ -6663,14 +6705,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "27 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-17/main.webp"
     ]
   },
   {
@@ -6681,14 +6726,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-18/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-18/main.webp"
     ]
   },
   {
@@ -6699,14 +6747,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-19/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "27 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-19/main.webp"
     ]
   },
   {
@@ -6717,14 +6768,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-20/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "27 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-20/main.webp"
     ]
   },
   {
@@ -6735,14 +6789,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-21/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "27 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-21/main.webp"
     ]
   },
   {
@@ -6753,14 +6810,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-22/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "27 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-22/main.webp"
     ]
   },
   {
@@ -6771,14 +6831,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-23/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-23/main.webp"
     ]
   },
   {
@@ -6789,14 +6852,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-24/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-24/main.webp"
     ]
   },
   {
@@ -6825,14 +6891,17 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-26/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",
         "value": "24 дюймов",
         "group": "Экран"
       }
+    ],
+    "images": [
+      "images/products/monitors-26/main.webp"
     ]
   },
   {
@@ -8117,8 +8186,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8132,7 +8201,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-3/main.webp"
+    ]
   },
   {
     "id": "cartridges-4",
@@ -8167,8 +8239,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8182,7 +8254,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-5/main.webp"
+    ]
   },
   {
     "id": "cartridges-6",
@@ -8192,8 +8267,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-6/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8207,7 +8282,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-6/main.webp"
+    ]
   },
   {
     "id": "cartridges-7",
@@ -8217,8 +8295,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8227,7 +8305,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-7/main.webp"
+    ]
   },
   {
     "id": "cartridges-8",
@@ -8237,8 +8318,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-8/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8252,7 +8333,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-8/main.webp"
+    ]
   },
   {
     "id": "cartridges-9",
@@ -8262,8 +8346,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8277,7 +8361,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-9/main.webp"
+    ]
   },
   {
     "id": "cartridges-10",
@@ -8287,8 +8374,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8302,7 +8389,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-10/main.webp"
+    ]
   },
   {
     "id": "cartridges-11",
@@ -8312,8 +8402,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-11/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8327,7 +8417,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-11/main.webp"
+    ]
   },
   {
     "id": "cartridges-12",
@@ -8337,8 +8430,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-12/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8347,7 +8440,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-12/main.webp"
+    ]
   },
   {
     "id": "cartridges-13",
@@ -8357,8 +8453,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-13/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8367,7 +8463,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-13/main.webp"
+    ]
   },
   {
     "id": "cartridges-14",
@@ -8377,8 +8476,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8392,7 +8491,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-14/main.webp"
+    ]
   },
   {
     "id": "cartridges-15",
@@ -8402,8 +8504,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-15/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8417,7 +8519,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-15/main.webp"
+    ]
   },
   {
     "id": "cartridges-16",
@@ -8427,8 +8532,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8442,7 +8547,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-16/main.webp"
+    ]
   },
   {
     "id": "cartridges-17",
@@ -8452,8 +8560,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8467,7 +8575,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-17/main.webp"
+    ]
   },
   {
     "id": "cartridges-18",
@@ -8477,8 +8588,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-18/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8492,7 +8603,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-18/main.webp"
+    ]
   },
   {
     "id": "cartridges-19",
@@ -8502,8 +8616,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-19/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8512,7 +8626,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-19/main.webp"
+    ]
   },
   {
     "id": "cartridges-20",
@@ -8522,8 +8639,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-20/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8537,7 +8654,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-20/main.webp"
+    ]
   },
   {
     "id": "cartridges-21",
@@ -8547,8 +8667,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-21/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8562,7 +8682,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-21/main.webp"
+    ]
   },
   {
     "id": "cartridges-22",
@@ -8572,8 +8695,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-22/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8587,7 +8710,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-22/main.webp"
+    ]
   },
   {
     "id": "cartridges-23",
@@ -8597,8 +8723,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-23/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8612,7 +8738,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-23/main.webp"
+    ]
   },
   {
     "id": "cartridges-24",
@@ -8622,8 +8751,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-24/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8637,7 +8766,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-24/main.webp"
+    ]
   },
   {
     "id": "cartridges-25",
@@ -8647,8 +8779,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-25/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8662,7 +8794,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-25/main.webp"
+    ]
   },
   {
     "id": "cartridges-26",
@@ -8697,8 +8832,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-27/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8712,7 +8847,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-27/main.webp"
+    ]
   },
   {
     "id": "cartridges-28",
@@ -8722,8 +8860,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-28/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8737,7 +8875,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-28/main.webp"
+    ]
   },
   {
     "id": "cartridges-29",
@@ -8767,8 +8908,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-30/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8782,7 +8923,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-30/main.webp"
+    ]
   },
   {
     "id": "cartridges-31",
@@ -8792,8 +8936,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-31/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8807,7 +8951,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-31/main.webp"
+    ]
   },
   {
     "id": "cartridges-32",
@@ -8817,8 +8964,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-32/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8832,7 +8979,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-32/main.webp"
+    ]
   },
   {
     "id": "cartridges-33",
@@ -8842,8 +8992,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-33/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8857,7 +9007,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-33/main.webp"
+    ]
   },
   {
     "id": "cartridges-34",
@@ -8867,8 +9020,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-34/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8877,7 +9030,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-34/main.webp"
+    ]
   },
   {
     "id": "cartridges-35",
@@ -8887,8 +9043,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-35/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8902,7 +9058,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-35/main.webp"
+    ]
   },
   {
     "id": "cartridges-36",
@@ -8912,8 +9071,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-36/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8927,7 +9086,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-36/main.webp"
+    ]
   },
   {
     "id": "cartridges-37",
@@ -8957,8 +9119,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-38/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8972,7 +9134,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-38/main.webp"
+    ]
   },
   {
     "id": "cartridges-39",
@@ -8982,8 +9147,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-39/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8992,7 +9157,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-39/main.webp"
+    ]
   },
   {
     "id": "cartridges-40",
@@ -9002,8 +9170,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-40/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9017,7 +9185,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-40/main.webp"
+    ]
   },
   {
     "id": "cartridges-41",
@@ -9027,8 +9198,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-41/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9042,7 +9213,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-41/main.webp"
+    ]
   },
   {
     "id": "cartridges-42",
@@ -9052,8 +9226,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-42/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9067,7 +9241,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-42/main.webp"
+    ]
   },
   {
     "id": "cartridges-43",
@@ -9077,8 +9254,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-43/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9092,7 +9269,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-43/main.webp"
+    ]
   },
   {
     "id": "cartridges-44",
@@ -9127,8 +9307,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-45/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9142,7 +9322,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-45/main.webp"
+    ]
   },
   {
     "id": "cartridges-46",
@@ -9152,8 +9335,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-46/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9167,7 +9350,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-46/main.webp"
+    ]
   },
   {
     "id": "cartridges-47",
@@ -9177,8 +9363,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-47/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9192,7 +9378,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-47/main.webp"
+    ]
   },
   {
     "id": "cartridges-48",
@@ -9227,8 +9416,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-49/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9242,7 +9431,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-49/main.webp"
+    ]
   },
   {
     "id": "cartridges-50",
@@ -9252,8 +9444,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-50/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9267,7 +9459,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-50/main.webp"
+    ]
   },
   {
     "id": "cartridges-51",
@@ -9297,8 +9492,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-52/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9307,7 +9502,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-52/main.webp"
+    ]
   },
   {
     "id": "cartridges-53",
@@ -9342,8 +9540,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-54/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9357,7 +9555,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-54/main.webp"
+    ]
   },
   {
     "id": "connectors-1",
@@ -10355,8 +10556,8 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -10375,7 +10576,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-2/main.webp"
+    ]
   },
   {
     "id": "headphones-3",
@@ -10385,8 +10589,8 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -10405,7 +10609,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-3/main.webp"
+    ]
   },
   {
     "id": "headphones-4",
@@ -10415,8 +10622,8 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -10435,7 +10642,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-4/main.webp"
+    ]
   },
   {
     "id": "headphones-5",
@@ -10445,8 +10655,8 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -10465,7 +10675,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-5/main.webp"
+    ]
   },
   {
     "id": "headphones-6",
@@ -10475,8 +10688,8 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-6/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -10500,7 +10713,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-6/main.webp"
+    ]
   },
   {
     "id": "headphones-7",
@@ -10510,8 +10726,8 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -10530,7 +10746,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-7/main.webp"
+    ]
   },
   {
     "id": "intercoms-1",
@@ -11068,8 +11287,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11083,7 +11302,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-2/main.webp"
+    ]
   },
   {
     "id": "keyboards-3",
@@ -11093,8 +11315,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11108,7 +11330,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-3/main.webp"
+    ]
   },
   {
     "id": "keyboards-4",
@@ -11118,8 +11343,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11133,7 +11358,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-4/main.webp"
+    ]
   },
   {
     "id": "keyboards-5",
@@ -11143,8 +11371,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11158,7 +11386,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-5/main.webp"
+    ]
   },
   {
     "id": "keyboards-6",
@@ -11196,8 +11427,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11211,7 +11442,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-7/main.webp"
+    ]
   },
   {
     "id": "keyboards-8",
@@ -11221,8 +11455,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-8/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11236,7 +11470,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-8/main.webp"
+    ]
   },
   {
     "id": "keyboards-9",
@@ -11246,8 +11483,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11261,7 +11498,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-9/main.webp"
+    ]
   },
   {
     "id": "keyboards-10",
@@ -11271,8 +11511,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11286,7 +11526,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-10/main.webp"
+    ]
   },
   {
     "id": "keyboards-11",
@@ -11296,8 +11539,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-11/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11311,7 +11554,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-11/main.webp"
+    ]
   },
   {
     "id": "keyboards-12",
@@ -11349,8 +11595,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-13/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11369,7 +11615,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-13/main.webp"
+    ]
   },
   {
     "id": "keyboards-14",
@@ -11379,8 +11628,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11399,7 +11648,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-14/main.webp"
+    ]
   },
   {
     "id": "keyboards-15",
@@ -11439,8 +11691,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11454,7 +11706,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-16/main.webp"
+    ]
   },
   {
     "id": "keyboards-17",
@@ -11464,8 +11719,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11479,7 +11734,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-17/main.webp"
+    ]
   },
   {
     "id": "keyboards-18",
@@ -11489,8 +11747,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-18/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11509,7 +11767,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-18/main.webp"
+    ]
   },
   {
     "id": "keyboards-19",
@@ -11519,8 +11780,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-19/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11534,7 +11795,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-19/main.webp"
+    ]
   },
   {
     "id": "keyboards-20",
@@ -11544,8 +11808,8 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
-    "placeholder": "⌨️",
+    "image": "images/products/keyboards-20/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -11564,7 +11828,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-20/main.webp"
+    ]
   },
   {
     "id": "acc-memory_cards-1",
@@ -12143,8 +12410,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12163,7 +12430,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-4/main.webp"
+    ]
   },
   {
     "id": "mice-5",
@@ -12173,8 +12443,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12193,7 +12463,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-5/main.webp"
+    ]
   },
   {
     "id": "mice-6",
@@ -12203,8 +12476,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-6/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12223,7 +12496,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-6/main.webp"
+    ]
   },
   {
     "id": "mice-7",
@@ -12324,8 +12600,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12339,7 +12615,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-10/main.webp"
+    ]
   },
   {
     "id": "mice-11",
@@ -12382,8 +12661,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-12/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12397,7 +12676,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-12/main.webp"
+    ]
   },
   {
     "id": "mice-13",
@@ -12407,8 +12689,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-13/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12427,7 +12709,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-13/main.webp"
+    ]
   },
   {
     "id": "mice-14",
@@ -12437,8 +12722,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12457,7 +12742,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-14/main.webp"
+    ]
   },
   {
     "id": "mice-15",
@@ -12467,8 +12755,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-15/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12487,7 +12775,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-15/main.webp"
+    ]
   },
   {
     "id": "mice-16",
@@ -12497,8 +12788,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12517,7 +12808,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-16/main.webp"
+    ]
   },
   {
     "id": "mice-17",
@@ -12527,8 +12821,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12542,7 +12836,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-17/main.webp"
+    ]
   },
   {
     "id": "mini_pbx-1",
@@ -13337,8 +13634,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-1/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13352,7 +13649,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-1/main.webp"
+    ]
   },
   {
     "id": "consumables-2",
@@ -13362,8 +13662,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13372,7 +13672,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-2/main.webp"
+    ]
   },
   {
     "id": "consumables-3",
@@ -13382,8 +13685,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13392,7 +13695,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-3/main.webp"
+    ]
   },
   {
     "id": "consumables-4",
@@ -13422,8 +13728,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13432,7 +13738,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-5/main.webp"
+    ]
   },
   {
     "id": "consumables-6",
@@ -13442,8 +13751,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-6/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13452,7 +13761,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-6/main.webp"
+    ]
   },
   {
     "id": "consumables-7",
@@ -13462,8 +13774,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13472,7 +13784,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-7/main.webp"
+    ]
   },
   {
     "id": "consumables-8",
@@ -13527,8 +13842,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13542,7 +13857,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-10/main.webp"
+    ]
   },
   {
     "id": "printers-1",
@@ -13552,8 +13870,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-1/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13567,7 +13885,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-1/main.webp"
+    ]
   },
   {
     "id": "printers-2",
@@ -13577,8 +13898,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13592,7 +13913,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-2/main.webp"
+    ]
   },
   {
     "id": "printers-3",
@@ -13602,8 +13926,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13622,7 +13946,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-3/main.webp"
+    ]
   },
   {
     "id": "printers-4",
@@ -13632,8 +13959,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13652,7 +13979,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-4/main.webp"
+    ]
   },
   {
     "id": "printers-5",
@@ -13662,8 +13992,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13682,7 +14012,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-5/main.webp"
+    ]
   },
   {
     "id": "printers-6",
@@ -13692,8 +14025,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-6/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13712,7 +14045,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-6/main.webp"
+    ]
   },
   {
     "id": "printers-7",
@@ -13722,8 +14058,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13737,7 +14073,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-7/main.webp"
+    ]
   },
   {
     "id": "printers-8",
@@ -13747,8 +14086,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-8/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13767,7 +14106,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-8/main.webp"
+    ]
   },
   {
     "id": "printers-9",
@@ -13777,8 +14119,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13797,7 +14139,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-9/main.webp"
+    ]
   },
   {
     "id": "printers-10",
@@ -13807,8 +14152,8 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -13827,7 +14172,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/printers-10/main.webp"
+    ]
   },
   {
     "id": "acc-projectors_screens-1",
@@ -15626,8 +15974,8 @@
     "category": "Колонки",
     "categoryName": "Колонки",
     "categoryUrl": "rgw_page_speakers.html",
-    "image": null,
-    "placeholder": "🔊",
+    "image": "images/products/speakers-1/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -15641,7 +15989,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/speakers-1/main.webp"
+    ]
   },
   {
     "id": "speakers-2",
@@ -15651,8 +16002,8 @@
     "category": "Колонки",
     "categoryName": "Колонки",
     "categoryUrl": "rgw_page_speakers.html",
-    "image": null,
-    "placeholder": "🔊",
+    "image": "images/products/speakers-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -15661,7 +16012,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/speakers-2/main.webp"
+    ]
   },
   {
     "id": "speakers-3",
@@ -15671,8 +16025,8 @@
     "category": "Колонки",
     "categoryName": "Колонки",
     "categoryUrl": "rgw_page_speakers.html",
-    "image": null,
-    "placeholder": "🔊",
+    "image": "images/products/speakers-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -15686,7 +16040,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/speakers-3/main.webp"
+    ]
   },
   {
     "id": "stabilizers-1",
@@ -17902,8 +18259,8 @@
     "category": "Веб-камеры",
     "categoryName": "Веб-камеры",
     "categoryUrl": "rgw_page_webcams.html",
-    "image": null,
-    "placeholder": "📷",
+    "image": "images/products/webcams-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -17922,7 +18279,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/webcams-2/main.webp"
+    ]
   },
   {
     "id": "wifi-1",

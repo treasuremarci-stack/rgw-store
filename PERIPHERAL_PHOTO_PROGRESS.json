@@ -1,0 +1,1615 @@
+{
+  "stage": "peripheral-and-printing-photos",
+  "updated_at": "2026-10-25",
+  "repository": "treasuremarci-stack/rgw-store",
+  "branch": "main",
+  "scope": {
+    "subcategories": 9,
+    "pages": [
+      "rgw_page_monitors.html",
+      "rgw_page_keyboards.html",
+      "rgw_page_mice.html",
+      "rgw_page_headphones.html",
+      "rgw_page_speakers.html",
+      "rgw_page_webcams.html",
+      "rgw_page_printers.html",
+      "rgw_page_cartridges.html",
+      "rgw_page_print_consumables.html"
+    ]
+  },
+  "summary": {
+    "total_products_checked": 149,
+    "already_ready_before_run": 7,
+    "processed_this_run": 120,
+    "ready_after_run": 127,
+    "placeholders_after_run": 22,
+    "new_webp_files": 120,
+    "peripheral_gallery_files_after_run": 130
+  },
+  "categories": [
+    {
+      "name": "Мониторы",
+      "page": "rgw_page_monitors.html",
+      "total": 26,
+      "existing_ready": 0,
+      "processed_this_run": 23,
+      "ready_after": 23,
+      "placeholders": 3,
+      "placeholder_ids": [
+        "monitors-2",
+        "monitors-15",
+        "monitors-25"
+      ],
+      "added_webp_files": 23
+    },
+    {
+      "name": "Клавиатуры",
+      "page": "rgw_page_keyboards.html",
+      "total": 20,
+      "existing_ready": 2,
+      "processed_this_run": 16,
+      "ready_after": 18,
+      "placeholders": 2,
+      "placeholder_ids": [
+        "keyboards-1",
+        "keyboards-15"
+      ],
+      "added_webp_files": 16
+    },
+    {
+      "name": "Мыши",
+      "page": "rgw_page_mice.html",
+      "total": 17,
+      "existing_ready": 4,
+      "processed_this_run": 10,
+      "ready_after": 14,
+      "placeholders": 3,
+      "placeholder_ids": [
+        "mice-1",
+        "mice-2",
+        "mice-9"
+      ],
+      "added_webp_files": 10
+    },
+    {
+      "name": "Наушники",
+      "page": "rgw_page_headphones.html",
+      "total": 7,
+      "existing_ready": 0,
+      "processed_this_run": 6,
+      "ready_after": 6,
+      "placeholders": 1,
+      "placeholder_ids": [
+        "headphones-1"
+      ],
+      "added_webp_files": 6
+    },
+    {
+      "name": "Колонки",
+      "page": "rgw_page_speakers.html",
+      "total": 3,
+      "existing_ready": 0,
+      "processed_this_run": 3,
+      "ready_after": 3,
+      "placeholders": 0,
+      "placeholder_ids": [],
+      "added_webp_files": 3
+    },
+    {
+      "name": "Веб-камеры",
+      "page": "rgw_page_webcams.html",
+      "total": 2,
+      "existing_ready": 1,
+      "processed_this_run": 1,
+      "ready_after": 2,
+      "placeholders": 0,
+      "placeholder_ids": [],
+      "added_webp_files": 1
+    },
+    {
+      "name": "Принтеры и МФУ",
+      "page": "rgw_page_printers.html",
+      "total": 10,
+      "existing_ready": 0,
+      "processed_this_run": 10,
+      "ready_after": 10,
+      "placeholders": 0,
+      "placeholder_ids": [],
+      "added_webp_files": 10
+    },
+    {
+      "name": "Картриджи",
+      "page": "rgw_page_cartridges.html",
+      "total": 54,
+      "existing_ready": 0,
+      "processed_this_run": 44,
+      "ready_after": 44,
+      "placeholders": 10,
+      "placeholder_ids": [
+        "cartridges-1",
+        "cartridges-2",
+        "cartridges-4",
+        "cartridges-26",
+        "cartridges-29",
+        "cartridges-37",
+        "cartridges-44",
+        "cartridges-48",
+        "cartridges-51",
+        "cartridges-53"
+      ],
+      "added_webp_files": 44
+    },
+    {
+      "name": "Расходные материалы для печати",
+      "page": "rgw_page_print_consumables.html",
+      "total": 10,
+      "existing_ready": 0,
+      "processed_this_run": 7,
+      "ready_after": 7,
+      "placeholders": 3,
+      "placeholder_ids": [
+        "consumables-4",
+        "consumables-8",
+        "consumables-9"
+      ],
+      "added_webp_files": 7
+    }
+  ],
+  "products": [
+    {
+      "id": "monitors-1",
+      "name": "Монитор 34 AOC CU34G10X curved",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-1/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-2",
+      "name": "Монитор 27 ASUS TUF GAMING",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "monitors-3",
+      "name": "Монитор 19 DAHUA DHI-LM19-A200 FHD FHD",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-4",
+      "name": "Монитор 24 HP S5 524SW FHD",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-4/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-5",
+      "name": "Монитор 24 HP V24v G5 FHD Display",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-6",
+      "name": "Монитор 22 M22F",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-6/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-7",
+      "name": "Монитор 27 Philips 27E2N1100 IPS 120HZ",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-7/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-8",
+      "name": "Монитор 34 Philips 34B2U3600C-93 curved",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-8/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-9",
+      "name": "Монитор 24 SHARP LC-24LE155M",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-9/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-10",
+      "name": "Монитор 24 Philips 24E2N1100 IPS 120HZ",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-10/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-11",
+      "name": "Монитор HP MONITOR P34HC G4 WQHD USB-C",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-11/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-12",
+      "name": "Монитор LENOVO Legion R27fc-30",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-12/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-13",
+      "name": "Монитор LENOVO Legion R27Qc-30",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-13/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-14",
+      "name": "Монитор 24 RedMi 1A 23.8 P24FBB-RA 1080P 100Hz",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-14/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-15",
+      "name": "Монитор 27 RedMi 27 X27A 1080p 120Hz",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "monitors-16",
+      "name": "Монитор 34 RedMi G34WQ 2026",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-16/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-17",
+      "name": "Монитор 27 RedMi G27U 2024",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-17/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-18",
+      "name": "Монитор 24 RedMi G25 1080p 200Hz 1ms FastIPS HDR400",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-18/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-19",
+      "name": "Монитор 27 RedMi G27Q 320HZ",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-19/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-20",
+      "name": "Монитор 27 RedMi G27Q 240Hz 2026",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-20/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-21",
+      "name": "Монитор 27 RedMi G pro 27U 2025miniled 4k 160Hz",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-21/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-22",
+      "name": "Монитор 27 RedMi mini-led G PRO 27Q",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-22/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-23",
+      "name": "Монитор 24 RedMi G24Q 2026",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-23/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-24",
+      "name": "Монитор 24 DELL E2423H-60.5CM-23.8 - 3YR",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-24/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "monitors-25",
+      "name": "Монитор 27 HKC",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "monitors-26",
+      "name": "Монитор 24 PHILIPS 242M8",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/monitors-26/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-1",
+      "name": "Клавиатура Mechanical Gaming RGB KM-L112BK",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "keyboards-2",
+      "name": "Клавиатура Logitech Keyboard K 120",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-2/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-3",
+      "name": "Клавиатура Logitech Keyboard МK 245",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-4",
+      "name": "Клавиатура Logitech Keyboard МK 275",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-4/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-5",
+      "name": "Клавиатура Logitech Keyboard МK 295",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-6",
+      "name": "Клавиатура Logitech Keyboard МK 470",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-6/main.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "keyboards-7",
+      "name": "Клавиатура Logitech Keyboard МK 540",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-7/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-8",
+      "name": "Клавиатура LuxeMate 100 (Black, USB) RU",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-8/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-9",
+      "name": "Клавиатура Logitech Keyboard МK 270",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-9/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-10",
+      "name": "Клавиатура Logitech Keyboard МK 345",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-10/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-11",
+      "name": "Клавиатура Logitech Keyboard МK 850",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-11/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-12",
+      "name": "Клавиатура Logitech Keyboard МK 220",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-12/main.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "keyboards-13",
+      "name": "Клавиатура Exegate EX296104RUS Комплект беспроводной MK280 (кл.104кл+мышь 1000dpi 3кн",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-13/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-14",
+      "name": "Клавиатура Exegate EX295304RUS Комплект беспроводной + мышь оптическая MK-210",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-14/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-15",
+      "name": "Клавиатура Gaming RGB KM-110BK",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "keyboards-16",
+      "name": "Клавиатура Logitech Keyboard МK 235",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-16/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-17",
+      "name": "Клавиатура Exegate EX287139RUS Комплект проводной MK120 104кл+мышь 1000 3кн",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-17/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-18",
+      "name": "Клавиатура Exegate EX286220RUS Комплект беспроводной MK240 (кл.115кл+мышь800/1200 4кн",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-18/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-19",
+      "name": "Клавиатура MERCURY KB-6800 KB 6900, MM, ENG",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-19/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "keyboards-20",
+      "name": "Клавиатура Exegate EX287402RUS Комплект беспроводной MK330 (кл.104кл+мышь 1000 3кн",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/keyboards-20/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-1",
+      "name": "Мышка GENIUS Ergo 500",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "mice-2",
+      "name": "Мышка GENIUS NX-MICRO RETRACTABLE BL",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "mice-3",
+      "name": "Мышка LOGITECH Wireless M 196",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/mice-3/main.webp",
+        "images/products/mice-3/02.webp",
+        "images/products/mice-3/03.webp",
+        "images/products/mice-3/04.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "mice-4",
+      "name": "Мышка LOGITECH Wireless M 330",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-4/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-5",
+      "name": "Мышка LOGITECH Wireless M 650",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-6",
+      "name": "Мышка LOGITECH Wireless M575s",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-6/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-7",
+      "name": "Мышка LOGITECH Wireless M705",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-7/main.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "mice-8",
+      "name": "Мышка LOGITECH Wireless M187",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-8/main.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "mice-9",
+      "name": "Мышка MERCURY MX-1500, OPTICAL MOUSE",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "mice-10",
+      "name": "Мышка GALAX SLIDER-03, Gaming mouse, Optical, 7 buttons, 3325",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-10/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-11",
+      "name": "Мышка LOGITECH Wireless M 280",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-11/main.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "mice-12",
+      "name": "Мышка LOGITECH Pebble",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-12/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-13",
+      "name": "Мышка LOGITECH Wireless M 170",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-13/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-14",
+      "name": "Мышка LOGITECH Wireless M235",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-14/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-15",
+      "name": "Мышка LOGITECH Wireless M650L",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-15/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-16",
+      "name": "Мышка LOGITECH Wireless M 185",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-16/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "mice-17",
+      "name": "Мышка Rapoo Wireless M100G Silent",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-17/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "headphones-1",
+      "name": "Наушники Dialog M251",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "headphones-2",
+      "name": "Наушники Logitech Headset G 331",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/headphones-2/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "headphones-3",
+      "name": "Наушники LOGITECH Stereo Headset H 110",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/headphones-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "headphones-4",
+      "name": "Наушники NGTD020202 Baseus Bowie D05 Wireless Headphones Creamy-white",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/headphones-4/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "headphones-5",
+      "name": "Наушники LOGITECH Stereo Headset Н 390",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/headphones-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "headphones-6",
+      "name": "Наушники Logitech USB Headset Н 340",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/headphones-6/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "headphones-7",
+      "name": "Наушники A00050402113-00 Baseus Bowie H1i Noise-Cancellation Wireless Headphones Cluster Black",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/headphones-7/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "speakers-1",
+      "name": "Калонка HP 2111",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/speakers-1/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "speakers-2",
+      "name": "Калонка Kisonli A101S",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/speakers-2/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "speakers-3",
+      "name": "Калонка Philips SPA 2209",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/speakers-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "webcams-1",
+      "name": "Вебка Logitech C922",
+      "status": "existing",
+      "photo_count": 1,
+      "paths": [
+        "images/products/webcams-1/main.webp"
+      ],
+      "note": "Проверенный набор из предыдущего этапа; файл не изменён."
+    },
+    {
+      "id": "webcams-2",
+      "name": "Вебка Logitech C920 Pro",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/webcams-2/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-1",
+      "name": "Принтер CANON MF275DW",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-1/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-2",
+      "name": "Принтер CANON MF3010 i-SENSYS дубай",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-2/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-3",
+      "name": "Принтер EPSON L8050",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-4",
+      "name": "Принтер HP LJ M137fnw MFP",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-4/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-5",
+      "name": "Принтер EPSON L14150",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-6",
+      "name": "Принтер HP Laser Jet M111w",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-6/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-7",
+      "name": "Принтер Canon LBP 6030 image Class",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-7/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-8",
+      "name": "Принтер HP Laser Jet Pro 4103 fdw",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-8/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-9",
+      "name": "Принтер EPSON ACULASER M1400 (220V) PRINTER",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-9/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "printers-10",
+      "name": "Принтер EPSON L 18050",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/printers-10/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-1",
+      "name": "Картридж Canon cartridge CF238X/CRG-737 Аsta",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-2",
+      "name": "Картридж Canon cartridge CRG-051D",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-3",
+      "name": "Картридж CF219A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-4",
+      "name": "Картридж Xerox 3130",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-5",
+      "name": "Картридж Xerox 3140",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-6",
+      "name": "Картридж Xerox 3345",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-6/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-7",
+      "name": "Картридж 703A FX-10/12",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-7/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-8",
+      "name": "Картридж Canon ЕР 27",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-8/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-9",
+      "name": "Картридж hp 53A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-9/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-10",
+      "name": "Картридж SAMSUNG MLT-D101S",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-10/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-11",
+      "name": "Картридж SAMSUNG MLT-D111S",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-11/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-12",
+      "name": "Картридж CB435A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-12/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-13",
+      "name": "Картридж CE505A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-13/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-14",
+      "name": "Картридж CF217A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-14/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-15",
+      "name": "Картридж CF226A 052 Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-15/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-16",
+      "name": "Картридж CRG-047/CF217A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-16/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-17",
+      "name": "Картридж CRG-057 Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-17/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-18",
+      "name": "Картридж HP CF232A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-18/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-19",
+      "name": "Картридж NPG-59",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-19/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-20",
+      "name": "Картридж Toner Canon IR2202",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-20/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-21",
+      "name": "Картридж Toner Cartridge HP W1500A 150A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-21/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-22",
+      "name": "Картридж Toner Cartridge HP 281A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-22/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-23",
+      "name": "Картридж Xerox 106R01531 for WC 3550",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-23/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-24",
+      "name": "Картридж Xerox 3325 (106R02312)",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-24/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-25",
+      "name": "Картридж CRG-070",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-25/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-26",
+      "name": "Картридж CRG-071 Asta",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-27",
+      "name": "Картридж Drum XEROX B225",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-27/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-28",
+      "name": "Картридж 106R04347 Xerox B215",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-28/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-29",
+      "name": "Картридж B225 Asta",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-30",
+      "name": "Картридж CF259A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-30/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-31",
+      "name": "Картридж CRG-051/CF230A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-31/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-32",
+      "name": "Картридж CRG-067 Цветной комплект",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-32/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-33",
+      "name": "Картридж HP 180 (205А) 530-531-532-533",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-33/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-34",
+      "name": "Картридж W1510A/151A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-34/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-35",
+      "name": "Картридж Xerox 106R01379 для Xerox P3100",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-35/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-36",
+      "name": "Картридж Xerox P3020 (106R02773)",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-36/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-37",
+      "name": "Картридж Тонер Универсал",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-38",
+      "name": "Картридж CRG-054 (Цветной комплект) Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-38/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-39",
+      "name": "Картридж 287A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-39/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-40",
+      "name": "Картридж HP 222A /W2220A 21-22-23 Цветной комлект",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-40/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-41",
+      "name": "Картридж HP CC388A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-41/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-42",
+      "name": "Картридж HP 145A/W1450A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-42/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-43",
+      "name": "Картридж HP CE 255A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-43/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-44",
+      "name": "Картридж CRG-056L Asta",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-45",
+      "name": "Картридж Canon cartridge 725 Китай",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-45/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-46",
+      "name": "Картридж HP 069 Цветной комплект",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-46/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-47",
+      "name": "Картридж Samsung MLT-D104S китай",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-47/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-48",
+      "name": "Картридж MLT-D109S Asta",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-49",
+      "name": "Картридж Toner canon C-EXV40",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-49/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-50",
+      "name": "Картридж Toner Cartridge HP 150A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-50/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-51",
+      "name": "Картридж B225 Asta с чипом",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-52",
+      "name": "Картридж W1106A/106A Asta",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-52/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "cartridges-53",
+      "name": "Картридж CRG-049 Asta",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "cartridges-54",
+      "name": "Картридж hp Q7551A",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-54/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-1",
+      "name": "Ксерокс Cartridge 106R01415 Xerox Phaser 3435 Китай",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-1/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-2",
+      "name": "Ксерокс Phaser 3010/WC3045 Hi-Cap cartridge 2.3K",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-2/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-3",
+      "name": "Ксерокс Toner 5019 / 5021 Toner",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-3/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-4",
+      "name": "Ксерокс WC 415/415DC / WCPro315/320/420/420DC Toner (2 x 6k)",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "consumables-5",
+      "name": "Ксерокс 11K 106R02306 phaser 3320",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-5/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-6",
+      "name": "Ксерокс Yellow Toner Cartridge (1k) Phaser 6110",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-6/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-7",
+      "name": "Ксерокс Картридж Phaser 6125 4 цвет",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-7/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    },
+    {
+      "id": "consumables-8",
+      "name": "Ксерокс картридж 106R01529 3550",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "consumables-9",
+      "name": "Ксерокс Black for 106R02732 Xerox 3610/3615",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+    },
+    {
+      "id": "consumables-10",
+      "name": "Ксерокс Drum for 113R00773 Xerox 3610",
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-10/main.webp"
+      ],
+      "note": "Точная модель проверена; основной кадр сохранён локально и подключён."
+    }
+  ],
+  "notes": [
+    "Новые изображения сохранены локально в images/products/<PRODUCT_ID>/main.webp и подключены к products.json и карточке соответствующей категории.",
+    "Галерея product.html?id=PRODUCT_ID использует существующий product.js и поле images; для новых товаров добавлен один основной кадр, дополнительные существующие наборы не изменялись.",
+    "Цены, характеристики, названия, ID, SKU, price.csv, фильтры, сортировка, дизайн и страницы других разделов не изменялись.",
+    "Источники проверялись по точному названию/модели; внешние права на повторное коммерческое размещение требуют отдельной ручной проверки."
+  ]
+}

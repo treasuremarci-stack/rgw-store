@@ -1,0 +1,162 @@
+{
+  "section": "Видеонаблюдение",
+  "updated": "2026-10-25",
+  "categories": [
+    {
+      "name": "IP-камеры",
+      "page": "rgw_page_ip_cameras.html",
+      "products": 4
+    },
+    {
+      "name": "Аналоговые камеры",
+      "page": "rgw_page_analog_cameras.html",
+      "products": 2
+    },
+    {
+      "name": "Домофоны",
+      "page": "rgw_page_intercoms.html",
+      "products": 2
+    },
+    {
+      "name": "Видеорегистраторы",
+      "page": "rgw_page_video_recorders.html",
+      "products": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "ip_cameras-1",
+      "model": "Камера внутренняя Dahua IPC-HDW1239T1P-A-LED-0280B (23465)",
+      "category": "IP-камеры",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": ["images/products/ip_cameras-1/main.webp"],
+      "sources": ["https://sinon.tj/wp-content/uploads/2026/10/23465-kamera-vnutrennyaya-dahua-dh-ipc-hdw1239t1p-a-led-0280b-1.webp"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "ip_cameras-2",
+      "model": "Камера внутренняя IPC-T22EP-0280B-imou",
+      "category": "IP-камеры",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": ["images/products/ip_cameras-2/main.webp"],
+      "sources": ["https://www.imou.com/en/product/detail/turret-se", "https://static-website.imou.com/3fedb55c-df0f-49cd-b378-3afcbf912dc8.png"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "ip_cameras-3",
+      "model": "Камера наружная Dahua HAC-ME1509THP-A-PV-0360B-S2",
+      "category": "IP-камеры",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": ["images/products/ip_cameras-3/main.webp"],
+      "sources": ["https://material.dahuasecurity.com/uploads/image/20230421/HAC-ME1509TH-A-PV_1.png", "https://www.topcctv.co.za/product/dh-hac-me1509thp-a-pv-0360b-s2/"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "ip_cameras-4",
+      "model": "Камера наружная Dahua IPC-HFW1239S1P-LED-0280B-S5-QH2",
+      "category": "IP-камеры",
+      "status": "processed",
+      "photo_count": 3,
+      "paths": ["images/products/ip_cameras-4/main.webp", "images/products/ip_cameras-4/02.webp", "images/products/ip_cameras-4/03.webp"],
+      "sources": ["https://material.dahuasecurity.com/uploads/cpq/prm-os-srv-res/smart/formal/Product/HQ/1_0_01_04_38098/ProductImage/1_0_01_04_38098_19765309.png", "https://provetel.com.ar/producto/dh-ipc-hfw1239s1p-led-0280b-s5-qh2-camara-bullet-ip-full-color-2-mpx-h-265-2-8-mm-ir-15-mts-dahua/"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "analog_cameras-1",
+      "model": "Камера наружная Dahua DH-HAC-HFW1200CMP-IL-A-0280B",
+      "category": "Аналоговые камеры",
+      "status": "processed",
+      "photo_count": 3,
+      "paths": ["images/products/analog_cameras-1/main.webp", "images/products/analog_cameras-1/02.webp", "images/products/analog_cameras-1/03.webp"],
+      "sources": ["https://www.topcctv.co.za/product/dh-hac-hfw1200cmp-il-a/"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "analog_cameras-2",
+      "model": "Камера внутренняя Dahua HAC-ME1509HP-A-PV-0280B-S2",
+      "category": "Аналоговые камеры",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": ["images/products/analog_cameras-2/main.webp"],
+      "sources": ["https://material.dahuasecurity.com/uploads/image/20230421/HAC-ME1509H-A-PV_1.png", "https://www.adiglobaldistribution.co.uk/Product/HME1509HPAPV2S2"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "intercoms-1",
+      "model": "Домофон Аналоговый Видеодомофон Dahua KTA02 Kit комплект",
+      "category": "Домофоны",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": ["images/products/intercoms-1/main.webp"],
+      "sources": ["https://materialfile.dahuasecurity.com/uploads/image/20241128/1_0_01_15_121543_5747402581.png"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "intercoms-2",
+      "model": "Домофон IP Видеодомофон Dahua KTP01(S) Kit комплект",
+      "category": "Домофоны",
+      "status": "processed",
+      "photo_count": 2,
+      "paths": ["images/products/intercoms-2/main.webp", "images/products/intercoms-2/02.webp"],
+      "sources": ["https://www.dahuasecurity.com/", "DHI-KTP01_datasheet_20200218.pdf"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    },
+    {
+      "id": "video_recorders-1",
+      "model": "Домофон Видеорегистратор HDCVI Dahua XVR5104C-I3",
+      "category": "Видеорегистраторы",
+      "status": "processed",
+      "photo_count": 2,
+      "paths": ["images/products/video_recorders-1/main.webp", "images/products/video_recorders-1/02.webp"],
+      "sources": ["https://material.dahuasecurity.com/uploads/image/20230629/1_0_01_01_14952_4456432201.png", "https://material.dahuasecurity.com/uploads/image/20230629/1_0_01_01_14948_4456388831.png"],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
+    }
+  ],
+  "summary": {
+    "categories_found": 4,
+    "products_found": 9,
+    "products_checked": 9,
+    "products_processed": 9,
+    "products_without_photos": 0,
+    "new_webp_files": 15
+  }
+}

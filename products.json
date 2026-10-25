@@ -7403,7 +7403,7 @@
     "category": "Аналоговые камеры",
     "categoryName": "Аналоговые камеры",
     "categoryUrl": "rgw_page_analog_cameras.html",
-    "image": null,
+    "image": "images/products/analog_cameras-1/main.webp",
     "placeholder": "📷",
     "catalogFacts": [
       {
@@ -7428,7 +7428,12 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/analog_cameras-1/main.webp",
+      "images/products/analog_cameras-1/02.webp",
+      "images/products/analog_cameras-1/03.webp"
+    ]
   },
   {
     "id": "analog_cameras-2",
@@ -7438,7 +7443,7 @@
     "category": "Аналоговые камеры",
     "categoryName": "Аналоговые камеры",
     "categoryUrl": "rgw_page_analog_cameras.html",
-    "image": null,
+    "image": "images/products/analog_cameras-2/main.webp",
     "placeholder": "📷",
     "catalogFacts": [
       {
@@ -7463,7 +7468,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/analog_cameras-2/main.webp"
+    ]
   },
   {
     "id": "acc-bags-1",
@@ -10786,7 +10794,7 @@
     "category": "Домофоны",
     "categoryName": "Домофоны",
     "categoryUrl": "rgw_page_intercoms.html",
-    "image": null,
+    "image": "images/products/intercoms-1/main.webp",
     "placeholder": "📺",
     "catalogFacts": [
       {
@@ -10806,7 +10814,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/intercoms-1/main.webp"
+    ]
   },
   {
     "id": "intercoms-2",
@@ -10816,7 +10827,7 @@
     "category": "Домофоны",
     "categoryName": "Домофоны",
     "categoryUrl": "rgw_page_intercoms.html",
-    "image": null,
+    "image": "images/products/intercoms-2/main.webp",
     "placeholder": "📺",
     "catalogFacts": [
       {
@@ -10836,7 +10847,11 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/intercoms-2/main.webp",
+      "images/products/intercoms-2/02.webp"
+    ]
   },
   {
     "id": "inverters-1",
@@ -10896,7 +10911,7 @@
     "category": "IP-камеры",
     "categoryName": "IP-камеры",
     "categoryUrl": "rgw_page_ip_cameras.html",
-    "image": null,
+    "image": "images/products/ip_cameras-1/main.webp",
     "placeholder": "📹",
     "catalogFacts": [
       {
@@ -10921,7 +10936,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_cameras-1/main.webp"
+    ]
   },
   {
     "id": "ip_cameras-2",
@@ -10931,7 +10949,7 @@
     "category": "IP-камеры",
     "categoryName": "IP-камеры",
     "categoryUrl": "rgw_page_ip_cameras.html",
-    "image": null,
+    "image": "images/products/ip_cameras-2/main.webp",
     "placeholder": "📹",
     "catalogFacts": [
       {
@@ -10956,7 +10974,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_cameras-2/main.webp"
+    ]
   },
   {
     "id": "ip_cameras-3",
@@ -10966,7 +10987,7 @@
     "category": "IP-камеры",
     "categoryName": "IP-камеры",
     "categoryUrl": "rgw_page_ip_cameras.html",
-    "image": null,
+    "image": "images/products/ip_cameras-3/main.webp",
     "placeholder": "📹",
     "catalogFacts": [
       {
@@ -10991,7 +11012,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_cameras-3/main.webp"
+    ]
   },
   {
     "id": "ip_cameras-4",
@@ -11001,7 +11025,7 @@
     "category": "IP-камеры",
     "categoryName": "IP-камеры",
     "categoryUrl": "rgw_page_ip_cameras.html",
-    "image": null,
+    "image": "images/products/ip_cameras-4/main.webp",
     "placeholder": "📹",
     "catalogFacts": [
       {
@@ -11026,7 +11050,12 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_cameras-4/main.webp",
+      "images/products/ip_cameras-4/02.webp",
+      "images/products/ip_cameras-4/03.webp"
+    ]
   },
   {
     "id": "ip_telephony-1",
@@ -18384,7 +18413,7 @@
     "category": "Видеорегистраторы",
     "categoryName": "Видеорегистраторы",
     "categoryUrl": "rgw_page_video_recorders.html",
-    "image": null,
+    "image": "images/products/video_recorders-1/main.webp",
     "placeholder": "🎥",
     "catalogFacts": [
       {
@@ -18404,7 +18433,11 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/video_recorders-1/main.webp",
+      "images/products/video_recorders-1/02.webp"
+    ]
   },
   {
     "id": "webcams-1",

@@ -1574,8 +1574,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i3-14100"
     },
@@ -1621,7 +1621,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-001/main.webp"
+    ]
   },
   {
     "id": "cpu-002",
@@ -1631,8 +1633,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i7-14700KF"
     },
@@ -1683,7 +1685,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-002/main.webp"
+    ]
   },
   {
     "id": "cpu-003",
@@ -1693,8 +1697,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i7-4770"
     },
@@ -1735,7 +1739,9 @@
         "group": "Графика"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-003/main.webp"
+    ]
   },
   {
     "id": "cpu-004",
@@ -1745,8 +1751,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-004/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i9-14900KF"
     },
@@ -1792,7 +1798,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-004/main.webp"
+    ]
   },
   {
     "id": "cpu-005",
@@ -1854,8 +1862,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-006/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i5-4460"
     },
@@ -1896,7 +1904,9 @@
         "group": "Графика"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-006/main.webp"
+    ]
   },
   {
     "id": "cpu-007",
@@ -1906,8 +1916,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-007/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core Ultra 5 245K"
     },
@@ -1953,7 +1963,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-007/main.webp"
+    ]
   },
   {
     "id": "cpu-008",
@@ -1963,8 +1975,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-008/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core Ultra 5 245KF"
     },
@@ -2010,7 +2022,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-008/main.webp"
+    ]
   },
   {
     "id": "cpu-009",
@@ -2020,8 +2034,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-009/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core Ultra 7 265K"
     },
@@ -2067,7 +2081,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-009/main.webp"
+    ]
   },
   {
     "id": "cpu-010",
@@ -2077,8 +2093,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-010/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core Ultra 9 285K"
     },
@@ -2124,7 +2140,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-010/main.webp"
+    ]
   },
   {
     "id": "cpu-011",
@@ -2134,8 +2152,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-011/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i3-9100F"
     },
@@ -2181,7 +2199,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-011/main.webp"
+    ]
   },
   {
     "id": "cpu-012",
@@ -2191,8 +2211,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-012/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i9-14900K"
     },
@@ -2238,7 +2258,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-012/main.webp"
+    ]
   },
   {
     "id": "cpu-013",
@@ -2248,8 +2270,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-013/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i5-3470"
     },
@@ -2290,7 +2312,9 @@
         "group": "Графика"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-013/main.webp"
+    ]
   },
   {
     "id": "cpu-014",
@@ -2300,8 +2324,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-014/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i7-14700"
     },
@@ -2352,7 +2376,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-014/main.webp"
+    ]
   },
   {
     "id": "cpu-015",
@@ -2362,8 +2388,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-015/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i7-14700K"
     },
@@ -2414,7 +2440,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-015/main.webp"
+    ]
   },
   {
     "id": "cpu-016",
@@ -2424,8 +2452,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-016/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core i3-4170"
     },
@@ -2461,7 +2489,9 @@
         "group": "Графика"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-016/main.webp"
+    ]
   },
   {
     "id": "cpu-017",
@@ -2471,8 +2501,8 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-017/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Core Ultra 5 225F"
     },
@@ -2518,7 +2548,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cpu-017/main.webp"
+    ]
   },
   {
     "id": "ssd-001",
@@ -3017,8 +3049,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-012/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "HP FX700 512GB"
     },
@@ -3054,7 +3086,10 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-012/main.webp",
+      "images/products/ssd-012/01.webp"
+    ]
   },
   {
     "id": "ssd-013",
@@ -3133,8 +3168,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-015/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Samsung 980 512GB"
     },
@@ -3160,7 +3195,9 @@
         "group": "Интерфейсы"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-015/main.webp"
+    ]
   },
   {
     "id": "ssd-016",
@@ -3810,8 +3847,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-011/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PRIME H610M-G D4"
     },
@@ -3842,7 +3879,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-011/main.webp"
+    ]
   },
   {
     "id": "mb-012",
@@ -3881,8 +3920,8 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-013/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "H810M K"
     },
@@ -3913,7 +3952,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-013/main.webp"
+    ]
   },
   {
     "id": "mb-014",
@@ -4722,8 +4763,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "DK352 PLUS"
     },
@@ -4744,7 +4785,9 @@
         "group": "Охлаждение"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cases-002/main.webp"
+    ]
   },
   {
     "id": "cases-003",
@@ -4819,8 +4862,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-005/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Hype-M"
     },
@@ -4836,7 +4879,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cases-005/main.webp"
+    ]
   },
   {
     "id": "cases-006",
@@ -4846,8 +4891,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-006/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "INFINITY PLUS"
     },
@@ -4863,7 +4908,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cases-006/main.webp"
+    ]
   },
   {
     "id": "cases-007",
@@ -5624,8 +5671,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-017/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "PF600X"
     },
@@ -5636,7 +5683,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/psu-017/main.webp"
+    ]
   },
   {
     "id": "cooling-001",

@@ -1,0 +1,754 @@
+{
+  "section": "Серверное и сетевая инфраструктура",
+  "updated": "2026-10-25",
+  "categories": [
+    {
+      "name": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html"
+    },
+    {
+      "name": "Патч-панели",
+      "page": "rgw_page_patch_panels.html"
+    },
+    {
+      "name": "Коннекторы и розетки",
+      "page": "rgw_page_connectors_outlets.html"
+    },
+    {
+      "name": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html"
+    },
+    {
+      "name": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html"
+    },
+    {
+      "name": "Мини-АТС",
+      "page": "rgw_page_mini_pbx.html"
+    },
+    {
+      "name": "Сетевые аксессуары",
+      "page": "rgw_page_network_accessories.html"
+    }
+  ],
+  "summary": {
+    "categories_found": 7,
+    "products_found": 43,
+    "initially_ready": 1,
+    "processed_this_run": 12,
+    "ready_after_run": 13,
+    "new_webp_files": 12,
+    "unresolved": 30
+  },
+  "products": [
+    {
+      "id": "server_racks-1",
+      "model": "Шкаф 15 U 600x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-2",
+      "model": "Шкаф 18 U 600x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-3",
+      "model": "Шкаф 22 U 600x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-4",
+      "model": "Шкаф 32U 600x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-5",
+      "model": "Шкаф 37 U 600x1000 mm wall mounted type",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-6",
+      "model": "Шкаф 4 U 600x450mm Китай",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-7",
+      "model": "Шкаф 42U 800x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-8",
+      "model": "Шкаф 6 U 600x450mm Китай",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-9",
+      "model": "Шкаф 9 U 600x450mm Китай",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-10",
+      "model": "Шкаф 42U 600x1200mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-11",
+      "model": "Шкаф 27U 600x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-12",
+      "model": "Шкаф 22 U 600x600mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-13",
+      "model": "Шкаф 12 U 600x450mm Китай",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "server_racks-14",
+      "model": "Шкаф 42U 600x1000mm standing type server rack",
+      "category": "Серверные шкафы",
+      "page": "rgw_page_server_racks.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "У товара нет производителя, модели или артикула; по одним габаритам нельзя подтвердить точное фото.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "patch_panels-1",
+      "model": "Network patch panel CAT6 UTP 24port",
+      "category": "Патч-панели",
+      "page": "rgw_page_patch_panels.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя или модели; generic-фото CAT6 24-port нельзя подтвердить как фото конкретного товара.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "patch_panels-2",
+      "model": "Network patch panel CAT6 UTP 48port",
+      "category": "Патч-панели",
+      "page": "rgw_page_patch_panels.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя или модели; generic-фото CAT6 48-port нельзя подтвердить как фото конкретного товара.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "connectors-1",
+      "model": "Зажим RJ45 HT 546 Зард",
+      "category": "Коннекторы и розетки",
+      "page": "rgw_page_connectors_outlets.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Название не содержит однозначного производителя/артикула; найденные HT-546 варианты нельзя безопасно сопоставить с карточкой.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "connectors-2",
+      "model": "Зажим RJ45 Прастой",
+      "category": "Коннекторы и розетки",
+      "page": "rgw_page_connectors_outlets.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя и артикула; точное фото модели не подтверждается.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "connectors-3",
+      "model": "Зажим RJ45",
+      "category": "Коннекторы и розетки",
+      "page": "rgw_page_connectors_outlets.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя и артикула; точное фото модели не подтверждается.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-1",
+      "model": "Кабель SFTP MERCURY CAT 6 SFTP 305M Cable",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/network_cables-1/main.webp"
+      ],
+      "sources": [
+        "https://bendarystores.com/en/mercury-cat-6-sftp-305m-cable",
+        "https://bendarystores.com/images/thumbs/0013289_mercury-cat-6-sftp-305m-network-cable.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-2",
+      "model": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/network_cables-2/main.webp"
+      ],
+      "sources": [
+        "https://www.terrabyt.com/mercury-cat-6-utp-dubai",
+        "https://cdn.terrabyt.com/cache/catalog/Mercury-Cat-6-UTP-800x800.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-3",
+      "model": "Кабель SFTP Cat6 305M Бабина Сафед Китай",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет бренда/артикула; белая катушка Cat6 из поиска не доказывает точное соответствие.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-4",
+      "model": "Кабель SFTP Cat6 Сиех Бабина арзон",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет бренда/артикула; точное фото катушки не подтверждается.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-5",
+      "model": "Кабель SFTP Cat6 0.56mm Copper, 80*0.12AL-MGbraiding PVC+PEdouble Jacket Outdoor",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Техническое описание без бренда/артикула; найденные outdoor Cat6 изображения относятся к другим моделям.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-6",
+      "model": "Кабель SFTP AMPXL 6668 Сat 6 24AVG",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Модель AMPXL 6668 подтверждена в каталоге продавца, но доступного изображения именно 6668 без подмены другой AMPXL-модели не найдено.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-7",
+      "model": "OM3-150M indoor fiber cable , PVC jacket 4 cores",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет бренда/артикула и однозначной маркировки; фото общего OM3-кабеля было бы подменой.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_cables-8",
+      "model": "Кабель SFTP Cat6 0.56mm Copper, 80*0.12 AL-MG braiding Indoor",
+      "category": "Сетевые кабели",
+      "page": "rgw_page_network_cables.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Техническое описание без бренда/артикула; точное фото не подтверждается.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-1",
+      "model": "Grandstream GRP2602Р Славик",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-1/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2602-p-w-g",
+        "https://www.grandstream.com/hubfs/Product%20Images/GRP/grp2602_front_web-website.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-2",
+      "model": "Grandstream GRP2601, 2 SIP accounts",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-2/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2601p/w",
+        "https://www.grandstream.com/hubfs/Product%20Images/GRP/grp2601_front_web-website.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-3",
+      "model": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-3/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-pbxs/ucm-series-ip-pbxs/product/ucm6300-series-ip-pbx",
+        "https://www.grandstream.com/hubfs/Vertical_Solution_Pages/Hospitality/UCM6300_Series_ippbx.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-4",
+      "model": "Grandstream DP755 DECT VoIP Base Station",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-4/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony/dect-cordless/product/dp755",
+        "https://www.grandstream.com/hubfs/DP755%201.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-5",
+      "model": "Grandstream GRP2604P,",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-5/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony-carrier-grade-ip-phones/grp-series-essential-ip-phones/product/grp2604p",
+        "https://www.grandstream.com/hubfs/Product%20Images/GRP/grp2604_front_web-website.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-6",
+      "model": "Grandstream GXP1628",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-6/main.webp"
+      ],
+      "sources": [
+        "existing repository asset; unchanged"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-7",
+      "model": "Grandstream GXP2170",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-7/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony-gxp-series-ip-phones/gxp-series-high-end-ip-phones/product/gxp2170",
+        "https://www.grandstream.com/hubfs/Product%20Images/GXP/gxp2170_front_web-website.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-8",
+      "model": "Expansion Module for GXP2140, GXP2170 and GXV3240",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-8/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony/extension-modules/product/gxp2200ext-expansion-module",
+        "https://www.grandstream.com/hubfs/Product%20Images/GXP2200EXT/gxp2200_front.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-9",
+      "model": "Grandstream DP750, Wireless DECT Base Station",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-9/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony/dect-cordless/product/dp750",
+        "https://www.grandstream.com/hubfs/Product%20Images/DP/dp750_front_web-website.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "ip_telephony-10",
+      "model": "Grandstream GXP1615, Small-Medium Business IP Phone",
+      "category": "IP-телефония",
+      "page": "rgw_page_ip_telephony.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ip_telephony-10/main.webp"
+      ],
+      "sources": [
+        "https://www.grandstream.com/products/ip-voice-telephony-gxp-series-ip-phones/gxp-series-basic-ip-phones/product/gxp1610/gxp1615",
+        "https://www.grandstream.com/hubfs/gxp1610_gxp1615_front-website.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "mini_pbx-1",
+      "model": "Плата KX-TE82480",
+      "category": "Мини-АТС",
+      "page": "rgw_page_mini_pbx.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mini_pbx-1/main.webp"
+      ],
+      "sources": [
+        "https://www.pmctelecom.co.uk/panasonic-kx-te82480-2-x-8-expansion-card/",
+        "https://www.pmctelecom.co.uk/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/p/a/pana-2-x-8-card-2.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_accessories-1",
+      "model": "Кабель канал Metal cable manager 1U 19inch",
+      "category": "Сетевые аксессуары",
+      "page": "rgw_page_network_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя или артикула; generic cable manager нельзя подтвердить как конкретную модель.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_accessories-2",
+      "model": "РЕЛЬС Sliding shelf for 600*1000mm cabinets",
+      "category": "Сетевые аксессуары",
+      "page": "rgw_page_network_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя или артикула; generic shelf/rail нельзя подтвердить как конкретную модель.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_accessories-3",
+      "model": "Тестер Lan",
+      "category": "Сетевые аксессуары",
+      "page": "rgw_page_network_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя и модели; фотографии разных LAN-тестеров не взаимозаменяемы.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_accessories-4",
+      "model": "Полка серверный шкаф калон",
+      "category": "Сетевые аксессуары",
+      "page": "rgw_page_network_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя или артикула; точное фото полки не подтверждается.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "network_accessories-5",
+      "model": "Полка серверный шкаф майда",
+      "category": "Сетевые аксессуары",
+      "page": "rgw_page_network_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Нет производителя или артикула; точное фото полки не подтверждается.",
+      "catalog_checked": true,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    }
+  ]
+}

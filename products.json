@@ -11065,7 +11065,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-1/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11080,7 +11080,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-1/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-2",
@@ -11090,7 +11093,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-2/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11105,7 +11108,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-2/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-3",
@@ -11115,7 +11121,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-3/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11130,7 +11136,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-3/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-4",
@@ -11140,7 +11149,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-4/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11155,7 +11164,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-4/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-5",
@@ -11165,7 +11177,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-5/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11180,7 +11192,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-5/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-6",
@@ -11218,7 +11233,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-7/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11233,7 +11248,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-7/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-8",
@@ -11243,7 +11261,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-8/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11253,7 +11271,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-8/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-9",
@@ -11263,7 +11284,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-9/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11278,7 +11299,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-9/main.webp"
+    ]
   },
   {
     "id": "ip_telephony-10",
@@ -11288,7 +11312,7 @@
     "category": "IP-телефония",
     "categoryName": "IP-телефония",
     "categoryUrl": "rgw_page_ip_telephony.html",
-    "image": null,
+    "image": "images/products/ip_telephony-10/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -11303,7 +11327,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ip_telephony-10/main.webp"
+    ]
   },
   {
     "id": "keyboards-1",
@@ -12939,7 +12966,7 @@
     "category": "Мини-АТС",
     "categoryName": "Мини-АТС",
     "categoryUrl": "rgw_page_mini_pbx.html",
-    "image": null,
+    "image": "images/products/mini_pbx-1/main.webp",
     "placeholder": "☎️",
     "catalogFacts": [
       {
@@ -12949,7 +12976,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mini_pbx-1/main.webp"
+    ]
   },
   {
     "id": "network_accessories-1",
@@ -13059,7 +13089,7 @@
     "category": "Сетевые кабели",
     "categoryName": "Сетевые кабели",
     "categoryUrl": "rgw_page_network_cables.html",
-    "image": null,
+    "image": "images/products/network_cables-1/main.webp",
     "placeholder": "🧵",
     "catalogFacts": [
       {
@@ -13084,7 +13114,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/network_cables-1/main.webp"
+    ]
   },
   {
     "id": "network_cables-2",
@@ -13094,7 +13127,7 @@
     "category": "Сетевые кабели",
     "categoryName": "Сетевые кабели",
     "categoryUrl": "rgw_page_network_cables.html",
-    "image": null,
+    "image": "images/products/network_cables-2/main.webp",
     "placeholder": "🧵",
     "catalogFacts": [
       {
@@ -13119,7 +13152,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/network_cables-2/main.webp"
+    ]
   },
   {
     "id": "network_cables-3",

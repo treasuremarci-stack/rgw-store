@@ -344,7 +344,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "network_cables-2",
@@ -364,7 +364,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "network_cables-3",
@@ -474,7 +474,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-2",
@@ -494,7 +494,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-3",
@@ -514,7 +514,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-4",
@@ -534,7 +534,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-5",
@@ -554,7 +554,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-6",
@@ -573,7 +573,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-7",
@@ -593,7 +593,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-8",
@@ -613,7 +613,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-9",
@@ -633,7 +633,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "ip_telephony-10",
@@ -653,7 +653,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "mini_pbx-1",
@@ -673,7 +673,7 @@
       "reason": null,
       "catalog_checked": true,
       "gallery_checked": true,
-      "github_pages_checked": false
+      "github_pages_checked": true
     },
     {
       "id": "network_accessories-1",

@@ -50,7 +50,10 @@
     "processed_this_run": 42,
     "ready_after_run": 50,
     "new_webp_files": 42,
-    "unresolved": 39
+    "unresolved": 39,
+    "catalog_pages_checked": 10,
+    "connected_product_pages_checked": 50,
+    "github_pages_images_verified": 50
   },
   "products": [
     {
@@ -68,9 +71,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-adapters-2",
@@ -87,9 +90,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-adapters-3",
@@ -106,9 +109,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-adapters-4",
@@ -125,9 +128,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-adapters-5",
@@ -144,9 +147,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-1",
@@ -238,9 +241,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-7",
@@ -257,9 +260,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-8",
@@ -276,9 +279,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-9",
@@ -295,9 +298,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-10",
@@ -314,9 +317,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-11",
@@ -438,9 +441,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-bags-19",
@@ -487,9 +490,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-dvd_drives-1",
@@ -536,9 +539,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-2",
@@ -555,9 +558,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-3",
@@ -574,9 +577,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-4",
@@ -593,9 +596,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-5",
@@ -612,9 +615,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-6",
@@ -631,9 +634,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-7",
@@ -650,9 +653,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-8",
@@ -669,9 +672,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-9",
@@ -688,9 +691,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-10",
@@ -707,9 +710,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-11",
@@ -726,9 +729,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-12",
@@ -745,9 +748,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-13",
@@ -764,9 +767,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-14",
@@ -783,9 +786,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-15",
@@ -802,9 +805,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-external_storage-16",
@@ -836,9 +839,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-2",
@@ -855,9 +858,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-3",
@@ -874,9 +877,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-4",
@@ -893,9 +896,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-5",
@@ -912,9 +915,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-6",
@@ -931,9 +934,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-7",
@@ -950,9 +953,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-flash_drives-8",
@@ -969,9 +972,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-memory_cards-1",
@@ -988,9 +991,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-memory_cards-2",
@@ -1007,9 +1010,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-memory_cards-3",
@@ -1026,9 +1029,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-memory_cards-4",
@@ -1045,9 +1048,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-other_accessories-1",
@@ -1289,9 +1292,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-projectors_screens-11",
@@ -1308,9 +1311,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-projectors_screens-12",
@@ -1357,9 +1360,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-projectors_screens-15",
@@ -1451,9 +1454,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-2",
@@ -1470,9 +1473,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-3",
@@ -1489,9 +1492,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-4",
@@ -1508,9 +1511,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-5",
@@ -1527,9 +1530,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-6",
@@ -1546,9 +1549,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-7",
@@ -1565,9 +1568,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     },
     {
       "id": "acc-usb_hubs-8",
@@ -1584,9 +1587,9 @@
       ],
       "exact_match_confirmed": true,
       "reason": null,
-      "catalog_checked": false,
-      "gallery_checked": false,
-      "github_pages_checked": false
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "github_pages_checked": true
     }
   ]
 }

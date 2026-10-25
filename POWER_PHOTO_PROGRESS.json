@@ -1,0 +1,489 @@
+{
+  "updated": "2026-10-25",
+  "scope": "Электропитание",
+  "total_products": 29,
+  "ready_products": 13,
+  "placeholder_products": 16,
+  "new_webp_files": 14,
+  "items": [
+    {
+      "id": "inverters-1",
+      "model": "Инвертор Mercury Inverter 1200 with LCD PANE",
+      "category": "Инверторы",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Точное название Mercury Inverter 1200 with LCD PANE не подтверждено подходящим официальным asset; похожий инвертор не использовался."
+    },
+    {
+      "id": "inverters-2",
+      "model": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+      "category": "Инверторы",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Точное название Mercury MC-33024E Radiant Inverter 3kva/24V не подтверждено подходящим официальным asset; похожий инвертор не использовался."
+    },
+    {
+      "id": "strips-1",
+      "model": "Пилот MERCURY 6240U-SCK 1.8m",
+      "category": "Сетевые фильтры / пилоты",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/strips-1/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/197",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/pr_surge/Surge Protector_6240u_4u_b.jpg"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "strips-2",
+      "model": "Пилот MERCURY 8240U-SCK 3m",
+      "category": "Сетевые фильтры / пилоты",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/strips-2/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/197",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/pr_surge/Surge Protector_8240U_b.jpg"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "strips-3",
+      "model": "Пилот Китай 3m",
+      "category": "Сетевые фильтры / пилоты",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель указана только как «Пилот Китай 3m», без точного производителя/артикула; фото конкретного устройства не подтверждено."
+    },
+    {
+      "id": "strips-4",
+      "model": "Пилот Стоичный 8 Портов",
+      "category": "Сетевые фильтры / пилоты",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель указана только как «Пилот Стоичный 8 Портов», без точного артикула; фото конкретного устройства не подтверждено."
+    },
+    {
+      "id": "stabilizers-1",
+      "model": "Стабилизатор Automatic Voltage Regulator 1000VA",
+      "category": "Стабилизаторы",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/stabilizers-1/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/187",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/AVR 1000L/AVR-1K_1665045220_1667800043.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "stabilizers-2",
+      "model": "Стабилизатор Automatic Voltage Regulator 3000VA",
+      "category": "Стабилизаторы",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/stabilizers-2/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/187",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/AVR 3000L/AVR-3K_1665045425_1667800262.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "stabilizers-3",
+      "model": "Стабилизатор Automatic Voltage Regulator 5000VA",
+      "category": "Стабилизаторы",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/stabilizers-3/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/187",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/AVR 5000L/AVR-5K_1665046609_1667800428.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "stabilizers-4",
+      "model": "Инвертор Mercury Inverter 1200 with LCD PANE",
+      "category": "Стабилизаторы",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Точное название Mercury Inverter 1200 with LCD PANE не совпало с текущими карточками официального каталога стабилизаторов; похожий инвертор не использовался."
+    },
+    {
+      "id": "stabilizers-5",
+      "model": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+      "category": "Стабилизаторы",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Точное название Mercury MC-33024E Radiant Inverter 3kva/24V не подтверждено подходящим официальным asset; похожий инвертор не использовался."
+    },
+    {
+      "id": "stabilizers-6",
+      "model": "Стабилизатор AVR ANDELI 500va",
+      "category": "Стабилизаторы",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Точная модель AVR ANDELI 500va не подтверждена надёжным источником без водяного знака."
+    },
+    {
+      "id": "stabilizers-7",
+      "model": "Стабилизатор Automatic Voltage Regulator 2000VA",
+      "category": "Стабилизаторы",
+      "status": "ready",
+      "photo_count": 0,
+      "paths": [],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/187",
+        "source_images": [
+          "https://mercury-me.com/uploads/prod_gallery/5218/mercurysg_AVR2000_box_f_1649135201.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-1",
+      "model": "APC Easy UPS RAIL KIT. 700mm for SRV1. SRV2. SRV3kVA",
+      "category": "UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Точная фотография APC Easy UPS Rail Kit 700 mm для SRV1/SRV2/SRV3kVA не подтверждена; найденные материалы относятся к комплекту/совместимым сериям без чистого изображения этой модификации."
+    },
+    {
+      "id": "ups-2",
+      "model": "UPS MERCURY MAVERICK 750",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ups-3/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/Maverick 750/1_Maverick750_1648628474.png",
+          "https://mercury-me.com/uploads/prod_gallery/5214/2_Maverick750_1648628501.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-3",
+      "model": "UPS MERCURY MAVERICK 850",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ups-5/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/Maverick 850/Maverick_850_1567167522.jpg"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-4",
+      "model": "APC Easy UPS SRV RM 2000VA 230V ,with RailKit S",
+      "category": "UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель SRV2KRIRK подтверждена по каталогу APC, но в этой проверке не найден локально скачиваемый чистый asset, который можно безопасно привязать без риска подмены модификации."
+    },
+    {
+      "id": "ups-5",
+      "model": "UPS MERCURY MAVERICK 1050",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ups-7/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/Maverick 1050/Maverick_1050_1567167556.jpg"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-6",
+      "model": "UPS MERCURY ELITE 1200VA",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ups-11/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads/images/pr_up/Elite_1200Pro_b.jpg"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-7",
+      "model": "UPS MERCURY ELITE 1500 PRO UPS, SCHUKO PLUG",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ups-12/main.webp"
+      ],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/pr_up/Elite1500Pro_b.jpg"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-8",
+      "model": "APC Easy UPS BV 650VA, AVR М",
+      "category": "UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель BV650I-MS подтверждена, но доступный официальный CDN-asset вернул изображение другой BV-модификации/заглушку; фото не подменялось."
+    },
+    {
+      "id": "ups-9",
+      "model": "APC Easy UPS BV 1000VA, AVR, M",
+      "category": "UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель BV1000I-MS подтверждена, но подходящее фото не прошло текущую проверку точного CDN-asset; фото не подменялось."
+    },
+    {
+      "id": "ups-10",
+      "model": "APC UPS SRV 1 KI",
+      "category": "UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель SRV1KI подтверждена на сайте APC, но чистый скачиваемый asset не был безопасно извлечён в этой итерации."
+    },
+    {
+      "id": "ups-11",
+      "model": "UPS MERCURY ELITE 3200VA SMART",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 0,
+      "paths": [],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/UPS Elite 3200 Smart/1_Elite3200Smart_1667533425 Main_1712037295.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-12",
+      "model": "UPS MERCURY ELITE 2200U SMART UPS, SCHUKO PLUG",
+      "category": "UPS",
+      "status": "ready",
+      "photo_count": 0,
+      "paths": [],
+      "sources": {
+        "source_page": "https://mercury-me.com/products/345",
+        "source_images": [
+          "https://mercury-me.com/uploads//images/Elite 220U Smart UPS/Elite2200U_SMART_UPS_1655698991.png"
+        ]
+      },
+      "exact_match": true,
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "browser_checked": false
+    },
+    {
+      "id": "ups-13",
+      "model": "APC Easy UPS On-Line SRV RM 10000VA 230V SRV10KRIRK М",
+      "category": "UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "Модель SRV10KRIRK подтверждена на сайте APC, но чистый скачиваемый asset не был безопасно извлечён в этой итерации."
+    },
+    {
+      "id": "batteries-1",
+      "model": "Батарейка MERCURY SEALED LEADED BATTERY 8.2AH/12V",
+      "category": "Батареи для UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "В официальном каталоге Mercury не найдено точное изображение SEALED LEADED BATTERY 8.2AH/12V; изображения батарей другой ёмкости не использовались."
+    },
+    {
+      "id": "batteries-2",
+      "model": "Батарейка 12 В 5 Ампер",
+      "category": "Батареи для UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "В названии нет подтверждённого бренда/модели; фотография обычной 12V 5Ah батареи была бы подменой."
+    },
+    {
+      "id": "batteries-3",
+      "model": "Батарейка MERCURY SEALED LEADED BATTERY 9AH/12V",
+      "category": "Батареи для UPS",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match": false,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "browser_checked": false,
+      "reason": "В официальном каталоге Mercury не найдено точное изображение SEALED LEADED BATTERY 9AH/12V; изображения другой ёмкости не использовались."
+    }
+  ]
+}

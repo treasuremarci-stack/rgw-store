@@ -1,0 +1,1592 @@
+{
+  "section": "Аксессуары и хранение",
+  "updated": "2026-10-25",
+  "categories": [
+    {
+      "name": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html"
+    },
+    {
+      "name": "Флешки",
+      "page": "rgw_page_flash_drives.html"
+    },
+    {
+      "name": "Карты памяти",
+      "page": "rgw_page_memory_cards.html"
+    },
+    {
+      "name": "Кабели",
+      "page": "rgw_page_cables.html"
+    },
+    {
+      "name": "Переходники",
+      "page": "rgw_page_adapters.html"
+    },
+    {
+      "name": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html"
+    },
+    {
+      "name": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html"
+    },
+    {
+      "name": "DVD-приводы",
+      "page": "rgw_page_dvd_drives.html"
+    },
+    {
+      "name": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html"
+    },
+    {
+      "name": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html"
+    }
+  ],
+  "summary": {
+    "categories_found": 10,
+    "products_found": 89,
+    "initially_ready": 8,
+    "processed_this_run": 42,
+    "ready_after_run": 50,
+    "new_webp_files": 42,
+    "unresolved": 39
+  },
+  "products": [
+    {
+      "id": "acc-adapters-1",
+      "model": "Бейсус WKQX000301 Lite Series Ethernet Adapter Type-C to RJ45 LAN Port (1000Mbps) Black",
+      "category": "Переходники",
+      "page": "rgw_page_adapters.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-adapters-1/main.webp"
+      ],
+      "sources": [
+        "https://hurtel.com/hpeciai/492c899ac71b8c81468f2c912ad05e9f/pol_pl_92721-92721_1.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-adapters-2",
+      "model": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+      "category": "Переходники",
+      "page": "rgw_page_adapters.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-adapters-2/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/fr-fr/products/ue10c-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-adapters-3",
+      "model": "Куди Cudy UE25C",
+      "category": "Переходники",
+      "page": "rgw_page_adapters.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-adapters-3/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/de-de/products/ue25c-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-adapters-4",
+      "model": "Куди Cudy UE10A USB-A to Ethernet Adapter",
+      "category": "Переходники",
+      "page": "rgw_page_adapters.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-adapters-4/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/cdn/shop/files/UE10A-A_-EN__1464x600-1.jpg?v=1737711429"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-adapters-5",
+      "model": "Куди Cudy UE25A USB-A to 2.5G Ethernet Adapter",
+      "category": "Переходники",
+      "page": "rgw_page_adapters.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-adapters-5/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/products/ue25a-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-1",
+      "model": "Сумка Jeep 15,6",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-2",
+      "model": "Сумка Lucky Bat",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-3",
+      "model": "Сумка Рюкзак Бончи",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-4",
+      "model": "Сумка Сафед Сиех китай",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-5",
+      "model": "Сумка EPOL 15.6",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-6",
+      "model": "Сумка 90fen Vitality College Casual Backpack red",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-bags-6/main.webp"
+      ],
+      "sources": [
+        "https://kinostore.ru/wa-data/public/shop/products/08/61/26108/images/178924/178924.970.png"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-7",
+      "model": "Сумка 90fen Vitality College Casual Backpack beige",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-bags-7/main.webp"
+      ],
+      "sources": [
+        "https://i.miot.ua/u/CatalogueImage/runmi-90-points-vitality-backpack-002285161572962011.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-8",
+      "model": "Сумка 90fen Vitality College Casual Backpack yellow",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-bags-8/main.webp"
+      ],
+      "sources": [
+        "https://salt.tikicdn.com/ts/product/67/d3/02/32d314b174f56900588197d6a58813cc.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-9",
+      "model": "Сумка 90fen Grinder Oxford casual backpack",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-bags-9/main.webp"
+      ],
+      "sources": [
+        "https://ninetygo.ph/cdn/shop/files/NG_GRINDEROxfordCasualBackpack_WBG_3.jpg?v=1712162860&width=1080"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-10",
+      "model": "Сумка Xiaomi 90Fen Waterproof Commuting Bag",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-bags-10/main.webp"
+      ],
+      "sources": [
+        "https://cdn.shopz.com.bd/2021/02/Xiaomi-90FUN-Bag-Commuter-Backpack-2.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-11",
+      "model": "Сумка MQ Sports Travel Backpack",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-12",
+      "model": "Сумка DPark 15,6 Замш сабз-сафед сиех",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-13",
+      "model": "Сумка Кожа Коричневый",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-14",
+      "model": "Сумка DPark кормашка Сиех",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-15",
+      "model": "Сумка Рюкзак Sun Earth Cиех Серый",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-16",
+      "model": "Сумка Рюкзак Sanwa",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-17",
+      "model": "Сумка TANJIEZHE Commuter backpack",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-18",
+      "model": "Сумка 90fen All Weather Urban Functional Backpack",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-bags-18/main.webp"
+      ],
+      "sources": [
+        "https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1519986536.11871853.png?h=404&height=404&thumb=1&w=606&width=606"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-19",
+      "model": "Сумка MQ Lingge Geometry Backpack",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-bags-20",
+      "model": "Сумка Розовый Черный Гулоби Сиех",
+      "category": "Сумки и рюкзаки",
+      "page": "rgw_page_bags.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-cables-1",
+      "model": "Кабель P10381400111-00 Baseus Dynamic 4 Fast Charging Data Cable USB-C to USB-C 100W 1m",
+      "category": "Кабели",
+      "page": "rgw_page_cables.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-cables-1/main.webp"
+      ],
+      "sources": [
+        "https://www.jinius.com.cy/dw/image/v2/BJRS_PRD/on/demandware.static/-/Sites-technology-m-catalog/default/dw9968b3fa/images/medium/f18/f1895a6d8efc4db994dfcc8c28760a76.png?sh=800&sm=fit&sw=800"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-dvd_drives-1",
+      "model": "External USB DVD/RW drive",
+      "category": "DVD-приводы",
+      "page": "rgw_page_dvd_drives.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-dvd_drives-2",
+      "model": "ДВД",
+      "category": "DVD-приводы",
+      "page": "rgw_page_dvd_drives.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-1",
+      "model": "HDD 2Tb Toshiba Canvio Basics",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-1/main.webp"
+      ],
+      "sources": [
+        "https://www.europ-computer.com/49682-large_default/toshiba-canvio-basics.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-2",
+      "model": "HDD 1Tb Toshiba Canvio Basics",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-2/main.webp"
+      ],
+      "sources": [
+        "https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202308/28/00128635410120____1__1200x1200.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-3",
+      "model": "HDD WD My Book 8Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-3/main.webp"
+      ],
+      "sources": [
+        "https://image1280.macovi.de/images/product_images/1280/1126243_3__8743284-3.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-4",
+      "model": "HDD Seagate Expansion 1Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-4/main.webp"
+      ],
+      "sources": [
+        "https://resources.claroshop.com/medios-plazavip/mkt/62f16628c3cf0_stea1000400-1jpg.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-5",
+      "model": "HDD Seagate Expansion 2Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-5/main.webp"
+      ],
+      "sources": [
+        "https://www.myoffice.qa/cdn/shop/products/3_8bcf8744-126e-4cf2-94ea-935db176d3c1_1024x.jpg?v=1600464438"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-6",
+      "model": "HDD Seagate Expansion 4Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-6/main.webp"
+      ],
+      "sources": [
+        "https://images.fravega.com/f1000/683f83526428de372fd22726c86edcaf.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-7",
+      "model": "HDD WD My Passport 2Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-7/main.webp"
+      ],
+      "sources": [
+        "https://www.bhphotovideo.com/images/images2000x2000/wd_wdbwml0020bgy_wesn_my_passport_with_type_1802805.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-8",
+      "model": "SSD Lexar 512GB SL260 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-8/main.webp"
+      ],
+      "sources": [
+        "https://www.georges.com.au/cdn/shop/files/GC21-LSL260X512G-BNBNG_2.jpg?v=1775129460"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-9",
+      "model": "SSD Lexar 1TB SL260 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-9/main.webp"
+      ],
+      "sources": [
+        "https://www.lexar.com/global/products/portable-storage/"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-10",
+      "model": "SSD Lexar 2TB SL300 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-10/main.webp"
+      ],
+      "sources": [
+        "https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/l/s/lsl300002t-rnbng2.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-11",
+      "model": "HDD 4Tb Toshiba Canvio Basics",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-11/main.webp"
+      ],
+      "sources": [
+        "https://lcdn.altex.ro/media/catalog/product/h/d/hddhdtb510ek3aa_1_7607a28b.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-12",
+      "model": "HDD WD My Passport 4TB",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-12/main.webp"
+      ],
+      "sources": [
+        "https://www.cdiscount.com/pdt2/3/5/7/1/700x700/san1717658355357/rw/wd-4-to-my-passport-disque-dur-portable-fonctionn.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-13",
+      "model": "SSD Lexar 1TB SL300 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-13/main.webp"
+      ],
+      "sources": [
+        "https://api.zolpastore.com/modules/files/14420831072025fDq5fZ.webp"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-14",
+      "model": "HDD WD My Passport 5Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-14/main.webp"
+      ],
+      "sources": [
+        "https://pcdiga-prod.eu.saleor.cloud/media/thumbnails/products/1_P078532_cd4571ae_thumbnail_4096_297ac396_thumbnail_4096.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-15",
+      "model": "HDD Seagate OneTouch with HUB 8Tb USB3.0 + 2-port USB3.0 hub",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-external_storage-15/main.webp"
+      ],
+      "sources": [
+        "https://rimage.ripley.com.pe/home.ripley/Attachment/MKP/3886/PMP20000731498/imagen3-1.jpeg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-external_storage-16",
+      "model": "HDD TRANSCEND HDD 2Tb",
+      "category": "Внешние HDD/SSD",
+      "page": "rgw_page_external_storage.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "Точная модель не подтверждена одновременно по маркировке и допустимому источнику изображения; заглушка сохранена.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-1",
+      "model": "SANDISK 16GB Wireless Flash Drive",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-1/main.webp"
+      ],
+      "sources": [
+        "https://visanta.com/19181/pendrive-sandisk-connect-wireless-stick-16gb.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-2",
+      "model": "Флешка 64GB Lexar JumpDrive D400 USB 3.0",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-2/main.webp"
+      ],
+      "sources": [
+        "https://cdn.27.ua/sc--media--prod/default/44/ff/90/44ff90ed-cdc6-4d82-9fb1-4ac564b53a84.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-3",
+      "model": "Флешка 128 GB ADATA USB 3.0",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-3/main.webp"
+      ],
+      "sources": [
+        "https://www.treefty.com/assets/images/products/adata/UV128-128.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-4",
+      "model": "Флешка Usb 3.0 Samsung 128 GB",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-4/main.webp"
+      ],
+      "sources": [
+        "https://files.pccasegear.com/UserFiles/MUF-128BAAPC-ln1.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-5",
+      "model": "Флешка Sandisk 32 GB микро",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-5/main.webp"
+      ],
+      "sources": [
+        "https://www.mediaexpert.pl/media/cache/gallery/images/95/955262/1.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-6",
+      "model": "Флешка 32 GB Lexar JumpDrive D400 USB 3.0",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-6/main.webp"
+      ],
+      "sources": [
+        "https://www.bigw.com.au/medias/sys_master/images/images/h40/hf7/101772868026398.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-7",
+      "model": "Флешка 256 GB Lexar JumpDrive D400 USB 3.0",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-7/main.webp"
+      ],
+      "sources": [
+        "https://www.pbtech.com/pacific/imgprod/M/E/MEMLXR1013__3.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-flash_drives-8",
+      "model": "Флешка 128 GB Lexar JumpDrive D400 USB 3.0",
+      "category": "Флешки",
+      "page": "rgw_page_flash_drives.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-flash_drives-8/main.webp"
+      ],
+      "sources": [
+        "https://a.allegroimg.com/original/1180b9/3b6cfe45466e98e3c0da0e26475a/Lexar-JumpDrive-D400-Pendrive-128GB-USB-3-2-Pamiec-Dual-USB-C-USB-A-130MB-s"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-memory_cards-1",
+      "model": "Карта памяти 128Gb MicroSD Lexar High-Performance 633x",
+      "category": "Карты памяти",
+      "page": "rgw_page_memory_cards.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-memory_cards-1/main.webp"
+      ],
+      "sources": [
+        "https://sklep.70mai.pl/userdata/public/gfx/3187/843367119707-750-01.webp?overlay=1"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-memory_cards-2",
+      "model": "Карта памяти 32Gb MicroSD Lexar High-Performance 633x",
+      "category": "Карты памяти",
+      "page": "rgw_page_memory_cards.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-memory_cards-2/main.webp"
+      ],
+      "sources": [
+        "https://www.quill.com/is/image/Quill/sp27907073_s7?hei=1536&wid=1536"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-memory_cards-3",
+      "model": "Карта памяти 64Gb MicroSD Lexar High-Performance 633x",
+      "category": "Карты памяти",
+      "page": "rgw_page_memory_cards.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-memory_cards-3/main.webp"
+      ],
+      "sources": [
+        "https://resources.lexar.com/download/62/633x-microsdhc-microsdxc-package-images-with-jewel-case/855/lsdmi64gbbnl633a-pkg.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-memory_cards-4",
+      "model": "Карта Памяти 256 Gb Lexar High-Performance 1066x microSDXC",
+      "category": "Карты памяти",
+      "page": "rgw_page_memory_cards.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-memory_cards-4/main.webp"
+      ],
+      "sources": [
+        "https://cdn.cimri.io/image/560x560/lexar-lms1066256g-1066x-256gb-microsdxc-hafiza-karti_534236221.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-other_accessories-1",
+      "model": "Бокс НДД WD Seagate Toshiba",
+      "category": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-other_accessories-2",
+      "model": "DVD Планка барои SSD",
+      "category": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-other_accessories-3",
+      "model": "Коврик 80*30",
+      "category": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-other_accessories-4",
+      "model": "Коврик 90*40",
+      "category": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-other_accessories-5",
+      "model": "Коврик Х88",
+      "category": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-other_accessories-6",
+      "model": "Коврик 80*30",
+      "category": "Прочие аксессуары",
+      "page": "rgw_page_other_accessories.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-1",
+      "model": "Экран 178 178*178 cm Manual",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-2",
+      "model": "Экран 213 213*213 cm Electric",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-3",
+      "model": "Экран 213 213*213 cm Tripod",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-4",
+      "model": "Экран 213 213*213 cm Маnual",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-5",
+      "model": "Экран 244 244*244 cm Manual",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-6",
+      "model": "Экран 244 244*244 cm Tripod",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-7",
+      "model": "Экран 266 266*149 cm Tripod",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-8",
+      "model": "Экран 3 305*305 cm Electric",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-9",
+      "model": "Экран 35 350*350 cm Electric",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-10",
+      "model": "Проектор OPTOMA W371",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-projectors_screens-10/main.webp"
+      ],
+      "sources": [
+        "https://images.visunextgroup.com/images/D/original/1/1000015790/it/optoma/Optoma-W371.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-11",
+      "model": "Проектор V11HA86340 EPSONCO-WX02",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-projectors_screens-11/main.webp"
+      ],
+      "sources": [
+        "https://cdn.pdx.stibosystems.com/submitted/assets/73fc40d2-58cf-334d-a8ab-be4ebec69b2e/fb55f1fd-a98f-5785-b032-f54120272a52/fb55f1fd-a98f-5785-b032-f54120272a52_m_png_1.png?v=1760349017482"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-12",
+      "model": "Стойка Projector 1 метра",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-13",
+      "model": "Электронная доска ST-9400U 83 диагональ",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-14",
+      "model": "Проектор EPSON EF-12",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-projectors_screens-14/main.webp"
+      ],
+      "sources": [
+        "https://i8.amplience.net/i/epsonemear/a17797-productpicture-hires-en-int-projector_ef-12_01_header_2000x2000px"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-15",
+      "model": "Экран 178 178*178 cm Tripod",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-16",
+      "model": "Экран 244 244*244 cm Electric",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-17",
+      "model": "Экран 4 400*300 cm Electric",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-18",
+      "model": "Проектор Китай",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-projectors_screens-19",
+      "model": "Стойка Projector 1 метра",
+      "category": "Проекторы и экраны",
+      "page": "rgw_page_projectors_screens.html",
+      "status": "skipped_no_exact_model",
+      "photo_count": 0,
+      "paths": [],
+      "sources": [],
+      "exact_match_confirmed": false,
+      "reason": "В данных каталога нет однозначного артикула/модификации; выбор похожего товара запрещён.",
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-1",
+      "model": "Бейсус B0005280B811-10 UltraJoy Series 4-Port HUB Lite 15cm Space Grey?USB-A to USB 3.0*4+USB-C 5V?",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-1/main.webp"
+      ],
+      "sources": [
+        "https://media-cdn.bnn.in.th/437607/baseus-ultrajoy-usb-a-to-usb-a-4-ports-hub-space-grey-2-square_medium.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-2",
+      "model": "Бейсус CAHUB-DG0G Working Station Three-Screen Multifunctional Type-C HUB AdapterDark gray",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-2/main.webp"
+      ],
+      "sources": [
+        "https://cdn.olcha.uz/image/700x700/products/2022-12-06/type-c-usb-hub-adapter-baseus-cahub-dg0g-temno-seryi-39528-174313-0.jpeg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-3",
+      "model": "Бейсус WKWG070013 Metal Gleam Series 4-in-1 Multifunctional Type-C HUB Docking Station Gray?Type-C t",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-3/main.webp"
+      ],
+      "sources": [
+        "https://b2b.innpro.pl/data/include/cms/-Baseus/WKWG070013/6.jpg"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-4",
+      "model": "Куди Cudy UH40A 4-Port USB-A 3.0 Hub",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-4/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/products/uh40a-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-5",
+      "model": "Куди Cudy UH405 5-IN-1 USB-C Hub with 4K HDMI",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "processed",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-5/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/cdn/shop/files/UH405-A___600x675-1.jpg?v=1737541690"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-6",
+      "model": "Куди Cudy UH407 7-IN-1 USB C Hub with 4K HDMI",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-6/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/th-th/products/uh407-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-7",
+      "model": "Куди Cudy UH605 5-IN-1 USB Hub with GbE",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-7/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/en-us/products/uh605-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    },
+    {
+      "id": "acc-usb_hubs-8",
+      "model": "Куди Cudy UH606 6-IN-1 USB-C Hub with GbE & 4K@60Hz HDMI",
+      "category": "USB-хабы",
+      "page": "rgw_page_usb_hubs.html",
+      "status": "already_complete",
+      "photo_count": 1,
+      "paths": [
+        "images/products/acc-usb_hubs-8/main.webp"
+      ],
+      "sources": [
+        "https://www.cudy.com/products/uh606-1-0"
+      ],
+      "exact_match_confirmed": true,
+      "reason": null,
+      "catalog_checked": false,
+      "gallery_checked": false,
+      "github_pages_checked": false
+    }
+  ]
+}

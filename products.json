@@ -7169,7 +7169,7 @@
     "category": "Переходники",
     "categoryName": "Переходники",
     "categoryUrl": "rgw_page_adapters.html",
-    "image": null,
+    "image": "images/products/acc-adapters-1/main.webp",
     "placeholder": "🔁",
     "catalogFacts": [
       {
@@ -7204,7 +7204,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-adapters-1/main.webp"
+    ]
   },
   {
     "id": "acc-adapters-2",
@@ -7310,7 +7313,7 @@
     "category": "Переходники",
     "categoryName": "Переходники",
     "categoryUrl": "rgw_page_adapters.html",
-    "image": null,
+    "image": "images/products/acc-adapters-4/main.webp",
     "placeholder": "🔁",
     "catalogFacts": [
       {
@@ -7345,7 +7348,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-adapters-4/main.webp"
+    ]
   },
   {
     "id": "acc-adapters-5",
@@ -7636,7 +7642,7 @@
     "category": "Сумки и рюкзаки",
     "categoryName": "Сумки и рюкзаки",
     "categoryUrl": "rgw_page_bags.html",
-    "image": null,
+    "image": "images/products/acc-bags-6/main.webp",
     "placeholder": "🎒",
     "catalogFacts": [
       {
@@ -7661,7 +7667,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-bags-6/main.webp"
+    ]
   },
   {
     "id": "acc-bags-7",
@@ -7671,7 +7680,7 @@
     "category": "Сумки и рюкзаки",
     "categoryName": "Сумки и рюкзаки",
     "categoryUrl": "rgw_page_bags.html",
-    "image": null,
+    "image": "images/products/acc-bags-7/main.webp",
     "placeholder": "🎒",
     "catalogFacts": [
       {
@@ -7696,7 +7705,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-bags-7/main.webp"
+    ]
   },
   {
     "id": "acc-bags-8",
@@ -7706,7 +7718,7 @@
     "category": "Сумки и рюкзаки",
     "categoryName": "Сумки и рюкзаки",
     "categoryUrl": "rgw_page_bags.html",
-    "image": null,
+    "image": "images/products/acc-bags-8/main.webp",
     "placeholder": "🎒",
     "catalogFacts": [
       {
@@ -7731,7 +7743,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-bags-8/main.webp"
+    ]
   },
   {
     "id": "acc-bags-9",
@@ -7741,7 +7756,7 @@
     "category": "Сумки и рюкзаки",
     "categoryName": "Сумки и рюкзаки",
     "categoryUrl": "rgw_page_bags.html",
-    "image": null,
+    "image": "images/products/acc-bags-9/main.webp",
     "placeholder": "🎒",
     "catalogFacts": [
       {
@@ -7761,7 +7776,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-bags-9/main.webp"
+    ]
   },
   {
     "id": "acc-bags-10",
@@ -7771,7 +7789,7 @@
     "category": "Сумки и рюкзаки",
     "categoryName": "Сумки и рюкзаки",
     "categoryUrl": "rgw_page_bags.html",
-    "image": null,
+    "image": "images/products/acc-bags-10/main.webp",
     "placeholder": "🎒",
     "catalogFacts": [
       {
@@ -7791,7 +7809,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-bags-10/main.webp"
+    ]
   },
   {
     "id": "acc-bags-11",
@@ -8021,7 +8042,7 @@
     "category": "Сумки и рюкзаки",
     "categoryName": "Сумки и рюкзаки",
     "categoryUrl": "rgw_page_bags.html",
-    "image": null,
+    "image": "images/products/acc-bags-18/main.webp",
     "placeholder": "🎒",
     "catalogFacts": [
       {
@@ -8041,7 +8062,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-bags-18/main.webp"
+    ]
   },
   {
     "id": "acc-bags-19",
@@ -8116,7 +8140,7 @@
     "category": "Кабели",
     "categoryName": "Кабели",
     "categoryUrl": "rgw_page_cables.html",
-    "image": null,
+    "image": "images/products/acc-cables-1/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -8161,7 +8185,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-cables-1/main.webp"
+    ]
   },
   {
     "id": "cartridges-1",
@@ -9728,7 +9755,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-1/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9753,7 +9780,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-1/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-2",
@@ -9763,7 +9793,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-2/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9788,7 +9818,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-2/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-3",
@@ -9798,7 +9831,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-3/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9823,7 +9856,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-3/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-4",
@@ -9833,7 +9869,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-4/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9858,7 +9894,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-4/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-5",
@@ -9868,7 +9907,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-5/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9893,7 +9932,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-5/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-6",
@@ -9903,7 +9945,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-6/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9928,7 +9970,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-6/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-7",
@@ -9938,7 +9983,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-7/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9963,7 +10008,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-7/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-8",
@@ -9973,7 +10021,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-8/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -9998,7 +10046,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-8/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-9",
@@ -10046,7 +10097,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-10/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10071,7 +10122,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-10/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-11",
@@ -10081,7 +10135,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-11/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10106,7 +10160,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-11/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-12",
@@ -10116,7 +10173,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-12/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10141,7 +10198,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-12/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-13",
@@ -10151,7 +10211,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-13/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10176,7 +10236,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-13/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-14",
@@ -10186,7 +10249,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-14/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10211,7 +10274,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-14/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-15",
@@ -10221,7 +10287,7 @@
     "category": "Внешние HDD/SSD",
     "categoryName": "Внешние HDD/SSD",
     "categoryUrl": "rgw_page_external_storage.html",
-    "image": null,
+    "image": "images/products/acc-external_storage-15/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10251,7 +10317,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-external_storage-15/main.webp"
+    ]
   },
   {
     "id": "acc-external_storage-16",
@@ -10296,7 +10365,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-1/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10316,7 +10385,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-1/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-2",
@@ -10326,7 +10398,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-2/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10351,7 +10423,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-2/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-3",
@@ -10361,7 +10436,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-3/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10386,7 +10461,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-3/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-4",
@@ -10396,7 +10474,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-4/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10421,7 +10499,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-4/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-5",
@@ -10431,7 +10512,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-5/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10451,7 +10532,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-5/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-6",
@@ -10461,7 +10545,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-6/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10486,7 +10570,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-6/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-7",
@@ -10496,7 +10583,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-7/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10521,7 +10608,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-7/main.webp"
+    ]
   },
   {
     "id": "acc-flash_drives-8",
@@ -10531,7 +10621,7 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-8/main.webp",
     "placeholder": "💾",
     "catalogFacts": [
       {
@@ -10556,7 +10646,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-flash_drives-8/main.webp"
+    ]
   },
   {
     "id": "headphones-1",
@@ -11924,7 +12017,7 @@
     "category": "Карты памяти",
     "categoryName": "Карты памяти",
     "categoryUrl": "rgw_page_memory_cards.html",
-    "image": null,
+    "image": "images/products/acc-memory_cards-1/main.webp",
     "placeholder": "🗂️",
     "catalogFacts": [
       {
@@ -11949,7 +12042,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-memory_cards-1/main.webp"
+    ]
   },
   {
     "id": "acc-memory_cards-2",
@@ -11959,7 +12055,7 @@
     "category": "Карты памяти",
     "categoryName": "Карты памяти",
     "categoryUrl": "rgw_page_memory_cards.html",
-    "image": null,
+    "image": "images/products/acc-memory_cards-2/main.webp",
     "placeholder": "🗂️",
     "catalogFacts": [
       {
@@ -11984,7 +12080,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-memory_cards-2/main.webp"
+    ]
   },
   {
     "id": "acc-memory_cards-3",
@@ -11994,7 +12093,7 @@
     "category": "Карты памяти",
     "categoryName": "Карты памяти",
     "categoryUrl": "rgw_page_memory_cards.html",
-    "image": null,
+    "image": "images/products/acc-memory_cards-3/main.webp",
     "placeholder": "🗂️",
     "catalogFacts": [
       {
@@ -12019,7 +12118,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-memory_cards-3/main.webp"
+    ]
   },
   {
     "id": "acc-memory_cards-4",
@@ -12029,7 +12131,7 @@
     "category": "Карты памяти",
     "categoryName": "Карты памяти",
     "categoryUrl": "rgw_page_memory_cards.html",
-    "image": null,
+    "image": "images/products/acc-memory_cards-4/main.webp",
     "placeholder": "🗂️",
     "catalogFacts": [
       {
@@ -12059,7 +12161,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-memory_cards-4/main.webp"
+    ]
   },
   {
     "id": "mesh-1",
@@ -14683,7 +14788,7 @@
     "category": "Проекторы и экраны",
     "categoryName": "Проекторы и экраны",
     "categoryUrl": "rgw_page_projectors_screens.html",
-    "image": null,
+    "image": "images/products/acc-projectors_screens-10/main.webp",
     "placeholder": "📽️",
     "catalogFacts": [
       {
@@ -14708,7 +14813,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-projectors_screens-10/main.webp"
+    ]
   },
   {
     "id": "acc-projectors_screens-11",
@@ -14718,7 +14826,7 @@
     "category": "Проекторы и экраны",
     "categoryName": "Проекторы и экраны",
     "categoryUrl": "rgw_page_projectors_screens.html",
-    "image": null,
+    "image": "images/products/acc-projectors_screens-11/main.webp",
     "placeholder": "📽️",
     "catalogFacts": [
       {
@@ -14743,7 +14851,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-projectors_screens-11/main.webp"
+    ]
   },
   {
     "id": "acc-projectors_screens-12",
@@ -14813,7 +14924,7 @@
     "category": "Проекторы и экраны",
     "categoryName": "Проекторы и экраны",
     "categoryUrl": "rgw_page_projectors_screens.html",
-    "image": null,
+    "image": "images/products/acc-projectors_screens-14/main.webp",
     "placeholder": "📽️",
     "catalogFacts": [
       {
@@ -14838,7 +14949,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-projectors_screens-14/main.webp"
+    ]
   },
   {
     "id": "acc-projectors_screens-15",
@@ -18062,7 +18176,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-1/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -18092,7 +18206,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-1/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-2",
@@ -18102,7 +18219,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-2/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -18142,7 +18259,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-2/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-3",
@@ -18152,7 +18272,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-3/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -18182,7 +18302,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-3/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-4",
@@ -18235,7 +18358,7 @@
     "category": "USB-хабы",
     "categoryName": "USB-хабы",
     "categoryUrl": "rgw_page_usb_hubs.html",
-    "image": null,
+    "image": "images/products/acc-usb_hubs-5/main.webp",
     "placeholder": "🔌",
     "catalogFacts": [
       {
@@ -18275,7 +18398,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-usb_hubs-5/main.webp"
+    ]
   },
   {
     "id": "acc-usb_hubs-6",

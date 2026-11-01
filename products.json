@@ -1330,7 +1330,7 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": "images/products/gpu-003/main.webp",
+    "image": "images/products/gpu-003/gpu-003-factory-box.webp",
     "placeholder": null,
     "identifiers": {
       "modelNumber": "B67O Black GF RTX5060 1-Click OC V2"
@@ -1368,8 +1368,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-003/main.webp",
-      "images/products/gpu-003/01.webp"
+      "images/products/gpu-003/gpu-003-factory-box.webp"
     ]
   },
   {
@@ -1380,7 +1379,7 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": "images/products/gpu-004/main.webp",
+    "image": "images/products/gpu-004/gpu-004-factory-box.webp",
     "placeholder": null,
     "identifiers": {
       "modelNumber": "B76O Black GF RTX5050 1-Click OC"
@@ -1408,9 +1407,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-004/main.webp",
-      "images/products/gpu-004/01.webp",
-      "images/products/gpu-004/02.webp"
+      "images/products/gpu-004/gpu-004-factory-box.webp"
     ]
   },
   {
@@ -1421,7 +1418,7 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": "images/products/gpu-005/main.webp",
+    "image": "images/products/gpu-005/gpu-005-factory-box.webp",
     "placeholder": null,
     "identifiers": {
       "modelNumber": "B37S Black GF RTX5080 1-Click OC"
@@ -1454,7 +1451,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-005/main.webp"
+      "images/products/gpu-005/gpu-005-factory-box.webp"
     ]
   },
   {
@@ -1465,7 +1462,7 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": "images/products/gpu-006/main.webp",
+    "image": "images/products/gpu-006/gpu-006-factory-box.webp",
     "placeholder": null,
     "identifiers": {
       "modelNumber": "PG190 Black GF RTX3060 1-Click OC"
@@ -1493,7 +1490,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-006/main.webp"
+      "images/products/gpu-006/gpu-006-factory-box.webp"
     ]
   },
   {
@@ -1566,10 +1563,7 @@
       }
     ],
     "images": [
-      "images/products/gpu-008/main.webp",
-      "images/products/gpu-008/01.webp",
-      "images/products/gpu-008/02.webp",
-      "images/products/gpu-008/03.webp"
+      "images/products/gpu-008/main.webp"
     ]
   },
   {

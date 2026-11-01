@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:16:25.657Z",
+  "updatedAt": "2026-11-01T17:25:13.000Z",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Официальный источник предпочтителен; если чистая фотография отсутствует, допускается точный источник надёжного магазина; при отсутствии подтверждения сохраняется заглушка.",
@@ -64,7 +64,7 @@
     "downloaded": 70,
     "existing": 22,
     "placeholder": 45,
-    "webp": 227
+    "webp": 231
   },
   "records": [
     {
@@ -104,36 +104,32 @@
       "category": "Видеокарты",
       "model": "Видеокарта B67O Black GF RTX5060 1-Click OC V2 PCI-E 8GB / GDDR7 128BIT",
       "status": "downloaded",
-      "photo_count": 2,
+      "photo_count": 1,
       "paths": [
-        "images/products/gpu-003/main.webp",
-        "images/products/gpu-003/01.webp"
+        "images/products/gpu-003/gpu-003-factory-box.webp"
       ],
       "source_urls": [
-        "https://www.galax.com/en/graphics-card/geforce-rtx-5060-1coc-v2.html",
-        "https://galax.com/wp-content/uploads/2025/09/5060v2-scaled.png",
-        "https://galax.com/wp-content/uploads/2025/09/5060v2_1-scaled.png"
+        "https://galax.com/en/product/geforce-rtx-5060-1-click-oc-2x-v2/",
+        "https://pazarama.com/galax-rtx-5060-ekran-karti-8gb-gddr7-siyah-4895147161198-p-4895147161198",
+        "https://img.pzrmcdn.com/mnresize/1180/1182/asset/4895147161198/images/galaxgeforcertx50601clickocv28gbgddr7128bitdlss4ekrankart56nsn8mddxbo-14dfdfc17-3adb-4bd1-1e39-08de53538fb3.jpg"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Точная модель B67O подтверждена официальной страницей GALAX (код 56NSN8MDDXBO); основным фото назначена чистая фотография её заводской коробки без стороннего брендинга. Непроверенный дополнительный снимок платы отключён."
     },
     {
       "id": "gpu-004",
       "category": "Видеокарты",
       "model": "Видеокарта B76O Black GF RTX5050 1-Click OC PCI-E 8GB / GDDR6",
       "status": "downloaded",
-      "photo_count": 3,
+      "photo_count": 1,
       "paths": [
-        "images/products/gpu-004/main.webp",
-        "images/products/gpu-004/01.webp",
-        "images/products/gpu-004/02.webp"
+        "images/products/gpu-004/gpu-004-factory-box.webp"
       ],
       "source_urls": [
         "https://galax.com/en/product/geforce-rtx-5050-1-click-oc/",
-        "https://galax.com/wp-content/uploads/2025/06/951A5802-gx.png",
-        "https://galax.com/wp-content/uploads/2025/06/951A5807-1-500x500.png",
-        "https://galax.com/wp-content/uploads/2025/06/951A5802-led-gx-500x500.png"
+        "https://www.venex.com.ar/componentes-de-pc/placas-de-video/placa-de-video-galax-nvidia-geforce-rtx-5050-1-click-oc-8gb-gddr6.html",
+        "https://www.venex.com.ar/products_images/1755261487_1.jpg"
       ],
-      "reason": "Точная модель подтверждена официальным источником; широкая промо-графика и крупный crop заменены чистыми фото платы и задней панели."
+      "reason": "Точная модель B76O и вариант RTX 5050 1-Click OC подтверждены официальной страницей GALAX; основным фото назначена чистая фотография заводской коробки без водяных знаков. Дополнительные фото платы без упаковки отключены."
     },
     {
       "id": "gpu-005",
@@ -142,13 +138,14 @@
       "status": "downloaded",
       "photo_count": 1,
       "paths": [
-        "images/products/gpu-005/main.webp"
+        "images/products/gpu-005/gpu-005-factory-box.webp"
       ],
       "source_urls": [
         "https://galax.com/en/product/geforce-rtx-5080-16gb-1-click-oc-3x/",
-        "https://galax.com/wp-content/uploads/2025/01/5080.png"
+        "https://shop.pegasus.hk/products/223037/Galax-GeForce-RTX-5080-1-Click-OC-Black-16G-%E9%A1%AF%E7%A4%BA%E5%8D%A1---3%E5%B9%B4%E4%BF%9D%E9%A4%8A",
+        "https://pegasus.hk/cdn-cgi/imagedelivery/gTpMHUmncPYPe7GoYL67Ag/fb2ef123-911d-4167-d042-63c3502ad000/public"
       ],
-      "reason": "Точная модель подтверждена официальным источником; дополнительный широкий промо-баннер удалён, оставлено чистое основное фото."
+      "reason": "Точная модель B37S / GeForce RTX 5080 1-Click OC подтверждена официальной страницей GALAX и карточкой точного артикула; основное фото заменено чистым изображением заводской коробки на белом фоне."
     },
     {
       "id": "gpu-006",
@@ -157,13 +154,14 @@
       "status": "downloaded",
       "photo_count": 1,
       "paths": [
-        "images/products/gpu-006/main.webp"
+        "images/products/gpu-006/gpu-006-factory-box.webp"
       ],
       "source_urls": [
-        "https://galax.com/en/graphics-card/geforce-rtx-3060-1-click-oc.html",
-        "https://galax.com/wp-content/uploads/2025/02/3060-carbon_02-GX.png"
+        "https://galax.com/en/product/geforce-rtx-3060-1-click-oc/",
+        "https://alphawavecomputers.com/products/galax-pg190-black-gf-rtx-3060-1-click-oc-pci-e-12gb-gddr6-192bit",
+        "https://alphawavecomputers.com/cdn/shop/files/01-galax-3060.jpg?v=1736151348&width=1000"
       ],
-      "reason": "Точная модель подтверждена официальным источником; широкая промо-графика заменена полноразмерным рендером платы."
+      "reason": "Точная модель PG190 / GeForce RTX 3060 1-Click OC подтверждена официальной страницей GALAX и карточкой точной модели; использовано чистое фото заводской коробки без магазина/водяного знака."
     },
     {
       "id": "gpu-007",
@@ -182,21 +180,15 @@
       "category": "Видеокарты",
       "model": "Видеокарта MSI RTX 5060 8G Ventus 2X",
       "status": "downloaded",
-      "photo_count": 4,
+      "photo_count": 1,
       "paths": [
-        "images/products/gpu-008/main.webp",
-        "images/products/gpu-008/01.webp",
-        "images/products/gpu-008/02.webp",
-        "images/products/gpu-008/03.webp"
+        "images/products/gpu-008/main.webp"
       ],
       "source_urls": [
         "https://www.msi.com/Graphics-Card/GeForce-RTX-5060-VENTUS-2X-8G",
-        "https://storage-asset.msi.com/global/picture/product/product_1745313240ffac739c1efdf9d3f4d4a10218128b10.webp",
-        "https://storage-asset.msi.com/global/picture/product/product_174531314482e86e3509d2c9964fa77e2472642b34.webp",
-        "https://storage-asset.msi.com/global/picture/product/product_17453131448e10849137bc081d176b01f9323323c6.webp",
-        "https://storage-asset.msi.com/global/picture/product/product_174531314613ad38f0d8e5517f64dfd9f29f5e0588.webp"
+        "https://storage-asset.msi.com/global/picture/product/product_1745313240ffac739c1efdf9d3f4d4a10218128b10.webp"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+      "reason": "Основная фотография с точной коробкой MSI сохранена без изменений; три дополнительные ссылки на изображения платы без упаковки отключены, чтобы в галерее соблюдался единый стандарт."
     },
     {
       "id": "cpu-001",

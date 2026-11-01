@@ -724,3 +724,18 @@ After owner review, continue with photos for other categories. Laptops after com
 - The new 1000×800 transparent WebP contains the official red/orange promotional display image and MSI dragon shield on the laptop screen; the laptop is not distorted or stretched.
 - The three additional gallery files and their paths remain unchanged. Product name, characteristics, price, ID, SKU, price.csv, card layout and all other categories remain unchanged.
 - The exact official source and new path are recorded in PHOTO_PROGRESS.json.
+
+
+## Этап: фотографии видеокарт в заводских коробках (2026-11-01)
+
+Фактически проверены все 8 товаров страницы `rgw_page_gpus.html`. Четыре корректных основных фото с заводской упаковкой сохранены без замены: `gpu-001`, `gpu-002`, `gpu-007` и `gpu-008`. Для `gpu-003`, `gpu-004`, `gpu-005` и `gpu-006` добавлены новые локальные WebP-фото точных коробок на белом фоне; старые изображения карт без упаковки больше не используются как основные фото. Для `gpu-003`, `gpu-004` и `gpu-008` дополнительные ссылки на снимки карт без коробки отключены, чтобы галерея также не нарушала новый стандарт.
+
+Подтверждение моделей: официальные страницы GALAX указывают точные варианты RTX 5060 1-Click OC V2 (код 56NSN8MDDXBO), RTX 5050 1-Click OC, RTX 5080 1-Click OC и RTX 3060 1-Click OC; для фото упаковки использованы чистые изображения без водяных знаков и стороннего брендинга с точных карточек моделей. Пути сохранены в `COMPONENTS_PHOTO_PROGRESS.json`.
+
+### Проверки этапа
+
+- Проверены все 8 карточек видеокарт, основные пути в `products.json` и ссылки `rgw_page_gpus.html`.
+- Добавлены 4 новых WebP-файла 1000×1000 с белым фоном, пропорции сохранены, коробки полностью помещаются с полями.
+- Проверены локальные файлы, формат WebP, непустое содержимое и отсутствие битых путей.
+- Цены, характеристики, названия, ID, SKU, `price.csv`, фильтры, сортировка, дизайн карточек и другие категории не изменялись.
+- Мобильная проверка выполнялась по неизменённой адаптивной разметке; отдельный мобильный viewport в текущем браузере недоступен.

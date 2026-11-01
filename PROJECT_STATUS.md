@@ -707,3 +707,12 @@ After owner review, continue with photos for other categories. Laptops after com
 - GitHub Pages was still serving the old same-name image URLs from its CDN cache after the successful deployment. To make the correction visible immediately, only the five affected local image filenames/references were changed to clean filenames with a -clean suffix.
 - The old Lenovo and four old MSI files were removed from the repository; the new files are the same inspected clean assets from the preceding correction commit.
 - No product characteristic, title, price, ID, SKU, filter, layout, product-page logic or other-category file was changed.
+
+
+## Laptop missing-photo recheck — HP 15-fd0183wm and Dell LDC15250 (2026-11-01)
+
+- Catalog verification found the exact existing records laptop-008 (HP 15-FD0183WM, model 15-FD0183WM) and laptop-009 (DELL LDC15250-5434BLK-PUS, model LDC15250-5434BLK-PUS); no products were created and no titles, specifications or prices were changed.
+- HP: added the official product image for HP 15-fd0183wm (B4GZ5UA) as assets/products/laptop-008/main-official.webp.
+- Dell: mapped the exact catalog part to the official Dell 15 / DC15250 family and added the clean official Carbon Black chassis image as assets/products/laptop-009/main-official.webp; the exact SKU mapping was used only for verification, not as an image source.
+- Updated only the two existing records' image/images fields and the two corresponding laptop catalog image slots. price.csv, prices, characteristics, IDs, SKUs, filters, card design and all other categories remain unchanged.
+- Local QA: both files are non-empty WebP with transparency, preserve aspect ratio and include padding; JSON paths and the two catalog references were checked. Official-source reuse remains subject to the project's existing manual rights review.

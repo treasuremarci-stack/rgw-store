@@ -586,7 +586,7 @@
     "name": "HP 15-FD0183WM",
     "brand": "HP",
     "category": "Ноутбуки",
-    "image": null,
+    "image": "assets/products/laptop-008/main-official.webp",
     "placeholder": "💻",
     "catalogFacts": [
       {
@@ -633,7 +633,10 @@
     "verifiedSpecs": [],
     "identifiers": {
       "modelNumber": "15-FD0183WM"
-    }
+    },
+    "images": [
+      "assets/products/laptop-008/main-official.webp"
+    ]
   },
   {
     "id": "laptop-009",
@@ -641,7 +644,7 @@
     "name": "DELL LDC15250-5434BLK-PUS",
     "brand": "Dell",
     "category": "Ноутбуки",
-    "image": null,
+    "image": "assets/products/laptop-009/main-official.webp",
     "placeholder": "💻",
     "catalogFacts": [
       {
@@ -688,7 +691,10 @@
     "verifiedSpecs": [],
     "identifiers": {
       "modelNumber": "LDC15250-5434BLK-PUS"
-    }
+    },
+    "images": [
+      "assets/products/laptop-009/main-official.webp"
+    ]
   },
   {
     "id": "laptop-010",

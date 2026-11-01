@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-11-01",
   "scope": "Ноутбуки каталога: этапы 1–2",
   "imageRoot": "assets/products",
   "rightsNote": "Использованы официальные страницы и media-assets производителей. Право коммерческого повторного размещения каждого asset требует отдельной ручной проверки.",
@@ -196,35 +196,51 @@
       "id": "laptop-008",
       "brand": "HP",
       "model": "HP 15-FD0183WM",
-      "status": "skipped_placeholder",
-      "photoCount": 0,
-      "matchScope": "Точный SKU не подтверждён официальным downloadable asset",
-      "rightsStatus": "not_used",
+      "status": "completed_exact_official_asset",
+      "photoCount": 1,
+      "matchScope": "Точная модель HP 15-fd0183wm; официальный product number B4GZ5UA",
+      "rightsStatus": "manual_rights_review_required",
       "sources": [
         {
-          "url": "https://jp.ext.hp.com/notebooks/personal/hp_15_fd/",
-          "role": "family-check-only"
+          "url": "https://support.hp.com/us-en/product/product-specs/hp-15.6-inch-laptop-pc-15-fd0000/model/2102764698?sku=B4GZ5UA",
+          "role": "exact-model-verification"
+        },
+        {
+          "url": "https://hp.widen.net/content/neoi1g8hqb/png/neoi1g8hqb.png",
+          "role": "official-main"
         }
       ],
-      "paths": [],
-      "skipReason": "Найдены только семейные кадры HP 15-fd и изображения ритейлера. Похожий семейный кадр и retailer asset не копировались без подтверждения точного SKU и разрешения на использование."
+      "paths": [
+        "assets/products/laptop-008/main-official.webp"
+      ],
+      "skipReason": null
     },
     {
       "id": "laptop-009",
       "brand": "Dell",
       "model": "DELL LDC15250-5434BLK-PUS",
-      "status": "skipped_placeholder",
-      "photoCount": 0,
-      "matchScope": "Официально подтверждено только семейство Dell 15 DC15250",
-      "rightsStatus": "not_used",
+      "status": "completed_exact_family_match",
+      "photoCount": 1,
+      "matchScope": "Точный артикул LDC15250-5434BLK-PUS сопоставлен с официальным семейством Dell 15 / DC15250; использован официальный chassis asset Carbon Black",
+      "rightsStatus": "manual_rights_review_required",
       "sources": [
         {
           "url": "https://www.dell.com/en-us/shop/laptop-computers/spd/dell15laptopdc15250",
-          "role": "family-check-only"
+          "role": "official-family-verification"
+        },
+        {
+          "url": "https://www.bestbuy.com/product/dell-15-6-2k-touchscreen-laptop-intel-core-i5-1334u-2023-8gb-memory-512gb-storage-carbon-black/J3K4L6QW5Y/sku/6668953",
+          "role": "exact-sku-mapping-only"
+        },
+        {
+          "url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/dell/dell-15-intel-3530/media-gallery/laptop-dell-dc15250nt-bk-plastic-gallery-1.psd?fmt=png-alpha&pscan=auto&scl=1&wid=4535&hei=2908&qlt=100,0&resMode=sharp2&size=4535,2908",
+          "role": "official-main"
         }
       ],
-      "paths": [],
-      "skipReason": "Для точного LDC15250-5434BLK-PUS не найден официальный downloadable asset с подтверждённым правом повторного размещения. Retailer images не копировались."
+      "paths": [
+        "assets/products/laptop-009/main-official.webp"
+      ],
+      "skipReason": null
     },
     {
       "id": "laptop-010",

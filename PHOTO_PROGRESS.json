@@ -116,9 +116,9 @@
       "id": "laptop-005",
       "brand": "Lenovo",
       "model": "LENOVO IP SLIM3 15IRH10",
-      "status": "completed_family_match",
+      "status": "completed_family_match_cleaned",
       "photoCount": 1,
-      "matchScope": "Официальное семейство IdeaPad Slim 3 15IRH10",
+      "matchScope": "Официальное семейство IdeaPad Slim 3 15IRH10; Intel badge removed by minimal right-edge crop without touching the laptop",
       "rightsStatus": "manual_rights_review_required",
       "sources": [
         {
@@ -133,7 +133,12 @@
       "paths": [
         "assets/products/laptop-005/main.webp"
       ],
-      "skipReason": null
+      "skipReason": null,
+      "processing": {
+        "operation": "right_edge_crop_only",
+        "output": "assets/products/laptop-005/main.webp",
+        "note": "Removed the lower-right Intel badge; retained the original angle, colors, device and dimensions except for the narrow empty right strip."
+      }
     },
     {
       "id": "laptop-006",
@@ -258,34 +263,30 @@
       "id": "laptop-011",
       "brand": "MSI",
       "model": "MSI CROSSHAIR 16 AI",
-      "status": "completed_exact_product_page",
+      "status": "completed_exact_official_assets",
       "photoCount": 4,
-      "matchScope": "Точная конфигурация подтверждена страницей товара; уникальные кадры exact product page",
+      "matchScope": "Официальная платформа MSI Crosshair 16 HX AI D2XW; official exact-family assets used for the catalog's D2XWGKG configuration",
       "rightsStatus": "manual_rights_review_required",
       "sources": [
         {
-          "url": "https://www.compumarts.com/collections/laptop/products/msi-crosshair-16-hx-ai-d2xwgkg-9s7-15p421-271-intel-core-ultra-9-275hx-rtx-5070-8gb-gddr7-32gb-ddr5-2tb-ssd-16-inch-qhd-plus-240hz-windows-11-home-cosmos-gray-egypt",
-          "role": "exact-configuration-verification-and-image-source"
-        },
-        {
           "url": "https://www.msi.com/Laptop/Crosshair-16-HX-AI-D2XWX",
-          "role": "official-platform-verification"
+          "role": "official-model-verification-and-image-source"
         },
         {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_01.jpg?v=1791994594&width=1500",
-          "role": "downloaded-image"
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/nb/Crosshair-16-HX-AI-D2XW/kv-pd.png",
+          "role": "official-main-image"
         },
         {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_02.jpg?v=1791994594&width=1500",
-          "role": "downloaded-image"
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/nb/Crosshair-16-HX-AI-D2XW/gallery-02.webp",
+          "role": "official-gallery-image"
         },
         {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_03.jpg?v=1791994594&width=1500",
-          "role": "downloaded-image"
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/nb/Crosshair-16-HX-AI-D2XW/gallery-03.webp",
+          "role": "official-gallery-image"
         },
         {
-          "url": "https://www.compumarts.com/cdn/shop/files/MSI-Crosshair-16-HX-AI-D2XWGKG-271NG-Gaming-Laptop_04.jpg?v=1791994594&width=1500",
-          "role": "downloaded-image"
+          "url": "https://storage-asset.msi.com/global/picture/image/feature/nb/Crosshair-16-HX-AI-D2XW/gallery-04.webp",
+          "role": "official-gallery-image"
         }
       ],
       "paths": [
@@ -294,7 +295,12 @@
         "assets/products/laptop-011/back.webp",
         "assets/products/laptop-011/detail.webp"
       ],
-      "skipReason": null
+      "skipReason": null,
+      "processing": {
+        "operation": "replace_compumarts_assets",
+        "output": "assets/products/laptop-011/",
+        "note": "Replaced all four third-party watermarked files with clean official MSI assets; no external store branding remains."
+      }
     },
     {
       "id": "laptop-012",

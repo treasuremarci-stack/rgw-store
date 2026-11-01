@@ -693,3 +693,11 @@ After owner review, continue with photos for other categories. Laptops after com
 Источники и поштучные пути сохранены в `ACCESSORIES_STORAGE_PHOTO_PROGRESS.json`; для сторонних каталогов и официальных ассетов перед коммерческим использованием требуется отдельная проверка прав. В карточках восьми страниц каталога заменены только placeholder-слоты на соответствующие `images/products/<ID>/main.webp`; фильтры, карточки, цены, характеристики, названия, ID, SKU, `price.csv`, универсальные `product.html`/ `product.js` и остальные категории не менялись.
 
 Выполнены локальные проверки JSON, путей и WebP. После публикации GitHub Pages через CUA проверены все 10 страниц подкатегорий: 50 подключённых изображений загрузились после прокрутки lazy-load без ошибок; проверены все 50 соответствующих `product.html?id=...`, имя товара и основной `main.webp` определились корректно. Отдельный мобильный viewport в текущем браузере недоступен; мобильные CSS и разметка не менялись.
+
+## Laptop photo correction — Lenovo IdeaPad Slim 3 15IRH10 and MSI Crosshair 16 AI (2026-11-01)
+
+- `laptop-005` (`LENOVO IP SLIM3 15IRH10`): removed only the lower-right Intel badge with a narrow right-edge crop. The laptop body, original angle, colors and product link remain unchanged.
+- `laptop-011` (`MSI CROSSHAIR 16 AI`): replaced the main image and all three additional images that carried CompuMarts branding with four clean assets from MSI's official Crosshair 16 HX AI D2XW product page. The main asset is transparent; gallery assets contain no third-party branding.
+- Audited the laptop records for MSI branding: `laptop-011` is the only MSI laptop in the current catalog, so no other MSI laptop image required replacement.
+- Kept the existing `image`/ `images` paths, `products.json`, catalog HTML, `product.html`, `product.js`, prices, specifications, IDs, SKUs, `price.csv` and all non-laptop categories unchanged.
+- QA: inspected all five changed WebP assets, verified non-empty valid WebP files, checked the unchanged catalog paths, and verified the laptop data/progress JSON. Official-source reuse still requires the project's existing manual rights review.

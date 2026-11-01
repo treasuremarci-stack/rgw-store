@@ -716,3 +716,11 @@ After owner review, continue with photos for other categories. Laptops after com
 - Dell: mapped the exact catalog part to the official Dell 15 / DC15250 family and added the clean official Carbon Black chassis image as assets/products/laptop-009/main-official.webp; the exact SKU mapping was used only for verification, not as an image source.
 - Updated only the two existing records' image/images fields and the two corresponding laptop catalog image slots. price.csv, prices, characteristics, IDs, SKUs, filters, card design and all other categories remain unchanged.
 - Local QA: both files are non-empty WebP with transparency, preserve aspect ratio and include padding; JSON paths and the two catalog references were checked. Official-source reuse remains subject to the project's existing manual rights review.
+
+
+## MSI Crosshair 16 AI — main screen image correction (2026-11-01)
+
+- For existing catalog item laptop-011 (MSI CROSSHAIR 16 AI; platform Crosshair 16 HX AI D2XWX), replaced only the main image with the official MSI hero asset main-screen.webp.
+- The new 1000×800 transparent WebP contains the official red/orange promotional display image and MSI dragon shield on the laptop screen; the laptop is not distorted or stretched.
+- The three additional gallery files and their paths remain unchanged. Product name, characteristics, price, ID, SKU, price.csv, card layout and all other categories remain unchanged.
+- The exact official source and new path are recorded in PHOTO_PROGRESS.json.

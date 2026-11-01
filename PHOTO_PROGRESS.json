@@ -279,7 +279,7 @@
       "id": "laptop-011",
       "brand": "MSI",
       "model": "MSI CROSSHAIR 16 AI",
-      "status": "completed_exact_official_assets",
+      "status": "completed_exact_official_assets_screen_fixed",
       "photoCount": 4,
       "matchScope": "Официальная платформа MSI Crosshair 16 HX AI D2XW; official exact-family assets used for the catalog's D2XWGKG configuration",
       "rightsStatus": "manual_rights_review_required",
@@ -303,19 +303,23 @@
         {
           "url": "https://storage-asset.msi.com/global/picture/image/feature/nb/Crosshair-16-HX-AI-D2XW/gallery-04.webp",
           "role": "official-gallery-image"
+        },
+        {
+          "url": "https://storage-asset.msi.com/global/picture/product/product_1745545079de1ef31ca66fd83fd72bf36ebb3d103c.webp",
+          "role": "official-main-screen-image"
         }
       ],
       "paths": [
-        "assets/products/laptop-011/main-clean.webp",
+        "assets/products/laptop-011/main-screen.webp",
         "assets/products/laptop-011/angle-clean.webp",
         "assets/products/laptop-011/back-clean.webp",
         "assets/products/laptop-011/detail-clean.webp"
       ],
       "skipReason": null,
       "processing": {
-        "operation": "replace_compumarts_assets",
-        "output": "assets/products/laptop-011/",
-        "note": "Replaced all four third-party watermarked files with clean official MSI assets; no external store branding remains."
+        "operation": "replace_empty_screen_main_asset",
+        "output": "assets/products/laptop-011/main-screen.webp",
+        "note": "Replaced only the main image reference with the official MSI Crosshair 16 HX AI hero asset; the display contains the original red/orange MSI promotional scene and dragon shield. Three additional gallery files were not changed."
       }
     },
     {

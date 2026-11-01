@@ -331,7 +331,7 @@
     "name": "LENOVO IP SLIM3 15IRH10",
     "brand": "Lenovo",
     "category": "Ноутбуки",
-    "image": "assets/products/laptop-005/main.webp",
+    "image": "assets/products/laptop-005/main-clean.webp",
     "placeholder": "💻",
     "catalogFacts": [
       {
@@ -416,7 +416,7 @@
       "family": "IdeaPad Slim 3 15IRH10"
     },
     "images": [
-      "assets/products/laptop-005/main.webp"
+      "assets/products/laptop-005/main-clean.webp"
     ]
   },
   {
@@ -788,12 +788,12 @@
     "name": "MSI CROSSHAIR 16 AI",
     "brand": "MSI",
     "category": "Ноутбуки",
-    "image": "assets/products/laptop-011/main.webp",
+    "image": "assets/products/laptop-011/main-clean.webp",
     "images": [
-      "assets/products/laptop-011/main.webp",
-      "assets/products/laptop-011/angle.webp",
-      "assets/products/laptop-011/back.webp",
-      "assets/products/laptop-011/detail.webp"
+      "assets/products/laptop-011/main-clean.webp",
+      "assets/products/laptop-011/angle-clean.webp",
+      "assets/products/laptop-011/back-clean.webp",
+      "assets/products/laptop-011/detail-clean.webp"
     ],
     "placeholder": "⚡",
     "catalogFacts": [

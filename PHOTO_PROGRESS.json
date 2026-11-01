@@ -131,12 +131,12 @@
         }
       ],
       "paths": [
-        "assets/products/laptop-005/main.webp"
+        "assets/products/laptop-005/main-clean.webp"
       ],
       "skipReason": null,
       "processing": {
         "operation": "right_edge_crop_only",
-        "output": "assets/products/laptop-005/main.webp",
+        "output": "assets/products/laptop-005/main-clean.webp",
         "note": "Removed the lower-right Intel badge; retained the original angle, colors, device and dimensions except for the narrow empty right strip."
       }
     },
@@ -290,10 +290,10 @@
         }
       ],
       "paths": [
-        "assets/products/laptop-011/main.webp",
-        "assets/products/laptop-011/angle.webp",
-        "assets/products/laptop-011/back.webp",
-        "assets/products/laptop-011/detail.webp"
+        "assets/products/laptop-011/main-clean.webp",
+        "assets/products/laptop-011/angle-clean.webp",
+        "assets/products/laptop-011/back-clean.webp",
+        "assets/products/laptop-011/detail-clean.webp"
       ],
       "skipReason": null,
       "processing": {

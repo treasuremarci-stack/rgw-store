@@ -699,5 +699,11 @@ After owner review, continue with photos for other categories. Laptops after com
 - `laptop-005` (`LENOVO IP SLIM3 15IRH10`): removed only the lower-right Intel badge with a narrow right-edge crop. The laptop body, original angle, colors and product link remain unchanged.
 - `laptop-011` (`MSI CROSSHAIR 16 AI`): replaced the main image and all three additional images that carried CompuMarts branding with four clean assets from MSI's official Crosshair 16 HX AI D2XW product page. The main asset is transparent; gallery assets contain no third-party branding.
 - Audited the laptop records for MSI branding: `laptop-011` is the only MSI laptop in the current catalog, so no other MSI laptop image required replacement.
-- Kept the existing `image`/ `images` paths, `products.json`, catalog HTML, `product.html`, `product.js`, prices, specifications, IDs, SKUs, `price.csv` and all non-laptop categories unchanged.
+- Kept product records, characteristics, prices, IDs, SKUs, `price.csv`, `product.html`, `product.js` and all non-laptop categories unchanged; changed only the five local image path strings and corresponding catalog image references to clean filenames so GitHub Pages cannot serve the old cached assets.
 - QA: inspected all five changed WebP assets, verified non-empty valid WebP files, checked the unchanged catalog paths, and verified the laptop data/progress JSON. Official-source reuse still requires the project's existing manual rights review.
+
+## Publication cache follow-up (2026-11-01)
+
+- GitHub Pages was still serving the old same-name image URLs from its CDN cache after the successful deployment. To make the correction visible immediately, only the five affected local image filenames/references were changed to clean filenames with a -clean suffix.
+- The old Lenovo and four old MSI files were removed from the repository; the new files are the same inspected clean assets from the preceding correction commit.
+- No product characteristic, title, price, ID, SKU, filter, layout, product-page logic or other-category file was changed.

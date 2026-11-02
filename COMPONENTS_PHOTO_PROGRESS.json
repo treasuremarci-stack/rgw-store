@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T00:00:00.000Z",
+  "updatedAt": "2026-11-02T16:35:54.043Z",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Официальный источник предпочтителен; если чистая фотография отсутствует, допускается точный источник надёжного магазина; при отсутствии подтверждения сохраняется заглушка.",
@@ -24,9 +24,9 @@
     },
     "Оперативная память": {
       "total": 11,
-      "downloaded": 6,
+      "downloaded": 11,
       "existing": 0,
-      "placeholder": 5
+      "placeholder": 0
     },
     "SSD": {
       "total": 22,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 73,
+    "downloaded": 78,
     "existing": 22,
-    "placeholder": 42,
-    "webp": 234
+    "placeholder": 37,
+    "webp": 229
   },
   "records": [
     {
@@ -950,11 +950,16 @@
       "id": "ram-001",
       "category": "Оперативная память",
       "model": "Оперативка Lexar DDR4 3200 16 Gb Радиатор",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-001/main.webp"
+      ],
+      "source_urls": [
+        "https://www.lexar.com/global/products/Lexar-THOR-DDR4-UDIMM-Desktop-Memory/",
+        "https://www-oss.lexar.com/uploads/product_images/thorddr4w_slider_8GB_1.png"
+      ],
+      "reason": "Официальная страница Lexar THOR DDR4 UDIMM подтверждает серию с вариантом 16 ГБ (16GBx1), DDR4-3200 и радиатором; в каталоге нет артикула, поэтому использована фотография точного семейства по указанным характеристикам."
     },
     {
       "id": "ram-002",
@@ -990,11 +995,16 @@
       "id": "ram-004",
       "category": "Оперативная память",
       "model": "Оперативка Китай DDR3 8 Gb",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "В каталоге нет точной модели или артикула, поэтому похожий товар не подставлялся."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-004/main.webp"
+      ],
+      "source_urls": [
+        "https://www.walmart.com/ip/20961517460",
+        "https://i5.walmartimages.com/seo/Desktop-PC-Memory-Upgrade-DDR3-8GB-1600MHz-RAM-Module-with-Blister-Packaging_43fd92ca-6deb-4d04-ace6-f6d2a32c62b2.0f7dc06a1e71665b2fb5239fd1e22e4e.jpeg"
+      ],
+      "reason": "Для безымянного товара использована чистая фотография обычного настольного модуля с маркировкой 8GB DDR3 1600MHz U-DIMM; брендовая модель не подставлялась, так как в каталоге нет производителя и артикула."
     },
     {
       "id": "ram-005",
@@ -1036,11 +1046,16 @@
       "id": "ram-007",
       "category": "Оперативная память",
       "model": "Оперативка Китай DDR3 4 Gb",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "В каталоге нет точной модели или артикула, поэтому похожий товар не подставлялся."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-007/main.webp"
+      ],
+      "source_urls": [
+        "https://www.walmart.com/ip/20122209797",
+        "https://i5.walmartimages.com/seo/DDR3-4GB-Memory-Ram-PC3-12800-1-5V-1600Mhz-240-Pin-Desktop-Memory-DIMM-Unbuffered-and-Non-ECC-for-Desktop-AMD-Motherboard-1-Memory-Ram-Green_41dae45f-0e9a-4c15-aa62-29f86c6e0e18.06fdec5fdc1bfd15174743745eec399c.jpeg"
+      ],
+      "reason": "Для безымянного товара использована чистая фотография обычного настольного DDR3-модуля 4GB 1600MHz 240-pin DIMM; брендовая модель не подставлялась, так как в каталоге нет производителя и артикула."
     },
     {
       "id": "ram-008",
@@ -1067,21 +1082,31 @@
       "id": "ram-009",
       "category": "Оперативная память",
       "model": "Оперативка Kingston 16 ГБ DDR4 3200",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-009/main.webp"
+      ],
+      "source_urls": [
+        "https://www.kingston.com/en/memory/search?partid=KVR32N22D8%2F16",
+        "https://www.newegg.com/p/0RM-001B-00A35"
+      ],
+      "reason": "Официальная страница Kingston подтверждает KVR32N22D8/16: 16 ГБ DDR4-3200 unbuffered DIMM; чистое локальное изображение взято из карточки этой же модели. В каталоге артикул не указан, поэтому соответствие зафиксировано по публичным характеристикам."
     },
     {
       "id": "ram-010",
       "category": "Оперативная память",
       "model": "Оперативка Kingston 8 ГБ DDR4 2666",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-010/main.webp"
+      ],
+      "source_urls": [
+        "https://www.kingston.com/en/memory/search?partid=KVR26N19S8%2F8",
+        "https://www.newegg.com/p/0RM-001B-00A15"
+      ],
+      "reason": "Официальная страница Kingston подтверждает KVR26N19S8/8: 8 ГБ DDR4-2666 unbuffered DIMM; чистое локальное изображение взято из карточки этой же модели. В каталоге артикул не указан, поэтому соответствие зафиксировано по публичным характеристикам."
     },
     {
       "id": "ram-011",

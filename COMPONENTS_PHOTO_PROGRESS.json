@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T16:35:54.043Z",
+  "updatedAt": "2026-11-02",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Официальный источник предпочтителен; если чистая фотография отсутствует, допускается точный источник надёжного магазина; при отсутствии подтверждения сохраняется заглушка.",
@@ -30,9 +30,9 @@
     },
     "SSD": {
       "total": 22,
-      "downloaded": 8,
+      "downloaded": 20,
       "existing": 2,
-      "placeholder": 12
+      "placeholder": 0
     },
     "HDD": {
       "total": 8,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 78,
+    "downloaded": 90,
     "existing": 22,
-    "placeholder": 37,
-    "webp": 239
+    "placeholder": 25,
+    "webp": 251
   },
   "records": [
     {
@@ -444,31 +444,46 @@
       "id": "ssd-001",
       "category": "SSD",
       "model": "SSD 2,5 Lexar 512 GB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-001/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/ssd-ns100/",
+        "https://resources.lexar.com/download/180/product-images/3171/ns100-01.png"
+      ],
+      "reason": "Официальное семейство Lexar NS100: 2,5\" SATA III и ёмкости 128/256/512 ГБ, 1/2 ТБ совпадают с записью каталога; серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-002",
       "category": "SSD",
       "model": "SSD Lexar M.2 2280 NVMe SSD 1ТB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-002/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-nm620-m-2-2280-nvme-ssd/",
+        "https://americas.lexar.com/wp-content/uploads/2023/11/NM620_SSD_Photo-1.png"
+      ],
+      "reason": "Официальное семейство Lexar NM620: M.2 2280 NVMe и заявленные ёмкости 512 ГБ/1/2 ТБ; в документации также указан вариант 256 ГБ, серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-003",
       "category": "SSD",
       "model": "SSD Lexar M.2 2280 NVMe SSD 512",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-003/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-nm620-m-2-2280-nvme-ssd/",
+        "https://americas.lexar.com/wp-content/uploads/2023/11/NM620_SSD_Photo-1.png"
+      ],
+      "reason": "Официальное семейство Lexar NM620: M.2 2280 NVMe и заявленные ёмкости 512 ГБ/1/2 ТБ; в документации также указан вариант 256 ГБ, серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-004",
@@ -536,21 +551,31 @@
       "id": "ssd-008",
       "category": "SSD",
       "model": "SSD 2,5 Lexar 128 GB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-008/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/ssd-ns100/",
+        "https://resources.lexar.com/download/180/product-images/3171/ns100-01.png"
+      ],
+      "reason": "Официальное семейство Lexar NS100: 2,5\" SATA III и ёмкости 128/256/512 ГБ, 1/2 ТБ совпадают с записью каталога; серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-009",
       "category": "SSD",
       "model": "SSD Lexar M.2 2280 NVMe SSD 2ТB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-009/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-nm620-m-2-2280-nvme-ssd/",
+        "https://americas.lexar.com/wp-content/uploads/2023/11/NM620_SSD_Photo-1.png"
+      ],
+      "reason": "Официальное семейство Lexar NM620: M.2 2280 NVMe и заявленные ёмкости 512 ГБ/1/2 ТБ; в документации также указан вариант 256 ГБ, серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-010",
@@ -615,21 +640,33 @@
       "id": "ssd-013",
       "category": "SSD",
       "model": "SSD NVMe Samsung 256 Gb",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-013/main.webp"
+      ],
+      "source_urls": [
+        "https://semiconductor.samsung.com/ssd/pc-ssd/pm9c1b/",
+        "https://image.semiconductor.samsung.com/image/samsung/p6/semiconductor/products/ssd/pm9c1b-v3.png?%24ORIGIN_PNG%24="
+      ],
+      "reason": "Официальное семейство Samsung PM9C1b: M.2 2280 NVMe с вариантом 256 ГБ; точная серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-014",
       "category": "SSD",
       "model": "SSD Kingston M.2 2280 NVMe SSD 1 TB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-014/main.webp"
+      ],
+      "source_urls": [
+        "https://www.kingston.com/en/ssd/nv2-nvme-pcie-ssd",
+        "https://media.kingston.com/kingston/product/SNV2S_1000GB_tn.png",
+        "https://www.newegg.com/kingston-1tb-snv2s-nvme/p/N82E16820242730",
+        "https://c1.neweggimages.com/productimage/nb640/20-242-729-05.jpg"
+      ],
+      "reason": "Точная модель Kingston NV2 1 ТБ / SNV2S/1000G подтверждена характеристиками M.2 2280 NVMe; использовано чистое предметное фото без водяного знака, сохранено локально в WebP."
     },
     {
       "id": "ssd-015",
@@ -667,41 +704,63 @@
       "id": "ssd-017",
       "category": "SSD",
       "model": "SSD 2,5 Lexar 1TB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-017/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/ssd-ns100/",
+        "https://resources.lexar.com/download/180/product-images/3171/ns100-01.png"
+      ],
+      "reason": "Официальное семейство Lexar NS100: 2,5\" SATA III и ёмкости 128/256/512 ГБ, 1/2 ТБ совпадают с записью каталога; серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-018",
       "category": "SSD",
       "model": "SSD Lexar M.2 2280 NVMe SSD 256",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-018/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-nm620-m-2-2280-nvme-ssd/",
+        "https://americas.lexar.com/wp-content/uploads/2023/11/NM620_SSD_Photo-1.png"
+      ],
+      "reason": "Официальное семейство Lexar NM620: M.2 2280 NVMe и заявленные ёмкости 512 ГБ/1/2 ТБ; в документации также указан вариант 256 ГБ, серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-019",
       "category": "SSD",
       "model": "SSD 2,5 Kingston 480 Gb",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-019/main.webp"
+      ],
+      "source_urls": [
+        "https://www.kingston.com/en/ssd/a400-solid-state-drive",
+        "https://media.kingston.com/kingston/product/SA400S37_480GB-tn.png",
+        "https://www.newegg.com/kingston-a400-480gb/p/N82E16820242401",
+        "https://c1.neweggimages.com/productimage/nb640/20-242-401-V01.jpg"
+      ],
+      "reason": "Точная модель Kingston A400 480 ГБ / SA400S37/480G подтверждена характеристиками 2,5\" SATA; использовано чистое предметное фото без водяного знака, сохранено локально в WebP."
     },
     {
       "id": "ssd-020",
       "category": "SSD",
       "model": "SSD 2,5 Lexar 2TB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-020/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/ssd-ns100/",
+        "https://resources.lexar.com/download/180/product-images/3171/ns100-01.png"
+      ],
+      "reason": "Официальное семейство Lexar NS100: 2,5\" SATA III и ёмкости 128/256/512 ГБ, 1/2 ТБ совпадают с записью каталога; серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "ssd-021",
@@ -728,11 +787,16 @@
       "id": "ssd-022",
       "category": "SSD",
       "model": "SSD 2,5 Lexar 256 GB",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ssd-022/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/ssd-ns100/",
+        "https://resources.lexar.com/download/180/product-images/3171/ns100-01.png"
+      ],
+      "reason": "Официальное семейство Lexar NS100: 2,5\" SATA III и ёмкости 128/256/512 ГБ, 1/2 ТБ совпадают с записью каталога; серия в products.json не указана. Добавлено локальное WebP без водяного знака."
     },
     {
       "id": "mb-001",

@@ -2560,8 +2560,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-001/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "2,5 Lexar 512 GB"
     },
@@ -2587,7 +2587,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-001/main.webp"
+    ]
   },
   {
     "id": "ssd-002",
@@ -2597,8 +2599,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-002/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Lexar M.2 2280 NVMe SSD 1ТB"
     },
@@ -2624,7 +2626,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-002/main.webp"
+    ]
   },
   {
     "id": "ssd-003",
@@ -2634,8 +2638,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Lexar M.2 2280 NVMe SSD 512"
     },
@@ -2661,7 +2665,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-003/main.webp"
+    ]
   },
   {
     "id": "ssd-004",
@@ -2861,8 +2867,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-008/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "2,5 Lexar 128 GB"
     },
@@ -2888,7 +2894,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-008/main.webp"
+    ]
   },
   {
     "id": "ssd-009",
@@ -2898,8 +2906,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-009/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Lexar M.2 2280 NVMe SSD 2ТB"
     },
@@ -2925,7 +2933,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-009/main.webp"
+    ]
   },
   {
     "id": "ssd-010",
@@ -3099,8 +3109,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-013/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "NVMe Samsung 256 Gb"
     },
@@ -3121,7 +3131,9 @@
         "group": "Интерфейсы"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-013/main.webp"
+    ]
   },
   {
     "id": "ssd-014",
@@ -3131,8 +3143,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-014/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Kingston M.2 2280 NVMe SSD 1 TB"
     },
@@ -3158,7 +3170,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-014/main.webp"
+    ]
   },
   {
     "id": "ssd-015",
@@ -3252,8 +3266,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-017/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "2,5 Lexar 1TB"
     },
@@ -3279,7 +3293,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-017/main.webp"
+    ]
   },
   {
     "id": "ssd-018",
@@ -3289,8 +3305,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-018/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Lexar M.2 2280 NVMe SSD 256"
     },
@@ -3316,7 +3332,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-018/main.webp"
+    ]
   },
   {
     "id": "ssd-019",
@@ -3326,8 +3344,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-019/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "2,5 Kingston 480 Gb"
     },
@@ -3353,7 +3371,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-019/main.webp"
+    ]
   },
   {
     "id": "ssd-020",
@@ -3363,8 +3383,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-020/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "2,5 Lexar 2TB"
     },
@@ -3390,7 +3410,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-020/main.webp"
+    ]
   },
   {
     "id": "ssd-021",
@@ -3437,8 +3459,8 @@
     "category": "SSD",
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/ssd-022/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "2,5 Lexar 256 GB"
     },
@@ -3464,7 +3486,9 @@
         "group": "Накопители"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ssd-022/main.webp"
+    ]
   },
   {
     "id": "mb-001",

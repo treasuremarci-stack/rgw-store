@@ -24,9 +24,9 @@
     },
     "Оперативная память": {
       "total": 11,
-      "downloaded": 3,
+      "downloaded": 6,
       "existing": 0,
-      "placeholder": 8
+      "placeholder": 5
     },
     "SSD": {
       "total": 22,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 70,
+    "downloaded": 73,
     "existing": 22,
-    "placeholder": 45,
-    "webp": 231
+    "placeholder": 42,
+    "webp": 234
   },
   "records": [
     {
@@ -960,21 +960,31 @@
       "id": "ram-002",
       "category": "Оперативная память",
       "model": "Оперативка Lexar DDR4 3200 16 Gb Ноутбук",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-002/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-ddr4-3200-sodimm-laptop-memory/",
+        "https://imagecdn.jw.com.au/media/catalog/product/9/3/93223107_3413771708_1.jpg?height=514&image-type=image&store=default&width=514"
+      ],
+      "reason": "Точное соответствие по бренду, DDR4-3200, SO-DIMM и объёму 16 ГБ; источник товара подтверждает модуль Lexar LD4AS016G-B3200GSST. Добавлено локальное WebP."
     },
     {
       "id": "ram-003",
       "category": "Оперативная память",
       "model": "Оперативка Lexar DDR4 3200 8 Gb Ноутбук",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-003/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-ddr4-3200-sodimm-laptop-memory/",
+        "https://thumb.pccomponentes.com/w-530-530/articles/1092/10924959/5947-memoria-ram-lexar-ld4as008g-b3200gsst-8gb-ddr4-3200mhz-260-pin-so-dimm-portatil-caracteristicas.jpg"
+      ],
+      "reason": "Точное соответствие по бренду, DDR4-3200, SO-DIMM и объёму 8 ГБ; источник товара подтверждает модуль Lexar LD4AS008G-B3200GSST. Добавлено локальное WebP."
     },
     {
       "id": "ram-004",
@@ -1011,11 +1021,16 @@
       "id": "ram-006",
       "category": "Оперативная память",
       "model": "Оперативка Lexar DDR4 3200 16 Gb",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/ram-006/main.webp"
+      ],
+      "source_urls": [
+        "https://americas.lexar.com/product/lexar-ddr4-3200-udimm-desktop-memory/",
+        "https://img.advice.co.th/images_nas/pic_product4/A0177653/A0177653OK_ORI_3.jpg"
+      ],
+      "reason": "Точное соответствие по бренду, DDR4-3200, UDIMM и объёму 16 ГБ; маркировка источника подтверждает Lexar LD4AU016G-B3200GSST. Добавлено локальное WebP."
     },
     {
       "id": "ram-007",

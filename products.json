@@ -4118,8 +4118,8 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-002/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Тип памяти",
@@ -4142,7 +4142,9 @@
         "group": "Оперативная память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ram-002/main.webp"
+    ]
   },
   {
     "id": "ram-003",
@@ -4152,8 +4154,8 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-003/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Тип памяти",
@@ -4176,7 +4178,9 @@
         "group": "Оперативная память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ram-003/main.webp"
+    ]
   },
   {
     "id": "ram-004",
@@ -4261,8 +4265,8 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-006/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Тип памяти",
@@ -4280,7 +4284,9 @@
         "group": "Оперативная память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/ram-006/main.webp"
+    ]
   },
   {
     "id": "ram-007",

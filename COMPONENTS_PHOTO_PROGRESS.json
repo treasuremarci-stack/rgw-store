@@ -48,9 +48,9 @@
     },
     "Блоки питания": {
       "total": 17,
-      "downloaded": 7,
+      "downloaded": 10,
       "existing": 3,
-      "placeholder": 7
+      "placeholder": 4
     },
     "Охлаждение": {
       "total": 21,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 90,
+    "downloaded": 93,
     "existing": 22,
-    "placeholder": 25,
-    "webp": 251
+    "placeholder": 22,
+    "webp": 254
   },
   "records": [
     {
@@ -1666,11 +1666,16 @@
       "id": "psu-006",
       "category": "Блоки питания",
       "model": "Блок Питания Vision 550wat",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "В каталоге нет точной модели или артикула, поэтому похожий товар не подставлялся."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-006/main.webp"
+      ],
+      "source_urls": [
+        "https://olam.tj/products/vision-550w-black-6pin",
+        "https://olam.tj/storage/images2/12885_66e9734d6ae144178044af04206afb9af0805667c1ba4511b2a7913204ab663b.jpg"
+      ],
+      "reason": "Найдено предметное фото Vision 550W; в записи каталога не указаны цвет, серия и артикул, поэтому соответствие подтверждено по бренду и мощности, ограничение зафиксировано."
     },
     {
       "id": "psu-007",
@@ -1686,11 +1691,16 @@
       "id": "psu-008",
       "category": "Блоки питания",
       "model": "Блок Питания Vision 750 wat ОЕМ",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "В каталоге нет точной модели или артикула, поэтому похожий товар не подставлялся."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-008/main.webp"
+      ],
+      "source_urls": [
+        "https://vitinhphuquoc.com/nguon-master-vision-atx-750w",
+        "https://bizweb.dktcdn.net/100/521/696/products/82953-nguon-vsp-master-vision-atx-750w-cst-230w-3.jpg?v=1731311695733"
+      ],
+      "reason": "Найдено предметное фото Master Vision ATX-750W; в записи каталога указаны только Vision и 750 Вт без артикула, поэтому соответствие подтверждено по бренду и мощности, ограничение зафиксировано."
     },
     {
       "id": "psu-009",
@@ -1749,11 +1759,16 @@
       "id": "psu-013",
       "category": "Блоки питания",
       "model": "Блок Питания Cooler Master 600W",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Подтверждённый ассет точной модели на официальном источнике не удалось скачать; оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-013/main.webp"
+      ],
+      "source_urls": [
+        "https://olam.tj/products/cooler-master-600w",
+        "https://olam.tj/storage/komptj/smart-1.webp"
+      ],
+      "reason": "Публичная карточка Cooler Master 600W подтверждает совпадение бренда и мощности; добавлено локальное WebP без постороннего фона."
     },
     {
       "id": "psu-014",

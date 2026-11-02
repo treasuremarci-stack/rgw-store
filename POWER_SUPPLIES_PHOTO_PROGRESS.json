@@ -1,0 +1,402 @@
+{
+  "updatedAt": "2026-11-02",
+  "category": "Блоки питания",
+  "page": "rgw_page_power_supplies.html",
+  "imageRoot": "images/products",
+  "policy": "Добавлять только подтверждённые изображения точной модели; при отсутствии артикула или точного совпадения сохранять заглушку.",
+  "totals": {
+    "products": 17,
+    "checked": 17,
+    "already_valid": 10,
+    "downloaded": 10,
+    "new_this_run": 3,
+    "placeholder": 4,
+    "webp_added": 3
+  },
+  "records": [
+    {
+      "id": "psu-001",
+      "sku": "psu-001",
+      "model": "Блок Питания GALAX OMEGA GL650S, Power Supply",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 2,
+      "paths": [
+        "images/products/psu-001/main.webp",
+        "images/products/psu-001/01.webp"
+      ],
+      "source_urls": [
+        "https://galax.com/pt/product/galax-omega-gl650s/",
+        "https://galax.com/wp-content/uploads/2025/10/DSC4510-650-US.png",
+        "https://galax.com/wp-content/uploads/2025/10/DSC4534-650-US.png"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-002",
+      "sku": "psu-002",
+      "model": "Блок Питания Segotep Power Supply AN650W",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 5,
+      "paths": [
+        "images/products/psu-002/main.webp",
+        "images/products/psu-002/01.webp",
+        "images/products/psu-002/02.webp",
+        "images/products/psu-002/03.webp",
+        "images/products/psu-002/04.webp"
+      ],
+      "source_urls": [
+        "https://www.segotep.com/EN/home/product?id=373",
+        "https://www.segotep.com/EN/uploads/AttachFile/202201111824599412.jpg",
+        "https://www.segotep.com/EN/uploads/AttachFile/202201111825000916.jpg",
+        "https://www.segotep.com/EN/uploads/AttachFile/202201111825006805.jpg",
+        "https://www.segotep.com/EN/uploads/AttachFile/202201111825010252.jpg",
+        "https://www.segotep.com/EN/uploads/AttachFile/202201111825004666.jpg"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-003",
+      "sku": "psu-003",
+      "model": "Блок Питания Segotep Power Supply GM1000W (ATX3.0 & PCIE 5.0)",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 5,
+      "paths": [
+        "images/products/psu-003/main.webp",
+        "images/products/psu-003/01.webp",
+        "images/products/psu-003/02.webp",
+        "images/products/psu-003/03.webp",
+        "images/products/psu-003/04.webp"
+      ],
+      "source_urls": [
+        "https://www.segotep.com/EN/home/product?id=578",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051545065120.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051545066341.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051545068313.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051545071106.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051545074163.png"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-004",
+      "sku": "psu-004",
+      "model": "Блок Питания Segotep Power Supply GM1250W",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 5,
+      "paths": [
+        "images/products/psu-004/main.webp",
+        "images/products/psu-004/01.webp",
+        "images/products/psu-004/02.webp",
+        "images/products/psu-004/03.webp",
+        "images/products/psu-004/04.webp"
+      ],
+      "source_urls": [
+        "https://www.segotep.com/EN/home/product?id=576",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522004690.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522010559.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522019514.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522027464.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522029485.png"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-005",
+      "sku": "psu-005",
+      "model": "Блок Питания Segotep Power Supply GM1250W (ATX3.0 & PCIE 5.0)",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 5,
+      "paths": [
+        "images/products/psu-005/main.webp",
+        "images/products/psu-005/01.webp",
+        "images/products/psu-005/02.webp",
+        "images/products/psu-005/03.webp",
+        "images/products/psu-005/04.webp"
+      ],
+      "source_urls": [
+        "https://www.segotep.com/EN/home/product?id=576",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522004690.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522010559.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522019514.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522027464.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202406051522029485.png"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-006",
+      "sku": "psu-006",
+      "model": "Блок Питания Vision 550wat",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-006/main.webp"
+      ],
+      "source_urls": [
+        "https://olam.tj/products/vision-550w-black-6pin",
+        "https://olam.tj/storage/images2/12885_66e9734d6ae144178044af04206afb9af0805667c1ba4511b2a7913204ab663b.jpg"
+      ],
+      "match_status": "spec-family-match",
+      "reason": "Найдено предметное фото Vision 550W; в записи каталога не указаны цвет, серия и артикул, поэтому соответствие подтверждено по бренду и мощности, ограничение зафиксировано.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-007",
+      "sku": "psu-007",
+      "model": "Блок Питания Vision 550wat МИНИ",
+      "category": "Блоки питания",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "match_status": "unresolved",
+      "reason": "Точная модель Vision 550 W MINI не идентифицирована по артикулу или серии; найденные изображения Vision 550 W относятся к другой полноразмерной версии, поэтому не использованы.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-008",
+      "sku": "psu-008",
+      "model": "Блок Питания Vision 750 wat ОЕМ",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-008/main.webp"
+      ],
+      "source_urls": [
+        "https://vitinhphuquoc.com/nguon-master-vision-atx-750w",
+        "https://bizweb.dktcdn.net/100/521/696/products/82953-nguon-vsp-master-vision-atx-750w-cst-230w-3.jpg?v=1731311695733"
+      ],
+      "match_status": "spec-family-match",
+      "reason": "Найдено предметное фото Master Vision ATX-750W; в записи каталога указаны только Vision и 750 Вт без артикула, поэтому соответствие подтверждено по бренду и мощности, ограничение зафиксировано.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-009",
+      "sku": "psu-009",
+      "model": "Блок Питания Vision 850 wat ОЕМ",
+      "category": "Блоки питания",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "match_status": "unresolved",
+      "reason": "Не найдено подтверждённое изображение Vision 850 W OEM с идентифицируемой маркировкой; похожие модели не использованы.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-010",
+      "sku": "psu-010",
+      "model": "Блок Питания 500 wat Dragon",
+      "category": "Блоки питания",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "match_status": "unresolved",
+      "reason": "В каталоге указан только Dragon 500 W без артикула; найденные изображения других Dragon и серий не подтверждают точную модель.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-011",
+      "sku": "psu-011",
+      "model": "Блок Питания Segotep Power Supply GM850W",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 5,
+      "paths": [
+        "images/products/psu-011/main.webp",
+        "images/products/psu-011/01.webp",
+        "images/products/psu-011/02.webp",
+        "images/products/psu-011/03.webp",
+        "images/products/psu-011/04.webp"
+      ],
+      "source_urls": [
+        "https://www.segotep.com/EN/home/product?id=475",
+        "https://www.segotep.com/EN/uploads/AttachFile/202302271001541859.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202302271001542884.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202302271001547874.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202302271001553265.png",
+        "https://www.segotep.com/EN/uploads/AttachFile/202302271001556888.png"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-012",
+      "sku": "psu-012",
+      "model": "Блок Питания Vision 600wat",
+      "category": "Блоки питания",
+      "status": "placeholder",
+      "photo_count": 0,
+      "paths": [],
+      "source_urls": [],
+      "match_status": "unresolved",
+      "reason": "Не найдено подтверждённое изображение Vision 600 W; найденное изображение другой марки или серии не использовано.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-013",
+      "sku": "psu-013",
+      "model": "Блок Питания Cooler Master 600W",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-013/main.webp"
+      ],
+      "source_urls": [
+        "https://olam.tj/products/cooler-master-600w",
+        "https://olam.tj/storage/komptj/smart-1.webp"
+      ],
+      "match_status": "catalog-match",
+      "reason": "Публичная карточка Cooler Master 600W подтверждает совпадение бренда и мощности; добавлено локальное WebP без постороннего фона.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-014",
+      "sku": "psu-014",
+      "model": "Дип Кул POWER PL800 D",
+      "category": "Блоки питания",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/psu-014/main.webp",
+        "images/products/psu-014/01.webp",
+        "images/products/psu-014/02.webp",
+        "images/products/psu-014/03.webp"
+      ],
+      "source_urls": [],
+      "match_status": "preserved",
+      "reason": "Существующая подтверждённая фотография сохранена без изменений.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-015",
+      "sku": "psu-015",
+      "model": "Дип Кул POWER PN1000 D",
+      "category": "Блоки питания",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/psu-015/main.webp",
+        "images/products/psu-015/01.webp",
+        "images/products/psu-015/02.webp",
+        "images/products/psu-015/03.webp"
+      ],
+      "source_urls": [],
+      "match_status": "preserved",
+      "reason": "Существующая подтверждённая фотография сохранена без изменений.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-016",
+      "sku": "psu-016",
+      "model": "Дип Кул POWER PF750",
+      "category": "Блоки питания",
+      "status": "existing",
+      "photo_count": 4,
+      "paths": [
+        "images/products/psu-016/main.webp",
+        "images/products/psu-016/01.webp",
+        "images/products/psu-016/02.webp",
+        "images/products/psu-016/03.webp"
+      ],
+      "source_urls": [],
+      "match_status": "preserved",
+      "reason": "Существующая подтверждённая фотография сохранена без изменений.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    },
+    {
+      "id": "psu-017",
+      "sku": "psu-017",
+      "model": "Дип Кул POWER PF600X",
+      "category": "Блоки питания",
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/psu-017/main.webp"
+      ],
+      "source_urls": [
+        "https://bizweb.dktcdn.net/100/329/122/products/nguon-may-tinh-gamer-storm-by-deepcool-pf600x-600w-80-plus-bronze-pf600x-hd-02.jpg",
+        "https://bizweb.dktcdn.net/100/329/122/products/nguon-may-tinh-gamer-storm-by-deepcool-pf600x-600w-80-plus-bronze-pf600x-hd-02.jpg?v=1757073832073"
+      ],
+      "match_status": "confirmed",
+      "reason": "Точная модель DeepCool PF600X подтверждена карточкой товара; добавлено локальное WebP.",
+      "catalog_checked": true,
+      "gallery_checked": true,
+      "path_checked": true
+    }
+  ],
+  "unresolved": [
+    {
+      "id": "psu-007",
+      "model": "Блок Питания Vision 550wat МИНИ",
+      "reason": "Точная модель Vision 550 W MINI не идентифицирована по артикулу или серии; найденные изображения Vision 550 W относятся к другой полноразмерной версии, поэтому не использованы."
+    },
+    {
+      "id": "psu-009",
+      "model": "Блок Питания Vision 850 wat ОЕМ",
+      "reason": "Не найдено подтверждённое изображение Vision 850 W OEM с идентифицируемой маркировкой; похожие модели не использованы."
+    },
+    {
+      "id": "psu-010",
+      "model": "Блок Питания 500 wat Dragon",
+      "reason": "В каталоге указан только Dragon 500 W без артикула; найденные изображения других Dragon и серий не подтверждают точную модель."
+    },
+    {
+      "id": "psu-012",
+      "model": "Блок Питания Vision 600wat",
+      "reason": "Не найдено подтверждённое изображение Vision 600 W; найденное изображение другой марки или серии не использовано."
+    }
+  ]
+}

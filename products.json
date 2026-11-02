@@ -5432,8 +5432,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-006/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Vision 550wat"
     },
@@ -5444,7 +5444,9 @@
         "group": "Питание"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/psu-006/main.webp"
+    ]
   },
   {
     "id": "psu-007",
@@ -5476,8 +5478,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-008/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Vision 750 wat ОЕМ"
     },
@@ -5488,7 +5490,9 @@
         "group": "Питание"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/psu-008/main.webp"
+    ]
   },
   {
     "id": "psu-009",
@@ -5597,8 +5601,8 @@
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
     "categoryUrl": "rgw_page_power_supplies.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/psu-013/main.webp",
+    "placeholder": null,
     "identifiers": {
       "family": "Cooler Master 600W"
     },
@@ -5609,7 +5613,9 @@
         "group": "Питание"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/psu-013/main.webp"
+    ]
   },
   {
     "id": "psu-014",

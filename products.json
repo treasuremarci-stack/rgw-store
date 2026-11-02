@@ -2779,7 +2779,7 @@
     "categoryName": "SSD",
     "categoryUrl": "rgw_page_ssd.html",
     "image": "images/products/ssd-006/main.webp",
-    "placeholder": "💾",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "MZ-V9P1T0BW"
     },

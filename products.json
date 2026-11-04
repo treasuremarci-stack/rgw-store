@@ -6736,8 +6736,8 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-15/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Диагональ",

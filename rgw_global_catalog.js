@@ -1,5 +1,5 @@
 (()=>{const catalogData=[
-      {name:"Компьютеры",icon:"💻",items:[["Ноутбуки","rgw_page_laptops.html"],["Моноблоки","rgw_page_monoblocks.html"],["Системные блоки","rgw_page_system_units.html"]]},
+      {name:"Компьютеры",icon:"💻",items:[["Ноутбуки","rgw_page_laptops.html"],["Моноблоки","rgw_page_monoblocks.html"]]},
       {name:"Комплектующие",icon:"🧩",items:[["Видеокарты","rgw_page_gpus.html"],["Процессоры","rgw_page_processors.html"],["Материнские платы","rgw_page_motherboards.html"],["Оперативная память","rgw_page_ram.html"],["SSD","rgw_page_ssd.html"],["HDD","rgw_page_hdd.html"],["Корпуса","rgw_page_cases.html"],["Блоки питания","rgw_page_power_supplies.html"],["Охлаждение","rgw_page_cooling.html"]]},
       {name:"Периферия",icon:"⌨️",items:[["Мониторы","rgw_page_monitors.html"],["Клавиатуры","rgw_page_keyboards.html"],["Мыши","rgw_page_mice.html"],["Наушники","rgw_page_headphones.html"],["Колонки","rgw_page_speakers.html"],["Веб-камеры","rgw_page_webcams.html"]]},
       {name:"Печать",icon:"🖨️",items:[["Принтеры и МФУ","rgw_page_printers.html"],["Картриджи","rgw_page_cartridges.html"],["Расходные материалы","rgw_page_print_consumables.html"]]},

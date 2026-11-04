@@ -4837,8 +4837,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-003/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "Vista Pro"
     },
@@ -4854,7 +4854,14 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cases-003/main.webp",
+      "images/products/cases-003/front.webp",
+      "images/products/cases-003/angle.webp",
+      "images/products/cases-003/side.webp",
+      "images/products/cases-003/interior.webp",
+      "images/products/cases-003/back.webp"
+    ]
   },
   {
     "id": "cases-004",
@@ -4991,8 +4998,8 @@
     "category": "Корпуса",
     "categoryName": "Корпуса",
     "categoryUrl": "rgw_page_cases.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/cases-009/main.webp",
+    "placeholder": null,
     "identifiers": {
       "modelNumber": "C285M"
     },
@@ -5008,7 +5015,12 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/cases-009/main.webp",
+      "images/products/cases-009/front.webp",
+      "images/products/cases-009/angle.webp",
+      "images/products/cases-009/interior.webp"
+    ]
   },
   {
     "id": "cases-010",

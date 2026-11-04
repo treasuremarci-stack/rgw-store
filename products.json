@@ -5670,7 +5670,9 @@
       "images/products/psu-014/main.webp",
       "images/products/psu-014/01.webp",
       "images/products/psu-014/02.webp",
-      "images/products/psu-014/03.webp"
+      "images/products/psu-014/03.webp",
+      "images/products/psu-014/04.webp",
+      "images/products/psu-014/05.webp"
     ]
   },
   {
@@ -5696,7 +5698,9 @@
       "images/products/psu-015/main.webp",
       "images/products/psu-015/01.webp",
       "images/products/psu-015/02.webp",
-      "images/products/psu-015/03.webp"
+      "images/products/psu-015/03.webp",
+      "images/products/psu-015/04.webp",
+      "images/products/psu-015/05.webp"
     ]
   },
   {
@@ -5722,7 +5726,8 @@
       "images/products/psu-016/main.webp",
       "images/products/psu-016/01.webp",
       "images/products/psu-016/02.webp",
-      "images/products/psu-016/03.webp"
+      "images/products/psu-016/03.webp",
+      "images/products/psu-016/04.webp"
     ]
   },
   {
@@ -5745,7 +5750,11 @@
       }
     ],
     "images": [
-      "images/products/psu-017/main.webp"
+      "images/products/psu-017/main.webp",
+      "images/products/psu-017/01.webp",
+      "images/products/psu-017/02.webp",
+      "images/products/psu-017/03.webp",
+      "images/products/psu-017/04.webp"
     ]
   },
   {

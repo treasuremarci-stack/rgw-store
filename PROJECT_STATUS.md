@@ -1,6 +1,30 @@
 # PROJECT_STATUS.md — АКС current state
 
-Last updated: 2026-11-04
+Last updated: 2026-11-07
+
+## Замена фотографий всех WD Purple (2026-11-07)
+
+- Проверены все товары Western Digital Purple в каталоге HDD: `hdd-001` (1 TB), `hdd-002` (10 TB), `hdd-003` (14 TB), `hdd-004` (2 TB), `hdd-005` (8 TB), `hdd-006` (4 TB) и `hdd-007` (6 TB).
+- Заменены все 7 основных фотографий `main.webp`. Для каждого объёма использована отдельная реальная фотография физического HDD с металлическим корпусом и читаемой фиолетовой этикеткой WD Purple; общая фотография между моделями не использовалась.
+- Источники точных фотографий: FixPart (1 TB), Kaspi (2 TB), Sofmap/Recole (4 TB), Yandex Market (6 TB), eBay (8 TB), Noon (10 TB) и GuvenlikBayii (14 TB). Для 10 TB и 14 TB соответствие объёма и модели дополнительно проверено по надписи на этикетке (`WD101PURZ` и `WD140PURZ`).
+- Все файлы пересохранены локально в WebP 1000×1000 с прозрачным фоном, центрированием и одинаковой визуальной высотой диска. Коробки, рекламные элементы, водяные знаки, нарисованные камеры и искусственные тени не подключались.
+- Пути в `products.json` и `rgw_page_hdd.html` сохранены без изменений: универсальная страница товара продолжает использовать локальный `images/products/hdd-00X/main.webp`. Цены, названия, объёмы, характеристики, ID, SKU, фильтры, сортировка, `price.csv`, JavaScript и фотографии других HDD/SSD не изменялись.
+
+### Проверки этапа
+
+- Проверены 7 физических файлов: формат WebP, размер 1000×1000, наличие alpha-канала и неполная непрозрачность холста.
+- Визуально проверены все 7 дисков: на этикетках видны соответствующие объёмы 1/2/4/6/8/10/14 TB; изображения не содержат прежнюю иконку камеры.
+- Проверены записи `products.json`, карточки `rgw_page_hdd.html` и локальные пути галереи; дополнительных старых изображений WD Purple в массивах `images` нет.
+- Для пользовательской визуальной проверки отдельно рекомендованы `hdd-002` (10 TB, фотография бывшего в употреблении диска) и `hdd-003` (14 TB, ракурс под углом); технических ошибок загрузки не обнаружено.
+
+Источники фотографий:
+- 1 TB: https://fixpart.nl/product/western-digital-wd10purz-sata-lii-harde-schijf-35
+- 2 TB: https://kaspi.kz/shop/p/hdd-western-digital-purple-wd20purz-2000-gb-6800681/
+- 4 TB: https://used.sofmap.com/r/item/2133055806827
+- 6 TB: https://market.yandex.ru/product--zhestkii-disk-western-digital-wd-red-pro-6-tb-wd6003ffbx/1779564919?sku=47419712&uniqueId=1067033
+- 8 TB: https://www.ebay.com/itm/226918855457
+- 10 TB: https://www.noon.com/egypt-en/wd101purz-10tb-7200-rpm-256mb-cache-sata-6-0gb-s-3-5-internal-hard-drive-purple/N47701100A/p/
+- 14 TB: https://www.guvenlikbayii.com/image/cache/data/urunler/hard-disk/wd14tbdiskfiyat-600x600.jpg
 
 ## Обработка фотографий мониторов Redmi (2026-11-04)
 

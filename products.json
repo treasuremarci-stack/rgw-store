@@ -10729,7 +10729,7 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": "images/products/headphones-1/main.webp",
+    "image": null,
     "placeholder": "🎧",
     "catalogFacts": [
       {
@@ -10744,10 +10744,7 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {},
-    "images": [
-      "images/products/headphones-1/main.webp"
-    ]
+    "identifiers": {}
   },
   {
     "id": "headphones-2",
@@ -11506,7 +11503,7 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
+    "image": "images/products/keyboards-1/main.webp",
     "placeholder": "⌨️",
     "catalogFacts": [
       {
@@ -11526,7 +11523,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-1/main.webp"
+    ]
   },
   {
     "id": "keyboards-2",
@@ -11910,7 +11910,7 @@
     "category": "Клавиатуры",
     "categoryName": "Клавиатуры",
     "categoryUrl": "rgw_page_keyboards.html",
-    "image": null,
+    "image": "images/products/keyboards-15/main.webp",
     "placeholder": "⌨️",
     "catalogFacts": [
       {
@@ -11930,7 +11930,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-15/main.webp"
+    ]
   },
   {
     "id": "keyboards-16",
@@ -12046,7 +12049,8 @@
     "verifiedSpecs": [],
     "identifiers": {},
     "images": [
-      "images/products/keyboards-19/main.webp"
+      "images/products/keyboards-19/main.webp",
+      "images/products/keyboards-19/02.webp"
     ]
   },
   {

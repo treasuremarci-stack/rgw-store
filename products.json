@@ -11526,7 +11526,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-1/main.webp"
+    ]
   },
   {
     "id": "keyboards-2",
@@ -11930,7 +11933,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/keyboards-15/main.webp"
+    ]
   },
   {
     "id": "keyboards-16",

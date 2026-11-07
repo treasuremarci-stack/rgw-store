@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-07",
   "scope": "Все товары девяти подкатегорий раздела «Комплектующие»",
   "imageRoot": "images/products/<PRODUCT_ID>/",
   "policy": "Официальный источник предпочтителен; если чистая фотография отсутствует, допускается точный источник надёжного магазина; при отсутствии подтверждения сохраняется заглушка.",
@@ -18,8 +18,8 @@
     },
     "Материнские платы": {
       "total": 16,
-      "downloaded": 6,
-      "existing": 5,
+      "downloaded": 8,
+      "existing": 3,
       "placeholder": 5
     },
     "Оперативная память": {
@@ -61,8 +61,8 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 93,
-    "existing": 22,
+    "downloaded": 95,
+    "existing": 20,
     "placeholder": 22,
     "webp": 254
   },
@@ -173,7 +173,7 @@
         "images/products/gpu-007/main.webp"
       ],
       "source_urls": [],
-      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    "reason": "Точная фотография сохранена и приведена к единому прозрачному холсту 1000×1000; модель не изменялась."
     },
     {
       "id": "gpu-008",
@@ -516,7 +516,7 @@
         "images/products/ssd-005/main.webp"
       ],
       "source_urls": [],
-      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    "reason": "Точная фотография сохранена и приведена к единому прозрачному холсту 1000×1000; модель не изменялась."
     },
     {
       "id": "ssd-006",
@@ -528,7 +528,7 @@
         "images/products/ssd-006/main.webp"
       ],
       "source_urls": [],
-      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    "reason": "Точная фотография сохранена и приведена к единому прозрачному холсту 1000×1000; модель не изменялась."
     },
     {
       "id": "ssd-007",
@@ -869,13 +869,16 @@
       "id": "mb-006",
       "category": "Материнские платы",
       "model": "Материнка Gigabyte Z890M AORUS ELITE WIFI7 ICE",
-      "status": "existing",
+    "status": "downloaded",
       "photo_count": 1,
       "paths": [
         "images/products/mb-006/main.webp"
       ],
-      "source_urls": [],
-      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    "source_urls": [
+      "https://www.gigabyte.com/Motherboard/Z890M-AORUS-ELITE-WIFI7-ICE",
+      "https://static.gigabyte.com/StaticFile/Image/Global/9386635a703e45ef35cd067d5e5c7201/ProductRemoveBg/41982"
+    ],
+    "reason": "Точная белая версия Z890M AORUS ELITE WIFI7 ICE заменена на официальный кадр самой платы без коробки и приведена к прозрачному холсту 1000×1000."
     },
     {
       "id": "mb-007",
@@ -918,9 +921,9 @@
       ],
       "source_urls": [
         "https://www.gigabyte.com/Motherboard/B760M-K-DDR4-rev-10",
-        "https://static.gigabyte.com/StaticFile/Image/Global/418c88fc2164f03cd1b6f4c97743150e/ProductRemoveBg/35725/webp/600"
+      "https://static.gigabyte.com/StaticFile/Image/Global/a1616080f42250aaef742977f517a857/ProductRemoveBg/35726"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+    "reason": "Фото с коробкой заменено официальным кадром самой точной платы B760M K DDR4; кадр приведён к прозрачному холсту 1000×1000."
     },
     {
       "id": "mb-011",
@@ -932,10 +935,10 @@
         "images/products/mb-011/main.webp"
       ],
       "source_urls": [
-        "https://www.asus.com/motherboards-components/motherboards/all-series/h610m-g-d4/",
-        "https://www.asus.com/media/Odin/websites/global/ProductLine/20200819054500/P_setting_xxx_0_90_end_800.png"
+      "https://www.asus.com.cn/motherboards-components/motherboards/others/h610m-g-d4/",
+      "https://dlcdnwebimgs.asus.com.cn/gain/7fdd5422-50fc-4e35-b9b9-abd9fee84914/w800"
       ],
-      "reason": "Точная модель ASUS H610M-G D4 подтверждена официальной страницей и изображением платы; добавлено локальное WebP."
+    "reason": "Неправильная плата ASUS B350 Mining Expert заменена точным официальным изображением ASUS H610M-G D4; кадр очищен и приведён к прозрачному холсту 1000×1000."
     },
     {
       "id": "mb-012",
@@ -960,7 +963,7 @@
         "https://www.gigabyte.com/Motherboard/H810M-K",
         "https://cdn.hstatic.net/products/200000420363/h810m_k-02_copy_87ea04ca8ec54e74b6ad9873a6299b35_master.jpg"
       ],
-      "reason": "Точная модель GIGABYTE H810M K подтверждена официальной страницей; добавлено локальное WebP."
+    "reason": "Точная фотография сохранена и приведена к единому прозрачному холсту 1000×1000; модель не изменялась."
     },
     {
       "id": "mb-014",
@@ -994,21 +997,24 @@
       ],
       "source_urls": [
         "https://www.gigabyte.com/Motherboard/Z790-D-rev-10-12",
-        "https://static.gigabyte.com/StaticFile/Image/Global/041398d4dee5b63ca27acd4ef01de883/ProductRemoveBg/39380/webp/600"
+      "https://static.gigabyte.com/StaticFile/Image/Global/6b05441e42604d43f0303d914fa28679/ProductRemoveBg/39381"
       ],
-      "reason": "Точная модель подтверждена официальным источником; добавлены локальные WebP."
+    "reason": "Фото с коробкой заменено официальным кадром самой точной платы Z790 D DDR5; кадр приведён к прозрачному холсту 1000×1000."
     },
     {
       "id": "mb-016",
       "category": "Материнские платы",
       "model": "Материнка Gigabyte Z890 UD",
-      "status": "existing",
+    "status": "downloaded",
       "photo_count": 1,
       "paths": [
         "images/products/mb-016/main.webp"
       ],
-      "source_urls": [],
-      "reason": "Существующая подтверждённая фотография сохранена без изменений."
+    "source_urls": [
+      "https://www.gigabyte.com/Motherboard/Z890-UD-rev-10",
+      "https://static.gigabyte.com/StaticFile/Image/Global/6d1ff41f2183783e829b21e0d58afcae/ProductRemoveBg/42684"
+    ],
+    "reason": "Фотография Gigabyte Z890 UD с коробкой заменена официальным кадром самой платы без упаковки и приведена к прозрачному холсту 1000×1000."
     },
     {
       "id": "ram-001",

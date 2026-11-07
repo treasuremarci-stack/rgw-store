@@ -10729,7 +10729,7 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
+    "image": "images/products/headphones-1/main.webp",
     "placeholder": "🎧",
     "catalogFacts": [
       {
@@ -10744,7 +10744,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/headphones-1/main.webp"
+    ]
   },
   {
     "id": "headphones-2",

@@ -62,6 +62,107 @@
       }
     ]
   },
+  "latest_print_missing_update": {
+    "updated_at": "2026-11-08",
+    "scope": [
+      "Картриджи",
+      "Расходные материалы для печати"
+    ],
+    "pages": [
+      "rgw_page_cartridges.html",
+      "rgw_page_print_consumables.html"
+    ],
+    "total_products_checked": 64,
+    "missing_before": 13,
+    "new_main_photos": 11,
+    "products_with_main_photo_after": 62,
+    "unresolved_ids": [
+      "cartridges-37",
+      "cartridges-51"
+    ],
+    "unresolved": [
+      {
+        "id": "cartridges-37",
+        "name": "Картридж Тонер Универсал",
+        "reason": "В каталоге нет производителя, артикула или совместимой модели; точную фотографию подтвердить невозможно."
+      },
+      {
+        "id": "cartridges-51",
+        "name": "Картридж B225 Asta с чипом",
+        "reason": "Не указан точный артикул/ресурс версии Asta с чипом; найденное изображение Asta 006R04403 относится к версии без чипа и не использовано."
+      }
+    ],
+    "background": "#FFFFFF",
+    "local_webp_only": true,
+    "printers_touched": false,
+    "visual_checks": [
+      "Белый фон внутри новых WebP",
+      "Пути products.json и обеих категорий проверены",
+      "Страница товара использует существующие product.html/product.js без изменений",
+      "Добавлен только локальный белый фон для контейнера изображений двух целевых страниц"
+    ],
+    "model_variant_notes": [
+      "cartridges-1: название каталога объединяет CF238X и CRG-737; использовано подтверждённое изображение Asta CRG-737.",
+      "cartridges-26: источник Asta относится к семейству CRG-071/CRG-071H; в каталоге не указан суффикс H или чип."
+    ],
+    "sources": [
+      {
+        "id": "cartridges-1",
+        "source": "https://www.astaoffice.com/wp-content/uploads/2021/08/20210820075051ebac59566796f442.jpg",
+        "path": "images/products/cartridges-1/main.webp"
+      },
+      {
+        "id": "cartridges-2",
+        "source": "https://gammatech.uz/image/catalog/demo/category/Картриджи/ASTA/crg51d2.png",
+        "path": "images/products/cartridges-2/main.webp"
+      },
+      {
+        "id": "cartridges-4",
+        "source": "https://i5.walmartimages.com/seo/Xerox-109R00725-Print-Cartridge-Phaser-3130_3770d20f-dfcd-418e-a654-6a3049127114_1.60f476a5e73ea2e3d50463a2198b2652.jpeg",
+        "path": "images/products/cartridges-4/main.webp"
+      },
+      {
+        "id": "cartridges-26",
+        "source": "https://www.astaoffice.com/wp-content/uploads/2023/10/20231019090413b70758b995f23af5.jpg",
+        "path": "images/products/cartridges-26/main.webp"
+      },
+      {
+        "id": "cartridges-29",
+        "source": "https://pccentro.net.ve/img/s/9/4/0/7/9/94079-large_default.webp",
+        "path": "images/products/cartridges-29/main.webp"
+      },
+      {
+        "id": "cartridges-44",
+        "source": "https://www.astaoffice.com/wp-content/uploads/2025/04/20250409073001883f2248b97fd470.jpg",
+        "path": "images/products/cartridges-44/main.webp"
+      },
+      {
+        "id": "cartridges-48",
+        "source": "https://www.astaoffice.com/wp-content/uploads/2021/08/20210823020457d75bf0af9c5f8e47.jpg",
+        "path": "images/products/cartridges-48/main.webp"
+      },
+      {
+        "id": "cartridges-53",
+        "source": "https://www.astaoffice.com/wp-content/uploads/2023/05/2023050503455615429eec5b650b0f.jpg",
+        "path": "images/products/cartridges-53/main.webp"
+      },
+      {
+        "id": "consumables-4",
+        "source": "https://c.dns-shop.ru/thumb/st1/fit/1200/1200/5643fe23923090cc52f19a409107c661/q85_85fd549c9f235576966331e46fa738adf07a4c41a8017f2f483f5f54c80cb8cf.jpg",
+        "path": "images/products/consumables-4/main.webp"
+      },
+      {
+        "id": "consumables-8",
+        "source": "https://promart.vteximg.com.br/arquivos/ids/8336204-1000-1000/imageUrl_1.jpg?v=638660398030300000",
+        "path": "images/products/consumables-8/main.webp"
+      },
+      {
+        "id": "consumables-9",
+        "source": "https://suministrosmircompu.com/imagenes/Toner-Xerox-106R02732-wpp1753135227180.webp",
+        "path": "images/products/consumables-9/main.webp"
+      }
+    ]
+  },
   "categories": [
     {
       "name": "Мониторы",
@@ -169,7 +270,17 @@
         "cartridges-51",
         "cartridges-53"
       ],
-      "added_webp_files": 44
+      "added_webp_files": 44,
+      "latest_recheck": {
+        "updated_at": "2026-11-08",
+        "missing_before": 10,
+        "new_main_photos": 8,
+        "ready_after": 52,
+        "placeholder_ids_after": [
+          "cartridges-37",
+          "cartridges-51"
+        ]
+      }
     },
     {
       "name": "Расходные материалы для печати",
@@ -184,7 +295,14 @@
         "consumables-8",
         "consumables-9"
       ],
-      "added_webp_files": 7
+      "added_webp_files": 7,
+      "latest_recheck": {
+        "updated_at": "2026-11-08",
+        "missing_before": 3,
+        "new_main_photos": 3,
+        "ready_after": 10,
+        "placeholder_ids_after": []
+      }
     }
   ],
   "products": [
@@ -1044,18 +1162,22 @@
     {
       "id": "cartridges-1",
       "name": "Картридж Canon cartridge CF238X/CRG-737 Аsta",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-1/main.webp"
+      ],
+      "note": "Подтверждён Asta CRG-737; название каталога также содержит CF238X, поэтому неоднозначность сохранена без изменения названия."
     },
     {
       "id": "cartridges-2",
       "name": "Картридж Canon cartridge CRG-051D",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-2/main.webp"
+      ],
+      "note": "Подключено точное изображение Asta drum CRG-051D/CF232A на белом фоне."
     },
     {
       "id": "cartridges-3",
@@ -1070,10 +1192,12 @@
     {
       "id": "cartridges-4",
       "name": "Картридж Xerox 3130",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-4/main.webp"
+      ],
+      "note": "Подключено изображение Xerox 109R00725 для Phaser 3130; модель подтверждена по артикулу и совместимости."
     },
     {
       "id": "cartridges-5",
@@ -1288,10 +1412,12 @@
     {
       "id": "cartridges-26",
       "name": "Картридж CRG-071 Asta",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-26/main.webp"
+      ],
+      "note": "Подключено официальное изображение Asta для семейства CRG-071/CRG-071H; суффикс H и наличие чипа в каталоге не указаны."
     },
     {
       "id": "cartridges-27",
@@ -1316,10 +1442,12 @@
     {
       "id": "cartridges-29",
       "name": "Картридж B225 Asta",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-29/main.webp"
+      ],
+      "note": "Подключено подтверждённое изображение Asta 006R04403 для Xerox B225/B230/B235."
     },
     {
       "id": "cartridges-30",
@@ -1397,7 +1525,7 @@
       "status": "placeholder",
       "photo_count": 0,
       "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "note": "Не удалось определить производителя, артикул или совместимую модель; случайное изображение не добавлено."
     },
     {
       "id": "cartridges-38",
@@ -1462,10 +1590,12 @@
     {
       "id": "cartridges-44",
       "name": "Картридж CRG-056L Asta",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-44/main.webp"
+      ],
+      "note": "Подключено официальное изображение Asta для CRG-056L/CRG-056/CRG-056H; карточка каталога сохранена без изменений."
     },
     {
       "id": "cartridges-45",
@@ -1500,10 +1630,12 @@
     {
       "id": "cartridges-48",
       "name": "Картридж MLT-D109S Asta",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-48/main.webp"
+      ],
+      "note": "Подключено официальное изображение Asta MLT-D109S для Samsung."
     },
     {
       "id": "cartridges-49",
@@ -1531,7 +1663,7 @@
       "status": "placeholder",
       "photo_count": 0,
       "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "note": "Не указан точный артикул или ресурс версии Asta с чипом; изображение Asta 006R04403 без чипа намеренно не использовано."
     },
     {
       "id": "cartridges-52",
@@ -1546,10 +1678,12 @@
     {
       "id": "cartridges-53",
       "name": "Картридж CRG-049 Asta",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/cartridges-53/main.webp"
+      ],
+      "note": "Подключено официальное изображение Asta для CRG-049/CRG-047 drum."
     },
     {
       "id": "cartridges-54",
@@ -1594,10 +1728,12 @@
     {
       "id": "consumables-4",
       "name": "Ксерокс WC 415/415DC / WCPro315/320/420/420DC Toner (2 x 6k)",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-4/main.webp"
+      ],
+      "note": "Подключено изображение Xerox 006R01044 для указанной серии WorkCentre, комплект 2 × 6000 страниц."
     },
     {
       "id": "consumables-5",
@@ -1632,18 +1768,22 @@
     {
       "id": "consumables-8",
       "name": "Ксерокс картридж 106R01529 3550",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-8/main.webp"
+      ],
+      "note": "Подключено точное изображение Xerox 106R01529 для WorkCentre 3550."
     },
     {
       "id": "consumables-9",
       "name": "Ксерокс Black for 106R02732 Xerox 3610/3615",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/consumables-9/main.webp"
+      ],
+      "note": "Подключено точное изображение Xerox 106R02732 для Phaser 3610/WorkCentre 3615; лишняя рекламная надпись удалена кадрированием вокруг коробки."
     },
     {
       "id": "consumables-10",

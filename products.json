@@ -8268,8 +8268,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-1/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8283,7 +8283,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-1/main.webp"
+    ]
   },
   {
     "id": "cartridges-2",
@@ -8293,8 +8296,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8308,7 +8311,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-2/main.webp"
+    ]
   },
   {
     "id": "cartridges-3",
@@ -8346,8 +8352,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8361,7 +8367,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-4/main.webp"
+    ]
   },
   {
     "id": "cartridges-5",
@@ -8939,8 +8948,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-26/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -8954,7 +8963,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-26/main.webp"
+    ]
   },
   {
     "id": "cartridges-27",
@@ -9020,8 +9032,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-29/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9030,7 +9042,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-29/main.webp"
+    ]
   },
   {
     "id": "cartridges-30",
@@ -9414,8 +9429,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-44/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9429,7 +9444,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-44/main.webp"
+    ]
   },
   {
     "id": "cartridges-45",
@@ -9523,8 +9541,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-48/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9538,7 +9556,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-48/main.webp"
+    ]
   },
   {
     "id": "cartridges-49",
@@ -9647,8 +9668,8 @@
     "category": "Картриджи",
     "categoryName": "Картриджи",
     "categoryUrl": "rgw_page_cartridges.html",
-    "image": null,
-    "placeholder": "🧴",
+    "image": "images/products/cartridges-53/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -9662,7 +9683,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/cartridges-53/main.webp"
+    ]
   },
   {
     "id": "cartridges-54",
@@ -14040,8 +14064,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -14050,7 +14074,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-4/main.webp"
+    ]
   },
   {
     "id": "consumables-5",
@@ -14129,8 +14156,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-8/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -14139,7 +14166,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-8/main.webp"
+    ]
   },
   {
     "id": "consumables-9",
@@ -14149,8 +14179,8 @@
     "category": "Расходные материалы",
     "categoryName": "Расходные материалы",
     "categoryUrl": "rgw_page_print_consumables.html",
-    "image": null,
-    "placeholder": "🧾",
+    "image": "images/products/consumables-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -14164,7 +14194,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/consumables-9/main.webp"
+    ]
   },
   {
     "id": "consumables-10",

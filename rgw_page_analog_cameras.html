@@ -33,7 +33,9 @@ main{padding-bottom:48px}.category-head{padding:34px 0 18px}.breadcrumbs{display
 .check input:disabled + .checkmark{border-color:#e1e4eb;background:#f5f6fa;cursor:not-allowed;opacity:.55}
 .check input:disabled ~ *{cursor:not-allowed;opacity:.55}
 @media (prefers-reduced-motion:reduce){.check,.checkmark,.checkmark::after{transition-duration:1ms!important}}
-</style>
+    /* Keep the image area visually continuous with the normalized white WebP backgrounds. */
+    .product-image{background:#fff}
+  </style>
 </head><body><header class="header">
   <div class="container header-shell">
     <div class="header-inner">

@@ -1,6 +1,6 @@
 {
   "section": "Видеонаблюдение",
-  "updated": "2026-10-25",
+  "updated": "2026-11-08",
   "categories": [
     {
       "name": "IP-камеры",
@@ -129,7 +129,7 @@
       "status": "processed",
       "photo_count": 2,
       "paths": ["images/products/intercoms-2/main.webp", "images/products/intercoms-2/02.webp"],
-      "sources": ["https://www.dahuasecurity.com/", "DHI-KTP01_datasheet_20200218.pdf"],
+      "sources": ["https://www.dahuasecurity.com/", "DHI-KTP01_datasheet_20200218.pdf", "https://dahua-russia.ru/dhi-vto2202f-p/"],
       "exact_match_confirmed": true,
       "reason": null,
       "catalog_checked": true,

@@ -1,6 +1,6 @@
 {
   "stage": "peripheral-and-printing-photos",
-  "updated_at": "2026-10-25",
+  "updated_at": "2026-11-08",
   "repository": "treasuremarci-stack/rgw-store",
   "branch": "main",
   "scope": {
@@ -25,6 +25,42 @@
     "placeholders_after_run": 22,
     "new_webp_files": 120,
     "peripheral_gallery_files_after_run": 130
+  },
+  "latest_mouse_update": {
+    "updated_at": "2026-11-08",
+    "category": "Мыши",
+    "total_products": 17,
+    "products_with_main_photo": 17,
+    "placeholder_products_after": 0,
+    "new_main_photos": 3,
+    "physical_webp_processed": 20,
+    "background": "#FFFFFF",
+    "scale_changed": false,
+    "cropping_or_design_changed": false,
+    "unresolved_ids": [],
+    "new_sources": [
+      {
+        "id": "mice-1",
+        "model": "GENIUS Ergo 500",
+        "product_page": "https://genius.manymanuals.com/mice/31010160101/datasheet-25508",
+        "image_source": "https://bestpc.bg/images/productimages-normal/143950.jpg",
+        "path": "images/products/mice-1/main.webp"
+      },
+      {
+        "id": "mice-2",
+        "model": "GENIUS NX-Micro / 3101-0126-101",
+        "product_page": "https://genius.manymanuals.com/mice/31010126101/datasheet-40248",
+        "image_source": "https://images.othoba.com/images/thumbs/0000108_genius-nx-micro-mouse-ex1006_400.jpeg",
+        "path": "images/products/mice-2/main.webp"
+      },
+      {
+        "id": "mice-9",
+        "model": "MERCURY MX1500",
+        "product_page": "https://mercury-me.com/product/1282",
+        "image_source": "https://mercury-me.com/uploads//images/pr_pe/MX1500.jpg",
+        "path": "images/products/mice-9/main.webp"
+      }
+    ]
   },
   "categories": [
     {
@@ -61,15 +97,11 @@
       "page": "rgw_page_mice.html",
       "total": 17,
       "existing_ready": 4,
-      "processed_this_run": 10,
-      "ready_after": 14,
-      "placeholders": 3,
-      "placeholder_ids": [
-        "mice-1",
-        "mice-2",
-        "mice-9"
-      ],
-      "added_webp_files": 10
+      "processed_this_run": 13,
+      "ready_after": 17,
+      "placeholders": 0,
+      "placeholder_ids": [],
+      "added_webp_files": 13
     },
     {
       "name": "Наушники",
@@ -609,18 +641,30 @@
     {
       "id": "mice-1",
       "name": "Мышка GENIUS Ergo 500",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-1/main.webp"
+      ],
+      "source_urls": [
+        "https://genius.manymanuals.com/mice/31010160101/datasheet-25508",
+        "https://bestpc.bg/images/productimages-normal/143950.jpg"
+      ],
+      "note": "Точная модель подтверждена по Genius Ergo 500 и артикулу 31010160101; найденное фото подключено локально и приведено к белому фону."
     },
     {
       "id": "mice-2",
       "name": "Мышка GENIUS NX-MICRO RETRACTABLE BL",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-2/main.webp"
+      ],
+      "source_urls": [
+        "https://genius.manymanuals.com/mice/31010126101/datasheet-40248",
+        "https://images.othoba.com/images/thumbs/0000108_genius-nx-micro-mouse-ex1006_400.jpeg"
+      ],
+      "note": "Точная модель NX-Micro подтверждена официальными характеристиками Genius и артикулом 3101-0126-101; фото с выдвижным кабелем подключено локально."
     },
     {
       "id": "mice-3",
@@ -688,10 +732,16 @@
     {
       "id": "mice-9",
       "name": "Мышка MERCURY MX-1500, OPTICAL MOUSE",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "note": "Точное фото именно указанной модели/модификации не подтверждено; похожий или другой вариант не использован."
+      "status": "processed_this_run",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mice-9/main.webp"
+      ],
+      "source_urls": [
+        "https://mercury-me.com/product/1282",
+        "https://mercury-me.com/uploads//images/pr_pe/MX1500.jpg"
+      ],
+      "note": "Точная модель MX1500 подтверждена официальной страницей Mercury; фото самой чёрной мыши подключено локально."
     },
     {
       "id": "mice-10",

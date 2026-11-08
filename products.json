@@ -12626,8 +12626,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-1/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12641,7 +12641,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-1/main.webp"
+    ]
   },
   {
     "id": "mice-2",
@@ -12651,8 +12654,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12666,7 +12669,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-2/main.webp"
+    ]
   },
   {
     "id": "mice-3",
@@ -12877,8 +12883,8 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [
       {
         "label": "Модель",
@@ -12892,7 +12898,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/mice-9/main.webp"
+    ]
   },
   {
     "id": "mice-10",

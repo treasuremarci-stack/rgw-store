@@ -14,7 +14,6 @@ function evaluate(p,category){
  if(category==='Оперативная память'&&isLaptopRam(p))return {state:'bad',message:'Ноутбучная память SO-DIMM'};
  if(category==='Оперативная память'&&mb&&ramType(p)&&ramType(mb)&&ramType(p)!==ramType(mb))return {state:'bad',message:'Тип памяти не подходит к плате'};
  if(category==='Материнские платы'&&ram&&ramType(p)&&ramType(ram)&&ramType(p)!==ramType(ram))return {state:'bad',message:'Тип памяти не подходит к выбранной ОЗУ'};
- if((category==='Процессоры'||category==='Материнские платы')&&cpu&&mb&&socket(cpu)&&socket(mb)&&socket(cpu)!==socket(mb))return {state:'bad',message:'Сначала исправьте конфликт сокетов'};
  return {state:'ok',message:''};
 }
 function make(tag,cls,txt){const e=document.createElement(tag);if(cls)e.className=cls;if(txt!==undefined)e.textContent=txt;return e}

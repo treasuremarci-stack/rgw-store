@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="rgw_category_empty.css">
   <style>.component-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:24px}.component-links a{border:1px solid var(--line);border-radius:16px;padding:18px;background:#fff;font-weight:700}.component-links a:hover{background:#f3f3f3}@media(max-width:760px){.component-links{grid-template-columns:1fr 1fr}}@media(max-width:480px){.component-links{grid-template-columns:1fr}}</style>
 <link rel="stylesheet" href="rgw_global_catalog.css">
-<link rel="stylesheet" href="rgw_brand.css"></head>
+<link rel="stylesheet" href="rgw_brand.css"><style>
+.pc-builder{margin:34px 0 52px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(290px,1fr);gap:24px;align-items:start}.builder-panel,.builder-sidebar{background:#fff;border:1px solid #e4e8ee;border-radius:18px;padding:24px}.builder-panel>p{color:#647084;margin-top:6px}.builder-step{padding:18px 0;border-top:1px solid #e9edf2}.builder-step-head{display:flex;justify-content:space-between;align-items:center;gap:12px}.builder-step h2{font-size:17px;margin:0 0 12px}.builder-select{display:block;width:100%;max-width:100%;padding:13px 12px;border:1px solid #cbd4e0;border-radius:10px;background:white;color:#1c2635;font:inherit}.builder-select:focus{outline:2px solid #376cce;outline-offset:2px}.builder-clear{border:0;background:transparent;color:#285fc0;cursor:pointer}.builder-chosen{display:flex;align-items:center;gap:14px;margin-top:12px}.builder-chosen img{width:72px;height:72px;object-fit:contain}.builder-chosen a{color:#285fc0}.builder-sidebar{position:sticky;top:20px}.builder-sidebar h2{margin:0 0 14px}.builder-summary-row{display:grid;gap:6px;border-bottom:1px solid #edf0f4;padding:11px 0}.builder-summary-row span{font-size:13px;color:#697588}.builder-summary-row strong{font-size:14px;overflow-wrap:anywhere}.builder-status{padding:14px;background:#edf4ff;border-radius:10px;margin:16px 0;line-height:1.5;font-size:14px}.builder-status.warning{background:#fff1e7}.builder-reset{border:1px solid #cbd4e0;border-radius:10px;padding:12px 18px;background:white;cursor:pointer;font:inherit}.builder-reset:disabled{opacity:.45;cursor:default}.builder-note{font-size:13px;color:#6a7380;line-height:1.5}@media(max-width:850px){.pc-builder{grid-template-columns:1fr}.builder-sidebar{position:static}}@media(max-width:520px){.builder-panel,.builder-sidebar{padding:16px}.pc-builder{gap:14px}}
+</style></head>
 <body>
   <div class="topbar"><div class="container topbar-inner"><div>АКС — локальный магазин компьютерной техники</div><div>Каталог • Комплектующие</div></div></div>
   <header class="header"><div class="container header-shell"><div class="header-inner">
@@ -25,10 +27,16 @@
       </section></div></header>
   <main><section class="container"><div class="crumbs"><a href="index.html">Главная</a><span>›</span><a href="index.html">Каталог</a><span>›</span><span>Комплектующие</span></div>
     <div class="category-strip"><div><div class="eyebrow">Раздел каталога</div><h1>Комплектующие</h1></div><p>Выберите компонент для сборки или обновления компьютера.</p></div>
+    <div class="pc-builder" id="constructor">
+      <div class="builder-panel"><h2>Конструктор игрового ПК</h2><p>Подберите комплектующие из каталога АКС. Несовместимые по сокету процессоры и платы, а также неподходящая оперативная память автоматически исключаются из выбора.</p><div id="builderSteps"></div></div>
+      <aside class="builder-sidebar"><h2>Ваша сборка</h2><div id="builderSummary"></div><div id="builderStatus" class="builder-status">Загрузка комплектующих…</div><button type="button" class="builder-reset" id="builderReset" disabled>Очистить сборку</button><p class="builder-note">Цены пока не показываются. Совместимость корпуса, видеокарты, блока питания, кулера и BIOS требует проверки характеристик — отсутствие предупреждения не гарантирует полной совместимости.</p></aside>
+    </div>
+    <h2>Категории комплектующих</h2>
     <div class="component-links">
       <a href="rgw_page_gpus.html">Видеокарты →</a><a href="rgw_page_processors.html">Процессоры →</a><a href="rgw_page_motherboards.html">Материнские платы →</a><a href="rgw_page_ram.html">Оперативная память →</a><a href="rgw_page_ssd.html">SSD →</a><a href="rgw_page_hdd.html">HDD →</a><a href="rgw_page_cases.html">Корпуса →</a><a href="rgw_page_power_supplies.html">Блоки питания →</a><a href="rgw_page_cooling.html">Охлаждение →</a>
     </div>
   </section></main>
   <footer class="footer"><div class="container">АКС — каталог компьютерной техники.</div></footer>
+<script src="rgw_pc_builder.js"></script>
 <script src="rgw_global_catalog.js"></script></body>
 </html>

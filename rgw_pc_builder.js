@@ -68,6 +68,12 @@ function compatible(product,category){
   if(category==='Оперативная память'&&laptopMemory(product))return{state:'bad',message:'Ноутбучная память SO-DIMM'};
   if(category==='Оперативная память'&&board&&memoryType(product)&&memoryType(board)&&memoryType(product)!==memoryType(board))return{state:'bad',message:'Тип памяти не подходит к плате'};
   if(category==='Материнские платы'&&ram&&memoryType(product)&&memoryType(ram)&&memoryType(product)!==memoryType(ram))return{state:'bad',message:'Тип памяти не подходит к выбранной ОЗУ'};
+  const selectedCase=state.selected.get('Корпуса');
+  if(category==='Материнские платы'&&selectedCase&&formFactor(product)&&formFactor(selectedCase)){
+    const caseSize=formFactor(selectedCase),boardSize=formFactor(product);
+    const supported=caseSize==='ATX'?['ATX','MICROATX','MINIITX'].includes(boardSize):caseSize==='MICROATX'?['MICROATX','MINIITX'].includes(boardSize):caseSize==='MINIITX'?boardSize==='MINIITX':true;
+    if(!supported)return{state:'bad',message:'Материнская плата не помещается в выбранный корпус'};
+  }
   if(category==='Корпуса'&&board&&formFactor(product)&&formFactor(board)){
     const caseSize=formFactor(product);
     const boardSize=formFactor(board);
@@ -268,7 +274,7 @@ function renderStatus(){
   }else if(count===0){
     status.textContent='Начните с процессора. Несовместимые варианты будут недоступны.';
   }else if(count===steps.length){
-    status.textContent='Все компоненты выбраны. Базовые проверки совместимости пройдены.';
+    status.textContent='Все компоненты выбраны. Проверены известные параметры сокета, памяти и форм-фактора. Питание, габариты и BIOS требуют проверки.';
   }else{
     const next=steps.find(step=>!state.selected.has(step.key));
     status.textContent='Выбрано '+count+' из '+steps.length+'. Следующий шаг: '+(next?.title||'проверка сборки')+'.';

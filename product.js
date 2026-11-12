@@ -132,9 +132,24 @@
     ).join("");
   }
 
-  function laptopSpecGroup(item) {
+  function laptopSpecGroup(item, presentation) {
     const sourceGroup = String(item.group || "").trim();
-    const groupMap = {
+    const groupMap = presentation === "pilot-v3" ? {
+      "Общие параметры":"Основная информация",
+      "Процессор":"Процессор",
+      "Оперативная память":"Оперативная память",
+      "Память":"Оперативная память",
+      "Накопители":"Накопители",
+      "Экран":"Экран",
+      "Графика":"Графика",
+      "Видеокарта":"Графика",
+      "Интерфейсы":"Подключения",
+      "Подключения":"Подключения",
+      "Габариты":"Корпус и питание",
+      "Питание":"Корпус и питание",
+      "Клавиатура":"Дополнительные характеристики",
+      "Дополнительно":"Дополнительные характеристики"
+    } : {
       "Общие параметры":"Общая информация",
       "Процессор":"Процессор",
       "Оперативная память":"Оперативная память",
@@ -154,12 +169,15 @@
   function renderFullSpecs(product) {
     const category = product.categoryName || product.category || "";
     const isLaptop = category === "Ноутбуки";
+    const presentation = laptopSpecPresentation(product);
     const groups = new Map();
-    const order = isLaptop
+    const order = presentation === "pilot-v3"
+      ? ["Основная информация","Процессор","Оперативная память","Экран","Накопители","Графика","Подключения","Корпус и питание","Дополнительные характеристики"]
+      : isLaptop
       ? ["Общая информация","Процессор","Оперативная память","Накопители","Экран","Видеокарта","Интерфейсы и подключения","Корпус и габариты","Питание и аккумулятор","Дополнительные характеристики"]
       : ["Общие параметры","Экран","Процессор","Оперативная память","Память","Графика","Накопители","Интерфейсы","Питание","Клавиатура","Габариты","Дополнительно"];
     mergeSpecs(product).forEach((item) => {
-      const group = isLaptop ? laptopSpecGroup(item) : (item.group || "Дополнительно");
+      const group = isLaptop ? laptopSpecGroup(item, presentation) : (item.group || "Дополнительно");
       if (!groups.has(group)) groups.set(group, []);
       groups.get(group).push(item);
     });
@@ -184,7 +202,25 @@
     const category = product.categoryName || product.category || "";
     if (category !== "Ноутбуки" || product.id !== "laptop-001") return "previous";
     const requestedStyle = new URLSearchParams(window.location.search).get("specStyle");
-    return requestedStyle === "classic" || requestedStyle === "previous" ? "previous" : "alternative";
+    if (requestedStyle === "classic" || requestedStyle === "previous") return "previous";
+    if (requestedStyle === "alternative" || requestedStyle === "variant2" || requestedStyle === "compact") return "alternative";
+    return "pilot-v3";
+  }
+
+  function renderLaptopPilotDescription(product, copy) {
+    const descriptionText = $("#productDescriptionText");
+    if (!descriptionText) return;
+    const presentation = laptopSpecPresentation(product);
+    if (presentation !== "pilot-v3" || product.id !== "laptop-001") {
+      descriptionText.textContent = "Здесь собраны основные характеристики конкретной конфигурации " + copy.genitive + ".";
+      return;
+    }
+    const paragraphs = [
+      "Acer Aspire Go 15 AG15-42P-R917 — универсальный ноутбук с экраном 15,6″ для учёбы, офисных задач, браузера и повседневной работы. В этой конфигурации установлены AMD Ryzen 7 7730U, 16 ГБ оперативной памяти и встроенная AMD Radeon Graphics, поэтому ноутбук подходит для многозадачности без дискретной видеокарты.",
+      "Экран с разрешением 1920×1080, покрытием ComfyView и частотой 60 Гц рассчитан на работу с текстом, таблицами и просмотр контента. SSD на 512 ГБ с интерфейсом PCIe NVMe 4.0 M.2 обеспечивает достаточно места для программ и файлов, а Windows 11 указана в составе конфигурации каталога.",
+      "Для подключения в характеристиках указаны Wi‑Fi 6, Gigabit Ethernet, Bluetooth 5.1+, HDMI и USB. Серебристый ноутбук весит около 1,78 кг, оснащён цифровым блоком клавиатуры и аккумулятором 53 Вт·ч; подсветка клавиатуры в этой модификации не заявлена."
+    ];
+    descriptionText.innerHTML = paragraphs.map((paragraph) => "<p>" + escapeHtml(paragraph) + "</p>").join("");
   }
 
   const laptopCartIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle><path d="M2.5 3h2.2l2.1 10.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L21 7H6"></path></svg>';
@@ -197,7 +233,22 @@
     const presentation = laptopSpecPresentation(product);
     productContent.classList.toggle("laptop-product", isLaptop);
     productContent.classList.toggle("laptop-alt-specs", presentation === "alternative");
+    productContent.classList.toggle("laptop-pilot-v3", presentation === "pilot-v3");
     productContent.dataset.specStyle = presentation;
+
+    const tabNav = document.querySelector(".product-tabs");
+    const specsPanel = $("#tabSpecs");
+    const descriptionPanel = $("#tabDescription");
+    const reviewsPanel = $("#tabReviews");
+    if (presentation === "pilot-v3") {
+      if (tabNav) tabNav.hidden = true;
+      if (descriptionPanel && specsPanel && descriptionPanel.parentNode === specsPanel.parentNode) {
+        specsPanel.parentNode.insertBefore(descriptionPanel, specsPanel);
+      }
+      if (descriptionPanel) descriptionPanel.hidden = false;
+      if (specsPanel) specsPanel.hidden = false;
+      if (reviewsPanel) reviewsPanel.hidden = true;
+    }
 
     const buildBlock = $("#buildBlock");
     if (buildBlock) {
@@ -221,6 +272,16 @@
   }
 
   function activateTab(name) {
+    const pilotProduct = $("#productContent.laptop-pilot-v3");
+    if (pilotProduct) {
+      const specsPanel = $("#tabSpecs");
+      const descriptionPanel = $("#tabDescription");
+      const reviewsPanel = $("#tabReviews");
+      if (specsPanel) specsPanel.hidden = false;
+      if (descriptionPanel) descriptionPanel.hidden = false;
+      if (reviewsPanel) reviewsPanel.hidden = true;
+      return;
+    }
     document.querySelectorAll(".product-tab").forEach((button) => {
       const active = button.dataset.tab === name;
       button.classList.toggle("active", active);
@@ -338,8 +399,7 @@
     }
     const buildDescription = $("#productBuildDescription");
     if (buildDescription) buildDescription.textContent = "Сохраните " + copy.noun + " для будущего подбора комплектующих и сравнения конфигураций.";
-    const descriptionText = $("#productDescriptionText");
-    if (descriptionText) descriptionText.textContent = "Здесь собраны основные характеристики конкретной конфигурации " + copy.genitive + ".";
+    renderLaptopPilotDescription(product, copy);
 
     const identifiers = product.identifiers || {};
     const modelParts = [identifiers.modelNumber, identifiers.machineType, identifiers.partNumber, identifiers.family].filter(Boolean);

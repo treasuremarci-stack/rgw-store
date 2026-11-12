@@ -3924,7 +3924,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-012/main.webp",
     "placeholder": "🧩",
     "catalogFacts": [
       {
@@ -3943,7 +3943,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-012/main.webp"
+    ]
   },
   {
     "id": "mb-013",

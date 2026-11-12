@@ -18,9 +18,9 @@
     },
     "Материнские платы": {
       "total": 16,
-      "downloaded": 12,
+      "downloaded": 13,
       "existing": 3,
-      "placeholder": 1
+      "placeholder": 0
     },
     "Оперативная память": {
       "total": 11,
@@ -61,10 +61,10 @@
   },
   "totals": {
     "products": 137,
-    "downloaded": 95,
+    "downloaded": 96,
     "existing": 20,
-    "placeholder": 22,
-    "webp": 254
+    "placeholder": 21,
+    "webp": 255
   },
   "records": [
     {
@@ -953,11 +953,16 @@
       "id": "mb-012",
       "category": "Материнские платы",
       "model": "Материнка Gigabyte B760 D5",
-      "status": "placeholder",
-      "photo_count": 0,
-      "paths": [],
-      "source_urls": [],
-      "reason": "Повторная проверка 2026-11-02: запись Gigabyte B760 D5 не содержит точной модели/артикула, а у Gigabyte есть несколько DDR5-плат B760; изображение конкретной платы не подтверждено, оставлена заглушка."
+      "status": "downloaded",
+      "photo_count": 1,
+      "paths": [
+        "images/products/mb-012/main.webp"
+      ],
+      "source_urls": [
+        "https://www.gigabyte.com/Motherboard/B760-DS3H-rev-10",
+        "https://www.gigabyte.com/Image/67d007b1537316a9986c9da9a8b597e0/ProductRemoveBg/34025"
+      ],
+      "reason": "Для каталожного обозначения B760 D5 подтверждён вариант GIGABYTE B760 DS3H DDR5; из официального кадра оставлена только сама плата без коробки и приведена к прозрачному холсту 1000×1000."
     },
     {
       "id": "mb-013",

@@ -118,6 +118,11 @@ function renderStatus(){
   resetButton.disabled=count===0;
 }
 function render(){renderRows();renderStatus()}
+function focusRowButton(key){
+  const step=steps.find(item=>item.key===key);
+  const button=step&&root.querySelector('button[aria-label="Изменить '+step.title+'"]');
+  if(button)button.focus();
+}
 function closeChooser(){
   if(modal.hidden)return;
   modal.hidden=true;modal.setAttribute('aria-hidden','true');document.body.classList.remove('builder-modal-open');
@@ -131,7 +136,7 @@ function selectorCard(product,step){
   content.append(make('span','builder-selector-brand',product.brand||step.title),make('strong','builder-selector-name',product.name));
   const factsNode=make('div','builder-selector-facts');for(const value of factChips(product))factsNode.append(make('span','',value));if(factsNode.childElementCount)content.append(factsNode);
   const button=make('button','builder-selector-button',selected?'Выбрано':check.state==='bad'?'Недоступно':'Добавить');button.type='button';button.disabled=check.state==='bad';button.setAttribute('aria-label',(selected?'Выбрано: ':check.state==='bad'?'Недоступно: ':'Добавить: ')+product.name);
-  button.addEventListener('click',()=>{state.selected.set(step.key,product);closeChooser();render()});content.append(button);card.append(content);
+  button.addEventListener('click',()=>{state.selected.set(step.key,product);closeChooser();render();focusRowButton(step.key)});content.append(button);card.append(content);
   const footer=make('div','builder-selector-footer');
   if(check.state==='bad')footer.append(make('span','builder-selector-reason',check.message));
   const link=make('a','builder-selector-link','Открыть карточку →');link.href='product.html?id='+encodeURIComponent(product.id);footer.append(link);card.append(footer);

@@ -111,6 +111,29 @@
     .full-spec-row dd{margin:0;font-size:13px;font-weight:650}
     .text-panel{max-width:760px;color:#596276;font-size:14px;line-height:1.7}
     .text-panel strong{color:var(--product-ink)}
+
+    /* Laptop-only full-specification reference layout. Other categories keep the existing cards. */
+    #productContent.laptop-product .tab-panel[data-panel="specs"]{max-width:1120px}
+    #productContent.laptop-product .tab-panel[data-panel="specs"] > h2{margin-bottom:21px}
+    #productContent.laptop-product .spec-groups{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 30px;align-items:start}
+    #productContent.laptop-product .spec-group{border:0;border-top:2px solid #e7e9f1;border-radius:0;overflow:visible;background:transparent}
+    #productContent.laptop-product .spec-group h3{display:flex;align-items:center;gap:9px;margin:0;padding:13px 0 10px;background:transparent;color:var(--product-ink);font-size:15px;font-weight:850;letter-spacing:-.02em;border-bottom:1px solid #e7e9f1}
+    #productContent.laptop-product .spec-group h3::before{content:"";width:7px;height:7px;flex:0 0 7px;border-radius:50%;background:var(--product-accent);box-shadow:0 0 0 4px rgba(99,91,255,.1)}
+    #productContent.laptop-product .full-spec-list{margin:0}
+    #productContent.laptop-product .full-spec-row{grid-template-columns:minmax(145px,.84fr) minmax(0,1.16fr);gap:18px;padding:10px 0;border-top:1px solid #eef0f5;align-items:start}
+    #productContent.laptop-product .full-spec-row:first-child{border-top:0}
+    #productContent.laptop-product .full-spec-row dt{font-size:12px;line-height:1.45}
+    #productContent.laptop-product .full-spec-row dd{color:#252a35;font-size:13px;line-height:1.45;font-weight:650;overflow-wrap:anywhere}
+    @media(max-width:900px){
+      #productContent.laptop-product .spec-groups{grid-template-columns:1fr;gap:16px}
+    }
+    @media(max-width:560px){
+      #productContent.laptop-product .spec-groups{gap:12px}
+      #productContent.laptop-product .spec-group h3{padding-top:11px;font-size:14px}
+      #productContent.laptop-product .full-spec-row{grid-template-columns:1fr;gap:4px;padding:9px 0}
+      #productContent.laptop-product .full-spec-row dt{font-size:11px}
+      #productContent.laptop-product .full-spec-row dd{font-size:12px}
+    }
     @media(max-width:900px){
       .product-page{padding-top:25px}
       .product-shell{grid-template-columns:1fr;gap:28px;padding:22px}
@@ -260,6 +283,6 @@
   </main>
   <footer class="footer"><div class="container footer-inner"><div class="footer-brand">АКС</div><div>Ноутбуки для работы, учёбы и игр • <a href="index.html#contacts">Связаться с АКС →</a></div></div></footer>
   <script src="rgw_global_catalog.js"></script>
-  <script src="product.js?v=20261001-1115-cases-psu-cooling"></script>
+  <script src="product.js?v=20261112-laptop-full-specs"></script>
 </body>
 </html>

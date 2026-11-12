@@ -132,11 +132,34 @@
     ).join("");
   }
 
+  function laptopSpecGroup(item) {
+    const sourceGroup = String(item.group || "").trim();
+    const groupMap = {
+      "Общие параметры":"Общая информация",
+      "Процессор":"Процессор",
+      "Оперативная память":"Оперативная память",
+      "Память":"Оперативная память",
+      "Накопители":"Накопители",
+      "Экран":"Экран",
+      "Графика":"Видеокарта",
+      "Интерфейсы":"Интерфейсы и подключения",
+      "Габариты":"Корпус и габариты",
+      "Питание":"Питание и аккумулятор",
+      "Клавиатура":"Дополнительные характеристики",
+      "Дополнительно":"Дополнительные характеристики"
+    };
+    return groupMap[sourceGroup] || "Дополнительные характеристики";
+  }
+
   function renderFullSpecs(product) {
+    const category = product.categoryName || product.category || "";
+    const isLaptop = category === "Ноутбуки";
     const groups = new Map();
-    const order = ["Общие параметры","Экран","Процессор","Оперативная память","Память","Графика","Накопители","Интерфейсы","Питание","Клавиатура","Габариты","Дополнительно"];
+    const order = isLaptop
+      ? ["Общая информация","Процессор","Оперативная память","Накопители","Экран","Видеокарта","Интерфейсы и подключения","Корпус и габариты","Питание и аккумулятор","Дополнительные характеристики"]
+      : ["Общие параметры","Экран","Процессор","Оперативная память","Память","Графика","Накопители","Интерфейсы","Питание","Клавиатура","Габариты","Дополнительно"];
     mergeSpecs(product).forEach((item) => {
-      const group = item.group || "Дополнительно";
+      const group = isLaptop ? laptopSpecGroup(item) : (item.group || "Дополнительно");
       if (!groups.has(group)) groups.set(group, []);
       groups.get(group).push(item);
     });
@@ -146,8 +169,9 @@
     ];
     const specGroupsNode = $("#specGroups");
     if (!specGroupsNode) return;
+    specGroupsNode.classList.toggle("laptop-spec-groups", isLaptop);
     specGroupsNode.innerHTML = orderedGroups.map((group) =>
-      '<section class="spec-group"><h3>' + escapeHtml(group) + '</h3><dl class="full-spec-list">' +
+      '<section class="spec-group' + (isLaptop ? ' laptop-spec-group' : '') + '"><h3>' + escapeHtml(group) + '</h3><dl class="full-spec-list">' +
       groups.get(group).map((item) =>
         '<div class="full-spec-row"><dt>' + escapeHtml(item.label) + "</dt><dd>" +
         escapeHtml(item.value) +
@@ -261,6 +285,8 @@
       if (node) node.textContent = value;
     };
     const copy = categoryCopy(product);
+    const productContent = $("#productContent");
+    if (productContent) productContent.classList.toggle("laptop-product", copy.label === "Ноутбуки");
     setText("#productBreadcrumb", product.name);
     setText("#productBrand", product.brand);
     setText("#productBrandMark", product.brand);
@@ -307,7 +333,6 @@
     renderFullSpecs(product);
 
     const productStatus = $("#productStatus");
-    const productContent = $("#productContent");
     if (productStatus) productStatus.hidden = true;
     if (productContent) productContent.hidden = false;
   }

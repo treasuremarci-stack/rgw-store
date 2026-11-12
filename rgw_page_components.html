@@ -63,57 +63,70 @@
           <div class="eyebrow">Раздел каталога</div>
           <h1>Конструктор ПК</h1>
         </div>
-        <p>Подберите комплектующие по шагам и сразу увидите совместимые варианты и общую стоимость сборки.</p>
+        <p>Выберите комплектующие по категориям, а АКС покажет подходящие варианты и известные ограничения совместимости.</p>
       </div>
 
       <div class="builder-intro">
         <div>
           <div class="eyebrow">Конфигуратор АКС</div>
-          <h2>Соберите компьютер под свои задачи</h2>
-          <p>Выберите процессор и материнскую плату — конфигуратор сам ограничит несовместимые варианты по сокету и типу оперативной памяти.</p>
+          <h2>Соберите компьютер по шагам</h2>
+          <p>На главном экране остаются только выбранные детали. Полный каталог открывается отдельным большим окном по кнопке «Добавить».</p>
         </div>
-        <div class="builder-intro-badge"><span>АКС</span><strong>9 компонентов</strong><small>в одной сборке</small></div>
+        <div class="builder-intro-badge"><span>АКС</span><strong>9 категорий</strong><small>один удобный сценарий</small></div>
       </div>
 
       <div class="pc-builder" id="pcBuilder">
-        <section class="builder-main-panel" aria-label="Выбор комплектующих">
-          <div class="builder-progress" id="builderProgress" role="tablist" aria-label="Шаги сборки"></div>
+        <section class="builder-main-panel" aria-label="Конфигурация компьютера">
           <div class="builder-main-head">
             <div>
-              <div class="eyebrow">Пошаговый выбор</div>
-              <h2>Комплектующие сборки</h2>
+              <div class="eyebrow">Список сборки</div>
+              <h2>Комплектующие</h2>
             </div>
             <div class="builder-ready-note" id="builderReadyNote">Выбрано 0 из 9</div>
           </div>
-          <div id="builderSteps"></div>
+          <div class="builder-component-list" id="builderSteps" aria-live="polite"></div>
+          <div class="builder-list-actions">
+            <button type="button" class="builder-reset" id="builderReset" disabled>Очистить сборку</button>
+            <button type="button" class="builder-copy" id="builderCopy">Скопировать список</button>
+          </div>
         </section>
 
-        <aside class="builder-summary-panel" aria-label="Сводка сборки">
-          <div class="builder-summary-top">
-            <div>
-              <div class="eyebrow">Текущая конфигурация</div>
-              <h2>Ваша сборка</h2>
-            </div>
-            <span class="builder-count" id="builderSelectedCount">0/9</span>
-          </div>
-          <div class="builder-total">
-            <span>Итого</span>
-            <strong id="builderTotal">$0</strong>
-            <small id="builderPriceNote">Цены берутся из price.csv</small>
-          </div>
-          <div class="builder-summary" id="builderSummary"></div>
-          <div id="builderStatus" class="builder-status">Загрузка комплектующих…</div>
-          <div class="builder-actions">
-            <button type="button" class="builder-reset" id="builderReset" disabled>Очистить сборку</button>
-            <button type="button" class="builder-copy" id="builderCopy">Скопировать</button>
-          </div>
-          <p class="builder-note">Проверки сокета и типа памяти выполняются по данным каталога. Габариты, мощность БП, охлаждение и BIOS требуют отдельной проверки.</p>
+        <aside class="builder-help-panel" aria-label="Подсказки конструктора">
+          <div class="builder-help-mark">АКС</div>
+          <div class="eyebrow">Как это работает</div>
+          <h2>Выбирайте деталь — возвращайтесь к списку</h2>
+          <ol class="builder-help-list">
+            <li><span>1</span><p>Нажмите «Добавить» у нужной категории.</p></li>
+            <li><span>2</span><p>Найдите модель по названию и откройте её карточку.</p></li>
+            <li><span>3</span><p>Выбранная деталь появится в строке сборки.</p></li>
+          </ol>
+          <div class="builder-status" id="builderStatus">Начните с процессора. Несовместимые варианты будут отмечены.</div>
+          <div class="builder-help-foot"><strong id="builderSelectedCount">0/9</strong><span>категорий выбрано</span></div>
+          <p class="builder-note">Проверяются известные параметры сокета, памяти и форм-фактора. Мощность БП, габариты, BIOS и охлаждение перед заказом дополнительно проверит специалист АКС.</p>
         </aside>
       </div>
 
-      <div class="builder-disclaimer">
-        <strong>Важно перед покупкой</strong>
-        <span>Конфигуратор помогает собрать совместимый список комплектующих, но итоговую сборку перед заказом проверит специалист АКС.</span>
+      <div class="builder-modal" id="builderModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="builderModalTitle" hidden>
+        <div class="builder-modal-backdrop" data-builder-close></div>
+        <div class="builder-modal-dialog">
+          <header class="builder-modal-head">
+            <button type="button" class="builder-modal-back" id="builderModalBack">← <span>Назад</span></button>
+            <div class="builder-modal-heading">
+              <div class="eyebrow">Выбор комплектующего</div>
+              <h2 id="builderModalTitle">Процессор</h2>
+              <p id="builderModalNote">Выберите одну модель для сборки.</p>
+            </div>
+            <button type="button" class="builder-modal-close" id="builderModalClose" aria-label="Закрыть выбор">×</button>
+          </header>
+          <div class="builder-modal-toolbar">
+            <label class="builder-search-wrap"><span aria-hidden="true">⌕</span><input id="builderSearch" type="search" placeholder="Поиск по названию, бренду или характеристике" aria-label="Поиск комплектующих"></label>
+            <label class="builder-compatible"><input id="builderCompatible" type="checkbox"><span>Только совместимые</span></label>
+            <span class="builder-result-count" id="builderResultCount"></span>
+          </div>
+          <div class="builder-modal-body">
+            <div class="builder-selector-grid" id="builderModalGrid"></div>
+          </div>
+        </div>
       </div>
 
       <h2 class="components-title">Категории комплектующих</h2>

@@ -3622,7 +3622,8 @@
       }
     ],
     "images": [
-      "images/products/mb-003/main.webp"
+      "images/products/mb-003/main.webp",
+      "images/products/mb-003/01.webp"
     ]
   },
   {
@@ -3677,7 +3678,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-005/main.webp",
     "placeholder": "🧩",
     "catalogFacts": [
       {
@@ -3696,7 +3697,9 @@
         "group": "Память"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-005/main.webp"
+    ]
   },
   {
     "id": "mb-006",
@@ -3755,7 +3758,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-007/main.webp",
     "placeholder": "🧩",
     "catalogFacts": [
       {
@@ -3769,7 +3772,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-007/main.webp"
+    ]
   },
   {
     "id": "mb-008",
@@ -3779,7 +3784,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-008/main.webp",
     "placeholder": "🧩",
     "catalogFacts": [
       {
@@ -3793,7 +3798,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-008/main.webp"
+    ]
   },
   {
     "id": "mb-009",
@@ -3803,7 +3810,7 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
+    "image": "images/products/mb-009/main.webp",
     "placeholder": "🧩",
     "catalogFacts": [
       {
@@ -3817,7 +3824,9 @@
         "group": "Общие параметры"
       }
     ],
-    "images": []
+    "images": [
+      "images/products/mb-009/main.webp"
+    ]
   },
   {
     "id": "mb-010",

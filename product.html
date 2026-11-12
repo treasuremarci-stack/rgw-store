@@ -162,6 +162,43 @@
       #productContent.laptop-alt-specs .full-spec-row dt{font-size:11px}
       #productContent.laptop-alt-specs .full-spec-row dd{font-size:12px}
     }
+
+    /* Acer pilot v3: readable stacked description + one continuous two-column specification table. */
+    #productContent.laptop-pilot-v3 .product-tabs{display:none}
+    #productContent.laptop-pilot-v3 .tab-panel[data-panel="description"]{display:block;max-width:1120px;margin:42px 0 34px;padding:26px 30px 28px;border:1px solid #e1e4ec;border-radius:20px;background:#fff;box-shadow:0 12px 30px rgba(24,32,58,.045);position:relative;overflow:hidden}
+    #productContent.laptop-pilot-v3 .tab-panel[data-panel="description"]::before{content:"";position:absolute;top:0;bottom:0;left:0;width:6px;background:linear-gradient(180deg,#635bff,#8f87ff)}
+    #productContent.laptop-pilot-v3 .tab-panel[data-panel="description"] h2{margin:0 0 15px;color:#15171d;font-size:27px;line-height:1.15;letter-spacing:-.04em}
+    #productContent.laptop-pilot-v3 #productDescriptionText{display:grid;gap:11px;margin:0;max-width:980px;color:#4f596b;font-size:16px;line-height:1.68}
+    #productContent.laptop-pilot-v3 #productDescriptionText p{margin:0}
+    #productContent.laptop-pilot-v3 .tab-panel[data-panel="specs"]{display:block;max-width:1120px;padding-top:0}
+    #productContent.laptop-pilot-v3 .tab-panel[data-panel="specs"] > h2{margin:0 0 17px;color:#15171d;font-size:27px;line-height:1.15;letter-spacing:-.04em}
+    #productContent.laptop-pilot-v3 .spec-groups{display:block;border:1px solid #dde1ea;border-radius:18px;background:#fff;box-shadow:0 12px 30px rgba(24,32,58,.045);overflow:hidden}
+    #productContent.laptop-pilot-v3 .spec-group{border:0;border-top:1px solid #e4e7ee;border-radius:0;background:#fff;overflow:visible}
+    #productContent.laptop-pilot-v3 .spec-group:first-child{border-top:0}
+    #productContent.laptop-pilot-v3 .spec-group h3{display:flex;align-items:center;gap:12px;margin:0;padding:15px 22px;background:#f5f4ff;color:#25283a;font-size:19px;line-height:1.25;font-weight:850;letter-spacing:-.025em;border-bottom:1px solid #e4e7ee}
+    #productContent.laptop-pilot-v3 .spec-group h3::before{content:"";width:4px;height:22px;flex:0 0 4px;border-radius:4px;background:var(--product-accent)}
+    #productContent.laptop-pilot-v3 .full-spec-list{margin:0}
+    #productContent.laptop-pilot-v3 .full-spec-row{grid-template-columns:minmax(210px,.36fr) minmax(0,.64fr);gap:28px;align-items:start;padding:14px 22px;border-top:1px solid #edf0f5}
+    #productContent.laptop-pilot-v3 .full-spec-row:first-child{border-top:0}
+    #productContent.laptop-pilot-v3 .full-spec-row:nth-child(even){background:#fafbfe}
+    #productContent.laptop-pilot-v3 .full-spec-row dt{color:#596276;font-size:15px;line-height:1.55;font-weight:650}
+    #productContent.laptop-pilot-v3 .full-spec-row dd{margin:0;color:#202532;font-size:15px;line-height:1.55;font-weight:700;overflow-wrap:anywhere}
+    @media(max-width:900px){
+      #productContent.laptop-pilot-v3 .tab-panel[data-panel="description"]{margin-top:32px}
+      #productContent.laptop-pilot-v3 .full-spec-row{grid-template-columns:minmax(165px,.4fr) minmax(0,.6fr);gap:20px;padding-left:18px;padding-right:18px}
+      #productContent.laptop-pilot-v3 .spec-group h3{padding-left:18px;padding-right:18px}
+    }
+    @media(max-width:620px){
+      #productContent.laptop-pilot-v3 .tab-panel[data-panel="description"]{margin:28px 0 27px;padding:21px 19px 22px 23px;border-radius:16px}
+      #productContent.laptop-pilot-v3 .tab-panel[data-panel="description"] h2{font-size:23px}
+      #productContent.laptop-pilot-v3 #productDescriptionText{font-size:15px;line-height:1.62}
+      #productContent.laptop-pilot-v3 .tab-panel[data-panel="specs"] > h2{font-size:23px}
+      #productContent.laptop-pilot-v3 .spec-groups{border-radius:15px}
+      #productContent.laptop-pilot-v3 .spec-group h3{padding:14px 16px;font-size:18px}
+      #productContent.laptop-pilot-v3 .full-spec-row{grid-template-columns:1fr;gap:5px;padding:12px 16px}
+      #productContent.laptop-pilot-v3 .full-spec-row dt{font-size:14px;line-height:1.4}
+      #productContent.laptop-pilot-v3 .full-spec-row dd{font-size:15px;line-height:1.48}
+    }
     @media(max-width:900px){
       .product-page{padding-top:25px}
       .product-shell{grid-template-columns:1fr;gap:28px;padding:22px}
@@ -299,7 +336,7 @@
 
         <section id="tabDescription" class="tab-panel text-panel" data-panel="description" hidden>
           <h2>Описание</h2>
-          <p id="productDescriptionText">Здесь собраны основные характеристики конкретной конфигурации товара.</p>
+          <div id="productDescriptionText">Здесь собраны основные характеристики конкретной конфигурации товара.</div>
         </section>
 
         <section id="tabReviews" class="tab-panel text-panel" data-panel="reviews" hidden>
@@ -311,6 +348,6 @@
   </main>
   <footer class="footer"><div class="container footer-inner"><div class="footer-brand">АКС</div><div>Ноутбуки для работы, учёбы и игр • <a href="index.html#contacts">Связаться с АКС →</a></div></div></footer>
   <script src="rgw_global_catalog.js"></script>
-  <script src="product.js?v=20261112-laptop-card-variant"></script>
+  <script src="product.js?v=20261112-laptop-card-variant3"></script>
 </body>
 </html>

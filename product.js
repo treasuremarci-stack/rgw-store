@@ -180,6 +180,46 @@
     ).join("");
   }
 
+  function laptopSpecPresentation(product) {
+    const category = product.categoryName || product.category || "";
+    if (category !== "Ноутбуки" || product.id !== "laptop-001") return "previous";
+    const requestedStyle = new URLSearchParams(window.location.search).get("specStyle");
+    return requestedStyle === "classic" || requestedStyle === "previous" ? "previous" : "alternative";
+  }
+
+  const laptopCartIcon = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="20" r="1.4"></circle><circle cx="18" cy="20" r="1.4"></circle><path d="M2.5 3h2.2l2.1 10.2a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L21 7H6"></path></svg>';
+
+  function applyProductCardVariant(product, copy) {
+    const productContent = $("#productContent");
+    if (!productContent) return;
+
+    const isLaptop = copy.label === "Ноутбуки";
+    const presentation = laptopSpecPresentation(product);
+    productContent.classList.toggle("laptop-product", isLaptop);
+    productContent.classList.toggle("laptop-alt-specs", presentation === "alternative");
+    productContent.dataset.specStyle = presentation;
+
+    const buildBlock = $("#buildBlock");
+    if (buildBlock) {
+      buildBlock.hidden = isLaptop;
+      if (isLaptop) buildBlock.setAttribute("aria-hidden", "true");
+      else buildBlock.removeAttribute("aria-hidden");
+    }
+
+    const purchaseButton = $("#purchaseButton");
+    if (!purchaseButton) return;
+    purchaseButton.classList.toggle("laptop-cart-button", isLaptop);
+    if (isLaptop) {
+      purchaseButton.innerHTML = laptopCartIcon + "<span>В корзину</span>";
+      purchaseButton.title = "Корзина будет подключена позже";
+      purchaseButton.setAttribute("aria-label", "В корзину — функция будет подключена позже");
+    } else {
+      purchaseButton.textContent = "Купить";
+      purchaseButton.removeAttribute("title");
+      purchaseButton.removeAttribute("aria-label");
+    }
+  }
+
   function activateTab(name) {
     document.querySelectorAll(".product-tab").forEach((button) => {
       const active = button.dataset.tab === name;
@@ -286,7 +326,7 @@
     };
     const copy = categoryCopy(product);
     const productContent = $("#productContent");
-    if (productContent) productContent.classList.toggle("laptop-product", copy.label === "Ноутбуки");
+    applyProductCardVariant(product, copy);
     setText("#productBreadcrumb", product.name);
     setText("#productBrand", product.brand);
     setText("#productBrandMark", product.brand);
@@ -348,7 +388,8 @@
       if (fullSpecs) fullSpecs.scrollIntoView({behavior:"smooth", block:"start"});
     });
     const buildButton = $("#buildButton");
-    if (buildButton) buildButton.addEventListener("click", (event) => {
+    const buildBlock = $("#buildBlock");
+    if (buildButton && !(buildBlock && buildBlock.hidden)) buildButton.addEventListener("click", (event) => {
       const button = event.currentTarget;
       const added = button.getAttribute("aria-pressed") === "true";
       button.setAttribute("aria-pressed", String(!added));

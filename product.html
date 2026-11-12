@@ -134,6 +134,34 @@
       #productContent.laptop-product .full-spec-row dt{font-size:11px}
       #productContent.laptop-product .full-spec-row dd{font-size:12px}
     }
+
+    /* Acer pilot: an alternative, reversible specification presentation. */
+    #productContent.laptop-product .build-block{display:none}
+    #productContent.laptop-product .laptop-cart-button{gap:8px;min-width:140px;cursor:not-allowed}
+    #productContent.laptop-product .laptop-cart-button svg{width:16px;height:16px;flex:0 0 16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+    #productContent.laptop-product .laptop-cart-button:disabled{transform:none}
+    #productContent.laptop-alt-specs .tab-panel[data-panel="specs"]{max-width:1120px}
+    #productContent.laptop-alt-specs .tab-panel[data-panel="specs"] > h2{margin-bottom:16px}
+    #productContent.laptop-alt-specs .spec-groups{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;align-items:start}
+    #productContent.laptop-alt-specs .spec-group{border:1px solid #e4e7ef;border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 5px 16px rgba(24,32,58,.045)}
+    #productContent.laptop-alt-specs .spec-group h3{display:flex;align-items:center;gap:9px;min-height:43px;margin:0;padding:11px 14px;background:linear-gradient(100deg,#f4f3ff,#fbfbff);color:#25283a;font-size:13px;font-weight:850;letter-spacing:-.01em;border-bottom:1px solid #e7e9f1}
+    #productContent.laptop-alt-specs .spec-group h3::before{content:"";width:3px;height:18px;flex:0 0 3px;border-radius:3px;background:var(--product-accent)}
+    #productContent.laptop-alt-specs .full-spec-list{margin:0}
+    #productContent.laptop-alt-specs .full-spec-row{grid-template-columns:minmax(130px,.72fr) minmax(0,1.28fr);gap:14px;padding:9px 14px;border-top:1px solid #edf0f5;align-items:start}
+    #productContent.laptop-alt-specs .full-spec-row:first-child{border-top:0}
+    #productContent.laptop-alt-specs .full-spec-row:nth-child(even){background:#fafbfe}
+    #productContent.laptop-alt-specs .full-spec-row dt{font-size:11px;line-height:1.45}
+    #productContent.laptop-alt-specs .full-spec-row dd{color:#252a35;font-size:12px;line-height:1.45;font-weight:700;overflow-wrap:anywhere}
+    @media(max-width:900px){
+      #productContent.laptop-alt-specs .spec-groups{grid-template-columns:1fr;gap:12px}
+    }
+    @media(max-width:560px){
+      #productContent.laptop-alt-specs .spec-groups{gap:10px}
+      #productContent.laptop-alt-specs .spec-group h3{min-height:40px;padding:10px 12px;font-size:13px}
+      #productContent.laptop-alt-specs .full-spec-row{grid-template-columns:1fr;gap:3px;padding:8px 12px}
+      #productContent.laptop-alt-specs .full-spec-row dt{font-size:11px}
+      #productContent.laptop-alt-specs .full-spec-row dd{font-size:12px}
+    }
     @media(max-width:900px){
       .product-page{padding-top:25px}
       .product-shell{grid-template-columns:1fr;gap:28px;padding:22px}
@@ -234,7 +262,7 @@
                   <span class="purchase-label">Цена</span>
                   <strong class="price-placeholder">Цена уточняется</strong>
                 </div>
-                <button class="product-action primary" type="button" disabled aria-disabled="true">Купить</button>
+                <button id="purchaseButton" class="product-action primary" type="button" disabled aria-disabled="true">Купить</button>
               </div>
               <p class="purchase-note">Цена будет подключена позже.</p>
               <div class="availability-row" aria-label="Информация о получении">
@@ -247,7 +275,7 @@
           </section>
         </div>
 
-        <section class="build-block" aria-label="Добавить товар в сборку">
+        <section id="buildBlock" class="build-block" aria-label="Добавить товар в сборку">
           <div class="build-copy">
             <span class="build-icon" aria-hidden="true">🧩</span>
             <div>
@@ -283,6 +311,6 @@
   </main>
   <footer class="footer"><div class="container footer-inner"><div class="footer-brand">АКС</div><div>Ноутбуки для работы, учёбы и игр • <a href="index.html#contacts">Связаться с АКС →</a></div></div></footer>
   <script src="rgw_global_catalog.js"></script>
-  <script src="product.js?v=20261112-laptop-full-specs"></script>
+  <script src="product.js?v=20261112-laptop-card-variant"></script>
 </body>
 </html>

@@ -27,3 +27,14 @@ body.builder-modal-open{overflow:hidden}
 @media(max-width:1000px){.pc-builder{grid-template-columns:1fr}.builder-help-panel{position:static}.builder-selector-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.builder-intro{align-items:flex-start;flex-direction:column}.builder-intro-badge{min-width:0;width:100%;grid-template-columns:auto 1fr;grid-template-rows:auto auto;column-gap:10px}.builder-intro-badge span{grid-row:1 / span 2;align-self:center}.builder-intro-badge strong{margin-top:0}.builder-intro-badge small{grid-column:2}.builder-main-panel,.builder-help-panel{border-radius:18px}.builder-main-panel{padding:15px}.builder-main-head{align-items:flex-start;flex-direction:column;gap:8px}.builder-ready-note{text-align:left}.builder-component-row{grid-template-columns:1fr;gap:11px}.builder-row-actions{justify-content:flex-start}.builder-row-button,.builder-row-remove{flex:1}.builder-list-actions{justify-content:stretch}.builder-list-actions>*{flex:1}.builder-modal{padding:8px}.builder-modal-dialog{height:calc(100vh - 16px);border-radius:18px}.builder-modal-head{grid-template-columns:auto minmax(0,1fr) auto;padding:14px 15px;gap:8px}.builder-modal-back{padding:9px}.builder-modal-back span{display:none}.builder-modal-heading h2{font-size:22px}.builder-modal-heading p{display:none}.builder-modal-close{width:34px;height:34px;font-size:22px}.builder-modal-toolbar{padding:12px 15px}.builder-modal-body{padding:15px}.builder-selector-grid{grid-template-columns:1fr}.builder-selector-media{height:170px}.component-links{grid-template-columns:1fr 1fr}.builder-help-panel{padding:18px}}
 @media(max-width:480px){.component-links{grid-template-columns:1fr}.builder-row-media{flex-basis:62px;width:62px;height:58px}.builder-row-copy strong{font-size:14px}.builder-actions{grid-template-columns:1fr}.builder-list-actions{flex-direction:column}.builder-list-actions>*{width:100%}.builder-help-panel h2{font-size:21px}}
+
+/* Compact component icons and a strict top-to-bottom chooser card layout. */
+.builder-component-icon{display:block;width:36px;height:36px;color:#087770}
+.builder-row-media .builder-component-icon{width:34px;height:34px}
+.builder-selector-card{position:relative;isolation:isolate}
+.builder-selector-media{position:relative;flex:0 0 auto;box-sizing:border-box;min-height:190px;height:190px;overflow:hidden}
+.builder-selector-media img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+.builder-selector-content,.builder-selector-footer{position:relative;z-index:1;box-sizing:border-box}
+.builder-selector-card.is-review{border-color:#d8b47b}
+.builder-selector-review{color:#9a6716;font-size:11px;line-height:1.35}
+@media(max-width:760px){.builder-selector-media{min-height:170px;height:170px}}

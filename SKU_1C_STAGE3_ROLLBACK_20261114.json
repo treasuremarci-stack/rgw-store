@@ -1,0 +1,4031 @@
+{
+  "title": "АКС Stage 3 — rollback package",
+  "generated_at": "2026-11-14",
+  "source_review_workbook": "АКС_23_спорных_товара_для_проверки, исправления.xlsx",
+  "source_stock_workbook": "Товары_с_остатком_1С.xlsx",
+  "source_full_1c_workbook": "Список номенклатур (Сарвин).xlsx",
+  "before_product_count": 718,
+  "after_product_count": 697,
+  "removed_product_ids": [
+    "mono-007",
+    "mesh-5",
+    "mesh-12",
+    "cards-2",
+    "acc-other_accessories-6",
+    "acc-projectors_screens-19",
+    "routers-2",
+    "stabilizers-4",
+    "stabilizers-5",
+    "case-001",
+    "case-002",
+    "case-003",
+    "case-004",
+    "case-005",
+    "case-006",
+    "case-007",
+    "case-008",
+    "wifi-4",
+    "wifi-13",
+    "wifi-14",
+    "wifi-15",
+    "wifi-16"
+  ],
+  "added_product_ids": [
+    "network_cables-10"
+  ],
+  "product_snapshots_before": {
+    "mono-007": {
+      "id": "mono-007",
+      "sku": "HP-27-CR0156NH",
+      "name": "Моноблок HP AIO 27-CR0156NH",
+      "brand": "HP",
+      "category": "Моноблоки",
+      "categoryName": "Моноблоки",
+      "categoryUrl": "rgw_page_monoblocks.html",
+      "image": "assets/products/mono-007/main.webp",
+      "identifiers": {
+        "modelNumber": "HP-27-CR0156NH"
+      },
+      "catalogFacts": [
+        {
+          "label": "Процессор",
+          "value": "Intel Core i7",
+          "group": "Процессор"
+        },
+        {
+          "label": "Оперативная память",
+          "value": "8 ГБ",
+          "group": "Оперативная память"
+        },
+        {
+          "label": "Накопитель",
+          "value": "512 ГБ",
+          "group": "Накопители"
+        },
+        {
+          "label": "Экран",
+          "value": "27\"",
+          "group": "Экран"
+        }
+      ],
+      "verifiedSpecs": [],
+      "images": [
+        "assets/products/mono-007/main.webp",
+        "assets/products/mono-007/angle.webp",
+        "assets/products/mono-007/back.webp"
+      ]
+    },
+    "mesh-5": {
+      "id": "mesh-5",
+      "sku": "mesh-5",
+      "name": "Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System",
+      "brand": "TP-LINK",
+      "category": "Mesh-системы",
+      "categoryName": "Mesh-системы",
+      "categoryUrl": "rgw_page_mesh.html",
+      "image": "images/products/mesh-5/main.webp",
+      "placeholder": "🔗",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/mesh-5/main.webp"
+      ]
+    },
+    "mesh-12": {
+      "id": "mesh-12",
+      "sku": "mesh-12",
+      "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+      "brand": "Grandstream",
+      "category": "Mesh-системы",
+      "categoryName": "Mesh-системы",
+      "categoryUrl": "rgw_page_mesh.html",
+      "image": "images/products/mesh-12/main.webp",
+      "placeholder": "🔗",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/mesh-12/main.webp",
+        "images/products/mesh-12/02.webp"
+      ]
+    },
+    "network_cables-2": {
+      "id": "network_cables-2",
+      "sku": "network_cables-2",
+      "name": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
+      "brand": "MERCURY",
+      "category": "Сетевые кабели",
+      "categoryName": "Сетевые кабели",
+      "categoryUrl": "rgw_page_network_cables.html",
+      "image": "images/products/network_cables-2/main.webp",
+      "placeholder": "🧵",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "MERCURY",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "UTP",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Длина",
+          "value": "305",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/network_cables-2/main.webp"
+      ]
+    },
+    "cards-2": {
+      "id": "cards-2",
+      "sku": "cards-2",
+      "name": "TP-LINK Сетевая карта <TL-WN781ND",
+      "brand": "TP-LINK",
+      "category": "Сетевые карты",
+      "categoryName": "Сетевые карты",
+      "categoryUrl": "rgw_page_network_cards.html",
+      "image": "images/products/cards-2/main.webp",
+      "placeholder": "🖧",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK Сетевая карта <TL-WN781ND",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/cards-2/main.webp"
+      ]
+    },
+    "acc-other_accessories-6": {
+      "id": "acc-other_accessories-6",
+      "sku": "acc-other_accessories-6",
+      "name": "Коврик 80*30",
+      "brand": "",
+      "category": "Прочие аксессуары",
+      "categoryName": "Прочие аксессуары",
+      "categoryUrl": "rgw_page_other_accessories.html",
+      "image": null,
+      "placeholder": "🧰",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Коврик 80*30",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "Коврик",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "acc-projectors_screens-19": {
+      "id": "acc-projectors_screens-19",
+      "sku": "acc-projectors_screens-19",
+      "name": "Стойка Projector 1 метра",
+      "brand": "",
+      "category": "Проекторы и экраны",
+      "categoryName": "Проекторы и экраны",
+      "categoryUrl": "rgw_page_projectors_screens.html",
+      "image": null,
+      "placeholder": "📽️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Стойка Projector 1 метра",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "stand",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "Стойка",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "routers-2": {
+      "id": "routers-2",
+      "sku": "routers-2",
+      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+      "brand": "TP-LINK",
+      "category": "Роутеры",
+      "categoryName": "Роутеры",
+      "categoryUrl": "rgw_page_routers.html",
+      "image": "images/products/routers-2/main.webp",
+      "placeholder": "📡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/routers-2/main.webp"
+      ]
+    },
+    "stabilizers-4": {
+      "id": "stabilizers-4",
+      "sku": "stabilizers-4",
+      "name": "Инвертор Mercury Inverter 1200 with LCD PANE",
+      "brand": "Mercury",
+      "category": "Стабилизаторы",
+      "categoryName": "Стабилизаторы",
+      "categoryUrl": "rgw_page_stabilizers.html",
+      "image": null,
+      "placeholder": "⚡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Инвертор Mercury Inverter 1200 with LCD PANE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Mercury",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "stabilizers-5": {
+      "id": "stabilizers-5",
+      "sku": "stabilizers-5",
+      "name": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+      "brand": "Mercury",
+      "category": "Стабилизаторы",
+      "categoryName": "Стабилизаторы",
+      "categoryUrl": "rgw_page_stabilizers.html",
+      "image": null,
+      "placeholder": "⚡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Mercury",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "case-001": {
+      "id": "case-001",
+      "sku": "DEEPCOOL-CH370-WHITE",
+      "name": "DeepCool CASE CH 370 WHITE",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-001/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CH 370 WHITE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Белый",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CH 370",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-001/main.webp",
+        "images/products/case-001/angle.webp",
+        "images/products/case-001/detail.webp",
+        "images/products/case-001/rear.webp",
+        "images/products/case-001/top.webp"
+      ]
+    },
+    "case-002": {
+      "id": "case-002",
+      "sku": "DEEPCOOL-CH370-BLACK",
+      "name": "DeepCool CASE CH 370 BLACK",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-002/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CH 370 BLACK",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Чёрный",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CH 370",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-002/main.webp",
+        "images/products/case-002/angle.webp",
+        "images/products/case-002/detail.webp",
+        "images/products/case-002/rear.webp",
+        "images/products/case-002/top.webp"
+      ]
+    },
+    "case-003": {
+      "id": "case-003",
+      "sku": "DEEPCOOL-CG530-4F",
+      "name": "DeepCool CASE CG530 4F",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-003/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CG530 4F",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CG530 4F",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-003/main.webp",
+        "images/products/case-003/angle.webp",
+        "images/products/case-003/detail.webp",
+        "images/products/case-003/rear.webp",
+        "images/products/case-003/top.webp"
+      ]
+    },
+    "case-004": {
+      "id": "case-004",
+      "sku": "DEEPCOOL-CG580-4F-V2",
+      "name": "DeepCool CASE CG580 4F V2",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-004/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CG580 4F V2",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CG580 4F V2",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-004/main.webp",
+        "images/products/case-004/angle.webp",
+        "images/products/case-004/detail.webp",
+        "images/products/case-004/rear.webp",
+        "images/products/case-004/top.webp"
+      ]
+    },
+    "case-005": {
+      "id": "case-005",
+      "sku": "DEEPCOOL-MATREXX-50",
+      "name": "DeepCool CASE MATREXX 50",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-005/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE MATREXX 50",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "MATREXX 50",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-005/main.webp",
+        "images/products/case-005/angle.webp",
+        "images/products/case-005/detail.webp",
+        "images/products/case-005/rear.webp",
+        "images/products/case-005/top.webp"
+      ]
+    },
+    "case-006": {
+      "id": "case-006",
+      "sku": "DEEPCOOL-CH160-WHITE",
+      "name": "DeepCool CASE CH 160 WHITE",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-006/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CH 160 WHITE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Белый",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CH 160",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-006/main.webp",
+        "images/products/case-006/angle.webp",
+        "images/products/case-006/detail.webp",
+        "images/products/case-006/rear.webp",
+        "images/products/case-006/top.webp"
+      ]
+    },
+    "case-007": {
+      "id": "case-007",
+      "sku": "DEEPCOOL-CC560-LIMITED-V2",
+      "name": "DeepCool CASE CC560 LIMITED V2",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-007/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CC560 LIMITED V2",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CC560 LIMITED V2",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-007/main.webp",
+        "images/products/case-007/angle.webp",
+        "images/products/case-007/detail.webp",
+        "images/products/case-007/rear.webp",
+        "images/products/case-007/top.webp"
+      ]
+    },
+    "case-008": {
+      "id": "case-008",
+      "sku": "DEEPCOOL-CG380-3F",
+      "name": "DeepCool CASE CG380 3F",
+      "brand": "deepcool",
+      "category": "Системные блоки",
+      "categoryName": "Системные блоки",
+      "categoryUrl": "rgw_page_system_units.html",
+      "image": "images/products/case-008/main.webp",
+      "placeholder": "🗄️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CG380 3F",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CG380 3F",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/case-008/main.webp",
+        "images/products/case-008/angle.webp",
+        "images/products/case-008/detail.webp",
+        "images/products/case-008/rear.webp",
+        "images/products/case-008/top.webp"
+      ]
+    },
+    "wifi-4": {
+      "id": "wifi-4",
+      "sku": "wifi-4",
+      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+      "brand": "TP-LINK",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-4/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-4/main.webp"
+      ]
+    },
+    "wifi-13": {
+      "id": "wifi-13",
+      "sku": "wifi-13",
+      "name": "Ubiquiti adapter U7 Pro Max",
+      "brand": "Ubiquiti",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-13/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Ubiquiti adapter U7 Pro Max",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Ubiquiti",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Стандарт",
+          "value": "Wi-Fi 6",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-13/main.webp"
+      ]
+    },
+    "wifi-14": {
+      "id": "wifi-14",
+      "sku": "wifi-14",
+      "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+      "brand": "Cudy",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-14/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Cudy",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-14/main.webp"
+      ]
+    },
+    "wifi-15": {
+      "id": "wifi-15",
+      "sku": "wifi-15",
+      "name": "Grandstream GWN7605, WiFi Access Point,",
+      "brand": "Grandstream",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-15/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream GWN7605, WiFi Access Point,",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-15/main.webp"
+      ]
+    },
+    "wifi-16": {
+      "id": "wifi-16",
+      "sku": "wifi-16",
+      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+      "brand": "Grandstream",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-16/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-16/main.webp"
+      ]
+    },
+    "ip_telephony-3": {
+      "id": "ip_telephony-3",
+      "sku": "НФ-00000622",
+      "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+      "brand": "Grandstream",
+      "category": "IP-телефония",
+      "categoryName": "IP-телефония",
+      "categoryUrl": "rgw_page_ip_telephony.html",
+      "image": "images/products/ip_telephony-3/main.webp",
+      "placeholder": "☎️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/ip_telephony-3/main.webp"
+      ]
+    },
+    "wifi-6": {
+      "id": "wifi-6",
+      "sku": "НФ-00000070",
+      "name": "TP-LINK Сетевая карта <TL-WN781ND",
+      "brand": "TP-LINK",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-6/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK Сетевая карта <TL-WN781ND",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-6/main.webp"
+      ]
+    },
+    "acc-other_accessories-3": {
+      "id": "acc-other_accessories-3",
+      "sku": "НФ-00000459",
+      "name": "Коврик 80*30",
+      "brand": "",
+      "category": "Прочие аксессуары",
+      "categoryName": "Прочие аксессуары",
+      "categoryUrl": "rgw_page_other_accessories.html",
+      "image": null,
+      "placeholder": "🧰",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Коврик 80*30",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "Коврик",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Размер",
+          "value": "80x30",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "80 × 30",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "acc-projectors_screens-12": {
+      "id": "acc-projectors_screens-12",
+      "sku": "НФ-00000430",
+      "name": "Стойка Projector 1 метра",
+      "brand": "",
+      "category": "Проекторы и экраны",
+      "categoryName": "Проекторы и экраны",
+      "categoryUrl": "rgw_page_projectors_screens.html",
+      "image": null,
+      "placeholder": "📽️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Стойка Projector 1 метра",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "stand",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "Стойка",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "wifi-3": {
+      "id": "wifi-3",
+      "sku": "НФ-00000037",
+      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+      "brand": "TP-LINK",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-3/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/wifi-3/main.webp"
+      ]
+    },
+    "inverters-1": {
+      "id": "inverters-1",
+      "sku": "НФ-00000704",
+      "name": "Инвертор Mercury Inverter 1200 with LCD PANE",
+      "brand": "Mercury",
+      "category": "Инверторы",
+      "categoryName": "Инверторы",
+      "categoryUrl": "rgw_page_inverters.html",
+      "image": null,
+      "placeholder": "🔌",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Инвертор Mercury Inverter 1200 with LCD PANE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Mercury",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "inverters-2": {
+      "id": "inverters-2",
+      "sku": "НФ-00000705",
+      "name": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+      "brand": "Mercury",
+      "category": "Инверторы",
+      "categoryName": "Инверторы",
+      "categoryUrl": "rgw_page_inverters.html",
+      "image": null,
+      "placeholder": "🔌",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Mercury",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {}
+    },
+    "cases-010": {
+      "id": "cases-010",
+      "sku": "НФ-00000597",
+      "name": "Дип Кул CASE CH 370 WHITE",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-010/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CH370"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CH370",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "White",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип корпуса",
+          "value": "Micro-ATX",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Поддержка радиатора",
+          "value": "до 360 мм",
+          "group": "Охлаждение"
+        }
+      ],
+      "images": [
+        "images/products/cases-010/main.webp",
+        "images/products/cases-010/01.webp",
+        "images/products/cases-010/02.webp",
+        "images/products/cases-010/03.webp",
+        "images/products/cases-010/04.webp"
+      ]
+    },
+    "cases-011": {
+      "id": "cases-011",
+      "sku": "НФ-00000598",
+      "name": "Дип Кул CASE CH 370 BLACK",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-011/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CH370"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CH370",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Black",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип корпуса",
+          "value": "Micro-ATX",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Поддержка радиатора",
+          "value": "до 360 мм",
+          "group": "Охлаждение"
+        }
+      ],
+      "images": [
+        "images/products/cases-011/main.webp",
+        "images/products/cases-011/01.webp",
+        "images/products/cases-011/02.webp",
+        "images/products/cases-011/03.webp",
+        "images/products/cases-011/04.webp"
+      ]
+    },
+    "cases-012": {
+      "id": "cases-012",
+      "sku": "НФ-00000777",
+      "name": "Дип Кул CASE CG530 4F",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-012/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CG530 4F"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CG530 4F",
+          "group": "Общие параметры"
+        }
+      ],
+      "images": [
+        "images/products/cases-012/main.webp",
+        "images/products/cases-012/01.webp",
+        "images/products/cases-012/02.webp",
+        "images/products/cases-012/03.webp",
+        "images/products/cases-012/04.webp"
+      ]
+    },
+    "cases-013": {
+      "id": "cases-013",
+      "sku": "НФ-00000778",
+      "name": "Дип Кул CASE CG580 4F V2",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-013/main.webp",
+      "placeholder": "🖥️",
+      "identifiers": {
+        "modelNumber": "CG580 4F V2"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CG580 4F V2",
+          "group": "Общие параметры"
+        }
+      ],
+      "images": [
+        "images/products/cases-013/main.webp"
+      ]
+    },
+    "cases-014": {
+      "id": "cases-014",
+      "sku": "НФ-00000816",
+      "name": "Дип Кул CASE MATREXX 50",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-014/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "MATREXX 50"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "MATREXX 50",
+          "group": "Общие параметры"
+        }
+      ],
+      "images": [
+        "images/products/cases-014/main.webp",
+        "images/products/cases-014/01.webp",
+        "images/products/cases-014/02.webp",
+        "images/products/cases-014/03.webp",
+        "images/products/cases-014/04.webp"
+      ]
+    },
+    "cases-015": {
+      "id": "cases-015",
+      "sku": "НФ-00000596",
+      "name": "Дип Кул CASE CH 160 WHITE",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-015/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CH160"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CH160",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "White",
+          "group": "Общие параметры"
+        }
+      ],
+      "images": [
+        "images/products/cases-015/main.webp",
+        "images/products/cases-015/01.webp",
+        "images/products/cases-015/02.webp",
+        "images/products/cases-015/03.webp"
+      ]
+    },
+    "cases-016": {
+      "id": "cases-016",
+      "sku": "НФ-00000593",
+      "name": "Дип Кул CASE CC560 LIMITED V2",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-016/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CC560 LIMITED V2"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CC560 LIMITED V2",
+          "group": "Общие параметры"
+        }
+      ],
+      "images": [
+        "images/products/cases-016/main.webp",
+        "images/products/cases-016/01.webp",
+        "images/products/cases-016/02.webp",
+        "images/products/cases-016/03.webp",
+        "images/products/cases-016/04.webp"
+      ]
+    },
+    "cases-017": {
+      "id": "cases-017",
+      "sku": "НФ-00000815",
+      "name": "Дип Кул CASE CG380 3F",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-017/main.webp",
+      "placeholder": "🖥️",
+      "identifiers": {
+        "modelNumber": "CG380 3F"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CG380 3F",
+          "group": "Общие параметры"
+        }
+      ],
+      "images": [
+        "images/products/cases-017/main.webp"
+      ]
+    },
+    "cards-1": {
+      "id": "cards-1",
+      "sku": "НФ-00000046",
+      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+      "brand": "TP-LINK",
+      "category": "Сетевые карты",
+      "categoryName": "Сетевые карты",
+      "categoryUrl": "rgw_page_network_cards.html",
+      "image": "images/products/cards-1/main.webp",
+      "placeholder": "🖧",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/cards-1/main.webp"
+      ]
+    },
+    "access-5": {
+      "id": "access-5",
+      "sku": "НФ-00000075",
+      "name": "Ubiquiti adapter U7 Pro Max",
+      "brand": "Ubiquiti",
+      "category": "Точки доступа",
+      "categoryName": "Точки доступа",
+      "categoryUrl": "rgw_page_access_points.html",
+      "image": "images/products/access-5/main.webp",
+      "placeholder": "📡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Ubiquiti adapter U7 Pro Max",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Ubiquiti",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Стандарт",
+          "value": "Wi-Fi 6",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/access-5/main.webp"
+      ]
+    },
+    "acc-adapters-2": {
+      "id": "acc-adapters-2",
+      "sku": "НФ-00001032",
+      "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+      "brand": "cudy",
+      "category": "Переходники",
+      "categoryName": "Переходники",
+      "categoryUrl": "rgw_page_adapters.html",
+      "image": "images/products/acc-adapters-2/main.webp",
+      "placeholder": "🔁",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "cudy",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Вход",
+          "value": "USB-C",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Выход",
+          "value": "Ethernet",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Скорость",
+          "value": "1 Gbps",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "USB-C → Ethernet",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/acc-adapters-2/main.webp"
+      ]
+    },
+    "access-9": {
+      "id": "access-9",
+      "sku": "НФ-00000619",
+      "name": "Grandstream GWN7605, WiFi Access Point,",
+      "brand": "Grandstream",
+      "category": "Точки доступа",
+      "categoryName": "Точки доступа",
+      "categoryUrl": "rgw_page_access_points.html",
+      "image": "images/products/access-9/main.webp",
+      "placeholder": "📡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream GWN7605, WiFi Access Point,",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/access-9/main.webp"
+      ]
+    },
+    "switches-25": {
+      "id": "switches-25",
+      "sku": "НФ-00000620",
+      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+      "brand": "Grandstream",
+      "category": "Коммутаторы",
+      "categoryName": "Коммутаторы",
+      "categoryUrl": "rgw_page_switches.html",
+      "image": "images/products/switches-25/main.webp",
+      "placeholder": "🔀",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Количество портов",
+          "value": "8",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Скорость",
+          "value": "1 Gbps",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {},
+      "images": [
+        "images/products/switches-25/main.webp"
+      ]
+    }
+  },
+  "product_snapshots_after": {
+    "network_cables-2": {
+      "id": "network_cables-2",
+      "sku": "НФ-00000188",
+      "name": "Кабель UTP MERCURY CAT 6 UTP 305M Cable — Китай",
+      "brand": "MERCURY",
+      "category": "Сетевые кабели",
+      "categoryName": "Сетевые кабели",
+      "categoryUrl": "rgw_page_network_cables.html",
+      "image": "images/products/network_cables-2/main.webp",
+      "placeholder": "🧵",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "MERCURY",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "UTP",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Длина",
+          "value": "305",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000188"
+      },
+      "images": [
+        "images/products/network_cables-2/main.webp"
+      ],
+      "code_1c": "НФ-00000188",
+      "stock": 4,
+      "availability": "В наличии"
+    },
+    "ip_telephony-3": {
+      "id": "ip_telephony-3",
+      "sku": "НФ-00000622",
+      "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+      "brand": "Grandstream",
+      "category": "IP-телефония",
+      "categoryName": "IP-телефония",
+      "categoryUrl": "rgw_page_ip_telephony.html",
+      "image": "images/products/ip_telephony-3/main.webp",
+      "placeholder": "☎️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000622"
+      },
+      "images": [
+        "images/products/ip_telephony-3/main.webp",
+        "images/products/mesh-12/main.webp",
+        "images/products/mesh-12/02.webp"
+      ],
+      "code_1c": "НФ-00000622",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "wifi-6": {
+      "id": "wifi-6",
+      "sku": "НФ-00000070",
+      "name": "TP-LINK Сетевая карта <TL-WN781ND",
+      "brand": "TP-LINK",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-6/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK Сетевая карта <TL-WN781ND",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000070"
+      },
+      "images": [
+        "images/products/wifi-6/main.webp",
+        "images/products/cards-2/main.webp"
+      ],
+      "code_1c": "НФ-00000070",
+      "stock": 15,
+      "availability": "В наличии"
+    },
+    "acc-other_accessories-3": {
+      "id": "acc-other_accessories-3",
+      "sku": "НФ-00000459",
+      "name": "Коврик 80*30",
+      "brand": "",
+      "category": "Прочие аксессуары",
+      "categoryName": "Прочие аксессуары",
+      "categoryUrl": "rgw_page_other_accessories.html",
+      "image": null,
+      "placeholder": "🧰",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Коврик 80*30",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "Коврик",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Размер",
+          "value": "80x30",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "80 × 30",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000459"
+      },
+      "images": [],
+      "code_1c": "НФ-00000459",
+      "stock": 4,
+      "availability": "В наличии"
+    },
+    "acc-projectors_screens-12": {
+      "id": "acc-projectors_screens-12",
+      "sku": "НФ-00000430",
+      "name": "Стойка Projector 1 метра",
+      "brand": "",
+      "category": "Проекторы и экраны",
+      "categoryName": "Проекторы и экраны",
+      "categoryUrl": "rgw_page_projectors_screens.html",
+      "image": null,
+      "placeholder": "📽️",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Стойка Projector 1 метра",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "stand",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "Стойка",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000430"
+      },
+      "images": [],
+      "code_1c": "НФ-00000430",
+      "stock": 2,
+      "availability": "В наличии"
+    },
+    "wifi-3": {
+      "id": "wifi-3",
+      "sku": "НФ-00000037",
+      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+      "brand": "TP-LINK",
+      "category": "Wi-Fi адаптеры",
+      "categoryName": "Wi-Fi адаптеры",
+      "categoryUrl": "rgw_page_wifi_adapters.html",
+      "image": "images/products/wifi-3/main.webp",
+      "placeholder": "📶",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000037"
+      },
+      "images": [
+        "images/products/wifi-3/main.webp",
+        "images/products/routers-2/main.webp"
+      ],
+      "code_1c": "НФ-00000037",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "inverters-1": {
+      "id": "inverters-1",
+      "sku": "НФ-00000704",
+      "name": "Инвертор Mercury Inverter 1200 with LCD PANE",
+      "brand": "Mercury",
+      "category": "Инверторы",
+      "categoryName": "Инверторы",
+      "categoryUrl": "rgw_page_inverters.html",
+      "image": null,
+      "placeholder": "🔌",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Инвертор Mercury Inverter 1200 with LCD PANE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Mercury",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000704"
+      },
+      "images": [],
+      "code_1c": "НФ-00000704",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "inverters-2": {
+      "id": "inverters-2",
+      "sku": "НФ-00000705",
+      "name": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+      "brand": "Mercury",
+      "category": "Инверторы",
+      "categoryName": "Инверторы",
+      "categoryUrl": "rgw_page_inverters.html",
+      "image": null,
+      "placeholder": "🔌",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Mercury",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000705"
+      },
+      "images": [],
+      "code_1c": "НФ-00000705",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "cases-010": {
+      "id": "cases-010",
+      "sku": "НФ-00000597",
+      "name": "Дип Кул CASE CH 370 WHITE",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-010/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CH370",
+        "code_1c": "НФ-00000597"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CH370",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "White",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип корпуса",
+          "value": "Micro-ATX",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Поддержка радиатора",
+          "value": "до 360 мм",
+          "group": "Охлаждение"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CH 370 WHITE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Белый",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CH 370",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-010/main.webp",
+        "images/products/cases-010/01.webp",
+        "images/products/cases-010/02.webp",
+        "images/products/cases-010/03.webp",
+        "images/products/cases-010/04.webp",
+        "images/products/case-001/main.webp",
+        "images/products/case-001/angle.webp",
+        "images/products/case-001/detail.webp",
+        "images/products/case-001/rear.webp",
+        "images/products/case-001/top.webp"
+      ],
+      "verifiedSpecs": [],
+      "code_1c": "НФ-00000597",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "cases-011": {
+      "id": "cases-011",
+      "sku": "НФ-00000598",
+      "name": "Дип Кул CASE CH 370 BLACK",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-011/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CH370",
+        "code_1c": "НФ-00000598"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CH370",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Black",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип корпуса",
+          "value": "Micro-ATX",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Поддержка радиатора",
+          "value": "до 360 мм",
+          "group": "Охлаждение"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CH 370 BLACK",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Чёрный",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CH 370",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-011/main.webp",
+        "images/products/cases-011/01.webp",
+        "images/products/cases-011/02.webp",
+        "images/products/cases-011/03.webp",
+        "images/products/cases-011/04.webp",
+        "images/products/case-002/main.webp",
+        "images/products/case-002/angle.webp",
+        "images/products/case-002/detail.webp",
+        "images/products/case-002/rear.webp",
+        "images/products/case-002/top.webp"
+      ],
+      "verifiedSpecs": [],
+      "code_1c": "НФ-00000598",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "cases-012": {
+      "id": "cases-012",
+      "sku": "НФ-00000777",
+      "name": "Дип Кул CASE CG530 4F",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-012/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CG530 4F",
+        "code_1c": "НФ-00000777"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CG530 4F",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CG530 4F",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CG530 4F",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-012/main.webp",
+        "images/products/cases-012/01.webp",
+        "images/products/cases-012/02.webp",
+        "images/products/cases-012/03.webp",
+        "images/products/cases-012/04.webp",
+        "images/products/case-003/main.webp",
+        "images/products/case-003/angle.webp",
+        "images/products/case-003/detail.webp",
+        "images/products/case-003/rear.webp",
+        "images/products/case-003/top.webp"
+      ],
+      "verifiedSpecs": [],
+      "code_1c": "НФ-00000777",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "cases-013": {
+      "id": "cases-013",
+      "sku": "НФ-00000778",
+      "name": "Дип Кул CASE CG580 4F V2",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-013/main.webp",
+      "placeholder": "🖥️",
+      "identifiers": {
+        "modelNumber": "CG580 4F V2"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CG580 4F V2",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CG580 4F V2",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CG580 4F V2",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-013/main.webp",
+        "images/products/case-004/main.webp",
+        "images/products/case-004/angle.webp",
+        "images/products/case-004/detail.webp",
+        "images/products/case-004/rear.webp",
+        "images/products/case-004/top.webp"
+      ],
+      "verifiedSpecs": []
+    },
+    "cases-014": {
+      "id": "cases-014",
+      "sku": "НФ-00000816",
+      "name": "Дип Кул CASE MATREXX 50",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-014/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "MATREXX 50",
+        "code_1c": "НФ-00000816"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "MATREXX 50",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE MATREXX 50",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "MATREXX 50",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-014/main.webp",
+        "images/products/cases-014/01.webp",
+        "images/products/cases-014/02.webp",
+        "images/products/cases-014/03.webp",
+        "images/products/cases-014/04.webp",
+        "images/products/case-005/main.webp",
+        "images/products/case-005/angle.webp",
+        "images/products/case-005/detail.webp",
+        "images/products/case-005/rear.webp",
+        "images/products/case-005/top.webp"
+      ],
+      "verifiedSpecs": [],
+      "code_1c": "НФ-00000816",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "cases-015": {
+      "id": "cases-015",
+      "sku": "НФ-00000596",
+      "name": "Дип Кул CASE CH 160 WHITE",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-015/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CH160",
+        "code_1c": "НФ-00000596"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CH160",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "White",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CH 160 WHITE",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Цвет",
+          "value": "Белый",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CH 160",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-015/main.webp",
+        "images/products/cases-015/01.webp",
+        "images/products/cases-015/02.webp",
+        "images/products/cases-015/03.webp",
+        "images/products/case-006/main.webp",
+        "images/products/case-006/angle.webp",
+        "images/products/case-006/detail.webp",
+        "images/products/case-006/rear.webp",
+        "images/products/case-006/top.webp"
+      ],
+      "verifiedSpecs": [],
+      "code_1c": "НФ-00000596",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "cases-016": {
+      "id": "cases-016",
+      "sku": "НФ-00000593",
+      "name": "Дип Кул CASE CC560 LIMITED V2",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-016/main.webp",
+      "placeholder": null,
+      "identifiers": {
+        "modelNumber": "CC560 LIMITED V2"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CC560 LIMITED V2",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CC560 LIMITED V2",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CC560 LIMITED V2",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-016/main.webp",
+        "images/products/cases-016/01.webp",
+        "images/products/cases-016/02.webp",
+        "images/products/cases-016/03.webp",
+        "images/products/cases-016/04.webp",
+        "images/products/case-007/main.webp",
+        "images/products/case-007/angle.webp",
+        "images/products/case-007/detail.webp",
+        "images/products/case-007/rear.webp",
+        "images/products/case-007/top.webp"
+      ],
+      "verifiedSpecs": []
+    },
+    "cases-017": {
+      "id": "cases-017",
+      "sku": "НФ-00000815",
+      "name": "Дип Кул CASE CG380 3F",
+      "brand": "DeepCool",
+      "category": "Корпуса",
+      "categoryName": "Корпуса",
+      "categoryUrl": "rgw_page_cases.html",
+      "image": "images/products/cases-017/main.webp",
+      "placeholder": "🖥️",
+      "identifiers": {
+        "modelNumber": "CG380 3F"
+      },
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "CG380 3F",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Модель",
+          "value": "DeepCool CASE CG380 3F",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "deepcool",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "CG380 3F",
+          "group": "Дополнительно"
+        }
+      ],
+      "images": [
+        "images/products/cases-017/main.webp",
+        "images/products/case-008/main.webp",
+        "images/products/case-008/angle.webp",
+        "images/products/case-008/detail.webp",
+        "images/products/case-008/rear.webp",
+        "images/products/case-008/top.webp"
+      ],
+      "verifiedSpecs": []
+    },
+    "cards-1": {
+      "id": "cards-1",
+      "sku": "НФ-00000046",
+      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+      "brand": "TP-LINK",
+      "category": "Сетевые карты",
+      "categoryName": "Сетевые карты",
+      "categoryUrl": "rgw_page_network_cards.html",
+      "image": "images/products/cards-1/main.webp",
+      "placeholder": "🖧",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "TP-LINK",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000046"
+      },
+      "images": [
+        "images/products/cards-1/main.webp",
+        "images/products/wifi-4/main.webp"
+      ],
+      "code_1c": "НФ-00000046",
+      "stock": 5,
+      "availability": "В наличии"
+    },
+    "access-5": {
+      "id": "access-5",
+      "sku": "НФ-00000075",
+      "name": "Ubiquiti adapter U7 Pro Max",
+      "brand": "Ubiquiti",
+      "category": "Точки доступа",
+      "categoryName": "Точки доступа",
+      "categoryUrl": "rgw_page_access_points.html",
+      "image": "images/products/access-5/main.webp",
+      "placeholder": "📡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Ubiquiti adapter U7 Pro Max",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Ubiquiti",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Стандарт",
+          "value": "Wi-Fi 6",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000075"
+      },
+      "images": [
+        "images/products/access-5/main.webp",
+        "images/products/wifi-13/main.webp"
+      ],
+      "code_1c": "НФ-00000075",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "acc-adapters-2": {
+      "id": "acc-adapters-2",
+      "sku": "НФ-00001032",
+      "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+      "brand": "cudy",
+      "category": "Переходники",
+      "categoryName": "Переходники",
+      "categoryUrl": "rgw_page_adapters.html",
+      "image": "images/products/acc-adapters-2/main.webp",
+      "placeholder": "🔁",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "cudy",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Вход",
+          "value": "USB-C",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Выход",
+          "value": "Ethernet",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Скорость",
+          "value": "1 Gbps",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Характеристика 1",
+          "value": "USB-C → Ethernet",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Производитель",
+          "value": "Cudy",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00001032"
+      },
+      "images": [
+        "images/products/acc-adapters-2/main.webp",
+        "images/products/wifi-14/main.webp"
+      ],
+      "code_1c": "НФ-00001032",
+      "stock": 18,
+      "availability": "В наличии"
+    },
+    "access-9": {
+      "id": "access-9",
+      "sku": "НФ-00000619",
+      "name": "Grandstream GWN7605, WiFi Access Point,",
+      "brand": "Grandstream",
+      "category": "Точки доступа",
+      "categoryName": "Точки доступа",
+      "categoryUrl": "rgw_page_access_points.html",
+      "image": "images/products/access-9/main.webp",
+      "placeholder": "📡",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream GWN7605, WiFi Access Point,",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000619"
+      },
+      "images": [
+        "images/products/access-9/main.webp",
+        "images/products/wifi-15/main.webp"
+      ],
+      "code_1c": "НФ-00000619",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "switches-25": {
+      "id": "switches-25",
+      "sku": "НФ-00000620",
+      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+      "brand": "Grandstream",
+      "category": "Коммутаторы",
+      "categoryName": "Коммутаторы",
+      "categoryUrl": "rgw_page_switches.html",
+      "image": "images/products/switches-25/main.webp",
+      "placeholder": "🔀",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "Grandstream",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Количество портов",
+          "value": "8",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Скорость",
+          "value": "1 Gbps",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00000620"
+      },
+      "images": [
+        "images/products/switches-25/main.webp",
+        "images/products/wifi-16/main.webp"
+      ],
+      "code_1c": "НФ-00000620",
+      "stock": 1,
+      "availability": "В наличии"
+    },
+    "network_cables-10": {
+      "id": "network_cables-10",
+      "sku": "НФ-00001141",
+      "name": "Кабель UTP MERCURY CAT 6 UTP 305M Cable — Дубай",
+      "brand": "MERCURY",
+      "category": "Сетевые кабели",
+      "categoryName": "Сетевые кабели",
+      "categoryUrl": "rgw_page_network_cables.html",
+      "image": "images/products/network_cables-2/main.webp",
+      "placeholder": "🧵",
+      "catalogFacts": [
+        {
+          "label": "Модель",
+          "value": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Производитель",
+          "value": "MERCURY",
+          "group": "Общие параметры"
+        },
+        {
+          "label": "Тип",
+          "value": "UTP",
+          "group": "Дополнительно"
+        },
+        {
+          "label": "Длина",
+          "value": "305",
+          "group": "Дополнительно"
+        }
+      ],
+      "verifiedSpecs": [],
+      "identifiers": {
+        "code_1c": "НФ-00001141"
+      },
+      "images": [
+        "images/products/network_cables-2/main.webp"
+      ],
+      "code_1c": "НФ-00001141",
+      "stock": 9,
+      "availability": "В наличии"
+    }
+  },
+  "html_card_snapshots_before": {
+    "rgw_page_monoblocks.html": {
+      "mono-007": "<article class=\"product-card\" data-brand=\"hp\" data-cpu-brand=\"intel\" data-cpu-family=\"i7\" data-os=\"\" data-product-id=\"mono-007\" data-ram=\"8\" data-screen=\"27\" data-sku=\"HP-27-CR0156NH\" data-storage=\"512\" data-storage-type=\"\" data-touch=\"\" data-price=\"\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=mono-007\" aria-label=\"Моноблок HP AIO 27-CR0156NH\"><span class=\"product-badge\">HP</span><img class=\"product-image-file\" src=\"assets/products/mono-007/main.webp\" alt=\"Моноблок HP AIO 27-CR0156NH\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-page-link product-title-link\" href=\"product.html?id=mono-007\">Моноблок HP AIO 27-CR0156NH</a></h3><div class=\"product-id\">SKU: HP-27-CR0156NH</div><div class=\"specs\"><span class=\"spec\">Core i7</span><span class=\"spec\">8 ГБ RAM</span><span class=\"spec\">512 ГБ</span><span class=\"spec\">27&quot;</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_mesh.html": {
+      "mesh-5": "<article class=\"product-card\" data-product-id=\"mesh-5\" data-sku=\"mesh-5\" data-price=\"\" data-popularity=\"\" data-brand=\"TP-LINK\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=mesh-5\"><span class=\"product-badge\">Mesh-системы</span><img src=\"images/products/mesh-5/main.webp\" alt=\"Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=mesh-5\">Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System</a></h3><div class=\"product-id\">SKU: mesh-5</div><div class=\"specs\"><span class=\"spec\">TP-LINK</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>",
+      "mesh-12": "<article class=\"product-card\" data-product-id=\"mesh-12\" data-sku=\"mesh-12\" data-price=\"\" data-popularity=\"\" data-brand=\"Grandstream\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=mesh-12\"><span class=\"product-badge\">Mesh-системы</span><img src=\"images/products/mesh-12/main.webp\" alt=\"Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=mesh-12\">Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet</a></h3><div class=\"product-id\">SKU: mesh-12</div><div class=\"specs\"><span class=\"spec\">Grandstream</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_network_cables.html": {
+      "network_cables-2": "<article class=\"product-card\" data-product-id=\"network_cables-2\" data-sku=\"network_cables-2\" data-price=\"\" data-popularity=\"\" data-brand=\"MERCURY\" data-type=\"UTP\" data-length=\"305\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=network_cables-2\"><span class=\"product-badge\">Сетевые кабели</span><img src=\"images/products/network_cables-2/main.webp\" alt=\"Кабель UTP MERCURY CAT 6 UTP 305M Cable\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=network_cables-2\">Кабель UTP MERCURY CAT 6 UTP 305M Cable</a></h3><div class=\"product-id\">SKU: network_cables-2</div><div class=\"specs\"><span class=\"spec\">MERCURY</span><span class=\"spec\">UTP</span><span class=\"spec\">305</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_network_cards.html": {
+      "cards-2": "<article class=\"product-card\" data-product-id=\"cards-2\" data-sku=\"cards-2\" data-price=\"\" data-popularity=\"\" data-brand=\"TP-LINK\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=cards-2\"><span class=\"product-badge\">Сетевые карты</span><img src=\"images/products/cards-2/main.webp\" alt=\"TP-LINK Сетевая карта <TL-WN781ND\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=cards-2\">TP-LINK Сетевая карта &lt;TL-WN781ND</a></h3><div class=\"product-id\">SKU: cards-2</div><div class=\"specs\"><span class=\"spec\">TP-LINK</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_other_accessories.html": {
+      "acc-other_accessories-6": "<article class=\"product-card\" data-product-id=\"acc-other_accessories-6\" data-sku=\"acc-other_accessories-6\" data-price=\"\" data-popularity=\"\" data-type=\"mat\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=acc-other_accessories-6\"><span class=\"product-badge\">Прочие аксессуары</span><span class=\"placeholder-icon\">🧰</span></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=acc-other_accessories-6\">Коврик 80*30</a></h3><div class=\"product-id\">SKU: acc-other_accessories-6</div><div class=\"specs\"><span class=\"spec\">Коврик</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_projectors_screens.html": {
+      "acc-projectors_screens-19": "<article class=\"product-card\" data-product-id=\"acc-projectors_screens-19\" data-sku=\"acc-projectors_screens-19\" data-price=\"\" data-popularity=\"\" data-type=\"stand\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=acc-projectors_screens-19\"><span class=\"product-badge\">Проекторы и экраны</span><span class=\"placeholder-icon\">📽️</span></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=acc-projectors_screens-19\">Стойка Projector 1 метра</a></h3><div class=\"product-id\">SKU: acc-projectors_screens-19</div><div class=\"specs\"><span class=\"spec\">Стойка</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_routers.html": {
+      "routers-2": "<article class=\"product-card\" data-product-id=\"routers-2\" data-sku=\"routers-2\" data-price=\"\" data-popularity=\"\" data-brand=\"TP-LINK\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=routers-2\"><span class=\"product-badge\">Роутеры</span><img src=\"images/products/routers-2/main.webp\" alt=\"TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=routers-2\">TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E</a></h3><div class=\"product-id\">SKU: routers-2</div><div class=\"specs\"><span class=\"spec\">TP-LINK</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_stabilizers.html": {
+      "stabilizers-4": "<article class=\"product-card\" data-product-id=\"stabilizers-4\" data-sku=\"stabilizers-4\" data-price=\"\" data-popularity=\"\" data-brand=\"Mercury\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=stabilizers-4\"><span class=\"product-badge\">Стабилизаторы</span><span class=\"placeholder-icon\">⚡</span></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=stabilizers-4\">Инвертор Mercury Inverter 1200 with LCD PANE</a></h3><div class=\"product-id\">SKU: stabilizers-4</div><div class=\"specs\"><span class=\"spec\">Mercury</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>",
+      "stabilizers-5": "<article class=\"product-card\" data-product-id=\"stabilizers-5\" data-sku=\"stabilizers-5\" data-price=\"\" data-popularity=\"\" data-brand=\"Mercury\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=stabilizers-5\"><span class=\"product-badge\">Стабилизаторы</span><span class=\"placeholder-icon\">⚡</span></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=stabilizers-5\">Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V</a></h3><div class=\"product-id\">SKU: stabilizers-5</div><div class=\"specs\"><span class=\"spec\">Mercury</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_wifi_adapters.html": {
+      "wifi-4": "<article class=\"product-card\" data-product-id=\"wifi-4\" data-sku=\"wifi-4\" data-price=\"\" data-popularity=\"\" data-brand=\"TP-LINK\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=wifi-4\"><span class=\"product-badge\">Wi-Fi адаптеры</span><img src=\"images/products/wifi-4/main.webp\" alt=\"TP-LINK TG-3468 Gigabit PCI Express Network Adapter\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=wifi-4\">TP-LINK TG-3468 Gigabit PCI Express Network Adapter</a></h3><div class=\"product-id\">SKU: wifi-4</div><div class=\"specs\"><span class=\"spec\">TP-LINK</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>",
+      "wifi-13": "<article class=\"product-card\" data-product-id=\"wifi-13\" data-sku=\"wifi-13\" data-price=\"\" data-popularity=\"\" data-brand=\"Ubiquiti\" data-standard=\"Wi-Fi 6\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=wifi-13\"><span class=\"product-badge\">Wi-Fi адаптеры</span><img src=\"images/products/wifi-13/main.webp\" alt=\"Ubiquiti adapter U7 Pro Max\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=wifi-13\">Ubiquiti adapter U7 Pro Max</a></h3><div class=\"product-id\">SKU: wifi-13</div><div class=\"specs\"><span class=\"spec\">Ubiquiti</span><span class=\"spec\">Wi-Fi 6</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>",
+      "wifi-14": "<article class=\"product-card\" data-product-id=\"wifi-14\" data-sku=\"wifi-14\" data-price=\"\" data-popularity=\"\" data-brand=\"Cudy\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=wifi-14\"><span class=\"product-badge\">Wi-Fi адаптеры</span><img src=\"images/products/wifi-14/main.webp\" alt=\"Куди Cudy UE10C USB-C to Ethernet Adapter\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=wifi-14\">Куди Cudy UE10C USB-C to Ethernet Adapter</a></h3><div class=\"product-id\">SKU: wifi-14</div><div class=\"specs\"><span class=\"spec\">Cudy</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>",
+      "wifi-15": "<article class=\"product-card\" data-product-id=\"wifi-15\" data-sku=\"wifi-15\" data-price=\"\" data-popularity=\"\" data-brand=\"Grandstream\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=wifi-15\"><span class=\"product-badge\">Wi-Fi адаптеры</span><img src=\"images/products/wifi-15/main.webp\" alt=\"Grandstream GWN7605, WiFi Access Point,\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=wifi-15\">Grandstream GWN7605, WiFi Access Point,</a></h3><div class=\"product-id\">SKU: wifi-15</div><div class=\"specs\"><span class=\"spec\">Grandstream</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>",
+      "wifi-16": "<article class=\"product-card\" data-product-id=\"wifi-16\" data-sku=\"wifi-16\" data-price=\"\" data-popularity=\"\" data-brand=\"Grandstream\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=wifi-16\"><span class=\"product-badge\">Wi-Fi адаптеры</span><img src=\"images/products/wifi-16/main.webp\" alt=\"Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\"><a class=\"product-title-link\" href=\"product.html?id=wifi-16\">Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit</a></h3><div class=\"product-id\">SKU: wifi-16</div><div class=\"specs\"><span class=\"spec\">Grandstream</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    },
+    "rgw_page_cases.html": {
+      "cases-012": "<article class=\"product-card\" data-product-id=\"cases-012\" data-sku=\"НФ-00000777\" data-price=\"\" data-popularity=\"\" data-brand=\"DeepCool\"><div class=\"product-image\"><a class=\"product-page-link\" href=\"product.html?id=cases-012\"><span class=\"product-badge\">Корпуса</span><img src=\"images/products/cases-012/main.webp\" alt=\"Дип Кул CASE CG530 4F\" loading=\"lazy\" decoding=\"async\"></a></div><div class=\"product-body\"><h3 class=\"product-title\" title=\"Дип Кул CASE CG530 4F\"><a class=\"product-title-link\" href=\"product.html?id=cases-012\">Дип Кул CASE CG530 4F</a></h3><div class=\"product-id\">SKU: НФ-00000777</div><div class=\"specs\"><span class=\"spec\">DeepCool</span></div><div class=\"product-foot\"><div><div class=\"product-price\">Цена уточняется</div><div class=\"product-stock\">Уточнить наличие</div></div><a class=\"btn btn-dark product-action\" href=\"index.html#contacts\">Уточнить наличие</a></div></div></article>"
+    }
+  },
+  "changed_html_files": [
+    "rgw_page_monoblocks.html",
+    "rgw_page_mesh.html",
+    "rgw_page_network_cables.html",
+    "rgw_page_network_cards.html",
+    "rgw_page_other_accessories.html",
+    "rgw_page_projectors_screens.html",
+    "rgw_page_routers.html",
+    "rgw_page_stabilizers.html",
+    "rgw_page_wifi_adapters.html",
+    "rgw_page_cases.html",
+    "rgw_page_ip_telephony.html",
+    "rgw_page_adapters.html",
+    "rgw_page_access_points.html",
+    "rgw_page_switches.html"
+  ],
+  "transferred_images": [
+    {
+      "sourceId": "mesh-12",
+      "targetId": "ip_telephony-3",
+      "path": "images/products/mesh-12/main.webp"
+    },
+    {
+      "sourceId": "mesh-12",
+      "targetId": "ip_telephony-3",
+      "path": "images/products/mesh-12/02.webp"
+    },
+    {
+      "sourceId": "cards-2",
+      "targetId": "wifi-6",
+      "path": "images/products/cards-2/main.webp"
+    },
+    {
+      "sourceId": "routers-2",
+      "targetId": "wifi-3",
+      "path": "images/products/routers-2/main.webp"
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "path": "images/products/case-001/main.webp"
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "path": "images/products/case-001/angle.webp"
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "path": "images/products/case-001/detail.webp"
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "path": "images/products/case-001/rear.webp"
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "path": "images/products/case-001/top.webp"
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "path": "images/products/case-002/main.webp"
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "path": "images/products/case-002/angle.webp"
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "path": "images/products/case-002/detail.webp"
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "path": "images/products/case-002/rear.webp"
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "path": "images/products/case-002/top.webp"
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "path": "images/products/case-003/main.webp"
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "path": "images/products/case-003/angle.webp"
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "path": "images/products/case-003/detail.webp"
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "path": "images/products/case-003/rear.webp"
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "path": "images/products/case-003/top.webp"
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "path": "images/products/case-004/main.webp"
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "path": "images/products/case-004/angle.webp"
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "path": "images/products/case-004/detail.webp"
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "path": "images/products/case-004/rear.webp"
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "path": "images/products/case-004/top.webp"
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "path": "images/products/case-005/main.webp"
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "path": "images/products/case-005/angle.webp"
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "path": "images/products/case-005/detail.webp"
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "path": "images/products/case-005/rear.webp"
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "path": "images/products/case-005/top.webp"
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "path": "images/products/case-006/main.webp"
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "path": "images/products/case-006/angle.webp"
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "path": "images/products/case-006/detail.webp"
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "path": "images/products/case-006/rear.webp"
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "path": "images/products/case-006/top.webp"
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "path": "images/products/case-007/main.webp"
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "path": "images/products/case-007/angle.webp"
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "path": "images/products/case-007/detail.webp"
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "path": "images/products/case-007/rear.webp"
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "path": "images/products/case-007/top.webp"
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "path": "images/products/case-008/main.webp"
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "path": "images/products/case-008/angle.webp"
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "path": "images/products/case-008/detail.webp"
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "path": "images/products/case-008/rear.webp"
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "path": "images/products/case-008/top.webp"
+    },
+    {
+      "sourceId": "wifi-4",
+      "targetId": "cards-1",
+      "path": "images/products/wifi-4/main.webp"
+    },
+    {
+      "sourceId": "wifi-13",
+      "targetId": "access-5",
+      "path": "images/products/wifi-13/main.webp"
+    },
+    {
+      "sourceId": "wifi-14",
+      "targetId": "acc-adapters-2",
+      "path": "images/products/wifi-14/main.webp"
+    },
+    {
+      "sourceId": "wifi-15",
+      "targetId": "access-9",
+      "path": "images/products/wifi-15/main.webp"
+    },
+    {
+      "sourceId": "wifi-16",
+      "targetId": "switches-25",
+      "path": "images/products/wifi-16/main.webp"
+    }
+  ],
+  "transferred_characteristics": [
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CH 370 WHITE",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "fact": {
+        "label": "Цвет",
+        "value": "Белый",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-001",
+      "targetId": "cases-010",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CH 370",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CH 370 BLACK",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "fact": {
+        "label": "Цвет",
+        "value": "Чёрный",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-002",
+      "targetId": "cases-011",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CH 370",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CG530 4F",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-003",
+      "targetId": "cases-012",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CG530 4F",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CG580 4F V2",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-004",
+      "targetId": "cases-013",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CG580 4F V2",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE MATREXX 50",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-005",
+      "targetId": "cases-014",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "MATREXX 50",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CH 160 WHITE",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "fact": {
+        "label": "Цвет",
+        "value": "Белый",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-006",
+      "targetId": "cases-015",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CH 160",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CC560 LIMITED V2",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-007",
+      "targetId": "cases-016",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CC560 LIMITED V2",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "fact": {
+        "label": "Модель",
+        "value": "DeepCool CASE CG380 3F",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "fact": {
+        "label": "Производитель",
+        "value": "deepcool",
+        "group": "Общие параметры"
+      }
+    },
+    {
+      "sourceId": "case-008",
+      "targetId": "cases-017",
+      "fact": {
+        "label": "Характеристика 1",
+        "value": "CG380 3F",
+        "group": "Дополнительно"
+      }
+    },
+    {
+      "sourceId": "wifi-14",
+      "targetId": "acc-adapters-2",
+      "fact": {
+        "label": "Производитель",
+        "value": "Cudy",
+        "group": "Общие параметры"
+      }
+    }
+  ],
+  "mapping_manual_review_count_before": 132,
+  "mapping_manual_review_count_after": 109,
+  "restore_instructions": [
+    "Сохранить текущий коммит и рабочую копию перед откатом.",
+    "Восстановить products.json из product_snapshots_before для затронутых записей; удалить network_cables-10; вернуть network_cables-2 из снимка.",
+    "Восстановить исходные HTML-карточки из html_card_snapshots_before и пересчитать счётчики страниц.",
+    "Восстановить SKU_1C_MAPPING.json из резервной копии или удалить только stage3_resolution/stage3_summary и вернуть manual_review из manual_review_before_stage3.",
+    "Не откатывать SKU_1C_STAGE2_ROLLBACK_20261114.json и 110 исправлений второго этапа без отдельного решения.",
+    "Supabase и база 1С этим этапом не изменялись."
+  ],
+  "manual_review_before_stage3": [
+    {
+      "id": "wifi-15",
+      "old_sku": "wifi-15",
+      "name": "Grandstream GWN7605, WiFi Access Point,",
+      "category": "Wi-Fi адаптеры",
+      "reason": "Дубликат карточки: код НФ-00000619 однозначно назначен канонической карточке access-9; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000619"
+    },
+    {
+      "id": "wifi-16",
+      "old_sku": "wifi-16",
+      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
+      "category": "Wi-Fi адаптеры",
+      "reason": "Дубликат карточки: код НФ-00000620 однозначно назначен канонической карточке switches-25; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000620"
+    },
+    {
+      "id": "mesh-12",
+      "old_sku": "mesh-12",
+      "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
+      "category": "Mesh-системы",
+      "reason": "Дубликат карточки: код НФ-00000622 однозначно назначен канонической карточке ip_telephony-3; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000622"
+    },
+    {
+      "id": "routers-2",
+      "old_sku": "routers-2",
+      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
+      "category": "Роутеры",
+      "reason": "Дубликат карточки: код НФ-00000037 однозначно назначен канонической карточке wifi-3; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000037"
+    },
+    {
+      "id": "wifi-4",
+      "old_sku": "wifi-4",
+      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
+      "category": "Wi-Fi адаптеры",
+      "reason": "Дубликат карточки: код НФ-00000046 однозначно назначен канонической карточке cards-1; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000046"
+    },
+    {
+      "id": "cards-2",
+      "old_sku": "cards-2",
+      "name": "TP-LINK Сетевая карта <TL-WN781ND",
+      "category": "Сетевые карты",
+      "reason": "Дубликат карточки: код НФ-00000070 однозначно назначен канонической карточке wifi-6; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000070"
+    },
+    {
+      "id": "wifi-13",
+      "old_sku": "wifi-13",
+      "name": "Ubiquiti adapter U7 Pro Max",
+      "category": "Wi-Fi адаптеры",
+      "reason": "Дубликат карточки: код НФ-00000075 однозначно назначен канонической карточке access-5; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000075"
+    },
+    {
+      "id": "stabilizers-5",
+      "old_sku": "stabilizers-5",
+      "name": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
+      "category": "Стабилизаторы",
+      "reason": "Дубликат карточки: код НФ-00000705 однозначно назначен канонической карточке inverters-2; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000705"
+    },
+    {
+      "id": "stabilizers-4",
+      "old_sku": "stabilizers-4",
+      "name": "Инвертор Mercury Inverter 1200 with LCD PANE",
+      "category": "Стабилизаторы",
+      "reason": "Дубликат карточки: код НФ-00000704 однозначно назначен канонической карточке inverters-1; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000704"
+    },
+    {
+      "id": "acc-other_accessories-6",
+      "old_sku": "acc-other_accessories-6",
+      "name": "Коврик 80*30",
+      "category": "Прочие аксессуары",
+      "reason": "Дубликат карточки: код НФ-00000459 однозначно назначен канонической карточке acc-other_accessories-3; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000459"
+    },
+    {
+      "id": "wifi-14",
+      "old_sku": "wifi-14",
+      "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
+      "category": "Wi-Fi адаптеры",
+      "reason": "Дубликат карточки: код НФ-00001032 однозначно назначен канонической карточке acc-adapters-2; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00001032"
+    },
+    {
+      "id": "acc-projectors_screens-19",
+      "old_sku": "acc-projectors_screens-19",
+      "name": "Стойка Projector 1 метра",
+      "category": "Проекторы и экраны",
+      "reason": "Дубликат карточки: код НФ-00000430 однозначно назначен канонической карточке acc-projectors_screens-12; второй одинаковый SKU запрещён.",
+      "source_code": "НФ-00000430"
+    },
+    {
+      "id": "laptop-001",
+      "old_sku": "ACER-AG15-42P-R917",
+      "name": "ACER ASPIRE GO 15 AG15-42P-R917",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-002",
+      "old_sku": "ASUS-ROG-G815LM",
+      "name": "ASUS ROG STRIX G815LM-IS96",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-003",
+      "old_sku": "ASUS-VIVOBOOK-X1504VA",
+      "name": "ASUS VIVOBOOK X1504VA-BQ4172",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-004",
+      "old_sku": "LENOVO-LEGION-5I",
+      "name": "LENOVO LEGION 5i",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-005",
+      "old_sku": "LENOVO-IP-SLIM3-15IRH10",
+      "name": "LENOVO IP SLIM3 15IRH10",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-006",
+      "old_sku": "HP-VICTUS-15-FA2120NIA",
+      "name": "HP VICTUS 15-FA2120NIA",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-007",
+      "old_sku": "HP-PROBOOK-450-G10",
+      "name": "HP PROBOOK 450 G10",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-009",
+      "old_sku": "DELL-LDC15250-5434BLK",
+      "name": "DELL LDC15250-5434BLK-PUS",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-010",
+      "old_sku": "ASUS-VIVOBOOK-GO-E1504FA",
+      "name": "ASUS VIVOBOOK GO E1504FA",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "laptop-012",
+      "old_sku": "LENOVO-IP-SLIM3I",
+      "name": "LENOVO IP SLIM 3i",
+      "category": "Ноутбуки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mono-001",
+      "old_sku": "HP-200-G4-AIO",
+      "name": "Моноблок HP 200 G4 AIO",
+      "category": "Моноблоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mono-002",
+      "old_sku": "HP-290-AIO",
+      "name": "Моноблок HP 290",
+      "category": "Моноблоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mono-003",
+      "old_sku": "HP-27-CR0008L",
+      "name": "Моноблок HP AIO 27-CR0008L",
+      "category": "Моноблоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mono-006",
+      "old_sku": "MSI-AP272P-AIO",
+      "name": "Моноблок MSI Pro AP272P AIO 27",
+      "category": "Моноблоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mono-007",
+      "old_sku": "HP-27-CR0156NH",
+      "name": "Моноблок HP AIO 27-CR0156NH",
+      "category": "Моноблоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "gpu-002",
+      "old_sku": "gpu-002",
+      "name": "Видеокарта B67D Black GF RTX5060 Ti 1-Click OC White PCI-E 8GB / GDDR7",
+      "category": "Видеокарты",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "gpu-003",
+      "old_sku": "gpu-003",
+      "name": "Видеокарта B67O Black GF RTX5060 1-Click OC V2 PCI-E 8GB / GDDR7 128BIT",
+      "category": "Видеокарты",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "gpu-005",
+      "old_sku": "gpu-005",
+      "name": "Видеокарта GALAX B37S Black GF RTX5080 1-Click OC PCI-E 16GB / GDDR7",
+      "category": "Видеокарты",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "gpu-006",
+      "old_sku": "gpu-006",
+      "name": "Видеокарта Galax PG190 BLACK GF RTX 3060 1-Click OC PCI-E 12GB",
+      "category": "Видеокарты",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "gpu-007",
+      "old_sku": "gpu-007",
+      "name": "Видеокарта ASUS GT 710 2G DDR5",
+      "category": "Видеокарты",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "gpu-008",
+      "old_sku": "gpu-008",
+      "name": "Видеокарта MSI RTX 5060 8G Ventus 2X",
+      "category": "Видеокарты",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cpu-004",
+      "old_sku": "cpu-004",
+      "name": "Процессор Intel Core i9 -14900KF",
+      "category": "Процессоры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cpu-007",
+      "old_sku": "cpu-007",
+      "name": "Процессор TRAY Ultra 5 245K",
+      "category": "Процессоры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cpu-008",
+      "old_sku": "cpu-008",
+      "name": "Процессор TRAY Ultra 5 245KF",
+      "category": "Процессоры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cpu-017",
+      "old_sku": "cpu-017",
+      "name": "Процессор TRAY Ultra 5 225F",
+      "category": "Процессоры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-004",
+      "old_sku": "ssd-004",
+      "name": "SSD NVMe Samsung 990 Evo plus 1 TB",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-005",
+      "old_sku": "ssd-005",
+      "name": "SSD NVMe Samsung 990 Evo plus 2 TB",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-006",
+      "old_sku": "ssd-006",
+      "name": "SSD NVMe Samsung 990 Pro 1TB",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-008",
+      "old_sku": "ssd-008",
+      "name": "SSD 2,5 Lexar 128 GB",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-010",
+      "old_sku": "ssd-010",
+      "name": "SSD NVMe Lexar 1TB LNM 790",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-011",
+      "old_sku": "ssd-011",
+      "name": "SSD NVMe Lexar 2TB LNM 790",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-012",
+      "old_sku": "ssd-012",
+      "name": "SSD HP FX 700 NVMe SSD 512",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-013",
+      "old_sku": "ssd-013",
+      "name": "SSD NVMe Samsung 256 Gb",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-014",
+      "old_sku": "ssd-014",
+      "name": "SSD Kingston M.2 2280 NVMe SSD 1 TB",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-015",
+      "old_sku": "ssd-015",
+      "name": "SSD NVMe Samsung 980 512 Gb",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-019",
+      "old_sku": "ssd-019",
+      "name": "SSD 2,5 Kingston 480 Gb",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ssd-021",
+      "old_sku": "ssd-021",
+      "name": "SSD NVMe Lexar 512 GB LNM 790",
+      "category": "SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mb-004",
+      "old_sku": "mb-004",
+      "name": "Материнка Gigabyte B760 М Н DDR4",
+      "category": "Материнские платы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ram-001",
+      "old_sku": "ram-001",
+      "name": "Оперативка Lexar DDR4 3200 16 Gb Радиатор",
+      "category": "Оперативная память",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ram-005",
+      "old_sku": "ram-005",
+      "name": "Оперативка Kingston FURY Beast 32 ГБ DDR5 5200",
+      "category": "Оперативная память",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ram-008",
+      "old_sku": "ram-008",
+      "name": "Оперативка Lexar Thor DDR5 6000 8 Gb",
+      "category": "Оперативная память",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ram-009",
+      "old_sku": "ram-009",
+      "name": "Оперативка Kingston 16 ГБ DDR4 3200",
+      "category": "Оперативная память",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ram-010",
+      "old_sku": "ram-010",
+      "name": "Оперативка Kingston 8 ГБ DDR4 2666",
+      "category": "Оперативная память",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ram-011",
+      "old_sku": "ram-011",
+      "name": "Оперативка Kingston FURY Beast 16 ГБ DDR5 5200",
+      "category": "Оперативная память",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "hdd-002",
+      "old_sku": "hdd-002",
+      "name": "HDD WD Purple 10 TB New",
+      "category": "HDD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "hdd-003",
+      "old_sku": "hdd-003",
+      "name": "HDD WD Purple 14 TB New",
+      "category": "HDD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "hdd-006",
+      "old_sku": "hdd-006",
+      "name": "HDD WD Purple 4 TB New",
+      "category": "HDD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cases-013",
+      "old_sku": "cases-013",
+      "name": "Дип Кул CASE CG580 4F V2",
+      "category": "Корпуса",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cases-016",
+      "old_sku": "cases-016",
+      "name": "Дип Кул CASE CC560 LIMITED V2",
+      "category": "Корпуса",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cases-017",
+      "old_sku": "cases-017",
+      "name": "Дип Кул CASE CG380 3F",
+      "category": "Корпуса",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "psu-008",
+      "old_sku": "psu-008",
+      "name": "Блок Питания Vision 750 wat ОЕМ",
+      "category": "Блоки питания",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "psu-010",
+      "old_sku": "psu-010",
+      "name": "Блок Питания 500 wat Dragon",
+      "category": "Блоки питания",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "psu-012",
+      "old_sku": "psu-012",
+      "name": "Блок Питания Vision 600wat",
+      "category": "Блоки питания",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "psu-014",
+      "old_sku": "psu-014",
+      "name": "Дип Кул POWER PL800 D",
+      "category": "Блоки питания",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cooling-009",
+      "old_sku": "cooling-009",
+      "name": "Кулер 240 водянка китай",
+      "category": "Охлаждение",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "cooling-013",
+      "old_sku": "cooling-013",
+      "name": "Дип Кул LIQUID COOLER LM360",
+      "category": "Охлаждение",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "monitors-4",
+      "old_sku": "monitors-4",
+      "name": "Монитор 24 HP S5 524SW FHD",
+      "category": "Мониторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "monitors-7",
+      "old_sku": "monitors-7",
+      "name": "Монитор 27 Philips 27E2N1100 IPS 120HZ",
+      "category": "Мониторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "monitors-16",
+      "old_sku": "monitors-16",
+      "name": "Монитор 34 RedMi G34WQ 2026",
+      "category": "Мониторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "monitors-19",
+      "old_sku": "monitors-19",
+      "name": "Монитор 27 RedMi G27Q 320HZ",
+      "category": "Мониторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "monitors-20",
+      "old_sku": "monitors-20",
+      "name": "Монитор 27 RedMi G27Q 240Hz 2026",
+      "category": "Мониторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "access-4",
+      "old_sku": "access-4",
+      "name": "Ubiquiti U6 PLUS",
+      "category": "Точки доступа",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "access-7",
+      "old_sku": "access-7",
+      "name": "Ubiquiti точка доступа потолочный U7 Pro Max",
+      "category": "Точки доступа",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-bags-2",
+      "old_sku": "acc-bags-2",
+      "name": "Сумка Lucky Bat",
+      "category": "Сумки и рюкзаки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-bags-11",
+      "old_sku": "acc-bags-11",
+      "name": "Сумка MQ Sports Travel Backpack",
+      "category": "Сумки и рюкзаки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-bags-12",
+      "old_sku": "acc-bags-12",
+      "name": "Сумка DPark 15,6 Замш сабз-сафед сиех",
+      "category": "Сумки и рюкзаки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-bags-13",
+      "old_sku": "acc-bags-13",
+      "name": "Сумка Кожа Коричневый",
+      "category": "Сумки и рюкзаки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-bags-20",
+      "old_sku": "acc-bags-20",
+      "name": "Сумка Розовый Черный Гулоби Сиех",
+      "category": "Сумки и рюкзаки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "connectors-2",
+      "old_sku": "connectors-2",
+      "name": "Зажим RJ45 Прастой",
+      "category": "Коннекторы и розетки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-2",
+      "old_sku": "acc-external_storage-2",
+      "name": "HDD 1Tb Toshiba Canvio Basics",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-3",
+      "old_sku": "acc-external_storage-3",
+      "name": "HDD WD My Book 8Tb",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-4",
+      "old_sku": "acc-external_storage-4",
+      "name": "HDD Seagate Expansion 1Tb",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-5",
+      "old_sku": "acc-external_storage-5",
+      "name": "HDD Seagate Expansion 2Tb",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-9",
+      "old_sku": "acc-external_storage-9",
+      "name": "SSD Lexar 1TB SL260 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-10",
+      "old_sku": "acc-external_storage-10",
+      "name": "SSD Lexar 2TB SL300 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-13",
+      "old_sku": "acc-external_storage-13",
+      "name": "SSD Lexar 1TB SL300 Air Portable",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-14",
+      "old_sku": "acc-external_storage-14",
+      "name": "HDD WD My Passport 5Tb",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-external_storage-15",
+      "old_sku": "acc-external_storage-15",
+      "name": "HDD Seagate OneTouch with HUB 8Tb USB3.0 + 2-port USB3.0 hub",
+      "category": "Внешние HDD/SSD",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "keyboards-14",
+      "old_sku": "keyboards-14",
+      "name": "Клавиатура Exegate EX295304RUS Комплект беспроводной + мышь оптическая MK-210",
+      "category": "Клавиатуры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "keyboards-18",
+      "old_sku": "keyboards-18",
+      "name": "Клавиатура Exegate EX286220RUS Комплект беспроводной MK240 (кл.115кл+мышь800/1200 4кн",
+      "category": "Клавиатуры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-memory_cards-1",
+      "old_sku": "acc-memory_cards-1",
+      "name": "Карта памяти 128Gb MicroSD Lexar High-Performance 633x",
+      "category": "Карты памяти",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mesh-1",
+      "old_sku": "mesh-1",
+      "name": "Роутер TP-LINK Deco M4 ( 3Pack )AC1200 Gigabit Whole Home Mesh Wi-Fi System",
+      "category": "Mesh-системы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mesh-2",
+      "old_sku": "mesh-2",
+      "name": "Роутер TP-LINK AX55 Dual Band Gigabit AX3000 Wi-Fi 6 OneMesh Router",
+      "category": "Mesh-системы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mesh-3",
+      "old_sku": "mesh-3",
+      "name": "Роутер TP LINK AX1500 Wi-Fi 6 OneMesh Broadband Archer AX10",
+      "category": "Mesh-системы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mesh-5",
+      "old_sku": "mesh-5",
+      "name": "Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System",
+      "category": "Mesh-системы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mesh-8",
+      "old_sku": "mesh-8",
+      "name": "Куди Cudy M1200(3-Pack) AC1200 Wi-Fi Mesh Solution",
+      "category": "Mesh-системы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mesh-10",
+      "old_sku": "mesh-10",
+      "name": "Куди Cudy M1500(3-Pack) AX1500 Gigabit Wi-Fi 6 Mesh Solution",
+      "category": "Mesh-системы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "mice-7",
+      "old_sku": "mice-7",
+      "name": "Мышка LOGITECH Wireless M705",
+      "category": "Мыши",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "network_cables-2",
+      "old_sku": "network_cables-2",
+      "name": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
+      "category": "Сетевые кабели",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "network_cables-3",
+      "old_sku": "network_cables-3",
+      "name": "Кабель SFTP Cat6 305M Бабина Сафед Китай",
+      "category": "Сетевые кабели",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "printers-2",
+      "old_sku": "printers-2",
+      "name": "Принтер CANON MF3010 i-SENSYS дубай",
+      "category": "Принтеры и МФУ",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "printers-3",
+      "old_sku": "printers-3",
+      "name": "Принтер EPSON L8050",
+      "category": "Принтеры и МФУ",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "printers-4",
+      "old_sku": "printers-4",
+      "name": "Принтер HP LJ M137fnw MFP",
+      "category": "Принтеры и МФУ",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "printers-6",
+      "old_sku": "printers-6",
+      "name": "Принтер HP Laser Jet M111w",
+      "category": "Принтеры и МФУ",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-projectors_screens-10",
+      "old_sku": "acc-projectors_screens-10",
+      "name": "Проектор OPTOMA W371",
+      "category": "Проекторы и экраны",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "acc-projectors_screens-11",
+      "old_sku": "acc-projectors_screens-11",
+      "name": "Проектор V11HA86340 EPSONCO-WX02",
+      "category": "Проекторы и экраны",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "routers-4",
+      "old_sku": "routers-4",
+      "name": "Роутер TP-LINK MR100 Наружный",
+      "category": "Роутеры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "routers-7",
+      "old_sku": "routers-7",
+      "name": "Роутер TP-Link TL-MR105",
+      "category": "Роутеры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "routers-8",
+      "old_sku": "routers-8",
+      "name": "Роутер TP-LINK Archer AX23 AX1800 Dual-Band Wi-Fi 6 Router",
+      "category": "Роутеры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "routers-14",
+      "old_sku": "routers-14",
+      "name": "Роутер TP-LINK Archer C64",
+      "category": "Роутеры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "routers-17",
+      "old_sku": "routers-17",
+      "name": "Роутер TP-LINK WR 846 N 300 Mbps Wireless N Router",
+      "category": "Роутеры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "routers-18",
+      "old_sku": "routers-18",
+      "name": "MikroTik hAP RB951Ui-2nD",
+      "category": "Роутеры",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "server_racks-6",
+      "old_sku": "server_racks-6",
+      "name": "Шкаф 4 U 600x450mm Китай",
+      "category": "Серверные шкафы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "speakers-3",
+      "old_sku": "speakers-3",
+      "name": "Калонка Philips SPA 2209",
+      "category": "Колонки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "switches-15",
+      "old_sku": "switches-15",
+      "name": "Коммутатор TP-Link T2500G-10MPS - L2, 8 Port Giga и 2 слотами SFP. Разъёмы RJ45",
+      "category": "Коммутаторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "switches-18",
+      "old_sku": "switches-18",
+      "name": "Комутатор TP-Link SG1428PE 28-Port Gigabit Easy Smart Switch with 24-Port PoE+",
+      "category": "Коммутаторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "switches-19",
+      "old_sku": "switches-19",
+      "name": "TL-SG1008MP 8-Port Gigabit POE Desktop/Rackmount",
+      "category": "Коммутаторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "switches-24",
+      "old_sku": "switches-24",
+      "name": "TP-Link LS1024G LiteWave 24-Port Gigabit Switch",
+      "category": "Коммутаторы",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-001",
+      "old_sku": "DEEPCOOL-CH370-WHITE",
+      "name": "DeepCool CASE CH 370 WHITE",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-002",
+      "old_sku": "DEEPCOOL-CH370-BLACK",
+      "name": "DeepCool CASE CH 370 BLACK",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-003",
+      "old_sku": "DEEPCOOL-CG530-4F",
+      "name": "DeepCool CASE CG530 4F",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-004",
+      "old_sku": "DEEPCOOL-CG580-4F-V2",
+      "name": "DeepCool CASE CG580 4F V2",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-005",
+      "old_sku": "DEEPCOOL-MATREXX-50",
+      "name": "DeepCool CASE MATREXX 50",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-006",
+      "old_sku": "DEEPCOOL-CH160-WHITE",
+      "name": "DeepCool CASE CH 160 WHITE",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-007",
+      "old_sku": "DEEPCOOL-CC560-LIMITED-V2",
+      "name": "DeepCool CASE CC560 LIMITED V2",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "case-008",
+      "old_sku": "DEEPCOOL-CG380-3F",
+      "name": "DeepCool CASE CG380 3F",
+      "category": "Системные блоки",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ups-1",
+      "old_sku": "ups-1",
+      "name": "APC Easy UPS RAIL KIT. 700mm for SRV1. SRV2. SRV3kVA",
+      "category": "UPS",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ups-4",
+      "old_sku": "ups-4",
+      "name": "APC Easy UPS SRV RM 2000VA 230V ,with RailKit S",
+      "category": "UPS",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "ups-13",
+      "old_sku": "ups-13",
+      "name": "APC Easy UPS On-Line SRV RM 10000VA 230V SRV10KRIRK М",
+      "category": "UPS",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    },
+    {
+      "id": "batteries-3",
+      "old_sku": "batteries-3",
+      "name": "Батарейка MERCURY SEALED LEADED BATTERY 9AH/12V",
+      "category": "Батареи для UPS",
+      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
+      "source_code": null
+    }
+  ]
+}

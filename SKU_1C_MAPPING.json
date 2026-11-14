@@ -5933,102 +5933,6 @@
   ],
   "manual_review": [
     {
-      "id": "wifi-15",
-      "old_sku": "wifi-15",
-      "name": "Grandstream GWN7605, WiFi Access Point,",
-      "category": "Wi-Fi адаптеры",
-      "reason": "Дубликат карточки: код НФ-00000619 однозначно назначен канонической карточке access-9; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000619"
-    },
-    {
-      "id": "wifi-16",
-      "old_sku": "wifi-16",
-      "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
-      "category": "Wi-Fi адаптеры",
-      "reason": "Дубликат карточки: код НФ-00000620 однозначно назначен канонической карточке switches-25; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000620"
-    },
-    {
-      "id": "mesh-12",
-      "old_sku": "mesh-12",
-      "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
-      "category": "Mesh-системы",
-      "reason": "Дубликат карточки: код НФ-00000622 однозначно назначен канонической карточке ip_telephony-3; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000622"
-    },
-    {
-      "id": "routers-2",
-      "old_sku": "routers-2",
-      "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
-      "category": "Роутеры",
-      "reason": "Дубликат карточки: код НФ-00000037 однозначно назначен канонической карточке wifi-3; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000037"
-    },
-    {
-      "id": "wifi-4",
-      "old_sku": "wifi-4",
-      "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
-      "category": "Wi-Fi адаптеры",
-      "reason": "Дубликат карточки: код НФ-00000046 однозначно назначен канонической карточке cards-1; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000046"
-    },
-    {
-      "id": "cards-2",
-      "old_sku": "cards-2",
-      "name": "TP-LINK Сетевая карта <TL-WN781ND",
-      "category": "Сетевые карты",
-      "reason": "Дубликат карточки: код НФ-00000070 однозначно назначен канонической карточке wifi-6; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000070"
-    },
-    {
-      "id": "wifi-13",
-      "old_sku": "wifi-13",
-      "name": "Ubiquiti adapter U7 Pro Max",
-      "category": "Wi-Fi адаптеры",
-      "reason": "Дубликат карточки: код НФ-00000075 однозначно назначен канонической карточке access-5; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000075"
-    },
-    {
-      "id": "stabilizers-5",
-      "old_sku": "stabilizers-5",
-      "name": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
-      "category": "Стабилизаторы",
-      "reason": "Дубликат карточки: код НФ-00000705 однозначно назначен канонической карточке inverters-2; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000705"
-    },
-    {
-      "id": "stabilizers-4",
-      "old_sku": "stabilizers-4",
-      "name": "Инвертор Mercury Inverter 1200 with LCD PANE",
-      "category": "Стабилизаторы",
-      "reason": "Дубликат карточки: код НФ-00000704 однозначно назначен канонической карточке inverters-1; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000704"
-    },
-    {
-      "id": "acc-other_accessories-6",
-      "old_sku": "acc-other_accessories-6",
-      "name": "Коврик 80*30",
-      "category": "Прочие аксессуары",
-      "reason": "Дубликат карточки: код НФ-00000459 однозначно назначен канонической карточке acc-other_accessories-3; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000459"
-    },
-    {
-      "id": "wifi-14",
-      "old_sku": "wifi-14",
-      "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
-      "category": "Wi-Fi адаптеры",
-      "reason": "Дубликат карточки: код НФ-00001032 однозначно назначен канонической карточке acc-adapters-2; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00001032"
-    },
-    {
-      "id": "acc-projectors_screens-19",
-      "old_sku": "acc-projectors_screens-19",
-      "name": "Стойка Projector 1 метра",
-      "category": "Проекторы и экраны",
-      "reason": "Дубликат карточки: код НФ-00000430 однозначно назначен канонической карточке acc-projectors_screens-12; второй одинаковый SKU запрещён.",
-      "source_code": "НФ-00000430"
-    },
-    {
       "id": "laptop-001",
       "old_sku": "ACER-AG15-42P-R917",
       "name": "ACER ASPIRE GO 15 AG15-42P-R917",
@@ -6136,14 +6040,6 @@
       "id": "mono-006",
       "old_sku": "MSI-AP272P-AIO",
       "name": "Моноблок MSI Pro AP272P AIO 27",
-      "category": "Моноблоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "mono-007",
-      "old_sku": "HP-27-CR0156NH",
-      "name": "Моноблок HP AIO 27-CR0156NH",
       "category": "Моноблоки",
       "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
       "source_code": null
@@ -6701,14 +6597,6 @@
       "source_code": null
     },
     {
-      "id": "mesh-5",
-      "old_sku": "mesh-5",
-      "name": "Роутер TP-LINK Deco M5 ( 3Pack )AC1300 Mesh Wi-Fi System",
-      "category": "Mesh-системы",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
       "id": "mesh-8",
       "old_sku": "mesh-8",
       "name": "Куди Cudy M1200(3-Pack) AC1200 Wi-Fi Mesh Solution",
@@ -6729,14 +6617,6 @@
       "old_sku": "mice-7",
       "name": "Мышка LOGITECH Wireless M705",
       "category": "Мыши",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "network_cables-2",
-      "old_sku": "network_cables-2",
-      "name": "Кабель UTP MERCURY CAT 6 UTP 305M Cable",
-      "category": "Сетевые кабели",
       "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
       "source_code": null
     },
@@ -6893,70 +6773,6 @@
       "source_code": null
     },
     {
-      "id": "case-001",
-      "old_sku": "DEEPCOOL-CH370-WHITE",
-      "name": "DeepCool CASE CH 370 WHITE",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-002",
-      "old_sku": "DEEPCOOL-CH370-BLACK",
-      "name": "DeepCool CASE CH 370 BLACK",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-003",
-      "old_sku": "DEEPCOOL-CG530-4F",
-      "name": "DeepCool CASE CG530 4F",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-004",
-      "old_sku": "DEEPCOOL-CG580-4F-V2",
-      "name": "DeepCool CASE CG580 4F V2",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-005",
-      "old_sku": "DEEPCOOL-MATREXX-50",
-      "name": "DeepCool CASE MATREXX 50",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-006",
-      "old_sku": "DEEPCOOL-CH160-WHITE",
-      "name": "DeepCool CASE CH 160 WHITE",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-007",
-      "old_sku": "DEEPCOOL-CC560-LIMITED-V2",
-      "name": "DeepCool CASE CC560 LIMITED V2",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
-      "id": "case-008",
-      "old_sku": "DEEPCOOL-CG380-3F",
-      "name": "DeepCool CASE CG380 3F",
-      "category": "Системные блоки",
-      "reason": "В актуальном Excel нет подтверждённого однозначного соответствия модели; старый SKU сохранён.",
-      "source_code": null
-    },
-    {
       "id": "ups-1",
       "old_sku": "ups-1",
       "name": "APC Easy UPS RAIL KIT. 700mm for SRV1. SRV2. SRV3kVA",
@@ -7026,5 +6842,204 @@
       "name": "Клавиатура Logitech Keyboard МK 120",
       "stock": 70
     }
-  ]
+  ],
+  "stage3_resolution": [
+    {
+      "source_id": "mono-007",
+      "decision": "Удалить карточку по решению пользователя",
+      "retained_id": null,
+      "added_id": null,
+      "removed_id": "mono-007",
+      "final_sku": null
+    },
+    {
+      "source_id": "mesh-5",
+      "decision": "Удалить карточку по решению пользователя",
+      "retained_id": null,
+      "added_id": null,
+      "removed_id": "mesh-5",
+      "final_sku": null
+    },
+    {
+      "source_id": "mesh-12",
+      "decision": "Дубликат: сохранить в IP-телефонии",
+      "retained_id": "ip_telephony-3",
+      "added_id": null,
+      "removed_id": "mesh-12",
+      "final_sku": "НФ-00000622"
+    },
+    {
+      "source_id": "network_cables-2",
+      "decision": "Разделить на Китай и Дубай; сохранить два самостоятельных товара",
+      "retained_id": "network_cables-2",
+      "added_id": "network_cables-10",
+      "removed_id": null,
+      "final_sku": "НФ-00000188 / НФ-00001141"
+    },
+    {
+      "source_id": "cards-2",
+      "decision": "Дубликат: сохранить в Wi-Fi-адаптерах",
+      "retained_id": "wifi-6",
+      "added_id": null,
+      "removed_id": "cards-2",
+      "final_sku": "НФ-00000070"
+    },
+    {
+      "source_id": "acc-other_accessories-6",
+      "decision": "Дубликат: сохранить основную карточку",
+      "retained_id": "acc-other_accessories-3",
+      "added_id": null,
+      "removed_id": "acc-other_accessories-6",
+      "final_sku": "НФ-00000459"
+    },
+    {
+      "source_id": "acc-projectors_screens-19",
+      "decision": "Дубликат: сохранить основную карточку",
+      "retained_id": "acc-projectors_screens-12",
+      "added_id": null,
+      "removed_id": "acc-projectors_screens-19",
+      "final_sku": "НФ-00000430"
+    },
+    {
+      "source_id": "routers-2",
+      "decision": "Дубликат: сохранить в Wi-Fi-адаптерах",
+      "retained_id": "wifi-3",
+      "added_id": null,
+      "removed_id": "routers-2",
+      "final_sku": "НФ-00000037"
+    },
+    {
+      "source_id": "stabilizers-4",
+      "decision": "Дубликат: сохранить в инверторах",
+      "retained_id": "inverters-1",
+      "added_id": null,
+      "removed_id": "stabilizers-4",
+      "final_sku": "НФ-00000704"
+    },
+    {
+      "source_id": "stabilizers-5",
+      "decision": "Дубликат: сохранить в инверторах",
+      "retained_id": "inverters-2",
+      "added_id": null,
+      "removed_id": "stabilizers-5",
+      "final_sku": "НФ-00000705"
+    },
+    {
+      "source_id": "case-001",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-010",
+      "added_id": null,
+      "removed_id": "case-001",
+      "final_sku": "НФ-00000597"
+    },
+    {
+      "source_id": "case-002",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-011",
+      "added_id": null,
+      "removed_id": "case-002",
+      "final_sku": "НФ-00000598"
+    },
+    {
+      "source_id": "case-003",
+      "decision": "Использовать код НФ-00000777; сохранить карточку в корпусах",
+      "retained_id": "cases-012",
+      "added_id": null,
+      "removed_id": "case-003",
+      "final_sku": "НФ-00000777"
+    },
+    {
+      "source_id": "case-004",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-013",
+      "added_id": null,
+      "removed_id": "case-004",
+      "final_sku": "НФ-00000778"
+    },
+    {
+      "source_id": "case-005",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-014",
+      "added_id": null,
+      "removed_id": "case-005",
+      "final_sku": "НФ-00000816"
+    },
+    {
+      "source_id": "case-006",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-015",
+      "added_id": null,
+      "removed_id": "case-006",
+      "final_sku": "НФ-00000596"
+    },
+    {
+      "source_id": "case-007",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-016",
+      "added_id": null,
+      "removed_id": "case-007",
+      "final_sku": "НФ-00000593"
+    },
+    {
+      "source_id": "case-008",
+      "decision": "Дубликат: сохранить в корпусах",
+      "retained_id": "cases-017",
+      "added_id": null,
+      "removed_id": "case-008",
+      "final_sku": "НФ-00000815"
+    },
+    {
+      "source_id": "wifi-4",
+      "decision": "Дубликат: сохранить в сетевых картах",
+      "retained_id": "cards-1",
+      "added_id": null,
+      "removed_id": "wifi-4",
+      "final_sku": "НФ-00000046"
+    },
+    {
+      "source_id": "wifi-13",
+      "decision": "Дубликат: сохранить в точках доступа",
+      "retained_id": "access-5",
+      "added_id": null,
+      "removed_id": "wifi-13",
+      "final_sku": "НФ-00000075"
+    },
+    {
+      "source_id": "wifi-14",
+      "decision": "Дубликат: сохранить в переходниках",
+      "retained_id": "acc-adapters-2",
+      "added_id": null,
+      "removed_id": "wifi-14",
+      "final_sku": "НФ-00001032"
+    },
+    {
+      "source_id": "wifi-15",
+      "decision": "Дубликат: сохранить в точках доступа",
+      "retained_id": "access-9",
+      "added_id": null,
+      "removed_id": "wifi-15",
+      "final_sku": "НФ-00000619"
+    },
+    {
+      "source_id": "wifi-16",
+      "decision": "Дубликат: сохранить в коммутаторах",
+      "retained_id": "switches-25",
+      "added_id": null,
+      "removed_id": "wifi-16",
+      "final_sku": "НФ-00000620"
+    }
+  ],
+  "stage3_summary": {
+    "generated_at": "2026-11-14",
+    "before_catalog_products": 718,
+    "after_catalog_products": 697,
+    "removed_from_catalog": 22,
+    "confirmed_duplicate_cards_removed": 20,
+    "explicit_user_deletions": 2,
+    "new_cards_added": 1,
+    "existing_skus_corrected": 1,
+    "stage2_replacements_preserved": 110,
+    "supabase_updated": false
+  },
+  "manual_review_count_before_stage3": 132
 }

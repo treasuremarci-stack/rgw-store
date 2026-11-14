@@ -19471,5 +19471,2805 @@
     "images": [
       "images/products/bridges-7/main.webp"
     ]
+  },
+  {
+    "id": "ups-14",
+    "sku": "1C-НФ-00000789",
+    "name": "APC Easy UPS SRV 3000VA 230V М",
+    "brand": "APC",
+    "category": "UPS",
+    "categoryName": "UPS",
+    "categoryUrl": "rgw_page_ups.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000789"
+    },
+    "images": [],
+    "code_1c": "НФ-00000789",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ups-15",
+    "sku": "1C-НФ-00000873",
+    "name": "APC Easy UPS SRV RM 3000VA 230V М",
+    "brand": "APC",
+    "category": "UPS",
+    "categoryName": "UPS",
+    "categoryUrl": "rgw_page_ups.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000873"
+    },
+    "images": [],
+    "code_1c": "НФ-00000873",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ups-16",
+    "sku": "1C-НФ-00000843",
+    "name": "APC Easy UPS SRV RM 6000VA 230V М",
+    "brand": "APC",
+    "category": "UPS",
+    "categoryName": "UPS",
+    "categoryUrl": "rgw_page_ups.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000843"
+    },
+    "images": [],
+    "code_1c": "НФ-00000843",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ups-17",
+    "sku": "1C-НФ-00001138",
+    "name": "APC Smart UPS SMC 2000 I С2000VA",
+    "brand": "APC",
+    "category": "UPS",
+    "categoryName": "UPS",
+    "categoryUrl": "rgw_page_ups.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001138"
+    },
+    "images": [],
+    "code_1c": "НФ-00001138",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "access-10",
+    "sku": "1C-НФ-00000001",
+    "name": "Aruba instant On AP 11 Access Point",
+    "brand": "",
+    "category": "Точки доступа",
+    "categoryName": "Точки доступа",
+    "categoryUrl": "rgw_page_access_points.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000001"
+    },
+    "images": [],
+    "code_1c": "НФ-00000001",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "access-11",
+    "sku": "1C-НФ-00001067",
+    "name": "Куди Cudy AP1300 Indoor",
+    "brand": "Cudy",
+    "category": "Точки доступа",
+    "categoryName": "Точки доступа",
+    "categoryUrl": "rgw_page_access_points.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001067"
+    },
+    "images": [],
+    "code_1c": "НФ-00001067",
+    "stock": 10,
+    "availability": "В наличии"
+  },
+  {
+    "id": "access-12",
+    "sku": "1C-НФ-00001069",
+    "name": "Куди Cudy AP1300 Outdoor",
+    "brand": "Cudy",
+    "category": "Точки доступа",
+    "categoryName": "Точки доступа",
+    "categoryUrl": "rgw_page_access_points.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001069"
+    },
+    "images": [],
+    "code_1c": "НФ-00001069",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "access-13",
+    "sku": "1C-НФ-00001068",
+    "name": "Куди Cudy AP3000 Outdoor",
+    "brand": "Cudy",
+    "category": "Точки доступа",
+    "categoryName": "Точки доступа",
+    "categoryUrl": "rgw_page_access_points.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001068"
+    },
+    "images": [],
+    "code_1c": "НФ-00001068",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-6",
+    "sku": "1C-НФ-00000022",
+    "name": "D Link Медиаконвертор 10/100 Прастой",
+    "brand": "",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000022"
+    },
+    "images": [],
+    "code_1c": "НФ-00000022",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-7",
+    "sku": "1C-НФ-00000023",
+    "name": "D Link Медиаконвертор 10/100/1000 Гигабайт",
+    "brand": "",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000023"
+    },
+    "images": [],
+    "code_1c": "НФ-00000023",
+    "stock": 28,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-8",
+    "sku": "1C-НФ-00000042",
+    "name": "TL-SM311LS MiniGBIC Module",
+    "brand": "",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000042"
+    },
+    "images": [],
+    "code_1c": "НФ-00000042",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-9",
+    "sku": "1C-НФ-00000043",
+    "name": "TL-SM321A 1000Base-BX WDM Bi-Directional SFP Module",
+    "brand": "WD",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000043"
+    },
+    "images": [],
+    "code_1c": "НФ-00000043",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-10",
+    "sku": "1C-НФ-00000044",
+    "name": "TL-SM321B 1000Base-BX WDM Bi-Directional SFP Module",
+    "brand": "WD",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000044"
+    },
+    "images": [],
+    "code_1c": "НФ-00000044",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-11",
+    "sku": "1C-НФ-00000132",
+    "name": "Блок Питани для гранстрим телефон",
+    "brand": "",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000132"
+    },
+    "images": [],
+    "code_1c": "НФ-00000132",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-12",
+    "sku": "1C-НФ-00000141",
+    "name": "Домофон Блок питания Dahua PFM320S-50-PMT, PMT-12V50W1AA",
+    "brand": "Dahua",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000141"
+    },
+    "images": [],
+    "code_1c": "НФ-00000141",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_accessories-13",
+    "sku": "1C-НФ-00000499",
+    "name": "Шкаф 5 Pairs Punch Down Tool",
+    "brand": "",
+    "category": "Сетевые аксессуары",
+    "categoryName": "Сетевые аксессуары",
+    "categoryUrl": "rgw_page_network_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000499"
+    },
+    "images": [],
+    "code_1c": "НФ-00000499",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cards-3",
+    "sku": "1C-НФ-00000024",
+    "name": "D Link Сетевая карта D Link 100-1000 DGE-560 T",
+    "brand": "",
+    "category": "Сетевые карты",
+    "categoryName": "Сетевые карты",
+    "categoryUrl": "rgw_page_network_cards.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000024"
+    },
+    "images": [],
+    "code_1c": "НФ-00000024",
+    "stock": 6,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cards-4",
+    "sku": "1C-НФ-00001047",
+    "name": "Куди Cudy PE10 Gigabit PCI Express Adapter",
+    "brand": "Cudy",
+    "category": "Сетевые карты",
+    "categoryName": "Сетевые карты",
+    "categoryUrl": "rgw_page_network_cards.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001047"
+    },
+    "images": [],
+    "code_1c": "НФ-00001047",
+    "stock": 19,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cards-5",
+    "sku": "1C-НФ-00001048",
+    "name": "Куди Cudy PE10G 10G PCI Express Adapter(Marvell AQC113",
+    "brand": "Cudy",
+    "category": "Сетевые карты",
+    "categoryName": "Сетевые карты",
+    "categoryUrl": "rgw_page_network_cards.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001048"
+    },
+    "images": [],
+    "code_1c": "НФ-00001048",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-25",
+    "sku": "1C-НФ-00000820",
+    "name": "Keenetic Carrier KN-1721",
+    "brand": "Keenetic",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000820"
+    },
+    "images": [],
+    "code_1c": "НФ-00000820",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-26",
+    "sku": "1C-НФ-00000823",
+    "name": "Keenetic Hopper SE KN-3812",
+    "brand": "Keenetic",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000823"
+    },
+    "images": [],
+    "code_1c": "НФ-00000823",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-27",
+    "sku": "1C-НФ-00000819",
+    "name": "Keenetic Launcher KN-1221-01",
+    "brand": "Keenetic",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000819"
+    },
+    "images": [],
+    "code_1c": "НФ-00000819",
+    "stock": 6,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-28",
+    "sku": "1C-НФ-00001113",
+    "name": "Netcraze 4G (NC-1213) Интернет-центр для USB-модемов LTE/4G/3G",
+    "brand": "Netcraze",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001113"
+    },
+    "images": [],
+    "code_1c": "НФ-00001113",
+    "stock": 7,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-29",
+    "sku": "1C-НФ-00000824",
+    "name": "Netcraze Explorer 4G NC-4910",
+    "brand": "Netcraze",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000824"
+    },
+    "images": [],
+    "code_1c": "НФ-00000824",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-30",
+    "sku": "1C-НФ-00000826",
+    "name": "Netcraze Giga NC-1012",
+    "brand": "Netcraze",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000826"
+    },
+    "images": [],
+    "code_1c": "НФ-00000826",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-31",
+    "sku": "1C-НФ-00000918",
+    "name": "Netcraze Runner 4G (NC-2212)",
+    "brand": "Netcraze",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000918"
+    },
+    "images": [],
+    "code_1c": "НФ-00000918",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-32",
+    "sku": "1C-НФ-00000825",
+    "name": "Netcraze Speedster NC-3013",
+    "brand": "Netcraze",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000825"
+    },
+    "images": [],
+    "code_1c": "НФ-00000825",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-33",
+    "sku": "1C-НФ-00000919",
+    "name": "Netcraze Viva (NC-1913)",
+    "brand": "Netcraze",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000919"
+    },
+    "images": [],
+    "code_1c": "НФ-00000919",
+    "stock": 12,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-34",
+    "sku": "1C-НФ-00000057",
+    "name": "TP-LINK RE450 усилитель Wi-Fi сигнала",
+    "brand": "TP-Link",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000057"
+    },
+    "images": [],
+    "code_1c": "НФ-00000057",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-35",
+    "sku": "1C-НФ-00000058",
+    "name": "TP-LINK RE605X усилитель Wi-Fi сигнала",
+    "brand": "TP-Link",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000058"
+    },
+    "images": [],
+    "code_1c": "НФ-00000058",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-36",
+    "sku": "1C-НФ-00000059",
+    "name": "TP-LINK RE700X усилитель Wi-Fi сигнала",
+    "brand": "TP-Link",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000059"
+    },
+    "images": [],
+    "code_1c": "НФ-00000059",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-37",
+    "sku": "1C-НФ-00000772",
+    "name": "TP-LINK WA850RE 300Mbps Wi-Fi Range Extender",
+    "brand": "TP-Link",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000772"
+    },
+    "images": [],
+    "code_1c": "НФ-00000772",
+    "stock": 16,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-38",
+    "sku": "1C-НФ-00000773",
+    "name": "TP-LINK WA855RE 300Mbps Wi-Fi Range Extender",
+    "brand": "TP-Link",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000773"
+    },
+    "images": [],
+    "code_1c": "НФ-00000773",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-39",
+    "sku": "1C-НФ-00000064",
+    "name": "XPON Dual Band ONU WL 8421-B",
+    "brand": "",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000064"
+    },
+    "images": [],
+    "code_1c": "НФ-00000064",
+    "stock": 8,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-40",
+    "sku": "1C-НФ-00000065",
+    "name": "XPON Single Band ONU WL 8411-A",
+    "brand": "",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000065"
+    },
+    "images": [],
+    "code_1c": "НФ-00000065",
+    "stock": 15,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-41",
+    "sku": "1C-НФ-00000259",
+    "name": "Кинетик Speedster (KN-3013)",
+    "brand": "",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000259"
+    },
+    "images": [],
+    "code_1c": "НФ-00000259",
+    "stock": 6,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-42",
+    "sku": "1C-НФ-00000260",
+    "name": "Кинетик Sprinter SE <KN-3712>",
+    "brand": "",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000260"
+    },
+    "images": [],
+    "code_1c": "НФ-00000260",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-43",
+    "sku": "1C-НФ-00001066",
+    "name": "Кули Cudy LT300",
+    "brand": "Cudy",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001066"
+    },
+    "images": [],
+    "code_1c": "НФ-00001066",
+    "stock": 13,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-44",
+    "sku": "1C-НФ-00001061",
+    "name": "Куди Cudy WR1200",
+    "brand": "Cudy",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001061"
+    },
+    "images": [],
+    "code_1c": "НФ-00001061",
+    "stock": 12,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-45",
+    "sku": "1C-НФ-00001062",
+    "name": "Куди Cudy WR1300 V5.0",
+    "brand": "Cudy",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001062"
+    },
+    "images": [],
+    "code_1c": "НФ-00001062",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "routers-46",
+    "sku": "1C-НФ-00001070",
+    "name": "Куди Cudy WR3000",
+    "brand": "Cudy",
+    "category": "Роутеры",
+    "categoryName": "Роутеры",
+    "categoryUrl": "rgw_page_routers.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001070"
+    },
+    "images": [],
+    "code_1c": "НФ-00001070",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mesh-13",
+    "sku": "1C-НФ-00001114",
+    "name": "Netcraze Air (NC-1613) Интернет-центр с Mesh Wi-Fi 5 AC1200, 4-портовым",
+    "brand": "Netcraze",
+    "category": "Mesh-системы",
+    "categoryName": "Mesh-системы",
+    "categoryUrl": "rgw_page_mesh.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001114"
+    },
+    "images": [],
+    "code_1c": "НФ-00001114",
+    "stock": 11,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mesh-14",
+    "sku": "1C-НФ-00001116",
+    "name": "Netcraze Challenger SE (NC-3911) Мультигигабитный интернет-центр с Mesh Wi-Fi 6 AX3000, 2 портами 2.",
+    "brand": "Netcraze",
+    "category": "Mesh-системы",
+    "categoryName": "Mesh-системы",
+    "categoryUrl": "rgw_page_mesh.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001116"
+    },
+    "images": [],
+    "code_1c": "НФ-00001116",
+    "stock": 8,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mesh-15",
+    "sku": "1C-НФ-00001115",
+    "name": "Netcraze Extra (NC-1714) Интернет-центр с Mesh Wi-Fi 5 AC1200, 4-портовым Smart-коммутатором и порто",
+    "brand": "Netcraze",
+    "category": "Mesh-системы",
+    "categoryName": "Mesh-системы",
+    "categoryUrl": "rgw_page_mesh.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001115"
+    },
+    "images": [],
+    "code_1c": "НФ-00001115",
+    "stock": 15,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mesh-16",
+    "sku": "1C-НФ-00001117",
+    "name": "Netcraze Ultra (NC-1812) Мультигигабитный интернет-центр с Mesh Wi-Fi 7 BE7200",
+    "brand": "Netcraze",
+    "category": "Mesh-системы",
+    "categoryName": "Mesh-системы",
+    "categoryUrl": "rgw_page_mesh.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001117"
+    },
+    "images": [],
+    "code_1c": "НФ-00001117",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mesh-17",
+    "sku": "1C-НФ-00001029",
+    "name": "Куди Cudy M3000S(3-Pack) AX3000 Wi-Fi 6 Mesh Solution",
+    "brand": "Cudy",
+    "category": "Mesh-системы",
+    "categoryName": "Mesh-системы",
+    "categoryUrl": "rgw_page_mesh.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001029"
+    },
+    "images": [],
+    "code_1c": "НФ-00001029",
+    "stock": 8,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ssd-23",
+    "sku": "1C-НФ-00001104",
+    "name": "SSD 2,5 Lexar 1TB NM610",
+    "brand": "Lexar",
+    "category": "SSD",
+    "categoryName": "SSD",
+    "categoryUrl": "rgw_page_ssd.html",
+    "image": null,
+    "placeholder": "💾",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001104"
+    },
+    "images": [],
+    "code_1c": "НФ-00001104",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-26",
+    "sku": "1C-НФ-00000472",
+    "name": "TP-LINK JetStream SL2428P",
+    "brand": "TP-Link",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000472"
+    },
+    "images": [],
+    "code_1c": "НФ-00000472",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-27",
+    "sku": "1C-НФ-00001050",
+    "name": "Куди Cudy FS1016 16-Port 10/100 Mbps Metal Switch",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001050"
+    },
+    "images": [],
+    "code_1c": "НФ-00001050",
+    "stock": 18,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-28",
+    "sku": "1C-НФ-00001130",
+    "name": "Куди Cudy FS1018PS1",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001130"
+    },
+    "images": [],
+    "code_1c": "НФ-00001130",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-29",
+    "sku": "1C-НФ-00001051",
+    "name": "Куди Cudy FS1024 24-Port 10/100 Mbps Metal Switch",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001051"
+    },
+    "images": [],
+    "code_1c": "НФ-00001051",
+    "stock": 20,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-30",
+    "sku": "1C-НФ-00001131",
+    "name": "Куди Cudy FS1026PS1",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001131"
+    },
+    "images": [],
+    "code_1c": "НФ-00001131",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-31",
+    "sku": "1C-НФ-00001057",
+    "name": "Куди Cudy FS108D V5.0",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001057"
+    },
+    "images": [],
+    "code_1c": "НФ-00001057",
+    "stock": 39,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-32",
+    "sku": "1C-НФ-00001132",
+    "name": "Куди Cudy GS1010PE",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001132"
+    },
+    "images": [],
+    "code_1c": "НФ-00001132",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-33",
+    "sku": "1C-НФ-00001060",
+    "name": "Куди Cudy GS1016",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001060"
+    },
+    "images": [],
+    "code_1c": "НФ-00001060",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-34",
+    "sku": "1C-НФ-00001135",
+    "name": "Куди Cudy GS1016EPS2",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001135"
+    },
+    "images": [],
+    "code_1c": "НФ-00001135",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-35",
+    "sku": "1C-НФ-00001055",
+    "name": "Куди Cudy GS1024 24-Port Gigabit Metal Switch",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001055"
+    },
+    "images": [],
+    "code_1c": "НФ-00001055",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-36",
+    "sku": "1C-НФ-00001056",
+    "name": "Куди Cudy GS1028ES2 26-Port Gigabit Easy-Managed Switch with 2 Combo Ports",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001056"
+    },
+    "images": [],
+    "code_1c": "НФ-00001056",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-37",
+    "sku": "1C-НФ-00001058",
+    "name": "Куди Cudy GS105D V5.0",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001058"
+    },
+    "images": [],
+    "code_1c": "НФ-00001058",
+    "stock": 56,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-38",
+    "sku": "1C-НФ-00001059",
+    "name": "Куди Cudy GS108D",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001059"
+    },
+    "images": [],
+    "code_1c": "НФ-00001059",
+    "stock": 14,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-39",
+    "sku": "1C-НФ-00001133",
+    "name": "Куди Cudy GS2008PS2",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001133"
+    },
+    "images": [],
+    "code_1c": "НФ-00001133",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "switches-40",
+    "sku": "1C-НФ-00001134",
+    "name": "Куди Cudy GS2028PS4-300W",
+    "brand": "Cudy",
+    "category": "Коммутаторы",
+    "categoryName": "Коммутаторы",
+    "categoryUrl": "rgw_page_switches.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001134"
+    },
+    "images": [],
+    "code_1c": "НФ-00001134",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "wifi-17",
+    "sku": "1C-НФ-00001044",
+    "name": "Куди Cudy WE1300 AC1300 Wireless Dual Band PCIe Adapter",
+    "brand": "Cudy",
+    "category": "Wi-Fi адаптеры",
+    "categoryName": "Wi-Fi адаптеры",
+    "categoryUrl": "rgw_page_wifi_adapters.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001044"
+    },
+    "images": [],
+    "code_1c": "НФ-00001044",
+    "stock": 10,
+    "availability": "В наличии"
+  },
+  {
+    "id": "wifi-18",
+    "sku": "1C-НФ-00001045",
+    "name": "Куди Cudy WE3000 AX3000 Wi-Fi 6 PCI Express Adapte",
+    "brand": "Cudy",
+    "category": "Wi-Fi адаптеры",
+    "categoryName": "Wi-Fi адаптеры",
+    "categoryUrl": "rgw_page_wifi_adapters.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001045"
+    },
+    "images": [],
+    "code_1c": "НФ-00001045",
+    "stock": 7,
+    "availability": "В наличии"
+  },
+  {
+    "id": "wifi-19",
+    "sku": "1C-НФ-00001043",
+    "name": "Куди Cudy WE650 AC650 Wireless Dual-Band PCIe Adapter",
+    "brand": "Cudy",
+    "category": "Wi-Fi адаптеры",
+    "categoryName": "Wi-Fi адаптеры",
+    "categoryUrl": "rgw_page_wifi_adapters.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001043"
+    },
+    "images": [],
+    "code_1c": "НФ-00001043",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "wifi-20",
+    "sku": "1C-НФ-00001046",
+    "name": "Куди Cudy WE9300 BE9300 Wi-Fi 7 PCI Express Adapter",
+    "brand": "Cudy",
+    "category": "Wi-Fi адаптеры",
+    "categoryName": "Wi-Fi адаптеры",
+    "categoryUrl": "rgw_page_wifi_adapters.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001046"
+    },
+    "images": [],
+    "code_1c": "НФ-00001046",
+    "stock": 10,
+    "availability": "В наличии"
+  },
+  {
+    "id": "wifi-21",
+    "sku": "1C-НФ-00001042",
+    "name": "Куди Cudy WU1400 AC1300 Wi-Fi High Gain USB 3.0 Adapter",
+    "brand": "Cudy",
+    "category": "Wi-Fi адаптеры",
+    "categoryName": "Wi-Fi адаптеры",
+    "categoryUrl": "rgw_page_wifi_adapters.html",
+    "image": null,
+    "placeholder": "📡",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001042"
+    },
+    "images": [],
+    "code_1c": "НФ-00001042",
+    "stock": 6,
+    "availability": "В наличии"
+  },
+  {
+    "id": "headphones-8",
+    "sku": "1C-НФ-00000002",
+    "name": "Бейсус A00050800211-00 AeQur GH02 Gaming Wireless Headphones Moon White",
+    "brand": "Baseus",
+    "category": "Наушники",
+    "categoryName": "Наушники",
+    "categoryUrl": "rgw_page_headphones.html",
+    "image": null,
+    "placeholder": "🎧",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000002"
+    },
+    "images": [],
+    "code_1c": "НФ-00000002",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "headphones-9",
+    "sku": "1C-НФ-00000003",
+    "name": "Бейсус A00079500113-00 Bass 15 Clip Open-Ear True Wireless Earphones Cluster Black",
+    "brand": "Baseus",
+    "category": "Наушники",
+    "categoryName": "Наушники",
+    "categoryUrl": "rgw_page_headphones.html",
+    "image": null,
+    "placeholder": "🎧",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000003"
+    },
+    "images": [],
+    "code_1c": "НФ-00000003",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "headphones-10",
+    "sku": "1C-НФ-00000361",
+    "name": "Наушники LOGITECH Stereo Headset H 111",
+    "brand": "Logitech",
+    "category": "Наушники",
+    "categoryName": "Наушники",
+    "categoryUrl": "rgw_page_headphones.html",
+    "image": null,
+    "placeholder": "🎧",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000361"
+    },
+    "images": [],
+    "code_1c": "НФ-00000361",
+    "stock": 22,
+    "availability": "В наличии"
+  },
+  {
+    "id": "speakers-4",
+    "sku": "1C-НФ-00000004",
+    "name": "Бейсус A20067900117-00 AeQur VO20 Portable Wireless Speaker",
+    "brand": "Baseus",
+    "category": "Колонки",
+    "categoryName": "Колонки",
+    "categoryUrl": "rgw_page_speakers.html",
+    "image": null,
+    "placeholder": "🔊",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000004"
+    },
+    "images": [],
+    "code_1c": "НФ-00000004",
+    "stock": 6,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-other_accessories-7",
+    "sku": "1C-НФ-00000009",
+    "name": "Бейсус C00081100121-00 BackseatPal L1 In-vehicle Car Charger 3U+3C 110W Cosmic Black",
+    "brand": "Baseus",
+    "category": "Прочие аксессуары",
+    "categoryName": "Прочие аксессуары",
+    "categoryUrl": "rgw_page_other_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000009"
+    },
+    "images": [],
+    "code_1c": "НФ-00000009",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-other_accessories-8",
+    "sku": "1C-НФ-00000013",
+    "name": "Бейсус P1011160A113-01 Palm Fast Charger C+U 30W EU Cluster Black",
+    "brand": "Baseus",
+    "category": "Прочие аксессуары",
+    "categoryName": "Прочие аксессуары",
+    "categoryUrl": "rgw_page_other_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000013"
+    },
+    "images": [],
+    "code_1c": "НФ-00000013",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-other_accessories-9",
+    "sku": "1C-НФ-00000015",
+    "name": "Бейсус WKCD010013 Orange Dot Wireless Presenter (Green Laser)(Charging) Grey",
+    "brand": "Baseus",
+    "category": "Прочие аксессуары",
+    "categoryName": "Прочие аксессуары",
+    "categoryUrl": "rgw_page_other_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000015"
+    },
+    "images": [],
+    "code_1c": "НФ-00000015",
+    "stock": 13,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-other_accessories-10",
+    "sku": "1C-НФ-00000458",
+    "name": "Коврик",
+    "brand": "",
+    "category": "Прочие аксессуары",
+    "categoryName": "Прочие аксессуары",
+    "categoryUrl": "rgw_page_other_accessories.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000458"
+    },
+    "images": [],
+    "code_1c": "НФ-00000458",
+    "stock": 28,
+    "availability": "В наличии"
+  },
+  {
+    "id": "network_cables-9",
+    "sku": "1C-НФ-00000180",
+    "name": "Кабель Baseus High Speed CAT5 Gigabit (Round Cable)10m Cluster Black",
+    "brand": "Baseus",
+    "category": "Сетевые кабели",
+    "categoryName": "Сетевые кабели",
+    "categoryUrl": "rgw_page_network_cables.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000180"
+    },
+    "images": [],
+    "code_1c": "НФ-00000180",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-cables-2",
+    "sku": "1C-НФ-00000014",
+    "name": "Бейсус P10377706213-00 Silky One-for-Three Fast Charging Cable USB-C to M+L+C 100W 1.5m",
+    "brand": "Baseus",
+    "category": "Кабели",
+    "categoryName": "Кабели",
+    "categoryUrl": "rgw_page_cables.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000014"
+    },
+    "images": [],
+    "code_1c": "НФ-00000014",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-cables-3",
+    "sku": "1C-НФ-00000194",
+    "name": "Кабель Питани",
+    "brand": "",
+    "category": "Кабели",
+    "categoryName": "Кабели",
+    "categoryUrl": "rgw_page_cables.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000194"
+    },
+    "images": [],
+    "code_1c": "НФ-00000194",
+    "stock": 150,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-cables-4",
+    "sku": "1C-НФ-00000672",
+    "name": "Кабель Принтер 1,5",
+    "brand": "",
+    "category": "Кабели",
+    "categoryName": "Кабели",
+    "categoryUrl": "rgw_page_cables.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000672"
+    },
+    "images": [],
+    "code_1c": "НФ-00000672",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "webcams-3",
+    "sku": "1C-НФ-00000091",
+    "name": "Вебка Logitech C270/С270i",
+    "brand": "Logitech",
+    "category": "Веб-камеры",
+    "categoryName": "Веб-камеры",
+    "categoryUrl": "rgw_page_webcams.html",
+    "image": null,
+    "placeholder": "📹",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000091"
+    },
+    "images": [],
+    "code_1c": "НФ-00000091",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "gpu-9",
+    "sku": "1C-НФ-00001145",
+    "name": "Видеокарта ASUS RTX5060 8GB GDDR7 128BIT",
+    "brand": "ASUS",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001145"
+    },
+    "images": [],
+    "code_1c": "НФ-00001145",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "gpu-10",
+    "sku": "1C-НФ-00000123",
+    "name": "Видеокарта B37S Black GF RTX5070 Ti EX Gamer PCI-E 16GB / GDDR7",
+    "brand": "",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000123"
+    },
+    "images": [],
+    "code_1c": "НФ-00000123",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "gpu-11",
+    "sku": "1C-НФ-00001160",
+    "name": "Видеокарта INNO3D GEFORCE RTX 5060 TWIN X2 V2 8GB GDDR7 128BIT",
+    "brand": "",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001160"
+    },
+    "images": [],
+    "code_1c": "НФ-00001160",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "gpu-12",
+    "sku": "1C-НФ-00001146",
+    "name": "Видеокарта MSI RTX 5060TI 8Gb SHADOW",
+    "brand": "MSI",
+    "category": "Видеокарты",
+    "categoryName": "Видеокарты",
+    "categoryUrl": "rgw_page_gpus.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001146"
+    },
+    "images": [],
+    "code_1c": "НФ-00001146",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cooling-22",
+    "sku": "1C-НФ-00001162",
+    "name": "Кулер Segotep cooler К6 PRO",
+    "brand": "",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001162"
+    },
+    "images": [],
+    "code_1c": "НФ-00001162",
+    "stock": 9,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cooling-23",
+    "sku": "1C-НФ-00001164",
+    "name": "Кулер реверсивный",
+    "brand": "",
+    "category": "Охлаждение",
+    "categoryName": "Охлаждение",
+    "categoryUrl": "rgw_page_cooling.html",
+    "image": null,
+    "placeholder": "❄️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001164"
+    },
+    "images": [],
+    "code_1c": "НФ-00001164",
+    "stock": 43,
+    "availability": "В наличии"
+  },
+  {
+    "id": "intercoms-3",
+    "sku": "1C-НФ-00000143",
+    "name": "Домофон Электромеханический Замок Dahua ASF601A",
+    "brand": "Dahua",
+    "category": "Домофоны",
+    "categoryName": "Домофоны",
+    "categoryUrl": "rgw_page_intercoms.html",
+    "image": null,
+    "placeholder": "📹",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000143"
+    },
+    "images": [],
+    "code_1c": "НФ-00000143",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "patch_panels-3",
+    "sku": "1C-НФ-00000508",
+    "name": "Зажим Пач Панель",
+    "brand": "",
+    "category": "Патч-панели",
+    "categoryName": "Патч-панели",
+    "categoryUrl": "rgw_page_patch_panels.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000508"
+    },
+    "images": [],
+    "code_1c": "НФ-00000508",
+    "stock": 8,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-memory_cards-5",
+    "sku": "1C-НФ-00001107",
+    "name": "Карта памяти 256 Gb MicroSD Lexar High-Performance 633x",
+    "brand": "Lexar",
+    "category": "Карты памяти",
+    "categoryName": "Карты памяти",
+    "categoryUrl": "rgw_page_memory_cards.html",
+    "image": null,
+    "placeholder": "💾",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001107"
+    },
+    "images": [],
+    "code_1c": "НФ-00001107",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cases-18",
+    "sku": "1C-НФ-00000895",
+    "name": "Кейс Gamemax Siega Pro ATX BK WH",
+    "brand": "",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000895"
+    },
+    "images": [],
+    "code_1c": "НФ-00000895",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cases-19",
+    "sku": "1C-НФ-00001129",
+    "name": "Кейс мини китай",
+    "brand": "",
+    "category": "Корпуса",
+    "categoryName": "Корпуса",
+    "categoryUrl": "rgw_page_cases.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001129"
+    },
+    "images": [],
+    "code_1c": "НФ-00001129",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "connectors-4",
+    "sku": "1C-НФ-00000277",
+    "name": "Конектор RJ45 ( 100 донага )",
+    "brand": "",
+    "category": "Коннекторы и розетки",
+    "categoryName": "Коннекторы и розетки",
+    "categoryUrl": "rgw_page_connectors_outlets.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000277"
+    },
+    "images": [],
+    "code_1c": "НФ-00000277",
+    "stock": 28,
+    "availability": "В наличии"
+  },
+  {
+    "id": "connectors-5",
+    "sku": "1C-НФ-00000948",
+    "name": "Конектор RJ45 Железный сквозной",
+    "brand": "",
+    "category": "Коннекторы и розетки",
+    "categoryName": "Коннекторы и розетки",
+    "categoryUrl": "rgw_page_connectors_outlets.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000948"
+    },
+    "images": [],
+    "code_1c": "НФ-00000948",
+    "stock": 637,
+    "availability": "В наличии"
+  },
+  {
+    "id": "connectors-6",
+    "sku": "1C-НФ-00000874",
+    "name": "Розетка RJ45 Кришка",
+    "brand": "",
+    "category": "Коннекторы и розетки",
+    "categoryName": "Коннекторы и розетки",
+    "categoryUrl": "rgw_page_connectors_outlets.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000874"
+    },
+    "images": [],
+    "code_1c": "НФ-00000874",
+    "stock": 100,
+    "availability": "В наличии"
+  },
+  {
+    "id": "connectors-7",
+    "sku": "1C-НФ-00000278",
+    "name": "Розетка RJ45 Сат 6 1 Выход",
+    "brand": "",
+    "category": "Коннекторы и розетки",
+    "categoryName": "Коннекторы и розетки",
+    "categoryUrl": "rgw_page_connectors_outlets.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000278"
+    },
+    "images": [],
+    "code_1c": "НФ-00000278",
+    "stock": 147,
+    "availability": "В наличии"
+  },
+  {
+    "id": "connectors-8",
+    "sku": "1C-НФ-00000279",
+    "name": "Розетка RJ45 Сат 6 2 Выход",
+    "brand": "",
+    "category": "Коннекторы и розетки",
+    "categoryName": "Коннекторы и розетки",
+    "categoryUrl": "rgw_page_connectors_outlets.html",
+    "image": null,
+    "placeholder": "🧰",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000279"
+    },
+    "images": [],
+    "code_1c": "НФ-00000279",
+    "stock": 235,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mb-17",
+    "sku": "1C-НФ-00001139",
+    "name": "Материнка ASUS Z790-P D4 DDR4",
+    "brand": "ASUS",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001139"
+    },
+    "images": [],
+    "code_1c": "НФ-00001139",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mb-18",
+    "sku": "1C-НФ-00000930",
+    "name": "Материнка Gigabyte Z790 D DDR4",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000930"
+    },
+    "images": [],
+    "code_1c": "НФ-00000930",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mb-19",
+    "sku": "1C-НФ-00001163",
+    "name": "Материнка Gigabyte Z890 D PLUS",
+    "brand": "Gigabyte",
+    "category": "Материнские платы",
+    "categoryName": "Материнские платы",
+    "categoryUrl": "rgw_page_motherboards.html",
+    "image": null,
+    "placeholder": "🧩",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001163"
+    },
+    "images": [],
+    "code_1c": "НФ-00001163",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "monitors-27",
+    "sku": "1C-НФ-00001118",
+    "name": "Монитор 24 АОС 24B36HE",
+    "brand": "",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001118"
+    },
+    "images": [],
+    "code_1c": "НФ-00001118",
+    "stock": 31,
+    "availability": "В наличии"
+  },
+  {
+    "id": "monitors-28",
+    "sku": "1C-НФ-00001136",
+    "name": "Монитор 27 Philips 27E2N1110L IPS 120HZ",
+    "brand": "Philips",
+    "category": "Мониторы",
+    "categoryName": "Мониторы",
+    "categoryUrl": "rgw_page_monitors.html",
+    "image": null,
+    "placeholder": "🖥️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001136"
+    },
+    "images": [],
+    "code_1c": "НФ-00001136",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mice-18",
+    "sku": "1C-НФ-00000341",
+    "name": "Мышка LOGITECH G 102",
+    "brand": "Logitech",
+    "category": "Мыши",
+    "categoryName": "Мыши",
+    "categoryUrl": "rgw_page_mice.html",
+    "image": null,
+    "placeholder": "🖱️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000341"
+    },
+    "images": [],
+    "code_1c": "НФ-00000341",
+    "stock": 7,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mice-19",
+    "sku": "1C-НФ-00000349",
+    "name": "Мышка LOGITECH M 90",
+    "brand": "Logitech",
+    "category": "Мыши",
+    "categoryName": "Мыши",
+    "categoryUrl": "rgw_page_mice.html",
+    "image": null,
+    "placeholder": "🖱️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000349"
+    },
+    "images": [],
+    "code_1c": "НФ-00000349",
+    "stock": 53,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mice-20",
+    "sku": "1C-НФ-00001157",
+    "name": "Мышка LOGITECH Wireless M 171",
+    "brand": "Logitech",
+    "category": "Мыши",
+    "categoryName": "Мыши",
+    "categoryUrl": "rgw_page_mice.html",
+    "image": null,
+    "placeholder": "🖱️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001157"
+    },
+    "images": [],
+    "code_1c": "НФ-00001157",
+    "stock": 32,
+    "availability": "В наличии"
+  },
+  {
+    "id": "mice-21",
+    "sku": "1C-НФ-00000344",
+    "name": "Мышка LOGITECH Wireless M 172",
+    "brand": "Logitech",
+    "category": "Мыши",
+    "categoryName": "Мыши",
+    "categoryUrl": "rgw_page_mice.html",
+    "image": null,
+    "placeholder": "🖱️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000344"
+    },
+    "images": [],
+    "code_1c": "НФ-00000344",
+    "stock": 28,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-13",
+    "sku": "1C-НФ-00001100",
+    "name": "Ноутбук ASUS TUF FA608UP-A16.R95070 R9-270 32GB 1TB RTX 5070 8GB FHD W11 HOME JAEGAR GRAY 16",
+    "brand": "ASUS",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001100"
+    },
+    "images": [],
+    "code_1c": "НФ-00001100",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-14",
+    "sku": "1C-НФ-00001098",
+    "name": "Ноутбук DELL ALIENWARE LDA15260-7823BLK-PUS CORE 7-240H 16GB 512GB RTX 4050 6GB FHD 2K STORAGE BLACK",
+    "brand": "Dell",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001098"
+    },
+    "images": [],
+    "code_1c": "НФ-00001098",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-15",
+    "sku": "1C-НФ-00001090",
+    "name": "Ноутбук DELL LDB06250-7144BLU-PUS 2in1 ULTRA 7-256V 16GB 1TB TOUCH 2K FHD+ WVA W11 ICE BLUE 16\"",
+    "brand": "Dell",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001090"
+    },
+    "images": [],
+    "code_1c": "НФ-00001090",
+    "stock": 13,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-16",
+    "sku": "1C-НФ-00001089",
+    "name": "Ноутбук DELL LDC15250-7427BLK-PUS i7-1355U 16GB 512GB FHD TOUCH 2K W11 CARBON BLACK 15.6\"",
+    "brand": "Dell",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001089"
+    },
+    "images": [],
+    "code_1c": "НФ-00001089",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-17",
+    "sku": "1C-НФ-00001092",
+    "name": "Ноутбук HP OMNIBOOK 3 16-AS0023DX X FLIP 2-in-1 ULTRA 7-256V 16GB 1TB TOUCH 2K W11 FHD IPS W11 ECLIP",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001092"
+    },
+    "images": [],
+    "code_1c": "НФ-00001092",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-18",
+    "sku": "1C-НФ-00001096",
+    "name": "Ноутбук HP OMNIBOOK 3 16-BU007DX ULTRA 7 255U 16GB 512GB IPS TOUCH W11 MICA SILVER 16",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001096"
+    },
+    "images": [],
+    "code_1c": "НФ-00001096",
+    "stock": 5,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-19",
+    "sku": "1C-НФ-00001094",
+    "name": "Ноутбук HP OMNIBOOK 3 16-BU0305DX ULTRA 5 225U 8GB 512GB IPS TOUCH 2K WUXGA IPS MICA W11 SILVER 16\"",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001094"
+    },
+    "images": [],
+    "code_1c": "НФ-00001094",
+    "stock": 7,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-20",
+    "sku": "1C-НФ-00001093",
+    "name": "Ноутбук HP OMNIBOOK 3 16-BU0315DX ULTRA 5 225U 16GB 512GB WUXGA IPS TOUCH 2K W11 MICA SILVER 16\"",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001093"
+    },
+    "images": [],
+    "code_1c": "НФ-00001093",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-21",
+    "sku": "1C-НФ-00001097",
+    "name": "Ноутбук HP OMNIBOOK 3 17-DG0107DX ULTRA 7-255U 16GB 512GB FHD IPS BACKLIT W11 MICA SILVER 17.3",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001097"
+    },
+    "images": [],
+    "code_1c": "НФ-00001097",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "laptop-22",
+    "sku": "1C-НФ-00000906",
+    "name": "Ноутбук HP VICTUS 15-FA2115NIA CORE 7-240H 16GB 1TB RTX 5060 8GB FHD IPS MICA SILVER DOS 15.6",
+    "brand": "HP",
+    "category": "Ноутбуки",
+    "categoryName": "Ноутбуки",
+    "categoryUrl": "rgw_page_laptops.html",
+    "image": null,
+    "placeholder": "💻",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000906"
+    },
+    "images": [],
+    "code_1c": "НФ-00000906",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-12",
+    "sku": "1C-НФ-00001144",
+    "name": "Оперативка Corsair Vengeance DDR4 16 Gb 3200",
+    "brand": "",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001144"
+    },
+    "images": [],
+    "code_1c": "НФ-00001144",
+    "stock": 15,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-13",
+    "sku": "1C-НФ-00001165",
+    "name": "Оперативка Corsair Vengeance DDR5 16 Gb 6000",
+    "brand": "",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001165"
+    },
+    "images": [],
+    "code_1c": "НФ-00001165",
+    "stock": 8,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-14",
+    "sku": "1C-НФ-00001123",
+    "name": "Оперативка Kingston FURY Beast 16 ГБ DDR5 6000",
+    "brand": "Kingston",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001123"
+    },
+    "images": [],
+    "code_1c": "НФ-00001123",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-15",
+    "sku": "1C-НФ-00000388",
+    "name": "Оперативка Lexar DDR4 3200 8 Gb",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000388"
+    },
+    "images": [],
+    "code_1c": "НФ-00000388",
+    "stock": 8,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-16",
+    "sku": "1C-НФ-00000390",
+    "name": "Оперативка Lexar DDR4 3200 32 Gb",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000390"
+    },
+    "images": [],
+    "code_1c": "НФ-00000390",
+    "stock": 9,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-17",
+    "sku": "1C-НФ-00000381",
+    "name": "Оперативка Lexar DDR4-3200 32GB Ноутбук",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000381"
+    },
+    "images": [],
+    "code_1c": "НФ-00000381",
+    "stock": 3,
+    "availability": "В наличии"
+  },
+  {
+    "id": "ram-18",
+    "sku": "1C-НФ-00000382",
+    "name": "Оперативка Lexar DDR5-5600 32GB",
+    "brand": "Lexar",
+    "category": "Оперативная память",
+    "categoryName": "Оперативная память",
+    "categoryUrl": "rgw_page_ram.html",
+    "image": null,
+    "placeholder": "🧠",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000382"
+    },
+    "images": [],
+    "code_1c": "НФ-00000382",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "strips-5",
+    "sku": "1C-НФ-00000395",
+    "name": "Пилот MERCURY 6240U-SCK 5m",
+    "brand": "",
+    "category": "Сетевые фильтры / пилоты",
+    "categoryName": "Сетевые фильтры / пилоты",
+    "categoryUrl": "rgw_page_power_strips.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000395"
+    },
+    "images": [],
+    "code_1c": "НФ-00000395",
+    "stock": 40,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-11",
+    "sku": "1C-НФ-00000401",
+    "name": "Принтер CANON ISENSYS 463DW",
+    "brand": "Canon",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000401"
+    },
+    "images": [],
+    "code_1c": "НФ-00000401",
+    "stock": 25,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-12",
+    "sku": "1C-НФ-00001103",
+    "name": "Принтер Canon i-SENSYS MF664Cdw",
+    "brand": "Canon",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001103"
+    },
+    "images": [],
+    "code_1c": "НФ-00001103",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-13",
+    "sku": "1C-НФ-00001128",
+    "name": "Принтер Canon i-SENSYS MF667Cdw",
+    "brand": "Canon",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001128"
+    },
+    "images": [],
+    "code_1c": "НФ-00001128",
+    "stock": 9,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-14",
+    "sku": "1C-НФ-00000787",
+    "name": "Принтер EPSON L15150",
+    "brand": "Epson",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000787"
+    },
+    "images": [],
+    "code_1c": "НФ-00000787",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-15",
+    "sku": "1C-НФ-00001142",
+    "name": "Принтер HP Color Laser Jet Pro 4303 fdw",
+    "brand": "HP",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001142"
+    },
+    "images": [],
+    "code_1c": "НФ-00001142",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-16",
+    "sku": "1C-НФ-00001152",
+    "name": "Принтер HP Laser Jet Pro 4003 dn",
+    "brand": "HP",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001152"
+    },
+    "images": [],
+    "code_1c": "НФ-00001152",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "printers-17",
+    "sku": "1C-НФ-00001153",
+    "name": "Принтер HP Laser Jet MFP M141W",
+    "brand": "HP",
+    "category": "Принтеры и МФУ",
+    "categoryName": "Принтеры и МФУ",
+    "categoryUrl": "rgw_page_printers.html",
+    "image": null,
+    "placeholder": "🖨️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001153"
+    },
+    "images": [],
+    "code_1c": "НФ-00001153",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-projectors_screens-20",
+    "sku": "1C-НФ-00001149",
+    "name": "Проектор EPSON CO-W01",
+    "brand": "Epson",
+    "category": "Проекторы и экраны",
+    "categoryName": "Проекторы и экраны",
+    "categoryUrl": "rgw_page_projectors_screens.html",
+    "image": null,
+    "placeholder": "📽️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001149"
+    },
+    "images": [],
+    "code_1c": "НФ-00001149",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-projectors_screens-21",
+    "sku": "1C-НФ-00001151",
+    "name": "Проектор EPSON EB-X49",
+    "brand": "Epson",
+    "category": "Проекторы и экраны",
+    "categoryName": "Проекторы и экраны",
+    "categoryUrl": "rgw_page_projectors_screens.html",
+    "image": null,
+    "placeholder": "📽️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001151"
+    },
+    "images": [],
+    "code_1c": "НФ-00001151",
+    "stock": 2,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cpu-18",
+    "sku": "1C-НФ-00000436",
+    "name": "Процессор Intel Core i5 -14400",
+    "brand": "Intel",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000436"
+    },
+    "images": [],
+    "code_1c": "НФ-00000436",
+    "stock": 9,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cpu-19",
+    "sku": "1C-НФ-00001120",
+    "name": "Процессор TRAY Ultra 5 225K",
+    "brand": "",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001120"
+    },
+    "images": [],
+    "code_1c": "НФ-00001120",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "cpu-20",
+    "sku": "1C-НФ-00001121",
+    "name": "Процессор TRAY Ultra 7 270K Plus",
+    "brand": "",
+    "category": "Процессоры",
+    "categoryName": "Процессоры",
+    "categoryUrl": "rgw_page_processors.html",
+    "image": null,
+    "placeholder": "⚙️",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001121"
+    },
+    "images": [],
+    "code_1c": "НФ-00001121",
+    "stock": 1,
+    "availability": "В наличии"
+  },
+  {
+    "id": "stabilizers-8",
+    "sku": "1C-НФ-00000702",
+    "name": "Стабилизатор Automatic Voltage Regulator 1500VA",
+    "brand": "",
+    "category": "Стабилизаторы",
+    "categoryName": "Стабилизаторы",
+    "categoryUrl": "rgw_page_stabilizers.html",
+    "image": null,
+    "placeholder": "🔌",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000702"
+    },
+    "images": [],
+    "code_1c": "НФ-00000702",
+    "stock": 19,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-flash_drives-9",
+    "sku": "1C-НФ-00000527",
+    "name": "Флешка 128 GB Lexar JumpDrive V100 USB 3.0",
+    "brand": "Lexar",
+    "category": "Флешки",
+    "categoryName": "Флешки",
+    "categoryUrl": "rgw_page_flash_drives.html",
+    "image": null,
+    "placeholder": "💾",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000527"
+    },
+    "images": [],
+    "code_1c": "НФ-00000527",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-flash_drives-10",
+    "sku": "1C-НФ-00000528",
+    "name": "Флешка 256 GB Lexar JumpDrive Dual Drive D400 USB 3.0",
+    "brand": "Lexar",
+    "category": "Флешки",
+    "categoryName": "Флешки",
+    "categoryUrl": "rgw_page_flash_drives.html",
+    "image": null,
+    "placeholder": "💾",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00000528"
+    },
+    "images": [],
+    "code_1c": "НФ-00000528",
+    "stock": 9,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-flash_drives-11",
+    "sku": "1C-НФ-00001106",
+    "name": "Флешка 64 GB Lexar JumpDrive V100 USB 3.0",
+    "brand": "Lexar",
+    "category": "Флешки",
+    "categoryName": "Флешки",
+    "categoryUrl": "rgw_page_flash_drives.html",
+    "image": null,
+    "placeholder": "💾",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001106"
+    },
+    "images": [],
+    "code_1c": "НФ-00001106",
+    "stock": 4,
+    "availability": "В наличии"
+  },
+  {
+    "id": "acc-flash_drives-12",
+    "sku": "1C-НФ-00001148",
+    "name": "Флешка 64 GB Lexar JumpDrive V400 USB 3.0",
+    "brand": "Lexar",
+    "category": "Флешки",
+    "categoryName": "Флешки",
+    "categoryUrl": "rgw_page_flash_drives.html",
+    "image": null,
+    "placeholder": "💾",
+    "catalogFacts": [],
+    "verifiedSpecs": [],
+    "identifiers": {
+      "code_1c": "НФ-00001148"
+    },
+    "images": [],
+    "code_1c": "НФ-00001148",
+    "stock": 1,
+    "availability": "В наличии"
   }
 ]

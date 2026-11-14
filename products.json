@@ -1,7 +1,7 @@
 [
   {
     "id": "laptop-001",
-    "sku": "ACER-AG15-42P-R917",
+    "sku": "НФ-00000899",
     "name": "ACER ASPIRE GO 15 AG15-42P-R917",
     "brand": "Acer",
     "category": "Ноутбуки",
@@ -96,7 +96,7 @@
   },
   {
     "id": "laptop-002",
-    "sku": "ASUS-ROG-G815LM",
+    "sku": "НФ-00000848",
     "name": "ASUS ROG STRIX G815LM-IS96",
     "brand": "ASUS",
     "category": "Ноутбуки",
@@ -185,7 +185,7 @@
   },
   {
     "id": "laptop-003",
-    "sku": "ASUS-VIVOBOOK-X1504VA",
+    "sku": "НФ-00000792",
     "name": "ASUS VIVOBOOK X1504VA-BQ4172",
     "brand": "ASUS",
     "category": "Ноутбуки",
@@ -241,7 +241,7 @@
   },
   {
     "id": "laptop-004",
-    "sku": "LENOVO-LEGION-5I",
+    "sku": "НФ-00000857",
     "name": "LENOVO LEGION 5i",
     "brand": "Lenovo",
     "category": "Ноутбуки",
@@ -327,7 +327,7 @@
   },
   {
     "id": "laptop-005",
-    "sku": "LENOVO-IP-SLIM3-15IRH10",
+    "sku": "НФ-00000903",
     "name": "LENOVO IP SLIM3 15IRH10",
     "brand": "Lenovo",
     "category": "Ноутбуки",
@@ -421,7 +421,7 @@
   },
   {
     "id": "laptop-006",
-    "sku": "HP-VICTUS-15-FA2120NIA",
+    "sku": "НФ-00000905",
     "name": "HP VICTUS 15-FA2120NIA",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -516,7 +516,7 @@
   },
   {
     "id": "laptop-007",
-    "sku": "HP-PROBOOK-450-G10",
+    "sku": "НФ-00000904",
     "name": "HP PROBOOK 450 G10",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -640,7 +640,7 @@
   },
   {
     "id": "laptop-009",
-    "sku": "DELL-LDC15250-5434BLK",
+    "sku": "НФ-00000958",
     "name": "DELL LDC15250-5434BLK-PUS",
     "brand": "Dell",
     "category": "Ноутбуки",
@@ -698,7 +698,7 @@
   },
   {
     "id": "laptop-010",
-    "sku": "ASUS-VIVOBOOK-GO-E1504FA",
+    "sku": "НФ-00000959",
     "name": "ASUS VIVOBOOK GO E1504FA",
     "brand": "ASUS",
     "category": "Ноутбуки",
@@ -867,7 +867,7 @@
   },
   {
     "id": "laptop-012",
-    "sku": "LENOVO-IP-SLIM3I",
+    "sku": "НФ-00000957",
     "name": "LENOVO IP SLIM 3i",
     "brand": "Lenovo",
     "category": "Ноутбуки",
@@ -921,7 +921,7 @@
   },
   {
     "id": "mono-001",
-    "sku": "HP-200-G4-AIO",
+    "sku": "НФ-00000329",
     "name": "Моноблок HP 200 G4 AIO",
     "brand": "HP",
     "category": "Моноблоки",
@@ -970,7 +970,7 @@
   },
   {
     "id": "mono-002",
-    "sku": "HP-290-AIO",
+    "sku": "НФ-00000677",
     "name": "Моноблок HP 290",
     "brand": "HP",
     "category": "Моноблоки",
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "mono-003",
-    "sku": "HP-27-CR0008L",
+    "sku": "НФ-00001075",
     "name": "Моноблок HP AIO 27-CR0008L",
     "brand": "HP",
     "category": "Моноблоки",
@@ -1137,7 +1137,7 @@
   },
   {
     "id": "mono-006",
-    "sku": "MSI-AP272P-AIO",
+    "sku": "НФ-00001078",
     "name": "Моноблок MSI Pro AP272P AIO 27",
     "brand": "MSI",
     "category": "Моноблоки",
@@ -1275,7 +1275,7 @@
   },
   {
     "id": "gpu-002",
-    "sku": "gpu-002",
+    "sku": "НФ-00000126",
     "name": "Видеокарта B67D Black GF RTX5060 Ti 1-Click OC White PCI-E 8GB / GDDR7",
     "brand": "GALAX",
     "category": "Видеокарты",
@@ -1324,7 +1324,7 @@
   },
   {
     "id": "gpu-003",
-    "sku": "gpu-003",
+    "sku": "НФ-00000127",
     "name": "Видеокарта B67O Black GF RTX5060 1-Click OC V2 PCI-E 8GB / GDDR7 128BIT",
     "brand": "GALAX",
     "category": "Видеокарты",
@@ -1412,7 +1412,7 @@
   },
   {
     "id": "gpu-005",
-    "sku": "gpu-005",
+    "sku": "НФ-00000129",
     "name": "Видеокарта GALAX B37S Black GF RTX5080 1-Click OC PCI-E 16GB / GDDR7",
     "brand": "GALAX",
     "category": "Видеокарты",
@@ -1456,7 +1456,7 @@
   },
   {
     "id": "gpu-006",
-    "sku": "gpu-006",
+    "sku": "НФ-00000130",
     "name": "Видеокарта Galax PG190 BLACK GF RTX 3060 1-Click OC PCI-E 12GB",
     "brand": "GALAX",
     "category": "Видеокарты",
@@ -1495,7 +1495,7 @@
   },
   {
     "id": "gpu-007",
-    "sku": "gpu-007",
+    "sku": "НФ-00001013",
     "name": "Видеокарта ASUS GT 710 2G DDR5",
     "brand": "ASUS",
     "category": "Видеокарты",
@@ -1529,7 +1529,7 @@
   },
   {
     "id": "gpu-008",
-    "sku": "gpu-008",
+    "sku": "НФ-00000963",
     "name": "Видеокарта MSI RTX 5060 8G Ventus 2X",
     "brand": "MSI",
     "category": "Видеокарты",
@@ -1745,7 +1745,7 @@
   },
   {
     "id": "cpu-004",
-    "sku": "cpu-004",
+    "sku": "НФ-00000441",
     "name": "Процессор Intel Core i9 -14900KF",
     "brand": "Intel",
     "category": "Процессоры",
@@ -1910,7 +1910,7 @@
   },
   {
     "id": "cpu-007",
-    "sku": "cpu-007",
+    "sku": "НФ-00000448",
     "name": "Процессор TRAY Ultra 5 245K",
     "brand": "Intel",
     "category": "Процессоры",
@@ -1969,7 +1969,7 @@
   },
   {
     "id": "cpu-008",
-    "sku": "cpu-008",
+    "sku": "НФ-00000449",
     "name": "Процессор TRAY Ultra 5 245KF",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2495,7 +2495,7 @@
   },
   {
     "id": "cpu-017",
-    "sku": "cpu-017",
+    "sku": "НФ-00000447",
     "name": "Процессор TRAY Ultra 5 225F",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2671,7 +2671,7 @@
   },
   {
     "id": "ssd-004",
-    "sku": "ssd-004",
+    "sku": "НФ-00000174",
     "name": "SSD NVMe Samsung 990 Evo plus 1 TB",
     "brand": "Samsung",
     "category": "SSD",
@@ -2723,7 +2723,7 @@
   },
   {
     "id": "ssd-005",
-    "sku": "ssd-005",
+    "sku": "НФ-00000175",
     "name": "SSD NVMe Samsung 990 Evo plus 2 TB",
     "brand": "Samsung",
     "category": "SSD",
@@ -2772,7 +2772,7 @@
   },
   {
     "id": "ssd-006",
-    "sku": "ssd-006",
+    "sku": "НФ-00000176",
     "name": "SSD NVMe Samsung 990 Pro 1TB",
     "brand": "Samsung",
     "category": "SSD",
@@ -2861,7 +2861,7 @@
   },
   {
     "id": "ssd-008",
-    "sku": "ssd-008",
+    "sku": "НФ-00000664",
     "name": "SSD 2,5 Lexar 128 GB",
     "brand": "Lexar",
     "category": "SSD",
@@ -2939,7 +2939,7 @@
   },
   {
     "id": "ssd-010",
-    "sku": "ssd-010",
+    "sku": "НФ-00001023",
     "name": "SSD NVMe Lexar 1TB LNM 790",
     "brand": "Lexar",
     "category": "SSD",
@@ -2996,7 +2996,7 @@
   },
   {
     "id": "ssd-011",
-    "sku": "ssd-011",
+    "sku": "НФ-00001024",
     "name": "SSD NVMe Lexar 2TB LNM 790",
     "brand": "Lexar",
     "category": "SSD",
@@ -3053,7 +3053,7 @@
   },
   {
     "id": "ssd-012",
-    "sku": "ssd-012",
+    "sku": "НФ-00000807",
     "name": "SSD HP FX 700 NVMe SSD 512",
     "brand": "HP",
     "category": "SSD",
@@ -3103,7 +3103,7 @@
   },
   {
     "id": "ssd-013",
-    "sku": "ssd-013",
+    "sku": "НФ-00000878",
     "name": "SSD NVMe Samsung 256 Gb",
     "brand": "Samsung",
     "category": "SSD",
@@ -3137,7 +3137,7 @@
   },
   {
     "id": "ssd-014",
-    "sku": "ssd-014",
+    "sku": "НФ-00000887",
     "name": "SSD Kingston M.2 2280 NVMe SSD 1 TB",
     "brand": "Kingston",
     "category": "SSD",
@@ -3176,7 +3176,7 @@
   },
   {
     "id": "ssd-015",
-    "sku": "ssd-015",
+    "sku": "НФ-00000925",
     "name": "SSD NVMe Samsung 980 512 Gb",
     "brand": "Samsung",
     "category": "SSD",
@@ -3338,7 +3338,7 @@
   },
   {
     "id": "ssd-019",
-    "sku": "ssd-019",
+    "sku": "НФ-00000885",
     "name": "SSD 2,5 Kingston 480 Gb",
     "brand": "Kingston",
     "category": "SSD",
@@ -3416,7 +3416,7 @@
   },
   {
     "id": "ssd-021",
-    "sku": "ssd-021",
+    "sku": "НФ-00001022",
     "name": "SSD NVMe Lexar 512 GB LNM 790",
     "brand": "Lexar",
     "category": "SSD",
@@ -3628,7 +3628,7 @@
   },
   {
     "id": "mb-004",
-    "sku": "mb-004",
+    "sku": "НФ-00000317",
     "name": "Материнка Gigabyte B760 М Н DDR4",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -4118,7 +4118,7 @@
   },
   {
     "id": "ram-001",
-    "sku": "ram-001",
+    "sku": "НФ-00000386",
     "name": "Оперативка Lexar DDR4 3200 16 Gb Радиатор",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -4246,7 +4246,7 @@
   },
   {
     "id": "ram-005",
-    "sku": "ram-005",
+    "sku": "НФ-00000680",
     "name": "Оперативка Kingston FURY Beast 32 ГБ DDR5 5200",
     "brand": "Kingston",
     "category": "Оперативная память",
@@ -4354,7 +4354,7 @@
   },
   {
     "id": "ram-008",
-    "sku": "ram-008",
+    "sku": "НФ-00000946",
     "name": "Оперативка Lexar Thor DDR5 6000 8 Gb",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "ram-009",
-    "sku": "ram-009",
+    "sku": "НФ-00000962",
     "name": "Оперативка Kingston 16 ГБ DDR4 3200",
     "brand": "Kingston",
     "category": "Оперативная память",
@@ -4424,7 +4424,7 @@
   },
   {
     "id": "ram-010",
-    "sku": "ram-010",
+    "sku": "НФ-00000995",
     "name": "Оперативка Kingston 8 ГБ DDR4 2666",
     "brand": "Kingston",
     "category": "Оперативная память",
@@ -4455,7 +4455,7 @@
   },
   {
     "id": "ram-011",
-    "sku": "ram-011",
+    "sku": "НФ-00001083",
     "name": "Оперативка Kingston FURY Beast 16 ГБ DDR5 5200",
     "brand": "Kingston",
     "category": "Оперативная память",
@@ -4533,7 +4533,7 @@
   },
   {
     "id": "hdd-002",
-    "sku": "hdd-002",
+    "sku": "НФ-00000160",
     "name": "HDD WD Purple 10 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -4572,7 +4572,7 @@
   },
   {
     "id": "hdd-003",
-    "sku": "hdd-003",
+    "sku": "НФ-00000161",
     "name": "HDD WD Purple 14 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -4689,7 +4689,7 @@
   },
   {
     "id": "hdd-006",
-    "sku": "hdd-006",
+    "sku": "НФ-00000712",
     "name": "HDD WD Purple 4 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": "cases-013",
-    "sku": "cases-013",
+    "sku": "НФ-00000778",
     "name": "Дип Кул CASE CG580 4F V2",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5233,7 +5233,7 @@
   },
   {
     "id": "cases-016",
-    "sku": "cases-016",
+    "sku": "НФ-00000593",
     "name": "Дип Кул CASE CC560 LIMITED V2",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5261,7 +5261,7 @@
   },
   {
     "id": "cases-017",
-    "sku": "cases-017",
+    "sku": "НФ-00000815",
     "name": "Дип Кул CASE CG380 3F",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5498,7 +5498,7 @@
   },
   {
     "id": "psu-008",
-    "sku": "psu-008",
+    "sku": "НФ-00000120",
     "name": "Блок Питания Vision 750 wat ОЕМ",
     "brand": "Vision",
     "category": "Блоки питания",
@@ -5544,7 +5544,7 @@
   },
   {
     "id": "psu-010",
-    "sku": "psu-010",
+    "sku": "НФ-00000994",
     "name": "Блок Питания 500 wat Dragon",
     "brand": "Dragon",
     "category": "Блоки питания",
@@ -5599,7 +5599,7 @@
   },
   {
     "id": "psu-012",
-    "sku": "psu-012",
+    "sku": "НФ-00000119",
     "name": "Блок Питания Vision 600wat",
     "brand": "Vision",
     "category": "Блоки питания",
@@ -5645,7 +5645,7 @@
   },
   {
     "id": "psu-014",
-    "sku": "psu-014",
+    "sku": "НФ-00000609",
     "name": "Дип Кул POWER PL800 D",
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
@@ -6025,7 +6025,7 @@
   },
   {
     "id": "cooling-009",
-    "sku": "cooling-009",
+    "sku": "НФ-00000679",
     "name": "Кулер 240 водянка китай",
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
@@ -6158,7 +6158,7 @@
   },
   {
     "id": "cooling-013",
-    "sku": "cooling-013",
+    "sku": "НФ-00001086",
     "name": "Дип Кул LIQUID COOLER LM360",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6190,7 +6190,7 @@
   },
   {
     "id": "cooling-014",
-    "sku": "НФ-00000782",
+    "sku": "НФ-00001087",
     "name": "Дип Кул LIQUID COOLER LE 360 PRO",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6528,7 +6528,7 @@
   },
   {
     "id": "monitors-4",
-    "sku": "monitors-4",
+    "sku": "НФ-00000295",
     "name": "Монитор 24 HP S5 524SW FHD",
     "brand": "HP",
     "category": "Мониторы",
@@ -6591,7 +6591,7 @@
   },
   {
     "id": "monitors-7",
-    "sku": "monitors-7",
+    "sku": "НФ-00000307",
     "name": "Монитор 27 Philips 27E2N1100 IPS 120HZ",
     "brand": "PHILIPS",
     "category": "Мониторы",
@@ -6759,7 +6759,7 @@
   },
   {
     "id": "monitors-16",
-    "sku": "monitors-16",
+    "sku": "НФ-00001000",
     "name": "Монитор 34 RedMi G34WQ 2026",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6822,7 +6822,7 @@
   },
   {
     "id": "monitors-19",
-    "sku": "monitors-19",
+    "sku": "НФ-00001004",
     "name": "Монитор 27 RedMi G27Q 320HZ",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6843,7 +6843,7 @@
   },
   {
     "id": "monitors-20",
-    "sku": "monitors-20",
+    "sku": "НФ-00001005",
     "name": "Монитор 27 RedMi G27Q 240Hz 2026",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -7061,7 +7061,7 @@
   },
   {
     "id": "access-4",
-    "sku": "access-4",
+    "sku": "НФ-00000879",
     "name": "Ubiquiti U6 PLUS",
     "brand": "Ubiquiti",
     "category": "Точки доступа",
@@ -7150,7 +7150,7 @@
   },
   {
     "id": "access-7",
-    "sku": "access-7",
+    "sku": "НФ-00000083",
     "name": "Ubiquiti точка доступа потолочный U7 Pro Max",
     "brand": "Ubiquiti",
     "category": "Точки доступа",
@@ -7602,7 +7602,7 @@
   },
   {
     "id": "acc-bags-2",
-    "sku": "acc-bags-2",
+    "sku": "НФ-00000520",
     "name": "Сумка Lucky Bat",
     "brand": "",
     "category": "Сумки и рюкзаки",
@@ -7897,7 +7897,7 @@
   },
   {
     "id": "acc-bags-11",
-    "sku": "acc-bags-11",
+    "sku": "НФ-00000655",
     "name": "Сумка MQ Sports Travel Backpack",
     "brand": "mq",
     "category": "Сумки и рюкзаки",
@@ -7927,7 +7927,7 @@
   },
   {
     "id": "acc-bags-12",
-    "sku": "acc-bags-12",
+    "sku": "НФ-00000985",
     "name": "Сумка DPark 15,6 Замш сабз-сафед сиех",
     "brand": "dpark",
     "category": "Сумки и рюкзаки",
@@ -7967,7 +7967,7 @@
   },
   {
     "id": "acc-bags-13",
-    "sku": "acc-bags-13",
+    "sku": "НФ-00000986",
     "name": "Сумка Кожа Коричневый",
     "brand": "",
     "category": "Сумки и рюкзаки",
@@ -8180,7 +8180,7 @@
   },
   {
     "id": "acc-bags-20",
-    "sku": "acc-bags-20",
+    "sku": "НФ-00000989",
     "name": "Сумка Розовый Черный Гулоби Сиех",
     "brand": "",
     "category": "Сумки и рюкзаки",
@@ -9749,7 +9749,7 @@
   },
   {
     "id": "connectors-2",
-    "sku": "connectors-2",
+    "sku": "НФ-00000506",
     "name": "Зажим RJ45 Прастой",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -9892,7 +9892,7 @@
   },
   {
     "id": "acc-external_storage-2",
-    "sku": "acc-external_storage-2",
+    "sku": "НФ-00000146",
     "name": "HDD 1Tb Toshiba Canvio Basics",
     "brand": "toshiba",
     "category": "Внешние HDD/SSD",
@@ -9930,7 +9930,7 @@
   },
   {
     "id": "acc-external_storage-3",
-    "sku": "acc-external_storage-3",
+    "sku": "НФ-00000149",
     "name": "HDD WD My Book 8Tb",
     "brand": "wd",
     "category": "Внешние HDD/SSD",
@@ -9968,7 +9968,7 @@
   },
   {
     "id": "acc-external_storage-4",
-    "sku": "acc-external_storage-4",
+    "sku": "НФ-00000150",
     "name": "HDD Seagate Expansion 1Tb",
     "brand": "seagate",
     "category": "Внешние HDD/SSD",
@@ -10006,7 +10006,7 @@
   },
   {
     "id": "acc-external_storage-5",
-    "sku": "acc-external_storage-5",
+    "sku": "НФ-00000151",
     "name": "HDD Seagate Expansion 2Tb",
     "brand": "seagate",
     "category": "Внешние HDD/SSD",
@@ -10158,7 +10158,7 @@
   },
   {
     "id": "acc-external_storage-9",
-    "sku": "acc-external_storage-9",
+    "sku": "НФ-00000914",
     "name": "SSD Lexar 1TB SL260 Air Portable",
     "brand": "lexar",
     "category": "Внешние HDD/SSD",
@@ -10196,7 +10196,7 @@
   },
   {
     "id": "acc-external_storage-10",
-    "sku": "acc-external_storage-10",
+    "sku": "НФ-00000916",
     "name": "SSD Lexar 2TB SL300 Air Portable",
     "brand": "lexar",
     "category": "Внешние HDD/SSD",
@@ -10310,7 +10310,7 @@
   },
   {
     "id": "acc-external_storage-13",
-    "sku": "acc-external_storage-13",
+    "sku": "НФ-00000915",
     "name": "SSD Lexar 1TB SL300 Air Portable",
     "brand": "lexar",
     "category": "Внешние HDD/SSD",
@@ -10348,7 +10348,7 @@
   },
   {
     "id": "acc-external_storage-14",
-    "sku": "acc-external_storage-14",
+    "sku": "НФ-00000148",
     "name": "HDD WD My Passport 5Tb",
     "brand": "wd",
     "category": "Внешние HDD/SSD",
@@ -10386,7 +10386,7 @@
   },
   {
     "id": "acc-external_storage-15",
-    "sku": "acc-external_storage-15",
+    "sku": "НФ-00000153",
     "name": "HDD Seagate OneTouch with HUB 8Tb USB3.0 + 2-port USB3.0 hub",
     "brand": "seagate",
     "category": "Внешние HDD/SSD",
@@ -11909,7 +11909,7 @@
   },
   {
     "id": "keyboards-14",
-    "sku": "keyboards-14",
+    "sku": "НФ-00000739",
     "name": "Клавиатура Exegate EX295304RUS Комплект беспроводной + мышь оптическая MK-210",
     "brand": "EXEGATE",
     "category": "Клавиатуры",
@@ -12031,7 +12031,7 @@
   },
   {
     "id": "keyboards-18",
-    "sku": "keyboards-18",
+    "sku": "НФ-00000742",
     "name": "Клавиатура Exegate EX286220RUS Комплект беспроводной MK240 (кл.115кл+мышь800/1200 4кн",
     "brand": "EXEGATE",
     "category": "Клавиатуры",
@@ -12126,7 +12126,7 @@
   },
   {
     "id": "acc-memory_cards-1",
-    "sku": "acc-memory_cards-1",
+    "sku": "НФ-00000535",
     "name": "Карта памяти 128Gb MicroSD Lexar High-Performance 633x",
     "brand": "lexar",
     "category": "Карты памяти",
@@ -12283,7 +12283,7 @@
   },
   {
     "id": "mesh-1",
-    "sku": "mesh-1",
+    "sku": "НФ-00000050",
     "name": "Роутер TP-LINK Deco M4 ( 3Pack )AC1200 Gigabit Whole Home Mesh Wi-Fi System",
     "brand": "TP-LINK",
     "category": "Mesh-системы",
@@ -12311,7 +12311,7 @@
   },
   {
     "id": "mesh-2",
-    "sku": "mesh-2",
+    "sku": "НФ-00000766",
     "name": "Роутер TP-LINK AX55 Dual Band Gigabit AX3000 Wi-Fi 6 OneMesh Router",
     "brand": "TP-LINK",
     "category": "Mesh-системы",
@@ -12344,7 +12344,7 @@
   },
   {
     "id": "mesh-3",
-    "sku": "mesh-3",
+    "sku": "НФ-00000940",
     "name": "Роутер TP LINK AX1500 Wi-Fi 6 OneMesh Broadband Archer AX10",
     "brand": "TP LINK",
     "category": "Mesh-системы",
@@ -12504,7 +12504,7 @@
   },
   {
     "id": "mesh-8",
-    "sku": "mesh-8",
+    "sku": "НФ-00001026",
     "name": "Куди Cudy M1200(3-Pack) AC1200 Wi-Fi Mesh Solution",
     "brand": "Cudy",
     "category": "Mesh-системы",
@@ -12560,7 +12560,7 @@
   },
   {
     "id": "mesh-10",
-    "sku": "mesh-10",
+    "sku": "НФ-00001028",
     "name": "Куди Cudy M1500(3-Pack) AX1500 Gigabit Wi-Fi 6 Mesh Solution",
     "brand": "Cudy",
     "category": "Mesh-системы",
@@ -12846,7 +12846,7 @@
   },
   {
     "id": "mice-7",
-    "sku": "mice-7",
+    "sku": "НФ-00000353",
     "name": "Мышка LOGITECH Wireless M705",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13388,7 +13388,7 @@
   },
   {
     "id": "network_cables-3",
-    "sku": "network_cables-3",
+    "sku": "НФ-00000190",
     "name": "Кабель SFTP Cat6 305M Бабина Сафед Китай",
     "brand": "",
     "category": "Сетевые кабели",
@@ -14268,7 +14268,7 @@
   },
   {
     "id": "printers-2",
-    "sku": "printers-2",
+    "sku": "НФ-00000404",
     "name": "Принтер CANON MF3010 i-SENSYS дубай",
     "brand": "CANON",
     "category": "Принтеры и МФУ",
@@ -14296,7 +14296,7 @@
   },
   {
     "id": "printers-3",
-    "sku": "printers-3",
+    "sku": "НФ-00000408",
     "name": "Принтер EPSON L8050",
     "brand": "EPSON",
     "category": "Принтеры и МФУ",
@@ -14329,7 +14329,7 @@
   },
   {
     "id": "printers-4",
-    "sku": "printers-4",
+    "sku": "НФ-00000412",
     "name": "Принтер HP LJ M137fnw MFP",
     "brand": "HP",
     "category": "Принтеры и МФУ",
@@ -14395,7 +14395,7 @@
   },
   {
     "id": "printers-6",
-    "sku": "printers-6",
+    "sku": "НФ-00001017",
     "name": "Принтер HP Laser Jet M111w",
     "brand": "HP",
     "category": "Принтеры и МФУ",
@@ -14915,7 +14915,7 @@
   },
   {
     "id": "acc-projectors_screens-10",
-    "sku": "acc-projectors_screens-10",
+    "sku": "НФ-00000426",
     "name": "Проектор OPTOMA W371",
     "brand": "optoma",
     "category": "Проекторы и экраны",
@@ -14953,7 +14953,7 @@
   },
   {
     "id": "acc-projectors_screens-11",
-    "sku": "acc-projectors_screens-11",
+    "sku": "НФ-00000427",
     "name": "Проектор V11HA86340 EPSONCO-WX02",
     "brand": "epson",
     "category": "Проекторы и экраны",
@@ -15358,7 +15358,7 @@
   },
   {
     "id": "routers-4",
-    "sku": "routers-4",
+    "sku": "НФ-00000054",
     "name": "Роутер TP-LINK MR100 Наружный",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15442,7 +15442,7 @@
   },
   {
     "id": "routers-7",
-    "sku": "routers-7",
+    "sku": "НФ-00000069",
     "name": "Роутер TP-Link TL-MR105",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -15470,7 +15470,7 @@
   },
   {
     "id": "routers-8",
-    "sku": "routers-8",
+    "sku": "НФ-00000757",
     "name": "Роутер TP-LINK Archer AX23 AX1800 Dual-Band Wi-Fi 6 Router",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15653,7 +15653,7 @@
   },
   {
     "id": "routers-14",
-    "sku": "routers-14",
+    "sku": "НФ-00000031",
     "name": "Роутер TP-LINK Archer C64",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15747,7 +15747,7 @@
   },
   {
     "id": "routers-17",
-    "sku": "routers-17",
+    "sku": "НФ-00000775",
     "name": "Роутер TP-LINK WR 846 N 300 Mbps Wireless N Router",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15775,7 +15775,7 @@
   },
   {
     "id": "routers-18",
-    "sku": "routers-18",
+    "sku": "НФ-00000968",
     "name": "MikroTik hAP RB951Ui-2nD",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -16133,7 +16133,7 @@
   },
   {
     "id": "server_racks-6",
-    "sku": "server_racks-6",
+    "sku": "НФ-00000496",
     "name": "Шкаф 4 U 600x450mm Китай",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16434,7 +16434,7 @@
   },
   {
     "id": "speakers-3",
-    "sku": "speakers-3",
+    "sku": "НФ-00000922",
     "name": "Калонка Philips SPA 2209",
     "brand": "PHILIPS",
     "category": "Колонки",
@@ -17097,7 +17097,7 @@
   },
   {
     "id": "switches-15",
-    "sku": "switches-15",
+    "sku": "НФ-00000486",
     "name": "Коммутатор TP-Link T2500G-10MPS - L2, 8 Port Giga и 2 слотами SFP. Разъёмы RJ45",
     "brand": "TP-Link",
     "category": "Коммутаторы",
@@ -17201,7 +17201,7 @@
   },
   {
     "id": "switches-18",
-    "sku": "switches-18",
+    "sku": "НФ-00000944",
     "name": "Комутатор TP-Link SG1428PE 28-Port Gigabit Easy Smart Switch with 24-Port PoE+",
     "brand": "TP-Link",
     "category": "Коммутаторы",
@@ -17244,7 +17244,7 @@
   },
   {
     "id": "switches-19",
-    "sku": "switches-19",
+    "sku": "НФ-00000465",
     "name": "TL-SG1008MP 8-Port Gigabit POE Desktop/Rackmount",
     "brand": "",
     "category": "Коммутаторы",
@@ -17419,7 +17419,7 @@
   },
   {
     "id": "switches-24",
-    "sku": "switches-24",
+    "sku": "НФ-00000943",
     "name": "TP-Link LS1024G LiteWave 24-Port Gigabit Switch",
     "brand": "TP-Link",
     "category": "Коммутаторы",
@@ -17806,7 +17806,7 @@
   },
   {
     "id": "ups-1",
-    "sku": "ups-1",
+    "sku": "НФ-00000088",
     "name": "APC Easy UPS RAIL KIT. 700mm for SRV1. SRV2. SRV3kVA",
     "brand": "APC",
     "category": "UPS",
@@ -17893,7 +17893,7 @@
   },
   {
     "id": "ups-4",
-    "sku": "ups-4",
+    "sku": "НФ-00000614",
     "name": "APC Easy UPS SRV RM 2000VA 230V ,with RailKit S",
     "brand": "APC",
     "category": "UPS",
@@ -18168,7 +18168,7 @@
   },
   {
     "id": "ups-13",
-    "sku": "ups-13",
+    "sku": "НФ-00000927",
     "name": "APC Easy UPS On-Line SRV RM 10000VA 230V SRV10KRIRK М",
     "brand": "APC",
     "category": "UPS",
@@ -18263,7 +18263,7 @@
   },
   {
     "id": "batteries-3",
-    "sku": "batteries-3",
+    "sku": "НФ-00000701",
     "name": "Батарейка MERCURY SEALED LEADED BATTERY 9AH/12V",
     "brand": "MERCURY",
     "category": "Батареи для UPS",

@@ -582,7 +582,7 @@
   },
   {
     "id": "laptop-008",
-    "sku": "HP-15-FD0183WM",
+    "sku": "НФ-00000954",
     "name": "HP 15-FD0183WM",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -790,7 +790,7 @@
   },
   {
     "id": "laptop-011",
-    "sku": "MSI-CROSSHAIR-16-AI",
+    "sku": "НФ-00000908",
     "name": "MSI CROSSHAIR 16 AI",
     "brand": "MSI",
     "category": "Ноутбуки",
@@ -1042,7 +1042,7 @@
   },
   {
     "id": "mono-004",
-    "sku": "LENOVO-27IRH9-I7",
+    "sku": "НФ-00001076",
     "name": "Моноблок Lenovo IdeaCentre 27IRH9",
     "brand": "Lenovo",
     "category": "Моноблоки",
@@ -1089,7 +1089,7 @@
   },
   {
     "id": "mono-005",
-    "sku": "LENOVO-27IRH9-I5",
+    "sku": "НФ-00001077",
     "name": "Моноблок Lenovo IdeaCentre 27IRH9",
     "brand": "Lenovo",
     "category": "Моноблоки",
@@ -1226,7 +1226,7 @@
   },
   {
     "id": "gpu-001",
-    "sku": "gpu-001",
+    "sku": "НФ-00000122",
     "name": "Видеокарта A76D Black GF RTX3050 6GB EX White PCI-E / GDDR6 96Bit",
     "brand": "GALAX",
     "category": "Видеокарты",
@@ -1373,7 +1373,7 @@
   },
   {
     "id": "gpu-004",
-    "sku": "gpu-004",
+    "sku": "НФ-00000128",
     "name": "Видеокарта B76O Black GF RTX5050 1-Click OC PCI-E 8GB / GDDR6",
     "brand": "GALAX",
     "category": "Видеокарты",
@@ -1568,7 +1568,7 @@
   },
   {
     "id": "cpu-001",
-    "sku": "cpu-001",
+    "sku": "НФ-00000432",
     "name": "Процессор Intel Core i3 14100",
     "brand": "Intel",
     "category": "Процессоры",
@@ -1627,7 +1627,7 @@
   },
   {
     "id": "cpu-002",
-    "sku": "cpu-002",
+    "sku": "НФ-00000439",
     "name": "Процессор Intel Core i7 -14700КF",
     "brand": "Intel",
     "category": "Процессоры",
@@ -1691,7 +1691,7 @@
   },
   {
     "id": "cpu-003",
-    "sku": "cpu-003",
+    "sku": "НФ-00000440",
     "name": "Процессор Intel Core i7 -4770",
     "brand": "Intel",
     "category": "Процессоры",
@@ -1804,7 +1804,7 @@
   },
   {
     "id": "cpu-005",
-    "sku": "cpu-005",
+    "sku": "НФ-00000443",
     "name": "Процессор I3-3260",
     "brand": "Intel",
     "category": "Процессоры",
@@ -1856,7 +1856,7 @@
   },
   {
     "id": "cpu-006",
-    "sku": "cpu-006",
+    "sku": "НФ-00000446",
     "name": "Процессор I5-4460",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2028,7 +2028,7 @@
   },
   {
     "id": "cpu-009",
-    "sku": "cpu-009",
+    "sku": "НФ-00000450",
     "name": "Процессор TRAY Ultra 7 265K",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2087,7 +2087,7 @@
   },
   {
     "id": "cpu-010",
-    "sku": "cpu-010",
+    "sku": "НФ-00000451",
     "name": "Процессор TRAY Ultra 9 285K Arrow Lake",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2146,7 +2146,7 @@
   },
   {
     "id": "cpu-011",
-    "sku": "cpu-011",
+    "sku": "НФ-00000453",
     "name": "Процессор Intel Core i3-9100F",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2205,7 +2205,7 @@
   },
   {
     "id": "cpu-012",
-    "sku": "cpu-012",
+    "sku": "НФ-00000663",
     "name": "Процессор Intel Core i9 -14900K",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2264,7 +2264,7 @@
   },
   {
     "id": "cpu-013",
-    "sku": "cpu-013",
+    "sku": "НФ-00000752",
     "name": "Процессор I5-3470",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2318,7 +2318,7 @@
   },
   {
     "id": "cpu-014",
-    "sku": "cpu-014",
+    "sku": "НФ-00001082",
     "name": "Процессор Intel Core i7 -14700",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2382,7 +2382,7 @@
   },
   {
     "id": "cpu-015",
-    "sku": "cpu-015",
+    "sku": "НФ-00000438",
     "name": "Процессор Intel Core i7 -14700К",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2446,7 +2446,7 @@
   },
   {
     "id": "cpu-016",
-    "sku": "cpu-016",
+    "sku": "НФ-00000444",
     "name": "Процессор I3-4170",
     "brand": "Intel",
     "category": "Процессоры",
@@ -2554,7 +2554,7 @@
   },
   {
     "id": "ssd-001",
-    "sku": "ssd-001",
+    "sku": "НФ-00000169",
     "name": "SSD 2,5 Lexar 512 GB",
     "brand": "Lexar",
     "category": "SSD",
@@ -2593,7 +2593,7 @@
   },
   {
     "id": "ssd-002",
-    "sku": "ssd-002",
+    "sku": "НФ-00000170",
     "name": "SSD Lexar M.2 2280 NVMe SSD 1ТB",
     "brand": "Lexar",
     "category": "SSD",
@@ -2632,7 +2632,7 @@
   },
   {
     "id": "ssd-003",
-    "sku": "ssd-003",
+    "sku": "НФ-00000173",
     "name": "SSD Lexar M.2 2280 NVMe SSD 512",
     "brand": "Lexar",
     "category": "SSD",
@@ -2816,7 +2816,7 @@
   },
   {
     "id": "ssd-007",
-    "sku": "ssd-007",
+    "sku": "НФ-00000177",
     "name": "SSD NVMe Samsung 990 Pro 2TB",
     "brand": "Samsung",
     "category": "SSD",
@@ -2900,7 +2900,7 @@
   },
   {
     "id": "ssd-009",
-    "sku": "ssd-009",
+    "sku": "НФ-00001021",
     "name": "SSD Lexar M.2 2280 NVMe SSD 2ТB",
     "brand": "Lexar",
     "category": "SSD",
@@ -3215,7 +3215,7 @@
   },
   {
     "id": "ssd-016",
-    "sku": "ssd-016",
+    "sku": "НФ-00000937",
     "name": "SSD Lexar THOR PRO M.2 2280 NVMe SSD 512",
     "brand": "Lexar",
     "category": "SSD",
@@ -3260,7 +3260,7 @@
   },
   {
     "id": "ssd-017",
-    "sku": "ssd-017",
+    "sku": "НФ-00000166",
     "name": "SSD 2,5 Lexar 1TB",
     "brand": "Lexar",
     "category": "SSD",
@@ -3299,7 +3299,7 @@
   },
   {
     "id": "ssd-018",
-    "sku": "ssd-018",
+    "sku": "НФ-00000171",
     "name": "SSD Lexar M.2 2280 NVMe SSD 256",
     "brand": "Lexar",
     "category": "SSD",
@@ -3377,7 +3377,7 @@
   },
   {
     "id": "ssd-020",
-    "sku": "ssd-020",
+    "sku": "НФ-00000167",
     "name": "SSD 2,5 Lexar 2TB",
     "brand": "Lexar",
     "category": "SSD",
@@ -3453,7 +3453,7 @@
   },
   {
     "id": "ssd-022",
-    "sku": "ssd-022",
+    "sku": "НФ-00000734",
     "name": "SSD 2,5 Lexar 256 GB",
     "brand": "Lexar",
     "category": "SSD",
@@ -3492,7 +3492,7 @@
   },
   {
     "id": "mb-001",
-    "sku": "mb-001",
+    "sku": "НФ-00000314",
     "name": "Материнка Asus B760 M-F",
     "brand": "ASUS",
     "category": "Материнские платы",
@@ -3539,7 +3539,7 @@
   },
   {
     "id": "mb-002",
-    "sku": "mb-002",
+    "sku": "НФ-00000315",
     "name": "Материнка ASUS Z790-P",
     "brand": "ASUS",
     "category": "Материнские платы",
@@ -3583,7 +3583,7 @@
   },
   {
     "id": "mb-003",
-    "sku": "mb-003",
+    "sku": "НФ-00000316",
     "name": "Материнка Gigabyte B760 М E",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -3672,7 +3672,7 @@
   },
   {
     "id": "mb-005",
-    "sku": "mb-005",
+    "sku": "НФ-00000318",
     "name": "Материнка Gigabyte H610 DDR4",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -3703,7 +3703,7 @@
   },
   {
     "id": "mb-006",
-    "sku": "mb-006",
+    "sku": "НФ-00000323",
     "name": "Материнка Gigabyte Z890M AORUS ELITE WIFI7 ICE",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -3752,7 +3752,7 @@
   },
   {
     "id": "mb-007",
-    "sku": "mb-007",
+    "sku": "НФ-00000325",
     "name": "Материнка Китай H61 Esonik",
     "brand": "Esonik",
     "category": "Материнские платы",
@@ -3778,7 +3778,7 @@
   },
   {
     "id": "mb-008",
-    "sku": "mb-008",
+    "sku": "НФ-00000326",
     "name": "Материнка Китай H610 Esonik",
     "brand": "Esonik",
     "category": "Материнские платы",
@@ -3804,7 +3804,7 @@
   },
   {
     "id": "mb-009",
-    "sku": "mb-009",
+    "sku": "НФ-00000327",
     "name": "Материнка Китай H81 Esonik",
     "brand": "Esonik",
     "category": "Материнские платы",
@@ -3830,7 +3830,7 @@
   },
   {
     "id": "mb-010",
-    "sku": "mb-010",
+    "sku": "НФ-00001064",
     "name": "Материнка Gigabyte B760 М K DDR 4",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -3874,7 +3874,7 @@
   },
   {
     "id": "mb-011",
-    "sku": "mb-011",
+    "sku": "НФ-00001079",
     "name": "Материнка Asus H610 M G D4",
     "brand": "ASUS",
     "category": "Материнские платы",
@@ -3918,7 +3918,7 @@
   },
   {
     "id": "mb-012",
-    "sku": "mb-012",
+    "sku": "НФ-00000928",
     "name": "Материнка Gigabyte B760 D5",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -3949,7 +3949,7 @@
   },
   {
     "id": "mb-013",
-    "sku": "mb-013",
+    "sku": "НФ-00000964",
     "name": "Материнка Gigabyte Н 810 M-K DDR5",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -3993,7 +3993,7 @@
   },
   {
     "id": "mb-014",
-    "sku": "mb-014",
+    "sku": "НФ-00000992",
     "name": "Материнка Аsus Prime B 860 M-Bro DDR5",
     "brand": "ASUS",
     "category": "Материнские платы",
@@ -4040,7 +4040,7 @@
   },
   {
     "id": "mb-015",
-    "sku": "mb-015",
+    "sku": "НФ-00000320",
     "name": "Материнка Gigabyte Z790 D DDR5",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -4079,7 +4079,7 @@
   },
   {
     "id": "mb-016",
-    "sku": "mb-016",
+    "sku": "НФ-00000684",
     "name": "Материнка Gigabyte Z890 UD",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -4149,7 +4149,7 @@
   },
   {
     "id": "ram-002",
-    "sku": "ram-002",
+    "sku": "НФ-00000387",
     "name": "Оперативка Lexar DDR4 3200 16 Gb Ноутбук",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -4185,7 +4185,7 @@
   },
   {
     "id": "ram-003",
-    "sku": "ram-003",
+    "sku": "НФ-00000389",
     "name": "Оперативка Lexar DDR4 3200 8 Gb Ноутбук",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -4221,7 +4221,7 @@
   },
   {
     "id": "ram-004",
-    "sku": "ram-004",
+    "sku": "НФ-00000392",
     "name": "Оперативка Китай DDR3 8 Gb",
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
@@ -4298,7 +4298,7 @@
   },
   {
     "id": "ram-006",
-    "sku": "ram-006",
+    "sku": "НФ-00001025",
     "name": "Оперативка Lexar DDR4 3200 16 Gb",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -4329,7 +4329,7 @@
   },
   {
     "id": "ram-007",
-    "sku": "ram-007",
+    "sku": "НФ-00000935",
     "name": "Оперативка Китай DDR3 4 Gb",
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
@@ -4494,7 +4494,7 @@
   },
   {
     "id": "hdd-001",
-    "sku": "hdd-001",
+    "sku": "НФ-00000159",
     "name": "HDD WD Purple 1 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -4611,7 +4611,7 @@
   },
   {
     "id": "hdd-004",
-    "sku": "hdd-004",
+    "sku": "НФ-00000162",
     "name": "HDD WD Purple 2 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -4650,7 +4650,7 @@
   },
   {
     "id": "hdd-005",
-    "sku": "hdd-005",
+    "sku": "НФ-00000163",
     "name": "HDD WD Purple 8 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -4728,7 +4728,7 @@
   },
   {
     "id": "hdd-007",
-    "sku": "hdd-007",
+    "sku": "НФ-00000713",
     "name": "HDD WD Purple 6 TB New",
     "brand": "WD",
     "category": "HDD",
@@ -4767,7 +4767,7 @@
   },
   {
     "id": "hdd-008",
-    "sku": "hdd-008",
+    "sku": "НФ-00000852",
     "name": "HDD 1TB 2,5 Ноутбучный",
     "category": "HDD",
     "categoryName": "HDD",
@@ -4793,7 +4793,7 @@
   },
   {
     "id": "cases-001",
-    "sku": "cases-001",
+    "sku": "НФ-00000249",
     "name": "Кейс 240",
     "category": "Корпуса",
     "categoryName": "Корпуса",
@@ -4808,7 +4808,7 @@
   },
   {
     "id": "cases-002",
-    "sku": "cases-002",
+    "sku": "НФ-00000891",
     "name": "Кейс Aigo DK352 (PLUS) White black with 4 fans",
     "brand": "Aigo",
     "category": "Корпуса",
@@ -4842,7 +4842,7 @@
   },
   {
     "id": "cases-003",
-    "sku": "cases-003",
+    "sku": "НФ-00000892",
     "name": "Кейс Gamemax Vista Pro ATX BK WH",
     "brand": "GameMax",
     "category": "Корпуса",
@@ -4876,7 +4876,7 @@
   },
   {
     "id": "cases-004",
-    "sku": "cases-004",
+    "sku": "НФ-00000893",
     "name": "Кейс Gamemax Infinity Black WH ATX",
     "brand": "GameMax",
     "category": "Корпуса",
@@ -4914,7 +4914,7 @@
   },
   {
     "id": "cases-005",
-    "sku": "cases-005",
+    "sku": "НФ-00000896",
     "name": "Кейс Gamemax Hype-M ATX BK WH",
     "brand": "GameMax",
     "category": "Корпуса",
@@ -4943,7 +4943,7 @@
   },
   {
     "id": "cases-006",
-    "sku": "cases-006",
+    "sku": "НФ-00000898",
     "name": "Кейс Gamemax ATX INFINITY PLUS WT BK",
     "brand": "GameMax",
     "category": "Корпуса",
@@ -4972,7 +4972,7 @@
   },
   {
     "id": "cases-007",
-    "sku": "cases-007",
+    "sku": "НФ-00000250",
     "name": "Кейс 360",
     "category": "Корпуса",
     "categoryName": "Корпуса",
@@ -4987,7 +4987,7 @@
   },
   {
     "id": "cases-008",
-    "sku": "cases-008",
+    "sku": "НФ-00000251",
     "name": "Кейс Vision USB 3.0",
     "brand": "Vision",
     "category": "Корпуса",
@@ -5003,7 +5003,7 @@
   },
   {
     "id": "cases-009",
-    "sku": "cases-009",
+    "sku": "НФ-00000894",
     "name": "Кейс Aigo C285M Black White",
     "brand": "Aigo",
     "category": "Корпуса",
@@ -5035,7 +5035,7 @@
   },
   {
     "id": "cases-010",
-    "sku": "cases-010",
+    "sku": "НФ-00000597",
     "name": "Дип Кул CASE CH 370 WHITE",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5078,7 +5078,7 @@
   },
   {
     "id": "cases-011",
-    "sku": "cases-011",
+    "sku": "НФ-00000598",
     "name": "Дип Кул CASE CH 370 BLACK",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5121,7 +5121,7 @@
   },
   {
     "id": "cases-012",
-    "sku": "cases-012",
+    "sku": "НФ-00000777",
     "name": "Дип Кул CASE CG530 4F",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5173,7 +5173,7 @@
   },
   {
     "id": "cases-014",
-    "sku": "cases-014",
+    "sku": "НФ-00000816",
     "name": "Дип Кул CASE MATREXX 50",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5201,7 +5201,7 @@
   },
   {
     "id": "cases-015",
-    "sku": "cases-015",
+    "sku": "НФ-00000596",
     "name": "Дип Кул CASE CH 160 WHITE",
     "brand": "DeepCool",
     "category": "Корпуса",
@@ -5285,7 +5285,7 @@
   },
   {
     "id": "psu-001",
-    "sku": "psu-001",
+    "sku": "НФ-00000111",
     "name": "Блок Питания GALAX OMEGA GL650S, Power Supply",
     "brand": "GALAX",
     "category": "Блоки питания",
@@ -5310,7 +5310,7 @@
   },
   {
     "id": "psu-002",
-    "sku": "psu-002",
+    "sku": "НФ-00000112",
     "name": "Блок Питания Segotep Power Supply AN650W",
     "brand": "Segotep",
     "category": "Блоки питания",
@@ -5343,7 +5343,7 @@
   },
   {
     "id": "psu-003",
-    "sku": "psu-003",
+    "sku": "НФ-00000113",
     "name": "Блок Питания Segotep Power Supply GM1000W (ATX3.0 & PCIE 5.0)",
     "brand": "Segotep",
     "category": "Блоки питания",
@@ -5381,7 +5381,7 @@
   },
   {
     "id": "psu-004",
-    "sku": "psu-004",
+    "sku": "НФ-00000114",
     "name": "Блок Питания Segotep Power Supply GM1250W",
     "brand": "Segotep",
     "category": "Блоки питания",
@@ -5414,7 +5414,7 @@
   },
   {
     "id": "psu-005",
-    "sku": "psu-005",
+    "sku": "НФ-00000115",
     "name": "Блок Питания Segotep Power Supply GM1250W (ATX3.0 & PCIE 5.0)",
     "brand": "Segotep",
     "category": "Блоки питания",
@@ -5452,7 +5452,7 @@
   },
   {
     "id": "psu-006",
-    "sku": "psu-006",
+    "sku": "НФ-00000117",
     "name": "Блок Питания Vision 550wat",
     "brand": "Vision",
     "category": "Блоки питания",
@@ -5476,7 +5476,7 @@
   },
   {
     "id": "psu-007",
-    "sku": "psu-007",
+    "sku": "НФ-00000118",
     "name": "Блок Питания Vision 550wat МИНИ",
     "brand": "Vision",
     "category": "Блоки питания",
@@ -5522,7 +5522,7 @@
   },
   {
     "id": "psu-009",
-    "sku": "psu-009",
+    "sku": "НФ-00000121",
     "name": "Блок Питания Vision 850 wat ОЕМ",
     "brand": "Vision",
     "category": "Блоки питания",
@@ -5566,7 +5566,7 @@
   },
   {
     "id": "psu-011",
-    "sku": "psu-011",
+    "sku": "НФ-00000116",
     "name": "Блок Питания Segotep Power Supply GM850W",
     "brand": "Segotep",
     "category": "Блоки питания",
@@ -5621,7 +5621,7 @@
   },
   {
     "id": "psu-013",
-    "sku": "psu-013",
+    "sku": "НФ-00001085",
     "name": "Блок Питания Cooler Master 600W",
     "brand": "Cooler Master",
     "category": "Блоки питания",
@@ -5688,7 +5688,7 @@
   },
   {
     "id": "psu-015",
-    "sku": "psu-015",
+    "sku": "НФ-00000810",
     "name": "Дип Кул POWER PN1000 D",
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
@@ -5716,7 +5716,7 @@
   },
   {
     "id": "psu-016",
-    "sku": "psu-016",
+    "sku": "НФ-00000811",
     "name": "Дип Кул POWER PF750",
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
@@ -5743,7 +5743,7 @@
   },
   {
     "id": "psu-017",
-    "sku": "psu-017",
+    "sku": "НФ-00000809",
     "name": "Дип Кул POWER PF600X",
     "category": "Блоки питания",
     "categoryName": "Блоки питания",
@@ -5770,7 +5770,7 @@
   },
   {
     "id": "cooling-001",
-    "sku": "cooling-001",
+    "sku": "НФ-00000280",
     "name": "Кулер Segotep cooler К6",
     "brand": "Segotep",
     "category": "Охлаждение",
@@ -5803,7 +5803,7 @@
   },
   {
     "id": "cooling-002",
-    "sku": "cooling-002",
+    "sku": "НФ-00000281",
     "name": "Кулер Segotep water cooler 240S RGB",
     "brand": "Segotep",
     "category": "Охлаждение",
@@ -5845,7 +5845,7 @@
   },
   {
     "id": "cooling-003",
-    "sku": "cooling-003",
+    "sku": "НФ-00000282",
     "name": "Кулер Segotep water cooler 360S RGB",
     "brand": "Segotep",
     "category": "Охлаждение",
@@ -5888,7 +5888,7 @@
   },
   {
     "id": "cooling-004",
-    "sku": "cooling-004",
+    "sku": "НФ-00000284",
     "name": "Кулер INTELL 1700",
     "brand": "INTELL",
     "category": "Охлаждение",
@@ -5915,7 +5915,7 @@
   },
   {
     "id": "cooling-005",
-    "sku": "cooling-005",
+    "sku": "НФ-00000285",
     "name": "Кулер Segotep 120S Водиной 1 куллера",
     "brand": "Segotep",
     "category": "Охлаждение",
@@ -5947,7 +5947,7 @@
   },
   {
     "id": "cooling-006",
-    "sku": "cooling-006",
+    "sku": "НФ-00000678",
     "name": "Кулер 360 водянка",
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
@@ -5978,7 +5978,7 @@
   },
   {
     "id": "cooling-007",
-    "sku": "cooling-007",
+    "sku": "НФ-00000838",
     "name": "Куллер Вал Валак",
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
@@ -5999,7 +5999,7 @@
   },
   {
     "id": "cooling-008",
-    "sku": "cooling-008",
+    "sku": "НФ-00000286",
     "name": "Кулер С20 1700",
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
@@ -6056,7 +6056,7 @@
   },
   {
     "id": "cooling-010",
-    "sku": "cooling-010",
+    "sku": "НФ-00000965",
     "name": "Кулер INTELL 775",
     "brand": "INTELL",
     "category": "Охлаждение",
@@ -6083,7 +6083,7 @@
   },
   {
     "id": "cooling-011",
-    "sku": "cooling-011",
+    "sku": "НФ-00000602",
     "name": "Дип Кул LIQUID COOLER LQ240",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6115,7 +6115,7 @@
   },
   {
     "id": "cooling-012",
-    "sku": "cooling-012",
+    "sku": "НФ-00000603",
     "name": "Дип Кул LIQUID COOLER LT 360 ARGB",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6190,7 +6190,7 @@
   },
   {
     "id": "cooling-014",
-    "sku": "cooling-014",
+    "sku": "НФ-00000782",
     "name": "Дип Кул LIQUID COOLER LE 360 PRO",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6224,7 +6224,7 @@
   },
   {
     "id": "cooling-015",
-    "sku": "cooling-015",
+    "sku": "НФ-00000783",
     "name": "Дип Кул MYSTIQUE 240 ARGB",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6262,7 +6262,7 @@
   },
   {
     "id": "cooling-016",
-    "sku": "cooling-016",
+    "sku": "НФ-00000951",
     "name": "Дип Кул N200 Notebook Cooler",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6295,7 +6295,7 @@
   },
   {
     "id": "cooling-017",
-    "sku": "cooling-017",
+    "sku": "НФ-00000952",
     "name": "Дип Кул U PAL Notebook Cooler",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6328,7 +6328,7 @@
   },
   {
     "id": "cooling-018",
-    "sku": "cooling-018",
+    "sku": "НФ-00000591",
     "name": "Дип Кул AIR COOLER CK-11508",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6358,7 +6358,7 @@
   },
   {
     "id": "cooling-019",
-    "sku": "cooling-019",
+    "sku": "НФ-00000605",
     "name": "Дип Кул LIQUID COOLER MYSTIQUE 240 ARGB",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6401,7 +6401,7 @@
   },
   {
     "id": "cooling-020",
-    "sku": "cooling-020",
+    "sku": "НФ-00000947",
     "name": "Дип Кул COOLER LQ 360 ULTRA ARGB",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6435,7 +6435,7 @@
   },
   {
     "id": "cooling-021",
-    "sku": "cooling-021",
+    "sku": "НФ-00000950",
     "name": "Дип Кул MULTI CORE X6 Notebook Cooler",
     "brand": "DeepCool",
     "category": "Охлаждение",
@@ -6468,7 +6468,7 @@
   },
   {
     "id": "monitors-1",
-    "sku": "monitors-1",
+    "sku": "НФ-00000289",
     "name": "Монитор 34 AOC CU34G10X curved",
     "brand": "AOC",
     "category": "Мониторы",
@@ -6489,7 +6489,7 @@
   },
   {
     "id": "monitors-2",
-    "sku": "monitors-2",
+    "sku": "НФ-00000292",
     "name": "Монитор 27 ASUS TUF GAMING",
     "brand": "ASUS",
     "category": "Мониторы",
@@ -6507,7 +6507,7 @@
   },
   {
     "id": "monitors-3",
-    "sku": "monitors-3",
+    "sku": "НФ-00000293",
     "name": "Монитор 19 DAHUA DHI-LM19-A200 FHD FHD",
     "brand": "DAHUA",
     "category": "Мониторы",
@@ -6549,7 +6549,7 @@
   },
   {
     "id": "monitors-5",
-    "sku": "monitors-5",
+    "sku": "НФ-00000298",
     "name": "Монитор 24 HP V24v G5 FHD Display",
     "brand": "HP",
     "category": "Мониторы",
@@ -6570,7 +6570,7 @@
   },
   {
     "id": "monitors-6",
-    "sku": "monitors-6",
+    "sku": "НФ-00000301",
     "name": "Монитор 22 M22F",
     "brand": "",
     "category": "Мониторы",
@@ -6612,7 +6612,7 @@
   },
   {
     "id": "monitors-8",
-    "sku": "monitors-8",
+    "sku": "НФ-00000309",
     "name": "Монитор 34 Philips 34B2U3600C-93 curved",
     "brand": "PHILIPS",
     "category": "Мониторы",
@@ -6633,7 +6633,7 @@
   },
   {
     "id": "monitors-9",
-    "sku": "monitors-9",
+    "sku": "НФ-00000310",
     "name": "Монитор 24 SHARP LC-24LE155M",
     "brand": "",
     "category": "Мониторы",
@@ -6654,7 +6654,7 @@
   },
   {
     "id": "monitors-10",
-    "sku": "monitors-10",
+    "sku": "НФ-00000695",
     "name": "Монитор 24 Philips 24E2N1100 IPS 120HZ",
     "brand": "PHILIPS",
     "category": "Мониторы",
@@ -6675,7 +6675,7 @@
   },
   {
     "id": "monitors-11",
-    "sku": "monitors-11",
+    "sku": "НФ-00000834",
     "name": "Монитор HP MONITOR P34HC G4 WQHD USB-C",
     "brand": "HP",
     "category": "Мониторы",
@@ -6690,7 +6690,7 @@
   },
   {
     "id": "monitors-12",
-    "sku": "monitors-12",
+    "sku": "НФ-00000835",
     "name": "Монитор LENOVO Legion R27fc-30",
     "brand": "LENOVO",
     "category": "Мониторы",
@@ -6705,7 +6705,7 @@
   },
   {
     "id": "monitors-13",
-    "sku": "monitors-13",
+    "sku": "НФ-00000836",
     "name": "Монитор LENOVO Legion R27Qc-30",
     "brand": "LENOVO",
     "category": "Мониторы",
@@ -6720,7 +6720,7 @@
   },
   {
     "id": "monitors-14",
-    "sku": "monitors-14",
+    "sku": "НФ-00000998",
     "name": "Монитор 24 RedMi 1A 23.8 P24FBB-RA 1080P 100Hz",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6741,7 +6741,7 @@
   },
   {
     "id": "monitors-15",
-    "sku": "monitors-15",
+    "sku": "НФ-00000999",
     "name": "Монитор 27 RedMi 27 X27A 1080p 120Hz",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6780,7 +6780,7 @@
   },
   {
     "id": "monitors-17",
-    "sku": "monitors-17",
+    "sku": "НФ-00001002",
     "name": "Монитор 27 RedMi G27U 2024",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6801,7 +6801,7 @@
   },
   {
     "id": "monitors-18",
-    "sku": "monitors-18",
+    "sku": "НФ-00001003",
     "name": "Монитор 24 RedMi G25 1080p 200Hz 1ms FastIPS HDR400",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6864,7 +6864,7 @@
   },
   {
     "id": "monitors-21",
-    "sku": "monitors-21",
+    "sku": "НФ-00001006",
     "name": "Монитор 27 RedMi G pro 27U 2025miniled 4k 160Hz",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6885,7 +6885,7 @@
   },
   {
     "id": "monitors-22",
-    "sku": "monitors-22",
+    "sku": "НФ-00001001",
     "name": "Монитор 27 RedMi mini-led G PRO 27Q",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6906,7 +6906,7 @@
   },
   {
     "id": "monitors-23",
-    "sku": "monitors-23",
+    "sku": "НФ-00001007",
     "name": "Монитор 24 RedMi G24Q 2026",
     "brand": "REDMI",
     "category": "Мониторы",
@@ -6927,7 +6927,7 @@
   },
   {
     "id": "monitors-24",
-    "sku": "monitors-24",
+    "sku": "НФ-00000294",
     "name": "Монитор 24 DELL E2423H-60.5CM-23.8 - 3YR",
     "brand": "DELL",
     "category": "Мониторы",
@@ -6948,7 +6948,7 @@
   },
   {
     "id": "monitors-25",
-    "sku": "monitors-25",
+    "sku": "НФ-00000300",
     "name": "Монитор 27 HKC",
     "brand": "",
     "category": "Мониторы",
@@ -6966,7 +6966,7 @@
   },
   {
     "id": "monitors-26",
-    "sku": "monitors-26",
+    "sku": "НФ-00000305",
     "name": "Монитор 24 PHILIPS 242M8",
     "brand": "PHILIPS",
     "category": "Мониторы",
@@ -6987,7 +6987,7 @@
   },
   {
     "id": "access-1",
-    "sku": "access-1",
+    "sku": "НФ-00000038",
     "name": "CPE210 2.4GHz 300Mbps 9dBi Outdoor CPE",
     "brand": "",
     "category": "Точки доступа",
@@ -7010,7 +7010,7 @@
   },
   {
     "id": "access-2",
-    "sku": "access-2",
+    "sku": "НФ-00000039",
     "name": "CPE510 5GHz 300Mbps 13dBi Outdoor CPE",
     "brand": "",
     "category": "Точки доступа",
@@ -7033,7 +7033,7 @@
   },
   {
     "id": "access-3",
-    "sku": "access-3",
+    "sku": "НФ-00000040",
     "name": "Netis WF-2301 150Mbps Wireless N Outdoor Access Point",
     "brand": "Netis",
     "category": "Точки доступа",
@@ -7089,7 +7089,7 @@
   },
   {
     "id": "access-5",
-    "sku": "access-5",
+    "sku": "НФ-00000075",
     "name": "Ubiquiti adapter U7 Pro Max",
     "brand": "Ubiquiti",
     "category": "Точки доступа",
@@ -7122,7 +7122,7 @@
   },
   {
     "id": "access-6",
-    "sku": "access-6",
+    "sku": "НФ-00000082",
     "name": "Ubiquiti точка доступа потолочный U7 Pro",
     "brand": "Ubiquiti",
     "category": "Точки доступа",
@@ -7183,7 +7183,7 @@
   },
   {
     "id": "access-8",
-    "sku": "access-8",
+    "sku": "НФ-00000979",
     "name": "MikroTik Wap ax",
     "brand": "MikroTik",
     "category": "Точки доступа",
@@ -7216,7 +7216,7 @@
   },
   {
     "id": "access-9",
-    "sku": "access-9",
+    "sku": "НФ-00000619",
     "name": "Grandstream GWN7605, WiFi Access Point,",
     "brand": "Grandstream",
     "category": "Точки доступа",
@@ -7244,7 +7244,7 @@
   },
   {
     "id": "acc-adapters-1",
-    "sku": "acc-adapters-1",
+    "sku": "НФ-00000016",
     "name": "Бейсус WKQX000301 Lite Series Ethernet Adapter Type-C to RJ45 LAN Port (1000Mbps) Black",
     "brand": "baseus",
     "category": "Переходники",
@@ -7292,7 +7292,7 @@
   },
   {
     "id": "acc-adapters-2",
-    "sku": "acc-adapters-2",
+    "sku": "НФ-00001032",
     "name": "Куди Cudy UE10C USB-C to Ethernet Adapter",
     "brand": "cudy",
     "category": "Переходники",
@@ -7340,7 +7340,7 @@
   },
   {
     "id": "acc-adapters-3",
-    "sku": "acc-adapters-3",
+    "sku": "НФ-00001034",
     "name": "Куди Cudy UE25C",
     "brand": "cudy",
     "category": "Переходники",
@@ -7388,7 +7388,7 @@
   },
   {
     "id": "acc-adapters-4",
-    "sku": "acc-adapters-4",
+    "sku": "НФ-00001031",
     "name": "Куди Cudy UE10A USB-A to Ethernet Adapter",
     "brand": "cudy",
     "category": "Переходники",
@@ -7436,7 +7436,7 @@
   },
   {
     "id": "acc-adapters-5",
-    "sku": "acc-adapters-5",
+    "sku": "НФ-00001033",
     "name": "Куди Cudy UE25A USB-A to 2.5G Ethernet Adapter",
     "brand": "cudy",
     "category": "Переходники",
@@ -7484,7 +7484,7 @@
   },
   {
     "id": "analog_cameras-1",
-    "sku": "analog_cameras-1",
+    "sku": "НФ-00000140",
     "name": "Камера наружная Dahua DH-HAC-HFW1200CMP-IL-A-0280B",
     "brand": "Dahua",
     "category": "Аналоговые камеры",
@@ -7524,7 +7524,7 @@
   },
   {
     "id": "analog_cameras-2",
-    "sku": "analog_cameras-2",
+    "sku": "НФ-00000139",
     "name": "Камера внутренняя Dahua HAC-ME1509HP-A-PV-0280B-S2",
     "brand": "Dahua",
     "category": "Аналоговые камеры",
@@ -7562,7 +7562,7 @@
   },
   {
     "id": "acc-bags-1",
-    "sku": "acc-bags-1",
+    "sku": "НФ-00000519",
     "name": "Сумка Jeep 15,6",
     "brand": "jeep",
     "category": "Сумки и рюкзаки",
@@ -7627,7 +7627,7 @@
   },
   {
     "id": "acc-bags-3",
-    "sku": "acc-bags-3",
+    "sku": "НФ-00000523",
     "name": "Сумка Рюкзак Бончи",
     "brand": "",
     "category": "Сумки и рюкзаки",
@@ -7652,7 +7652,7 @@
   },
   {
     "id": "acc-bags-4",
-    "sku": "acc-bags-4",
+    "sku": "НФ-00000524",
     "name": "Сумка Сафед Сиех китай",
     "brand": "",
     "category": "Сумки и рюкзаки",
@@ -7677,7 +7677,7 @@
   },
   {
     "id": "acc-bags-5",
-    "sku": "acc-bags-5",
+    "sku": "НФ-00000525",
     "name": "Сумка EPOL 15.6",
     "brand": "epol",
     "category": "Сумки и рюкзаки",
@@ -7717,7 +7717,7 @@
   },
   {
     "id": "acc-bags-6",
-    "sku": "acc-bags-6",
+    "sku": "НФ-00000645",
     "name": "Сумка 90fen Vitality College Casual Backpack red",
     "brand": "90fen",
     "category": "Сумки и рюкзаки",
@@ -7755,7 +7755,7 @@
   },
   {
     "id": "acc-bags-7",
-    "sku": "acc-bags-7",
+    "sku": "НФ-00000646",
     "name": "Сумка 90fen Vitality College Casual Backpack beige",
     "brand": "90fen",
     "category": "Сумки и рюкзаки",
@@ -7793,7 +7793,7 @@
   },
   {
     "id": "acc-bags-8",
-    "sku": "acc-bags-8",
+    "sku": "НФ-00000648",
     "name": "Сумка 90fen Vitality College Casual Backpack yellow",
     "brand": "90fen",
     "category": "Сумки и рюкзаки",
@@ -7831,7 +7831,7 @@
   },
   {
     "id": "acc-bags-9",
-    "sku": "acc-bags-9",
+    "sku": "НФ-00000649",
     "name": "Сумка 90fen Grinder Oxford casual backpack",
     "brand": "90fen",
     "category": "Сумки и рюкзаки",
@@ -7864,7 +7864,7 @@
   },
   {
     "id": "acc-bags-10",
-    "sku": "acc-bags-10",
+    "sku": "НФ-00000652",
     "name": "Сумка Xiaomi 90Fen Waterproof Commuting Bag",
     "brand": "xiaomi",
     "category": "Сумки и рюкзаки",
@@ -7997,7 +7997,7 @@
   },
   {
     "id": "acc-bags-14",
-    "sku": "acc-bags-14",
+    "sku": "НФ-00000987",
     "name": "Сумка DPark кормашка Сиех",
     "brand": "dpark",
     "category": "Сумки и рюкзаки",
@@ -8027,7 +8027,7 @@
   },
   {
     "id": "acc-bags-15",
-    "sku": "acc-bags-15",
+    "sku": "НФ-00000990",
     "name": "Сумка Рюкзак Sun Earth Cиех Серый",
     "brand": "",
     "category": "Сумки и рюкзаки",
@@ -8057,7 +8057,7 @@
   },
   {
     "id": "acc-bags-16",
-    "sku": "acc-bags-16",
+    "sku": "НФ-00000991",
     "name": "Сумка Рюкзак Sanwa",
     "brand": "sanwa",
     "category": "Сумки и рюкзаки",
@@ -8087,7 +8087,7 @@
   },
   {
     "id": "acc-bags-17",
-    "sku": "acc-bags-17",
+    "sku": "НФ-00000657",
     "name": "Сумка TANJIEZHE Commuter backpack",
     "brand": "tanjiezhe",
     "category": "Сумки и рюкзаки",
@@ -8117,7 +8117,7 @@
   },
   {
     "id": "acc-bags-18",
-    "sku": "acc-bags-18",
+    "sku": "НФ-00000651",
     "name": "Сумка 90fen All Weather Urban Functional Backpack",
     "brand": "90fen",
     "category": "Сумки и рюкзаки",
@@ -8150,7 +8150,7 @@
   },
   {
     "id": "acc-bags-19",
-    "sku": "acc-bags-19",
+    "sku": "НФ-00000654",
     "name": "Сумка MQ Lingge Geometry Backpack",
     "brand": "mq",
     "category": "Сумки и рюкзаки",
@@ -8215,7 +8215,7 @@
   },
   {
     "id": "acc-cables-1",
-    "sku": "acc-cables-1",
+    "sku": "НФ-00000185",
     "name": "Кабель P10381400111-00 Baseus Dynamic 4 Fast Charging Data Cable USB-C to USB-C 100W 1m",
     "brand": "baseus",
     "category": "Кабели",
@@ -8273,7 +8273,7 @@
   },
   {
     "id": "cartridges-1",
-    "sku": "cartridges-1",
+    "sku": "НФ-00000196",
     "name": "Картридж Canon cartridge CF238X/CRG-737 Аsta",
     "brand": "CANON",
     "category": "Картриджи",
@@ -8301,7 +8301,7 @@
   },
   {
     "id": "cartridges-2",
-    "sku": "cartridges-2",
+    "sku": "НФ-00000197",
     "name": "Картридж Canon cartridge CRG-051D",
     "brand": "CANON",
     "category": "Картриджи",
@@ -8329,7 +8329,7 @@
   },
   {
     "id": "cartridges-3",
-    "sku": "cartridges-3",
+    "sku": "НФ-00000199",
     "name": "Картридж CF219A",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8357,7 +8357,7 @@
   },
   {
     "id": "cartridges-4",
-    "sku": "cartridges-4",
+    "sku": "НФ-00000200",
     "name": "Картридж Xerox 3130",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -8385,7 +8385,7 @@
   },
   {
     "id": "cartridges-5",
-    "sku": "cartridges-5",
+    "sku": "НФ-00000201",
     "name": "Картридж Xerox 3140",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -8413,7 +8413,7 @@
   },
   {
     "id": "cartridges-6",
-    "sku": "cartridges-6",
+    "sku": "НФ-00000202",
     "name": "Картридж Xerox 3345",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -8441,7 +8441,7 @@
   },
   {
     "id": "cartridges-7",
-    "sku": "cartridges-7",
+    "sku": "НФ-00000203",
     "name": "Картридж 703A FX-10/12",
     "brand": "",
     "category": "Картриджи",
@@ -8464,7 +8464,7 @@
   },
   {
     "id": "cartridges-8",
-    "sku": "cartridges-8",
+    "sku": "НФ-00000204",
     "name": "Картридж Canon ЕР 27",
     "brand": "CANON",
     "category": "Картриджи",
@@ -8492,7 +8492,7 @@
   },
   {
     "id": "cartridges-9",
-    "sku": "cartridges-9",
+    "sku": "НФ-00000207",
     "name": "Картридж hp 53A",
     "brand": "HP",
     "category": "Картриджи",
@@ -8520,7 +8520,7 @@
   },
   {
     "id": "cartridges-10",
-    "sku": "cartridges-10",
+    "sku": "НФ-00000208",
     "name": "Картридж SAMSUNG MLT-D101S",
     "brand": "SAMSUNG",
     "category": "Картриджи",
@@ -8548,7 +8548,7 @@
   },
   {
     "id": "cartridges-11",
-    "sku": "cartridges-11",
+    "sku": "НФ-00000211",
     "name": "Картридж SAMSUNG MLT-D111S",
     "brand": "SAMSUNG",
     "category": "Картриджи",
@@ -8576,7 +8576,7 @@
   },
   {
     "id": "cartridges-12",
-    "sku": "cartridges-12",
+    "sku": "НФ-00000212",
     "name": "Картридж CB435A Asta",
     "brand": "",
     "category": "Картриджи",
@@ -8599,7 +8599,7 @@
   },
   {
     "id": "cartridges-13",
-    "sku": "cartridges-13",
+    "sku": "НФ-00000213",
     "name": "Картридж CE505A Asta",
     "brand": "",
     "category": "Картриджи",
@@ -8622,7 +8622,7 @@
   },
   {
     "id": "cartridges-14",
-    "sku": "cartridges-14",
+    "sku": "НФ-00000214",
     "name": "Картридж CF217A Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8650,7 +8650,7 @@
   },
   {
     "id": "cartridges-15",
-    "sku": "cartridges-15",
+    "sku": "НФ-00000215",
     "name": "Картридж CF226A 052 Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8678,7 +8678,7 @@
   },
   {
     "id": "cartridges-16",
-    "sku": "cartridges-16",
+    "sku": "НФ-00000216",
     "name": "Картридж CRG-047/CF217A",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8706,7 +8706,7 @@
   },
   {
     "id": "cartridges-17",
-    "sku": "cartridges-17",
+    "sku": "НФ-00000218",
     "name": "Картридж CRG-057 Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8734,7 +8734,7 @@
   },
   {
     "id": "cartridges-18",
-    "sku": "cartridges-18",
+    "sku": "НФ-00000220",
     "name": "Картридж HP CF232A",
     "brand": "HP",
     "category": "Картриджи",
@@ -8762,7 +8762,7 @@
   },
   {
     "id": "cartridges-19",
-    "sku": "cartridges-19",
+    "sku": "НФ-00000223",
     "name": "Картридж NPG-59",
     "brand": "",
     "category": "Картриджи",
@@ -8785,7 +8785,7 @@
   },
   {
     "id": "cartridges-20",
-    "sku": "cartridges-20",
+    "sku": "НФ-00000224",
     "name": "Картридж Toner Canon IR2202",
     "brand": "CANON",
     "category": "Картриджи",
@@ -8813,7 +8813,7 @@
   },
   {
     "id": "cartridges-21",
-    "sku": "cartridges-21",
+    "sku": "НФ-00000226",
     "name": "Картридж Toner Cartridge HP W1500A 150A",
     "brand": "HP",
     "category": "Картриджи",
@@ -8841,7 +8841,7 @@
   },
   {
     "id": "cartridges-22",
-    "sku": "cartridges-22",
+    "sku": "НФ-00000229",
     "name": "Картридж Toner Cartridge HP 281A",
     "brand": "HP",
     "category": "Картриджи",
@@ -8869,7 +8869,7 @@
   },
   {
     "id": "cartridges-23",
-    "sku": "cartridges-23",
+    "sku": "НФ-00000230",
     "name": "Картридж Xerox 106R01531 for WC 3550",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -8897,7 +8897,7 @@
   },
   {
     "id": "cartridges-24",
-    "sku": "cartridges-24",
+    "sku": "НФ-00000231",
     "name": "Картридж Xerox 3325 (106R02312)",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -8925,7 +8925,7 @@
   },
   {
     "id": "cartridges-25",
-    "sku": "cartridges-25",
+    "sku": "НФ-00000232",
     "name": "Картридж CRG-070",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8953,7 +8953,7 @@
   },
   {
     "id": "cartridges-26",
-    "sku": "cartridges-26",
+    "sku": "НФ-00000233",
     "name": "Картридж CRG-071 Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -8981,7 +8981,7 @@
   },
   {
     "id": "cartridges-27",
-    "sku": "cartridges-27",
+    "sku": "НФ-00000234",
     "name": "Картридж Drum XEROX B225",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -9009,7 +9009,7 @@
   },
   {
     "id": "cartridges-28",
-    "sku": "cartridges-28",
+    "sku": "НФ-00000235",
     "name": "Картридж 106R04347 Xerox B215",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -9037,7 +9037,7 @@
   },
   {
     "id": "cartridges-29",
-    "sku": "cartridges-29",
+    "sku": "НФ-00000236",
     "name": "Картридж B225 Asta",
     "brand": "",
     "category": "Картриджи",
@@ -9060,7 +9060,7 @@
   },
   {
     "id": "cartridges-30",
-    "sku": "cartridges-30",
+    "sku": "НФ-00000238",
     "name": "Картридж CF259A Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -9088,7 +9088,7 @@
   },
   {
     "id": "cartridges-31",
-    "sku": "cartridges-31",
+    "sku": "НФ-00000239",
     "name": "Картридж CRG-051/CF230A",
     "brand": "Canon",
     "category": "Картриджи",
@@ -9116,7 +9116,7 @@
   },
   {
     "id": "cartridges-32",
-    "sku": "cartridges-32",
+    "sku": "НФ-00000240",
     "name": "Картридж CRG-067 Цветной комплект",
     "brand": "Canon",
     "category": "Картриджи",
@@ -9144,7 +9144,7 @@
   },
   {
     "id": "cartridges-33",
-    "sku": "cartridges-33",
+    "sku": "НФ-00000241",
     "name": "Картридж HP 180 (205А) 530-531-532-533",
     "brand": "HP",
     "category": "Картриджи",
@@ -9172,7 +9172,7 @@
   },
   {
     "id": "cartridges-34",
-    "sku": "cartridges-34",
+    "sku": "НФ-00000244",
     "name": "Картридж W1510A/151A",
     "brand": "",
     "category": "Картриджи",
@@ -9195,7 +9195,7 @@
   },
   {
     "id": "cartridges-35",
-    "sku": "cartridges-35",
+    "sku": "НФ-00000245",
     "name": "Картридж Xerox 106R01379 для Xerox P3100",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -9223,7 +9223,7 @@
   },
   {
     "id": "cartridges-36",
-    "sku": "cartridges-36",
+    "sku": "НФ-00000246",
     "name": "Картридж Xerox P3020 (106R02773)",
     "brand": "XEROX",
     "category": "Картриджи",
@@ -9251,7 +9251,7 @@
   },
   {
     "id": "cartridges-37",
-    "sku": "cartridges-37",
+    "sku": "НФ-00000247",
     "name": "Картридж Тонер Универсал",
     "brand": "",
     "category": "Картриджи",
@@ -9271,7 +9271,7 @@
   },
   {
     "id": "cartridges-38",
-    "sku": "cartridges-38",
+    "sku": "НФ-00001080",
     "name": "Картридж CRG-054 (Цветной комплект) Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -9299,7 +9299,7 @@
   },
   {
     "id": "cartridges-39",
-    "sku": "cartridges-39",
+    "sku": "НФ-00001081",
     "name": "Картридж 287A Asta",
     "brand": "",
     "category": "Картриджи",
@@ -9322,7 +9322,7 @@
   },
   {
     "id": "cartridges-40",
-    "sku": "cartridges-40",
+    "sku": "НФ-00000858",
     "name": "Картридж HP 222A /W2220A 21-22-23 Цветной комлект",
     "brand": "HP",
     "category": "Картриджи",
@@ -9350,7 +9350,7 @@
   },
   {
     "id": "cartridges-41",
-    "sku": "cartridges-41",
+    "sku": "НФ-00000859",
     "name": "Картридж HP CC388A",
     "brand": "HP",
     "category": "Картриджи",
@@ -9378,7 +9378,7 @@
   },
   {
     "id": "cartridges-42",
-    "sku": "cartridges-42",
+    "sku": "НФ-00000860",
     "name": "Картридж HP 145A/W1450A",
     "brand": "HP",
     "category": "Картриджи",
@@ -9406,7 +9406,7 @@
   },
   {
     "id": "cartridges-43",
-    "sku": "cartridges-43",
+    "sku": "НФ-00000875",
     "name": "Картридж HP CE 255A Asta",
     "brand": "HP",
     "category": "Картриджи",
@@ -9434,7 +9434,7 @@
   },
   {
     "id": "cartridges-44",
-    "sku": "cartridges-44",
+    "sku": "НФ-00000876",
     "name": "Картридж CRG-056L Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -9462,7 +9462,7 @@
   },
   {
     "id": "cartridges-45",
-    "sku": "cartridges-45",
+    "sku": "НФ-00000195",
     "name": "Картридж Canon cartridge 725 Китай",
     "brand": "CANON",
     "category": "Картриджи",
@@ -9490,7 +9490,7 @@
   },
   {
     "id": "cartridges-46",
-    "sku": "cartridges-46",
+    "sku": "НФ-00000205",
     "name": "Картридж HP 069 Цветной комплект",
     "brand": "HP",
     "category": "Картриджи",
@@ -9518,7 +9518,7 @@
   },
   {
     "id": "cartridges-47",
-    "sku": "cartridges-47",
+    "sku": "НФ-00000210",
     "name": "Картридж Samsung MLT-D104S китай",
     "brand": "SAMSUNG",
     "category": "Картриджи",
@@ -9546,7 +9546,7 @@
   },
   {
     "id": "cartridges-48",
-    "sku": "cartridges-48",
+    "sku": "НФ-00000222",
     "name": "Картридж MLT-D109S Asta",
     "brand": "Samsung",
     "category": "Картриджи",
@@ -9574,7 +9574,7 @@
   },
   {
     "id": "cartridges-49",
-    "sku": "cartridges-49",
+    "sku": "НФ-00000225",
     "name": "Картридж Toner canon C-EXV40",
     "brand": "CANON",
     "category": "Картриджи",
@@ -9602,7 +9602,7 @@
   },
   {
     "id": "cartridges-50",
-    "sku": "cartridges-50",
+    "sku": "НФ-00000228",
     "name": "Картридж Toner Cartridge HP 150A",
     "brand": "HP",
     "category": "Картриджи",
@@ -9630,7 +9630,7 @@
   },
   {
     "id": "cartridges-51",
-    "sku": "cartridges-51",
+    "sku": "НФ-00000237",
     "name": "Картридж B225 Asta с чипом",
     "brand": "",
     "category": "Картриджи",
@@ -9650,7 +9650,7 @@
   },
   {
     "id": "cartridges-52",
-    "sku": "cartridges-52",
+    "sku": "НФ-00000243",
     "name": "Картридж W1106A/106A Asta",
     "brand": "",
     "category": "Картриджи",
@@ -9673,7 +9673,7 @@
   },
   {
     "id": "cartridges-53",
-    "sku": "cartridges-53",
+    "sku": "НФ-00000217",
     "name": "Картридж CRG-049 Asta",
     "brand": "Canon",
     "category": "Картриджи",
@@ -9701,7 +9701,7 @@
   },
   {
     "id": "cartridges-54",
-    "sku": "cartridges-54",
+    "sku": "НФ-00000221",
     "name": "Картридж hp Q7551A",
     "brand": "HP",
     "category": "Картриджи",
@@ -9729,7 +9729,7 @@
   },
   {
     "id": "connectors-1",
-    "sku": "connectors-1",
+    "sku": "НФ-00000505",
     "name": "Зажим RJ45 HT 546 Зард",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -9769,7 +9769,7 @@
   },
   {
     "id": "connectors-3",
-    "sku": "connectors-3",
+    "sku": "НФ-00000504",
     "name": "Зажим RJ45",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -9789,7 +9789,7 @@
   },
   {
     "id": "acc-dvd_drives-1",
-    "sku": "acc-dvd_drives-1",
+    "sku": "НФ-00000027",
     "name": "External USB DVD/RW drive",
     "brand": "",
     "category": "DVD-приводы",
@@ -9824,7 +9824,7 @@
   },
   {
     "id": "acc-dvd_drives-2",
-    "sku": "acc-dvd_drives-2",
+    "sku": "НФ-00000030",
     "name": "ДВД",
     "brand": "",
     "category": "DVD-приводы",
@@ -9854,7 +9854,7 @@
   },
   {
     "id": "acc-external_storage-1",
-    "sku": "acc-external_storage-1",
+    "sku": "НФ-00000145",
     "name": "HDD 2Tb Toshiba Canvio Basics",
     "brand": "toshiba",
     "category": "Внешние HDD/SSD",
@@ -10044,7 +10044,7 @@
   },
   {
     "id": "acc-external_storage-6",
-    "sku": "acc-external_storage-6",
+    "sku": "НФ-00000152",
     "name": "HDD Seagate Expansion 4Tb",
     "brand": "seagate",
     "category": "Внешние HDD/SSD",
@@ -10082,7 +10082,7 @@
   },
   {
     "id": "acc-external_storage-7",
-    "sku": "acc-external_storage-7",
+    "sku": "НФ-00000158",
     "name": "HDD WD My Passport 2Tb",
     "brand": "wd",
     "category": "Внешние HDD/SSD",
@@ -10120,7 +10120,7 @@
   },
   {
     "id": "acc-external_storage-8",
-    "sku": "acc-external_storage-8",
+    "sku": "НФ-00000913",
     "name": "SSD Lexar 512GB SL260 Air Portable",
     "brand": "lexar",
     "category": "Внешние HDD/SSD",
@@ -10234,7 +10234,7 @@
   },
   {
     "id": "acc-external_storage-11",
-    "sku": "acc-external_storage-11",
+    "sku": "НФ-00000147",
     "name": "HDD 4Tb Toshiba Canvio Basics",
     "brand": "toshiba",
     "category": "Внешние HDD/SSD",
@@ -10272,7 +10272,7 @@
   },
   {
     "id": "acc-external_storage-12",
-    "sku": "acc-external_storage-12",
+    "sku": "НФ-00000157",
     "name": "HDD WD My Passport 4TB",
     "brand": "wd",
     "category": "Внешние HDD/SSD",
@@ -10429,7 +10429,7 @@
   },
   {
     "id": "acc-external_storage-16",
-    "sku": "acc-external_storage-16",
+    "sku": "НФ-00000154",
     "name": "HDD TRANSCEND HDD 2Tb",
     "brand": "transcend",
     "category": "Внешние HDD/SSD",
@@ -10464,7 +10464,7 @@
   },
   {
     "id": "acc-flash_drives-1",
-    "sku": "acc-flash_drives-1",
+    "sku": "НФ-00000041",
     "name": "SANDISK 16GB Wireless Flash Drive",
     "brand": "sandisk",
     "category": "Флешки",
@@ -10497,7 +10497,7 @@
   },
   {
     "id": "acc-flash_drives-2",
-    "sku": "acc-flash_drives-2",
+    "sku": "НФ-00000529",
     "name": "Флешка 64GB Lexar JumpDrive D400 USB 3.0",
     "brand": "lexar",
     "category": "Флешки",
@@ -10535,7 +10535,7 @@
   },
   {
     "id": "acc-flash_drives-3",
-    "sku": "acc-flash_drives-3",
+    "sku": "НФ-00000530",
     "name": "Флешка 128 GB ADATA USB 3.0",
     "brand": "adata",
     "category": "Флешки",
@@ -10573,7 +10573,7 @@
   },
   {
     "id": "acc-flash_drives-4",
-    "sku": "acc-flash_drives-4",
+    "sku": "НФ-00000533",
     "name": "Флешка Usb 3.0 Samsung 128 GB",
     "brand": "samsung",
     "category": "Флешки",
@@ -10611,7 +10611,7 @@
   },
   {
     "id": "acc-flash_drives-5",
-    "sku": "acc-flash_drives-5",
+    "sku": "НФ-00000539",
     "name": "Флешка Sandisk 32 GB микро",
     "brand": "sandisk",
     "category": "Флешки",
@@ -10644,7 +10644,7 @@
   },
   {
     "id": "acc-flash_drives-6",
-    "sku": "acc-flash_drives-6",
+    "sku": "НФ-00000736",
     "name": "Флешка 32 GB Lexar JumpDrive D400 USB 3.0",
     "brand": "lexar",
     "category": "Флешки",
@@ -10682,7 +10682,7 @@
   },
   {
     "id": "acc-flash_drives-7",
-    "sku": "acc-flash_drives-7",
+    "sku": "НФ-00000917",
     "name": "Флешка 256 GB Lexar JumpDrive D400 USB 3.0",
     "brand": "lexar",
     "category": "Флешки",
@@ -10720,7 +10720,7 @@
   },
   {
     "id": "acc-flash_drives-8",
-    "sku": "acc-flash_drives-8",
+    "sku": "НФ-00000526",
     "name": "Флешка 128 GB Lexar JumpDrive D400 USB 3.0",
     "brand": "lexar",
     "category": "Флешки",
@@ -10758,7 +10758,7 @@
   },
   {
     "id": "headphones-1",
-    "sku": "headphones-1",
+    "sku": "НФ-00000358",
     "name": "Наушники Dialog M251",
     "brand": "DIALOG",
     "category": "Наушники",
@@ -10786,7 +10786,7 @@
   },
   {
     "id": "headphones-2",
-    "sku": "headphones-2",
+    "sku": "НФ-00000360",
     "name": "Наушники Logitech Headset G 331",
     "brand": "LOGITECH",
     "category": "Наушники",
@@ -10819,7 +10819,7 @@
   },
   {
     "id": "headphones-3",
-    "sku": "headphones-3",
+    "sku": "НФ-00000362",
     "name": "Наушники LOGITECH Stereo Headset H 110",
     "brand": "LOGITECH",
     "category": "Наушники",
@@ -10852,7 +10852,7 @@
   },
   {
     "id": "headphones-4",
-    "sku": "headphones-4",
+    "sku": "НФ-00000364",
     "name": "Наушники NGTD020202 Baseus Bowie D05 Wireless Headphones Creamy-white",
     "brand": "BASEUS",
     "category": "Наушники",
@@ -10885,7 +10885,7 @@
   },
   {
     "id": "headphones-5",
-    "sku": "headphones-5",
+    "sku": "НФ-00000640",
     "name": "Наушники LOGITECH Stereo Headset Н 390",
     "brand": "LOGITECH",
     "category": "Наушники",
@@ -10918,7 +10918,7 @@
   },
   {
     "id": "headphones-6",
-    "sku": "headphones-6",
+    "sku": "НФ-00000363",
     "name": "Наушники Logitech USB Headset Н 340",
     "brand": "LOGITECH",
     "category": "Наушники",
@@ -10956,7 +10956,7 @@
   },
   {
     "id": "headphones-7",
-    "sku": "headphones-7",
+    "sku": "НФ-00000357",
     "name": "Наушники A00050402113-00 Baseus Bowie H1i Noise-Cancellation Wireless Headphones Cluster Black",
     "brand": "BASEUS",
     "category": "Наушники",
@@ -10989,7 +10989,7 @@
   },
   {
     "id": "intercoms-1",
-    "sku": "intercoms-1",
+    "sku": "НФ-00000134",
     "name": "Домофон Аналоговый Видеодомофон Dahua KTA02 Kit комплект",
     "brand": "Dahua",
     "category": "Домофоны",
@@ -11022,7 +11022,7 @@
   },
   {
     "id": "intercoms-2",
-    "sku": "intercoms-2",
+    "sku": "НФ-00000133",
     "name": "Домофон IP Видеодомофон Dahua KTP01(S) Kit комплект",
     "brand": "Dahua",
     "category": "Домофоны",
@@ -11056,7 +11056,7 @@
   },
   {
     "id": "inverters-1",
-    "sku": "inverters-1",
+    "sku": "НФ-00000704",
     "name": "Инвертор Mercury Inverter 1200 with LCD PANE",
     "brand": "Mercury",
     "category": "Инверторы",
@@ -11081,7 +11081,7 @@
   },
   {
     "id": "inverters-2",
-    "sku": "inverters-2",
+    "sku": "НФ-00000705",
     "name": "Инвертор Mercury MC-33024E Radiant Inverter 3kva/24V",
     "brand": "Mercury",
     "category": "Инверторы",
@@ -11106,7 +11106,7 @@
   },
   {
     "id": "ip_cameras-1",
-    "sku": "ip_cameras-1",
+    "sku": "НФ-00000135",
     "name": "Камера внутренняя Dahua IPC-HDW1239T1P-A-LED-0280B (23465)",
     "brand": "Dahua",
     "category": "IP-камеры",
@@ -11144,7 +11144,7 @@
   },
   {
     "id": "ip_cameras-2",
-    "sku": "ip_cameras-2",
+    "sku": "НФ-00000136",
     "name": "Камера внутренняя IPC-T22EP-0280B-imou",
     "brand": "imou",
     "category": "IP-камеры",
@@ -11182,7 +11182,7 @@
   },
   {
     "id": "ip_cameras-3",
-    "sku": "ip_cameras-3",
+    "sku": "НФ-00000137",
     "name": "Камера наружная Dahua HAC-ME1509THP-A-PV-0360B-S2",
     "brand": "Dahua",
     "category": "IP-камеры",
@@ -11220,7 +11220,7 @@
   },
   {
     "id": "ip_cameras-4",
-    "sku": "ip_cameras-4",
+    "sku": "НФ-00000138",
     "name": "Камера наружная Dahua IPC-HFW1239S1P-LED-0280B-S5-QH2",
     "brand": "Dahua",
     "category": "IP-камеры",
@@ -11260,7 +11260,7 @@
   },
   {
     "id": "ip_telephony-1",
-    "sku": "ip_telephony-1",
+    "sku": "НФ-00000131",
     "name": "Grandstream GRP2602Р Славик",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11288,7 +11288,7 @@
   },
   {
     "id": "ip_telephony-2",
-    "sku": "ip_telephony-2",
+    "sku": "НФ-00000618",
     "name": "Grandstream GRP2601, 2 SIP accounts",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11316,7 +11316,7 @@
   },
   {
     "id": "ip_telephony-3",
-    "sku": "ip_telephony-3",
+    "sku": "НФ-00000622",
     "name": "Grandstream UCM6302, IP PBX appliance, 2 FXO ports, 2 FXS ports, Dual GigE RJ45 Ethernet",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11344,7 +11344,7 @@
   },
   {
     "id": "ip_telephony-4",
-    "sku": "ip_telephony-4",
+    "sku": "НФ-00000628",
     "name": "Grandstream DP755 DECT VoIP Base Station",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11372,7 +11372,7 @@
   },
   {
     "id": "ip_telephony-5",
-    "sku": "ip_telephony-5",
+    "sku": "НФ-00000629",
     "name": "Grandstream GRP2604P,",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11400,7 +11400,7 @@
   },
   {
     "id": "ip_telephony-6",
-    "sku": "ip_telephony-6",
+    "sku": "НФ-00000631",
     "name": "Grandstream GXP1628",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11428,7 +11428,7 @@
   },
   {
     "id": "ip_telephony-7",
-    "sku": "ip_telephony-7",
+    "sku": "НФ-00000632",
     "name": "Grandstream GXP2170",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11456,7 +11456,7 @@
   },
   {
     "id": "ip_telephony-8",
-    "sku": "ip_telephony-8",
+    "sku": "НФ-00000633",
     "name": "Expansion Module for GXP2140, GXP2170 and GXV3240",
     "brand": "",
     "category": "IP-телефония",
@@ -11479,7 +11479,7 @@
   },
   {
     "id": "ip_telephony-9",
-    "sku": "ip_telephony-9",
+    "sku": "НФ-00000617",
     "name": "Grandstream DP750, Wireless DECT Base Station",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11507,7 +11507,7 @@
   },
   {
     "id": "ip_telephony-10",
-    "sku": "ip_telephony-10",
+    "sku": "НФ-00000621",
     "name": "Grandstream GXP1615, Small-Medium Business IP Phone",
     "brand": "Grandstream",
     "category": "IP-телефония",
@@ -11535,7 +11535,7 @@
   },
   {
     "id": "keyboards-1",
-    "sku": "keyboards-1",
+    "sku": "НФ-00000263",
     "name": "Клавиатура Mechanical Gaming RGB KM-L112BK",
     "brand": "",
     "category": "Клавиатуры",
@@ -11568,7 +11568,7 @@
   },
   {
     "id": "keyboards-2",
-    "sku": "keyboards-2",
+    "sku": "НФ-00000264",
     "name": "Клавиатура Logitech Keyboard K 120",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11596,7 +11596,7 @@
   },
   {
     "id": "keyboards-3",
-    "sku": "keyboards-3",
+    "sku": "НФ-00000267",
     "name": "Клавиатура Logitech Keyboard МK 245",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11624,7 +11624,7 @@
   },
   {
     "id": "keyboards-4",
-    "sku": "keyboards-4",
+    "sku": "НФ-00000268",
     "name": "Клавиатура Logitech Keyboard МK 275",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11652,7 +11652,7 @@
   },
   {
     "id": "keyboards-5",
-    "sku": "keyboards-5",
+    "sku": "НФ-00000269",
     "name": "Клавиатура Logitech Keyboard МK 295",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11680,7 +11680,7 @@
   },
   {
     "id": "keyboards-6",
-    "sku": "keyboards-6",
+    "sku": "НФ-00000270",
     "name": "Клавиатура Logitech Keyboard МK 470",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11708,7 +11708,7 @@
   },
   {
     "id": "keyboards-7",
-    "sku": "keyboards-7",
+    "sku": "НФ-00000271",
     "name": "Клавиатура Logitech Keyboard МK 540",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11736,7 +11736,7 @@
   },
   {
     "id": "keyboards-8",
-    "sku": "keyboards-8",
+    "sku": "НФ-00000272",
     "name": "Клавиатура LuxeMate 100 (Black, USB) RU",
     "brand": "",
     "category": "Клавиатуры",
@@ -11764,7 +11764,7 @@
   },
   {
     "id": "keyboards-9",
-    "sku": "keyboards-9",
+    "sku": "НФ-00000638",
     "name": "Клавиатура Logitech Keyboard МK 270",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11792,7 +11792,7 @@
   },
   {
     "id": "keyboards-10",
-    "sku": "keyboards-10",
+    "sku": "НФ-00000639",
     "name": "Клавиатура Logitech Keyboard МK 345",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11820,7 +11820,7 @@
   },
   {
     "id": "keyboards-11",
-    "sku": "keyboards-11",
+    "sku": "НФ-00000641",
     "name": "Клавиатура Logitech Keyboard МK 850",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11848,7 +11848,7 @@
   },
   {
     "id": "keyboards-12",
-    "sku": "keyboards-12",
+    "sku": "НФ-00001012",
     "name": "Клавиатура Logitech Keyboard МK 220",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -11876,7 +11876,7 @@
   },
   {
     "id": "keyboards-13",
-    "sku": "keyboards-13",
+    "sku": "НФ-00000738",
     "name": "Клавиатура Exegate EX296104RUS Комплект беспроводной MK280 (кл.104кл+мышь 1000dpi 3кн",
     "brand": "EXEGATE",
     "category": "Клавиатуры",
@@ -11942,7 +11942,7 @@
   },
   {
     "id": "keyboards-15",
-    "sku": "keyboards-15",
+    "sku": "НФ-00000262",
     "name": "Клавиатура Gaming RGB KM-110BK",
     "brand": "",
     "category": "Клавиатуры",
@@ -11975,7 +11975,7 @@
   },
   {
     "id": "keyboards-16",
-    "sku": "keyboards-16",
+    "sku": "НФ-00000266",
     "name": "Клавиатура Logitech Keyboard МK 235",
     "brand": "LOGITECH",
     "category": "Клавиатуры",
@@ -12003,7 +12003,7 @@
   },
   {
     "id": "keyboards-17",
-    "sku": "keyboards-17",
+    "sku": "НФ-00000740",
     "name": "Клавиатура Exegate EX287139RUS Комплект проводной MK120 104кл+мышь 1000 3кн",
     "brand": "EXEGATE",
     "category": "Клавиатуры",
@@ -12064,7 +12064,7 @@
   },
   {
     "id": "keyboards-19",
-    "sku": "keyboards-19",
+    "sku": "НФ-00000273",
     "name": "Клавиатура MERCURY KB-6800 KB 6900, MM, ENG",
     "brand": "MERCURY",
     "category": "Клавиатуры",
@@ -12093,7 +12093,7 @@
   },
   {
     "id": "keyboards-20",
-    "sku": "keyboards-20",
+    "sku": "НФ-00000741",
     "name": "Клавиатура Exegate EX287402RUS Комплект беспроводной MK330 (кл.104кл+мышь 1000 3кн",
     "brand": "EXEGATE",
     "category": "Клавиатуры",
@@ -12164,7 +12164,7 @@
   },
   {
     "id": "acc-memory_cards-2",
-    "sku": "acc-memory_cards-2",
+    "sku": "НФ-00000536",
     "name": "Карта памяти 32Gb MicroSD Lexar High-Performance 633x",
     "brand": "lexar",
     "category": "Карты памяти",
@@ -12202,7 +12202,7 @@
   },
   {
     "id": "acc-memory_cards-3",
-    "sku": "acc-memory_cards-3",
+    "sku": "НФ-00000537",
     "name": "Карта памяти 64Gb MicroSD Lexar High-Performance 633x",
     "brand": "lexar",
     "category": "Карты памяти",
@@ -12240,7 +12240,7 @@
   },
   {
     "id": "acc-memory_cards-4",
-    "sku": "acc-memory_cards-4",
+    "sku": "НФ-00000534",
     "name": "Карта Памяти 256 Gb Lexar High-Performance 1066x microSDXC",
     "brand": "lexar",
     "category": "Карты памяти",
@@ -12377,7 +12377,7 @@
   },
   {
     "id": "mesh-4",
-    "sku": "mesh-4",
+    "sku": "НФ-00000941",
     "name": "Роутер TP-LINK Deco X50-4G(1-pack) 4G+ AX3000 Whole Home Mesh Wi-Fi 6",
     "brand": "TP-LINK",
     "category": "Mesh-системы",
@@ -12438,7 +12438,7 @@
   },
   {
     "id": "mesh-6",
-    "sku": "mesh-6",
+    "sku": "НФ-00000769",
     "name": "Роутер TP-LINK Deco X50 Poe (3-pack) AX3000 Mesh WiFi 6 System",
     "brand": "TP-LINK",
     "category": "Mesh-системы",
@@ -12471,7 +12471,7 @@
   },
   {
     "id": "mesh-7",
-    "sku": "mesh-7",
+    "sku": "НФ-00000942",
     "name": "Роутер TP-LINK DECO X50 5G ROUTER AX3000 ( 1 PACK )",
     "brand": "TP-LINK",
     "category": "Mesh-системы",
@@ -12532,7 +12532,7 @@
   },
   {
     "id": "mesh-9",
-    "sku": "mesh-9",
+    "sku": "НФ-00001027",
     "name": "Куди Cudy M1300(3-Pack)AC1200 Wi-Fi Gigabit Mesh Solution",
     "brand": "Cudy",
     "category": "Mesh-системы",
@@ -12593,7 +12593,7 @@
   },
   {
     "id": "mesh-11",
-    "sku": "mesh-11",
+    "sku": "НФ-00001030",
     "name": "Куди Cudy M3000(3-Pack) AX3000 Wi-Fi 6 Mesh 2.5G Solution",
     "brand": "Cudy",
     "category": "Mesh-системы",
@@ -12655,7 +12655,7 @@
   },
   {
     "id": "mice-1",
-    "sku": "mice-1",
+    "sku": "НФ-00000338",
     "name": "Мышка GENIUS Ergo 500",
     "brand": "GENIUS",
     "category": "Мыши",
@@ -12683,7 +12683,7 @@
   },
   {
     "id": "mice-2",
-    "sku": "mice-2",
+    "sku": "НФ-00000339",
     "name": "Мышка GENIUS NX-MICRO RETRACTABLE BL",
     "brand": "GENIUS",
     "category": "Мыши",
@@ -12711,7 +12711,7 @@
   },
   {
     "id": "mice-3",
-    "sku": "mice-3",
+    "sku": "НФ-00000346",
     "name": "Мышка LOGITECH Wireless M 196",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -12747,7 +12747,7 @@
   },
   {
     "id": "mice-4",
-    "sku": "mice-4",
+    "sku": "НФ-00000347",
     "name": "Мышка LOGITECH Wireless M 330",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -12780,7 +12780,7 @@
   },
   {
     "id": "mice-5",
-    "sku": "mice-5",
+    "sku": "НФ-00000348",
     "name": "Мышка LOGITECH Wireless M 650",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -12813,7 +12813,7 @@
   },
   {
     "id": "mice-6",
-    "sku": "mice-6",
+    "sku": "НФ-00000351",
     "name": "Мышка LOGITECH Wireless M575s",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -12879,7 +12879,7 @@
   },
   {
     "id": "mice-8",
-    "sku": "mice-8",
+    "sku": "НФ-00000354",
     "name": "Мышка LOGITECH Wireless M187",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -12912,7 +12912,7 @@
   },
   {
     "id": "mice-9",
-    "sku": "mice-9",
+    "sku": "НФ-00000355",
     "name": "Мышка MERCURY MX-1500, OPTICAL MOUSE",
     "brand": "MERCURY",
     "category": "Мыши",
@@ -12940,7 +12940,7 @@
   },
   {
     "id": "mice-10",
-    "sku": "mice-10",
+    "sku": "НФ-00000667",
     "name": "Мышка GALAX SLIDER-03, Gaming mouse, Optical, 7 buttons, 3325",
     "brand": "",
     "category": "Мыши",
@@ -12968,7 +12968,7 @@
   },
   {
     "id": "mice-11",
-    "sku": "mice-11",
+    "sku": "НФ-00000753",
     "name": "Мышка LOGITECH Wireless M 280",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13001,7 +13001,7 @@
   },
   {
     "id": "mice-12",
-    "sku": "mice-12",
+    "sku": "НФ-00000340",
     "name": "Мышка LOGITECH Pebble",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13029,7 +13029,7 @@
   },
   {
     "id": "mice-13",
-    "sku": "mice-13",
+    "sku": "НФ-00000343",
     "name": "Мышка LOGITECH Wireless M 170",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13062,7 +13062,7 @@
   },
   {
     "id": "mice-14",
-    "sku": "mice-14",
+    "sku": "НФ-00000350",
     "name": "Мышка LOGITECH Wireless M235",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13095,7 +13095,7 @@
   },
   {
     "id": "mice-15",
-    "sku": "mice-15",
+    "sku": "НФ-00000352",
     "name": "Мышка LOGITECH Wireless M650L",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13128,7 +13128,7 @@
   },
   {
     "id": "mice-16",
-    "sku": "mice-16",
+    "sku": "НФ-00000345",
     "name": "Мышка LOGITECH Wireless M 185",
     "brand": "LOGITECH",
     "category": "Мыши",
@@ -13161,7 +13161,7 @@
   },
   {
     "id": "mice-17",
-    "sku": "mice-17",
+    "sku": "НФ-00000356",
     "name": "Мышка Rapoo Wireless M100G Silent",
     "brand": "",
     "category": "Мыши",
@@ -13189,7 +13189,7 @@
   },
   {
     "id": "mini_pbx-1",
-    "sku": "mini_pbx-1",
+    "sku": "НФ-00000328",
     "name": "Плата KX-TE82480",
     "brand": "",
     "category": "Мини-АТС",
@@ -13212,7 +13212,7 @@
   },
   {
     "id": "network_accessories-1",
-    "sku": "network_accessories-1",
+    "sku": "НФ-00000509",
     "name": "Кабель канал Metal cable manager 1U 19inch",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -13232,7 +13232,7 @@
   },
   {
     "id": "network_accessories-2",
-    "sku": "network_accessories-2",
+    "sku": "НФ-00000512",
     "name": "РЕЛЬС Sliding shelf for 600*1000mm cabinets",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -13252,7 +13252,7 @@
   },
   {
     "id": "network_accessories-3",
-    "sku": "network_accessories-3",
+    "sku": "НФ-00000513",
     "name": "Тестер Lan",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -13272,7 +13272,7 @@
   },
   {
     "id": "network_accessories-4",
-    "sku": "network_accessories-4",
+    "sku": "НФ-00000510",
     "name": "Полка серверный шкаф калон",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -13292,7 +13292,7 @@
   },
   {
     "id": "network_accessories-5",
-    "sku": "network_accessories-5",
+    "sku": "НФ-00000511",
     "name": "Полка серверный шкаф майда",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -13312,7 +13312,7 @@
   },
   {
     "id": "network_cables-1",
-    "sku": "network_cables-1",
+    "sku": "НФ-00000187",
     "name": "Кабель SFTP MERCURY CAT 6 SFTP 305M Cable",
     "brand": "MERCURY",
     "category": "Сетевые кабели",
@@ -13423,7 +13423,7 @@
   },
   {
     "id": "network_cables-4",
-    "sku": "network_cables-4",
+    "sku": "НФ-00000191",
     "name": "Кабель SFTP Cat6 Сиех Бабина арзон",
     "brand": "",
     "category": "Сетевые кабели",
@@ -13453,7 +13453,7 @@
   },
   {
     "id": "network_cables-5",
-    "sku": "network_cables-5",
+    "sku": "НФ-00000193",
     "name": "Кабель SFTP Cat6 0.56mm Copper, 80*0.12AL-MGbraiding PVC+PEdouble Jacket Outdoor",
     "brand": "",
     "category": "Сетевые кабели",
@@ -13488,7 +13488,7 @@
   },
   {
     "id": "network_cables-6",
-    "sku": "network_cables-6",
+    "sku": "НФ-00000984",
     "name": "Кабель SFTP AMPXL 6668 Сat 6 24AVG",
     "brand": "AMPXL",
     "category": "Сетевые кабели",
@@ -13518,7 +13518,7 @@
   },
   {
     "id": "network_cables-7",
-    "sku": "network_cables-7",
+    "sku": "НФ-00000189",
     "name": "OM3-150M indoor fiber cable , PVC jacket 4 cores",
     "brand": "",
     "category": "Сетевые кабели",
@@ -13543,7 +13543,7 @@
   },
   {
     "id": "network_cables-8",
-    "sku": "network_cables-8",
+    "sku": "НФ-00000192",
     "name": "Кабель SFTP Cat6 0.56mm Copper, 80*0.12 AL-MG braiding Indoor",
     "brand": "",
     "category": "Сетевые кабели",
@@ -13573,7 +13573,7 @@
   },
   {
     "id": "cards-1",
-    "sku": "cards-1",
+    "sku": "НФ-00000046",
     "name": "TP-LINK TG-3468 Gigabit PCI Express Network Adapter",
     "brand": "TP-LINK",
     "category": "Сетевые карты",
@@ -13629,7 +13629,7 @@
   },
   {
     "id": "acc-other_accessories-1",
-    "sku": "acc-other_accessories-1",
+    "sku": "НФ-00000028",
     "name": "Бокс НДД WD Seagate Toshiba",
     "brand": "",
     "category": "Прочие аксессуары",
@@ -13659,7 +13659,7 @@
   },
   {
     "id": "acc-other_accessories-2",
-    "sku": "acc-other_accessories-2",
+    "sku": "НФ-00000026",
     "name": "DVD Планка барои SSD",
     "brand": "",
     "category": "Прочие аксессуары",
@@ -13689,7 +13689,7 @@
   },
   {
     "id": "acc-other_accessories-3",
-    "sku": "acc-other_accessories-3",
+    "sku": "НФ-00000459",
     "name": "Коврик 80*30",
     "brand": "",
     "category": "Прочие аксессуары",
@@ -13724,7 +13724,7 @@
   },
   {
     "id": "acc-other_accessories-4",
-    "sku": "acc-other_accessories-4",
+    "sku": "НФ-00000461",
     "name": "Коврик 90*40",
     "brand": "",
     "category": "Прочие аксессуары",
@@ -13759,7 +13759,7 @@
   },
   {
     "id": "acc-other_accessories-5",
-    "sku": "acc-other_accessories-5",
+    "sku": "НФ-00000462",
     "name": "Коврик Х88",
     "brand": "",
     "category": "Прочие аксессуары",
@@ -13809,7 +13809,7 @@
   },
   {
     "id": "patch_panels-1",
-    "sku": "patch_panels-1",
+    "sku": "НФ-00000502",
     "name": "Network patch panel CAT6 UTP 24port",
     "brand": "",
     "category": "Патч-панели",
@@ -13844,7 +13844,7 @@
   },
   {
     "id": "patch_panels-2",
-    "sku": "patch_panels-2",
+    "sku": "НФ-00000503",
     "name": "Network patch panel CAT6 UTP 48port",
     "brand": "",
     "category": "Патч-панели",
@@ -13879,7 +13879,7 @@
   },
   {
     "id": "strips-1",
-    "sku": "strips-1",
+    "sku": "НФ-00000394",
     "name": "Пилот MERCURY 6240U-SCK 1.8m",
     "brand": "MERCURY",
     "category": "Сетевые фильтры / пилоты",
@@ -13912,7 +13912,7 @@
   },
   {
     "id": "strips-2",
-    "sku": "strips-2",
+    "sku": "НФ-00000396",
     "name": "Пилот MERCURY 8240U-SCK 3m",
     "brand": "MERCURY",
     "category": "Сетевые фильтры / пилоты",
@@ -13945,7 +13945,7 @@
   },
   {
     "id": "strips-3",
-    "sku": "strips-3",
+    "sku": "НФ-00000397",
     "name": "Пилот Китай 3m",
     "brand": "",
     "category": "Сетевые фильтры / пилоты",
@@ -13970,7 +13970,7 @@
   },
   {
     "id": "strips-4",
-    "sku": "strips-4",
+    "sku": "НФ-00000398",
     "name": "Пилот Стоичный 8 Портов",
     "brand": "",
     "category": "Сетевые фильтры / пилоты",
@@ -13995,7 +13995,7 @@
   },
   {
     "id": "consumables-1",
-    "sku": "consumables-1",
+    "sku": "НФ-00000095",
     "name": "Ксерокс Cartridge 106R01415 Xerox Phaser 3435 Китай",
     "brand": "XEROX",
     "category": "Расходные материалы",
@@ -14023,7 +14023,7 @@
   },
   {
     "id": "consumables-2",
-    "sku": "consumables-2",
+    "sku": "НФ-00000097",
     "name": "Ксерокс Phaser 3010/WC3045 Hi-Cap cartridge 2.3K",
     "brand": "",
     "category": "Расходные материалы",
@@ -14046,7 +14046,7 @@
   },
   {
     "id": "consumables-3",
-    "sku": "consumables-3",
+    "sku": "НФ-00000098",
     "name": "Ксерокс Toner 5019 / 5021 Toner",
     "brand": "",
     "category": "Расходные материалы",
@@ -14069,7 +14069,7 @@
   },
   {
     "id": "consumables-4",
-    "sku": "consumables-4",
+    "sku": "НФ-00000099",
     "name": "Ксерокс WC 415/415DC / WCPro315/320/420/420DC Toner (2 x 6k)",
     "brand": "",
     "category": "Расходные материалы",
@@ -14092,7 +14092,7 @@
   },
   {
     "id": "consumables-5",
-    "sku": "consumables-5",
+    "sku": "НФ-00000100",
     "name": "Ксерокс 11K 106R02306 phaser 3320",
     "brand": "",
     "category": "Расходные материалы",
@@ -14115,7 +14115,7 @@
   },
   {
     "id": "consumables-6",
-    "sku": "consumables-6",
+    "sku": "НФ-00000101",
     "name": "Ксерокс Yellow Toner Cartridge (1k) Phaser 6110",
     "brand": "",
     "category": "Расходные материалы",
@@ -14138,7 +14138,7 @@
   },
   {
     "id": "consumables-7",
-    "sku": "consumables-7",
+    "sku": "НФ-00000102",
     "name": "Ксерокс Картридж Phaser 6125 4 цвет",
     "brand": "",
     "category": "Расходные материалы",
@@ -14161,7 +14161,7 @@
   },
   {
     "id": "consumables-8",
-    "sku": "consumables-8",
+    "sku": "НФ-00000103",
     "name": "Ксерокс картридж 106R01529 3550",
     "brand": "",
     "category": "Расходные материалы",
@@ -14184,7 +14184,7 @@
   },
   {
     "id": "consumables-9",
-    "sku": "consumables-9",
+    "sku": "НФ-00000094",
     "name": "Ксерокс Black for 106R02732 Xerox 3610/3615",
     "brand": "XEROX",
     "category": "Расходные материалы",
@@ -14212,7 +14212,7 @@
   },
   {
     "id": "consumables-10",
-    "sku": "consumables-10",
+    "sku": "НФ-00000096",
     "name": "Ксерокс Drum for 113R00773 Xerox 3610",
     "brand": "XEROX",
     "category": "Расходные материалы",
@@ -14240,7 +14240,7 @@
   },
   {
     "id": "printers-1",
-    "sku": "printers-1",
+    "sku": "НФ-00000403",
     "name": "Принтер CANON MF275DW",
     "brand": "CANON",
     "category": "Принтеры и МФУ",
@@ -14362,7 +14362,7 @@
   },
   {
     "id": "printers-5",
-    "sku": "printers-5",
+    "sku": "НФ-00000688",
     "name": "Принтер EPSON L14150",
     "brand": "EPSON",
     "category": "Принтеры и МФУ",
@@ -14428,7 +14428,7 @@
   },
   {
     "id": "printers-7",
-    "sku": "printers-7",
+    "sku": "НФ-00000732",
     "name": "Принтер Canon LBP 6030 image Class",
     "brand": "CANON",
     "category": "Принтеры и МФУ",
@@ -14456,7 +14456,7 @@
   },
   {
     "id": "printers-8",
-    "sku": "printers-8",
+    "sku": "НФ-00000788",
     "name": "Принтер HP Laser Jet Pro 4103 fdw",
     "brand": "HP",
     "category": "Принтеры и МФУ",
@@ -14489,7 +14489,7 @@
   },
   {
     "id": "printers-9",
-    "sku": "printers-9",
+    "sku": "НФ-00000405",
     "name": "Принтер EPSON ACULASER M1400 (220V) PRINTER",
     "brand": "EPSON",
     "category": "Принтеры и МФУ",
@@ -14522,7 +14522,7 @@
   },
   {
     "id": "printers-10",
-    "sku": "printers-10",
+    "sku": "НФ-00000731",
     "name": "Принтер EPSON L 18050",
     "brand": "EPSON",
     "category": "Принтеры и МФУ",
@@ -14555,7 +14555,7 @@
   },
   {
     "id": "acc-projectors_screens-1",
-    "sku": "acc-projectors_screens-1",
+    "sku": "НФ-00000414",
     "name": "Экран 178 178*178 cm Manual",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14595,7 +14595,7 @@
   },
   {
     "id": "acc-projectors_screens-2",
-    "sku": "acc-projectors_screens-2",
+    "sku": "НФ-00000415",
     "name": "Экран 213 213*213 cm Electric",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14635,7 +14635,7 @@
   },
   {
     "id": "acc-projectors_screens-3",
-    "sku": "acc-projectors_screens-3",
+    "sku": "НФ-00000416",
     "name": "Экран 213 213*213 cm Tripod",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14675,7 +14675,7 @@
   },
   {
     "id": "acc-projectors_screens-4",
-    "sku": "acc-projectors_screens-4",
+    "sku": "НФ-00000417",
     "name": "Экран 213 213*213 cm Маnual",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14715,7 +14715,7 @@
   },
   {
     "id": "acc-projectors_screens-5",
-    "sku": "acc-projectors_screens-5",
+    "sku": "НФ-00000419",
     "name": "Экран 244 244*244 cm Manual",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14755,7 +14755,7 @@
   },
   {
     "id": "acc-projectors_screens-6",
-    "sku": "acc-projectors_screens-6",
+    "sku": "НФ-00000420",
     "name": "Экран 244 244*244 cm Tripod",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14795,7 +14795,7 @@
   },
   {
     "id": "acc-projectors_screens-7",
-    "sku": "acc-projectors_screens-7",
+    "sku": "НФ-00000422",
     "name": "Экран 266 266*149 cm Tripod",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14835,7 +14835,7 @@
   },
   {
     "id": "acc-projectors_screens-8",
-    "sku": "acc-projectors_screens-8",
+    "sku": "НФ-00000423",
     "name": "Экран 3 305*305 cm Electric",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14875,7 +14875,7 @@
   },
   {
     "id": "acc-projectors_screens-9",
-    "sku": "acc-projectors_screens-9",
+    "sku": "НФ-00000424",
     "name": "Экран 35 350*350 cm Electric",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -14991,7 +14991,7 @@
   },
   {
     "id": "acc-projectors_screens-12",
-    "sku": "acc-projectors_screens-12",
+    "sku": "НФ-00000430",
     "name": "Стойка Projector 1 метра",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -15021,7 +15021,7 @@
   },
   {
     "id": "acc-projectors_screens-13",
-    "sku": "acc-projectors_screens-13",
+    "sku": "НФ-00000431",
     "name": "Электронная доска ST-9400U 83 диагональ",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -15051,7 +15051,7 @@
   },
   {
     "id": "acc-projectors_screens-14",
-    "sku": "acc-projectors_screens-14",
+    "sku": "НФ-00000728",
     "name": "Проектор EPSON EF-12",
     "brand": "epson",
     "category": "Проекторы и экраны",
@@ -15089,7 +15089,7 @@
   },
   {
     "id": "acc-projectors_screens-15",
-    "sku": "acc-projectors_screens-15",
+    "sku": "НФ-00000844",
     "name": "Экран 178 178*178 cm Tripod",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -15129,7 +15129,7 @@
   },
   {
     "id": "acc-projectors_screens-16",
-    "sku": "acc-projectors_screens-16",
+    "sku": "НФ-00000418",
     "name": "Экран 244 244*244 cm Electric",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -15169,7 +15169,7 @@
   },
   {
     "id": "acc-projectors_screens-17",
-    "sku": "acc-projectors_screens-17",
+    "sku": "НФ-00000425",
     "name": "Экран 4 400*300 cm Electric",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -15209,7 +15209,7 @@
   },
   {
     "id": "acc-projectors_screens-18",
-    "sku": "acc-projectors_screens-18",
+    "sku": "НФ-00000428",
     "name": "Проектор Китай",
     "brand": "",
     "category": "Проекторы и экраны",
@@ -15269,7 +15269,7 @@
   },
   {
     "id": "routers-1",
-    "sku": "routers-1",
+    "sku": "НФ-00000033",
     "name": "Роутер TP-LINK Archer C9",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15325,7 +15325,7 @@
   },
   {
     "id": "routers-3",
-    "sku": "routers-3",
+    "sku": "НФ-00000049",
     "name": "Роутер TP-Link Archer AX53 AX3000",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -15386,7 +15386,7 @@
   },
   {
     "id": "routers-5",
-    "sku": "routers-5",
+    "sku": "НФ-00000060",
     "name": "Роутер TP-LINK, Archer, C20,",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15414,7 +15414,7 @@
   },
   {
     "id": "routers-6",
-    "sku": "routers-6",
+    "sku": "НФ-00000068",
     "name": "Роутер TP-LINK Archer C86",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15503,7 +15503,7 @@
   },
   {
     "id": "routers-9",
-    "sku": "routers-9",
+    "sku": "НФ-00000760",
     "name": "Роутер TP-LINK Archer C6 Wireless Dual Band AC1350 Router",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15531,7 +15531,7 @@
   },
   {
     "id": "routers-10",
-    "sku": "routers-10",
+    "sku": "НФ-00000761",
     "name": "Роутер TP-Link Archer MR500 AC1200 4G LTE",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -15559,7 +15559,7 @@
   },
   {
     "id": "routers-11",
-    "sku": "routers-11",
+    "sku": "НФ-00000938",
     "name": "Роутер TP-LINK 300 Mbps 3G/4G Wireless Router MR 3420",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15587,7 +15587,7 @@
   },
   {
     "id": "routers-12",
-    "sku": "routers-12",
+    "sku": "НФ-00000762",
     "name": "Роутер TP-Link Archer NX200 5G AX1800 Wireless Dual Band Gigabit Router",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -15620,7 +15620,7 @@
   },
   {
     "id": "routers-13",
-    "sku": "routers-13",
+    "sku": "НФ-00000767",
     "name": "Роутер TP-Link AX72 AX5400 Dual-Band Gigabit Wi-Fi 6 Router",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -15681,7 +15681,7 @@
   },
   {
     "id": "routers-15",
-    "sku": "routers-15",
+    "sku": "НФ-00000758",
     "name": "Роутер TP-LINK Archer AX73 AX5400 Dual-Band Wi-Fi 6 Router",
     "brand": "TP-LINK",
     "category": "Роутеры",
@@ -15714,7 +15714,7 @@
   },
   {
     "id": "routers-16",
-    "sku": "routers-16",
+    "sku": "НФ-00000759",
     "name": "Роутер TP-Link Archer BE220 BE3600 Dual Band WiFi 7 Router",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -15805,7 +15805,7 @@
   },
   {
     "id": "routers-19",
-    "sku": "routers-19",
+    "sku": "НФ-00000972",
     "name": "MikroTik Hex RB750Gr3",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -15835,7 +15835,7 @@
   },
   {
     "id": "routers-20",
-    "sku": "routers-20",
+    "sku": "НФ-00000973",
     "name": "MikroTik RB4011iGS+RM",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -15863,7 +15863,7 @@
   },
   {
     "id": "routers-21",
-    "sku": "routers-21",
+    "sku": "НФ-00000976",
     "name": "MikroTik hEx PoE Lite",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -15891,7 +15891,7 @@
   },
   {
     "id": "routers-22",
-    "sku": "routers-22",
+    "sku": "НФ-00000977",
     "name": "MikroTik hAP ax S",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -15924,7 +15924,7 @@
   },
   {
     "id": "routers-23",
-    "sku": "routers-23",
+    "sku": "НФ-00000978",
     "name": "MikroTik RB5009UG+S+IN",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -15953,7 +15953,7 @@
   },
   {
     "id": "routers-24",
-    "sku": "routers-24",
+    "sku": "НФ-00000969",
     "name": "MikroTik hAP ac Lite RB952",
     "brand": "MikroTik",
     "category": "Роутеры",
@@ -15983,7 +15983,7 @@
   },
   {
     "id": "server_racks-1",
-    "sku": "server_racks-1",
+    "sku": "НФ-00000490",
     "name": "Шкаф 15 U 600x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16013,7 +16013,7 @@
   },
   {
     "id": "server_racks-2",
-    "sku": "server_racks-2",
+    "sku": "НФ-00000491",
     "name": "Шкаф 18 U 600x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16043,7 +16043,7 @@
   },
   {
     "id": "server_racks-3",
-    "sku": "server_racks-3",
+    "sku": "НФ-00000492",
     "name": "Шкаф 22 U 600x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16073,7 +16073,7 @@
   },
   {
     "id": "server_racks-4",
-    "sku": "server_racks-4",
+    "sku": "НФ-00000494",
     "name": "Шкаф 32U 600x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16103,7 +16103,7 @@
   },
   {
     "id": "server_racks-5",
-    "sku": "server_racks-5",
+    "sku": "НФ-00000495",
     "name": "Шкаф 37 U 600x1000 mm wall mounted type",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16158,7 +16158,7 @@
   },
   {
     "id": "server_racks-7",
-    "sku": "server_racks-7",
+    "sku": "НФ-00000498",
     "name": "Шкаф 42U 800x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16188,7 +16188,7 @@
   },
   {
     "id": "server_racks-8",
-    "sku": "server_racks-8",
+    "sku": "НФ-00000500",
     "name": "Шкаф 6 U 600x450mm Китай",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16213,7 +16213,7 @@
   },
   {
     "id": "server_racks-9",
-    "sku": "server_racks-9",
+    "sku": "НФ-00000501",
     "name": "Шкаф 9 U 600x450mm Китай",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16238,7 +16238,7 @@
   },
   {
     "id": "server_racks-10",
-    "sku": "server_racks-10",
+    "sku": "НФ-00001063",
     "name": "Шкаф 42U 600x1200mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16268,7 +16268,7 @@
   },
   {
     "id": "server_racks-11",
-    "sku": "server_racks-11",
+    "sku": "НФ-00000493",
     "name": "Шкаф 27U 600x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16298,7 +16298,7 @@
   },
   {
     "id": "server_racks-12",
-    "sku": "server_racks-12",
+    "sku": "НФ-00000861",
     "name": "Шкаф 22 U 600x600mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16328,7 +16328,7 @@
   },
   {
     "id": "server_racks-13",
-    "sku": "server_racks-13",
+    "sku": "НФ-00000489",
     "name": "Шкаф 12 U 600x450mm Китай",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16353,7 +16353,7 @@
   },
   {
     "id": "server_racks-14",
-    "sku": "server_racks-14",
+    "sku": "НФ-00000497",
     "name": "Шкаф 42U 600x1000mm standing type server rack",
     "brand": "",
     "category": "Серверные шкафы",
@@ -16383,7 +16383,7 @@
   },
   {
     "id": "speakers-1",
-    "sku": "speakers-1",
+    "sku": "НФ-00000921",
     "name": "Калонка HP 2111",
     "brand": "HP",
     "category": "Колонки",
@@ -16411,7 +16411,7 @@
   },
   {
     "id": "speakers-2",
-    "sku": "speakers-2",
+    "sku": "НФ-00000923",
     "name": "Калонка Kisonli A101S",
     "brand": "",
     "category": "Колонки",
@@ -16462,7 +16462,7 @@
   },
   {
     "id": "stabilizers-1",
-    "sku": "stabilizers-1",
+    "sku": "НФ-00000514",
     "name": "Стабилизатор Automatic Voltage Regulator 1000VA",
     "brand": "",
     "category": "Стабилизаторы",
@@ -16490,7 +16490,7 @@
   },
   {
     "id": "stabilizers-2",
-    "sku": "stabilizers-2",
+    "sku": "НФ-00000515",
     "name": "Стабилизатор Automatic Voltage Regulator 3000VA",
     "brand": "",
     "category": "Стабилизаторы",
@@ -16518,7 +16518,7 @@
   },
   {
     "id": "stabilizers-3",
-    "sku": "stabilizers-3",
+    "sku": "НФ-00000516",
     "name": "Стабилизатор Automatic Voltage Regulator 5000VA",
     "brand": "",
     "category": "Стабилизаторы",
@@ -16596,7 +16596,7 @@
   },
   {
     "id": "stabilizers-6",
-    "sku": "stabilizers-6",
+    "sku": "НФ-00000517",
     "name": "Стабилизатор AVR ANDELI 500va",
     "brand": "",
     "category": "Стабилизаторы",
@@ -16621,7 +16621,7 @@
   },
   {
     "id": "stabilizers-7",
-    "sku": "stabilizers-7",
+    "sku": "НФ-00000703",
     "name": "Стабилизатор Automatic Voltage Regulator 2000VA",
     "brand": "",
     "category": "Стабилизаторы",
@@ -16649,7 +16649,7 @@
   },
   {
     "id": "switches-1",
-    "sku": "switches-1",
+    "sku": "НФ-00001071",
     "name": "Mikrotik CRS326-24G-2S+RM",
     "brand": "Mikrotik",
     "category": "Коммутаторы",
@@ -16677,7 +16677,7 @@
   },
   {
     "id": "switches-2",
-    "sku": "switches-2",
+    "sku": "НФ-00000974",
     "name": "MikroTik CRS106-1C-5S",
     "brand": "MikroTik",
     "category": "Коммутаторы",
@@ -16705,7 +16705,7 @@
   },
   {
     "id": "switches-3",
-    "sku": "switches-3",
+    "sku": "НФ-00000971",
     "name": "MikroTik CRS305-1G-4S+IN",
     "brand": "MikroTik",
     "category": "Коммутаторы",
@@ -16734,7 +16734,7 @@
   },
   {
     "id": "switches-4",
-    "sku": "switches-4",
+    "sku": "НФ-00000466",
     "name": "TL-SG1016 16-Port Gigabit Switch",
     "brand": "",
     "category": "Коммутаторы",
@@ -16767,7 +16767,7 @@
   },
   {
     "id": "switches-5",
-    "sku": "switches-5",
+    "sku": "НФ-00000467",
     "name": "TP -LINK 48-Port 10/100Mbps Rackmount Switch SF1048",
     "brand": "",
     "category": "Коммутаторы",
@@ -16800,7 +16800,7 @@
   },
   {
     "id": "switches-6",
-    "sku": "switches-6",
+    "sku": "НФ-00000469",
     "name": "TP LINK TL SG1008P POE SWITCH",
     "brand": "TP LINK",
     "category": "Коммутаторы",
@@ -16833,7 +16833,7 @@
   },
   {
     "id": "switches-7",
-    "sku": "switches-7",
+    "sku": "НФ-00000470",
     "name": "Tp-Link 24 Port Gigabit Rackmount Switch SG1024D",
     "brand": "Tp-Link",
     "category": "Коммутаторы",
@@ -16871,7 +16871,7 @@
   },
   {
     "id": "switches-8",
-    "sku": "switches-8",
+    "sku": "НФ-00000471",
     "name": "TP-LINK 5-Port Gigabit with 4-Port PoE+ SG1005P",
     "brand": "TP-LINK",
     "category": "Коммутаторы",
@@ -16914,7 +16914,7 @@
   },
   {
     "id": "switches-9",
-    "sku": "switches-9",
+    "sku": "НФ-00000473",
     "name": "TP-LINK SF1005LP 5-Port 10/100 Switch with 4-Port PoE",
     "brand": "TP-LINK",
     "category": "Коммутаторы",
@@ -16957,7 +16957,7 @@
   },
   {
     "id": "switches-10",
-    "sku": "switches-10",
+    "sku": "НФ-00000476",
     "name": "TPLINK SWITCH LS-SF 1005D",
     "brand": "TPLINK",
     "category": "Коммутаторы",
@@ -16985,7 +16985,7 @@
   },
   {
     "id": "switches-11",
-    "sku": "switches-11",
+    "sku": "НФ-00000477",
     "name": "TPLINK SWITCH SF 1016 Стоичный",
     "brand": "TPLINK",
     "category": "Коммутаторы",
@@ -17013,7 +17013,7 @@
   },
   {
     "id": "switches-12",
-    "sku": "switches-12",
+    "sku": "НФ-00000478",
     "name": "TPLINK SWITCH SG1016 Стоичный",
     "brand": "TPLINK",
     "category": "Коммутаторы",
@@ -17041,7 +17041,7 @@
   },
   {
     "id": "switches-13",
-    "sku": "switches-13",
+    "sku": "НФ-00000480",
     "name": "Коммутатор TP-LINK SG 1008 D",
     "brand": "TP-LINK",
     "category": "Коммутаторы",
@@ -17069,7 +17069,7 @@
   },
   {
     "id": "switches-14",
-    "sku": "switches-14",
+    "sku": "НФ-00000481",
     "name": "Коммутатор TP-LINK <TL-SF1008D",
     "brand": "TP-LINK",
     "category": "Коммутаторы",
@@ -17130,7 +17130,7 @@
   },
   {
     "id": "switches-16",
-    "sku": "switches-16",
+    "sku": "НФ-00000488",
     "name": "Коммутатор FS328GP 28 Port Gigabit Smart PoE 24 PoE+ Port 4 x SFP Slots",
     "brand": "",
     "category": "Коммутаторы",
@@ -17168,7 +17168,7 @@
   },
   {
     "id": "switches-17",
-    "sku": "switches-17",
+    "sku": "НФ-00000744",
     "name": "D-Link, DES-1024A /E1B, Неуправляемый коммутатор, Черный, Нет, 24 x RJ45, 24 портов 10/100 Мбит/сек",
     "brand": "D-Link",
     "category": "Коммутаторы",
@@ -17282,7 +17282,7 @@
   },
   {
     "id": "switches-20",
-    "sku": "switches-20",
+    "sku": "НФ-00000468",
     "name": "TP Link -SF1024D 24-портовый коммутатор 10/100 Мбит",
     "brand": "TP Link",
     "category": "Коммутаторы",
@@ -17315,7 +17315,7 @@
   },
   {
     "id": "switches-21",
-    "sku": "switches-21",
+    "sku": "НФ-00000475",
     "name": "TP-LINK SG1048 48-Port Gigabit Rackmount Switch",
     "brand": "TP-LINK",
     "category": "Коммутаторы",
@@ -17353,7 +17353,7 @@
   },
   {
     "id": "switches-22",
-    "sku": "switches-22",
+    "sku": "НФ-00000482",
     "name": "Коммутатор TP-Link Omada SG2428 P",
     "brand": "TP-Link",
     "category": "Коммутаторы",
@@ -17381,7 +17381,7 @@
   },
   {
     "id": "switches-23",
-    "sku": "switches-23",
+    "sku": "НФ-00000754",
     "name": "TP-LINK 5-Port Gigabit Desktop Switch LS1005G",
     "brand": "TP-LINK",
     "category": "Коммутаторы",
@@ -17457,7 +17457,7 @@
   },
   {
     "id": "switches-25",
-    "sku": "switches-25",
+    "sku": "НФ-00000620",
     "name": "Grandstream GWN7801P, Enterprise Layer 2+ Managed Network Switch, 8-ports Gigabit",
     "brand": "Grandstream",
     "category": "Коммутаторы",
@@ -17836,7 +17836,7 @@
   },
   {
     "id": "ups-2",
-    "sku": "ups-2",
+    "sku": "НФ-00000089",
     "name": "UPS MERCURY MAVERICK 750",
     "brand": "MERCURY",
     "category": "UPS",
@@ -17865,7 +17865,7 @@
   },
   {
     "id": "ups-3",
-    "sku": "ups-3",
+    "sku": "НФ-00000090",
     "name": "UPS MERCURY MAVERICK 850",
     "brand": "MERCURY",
     "category": "UPS",
@@ -17928,7 +17928,7 @@
   },
   {
     "id": "ups-5",
-    "sku": "ups-5",
+    "sku": "НФ-00000698",
     "name": "UPS MERCURY MAVERICK 1050",
     "brand": "MERCURY",
     "category": "UPS",
@@ -17956,7 +17956,7 @@
   },
   {
     "id": "ups-6",
-    "sku": "ups-6",
+    "sku": "НФ-00000699",
     "name": "UPS MERCURY ELITE 1200VA",
     "brand": "MERCURY",
     "category": "UPS",
@@ -17989,7 +17989,7 @@
   },
   {
     "id": "ups-7",
-    "sku": "ups-7",
+    "sku": "НФ-00001016",
     "name": "UPS MERCURY ELITE 1500 PRO UPS, SCHUKO PLUG",
     "brand": "MERCURY",
     "category": "UPS",
@@ -18017,7 +18017,7 @@
   },
   {
     "id": "ups-8",
-    "sku": "ups-8",
+    "sku": "НФ-00000831",
     "name": "APC Easy UPS BV 650VA, AVR М",
     "brand": "APC",
     "category": "UPS",
@@ -18047,7 +18047,7 @@
   },
   {
     "id": "ups-9",
-    "sku": "ups-9",
+    "sku": "НФ-00000936",
     "name": "APC Easy UPS BV 1000VA, AVR, M",
     "brand": "APC",
     "category": "UPS",
@@ -18077,7 +18077,7 @@
   },
   {
     "id": "ups-10",
-    "sku": "ups-10",
+    "sku": "НФ-00000085",
     "name": "APC UPS SRV 1 KI",
     "brand": "APC",
     "category": "UPS",
@@ -18107,7 +18107,7 @@
   },
   {
     "id": "ups-11",
-    "sku": "ups-11",
+    "sku": "НФ-00000659",
     "name": "UPS MERCURY ELITE 3200VA SMART",
     "brand": "MERCURY",
     "category": "UPS",
@@ -18140,7 +18140,7 @@
   },
   {
     "id": "ups-12",
-    "sku": "ups-12",
+    "sku": "НФ-00001015",
     "name": "UPS MERCURY ELITE 2200U SMART UPS, SCHUKO PLUG",
     "brand": "MERCURY",
     "category": "UPS",
@@ -18203,7 +18203,7 @@
   },
   {
     "id": "batteries-1",
-    "sku": "batteries-1",
+    "sku": "НФ-00000109",
     "name": "Батарейка MERCURY SEALED LEADED BATTERY 8.2AH/12V",
     "brand": "MERCURY",
     "category": "Батареи для UPS",
@@ -18243,7 +18243,7 @@
   },
   {
     "id": "batteries-2",
-    "sku": "batteries-2",
+    "sku": "НФ-00000110",
     "name": "Батарейка 12 В 5 Ампер",
     "brand": "",
     "category": "Батареи для UPS",
@@ -18303,7 +18303,7 @@
   },
   {
     "id": "acc-usb_hubs-1",
-    "sku": "acc-usb_hubs-1",
+    "sku": "НФ-00000006",
     "name": "Бейсус B0005280B811-10 UltraJoy Series 4-Port HUB Lite 15cm Space Grey?USB-A to USB 3.0*4+USB-C 5V?",
     "brand": "baseus",
     "category": "USB-хабы",
@@ -18346,7 +18346,7 @@
   },
   {
     "id": "acc-usb_hubs-2",
-    "sku": "acc-usb_hubs-2",
+    "sku": "НФ-00000010",
     "name": "Бейсус CAHUB-DG0G Working Station Three-Screen Multifunctional Type-C HUB AdapterDark gray",
     "brand": "baseus",
     "category": "USB-хабы",
@@ -18399,7 +18399,7 @@
   },
   {
     "id": "acc-usb_hubs-3",
-    "sku": "acc-usb_hubs-3",
+    "sku": "НФ-00000017",
     "name": "Бейсус WKWG070013 Metal Gleam Series 4-in-1 Multifunctional Type-C HUB Docking Station Gray?Type-C t",
     "brand": "baseus",
     "category": "USB-хабы",
@@ -18442,7 +18442,7 @@
   },
   {
     "id": "acc-usb_hubs-4",
-    "sku": "acc-usb_hubs-4",
+    "sku": "НФ-00001035",
     "name": "Куди Cudy UH40A 4-Port USB-A 3.0 Hub",
     "brand": "cudy",
     "category": "USB-хабы",
@@ -18485,7 +18485,7 @@
   },
   {
     "id": "acc-usb_hubs-5",
-    "sku": "acc-usb_hubs-5",
+    "sku": "НФ-00001036",
     "name": "Куди Cudy UH405 5-IN-1 USB-C Hub with 4K HDMI",
     "brand": "cudy",
     "category": "USB-хабы",
@@ -18538,7 +18538,7 @@
   },
   {
     "id": "acc-usb_hubs-6",
-    "sku": "acc-usb_hubs-6",
+    "sku": "НФ-00001037",
     "name": "Куди Cudy UH407 7-IN-1 USB C Hub with 4K HDMI",
     "brand": "cudy",
     "category": "USB-хабы",
@@ -18591,7 +18591,7 @@
   },
   {
     "id": "acc-usb_hubs-7",
-    "sku": "acc-usb_hubs-7",
+    "sku": "НФ-00001038",
     "name": "Куди Cudy UH605 5-IN-1 USB Hub with GbE",
     "brand": "cudy",
     "category": "USB-хабы",
@@ -18644,7 +18644,7 @@
   },
   {
     "id": "acc-usb_hubs-8",
-    "sku": "acc-usb_hubs-8",
+    "sku": "НФ-00001039",
     "name": "Куди Cudy UH606 6-IN-1 USB-C Hub with GbE & 4K@60Hz HDMI",
     "brand": "cudy",
     "category": "USB-хабы",
@@ -18702,7 +18702,7 @@
   },
   {
     "id": "video_recorders-1",
-    "sku": "video_recorders-1",
+    "sku": "НФ-00000144",
     "name": "Домофон Видеорегистратор HDCVI Dahua XVR5104C-I3",
     "brand": "Dahua",
     "category": "Видеорегистраторы",
@@ -18736,7 +18736,7 @@
   },
   {
     "id": "webcams-1",
-    "sku": "webcams-1",
+    "sku": "НФ-00000093",
     "name": "Вебка Logitech C922",
     "brand": "LOGITECH",
     "category": "Веб-камеры",
@@ -18769,7 +18769,7 @@
   },
   {
     "id": "webcams-2",
-    "sku": "webcams-2",
+    "sku": "НФ-00000092",
     "name": "Вебка Logitech C920 Pro",
     "brand": "LOGITECH",
     "category": "Веб-камеры",
@@ -18802,7 +18802,7 @@
   },
   {
     "id": "wifi-1",
-    "sku": "wifi-1",
+    "sku": "НФ-00000032",
     "name": "TP-LINK Wi-Fi адаптер TL WN 881ND",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -18830,7 +18830,7 @@
   },
   {
     "id": "wifi-2",
-    "sku": "wifi-2",
+    "sku": "НФ-00000034",
     "name": "TP-LINK Archer T1U AC450 Wireless Nano USB Adapter",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -18858,7 +18858,7 @@
   },
   {
     "id": "wifi-3",
-    "sku": "wifi-3",
+    "sku": "НФ-00000037",
     "name": "TP-LINK Bluetooth+Wi-Fi адаптер Archer TX55E",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -18914,7 +18914,7 @@
   },
   {
     "id": "wifi-5",
-    "sku": "wifi-5",
+    "sku": "НФ-00000062",
     "name": "WF2150 N600 Wireless Dual Band USB Adapter",
     "brand": "",
     "category": "Wi-Fi адаптеры",
@@ -18941,7 +18941,7 @@
   },
   {
     "id": "wifi-6",
-    "sku": "wifi-6",
+    "sku": "НФ-00000070",
     "name": "TP-LINK Сетевая карта <TL-WN781ND",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -18969,7 +18969,7 @@
   },
   {
     "id": "wifi-7",
-    "sku": "wifi-7",
+    "sku": "НФ-00000939",
     "name": "TP-LINK Archer T3U Plus AC1300 High Gain Wireless Dual Band Adapter",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -18997,7 +18997,7 @@
   },
   {
     "id": "wifi-8",
-    "sku": "wifi-8",
+    "sku": "НФ-00000035",
     "name": "TP-LINK Archer T4U AC1300 Wireless Dual Band USB Adapter",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -19025,7 +19025,7 @@
   },
   {
     "id": "wifi-9",
-    "sku": "wifi-9",
+    "sku": "НФ-00000047",
     "name": "TP-LINK WN725N 150Mbps Wireless N USB Adapter",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -19053,7 +19053,7 @@
   },
   {
     "id": "wifi-10",
-    "sku": "wifi-10",
+    "sku": "НФ-00000774",
     "name": "TP-LINK WN823N 300Mbps Wireless N USB Adapter",
     "brand": "TP-LINK",
     "category": "Wi-Fi адаптеры",
@@ -19081,7 +19081,7 @@
   },
   {
     "id": "wifi-11",
-    "sku": "wifi-11",
+    "sku": "НФ-00000073",
     "name": "Ubiquiti adapter 24v 1a Poe",
     "brand": "Ubiquiti",
     "category": "Wi-Fi адаптеры",
@@ -19109,7 +19109,7 @@
   },
   {
     "id": "wifi-12",
-    "sku": "wifi-12",
+    "sku": "НФ-00000074",
     "name": "Ubiquiti adapter 48v Poe",
     "brand": "Ubiquiti",
     "category": "Wi-Fi адаптеры",
@@ -19254,7 +19254,7 @@
   },
   {
     "id": "bridges-1",
-    "sku": "bridges-1",
+    "sku": "НФ-00000079",
     "name": "Ubiquiti радиомост M2 400",
     "brand": "Ubiquiti",
     "category": "Радиомосты",
@@ -19282,7 +19282,7 @@
   },
   {
     "id": "bridges-2",
-    "sku": "bridges-2",
+    "sku": "НФ-00001072",
     "name": "Mikrotik RBLHG5kit",
     "brand": "Mikrotik",
     "category": "Радиомосты",
@@ -19310,7 +19310,7 @@
   },
   {
     "id": "bridges-3",
-    "sku": "bridges-3",
+    "sku": "НФ-00001073",
     "name": "Mikrotik SXTsq Lite5",
     "brand": "Mikrotik",
     "category": "Радиомосты",
@@ -19341,7 +19341,7 @@
   },
   {
     "id": "bridges-4",
-    "sku": "bridges-4",
+    "sku": "НФ-00000970",
     "name": "MikroTik SXT sq Lite 5 ax",
     "brand": "MikroTik",
     "category": "Радиомосты",
@@ -19377,7 +19377,7 @@
   },
   {
     "id": "bridges-5",
-    "sku": "bridges-5",
+    "sku": "НФ-00000980",
     "name": "MikroTik mANTBox ax 15s",
     "brand": "MikroTik",
     "category": "Радиомосты",
@@ -19413,7 +19413,7 @@
   },
   {
     "id": "bridges-6",
-    "sku": "bridges-6",
+    "sku": "НФ-00000982",
     "name": "MikroTik LHG-5axD",
     "brand": "MikroTik",
     "category": "Радиомосты",
@@ -19446,7 +19446,7 @@
   },
   {
     "id": "bridges-7",
-    "sku": "bridges-7",
+    "sku": "НФ-00000981",
     "name": "MikroTik MANTBox 12S",
     "brand": "MikroTik",
     "category": "Радиомосты",
@@ -19474,7 +19474,7 @@
   },
   {
     "id": "ups-14",
-    "sku": "1C-НФ-00000789",
+    "sku": "НФ-00000789",
     "name": "APC Easy UPS SRV 3000VA 230V М",
     "brand": "APC",
     "category": "UPS",
@@ -19494,7 +19494,7 @@
   },
   {
     "id": "ups-15",
-    "sku": "1C-НФ-00000873",
+    "sku": "НФ-00000873",
     "name": "APC Easy UPS SRV RM 3000VA 230V М",
     "brand": "APC",
     "category": "UPS",
@@ -19514,7 +19514,7 @@
   },
   {
     "id": "ups-16",
-    "sku": "1C-НФ-00000843",
+    "sku": "НФ-00000843",
     "name": "APC Easy UPS SRV RM 6000VA 230V М",
     "brand": "APC",
     "category": "UPS",
@@ -19534,7 +19534,7 @@
   },
   {
     "id": "ups-17",
-    "sku": "1C-НФ-00001138",
+    "sku": "НФ-00001138",
     "name": "APC Smart UPS SMC 2000 I С2000VA",
     "brand": "APC",
     "category": "UPS",
@@ -19554,7 +19554,7 @@
   },
   {
     "id": "access-10",
-    "sku": "1C-НФ-00000001",
+    "sku": "НФ-00000001",
     "name": "Aruba instant On AP 11 Access Point",
     "brand": "",
     "category": "Точки доступа",
@@ -19574,7 +19574,7 @@
   },
   {
     "id": "access-11",
-    "sku": "1C-НФ-00001067",
+    "sku": "НФ-00001067",
     "name": "Куди Cudy AP1300 Indoor",
     "brand": "Cudy",
     "category": "Точки доступа",
@@ -19594,7 +19594,7 @@
   },
   {
     "id": "access-12",
-    "sku": "1C-НФ-00001069",
+    "sku": "НФ-00001069",
     "name": "Куди Cudy AP1300 Outdoor",
     "brand": "Cudy",
     "category": "Точки доступа",
@@ -19614,7 +19614,7 @@
   },
   {
     "id": "access-13",
-    "sku": "1C-НФ-00001068",
+    "sku": "НФ-00001068",
     "name": "Куди Cudy AP3000 Outdoor",
     "brand": "Cudy",
     "category": "Точки доступа",
@@ -19634,7 +19634,7 @@
   },
   {
     "id": "network_accessories-6",
-    "sku": "1C-НФ-00000022",
+    "sku": "НФ-00000022",
     "name": "D Link Медиаконвертор 10/100 Прастой",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -19654,7 +19654,7 @@
   },
   {
     "id": "network_accessories-7",
-    "sku": "1C-НФ-00000023",
+    "sku": "НФ-00000023",
     "name": "D Link Медиаконвертор 10/100/1000 Гигабайт",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -19674,7 +19674,7 @@
   },
   {
     "id": "network_accessories-8",
-    "sku": "1C-НФ-00000042",
+    "sku": "НФ-00000042",
     "name": "TL-SM311LS MiniGBIC Module",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -19694,7 +19694,7 @@
   },
   {
     "id": "network_accessories-9",
-    "sku": "1C-НФ-00000043",
+    "sku": "НФ-00000043",
     "name": "TL-SM321A 1000Base-BX WDM Bi-Directional SFP Module",
     "brand": "WD",
     "category": "Сетевые аксессуары",
@@ -19714,7 +19714,7 @@
   },
   {
     "id": "network_accessories-10",
-    "sku": "1C-НФ-00000044",
+    "sku": "НФ-00000044",
     "name": "TL-SM321B 1000Base-BX WDM Bi-Directional SFP Module",
     "brand": "WD",
     "category": "Сетевые аксессуары",
@@ -19734,7 +19734,7 @@
   },
   {
     "id": "network_accessories-11",
-    "sku": "1C-НФ-00000132",
+    "sku": "НФ-00000132",
     "name": "Блок Питани для гранстрим телефон",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -19754,7 +19754,7 @@
   },
   {
     "id": "network_accessories-12",
-    "sku": "1C-НФ-00000141",
+    "sku": "НФ-00000141",
     "name": "Домофон Блок питания Dahua PFM320S-50-PMT, PMT-12V50W1AA",
     "brand": "Dahua",
     "category": "Сетевые аксессуары",
@@ -19774,7 +19774,7 @@
   },
   {
     "id": "network_accessories-13",
-    "sku": "1C-НФ-00000499",
+    "sku": "НФ-00000499",
     "name": "Шкаф 5 Pairs Punch Down Tool",
     "brand": "",
     "category": "Сетевые аксессуары",
@@ -19794,7 +19794,7 @@
   },
   {
     "id": "cards-3",
-    "sku": "1C-НФ-00000024",
+    "sku": "НФ-00000024",
     "name": "D Link Сетевая карта D Link 100-1000 DGE-560 T",
     "brand": "",
     "category": "Сетевые карты",
@@ -19814,7 +19814,7 @@
   },
   {
     "id": "cards-4",
-    "sku": "1C-НФ-00001047",
+    "sku": "НФ-00001047",
     "name": "Куди Cudy PE10 Gigabit PCI Express Adapter",
     "brand": "Cudy",
     "category": "Сетевые карты",
@@ -19834,7 +19834,7 @@
   },
   {
     "id": "cards-5",
-    "sku": "1C-НФ-00001048",
+    "sku": "НФ-00001048",
     "name": "Куди Cudy PE10G 10G PCI Express Adapter(Marvell AQC113",
     "brand": "Cudy",
     "category": "Сетевые карты",
@@ -19854,7 +19854,7 @@
   },
   {
     "id": "routers-25",
-    "sku": "1C-НФ-00000820",
+    "sku": "НФ-00000820",
     "name": "Keenetic Carrier KN-1721",
     "brand": "Keenetic",
     "category": "Роутеры",
@@ -19874,7 +19874,7 @@
   },
   {
     "id": "routers-26",
-    "sku": "1C-НФ-00000823",
+    "sku": "НФ-00000823",
     "name": "Keenetic Hopper SE KN-3812",
     "brand": "Keenetic",
     "category": "Роутеры",
@@ -19894,7 +19894,7 @@
   },
   {
     "id": "routers-27",
-    "sku": "1C-НФ-00000819",
+    "sku": "НФ-00000819",
     "name": "Keenetic Launcher KN-1221-01",
     "brand": "Keenetic",
     "category": "Роутеры",
@@ -19914,7 +19914,7 @@
   },
   {
     "id": "routers-28",
-    "sku": "1C-НФ-00001113",
+    "sku": "НФ-00001113",
     "name": "Netcraze 4G (NC-1213) Интернет-центр для USB-модемов LTE/4G/3G",
     "brand": "Netcraze",
     "category": "Роутеры",
@@ -19934,7 +19934,7 @@
   },
   {
     "id": "routers-29",
-    "sku": "1C-НФ-00000824",
+    "sku": "НФ-00000824",
     "name": "Netcraze Explorer 4G NC-4910",
     "brand": "Netcraze",
     "category": "Роутеры",
@@ -19954,7 +19954,7 @@
   },
   {
     "id": "routers-30",
-    "sku": "1C-НФ-00000826",
+    "sku": "НФ-00000826",
     "name": "Netcraze Giga NC-1012",
     "brand": "Netcraze",
     "category": "Роутеры",
@@ -19974,7 +19974,7 @@
   },
   {
     "id": "routers-31",
-    "sku": "1C-НФ-00000918",
+    "sku": "НФ-00000918",
     "name": "Netcraze Runner 4G (NC-2212)",
     "brand": "Netcraze",
     "category": "Роутеры",
@@ -19994,7 +19994,7 @@
   },
   {
     "id": "routers-32",
-    "sku": "1C-НФ-00000825",
+    "sku": "НФ-00000825",
     "name": "Netcraze Speedster NC-3013",
     "brand": "Netcraze",
     "category": "Роутеры",
@@ -20014,7 +20014,7 @@
   },
   {
     "id": "routers-33",
-    "sku": "1C-НФ-00000919",
+    "sku": "НФ-00000919",
     "name": "Netcraze Viva (NC-1913)",
     "brand": "Netcraze",
     "category": "Роутеры",
@@ -20034,7 +20034,7 @@
   },
   {
     "id": "routers-34",
-    "sku": "1C-НФ-00000057",
+    "sku": "НФ-00000057",
     "name": "TP-LINK RE450 усилитель Wi-Fi сигнала",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -20054,7 +20054,7 @@
   },
   {
     "id": "routers-35",
-    "sku": "1C-НФ-00000058",
+    "sku": "НФ-00000058",
     "name": "TP-LINK RE605X усилитель Wi-Fi сигнала",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -20074,7 +20074,7 @@
   },
   {
     "id": "routers-36",
-    "sku": "1C-НФ-00000059",
+    "sku": "НФ-00000059",
     "name": "TP-LINK RE700X усилитель Wi-Fi сигнала",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -20094,7 +20094,7 @@
   },
   {
     "id": "routers-37",
-    "sku": "1C-НФ-00000772",
+    "sku": "НФ-00000772",
     "name": "TP-LINK WA850RE 300Mbps Wi-Fi Range Extender",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -20114,7 +20114,7 @@
   },
   {
     "id": "routers-38",
-    "sku": "1C-НФ-00000773",
+    "sku": "НФ-00000773",
     "name": "TP-LINK WA855RE 300Mbps Wi-Fi Range Extender",
     "brand": "TP-Link",
     "category": "Роутеры",
@@ -20134,7 +20134,7 @@
   },
   {
     "id": "routers-39",
-    "sku": "1C-НФ-00000064",
+    "sku": "НФ-00000064",
     "name": "XPON Dual Band ONU WL 8421-B",
     "brand": "",
     "category": "Роутеры",
@@ -20154,7 +20154,7 @@
   },
   {
     "id": "routers-40",
-    "sku": "1C-НФ-00000065",
+    "sku": "НФ-00000065",
     "name": "XPON Single Band ONU WL 8411-A",
     "brand": "",
     "category": "Роутеры",
@@ -20174,7 +20174,7 @@
   },
   {
     "id": "routers-41",
-    "sku": "1C-НФ-00000259",
+    "sku": "НФ-00000259",
     "name": "Кинетик Speedster (KN-3013)",
     "brand": "",
     "category": "Роутеры",
@@ -20194,7 +20194,7 @@
   },
   {
     "id": "routers-42",
-    "sku": "1C-НФ-00000260",
+    "sku": "НФ-00000260",
     "name": "Кинетик Sprinter SE <KN-3712>",
     "brand": "",
     "category": "Роутеры",
@@ -20214,7 +20214,7 @@
   },
   {
     "id": "routers-43",
-    "sku": "1C-НФ-00001066",
+    "sku": "НФ-00001066",
     "name": "Кули Cudy LT300",
     "brand": "Cudy",
     "category": "Роутеры",
@@ -20234,7 +20234,7 @@
   },
   {
     "id": "routers-44",
-    "sku": "1C-НФ-00001061",
+    "sku": "НФ-00001061",
     "name": "Куди Cudy WR1200",
     "brand": "Cudy",
     "category": "Роутеры",
@@ -20254,7 +20254,7 @@
   },
   {
     "id": "routers-45",
-    "sku": "1C-НФ-00001062",
+    "sku": "НФ-00001062",
     "name": "Куди Cudy WR1300 V5.0",
     "brand": "Cudy",
     "category": "Роутеры",
@@ -20274,7 +20274,7 @@
   },
   {
     "id": "routers-46",
-    "sku": "1C-НФ-00001070",
+    "sku": "НФ-00001070",
     "name": "Куди Cudy WR3000",
     "brand": "Cudy",
     "category": "Роутеры",
@@ -20294,7 +20294,7 @@
   },
   {
     "id": "mesh-13",
-    "sku": "1C-НФ-00001114",
+    "sku": "НФ-00001114",
     "name": "Netcraze Air (NC-1613) Интернет-центр с Mesh Wi-Fi 5 AC1200, 4-портовым",
     "brand": "Netcraze",
     "category": "Mesh-системы",
@@ -20314,7 +20314,7 @@
   },
   {
     "id": "mesh-14",
-    "sku": "1C-НФ-00001116",
+    "sku": "НФ-00001116",
     "name": "Netcraze Challenger SE (NC-3911) Мультигигабитный интернет-центр с Mesh Wi-Fi 6 AX3000, 2 портами 2.",
     "brand": "Netcraze",
     "category": "Mesh-системы",
@@ -20334,7 +20334,7 @@
   },
   {
     "id": "mesh-15",
-    "sku": "1C-НФ-00001115",
+    "sku": "НФ-00001115",
     "name": "Netcraze Extra (NC-1714) Интернет-центр с Mesh Wi-Fi 5 AC1200, 4-портовым Smart-коммутатором и порто",
     "brand": "Netcraze",
     "category": "Mesh-системы",
@@ -20354,7 +20354,7 @@
   },
   {
     "id": "mesh-16",
-    "sku": "1C-НФ-00001117",
+    "sku": "НФ-00001117",
     "name": "Netcraze Ultra (NC-1812) Мультигигабитный интернет-центр с Mesh Wi-Fi 7 BE7200",
     "brand": "Netcraze",
     "category": "Mesh-системы",
@@ -20374,7 +20374,7 @@
   },
   {
     "id": "mesh-17",
-    "sku": "1C-НФ-00001029",
+    "sku": "НФ-00001029",
     "name": "Куди Cudy M3000S(3-Pack) AX3000 Wi-Fi 6 Mesh Solution",
     "brand": "Cudy",
     "category": "Mesh-системы",
@@ -20394,7 +20394,7 @@
   },
   {
     "id": "ssd-23",
-    "sku": "1C-НФ-00001104",
+    "sku": "НФ-00001104",
     "name": "SSD 2,5 Lexar 1TB NM610",
     "brand": "Lexar",
     "category": "SSD",
@@ -20414,7 +20414,7 @@
   },
   {
     "id": "switches-26",
-    "sku": "1C-НФ-00000472",
+    "sku": "НФ-00000472",
     "name": "TP-LINK JetStream SL2428P",
     "brand": "TP-Link",
     "category": "Коммутаторы",
@@ -20434,7 +20434,7 @@
   },
   {
     "id": "switches-27",
-    "sku": "1C-НФ-00001050",
+    "sku": "НФ-00001050",
     "name": "Куди Cudy FS1016 16-Port 10/100 Mbps Metal Switch",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20454,7 +20454,7 @@
   },
   {
     "id": "switches-28",
-    "sku": "1C-НФ-00001130",
+    "sku": "НФ-00001130",
     "name": "Куди Cudy FS1018PS1",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20474,7 +20474,7 @@
   },
   {
     "id": "switches-29",
-    "sku": "1C-НФ-00001051",
+    "sku": "НФ-00001051",
     "name": "Куди Cudy FS1024 24-Port 10/100 Mbps Metal Switch",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20494,7 +20494,7 @@
   },
   {
     "id": "switches-30",
-    "sku": "1C-НФ-00001131",
+    "sku": "НФ-00001131",
     "name": "Куди Cudy FS1026PS1",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20514,7 +20514,7 @@
   },
   {
     "id": "switches-31",
-    "sku": "1C-НФ-00001057",
+    "sku": "НФ-00001057",
     "name": "Куди Cudy FS108D V5.0",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20534,7 +20534,7 @@
   },
   {
     "id": "switches-32",
-    "sku": "1C-НФ-00001132",
+    "sku": "НФ-00001132",
     "name": "Куди Cudy GS1010PE",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20554,7 +20554,7 @@
   },
   {
     "id": "switches-33",
-    "sku": "1C-НФ-00001060",
+    "sku": "НФ-00001060",
     "name": "Куди Cudy GS1016",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20574,7 +20574,7 @@
   },
   {
     "id": "switches-34",
-    "sku": "1C-НФ-00001135",
+    "sku": "НФ-00001135",
     "name": "Куди Cudy GS1016EPS2",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20594,7 +20594,7 @@
   },
   {
     "id": "switches-35",
-    "sku": "1C-НФ-00001055",
+    "sku": "НФ-00001055",
     "name": "Куди Cudy GS1024 24-Port Gigabit Metal Switch",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20614,7 +20614,7 @@
   },
   {
     "id": "switches-36",
-    "sku": "1C-НФ-00001056",
+    "sku": "НФ-00001056",
     "name": "Куди Cudy GS1028ES2 26-Port Gigabit Easy-Managed Switch with 2 Combo Ports",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20634,7 +20634,7 @@
   },
   {
     "id": "switches-37",
-    "sku": "1C-НФ-00001058",
+    "sku": "НФ-00001058",
     "name": "Куди Cudy GS105D V5.0",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20654,7 +20654,7 @@
   },
   {
     "id": "switches-38",
-    "sku": "1C-НФ-00001059",
+    "sku": "НФ-00001059",
     "name": "Куди Cudy GS108D",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20674,7 +20674,7 @@
   },
   {
     "id": "switches-39",
-    "sku": "1C-НФ-00001133",
+    "sku": "НФ-00001133",
     "name": "Куди Cudy GS2008PS2",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20694,7 +20694,7 @@
   },
   {
     "id": "switches-40",
-    "sku": "1C-НФ-00001134",
+    "sku": "НФ-00001134",
     "name": "Куди Cudy GS2028PS4-300W",
     "brand": "Cudy",
     "category": "Коммутаторы",
@@ -20714,7 +20714,7 @@
   },
   {
     "id": "wifi-17",
-    "sku": "1C-НФ-00001044",
+    "sku": "НФ-00001044",
     "name": "Куди Cudy WE1300 AC1300 Wireless Dual Band PCIe Adapter",
     "brand": "Cudy",
     "category": "Wi-Fi адаптеры",
@@ -20734,7 +20734,7 @@
   },
   {
     "id": "wifi-18",
-    "sku": "1C-НФ-00001045",
+    "sku": "НФ-00001045",
     "name": "Куди Cudy WE3000 AX3000 Wi-Fi 6 PCI Express Adapte",
     "brand": "Cudy",
     "category": "Wi-Fi адаптеры",
@@ -20754,7 +20754,7 @@
   },
   {
     "id": "wifi-19",
-    "sku": "1C-НФ-00001043",
+    "sku": "НФ-00001043",
     "name": "Куди Cudy WE650 AC650 Wireless Dual-Band PCIe Adapter",
     "brand": "Cudy",
     "category": "Wi-Fi адаптеры",
@@ -20774,7 +20774,7 @@
   },
   {
     "id": "wifi-20",
-    "sku": "1C-НФ-00001046",
+    "sku": "НФ-00001046",
     "name": "Куди Cudy WE9300 BE9300 Wi-Fi 7 PCI Express Adapter",
     "brand": "Cudy",
     "category": "Wi-Fi адаптеры",
@@ -20794,7 +20794,7 @@
   },
   {
     "id": "wifi-21",
-    "sku": "1C-НФ-00001042",
+    "sku": "НФ-00001042",
     "name": "Куди Cudy WU1400 AC1300 Wi-Fi High Gain USB 3.0 Adapter",
     "brand": "Cudy",
     "category": "Wi-Fi адаптеры",
@@ -20814,7 +20814,7 @@
   },
   {
     "id": "headphones-8",
-    "sku": "1C-НФ-00000002",
+    "sku": "НФ-00000002",
     "name": "Бейсус A00050800211-00 AeQur GH02 Gaming Wireless Headphones Moon White",
     "brand": "Baseus",
     "category": "Наушники",
@@ -20834,7 +20834,7 @@
   },
   {
     "id": "headphones-9",
-    "sku": "1C-НФ-00000003",
+    "sku": "НФ-00000003",
     "name": "Бейсус A00079500113-00 Bass 15 Clip Open-Ear True Wireless Earphones Cluster Black",
     "brand": "Baseus",
     "category": "Наушники",
@@ -20854,7 +20854,7 @@
   },
   {
     "id": "headphones-10",
-    "sku": "1C-НФ-00000361",
+    "sku": "НФ-00000361",
     "name": "Наушники LOGITECH Stereo Headset H 111",
     "brand": "Logitech",
     "category": "Наушники",
@@ -20874,7 +20874,7 @@
   },
   {
     "id": "speakers-4",
-    "sku": "1C-НФ-00000004",
+    "sku": "НФ-00000004",
     "name": "Бейсус A20067900117-00 AeQur VO20 Portable Wireless Speaker",
     "brand": "Baseus",
     "category": "Колонки",
@@ -20894,7 +20894,7 @@
   },
   {
     "id": "acc-other_accessories-7",
-    "sku": "1C-НФ-00000009",
+    "sku": "НФ-00000009",
     "name": "Бейсус C00081100121-00 BackseatPal L1 In-vehicle Car Charger 3U+3C 110W Cosmic Black",
     "brand": "Baseus",
     "category": "Прочие аксессуары",
@@ -20914,7 +20914,7 @@
   },
   {
     "id": "acc-other_accessories-8",
-    "sku": "1C-НФ-00000013",
+    "sku": "НФ-00000013",
     "name": "Бейсус P1011160A113-01 Palm Fast Charger C+U 30W EU Cluster Black",
     "brand": "Baseus",
     "category": "Прочие аксессуары",
@@ -20934,7 +20934,7 @@
   },
   {
     "id": "acc-other_accessories-9",
-    "sku": "1C-НФ-00000015",
+    "sku": "НФ-00000015",
     "name": "Бейсус WKCD010013 Orange Dot Wireless Presenter (Green Laser)(Charging) Grey",
     "brand": "Baseus",
     "category": "Прочие аксессуары",
@@ -20954,7 +20954,7 @@
   },
   {
     "id": "acc-other_accessories-10",
-    "sku": "1C-НФ-00000458",
+    "sku": "НФ-00000458",
     "name": "Коврик",
     "brand": "",
     "category": "Прочие аксессуары",
@@ -20974,7 +20974,7 @@
   },
   {
     "id": "network_cables-9",
-    "sku": "1C-НФ-00000180",
+    "sku": "НФ-00000180",
     "name": "Кабель Baseus High Speed CAT5 Gigabit (Round Cable)10m Cluster Black",
     "brand": "Baseus",
     "category": "Сетевые кабели",
@@ -20994,7 +20994,7 @@
   },
   {
     "id": "acc-cables-2",
-    "sku": "1C-НФ-00000014",
+    "sku": "НФ-00000014",
     "name": "Бейсус P10377706213-00 Silky One-for-Three Fast Charging Cable USB-C to M+L+C 100W 1.5m",
     "brand": "Baseus",
     "category": "Кабели",
@@ -21014,7 +21014,7 @@
   },
   {
     "id": "acc-cables-3",
-    "sku": "1C-НФ-00000194",
+    "sku": "НФ-00000194",
     "name": "Кабель Питани",
     "brand": "",
     "category": "Кабели",
@@ -21034,7 +21034,7 @@
   },
   {
     "id": "acc-cables-4",
-    "sku": "1C-НФ-00000672",
+    "sku": "НФ-00000672",
     "name": "Кабель Принтер 1,5",
     "brand": "",
     "category": "Кабели",
@@ -21054,7 +21054,7 @@
   },
   {
     "id": "webcams-3",
-    "sku": "1C-НФ-00000091",
+    "sku": "НФ-00000091",
     "name": "Вебка Logitech C270/С270i",
     "brand": "Logitech",
     "category": "Веб-камеры",
@@ -21074,7 +21074,7 @@
   },
   {
     "id": "gpu-9",
-    "sku": "1C-НФ-00001145",
+    "sku": "НФ-00001145",
     "name": "Видеокарта ASUS RTX5060 8GB GDDR7 128BIT",
     "brand": "ASUS",
     "category": "Видеокарты",
@@ -21094,7 +21094,7 @@
   },
   {
     "id": "gpu-10",
-    "sku": "1C-НФ-00000123",
+    "sku": "НФ-00000123",
     "name": "Видеокарта B37S Black GF RTX5070 Ti EX Gamer PCI-E 16GB / GDDR7",
     "brand": "",
     "category": "Видеокарты",
@@ -21114,7 +21114,7 @@
   },
   {
     "id": "gpu-11",
-    "sku": "1C-НФ-00001160",
+    "sku": "НФ-00001160",
     "name": "Видеокарта INNO3D GEFORCE RTX 5060 TWIN X2 V2 8GB GDDR7 128BIT",
     "brand": "",
     "category": "Видеокарты",
@@ -21134,7 +21134,7 @@
   },
   {
     "id": "gpu-12",
-    "sku": "1C-НФ-00001146",
+    "sku": "НФ-00001146",
     "name": "Видеокарта MSI RTX 5060TI 8Gb SHADOW",
     "brand": "MSI",
     "category": "Видеокарты",
@@ -21154,7 +21154,7 @@
   },
   {
     "id": "cooling-22",
-    "sku": "1C-НФ-00001162",
+    "sku": "НФ-00001162",
     "name": "Кулер Segotep cooler К6 PRO",
     "brand": "",
     "category": "Охлаждение",
@@ -21174,7 +21174,7 @@
   },
   {
     "id": "cooling-23",
-    "sku": "1C-НФ-00001164",
+    "sku": "НФ-00001164",
     "name": "Кулер реверсивный",
     "brand": "",
     "category": "Охлаждение",
@@ -21194,7 +21194,7 @@
   },
   {
     "id": "intercoms-3",
-    "sku": "1C-НФ-00000143",
+    "sku": "НФ-00000143",
     "name": "Домофон Электромеханический Замок Dahua ASF601A",
     "brand": "Dahua",
     "category": "Домофоны",
@@ -21214,7 +21214,7 @@
   },
   {
     "id": "patch_panels-3",
-    "sku": "1C-НФ-00000508",
+    "sku": "НФ-00000508",
     "name": "Зажим Пач Панель",
     "brand": "",
     "category": "Патч-панели",
@@ -21234,7 +21234,7 @@
   },
   {
     "id": "acc-memory_cards-5",
-    "sku": "1C-НФ-00001107",
+    "sku": "НФ-00001107",
     "name": "Карта памяти 256 Gb MicroSD Lexar High-Performance 633x",
     "brand": "Lexar",
     "category": "Карты памяти",
@@ -21254,7 +21254,7 @@
   },
   {
     "id": "cases-18",
-    "sku": "1C-НФ-00000895",
+    "sku": "НФ-00000895",
     "name": "Кейс Gamemax Siega Pro ATX BK WH",
     "brand": "",
     "category": "Корпуса",
@@ -21274,7 +21274,7 @@
   },
   {
     "id": "cases-19",
-    "sku": "1C-НФ-00001129",
+    "sku": "НФ-00001129",
     "name": "Кейс мини китай",
     "brand": "",
     "category": "Корпуса",
@@ -21294,7 +21294,7 @@
   },
   {
     "id": "connectors-4",
-    "sku": "1C-НФ-00000277",
+    "sku": "НФ-00000277",
     "name": "Конектор RJ45 ( 100 донага )",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -21314,7 +21314,7 @@
   },
   {
     "id": "connectors-5",
-    "sku": "1C-НФ-00000948",
+    "sku": "НФ-00000948",
     "name": "Конектор RJ45 Железный сквозной",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -21334,7 +21334,7 @@
   },
   {
     "id": "connectors-6",
-    "sku": "1C-НФ-00000874",
+    "sku": "НФ-00000874",
     "name": "Розетка RJ45 Кришка",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -21354,7 +21354,7 @@
   },
   {
     "id": "connectors-7",
-    "sku": "1C-НФ-00000278",
+    "sku": "НФ-00000278",
     "name": "Розетка RJ45 Сат 6 1 Выход",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -21374,7 +21374,7 @@
   },
   {
     "id": "connectors-8",
-    "sku": "1C-НФ-00000279",
+    "sku": "НФ-00000279",
     "name": "Розетка RJ45 Сат 6 2 Выход",
     "brand": "",
     "category": "Коннекторы и розетки",
@@ -21394,7 +21394,7 @@
   },
   {
     "id": "mb-17",
-    "sku": "1C-НФ-00001139",
+    "sku": "НФ-00001139",
     "name": "Материнка ASUS Z790-P D4 DDR4",
     "brand": "ASUS",
     "category": "Материнские платы",
@@ -21414,7 +21414,7 @@
   },
   {
     "id": "mb-18",
-    "sku": "1C-НФ-00000930",
+    "sku": "НФ-00000930",
     "name": "Материнка Gigabyte Z790 D DDR4",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -21434,7 +21434,7 @@
   },
   {
     "id": "mb-19",
-    "sku": "1C-НФ-00001163",
+    "sku": "НФ-00001163",
     "name": "Материнка Gigabyte Z890 D PLUS",
     "brand": "Gigabyte",
     "category": "Материнские платы",
@@ -21454,7 +21454,7 @@
   },
   {
     "id": "monitors-27",
-    "sku": "1C-НФ-00001118",
+    "sku": "НФ-00001118",
     "name": "Монитор 24 АОС 24B36HE",
     "brand": "",
     "category": "Мониторы",
@@ -21474,7 +21474,7 @@
   },
   {
     "id": "monitors-28",
-    "sku": "1C-НФ-00001136",
+    "sku": "НФ-00001136",
     "name": "Монитор 27 Philips 27E2N1110L IPS 120HZ",
     "brand": "Philips",
     "category": "Мониторы",
@@ -21494,7 +21494,7 @@
   },
   {
     "id": "mice-18",
-    "sku": "1C-НФ-00000341",
+    "sku": "НФ-00000341",
     "name": "Мышка LOGITECH G 102",
     "brand": "Logitech",
     "category": "Мыши",
@@ -21514,7 +21514,7 @@
   },
   {
     "id": "mice-19",
-    "sku": "1C-НФ-00000349",
+    "sku": "НФ-00000349",
     "name": "Мышка LOGITECH M 90",
     "brand": "Logitech",
     "category": "Мыши",
@@ -21534,7 +21534,7 @@
   },
   {
     "id": "mice-20",
-    "sku": "1C-НФ-00001157",
+    "sku": "НФ-00001157",
     "name": "Мышка LOGITECH Wireless M 171",
     "brand": "Logitech",
     "category": "Мыши",
@@ -21554,7 +21554,7 @@
   },
   {
     "id": "mice-21",
-    "sku": "1C-НФ-00000344",
+    "sku": "НФ-00000344",
     "name": "Мышка LOGITECH Wireless M 172",
     "brand": "Logitech",
     "category": "Мыши",
@@ -21574,7 +21574,7 @@
   },
   {
     "id": "laptop-13",
-    "sku": "1C-НФ-00001100",
+    "sku": "НФ-00001100",
     "name": "Ноутбук ASUS TUF FA608UP-A16.R95070 R9-270 32GB 1TB RTX 5070 8GB FHD W11 HOME JAEGAR GRAY 16",
     "brand": "ASUS",
     "category": "Ноутбуки",
@@ -21594,7 +21594,7 @@
   },
   {
     "id": "laptop-14",
-    "sku": "1C-НФ-00001098",
+    "sku": "НФ-00001098",
     "name": "Ноутбук DELL ALIENWARE LDA15260-7823BLK-PUS CORE 7-240H 16GB 512GB RTX 4050 6GB FHD 2K STORAGE BLACK",
     "brand": "Dell",
     "category": "Ноутбуки",
@@ -21614,7 +21614,7 @@
   },
   {
     "id": "laptop-15",
-    "sku": "1C-НФ-00001090",
+    "sku": "НФ-00001090",
     "name": "Ноутбук DELL LDB06250-7144BLU-PUS 2in1 ULTRA 7-256V 16GB 1TB TOUCH 2K FHD+ WVA W11 ICE BLUE 16\"",
     "brand": "Dell",
     "category": "Ноутбуки",
@@ -21634,7 +21634,7 @@
   },
   {
     "id": "laptop-16",
-    "sku": "1C-НФ-00001089",
+    "sku": "НФ-00001089",
     "name": "Ноутбук DELL LDC15250-7427BLK-PUS i7-1355U 16GB 512GB FHD TOUCH 2K W11 CARBON BLACK 15.6\"",
     "brand": "Dell",
     "category": "Ноутбуки",
@@ -21654,7 +21654,7 @@
   },
   {
     "id": "laptop-17",
-    "sku": "1C-НФ-00001092",
+    "sku": "НФ-00001092",
     "name": "Ноутбук HP OMNIBOOK 3 16-AS0023DX X FLIP 2-in-1 ULTRA 7-256V 16GB 1TB TOUCH 2K W11 FHD IPS W11 ECLIP",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -21674,7 +21674,7 @@
   },
   {
     "id": "laptop-18",
-    "sku": "1C-НФ-00001096",
+    "sku": "НФ-00001096",
     "name": "Ноутбук HP OMNIBOOK 3 16-BU007DX ULTRA 7 255U 16GB 512GB IPS TOUCH W11 MICA SILVER 16",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -21694,7 +21694,7 @@
   },
   {
     "id": "laptop-19",
-    "sku": "1C-НФ-00001094",
+    "sku": "НФ-00001094",
     "name": "Ноутбук HP OMNIBOOK 3 16-BU0305DX ULTRA 5 225U 8GB 512GB IPS TOUCH 2K WUXGA IPS MICA W11 SILVER 16\"",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -21714,7 +21714,7 @@
   },
   {
     "id": "laptop-20",
-    "sku": "1C-НФ-00001093",
+    "sku": "НФ-00001093",
     "name": "Ноутбук HP OMNIBOOK 3 16-BU0315DX ULTRA 5 225U 16GB 512GB WUXGA IPS TOUCH 2K W11 MICA SILVER 16\"",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -21734,7 +21734,7 @@
   },
   {
     "id": "laptop-21",
-    "sku": "1C-НФ-00001097",
+    "sku": "НФ-00001097",
     "name": "Ноутбук HP OMNIBOOK 3 17-DG0107DX ULTRA 7-255U 16GB 512GB FHD IPS BACKLIT W11 MICA SILVER 17.3",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -21754,7 +21754,7 @@
   },
   {
     "id": "laptop-22",
-    "sku": "1C-НФ-00000906",
+    "sku": "НФ-00000906",
     "name": "Ноутбук HP VICTUS 15-FA2115NIA CORE 7-240H 16GB 1TB RTX 5060 8GB FHD IPS MICA SILVER DOS 15.6",
     "brand": "HP",
     "category": "Ноутбуки",
@@ -21774,7 +21774,7 @@
   },
   {
     "id": "ram-12",
-    "sku": "1C-НФ-00001144",
+    "sku": "НФ-00001144",
     "name": "Оперативка Corsair Vengeance DDR4 16 Gb 3200",
     "brand": "",
     "category": "Оперативная память",
@@ -21794,7 +21794,7 @@
   },
   {
     "id": "ram-13",
-    "sku": "1C-НФ-00001165",
+    "sku": "НФ-00001165",
     "name": "Оперативка Corsair Vengeance DDR5 16 Gb 6000",
     "brand": "",
     "category": "Оперативная память",
@@ -21814,7 +21814,7 @@
   },
   {
     "id": "ram-14",
-    "sku": "1C-НФ-00001123",
+    "sku": "НФ-00001123",
     "name": "Оперативка Kingston FURY Beast 16 ГБ DDR5 6000",
     "brand": "Kingston",
     "category": "Оперативная память",
@@ -21834,7 +21834,7 @@
   },
   {
     "id": "ram-15",
-    "sku": "1C-НФ-00000388",
+    "sku": "НФ-00000388",
     "name": "Оперативка Lexar DDR4 3200 8 Gb",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -21854,7 +21854,7 @@
   },
   {
     "id": "ram-16",
-    "sku": "1C-НФ-00000390",
+    "sku": "НФ-00000390",
     "name": "Оперативка Lexar DDR4 3200 32 Gb",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -21874,7 +21874,7 @@
   },
   {
     "id": "ram-17",
-    "sku": "1C-НФ-00000381",
+    "sku": "НФ-00000381",
     "name": "Оперативка Lexar DDR4-3200 32GB Ноутбук",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -21894,7 +21894,7 @@
   },
   {
     "id": "ram-18",
-    "sku": "1C-НФ-00000382",
+    "sku": "НФ-00000382",
     "name": "Оперативка Lexar DDR5-5600 32GB",
     "brand": "Lexar",
     "category": "Оперативная память",
@@ -21914,7 +21914,7 @@
   },
   {
     "id": "strips-5",
-    "sku": "1C-НФ-00000395",
+    "sku": "НФ-00000395",
     "name": "Пилот MERCURY 6240U-SCK 5m",
     "brand": "",
     "category": "Сетевые фильтры / пилоты",
@@ -21934,7 +21934,7 @@
   },
   {
     "id": "printers-11",
-    "sku": "1C-НФ-00000401",
+    "sku": "НФ-00000401",
     "name": "Принтер CANON ISENSYS 463DW",
     "brand": "Canon",
     "category": "Принтеры и МФУ",
@@ -21954,7 +21954,7 @@
   },
   {
     "id": "printers-12",
-    "sku": "1C-НФ-00001103",
+    "sku": "НФ-00001103",
     "name": "Принтер Canon i-SENSYS MF664Cdw",
     "brand": "Canon",
     "category": "Принтеры и МФУ",
@@ -21974,7 +21974,7 @@
   },
   {
     "id": "printers-13",
-    "sku": "1C-НФ-00001128",
+    "sku": "НФ-00001128",
     "name": "Принтер Canon i-SENSYS MF667Cdw",
     "brand": "Canon",
     "category": "Принтеры и МФУ",
@@ -21994,7 +21994,7 @@
   },
   {
     "id": "printers-14",
-    "sku": "1C-НФ-00000787",
+    "sku": "НФ-00000787",
     "name": "Принтер EPSON L15150",
     "brand": "Epson",
     "category": "Принтеры и МФУ",
@@ -22014,7 +22014,7 @@
   },
   {
     "id": "printers-15",
-    "sku": "1C-НФ-00001142",
+    "sku": "НФ-00001142",
     "name": "Принтер HP Color Laser Jet Pro 4303 fdw",
     "brand": "HP",
     "category": "Принтеры и МФУ",
@@ -22034,7 +22034,7 @@
   },
   {
     "id": "printers-16",
-    "sku": "1C-НФ-00001152",
+    "sku": "НФ-00001152",
     "name": "Принтер HP Laser Jet Pro 4003 dn",
     "brand": "HP",
     "category": "Принтеры и МФУ",
@@ -22054,7 +22054,7 @@
   },
   {
     "id": "printers-17",
-    "sku": "1C-НФ-00001153",
+    "sku": "НФ-00001153",
     "name": "Принтер HP Laser Jet MFP M141W",
     "brand": "HP",
     "category": "Принтеры и МФУ",
@@ -22074,7 +22074,7 @@
   },
   {
     "id": "acc-projectors_screens-20",
-    "sku": "1C-НФ-00001149",
+    "sku": "НФ-00001149",
     "name": "Проектор EPSON CO-W01",
     "brand": "Epson",
     "category": "Проекторы и экраны",
@@ -22094,7 +22094,7 @@
   },
   {
     "id": "acc-projectors_screens-21",
-    "sku": "1C-НФ-00001151",
+    "sku": "НФ-00001151",
     "name": "Проектор EPSON EB-X49",
     "brand": "Epson",
     "category": "Проекторы и экраны",
@@ -22114,7 +22114,7 @@
   },
   {
     "id": "cpu-18",
-    "sku": "1C-НФ-00000436",
+    "sku": "НФ-00000436",
     "name": "Процессор Intel Core i5 -14400",
     "brand": "Intel",
     "category": "Процессоры",
@@ -22134,7 +22134,7 @@
   },
   {
     "id": "cpu-19",
-    "sku": "1C-НФ-00001120",
+    "sku": "НФ-00001120",
     "name": "Процессор TRAY Ultra 5 225K",
     "brand": "",
     "category": "Процессоры",
@@ -22154,7 +22154,7 @@
   },
   {
     "id": "cpu-20",
-    "sku": "1C-НФ-00001121",
+    "sku": "НФ-00001121",
     "name": "Процессор TRAY Ultra 7 270K Plus",
     "brand": "",
     "category": "Процессоры",
@@ -22174,7 +22174,7 @@
   },
   {
     "id": "stabilizers-8",
-    "sku": "1C-НФ-00000702",
+    "sku": "НФ-00000702",
     "name": "Стабилизатор Automatic Voltage Regulator 1500VA",
     "brand": "",
     "category": "Стабилизаторы",
@@ -22194,7 +22194,7 @@
   },
   {
     "id": "acc-flash_drives-9",
-    "sku": "1C-НФ-00000527",
+    "sku": "НФ-00000527",
     "name": "Флешка 128 GB Lexar JumpDrive V100 USB 3.0",
     "brand": "Lexar",
     "category": "Флешки",
@@ -22214,7 +22214,7 @@
   },
   {
     "id": "acc-flash_drives-10",
-    "sku": "1C-НФ-00000528",
+    "sku": "НФ-00000528",
     "name": "Флешка 256 GB Lexar JumpDrive Dual Drive D400 USB 3.0",
     "brand": "Lexar",
     "category": "Флешки",
@@ -22234,7 +22234,7 @@
   },
   {
     "id": "acc-flash_drives-11",
-    "sku": "1C-НФ-00001106",
+    "sku": "НФ-00001106",
     "name": "Флешка 64 GB Lexar JumpDrive V100 USB 3.0",
     "brand": "Lexar",
     "category": "Флешки",
@@ -22254,7 +22254,7 @@
   },
   {
     "id": "acc-flash_drives-12",
-    "sku": "1C-НФ-00001148",
+    "sku": "НФ-00001148",
     "name": "Флешка 64 GB Lexar JumpDrive V400 USB 3.0",
     "brand": "Lexar",
     "category": "Флешки",

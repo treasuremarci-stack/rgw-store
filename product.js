@@ -405,6 +405,11 @@
     const modelParts = [identifiers.modelNumber, identifiers.machineType, identifiers.partNumber, identifiers.family].filter(Boolean);
     setText("#productSku", "Код товара: " + product.sku +
       (modelParts.length ? " · Модель/платформа: " + modelParts.join(" · ") : ""));
+    const numericStock = Number(product.stock);
+    const availability = Number.isFinite(numericStock)
+      ? (numericStock > 0 ? "В наличии (" + numericStock + ")" : "Нет в наличии")
+      : (product.availability || "Уточняется");
+    setText("#productAvailability", availability);
 
     const images = getProductImages(product);
     const visual = $("#productVisual");

@@ -11,3 +11,20 @@
   .mobile-filter-actions{display:block!important;flex:0 0 auto;padding:15px 15px calc(15px + env(safe-area-inset-bottom,0px))!important;border-top:1px solid var(--line);background:#fff}
   .mobile-filter-actions button{min-height:44px}
 }
+@media(max-width:760px){
+  /* Keep long catalog breadcrumb paths inside the mobile viewport. */
+  .breadcrumbs{
+    flex-wrap:wrap;
+    row-gap:4px;
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    overflow-wrap:anywhere;
+  }
+  .breadcrumbs > *{
+    flex:0 1 auto;
+    min-width:0;
+    max-width:100%;
+    overflow-wrap:anywhere;
+  }
+}

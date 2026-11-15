@@ -18,4 +18,27 @@
     function setCatalog(open){menu.classList.toggle('open',open);backdrop.classList.toggle('open',open);trigger.setAttribute('aria-expanded',String(open));if(open)renderSubcategory(0);}
     trigger.addEventListener('click',()=>setCatalog(!menu.classList.contains('open')));closeButton.addEventListener('click',()=>setCatalog(false));backdrop.addEventListener('click',()=>setCatalog(false));
     document.addEventListener('click',event=>{if(menu.classList.contains('open')&&!event.target.closest('.header-shell'))setCatalog(false)});
-    document.addEventListener('keydown',event=>{if(event.key==='Escape')setCatalog(false)});})();
+    document.addEventListener('keydown',event=>{if(event.key==='Escape')setCatalog(false)});
+    async function hydrateCatalogImages(){
+      const cards=[...document.querySelectorAll('.product-card[data-product-id]')];
+      if(!cards.length||!cards.some(card=>card.querySelector('.placeholder-icon')))return;
+      try{
+        const response=await fetch('products.json');
+        if(!response.ok)return;
+        const products=await response.json();
+        const byId=new Map(products.map(product=>[product.id,product]));
+        cards.forEach(card=>{
+          const placeholder=card.querySelector('.placeholder-icon');
+          const product=byId.get(card.dataset.productId);
+          const image=product?.image||(Array.isArray(product?.images)?product.images[0]:'');
+          if(!placeholder||!image)return;
+          const element=document.createElement('img');
+          element.src=image;
+          element.alt=product.name||card.dataset.productId;
+          element.loading='lazy';
+          element.decoding='async';
+          placeholder.replaceWith(element);
+        });
+      }catch(error){console.warn('Не удалось загрузить изображения каталога',error);}
+    }
+    hydrateCatalogImages();})();

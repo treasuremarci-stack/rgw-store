@@ -20034,14 +20034,18 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-26/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000472"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-26/main.webp",
+      "images/products/switches-26/02.webp",
+      "images/products/switches-26/03.webp"
+    ],
     "code_1c": "НФ-00000472",
     "stock": 1,
     "availability": "В наличии"
@@ -20054,14 +20058,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-27/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001050"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-27/main.webp",
+      "images/products/switches-27/02.webp"
+    ],
     "code_1c": "НФ-00001050",
     "stock": 18,
     "availability": "В наличии"
@@ -20074,14 +20081,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-28/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001130"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-28/main.webp",
+      "images/products/switches-28/02.webp"
+    ],
     "code_1c": "НФ-00001130",
     "stock": 1,
     "availability": "В наличии"
@@ -20094,14 +20104,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-29/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001051"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-29/main.webp",
+      "images/products/switches-29/02.webp"
+    ],
     "code_1c": "НФ-00001051",
     "stock": 20,
     "availability": "В наличии"
@@ -20114,14 +20127,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-30/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001131"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-30/main.webp",
+      "images/products/switches-30/02.webp"
+    ],
     "code_1c": "НФ-00001131",
     "stock": 2,
     "availability": "В наличии"
@@ -20134,14 +20150,16 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-31/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001057"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-31/main.webp"
+    ],
     "code_1c": "НФ-00001057",
     "stock": 39,
     "availability": "В наличии"
@@ -20154,14 +20172,16 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-32/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001132"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-32/main.webp"
+    ],
     "code_1c": "НФ-00001132",
     "stock": 1,
     "availability": "В наличии"
@@ -20174,14 +20194,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-33/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001060"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-33/main.webp",
+      "images/products/switches-33/02.webp"
+    ],
     "code_1c": "НФ-00001060",
     "stock": 3,
     "availability": "В наличии"
@@ -20194,14 +20217,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-34/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001135"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-34/main.webp",
+      "images/products/switches-34/02.webp"
+    ],
     "code_1c": "НФ-00001135",
     "stock": 2,
     "availability": "В наличии"
@@ -20214,14 +20240,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-35/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001055"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-35/main.webp",
+      "images/products/switches-35/02.webp"
+    ],
     "code_1c": "НФ-00001055",
     "stock": 5,
     "availability": "В наличии"
@@ -20234,14 +20263,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-36/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001056"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-36/main.webp",
+      "images/products/switches-36/02.webp"
+    ],
     "code_1c": "НФ-00001056",
     "stock": 5,
     "availability": "В наличии"
@@ -20254,14 +20286,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-37/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001058"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-37/main.webp",
+      "images/products/switches-37/02.webp"
+    ],
     "code_1c": "НФ-00001058",
     "stock": 56,
     "availability": "В наличии"
@@ -20274,14 +20309,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-38/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001059"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-38/main.webp",
+      "images/products/switches-38/02.webp"
+    ],
     "code_1c": "НФ-00001059",
     "stock": 14,
     "availability": "В наличии"
@@ -20294,14 +20332,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-39/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001133"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-39/main.webp",
+      "images/products/switches-39/02.webp"
+    ],
     "code_1c": "НФ-00001133",
     "stock": 2,
     "availability": "В наличии"
@@ -20314,14 +20355,17 @@
     "category": "Коммутаторы",
     "categoryName": "Коммутаторы",
     "categoryUrl": "rgw_page_switches.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/switches-40/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001134"
     },
-    "images": [],
+    "images": [
+      "images/products/switches-40/main.webp",
+      "images/products/switches-40/02.webp"
+    ],
     "code_1c": "НФ-00001134",
     "stock": 2,
     "availability": "В наличии"
@@ -20494,14 +20538,17 @@
     "category": "Колонки",
     "categoryName": "Колонки",
     "categoryUrl": "rgw_page_speakers.html",
-    "image": null,
-    "placeholder": "🔊",
+    "image": "images/products/speakers-4/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000004"
     },
-    "images": [],
+    "images": [
+      "images/products/speakers-4/main.webp",
+      "images/products/speakers-4/02.webp"
+    ],
     "code_1c": "НФ-00000004",
     "stock": 6,
     "availability": "В наличии"
@@ -20614,14 +20661,16 @@
     "category": "Кабели",
     "categoryName": "Кабели",
     "categoryUrl": "rgw_page_cables.html",
-    "image": null,
-    "placeholder": "🔌",
+    "image": "images/products/acc-cables-2/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000014"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-cables-2/main.webp"
+    ],
     "code_1c": "НФ-00000014",
     "stock": 4,
     "availability": "В наличии"
@@ -20674,14 +20723,18 @@
     "category": "Веб-камеры",
     "categoryName": "Веб-камеры",
     "categoryUrl": "rgw_page_webcams.html",
-    "image": null,
-    "placeholder": "📹",
+    "image": "images/products/webcams-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000091"
     },
-    "images": [],
+    "images": [
+      "images/products/webcams-3/main.webp",
+      "images/products/webcams-3/02.webp",
+      "images/products/webcams-3/03.webp"
+    ],
     "code_1c": "НФ-00000091",
     "stock": 2,
     "availability": "В наличии"
@@ -20714,14 +20767,18 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/gpu-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000123"
     },
-    "images": [],
+    "images": [
+      "images/products/gpu-10/main.webp",
+      "images/products/gpu-10/02.webp",
+      "images/products/gpu-10/03.webp"
+    ],
     "code_1c": "НФ-00000123",
     "stock": 1,
     "availability": "В наличии"
@@ -20734,14 +20791,16 @@
     "category": "Видеокарты",
     "categoryName": "Видеокарты",
     "categoryUrl": "rgw_page_gpus.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/gpu-11/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001160"
     },
-    "images": [],
+    "images": [
+      "images/products/gpu-11/main.webp"
+    ],
     "code_1c": "НФ-00001160",
     "stock": 2,
     "availability": "В наличии"
@@ -20814,14 +20873,16 @@
     "category": "Домофоны",
     "categoryName": "Домофоны",
     "categoryUrl": "rgw_page_intercoms.html",
-    "image": null,
-    "placeholder": "📹",
+    "image": "images/products/intercoms-3/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000143"
     },
-    "images": [],
+    "images": [
+      "images/products/intercoms-3/main.webp"
+    ],
     "code_1c": "НФ-00000143",
     "stock": 1,
     "availability": "В наличии"
@@ -20854,14 +20915,16 @@
     "category": "Карты памяти",
     "categoryName": "Карты памяти",
     "categoryUrl": "rgw_page_memory_cards.html",
-    "image": null,
-    "placeholder": "💾",
+    "image": "images/products/acc-memory_cards-5/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001107"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-memory_cards-5/main.webp"
+    ],
     "code_1c": "НФ-00001107",
     "stock": 2,
     "availability": "В наличии"

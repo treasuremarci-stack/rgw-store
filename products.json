@@ -19294,14 +19294,14 @@
     "category": "Сетевые аксессуары",
     "categoryName": "Сетевые аксессуары",
     "categoryUrl": "rgw_page_network_accessories.html",
-    "image": null,
+    "image": "images/products/network_accessories-8/main.webp",
     "placeholder": "🧰",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000042"
     },
-    "images": [],
+    "images": ["images/products/network_accessories-8/main.webp"],
     "code_1c": "НФ-00000042",
     "stock": 2,
     "availability": "В наличии"
@@ -19314,14 +19314,14 @@
     "category": "Сетевые аксессуары",
     "categoryName": "Сетевые аксессуары",
     "categoryUrl": "rgw_page_network_accessories.html",
-    "image": null,
+    "image": "images/products/network_accessories-9/main.webp",
     "placeholder": "🧰",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000043"
     },
-    "images": [],
+    "images": ["images/products/network_accessories-9/main.webp"],
     "code_1c": "НФ-00000043",
     "stock": 1,
     "availability": "В наличии"
@@ -19334,14 +19334,14 @@
     "category": "Сетевые аксессуары",
     "categoryName": "Сетевые аксессуары",
     "categoryUrl": "rgw_page_network_accessories.html",
-    "image": null,
+    "image": "images/products/network_accessories-10/main.webp",
     "placeholder": "🧰",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000044"
     },
-    "images": [],
+    "images": ["images/products/network_accessories-10/main.webp"],
     "code_1c": "НФ-00000044",
     "stock": 1,
     "availability": "В наличии"
@@ -19374,14 +19374,14 @@
     "category": "Сетевые аксессуары",
     "categoryName": "Сетевые аксессуары",
     "categoryUrl": "rgw_page_network_accessories.html",
-    "image": null,
+    "image": "images/products/network_accessories-12/main.webp",
     "placeholder": "🧰",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000141"
     },
-    "images": [],
+    "images": ["images/products/network_accessories-12/main.webp"],
     "code_1c": "НФ-00000141",
     "stock": 1,
     "availability": "В наличии"
@@ -19514,14 +19514,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-27/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000819"
     },
-    "images": [],
+    "images": ["images/products/routers-27/main.webp"],
     "code_1c": "НФ-00000819",
     "stock": 6,
     "availability": "В наличии"
@@ -19534,14 +19534,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-28/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001113"
     },
-    "images": [],
+    "images": ["images/products/routers-28/main.webp"],
     "code_1c": "НФ-00001113",
     "stock": 7,
     "availability": "В наличии"
@@ -19554,14 +19554,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-29/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000824"
     },
-    "images": [],
+    "images": ["images/products/routers-29/main.webp"],
     "code_1c": "НФ-00000824",
     "stock": 5,
     "availability": "В наличии"
@@ -19574,14 +19574,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-30/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000826"
     },
-    "images": [],
+    "images": ["images/products/routers-30/main.webp"],
     "code_1c": "НФ-00000826",
     "stock": 2,
     "availability": "В наличии"
@@ -19594,14 +19594,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-31/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000918"
     },
-    "images": [],
+    "images": ["images/products/routers-31/main.webp"],
     "code_1c": "НФ-00000918",
     "stock": 5,
     "availability": "В наличии"
@@ -19614,14 +19614,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-32/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000825"
     },
-    "images": [],
+    "images": ["images/products/routers-32/main.webp"],
     "code_1c": "НФ-00000825",
     "stock": 1,
     "availability": "В наличии"
@@ -19634,14 +19634,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-33/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000919"
     },
-    "images": [],
+    "images": ["images/products/routers-33/main.webp"],
     "code_1c": "НФ-00000919",
     "stock": 12,
     "availability": "В наличии"
@@ -19654,14 +19654,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-34/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000057"
     },
-    "images": [],
+    "images": ["images/products/routers-34/main.webp"],
     "code_1c": "НФ-00000057",
     "stock": 2,
     "availability": "В наличии"
@@ -19674,14 +19674,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-35/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000058"
     },
-    "images": [],
+    "images": ["images/products/routers-35/main.webp"],
     "code_1c": "НФ-00000058",
     "stock": 1,
     "availability": "В наличии"
@@ -19694,14 +19694,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-36/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000059"
     },
-    "images": [],
+    "images": ["images/products/routers-36/main.webp"],
     "code_1c": "НФ-00000059",
     "stock": 1,
     "availability": "В наличии"
@@ -19714,14 +19714,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-37/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000772"
     },
-    "images": [],
+    "images": ["images/products/routers-37/main.webp"],
     "code_1c": "НФ-00000772",
     "stock": 16,
     "availability": "В наличии"
@@ -19734,14 +19734,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-38/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000773"
     },
-    "images": [],
+    "images": ["images/products/routers-38/main.webp"],
     "code_1c": "НФ-00000773",
     "stock": 3,
     "availability": "В наличии"
@@ -19754,14 +19754,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-39/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000064"
     },
-    "images": [],
+    "images": ["images/products/routers-39/main.webp"],
     "code_1c": "НФ-00000064",
     "stock": 8,
     "availability": "В наличии"
@@ -19774,14 +19774,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-40/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000065"
     },
-    "images": [],
+    "images": ["images/products/routers-40/main.webp"],
     "code_1c": "НФ-00000065",
     "stock": 15,
     "availability": "В наличии"
@@ -19794,14 +19794,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-41/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000259"
     },
-    "images": [],
+    "images": ["images/products/routers-41/main.webp"],
     "code_1c": "НФ-00000259",
     "stock": 6,
     "availability": "В наличии"
@@ -19814,14 +19814,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-42/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000260"
     },
-    "images": [],
+    "images": ["images/products/routers-42/main.webp"],
     "code_1c": "НФ-00000260",
     "stock": 2,
     "availability": "В наличии"
@@ -19834,14 +19834,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-43/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001066"
     },
-    "images": [],
+    "images": ["images/products/routers-43/main.webp"],
     "code_1c": "НФ-00001066",
     "stock": 13,
     "availability": "В наличии"
@@ -19854,14 +19854,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-44/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001061"
     },
-    "images": [],
+    "images": ["images/products/routers-44/main.webp"],
     "code_1c": "НФ-00001061",
     "stock": 12,
     "availability": "В наличии"
@@ -19874,14 +19874,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-45/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001062"
     },
-    "images": [],
+    "images": ["images/products/routers-45/main.webp"],
     "code_1c": "НФ-00001062",
     "stock": 5,
     "availability": "В наличии"
@@ -19894,14 +19894,14 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
+    "image": "images/products/routers-46/main.webp",
     "placeholder": "📡",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001070"
     },
-    "images": [],
+    "images": ["images/products/routers-46/main.webp"],
     "code_1c": "НФ-00001070",
     "stock": 4,
     "availability": "В наличии"

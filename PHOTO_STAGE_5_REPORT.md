@@ -115,6 +115,7 @@
 - `PHOTO_STAGE_5_REPORT.md`
 
 Основной коммит с фотографиями и данными: `3abf5aa206428b04ba962bae405149515e44058d`.
+Финальный коммит опубликованной ветки после исправления кодировки `products.json`: `9ed0a1ddce74cbab6f1f44ad39c11a7d7efa35c9`.
 Pull Request: <https://github.com/treasuremarci-stack/rgw-store/pull/6>
 
 В `main` изменения не объединялись; ожидать ручной проверки и разрешения владельца.

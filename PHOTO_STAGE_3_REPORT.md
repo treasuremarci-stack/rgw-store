@@ -102,6 +102,6 @@
 
 ## GitHub
 
-- SHA финального коммита: будет указан после коммита.
-- Pull Request в `main`: будет указан после публикации ветки.
+- SHA финального коммита: `01872560d0f2e2d6e5c11b961f90924518f39525`.
+- Pull Request в `main`: [#3 — АКС — этап 3: фотографии товаров из 1С (№57–84)](https://github.com/treasuremarci-stack/rgw-store/pull/3).
 - Объединение Pull Request не выполнялось.

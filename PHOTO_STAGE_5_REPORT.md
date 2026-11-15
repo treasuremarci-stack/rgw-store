@@ -114,4 +114,7 @@
 - `images/products/wifi-17/` … `images/products/wifi-21/`
 - `PHOTO_STAGE_5_REPORT.md`
 
-SHA коммита и ссылка на Pull Request будут добавлены после финальной проверки и публикации ветки. В `main` изменения не объединялись.
+Основной коммит с фотографиями и данными: `3abf5aa206428b04ba962bae405149515e44058d`.
+Pull Request: <https://github.com/treasuremarci-stack/rgw-store/pull/6>
+
+В `main` изменения не объединялись; ожидать ручной проверки и разрешения владельца.

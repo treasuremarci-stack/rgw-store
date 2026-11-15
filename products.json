@@ -20478,14 +20478,19 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-8/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000002"
     },
-    "images": [],
+    "images": [
+      "images/products/headphones-8/01.webp",
+      "images/products/headphones-8/02.webp",
+      "images/products/headphones-8/03.webp",
+      "images/products/headphones-8/04.webp"
+    ],
     "code_1c": "НФ-00000002",
     "stock": 2,
     "availability": "В наличии"
@@ -20498,14 +20503,16 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000003"
     },
-    "images": [],
+    "images": [
+      "images/products/headphones-9/main.webp"
+    ],
     "code_1c": "НФ-00000003",
     "stock": 1,
     "availability": "В наличии"
@@ -20518,14 +20525,19 @@
     "category": "Наушники",
     "categoryName": "Наушники",
     "categoryUrl": "rgw_page_headphones.html",
-    "image": null,
-    "placeholder": "🎧",
+    "image": "images/products/headphones-10/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000361"
     },
-    "images": [],
+    "images": [
+      "images/products/headphones-10/main.webp",
+      "images/products/headphones-10/02.webp",
+      "images/products/headphones-10/03.webp",
+      "images/products/headphones-10/04.webp"
+    ],
     "code_1c": "НФ-00000361",
     "stock": 22,
     "availability": "В наличии"
@@ -21077,14 +21089,16 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001139"
     },
-    "images": [],
+    "images": [
+      "images/products/mb-17/main.webp"
+    ],
     "code_1c": "НФ-00001139",
     "stock": 4,
     "availability": "В наличии"
@@ -21097,14 +21111,16 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-18/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000930"
     },
-    "images": [],
+    "images": [
+      "images/products/mb-18/main.webp"
+    ],
     "code_1c": "НФ-00000930",
     "stock": 5,
     "availability": "В наличии"
@@ -21117,14 +21133,16 @@
     "category": "Материнские платы",
     "categoryName": "Материнские платы",
     "categoryUrl": "rgw_page_motherboards.html",
-    "image": null,
-    "placeholder": "🧩",
+    "image": "images/products/mb-19/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001163"
     },
-    "images": [],
+    "images": [
+      "images/products/mb-19/main.webp"
+    ],
     "code_1c": "НФ-00001163",
     "stock": 4,
     "availability": "В наличии"
@@ -21137,14 +21155,16 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-27/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001118"
     },
-    "images": [],
+    "images": [
+      "images/products/monitors-27/main.webp"
+    ],
     "code_1c": "НФ-00001118",
     "stock": 31,
     "availability": "В наличии"
@@ -21157,14 +21177,16 @@
     "category": "Мониторы",
     "categoryName": "Мониторы",
     "categoryUrl": "rgw_page_monitors.html",
-    "image": null,
-    "placeholder": "🖥️",
+    "image": "images/products/monitors-28/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001136"
     },
-    "images": [],
+    "images": [
+      "images/products/monitors-28/main.webp"
+    ],
     "code_1c": "НФ-00001136",
     "stock": 3,
     "availability": "В наличии"
@@ -21177,14 +21199,19 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-18/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000341"
     },
-    "images": [],
+    "images": [
+      "images/products/mice-18/01.webp",
+      "images/products/mice-18/02.webp",
+      "images/products/mice-18/03.webp",
+      "images/products/mice-18/04.webp"
+    ],
     "code_1c": "НФ-00000341",
     "stock": 7,
     "availability": "В наличии"
@@ -21197,14 +21224,19 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-19/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000349"
     },
-    "images": [],
+    "images": [
+      "images/products/mice-19/01.webp",
+      "images/products/mice-19/02.webp",
+      "images/products/mice-19/03.webp",
+      "images/products/mice-19/04.webp"
+    ],
     "code_1c": "НФ-00000349",
     "stock": 53,
     "availability": "В наличии"
@@ -21217,14 +21249,19 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-20/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001157"
     },
-    "images": [],
+    "images": [
+      "images/products/mice-20/01.webp",
+      "images/products/mice-20/02.webp",
+      "images/products/mice-20/03.webp",
+      "images/products/mice-20/04.webp"
+    ],
     "code_1c": "НФ-00001157",
     "stock": 32,
     "availability": "В наличии"
@@ -21237,14 +21274,19 @@
     "category": "Мыши",
     "categoryName": "Мыши",
     "categoryUrl": "rgw_page_mice.html",
-    "image": null,
-    "placeholder": "🖱️",
+    "image": "images/products/mice-21/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000344"
     },
-    "images": [],
+    "images": [
+      "images/products/mice-21/01.webp",
+      "images/products/mice-21/02.webp",
+      "images/products/mice-21/03.webp",
+      "images/products/mice-21/04.webp"
+    ],
     "code_1c": "НФ-00000344",
     "stock": 28,
     "availability": "В наличии"
@@ -21257,14 +21299,16 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-13/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001100"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-13/main.webp"
+    ],
     "code_1c": "НФ-00001100",
     "stock": 1,
     "availability": "В наличии"
@@ -21277,14 +21321,16 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001098"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-14/main.webp"
+    ],
     "code_1c": "НФ-00001098",
     "stock": 4,
     "availability": "В наличии"
@@ -21297,14 +21343,16 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-15/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001090"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-15/main.webp"
+    ],
     "code_1c": "НФ-00001090",
     "stock": 13,
     "availability": "В наличии"
@@ -21317,14 +21365,16 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001089"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-16/main.webp"
+    ],
     "code_1c": "НФ-00001089",
     "stock": 3,
     "availability": "В наличии"
@@ -21337,14 +21387,17 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-17/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001092"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-17/01.webp",
+      "images/products/laptop-17/02.webp"
+    ],
     "code_1c": "НФ-00001092",
     "stock": 1,
     "availability": "В наличии"
@@ -21357,14 +21410,18 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-18/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001096"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-18/01.webp",
+      "images/products/laptop-18/02.webp",
+      "images/products/laptop-18/03.webp"
+    ],
     "code_1c": "НФ-00001096",
     "stock": 5,
     "availability": "В наличии"
@@ -21377,14 +21434,19 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-19/01.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001094"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-19/01.webp",
+      "images/products/laptop-19/02.webp",
+      "images/products/laptop-19/03.webp",
+      "images/products/laptop-19/04.webp"
+    ],
     "code_1c": "НФ-00001094",
     "stock": 7,
     "availability": "В наличии"
@@ -21397,14 +21459,17 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-20/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001093"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-20/main.webp",
+      "images/products/laptop-20/02.webp"
+    ],
     "code_1c": "НФ-00001093",
     "stock": 1,
     "availability": "В наличии"
@@ -21417,14 +21482,16 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-21/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001097"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-21/main.webp"
+    ],
     "code_1c": "НФ-00001097",
     "stock": 3,
     "availability": "В наличии"
@@ -21437,14 +21504,17 @@
     "category": "Ноутбуки",
     "categoryName": "Ноутбуки",
     "categoryUrl": "rgw_page_laptops.html",
-    "image": null,
-    "placeholder": "💻",
+    "image": "images/products/laptop-22/02.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000906"
     },
-    "images": [],
+    "images": [
+      "images/products/laptop-22/02.webp",
+      "images/products/laptop-22/03.webp"
+    ],
     "code_1c": "НФ-00000906",
     "stock": 1,
     "availability": "В наличии"

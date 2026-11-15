@@ -35,6 +35,15 @@ main{padding-bottom:48px}.category-head{padding:34px 0 18px}.breadcrumbs{display
 @media (prefers-reduced-motion:reduce){.check,.checkmark,.checkmark::after{transition-duration:1ms!important}}
 
 .product-image{background:#fff}
+
+/* АКС mobile toolbar overflow fix: keep sorting inside viewport. */
+@media(max-width:760px){
+  .toolbar{min-width:0;flex-wrap:wrap;align-items:center;gap:10px}
+  .toolbar-left{min-width:0;flex:1 1 auto;flex-wrap:wrap}
+  .toolbar-right{min-width:0;max-width:100%;flex:1 1 150px;justify-content:flex-end}
+  .sort-select{box-sizing:border-box;min-width:0;width:100%;max-width:100%;padding-right:34px}
+}
+@media(max-width:380px){.toolbar-right{flex-basis:100%}}
 </style>
 </head><body><header class="header">
   <div class="container header-shell">

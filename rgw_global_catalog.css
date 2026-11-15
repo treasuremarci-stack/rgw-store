@@ -28,3 +28,14 @@
     overflow-wrap:anywhere;
   }
 }
+@media(max-width:760px){
+  /* Lock the mobile viewport against horizontal page movement. */
+  html,
+  body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+    overflow-x:clip;
+    overscroll-behavior-x:none;
+  }
+}

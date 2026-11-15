@@ -96,7 +96,8 @@
 
 ## GitHub
 
-- SHA коммита: будет указан после публикации ветки.
-- Pull Request: будет указан после создания PR в `main`.
+- Основной коммит GitHub: `5f5af20d78dc2dd7d87409a019370d1683f91be4`.
+- Исправление полной загрузки `products.json`: `24f085e5bee09dae289df53ca926b587088e8f45`.
+- Pull Request: [#5 — фотографии товаров из 1С, этап 4](https://github.com/treasuremarci-stack/rgw-store/pull/5).
 
 Этап 4 завершён. К товарам №113 и далее работа не переходила.

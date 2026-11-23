@@ -19474,14 +19474,17 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/routers-25/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000820"
     },
-    "images": [],
+    "images": [
+      "images/products/routers-25/main.webp",
+      "images/products/routers-25/02.webp"
+    ],
     "code_1c": "НФ-00000820",
     "stock": 3,
     "availability": "В наличии"
@@ -19494,14 +19497,17 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/routers-26/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000823"
     },
-    "images": [],
+    "images": [
+      "images/products/routers-26/main.webp",
+      "images/products/routers-26/02.webp"
+    ],
     "code_1c": "НФ-00000823",
     "stock": 1,
     "availability": "В наличии"
@@ -19514,14 +19520,16 @@
     "category": "Роутеры",
     "categoryName": "Роутеры",
     "categoryUrl": "rgw_page_routers.html",
-    "image": null,
-    "placeholder": "📡",
+    "image": "images/products/routers-27/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000819"
     },
-    "images": [],
+    "images": [
+      "images/products/routers-27/main.webp"
+    ],
     "code_1c": "НФ-00000819",
     "stock": 6,
     "availability": "В наличии"
@@ -20573,14 +20581,16 @@
     "category": "Прочие аксессуары",
     "categoryName": "Прочие аксессуары",
     "categoryUrl": "rgw_page_other_accessories.html",
-    "image": null,
-    "placeholder": "🧰",
+    "image": "images/products/acc-other_accessories-7/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000009"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-other_accessories-7/main.webp"
+    ],
     "code_1c": "НФ-00000009",
     "stock": 1,
     "availability": "В наличии"
@@ -20593,14 +20603,16 @@
     "category": "Прочие аксессуары",
     "categoryName": "Прочие аксессуары",
     "categoryUrl": "rgw_page_other_accessories.html",
-    "image": null,
-    "placeholder": "🧰",
+    "image": "images/products/acc-other_accessories-8/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000013"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-other_accessories-8/main.webp"
+    ],
     "code_1c": "НФ-00000013",
     "stock": 4,
     "availability": "В наличии"
@@ -20613,14 +20625,16 @@
     "category": "Прочие аксессуары",
     "categoryName": "Прочие аксессуары",
     "categoryUrl": "rgw_page_other_accessories.html",
-    "image": null,
-    "placeholder": "🧰",
+    "image": "images/products/acc-other_accessories-9/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000015"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-other_accessories-9/main.webp"
+    ],
     "code_1c": "НФ-00000015",
     "stock": 13,
     "availability": "В наличии"
@@ -20845,14 +20859,16 @@
     "category": "Охлаждение",
     "categoryName": "Охлаждение",
     "categoryUrl": "rgw_page_cooling.html",
-    "image": null,
-    "placeholder": "❄️",
+    "image": "images/products/cooling-22/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001162"
     },
-    "images": [],
+    "images": [
+      "images/products/cooling-22/main.webp"
+    ],
     "code_1c": "НФ-00001162",
     "stock": 9,
     "availability": "В наличии"
@@ -21547,14 +21563,16 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-13/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001165"
     },
-    "images": [],
+    "images": [
+      "images/products/ram-13/main.webp"
+    ],
     "code_1c": "НФ-00001165",
     "stock": 8,
     "availability": "В наличии"
@@ -21567,14 +21585,17 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001123"
     },
-    "images": [],
+    "images": [
+      "images/products/ram-14/main.webp",
+      "images/products/ram-14/02.webp"
+    ],
     "code_1c": "НФ-00001123",
     "stock": 1,
     "availability": "В наличии"
@@ -21587,14 +21608,17 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-15/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000388"
     },
-    "images": [],
+    "images": [
+      "images/products/ram-15/main.webp",
+      "images/products/ram-15/02.webp"
+    ],
     "code_1c": "НФ-00000388",
     "stock": 8,
     "availability": "В наличии"
@@ -21607,14 +21631,17 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000390"
     },
-    "images": [],
+    "images": [
+      "images/products/ram-16/main.webp",
+      "images/products/ram-16/02.webp"
+    ],
     "code_1c": "НФ-00000390",
     "stock": 9,
     "availability": "В наличии"
@@ -21627,14 +21654,16 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000381"
     },
-    "images": [],
+    "images": [
+      "images/products/ram-17/main.webp"
+    ],
     "code_1c": "НФ-00000381",
     "stock": 3,
     "availability": "В наличии"
@@ -21647,14 +21676,16 @@
     "category": "Оперативная память",
     "categoryName": "Оперативная память",
     "categoryUrl": "rgw_page_ram.html",
-    "image": null,
-    "placeholder": "🧠",
+    "image": "images/products/ram-18/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000382"
     },
-    "images": [],
+    "images": [
+      "images/products/ram-18/main.webp"
+    ],
     "code_1c": "НФ-00000382",
     "stock": 1,
     "availability": "В наличии"
@@ -21687,14 +21718,17 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-11/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000401"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-11/main.webp",
+      "images/products/printers-11/02.webp"
+    ],
     "code_1c": "НФ-00000401",
     "stock": 25,
     "availability": "В наличии"
@@ -21707,14 +21741,17 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-12/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001103"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-12/main.webp",
+      "images/products/printers-12/02.webp"
+    ],
     "code_1c": "НФ-00001103",
     "stock": 1,
     "availability": "В наличии"
@@ -21727,14 +21764,17 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-13/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001128"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-13/main.webp",
+      "images/products/printers-13/02.webp"
+    ],
     "code_1c": "НФ-00001128",
     "stock": 9,
     "availability": "В наличии"
@@ -21747,14 +21787,16 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-14/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000787"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-14/main.webp"
+    ],
     "code_1c": "НФ-00000787",
     "stock": 1,
     "availability": "В наличии"
@@ -21767,14 +21809,16 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-15/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001142"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-15/main.webp"
+    ],
     "code_1c": "НФ-00001142",
     "stock": 1,
     "availability": "В наличии"
@@ -21787,14 +21831,16 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-16/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001152"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-16/main.webp"
+    ],
     "code_1c": "НФ-00001152",
     "stock": 1,
     "availability": "В наличии"
@@ -21807,14 +21853,17 @@
     "category": "Принтеры и МФУ",
     "categoryName": "Принтеры и МФУ",
     "categoryUrl": "rgw_page_printers.html",
-    "image": null,
-    "placeholder": "🖨️",
+    "image": "images/products/printers-17/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001153"
     },
-    "images": [],
+    "images": [
+      "images/products/printers-17/main.webp",
+      "images/products/printers-17/02.webp"
+    ],
     "code_1c": "НФ-00001153",
     "stock": 1,
     "availability": "В наличии"
@@ -21827,14 +21876,17 @@
     "category": "Проекторы и экраны",
     "categoryName": "Проекторы и экраны",
     "categoryUrl": "rgw_page_projectors_screens.html",
-    "image": null,
-    "placeholder": "📽️",
+    "image": "images/products/acc-projectors_screens-20/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001149"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-projectors_screens-20/main.webp",
+      "images/products/acc-projectors_screens-20/02.webp"
+    ],
     "code_1c": "НФ-00001149",
     "stock": 2,
     "availability": "В наличии"
@@ -21847,14 +21899,16 @@
     "category": "Проекторы и экраны",
     "categoryName": "Проекторы и экраны",
     "categoryUrl": "rgw_page_projectors_screens.html",
-    "image": null,
-    "placeholder": "📽️",
+    "image": "images/products/acc-projectors_screens-21/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001151"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-projectors_screens-21/main.webp"
+    ],
     "code_1c": "НФ-00001151",
     "stock": 2,
     "availability": "В наличии"
@@ -21867,14 +21921,16 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-18/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00000436"
     },
-    "images": [],
+    "images": [
+      "images/products/cpu-18/main.webp"
+    ],
     "code_1c": "НФ-00000436",
     "stock": 9,
     "availability": "В наличии"
@@ -21907,14 +21963,16 @@
     "category": "Процессоры",
     "categoryName": "Процессоры",
     "categoryUrl": "rgw_page_processors.html",
-    "image": null,
-    "placeholder": "⚙️",
+    "image": "images/products/cpu-20/main.webp",
+    "placeholder": null,
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001121"
     },
-    "images": [],
+    "images": [
+      "images/products/cpu-20/main.webp"
+    ],
     "code_1c": "НФ-00001121",
     "stock": 1,
     "availability": "В наличии"

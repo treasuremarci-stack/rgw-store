@@ -15187,7 +15187,7 @@
     "category": "Проекторы и экраны",
     "categoryName": "Проекторы и экраны",
     "categoryUrl": "rgw_page_projectors_screens.html",
-    "image": null,
+    "image": "images/products/acc-projectors_screens-13/main.webp",
     "placeholder": "📽️",
     "catalogFacts": [
       {
@@ -15207,7 +15207,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/acc-projectors_screens-13/main.webp"
+    ]
   },
   {
     "id": "acc-projectors_screens-14",
@@ -17646,7 +17649,7 @@
     "category": "UPS",
     "categoryName": "UPS",
     "categoryUrl": "rgw_page_ups.html",
-    "image": null,
+    "image": "images/products/ups-4/main.webp",
     "placeholder": "🔋",
     "catalogFacts": [
       {
@@ -17671,7 +17674,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ups-4/main.webp"
+    ]
   },
   {
     "id": "ups-5",
@@ -17770,7 +17776,7 @@
     "category": "UPS",
     "categoryName": "UPS",
     "categoryUrl": "rgw_page_ups.html",
-    "image": null,
+    "image": "images/products/ups-8/main.webp",
     "placeholder": "🔋",
     "catalogFacts": [
       {
@@ -17790,7 +17796,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ups-8/main.webp"
+    ]
   },
   {
     "id": "ups-9",
@@ -17800,7 +17809,7 @@
     "category": "UPS",
     "categoryName": "UPS",
     "categoryUrl": "rgw_page_ups.html",
-    "image": null,
+    "image": "images/products/ups-9/main.webp",
     "placeholder": "🔋",
     "catalogFacts": [
       {
@@ -17820,7 +17829,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ups-9/main.webp"
+    ]
   },
   {
     "id": "ups-10",
@@ -17830,7 +17842,7 @@
     "category": "UPS",
     "categoryName": "UPS",
     "categoryUrl": "rgw_page_ups.html",
-    "image": null,
+    "image": "images/products/ups-10/main.webp",
     "placeholder": "🔋",
     "catalogFacts": [
       {
@@ -17850,7 +17862,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ups-10/main.webp"
+    ]
   },
   {
     "id": "ups-11",
@@ -17921,7 +17936,7 @@
     "category": "UPS",
     "categoryName": "UPS",
     "categoryUrl": "rgw_page_ups.html",
-    "image": null,
+    "image": "images/products/ups-13/main.webp",
     "placeholder": "🔋",
     "catalogFacts": [
       {
@@ -17946,7 +17961,10 @@
       }
     ],
     "verifiedSpecs": [],
-    "identifiers": {}
+    "identifiers": {},
+    "images": [
+      "images/products/ups-13/main.webp"
+    ]
   },
   {
     "id": "batteries-1",
@@ -22151,14 +22169,16 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-11/main.webp",
     "placeholder": "💾",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001106"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-flash_drives-11/main.webp"
+    ],
     "code_1c": "НФ-00001106",
     "stock": 4,
     "availability": "В наличии"
@@ -22171,14 +22191,16 @@
     "category": "Флешки",
     "categoryName": "Флешки",
     "categoryUrl": "rgw_page_flash_drives.html",
-    "image": null,
+    "image": "images/products/acc-flash_drives-12/main.webp",
     "placeholder": "💾",
     "catalogFacts": [],
     "verifiedSpecs": [],
     "identifiers": {
       "code_1c": "НФ-00001148"
     },
-    "images": [],
+    "images": [
+      "images/products/acc-flash_drives-12/main.webp"
+    ],
     "code_1c": "НФ-00001148",
     "stock": 1,
     "availability": "В наличии"
